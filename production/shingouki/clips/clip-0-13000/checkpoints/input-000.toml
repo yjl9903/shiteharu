@@ -1,0 +1,746 @@
+version = 1
+status = "done"
+input_index = 0
+audio = "source.m4a"
+start = 0
+end = 13
+provider = "elevenlabs"
+model = "scribe_v2"
+segmenter = "integrated"
+started_at = "2026-10-15T16:10:27.300Z"
+completed_at = "2026-10-15T16:10:29.560Z"
+
+[response]
+languageCode = "jpn"
+languageProbability = 1
+text = "ワンコ。歩行者用信号機のボタンを押したら自分しか渡らないのに、渡った後もしばらく全ての車をせき止めることになり、罪悪感を覚えてしまう。モーセな皆さん何してはる？どうもしてはるですね。"
+transcriptionId = "FhglL4c63wgJsQ7dMMUd"
+audioDurationSecs = 13
+
+[[response.words]]
+text = "ワ"
+start = 0.36
+end = 0.42
+type = "word"
+speakerId = "speaker_0"
+logprob = -1.6746963262557983
+
+[[response.words]]
+text = "ン"
+start = 0.42
+end = 0.56
+type = "word"
+speakerId = "speaker_0"
+logprob = -1.6746963262557983
+
+[[response.words]]
+text = "コ"
+start = 0.56
+end = 0.68
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0007221474661491811
+
+[[response.words]]
+text = "。"
+start = 0.68
+end = 0.68
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.002016774145886302
+
+[[response.words]]
+text = "歩"
+start = 1.3
+end = 1.44
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.023523539304733276
+
+[[response.words]]
+text = "行"
+start = 1.56
+end = 1.68
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00003957670196541585
+
+[[response.words]]
+text = "者"
+start = 1.68
+end = 1.78
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000012516897186287679
+
+[[response.words]]
+text = "用"
+start = 1.88
+end = 1.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0002759314374998212
+
+[[response.words]]
+text = "信"
+start = 1.96
+end = 2.14
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000002622600959512056
+
+[[response.words]]
+text = "号"
+start = 2.14
+end = 2.24
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000002622600959512056
+
+[[response.words]]
+text = "機"
+start = 2.28
+end = 2.38
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0004925706889480352
+
+[[response.words]]
+text = "の"
+start = 2.38
+end = 2.48
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0004925706889480352
+
+[[response.words]]
+text = "ボ"
+start = 2.48
+end = 2.56
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000051973900554003194
+
+[[response.words]]
+text = "タ"
+start = 2.56
+end = 2.66
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000051973900554003194
+
+[[response.words]]
+text = "ン"
+start = 2.66
+end = 2.72
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000051973900554003194
+
+[[response.words]]
+text = "を"
+start = 2.72
+end = 2.76
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.007625163532793522
+
+[[response.words]]
+text = "押"
+start = 2.76
+end = 2.84
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.007625163532793522
+
+[[response.words]]
+text = "し"
+start = 2.84
+end = 2.94
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000013589766240329482
+
+[[response.words]]
+text = "た"
+start = 2.94
+end = 3
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000013589766240329482
+
+[[response.words]]
+text = "ら"
+start = 3
+end = 3.14
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000013589766240329482
+
+[[response.words]]
+text = "自"
+start = 3.14
+end = 3.26
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000016689160474925302
+
+[[response.words]]
+text = "分"
+start = 3.28
+end = 3.38
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000016689160474925302
+
+[[response.words]]
+text = "し"
+start = 3.38
+end = 3.46
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000002145764938177308
+
+[[response.words]]
+text = "か"
+start = 3.46
+end = 3.58
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000002145764938177308
+
+[[response.words]]
+text = "渡"
+start = 3.58
+end = 3.8
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00012373158824630082
+
+[[response.words]]
+text = "ら"
+start = 3.8
+end = 3.88
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0005172345554456115
+
+[[response.words]]
+text = "な"
+start = 3.88
+end = 3.94
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0005172345554456115
+
+[[response.words]]
+text = "い"
+start = 3.94
+end = 4.019
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0005172345554456115
+
+[[response.words]]
+text = "の"
+start = 4.019
+end = 4.12
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00006687417771900073
+
+[[response.words]]
+text = "に"
+start = 4.12
+end = 4.16
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00006687417771900073
+
+[[response.words]]
+text = "、"
+start = 4.16
+end = 4.16
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000007390948667307384
+
+[[response.words]]
+text = "渡"
+start = 4.24
+end = 4.46
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00000834461570775602
+
+[[response.words]]
+text = "っ"
+start = 4.46
+end = 4.5
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00005221230458118953
+
+[[response.words]]
+text = "た"
+start = 4.5
+end = 4.64
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00005221230458118953
+
+[[response.words]]
+text = "後"
+start = 4.64
+end = 4.76
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0009968079393729568
+
+[[response.words]]
+text = "も"
+start = 4.76
+end = 4.88
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.005245019216090441
+
+[[response.words]]
+text = "し"
+start = 4.88
+end = 5
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.005245019216090441
+
+[[response.words]]
+text = "ば"
+start = 5
+end = 5.06
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000009536697689327411
+
+[[response.words]]
+text = "ら"
+start = 5.06
+end = 5.18
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.001508051878772676
+
+[[response.words]]
+text = "く"
+start = 5.2
+end = 5.36
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.001508051878772676
+
+[[response.words]]
+text = "全"
+start = 5.36
+end = 5.46
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5231919288635254
+
+[[response.words]]
+text = "て"
+start = 5.52
+end = 5.58
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5231919288635254
+
+[[response.words]]
+text = "の"
+start = 5.58
+end = 5.84
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5231919288635254
+
+[[response.words]]
+text = "車"
+start = 5.84
+end = 5.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00002658331868587993
+
+[[response.words]]
+text = "を"
+start = 5.96
+end = 6.1
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00005435795901576057
+
+[[response.words]]
+text = "せ"
+start = 6.1
+end = 6.16
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.26959893107414246
+
+[[response.words]]
+text = "き"
+start = 6.16
+end = 6.24
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00003683499380713329
+
+[[response.words]]
+text = "止"
+start = 6.24
+end = 6.4
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0001941730733960867
+
+[[response.words]]
+text = "め"
+start = 6.4
+end = 6.48
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004207999518257566
+
+[[response.words]]
+text = "る"
+start = 6.48
+end = 6.56
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004207999518257566
+
+[[response.words]]
+text = "こ"
+start = 6.6
+end = 6.66
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00007950943836476654
+
+[[response.words]]
+text = "と"
+start = 6.66
+end = 6.8
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00007950943836476654
+
+[[response.words]]
+text = "に"
+start = 6.8
+end = 6.9
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004172238186583854
+
+[[response.words]]
+text = "な"
+start = 6.9
+end = 6.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004172238186583854
+
+[[response.words]]
+text = "り"
+start = 6.96
+end = 7.06
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004172238186583854
+
+[[response.words]]
+text = "、"
+start = 7.06
+end = 7.06
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.016052531078457832
+
+[[response.words]]
+text = "罪"
+start = 7.2
+end = 7.42
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000010847986231965479
+
+[[response.words]]
+text = "悪"
+start = 7.42
+end = 7.44
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00007712543447269127
+
+[[response.words]]
+text = "感"
+start = 7.52
+end = 7.64
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00248968368396163
+
+[[response.words]]
+text = "を"
+start = 7.64
+end = 7.74
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00248968368396163
+
+[[response.words]]
+text = "覚"
+start = 7.8
+end = 7.88
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000027894584491150454
+
+[[response.words]]
+text = "え"
+start = 7.88
+end = 7.98
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000027894584491150454
+
+[[response.words]]
+text = "て"
+start = 7.98
+end = 8.039
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000027894584491150454
+
+[[response.words]]
+text = "し"
+start = 8.039
+end = 8.2
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0000020265558760002023
+
+[[response.words]]
+text = "ま"
+start = 8.2
+end = 8.24
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0000020265558760002023
+
+[[response.words]]
+text = "う"
+start = 8.24
+end = 8.32
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0000020265558760002023
+
+[[response.words]]
+text = "。"
+start = 8.32
+end = 8.32
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5743560194969177
+
+[[response.words]]
+text = "モ"
+start = 8.4
+end = 8.46
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.09180810302495956
+
+[[response.words]]
+text = "ー"
+start = 8.46
+end = 8.6
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.09180810302495956
+
+[[response.words]]
+text = "セ"
+start = 8.6
+end = 8.72
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0002047805901383981
+
+[[response.words]]
+text = "な"
+start = 8.74
+end = 8.82
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.3488602936267853
+
+[[response.words]]
+text = "皆"
+start = 9.12
+end = 9.26
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.009959999471902847
+
+[[response.words]]
+text = "さ"
+start = 9.26
+end = 9.34
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.009959999471902847
+
+[[response.words]]
+text = "ん"
+start = 9.34
+end = 9.38
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.009959999471902847
+
+[[response.words]]
+text = "何"
+start = 10.3
+end = 10.5
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.016354091465473175
+
+[[response.words]]
+text = "し"
+start = 10.5
+end = 10.62
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0007048744591884315
+
+[[response.words]]
+text = "て"
+start = 10.62
+end = 10.78
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0007048744591884315
+
+[[response.words]]
+text = "は"
+start = 10.78
+end = 11
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.004061901941895485
+
+[[response.words]]
+text = "る"
+start = 11
+end = 11.2
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00004732496745418757
+
+[[response.words]]
+text = "？"
+start = 11.42
+end = 11.86
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00019667598826345056
+
+[[response.words]]
+text = "ど"
+start = 11.86
+end = 11.9
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.002672435948625207
+
+[[response.words]]
+text = "う"
+start = 11.9
+end = 12
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.002672435948625207
+
+[[response.words]]
+text = "も"
+start = 12
+end = 12.16
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.07687465101480484
+
+[[response.words]]
+text = "し"
+start = 12.16
+end = 12.28
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0005347490659914911
+
+[[response.words]]
+text = "て"
+start = 12.28
+end = 12.36
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.0005347490659914911
+
+[[response.words]]
+text = "は"
+start = 12.42
+end = 12.52
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00047922570956870914
+
+[[response.words]]
+text = "る"
+start = 12.52
+end = 12.66
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00001823885577323381
+
+[[response.words]]
+text = "で"
+start = 12.66
+end = 12.76
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5093876123428345
+
+[[response.words]]
+text = "す"
+start = 12.76
+end = 12.94
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5093876123428345
+
+[[response.words]]
+text = "ね"
+start = 12.94
+end = 12.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.5093876123428345
+
+[[response.words]]
+text = "。"
+start = 12.96
+end = 12.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.000031709168979432434

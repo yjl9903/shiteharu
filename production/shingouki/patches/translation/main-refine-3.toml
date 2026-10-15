@@ -1,0 +1,12 @@
+created_by = "main-refine-3"
+start = 0
+end = 602
+summary = "第三轮全片终审：把跨三条的墓场之墓场笑点串成自然问答"
+[[operations]]
+op = "edit"
+segment_id = "1-s140"
+zh = "至于这地方会不会也走向废弃"
+[[operations]]
+op = "edit"
+segment_id = "1-s142"
+zh = "看来暂时还不会呢"

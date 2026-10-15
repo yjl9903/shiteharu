@@ -1,0 +1,8 @@
+name = "Preserve reviewed source cut across B/C boundary"
+created_by = "main"
+start = 399
+end = 404
+[[operations]]
+op = "edit"
+segment_id = "1-s172"
+skip_checks = [{code="subtitle_gap_too_short",reason="Original caption changes directly at decoded frame PTS 402.235; no artificial gap permitted by user."}]

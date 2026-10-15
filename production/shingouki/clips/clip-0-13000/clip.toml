@@ -1,0 +1,24 @@
+id = "clip-0-13000"
+label = "opening-wordplay"
+source_media = "../../downloads/『信号機の墓場』へ行こう [l_jfyIEddfw].mkv"
+source_media_sha256 = "66c8a7d650efa7955433124793864b5b1f1af945509850a48736a428f63223c5"
+source_audio = "source.m4a"
+segments = "segments.toml"
+created_at = "2026-10-15T16:10:27.258Z"
+updated_at = "2026-10-15T16:10:29.567Z"
+provider = "elevenlabs"
+model = "scribe_v2"
+segmenter = "integrated"
+strategy = "single_file"
+start = 0
+end = 13
+
+[[chunks]]
+audio = "source.m4a"
+checkpoint = "checkpoints/input-000.toml"
+start = 0
+end = 13
+absolute_start = 0
+absolute_end = 13
+size = 118454
+sha256 = "72492c7a459948088b9293ae3dd9420e3a403d6ffe08b62fa1114934f3afcca5"

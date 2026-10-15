@@ -1,0 +1,789 @@
+created_by = "206203"
+start = 200
+end = 400
+summary = "Reconstruct burned-in Japanese caption units and exact visual cuts from full-frame sheets plus verified consecutive frame pairs"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s89"
+start = 199.967
+end = 201.668
+ja = "ごちそうさまでした"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s90"
+start = 201.668
+end = 204.137
+ja = "胃の中がメルヘンで破裂寸前です"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s91"
+start = 204.137
+end = 205.839
+ja = "歩くことでぐちゃぐちゃにして"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s92"
+start = 205.839
+end = 208.208
+ja = "身体ごと全身ゆめかわいくしていきましょう"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s93"
+start = 208.208
+end = 209.409
+ja = "ちなみにこの近くに"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s94"
+start = 211.144
+end = 212.646
+ja = "『JR忘れ物市』"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s95"
+start = 215.048
+end = 216.55
+ja = "既に閉業したみたいで"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s96"
+start = 216.55
+end = 218.685
+ja = "ただのシャッターとなっておりました"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s97"
+start = 218.685
+end = 219.72
+ja = "残念ですね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s98"
+start = 219.72
+end = 222.189
+ja = "さて それでは墓地墓地向かっていきましょう"
+reason = "Preserve source visual pun 墓地墓地 for spoken ぼちぼち"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s99"
+start = 222.189
+end = 223.223
+ja = "本日の本命"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s100"
+start = 223.223
+end = 224.992
+ja = "『信号機の墓場』"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s101"
+start = 229.43
+end = 233.467
+ja = "乗り換えを間違えて戻ったのち\n間違えていなかったことが分かったため2度目の"
+
+[[operations]]
+op = "delete"
+segment_id = "1-s102"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s103"
+start = 233.467
+end = 234.935
+ja = "最寄り駅に到着です"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s104"
+start = 234.935
+end = 237.371
+ja = "景色が開けていて視界が明瞭"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s105"
+start = 237.371
+end = 239.406
+ja = "歩いていて気持ちがいい道ですね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s106"
+start = 241.475
+end = 245.445
+ja = "足を出すたび自分の\n歩幅の小ささを感じられて面白いです"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s107"
+start = 245.445
+end = 246.713
+ja = "道中の信号機"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s108"
+start = 246.713
+end = 249.049
+ja = "思わず見てしまいますねェ"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s109"
+start = 249.049
+end = 249.716
+ja = "おっとォ"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s110"
+start = 249.716
+end = 251.317
+ja = "珍しい子もいます"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s111"
+start = 251.317
+end = 254.354
+ja = "絶対にお前には見せないという強い意思"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s112"
+start = 254.354
+end = 255.588
+ja = "鉄壁のフード"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s113"
+start = 258.892
+end = 260.627
+ja = "あれっぽいのでは"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s114"
+start = 260.627
+end = 262.929
+ja = "念願の対面に緊張してきました"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s115"
+start = 262.929
+end = 265.198
+ja = "前髪とか変じゃないかな"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "delete"
+segment_id = "1-s116"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s117"
+start = 265.198
+end = 266.299
+ja = "さてジャジャン"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "delete"
+segment_id = "1-s118"
+
+[[operations]]
+op = "delete"
+segment_id = "1-s119"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s120"
+start = 266.299
+end = 268.368
+ja = "到着です～～～～～～"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s121"
+start = 268.368
+end = 269.503
+ja = "少ない"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s122"
+start = 269.503
+end = 272.506
+ja = "想定していたような信号機の山ではない"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s123"
+start = 272.506
+end = 275.209
+ja = "ここで一時的に保管された後は\n処分されていくので"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s124"
+start = 275.209
+end = 277.977
+ja = "そのとき何基置かれているかはタイミング次第"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s125"
+start = 277.977
+end = 280.813
+ja = "利便性のために人間の手で生み出された信号機が"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "delete"
+segment_id = "1-s126"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s127"
+start = 280.813
+end = 283.384
+ja = "ひっそりと役目を終えたあとは誰にも気付かれずに"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s128"
+start = 283.384
+end = 286.32
+ja = "役立たずの産業廃棄物として処理されていく"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s129"
+start = 286.32
+end = 289.523
+ja = "粗大ゴミと迷惑がられながら\n雑に積み上げられている"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s130"
+start = 289.523
+end = 294.395
+ja = "最初から最後まで自分勝手な\n人間のエゴが詰め込まれた小さな空間です"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "delete"
+segment_id = "1-s131"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s132"
+start = 294.395
+end = 296.663
+ja = "そしてそれすらも\nエモーショナルとして消費する"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s133"
+start = 296.663
+end = 298.331
+ja = "私のような存在も含め"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s134"
+start = 298.331
+end = 301.835
+ja = "最高に業の深い光景"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s135"
+start = 301.835
+end = 305.538
+ja = "この柵内いっぱいに\n5000基もの信号機が積まれていた時期もあり"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s136"
+start = 305.538
+end = 307.807
+ja = "その写真を見て足を運んだんですが"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s137"
+start = 307.807
+end = 309.676
+ja = "タイミングが悪かったみたいですね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s138"
+start = 309.676
+end = 312.946
+ja = "ちなみに信号機の更新基準は製造後19年で"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s139"
+start = 312.946
+end = 315.448
+ja = "現状更新が追いついていないみたいなので"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s140"
+start = 315.448
+end = 317.183
+ja = "まだまだこの場所自体が廃れて"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s141"
+start = 317.183
+end = 319.219
+ja = "信号機の墓場の墓場"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s142"
+start = 319.219
+end = 320.887
+ja = "になることもなさそうです"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s143"
+start = 320.887
+end = 323.823
+ja = "大量の信号機を\n見られなかったことは残念ですが"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s144"
+start = 323.823
+end = 325.291
+ja = "廃棄されすでに処分された"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s145"
+start = 325.291
+end = 328.028
+ja = "ここにいたはずの\n遠くの彼らに想いを馳せることも"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s146"
+start = 328.028
+end = 330.263
+ja = "また趣深いですね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s147"
+start = 330.263
+end = 333.266
+ja = "知らなければただの土地も\n知れば聖地になったりする"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s148"
+start = 333.266
+end = 335.135
+ja = "君の住む場所も立っている場所も"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s149"
+start = 335.135
+end = 337.471
+ja = "誰かしらの思い出の聖地かもしれません"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s150"
+start = 337.471
+end = 338.705
+ja = "不思議ですねえ"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s151"
+start = 338.705
+end = 339.639
+ja = "念願の邂逅に"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s152"
+start = 341.408
+end = 343.209
+ja = "すっかり日も暮れてしまいました"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s153"
+start = 343.209
+end = 345.979
+ja = "近くに工場夜景が\n見られる場所があるみたいなので"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s154"
+start = 353.52
+end = 356.156
+ja = "ォ～～～～～～～～～～"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s155"
+start = 356.156
+end = 357.057
+ja = "ン"
+reason = "Source intentional standalone visual joke; not an ASR fragment"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s156"
+start = 357.057
+end = 357.891
+ja = "なんか"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s157"
+start = 359.559
+end = 361.461
+ja = "よく見えないなぁと思ったら今日は"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s158"
+start = 361.461
+end = 363.596
+ja = "コンタクトレンズ留守番"
+reason = "Burned-in caption wording differs intentionally from narration"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s159"
+start = 363.596
+end = 364.431
+ja = "よく…"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}, {code="ja_terminal_punctuation", reason="Source explicitly shows a hesitant よく… as a separate caption"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s160"
+start = 364.431
+end = 367.034
+ja = "よくよく見たら綺麗なのかもしれませんね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s161"
+start = 367.034
+end = 370.137
+ja = "目先のものばかり追い求めてしまう近眼な私には"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s162"
+start = 370.137
+end = 371.338
+ja = "遠くの工場夜景より"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s163"
+start = 373.54
+end = 375.008
+ja = "綺麗に見えてしまいました"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s164"
+start = 375.008
+end = 378.478
+ja = "もっと真剣に\n人生計画を立てる必要がありそうです"
+reason = "Preserve source 人生計画 rather than spoken ライフプラン"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s165"
+start = 378.478
+end = 382.081
+ja = "船に乗って工場夜景を\n観られるツアーもあるみたいですね"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s166"
+start = 382.081
+end = 384.15
+ja = "視力と未来の解像度を上げてから"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s167"
+start = 391.157
+end = 393.293
+ja = "さて おまけの翌日"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s168"
+start = 393.293
+end = 395.429
+ja = "リベンジ登山と洒落込みましょう"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s169"
+start = 395.429
+end = 396.897
+ja = "美味しそうなメニューが"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s170"
+start = 397.964
+end = 399.566
+ja = "メニューが多い"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s171"
+start = 399.566
+end = 402.235
+ja = "気になる名前が多くて迷っちゃいますが"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s93.a"
+start = 209.409
+end = 211.144
+speaker = "speaker_0"
+ja = "『電車の忘れ物を売るお店』"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s93.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s94.a"
+start = 212.646
+end = 215.048
+speaker = "speaker_0"
+ja = "なるものがあるということで行ってみたんですが"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s94.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s105.a"
+start = 239.406
+end = 241.475
+speaker = "speaker_0"
+ja = "空も建造物も軒並み巨大で"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s105.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s112.a"
+start = 255.588
+end = 258.458
+speaker = "speaker_0"
+ja = "無骨でかっこよくってテンションが上がりますね"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s112.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s112.b"
+start = 258.458
+end = 258.892
+speaker = "speaker_0"
+ja = "お"
+reason = "Intentional brief source caption before discovering the graveyard"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s112.b"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s151.a"
+start = 339.639
+end = 341.408
+speaker = "speaker_0"
+ja = "300枚撮った"
+reason = "Source visual caption intentionally replaces 致死量の写真を撮りまくっていたら"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s151.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s153.a"
+start = 345.979
+end = 348.215
+speaker = "speaker_0"
+ja = "ついでに覗きに行ってみましょう"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s153.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s156.a"
+start = 357.891
+end = 359.559
+speaker = "speaker_0"
+ja = "なんとも言えませんねぇ"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s156.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s162.a"
+start = 371.338
+end = 373.54
+speaker = "speaker_0"
+ja = "近くにあるその他のデカ建物の方が"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s162.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s166.a"
+start = 384.15
+end = 385.718
+speaker = "speaker_0"
+ja = "また来たいですね"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s166.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]
+
+[[operations]]
+op = "insert"
+segment_id = "1-s169.a"
+start = 396.897
+end = 397.964
+speaker = "speaker_0"
+ja = "メニューが"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s169.a"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source captions switch on this frame without a blank gap"}]

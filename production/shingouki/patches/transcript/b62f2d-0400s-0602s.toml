@@ -1,0 +1,885 @@
+name = "Visual caption reconstruction 400–602"
+summary = "Manually reviewed every assigned ASR row, every 0.5s contact frame, and original-PTS decoded frames at caption changes. Source visual wording and boundaries take priority; concurrent overlays documented separately."
+created_by = "b62f2d"
+start = 400
+end = 602
+
+[[operations]]
+op = "delete"
+segment_id = "1-s173"
+[[operations]]
+op = "edit"
+segment_id = "1-s172"
+start = 402.235
+end = 403.903
+ja = "キミに決めた！"
+[[operations]]
+op = "edit"
+segment_id = "1-s174"
+start = 403.903
+end = 404.437
+ja = "こちら"
+[[operations]]
+op = "edit"
+segment_id = "1-s175"
+start = 404.437
+end = 406.673
+ja = "甘口抹茶小倉スパ～"
+[[operations]]
+op = "edit"
+segment_id = "1-s176"
+start = 406.673
+end = 408.942
+ja = "ビジュアルの強さはピカイチですね"
+[[operations]]
+op = "edit"
+segment_id = "1-s177"
+start = 408.942
+end = 411.478
+ja = "イダダキマス"
+reason = "Intentional source spelling confirmed visually."
+[[operations]]
+op = "edit"
+segment_id = "1-s178"
+start = 411.478
+end = 413.480
+ja = "ﾝ～～～～～～～～～～～～～"
+confidence = "medium"
+reason = "Source elongated reaction; wave count is approximate."
+[[operations]]
+op = "delete"
+segment_id = "1-s180"
+[[operations]]
+op = "edit"
+segment_id = "1-s179"
+start = 413.480
+end = 414.481
+ja = "熱い"
+[[operations]]
+op = "edit"
+segment_id = "1-s181"
+start = 414.481
+end = 417.517
+ja = "普通にお店でスパゲティを\n頼んでもここまでないくらい"
+[[operations]]
+op = "edit"
+segment_id = "1-s182"
+start = 417.517
+end = 419.953
+ja = "アッツアツの出来立てでのご提供"
+[[operations]]
+op = "edit"
+segment_id = "1-s183"
+start = 419.953
+end = 421.488
+ja = "冷やした方が美味しそうですが"
+[[operations]]
+op = "edit"
+segment_id = "1-s184"
+start = 421.488
+end = 423.757
+ja = "クリームが溶けちゃうので急いで食べます"
+[[operations]]
+op = "edit"
+segment_id = "1-s185"
+start = 423.757
+end = 425.826
+ja = "熱々の甘々をフーフーするのが"
+[[operations]]
+op = "edit"
+segment_id = "1-s186"
+start = 425.826
+end = 427.928
+ja = "ちょっと不思議で面白かったですね"
+[[operations]]
+op = "edit"
+segment_id = "1-s187"
+start = 427.928
+end = 430.163
+ja = "昔うどんにチョコソースと\nホイップをかけて"
+[[operations]]
+op = "edit"
+segment_id = "1-s188"
+start = 430.163
+end = 432.466
+ja = "スイーツを生成しようとした時を思い出す"
+[[operations]]
+op = "insert"
+segment_id = "1-s188-visual2"
+start = 432.466
+end = 433.834
+speaker = "speaker_0"
+ja = "懐かしいお味でした"
+[[operations]]
+op = "edit"
+segment_id = "1-s189"
+start = 433.834
+end = 435.535
+ja = "10分で登頂成功"
+[[operations]]
+op = "edit"
+segment_id = "1-s190"
+start = 435.535
+end = 437.204
+ja = "ごちそうさまでした"
+[[operations]]
+op = "edit"
+segment_id = "1-s191"
+start = 437.204
+end = 440.240
+ja = "隣の大学生グループが私の抹茶小倉スパを見て"
+[[operations]]
+op = "edit"
+segment_id = "1-s192"
+start = 440.374
+end = 442.008
+ja = "やばくない…？\nあれ……"
+reason = "Speech balloon wording; independent visual event notes retain fade timing."
+[[operations]]
+op = "edit"
+segment_id = "1-s193"
+start = 442.041
+end = 442.975
+ja = "やば…"
+reason = "Speech balloon; its overlapping fade tail is recorded separately."
+[[operations]]
+op = "edit"
+segment_id = "1-s194"
+start = 442.975
+end = 444.148
+ja = "いやちょっと気になるよね…"
+reason = "Spoken quotation; longer overlapping balloon lifetime recorded separately."
+[[operations]]
+op = "edit"
+segment_id = "1-s195"
+ja = "と小声でヒソヒソしていました"
+reason = "Spoken-only line; concurrent 結局頼んでました is separate overlay."
+[[operations]]
+op = "edit"
+segment_id = "1-s196"
+start = 445.978
+end = 448.048
+ja = "気になるメニューが多くて名残惜しいので"
+[[operations]]
+op = "edit"
+segment_id = "1-s197"
+start = 448.048
+end = 449.850
+ja = "もう一山行ってみましょう"
+[[operations]]
+op = "delete"
+segment_id = "1-s199"
+[[operations]]
+op = "edit"
+segment_id = "1-s198"
+start = 449.850
+end = 452.185
+ja = "うーん惹かれる名前ばかりで"
+[[operations]]
+op = "delete"
+segment_id = "1-s201"
+[[operations]]
+op = "edit"
+segment_id = "1-s200"
+start = 452.185
+end = 454.221
+ja = "時々迷々迷ってしまいますが"
+[[operations]]
+op = "delete"
+segment_id = "1-s203"
+[[operations]]
+op = "edit"
+segment_id = "1-s202"
+start = 454.221
+end = 458.025
+ja = "そんな中選ばれた名誉あるメニューは"
+reason = "Caption fades out; 458.025 is first completely absent frame."
+[[operations]]
+op = "edit"
+segment_id = "1-s204"
+start = 458.825
+end = 460.560
+ja = "バナナライス"
+[[operations]]
+op = "delete"
+segment_id = "1-s206"
+reason = "Remove zero-duration ASR fragment."
+[[operations]]
+op = "edit"
+segment_id = "1-s205"
+start = 460.560
+end = 462.062
+ja = "ジャジャン"
+[[operations]]
+op = "delete"
+segment_id = "1-s208"
+[[operations]]
+op = "edit"
+segment_id = "1-s207"
+start = 462.062
+end = 465.065
+ja = "焼きバナナがまるまる一本上に乗っていますね"
+[[operations]]
+op = "edit"
+segment_id = "1-s209"
+start = 465.065
+end = 467.501
+ja = "いただきます"
+[[operations]]
+op = "delete"
+segment_id = "1-s211"
+[[operations]]
+op = "edit"
+segment_id = "1-s210"
+start = 467.501
+end = 469.937
+ja = "ﾝﾝ～～～～～～～～～"
+confidence = "medium"
+reason = "Source elongated reaction; wave count approximate."
+[[operations]]
+op = "edit"
+segment_id = "1-s212"
+start = 469.937
+end = 471.038
+ja = "熱い"
+[[operations]]
+op = "edit"
+segment_id = "1-s213"
+start = 471.038
+end = 472.673
+ja = "で美味いんかい"
+[[operations]]
+op = "edit"
+segment_id = "1-s214"
+start = 472.673
+end = 475.442
+ja = "甘々ミルク粥的なものかと思っていましたが"
+[[operations]]
+op = "edit"
+segment_id = "1-s215"
+start = 475.442
+end = 477.711
+ja = "ベーコンパインピラフに\n焼きバナナが乗っていて"
+[[operations]]
+op = "delete"
+segment_id = "1-s217"
+[[operations]]
+op = "edit"
+segment_id = "1-s216"
+start = 477.711
+end = 481.081
+ja = "酢豚にパイン派の私は\n素直に美味くいただきました"
+reason = "Source caption literally 美味く, while speech says 美味しく."
+[[operations]]
+op = "edit"
+segment_id = "1-s218"
+start = 481.081
+end = 483.517
+ja = "この甘じょっぱさがたまんないですねぇ"
+[[operations]]
+op = "delete"
+segment_id = "1-s220"
+[[operations]]
+op = "edit"
+segment_id = "1-s219"
+start = 483.517
+end = 486.653
+ja = "あと全部アッツアツの\n出来立てで持ってきてくれるので"
+[[operations]]
+op = "edit"
+segment_id = "1-s221"
+start = 486.653
+end = 489.822
+ja = "味より温度の言及"
+reason = "Source visually compresses the spoken sentence."
+[[operations]]
+op = "edit"
+segment_id = "1-s222"
+start = 489.822
+end = 491.591
+ja = "ごちそうさまでした"
+[[operations]]
+op = "edit"
+segment_id = "1-s223"
+start = 491.591
+end = 493.459
+ja = "友達がおらずシェアできない人は"
+[[operations]]
+op = "edit"
+segment_id = "1-s224"
+start = 493.459
+end = 494.927
+ja = "覚悟と強い意志"
+[[operations]]
+op = "insert"
+segment_id = "1-s224-visual2"
+start = 494.927
+end = 497.397
+speaker = "speaker_0"
+ja = "忘れずに持参していきましょう"
+[[operations]]
+op = "edit"
+segment_id = "1-s225"
+start = 497.397
+end = 498.531
+ja = "名古屋飯を食うには"
+[[operations]]
+op = "edit"
+segment_id = "1-s226"
+start = 498.531
+end = 501.267
+ja = "『覚悟』が大切"
+[[operations]]
+op = "delete"
+segment_id = "1-s228"
+[[operations]]
+op = "edit"
+segment_id = "1-s227"
+start = 501.267
+end = 505.305
+ja = "意外とお客さんの半分くらいは\n普通のメニューやドリンクを頼んでいました"
+[[operations]]
+op = "edit"
+segment_id = "1-s229"
+start = 505.305
+end = 507.340
+ja = "挑戦的なものも定番のものも"
+[[operations]]
+op = "edit"
+segment_id = "1-s230"
+start = 507.340
+end = 510.510
+ja = "全部制覇してみたくなっちゃう\n魔力を持っていますね"
+[[operations]]
+op = "edit"
+segment_id = "1-s231"
+start = 510.510
+end = 511.444
+ja = "どうやらこの近くに"
+[[operations]]
+op = "edit"
+segment_id = "1-s232"
+start = 511.444
+end = 515.081
+ja = "『人間地獄』"
+reason = "Source title compresses spoken description."
+[[operations]]
+op = "edit"
+segment_id = "1-s233"
+start = 515.081
+end = 518.818
+ja = "そのまま概念登山の後に\n物理登山をしに行ってみたんですが"
+[[operations]]
+op = "edit"
+segment_id = "1-s234"
+start = 518.818
+end = 519.686
+ja = "なんか"
+[[operations]]
+op = "edit"
+segment_id = "1-s235"
+start = 519.686
+end = 522.923
+ja = "絶対に違う入り口"
+[[operations]]
+op = "edit"
+segment_id = "1-s236"
+start = 522.923
+end = 525.325
+ja = "看板が真っ白"
+[[operations]]
+op = "edit"
+segment_id = "1-s237"
+start = 525.325
+end = 528.962
+ja = "「入り口」の可能性も\n「立ち入り禁止」の可能性もある"
+[[operations]]
+op = "edit"
+segment_id = "1-s238"
+start = 528.962
+end = 530.964
+ja = "マップでは確かにこのルートの先なので"
+[[operations]]
+op = "edit"
+segment_id = "1-s239"
+start = 530.964
+end = 533.400
+ja = "ちょっとだけ覗いてみましょう"
+[[operations]]
+op = "edit"
+segment_id = "1-s240"
+start = 535.168
+end = 536.502
+ja = "ﾝﾝ～～～～～～～～～～"
+confidence = "medium"
+reason = "Fading stylized reaction; number of waves approximate."
+[[operations]]
+op = "edit"
+segment_id = "1-s241"
+start = 536.502
+end = 537.136
+ja = "ゼッッ"
+[[operations]]
+op = "edit"
+segment_id = "1-s242"
+start = 537.136
+end = 538.571
+ja = "絶対に違いそう"
+[[operations]]
+op = "delete"
+segment_id = "1-s244"
+[[operations]]
+op = "delete"
+segment_id = "1-s245"
+[[operations]]
+op = "edit"
+segment_id = "1-s243"
+start = 538.571
+end = 539.872
+ja = "登山失敗"
+[[operations]]
+op = "edit"
+segment_id = "1-s246"
+start = 539.872
+end = 541.074
+ja = "遭難です"
+[[operations]]
+op = "edit"
+segment_id = "1-s247"
+start = 541.074
+end = 544.544
+ja = "しばらく近くをウロウロして\n正規ルートの看板を見つけたんですが"
+[[operations]]
+op = "edit"
+segment_id = "1-s248"
+start = 544.544
+end = 546.546
+ja = "今から入ると着く頃には真っ暗で"
+[[operations]]
+op = "edit"
+segment_id = "1-s249"
+start = 546.546
+end = 548.381
+ja = "本当の遭難になりそうなので"
+[[operations]]
+op = "edit"
+segment_id = "1-s250"
+start = 548.381
+end = 549.916
+ja = "断念残念です"
+[[operations]]
+op = "edit"
+segment_id = "1-s251"
+start = 549.916
+end = 552.619
+ja = "私が善人すぎるゆえ地獄に辿り着けなかったのか"
+[[operations]]
+op = "delete"
+segment_id = "1-s253"
+[[operations]]
+op = "edit"
+segment_id = "1-s252"
+start = 552.619
+end = 556.923
+ja = "はたまたここまで来てあと\n一歩辿り着けずに帰ることこそが人間地獄なのか"
+[[operations]]
+op = "edit"
+segment_id = "1-s254"
+start = 556.923
+end = 559.526
+ja = "もしくはこうやって考えさせられること自体"
+[[operations]]
+op = "edit"
+segment_id = "1-s255"
+start = 559.526
+end = 561.795
+ja = "既に人間地獄にハマっているということなのか"
+[[operations]]
+op = "delete"
+segment_id = "1-s257"
+[[operations]]
+op = "edit"
+segment_id = "1-s256"
+start = 561.795
+end = 564.231
+ja = "複数の解釈ができる素晴らしいネーミングに"
+reason = "Spoken-only sentence; concurrent ちなみに人間地獄はこれ and map title are independent events in notes."
+[[operations]]
+op = "delete"
+segment_id = "1-s259"
+[[operations]]
+op = "edit"
+segment_id = "1-s258"
+start = 564.231
+end = 566.633
+ja = "考察厨・大歓喜ですね"
+[[operations]]
+op = "edit"
+segment_id = "1-s260"
+start = 571.605
+end = 572.906
+ja = "念願のお墓参り"
+[[operations]]
+op = "edit"
+segment_id = "1-s261"
+start = 576.009
+end = 578.712
+ja = "これはこれでまた違った\nエモーショナルを感じられて"
+[[operations]]
+op = "insert"
+segment_id = "1-s260-visual2"
+start = 572.906
+end = 576.009
+speaker = "speaker_0"
+ja = "写真で見たような\n圧巻の光景ではありませんでしたが"
+[[operations]]
+op = "edit"
+segment_id = "1-s262"
+start = 578.712
+end = 580.447
+ja = "何よりずっと憧れだった場所を"
+[[operations]]
+op = "edit"
+segment_id = "1-s263"
+start = 580.447
+end = 583.116
+ja = "人生に取り込めたことがとても嬉しかったです"
+[[operations]]
+op = "edit"
+segment_id = "1-s264"
+start = 583.116
+end = 586.786
+ja = "ちなみにここは観光地ではないので\n詳しい場所は明言しませんが"
+[[operations]]
+op = "edit"
+segment_id = "1-s265"
+start = 589.355
+end = 591.224
+ja = "注意してくださいね"
+[[operations]]
+op = "edit"
+segment_id = "1-s266"
+start = 591.224
+end = 592.892
+ja = "そいでわ～"
+[[operations]]
+op = "insert"
+segment_id = "1-s264-visual2"
+start = 586.786
+end = 589.355
+speaker = "speaker_0"
+ja = "もしも行かれる方は周囲に迷惑にならないよう"
+
+# Individually reviewed visual cuts. User requires exact source on/off times.
+[[operations]]
+op = "edit"
+segment_id = "1-s174"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 403.903."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s175"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 404.437."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s176"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 406.673."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s177"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 408.942."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s178"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 411.478."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s179"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 413.480."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s181"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 414.481."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s182"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 417.517."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s183"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 419.953."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s184"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 421.488."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s185"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 423.757."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s186"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 425.826."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s187"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 427.928."}, {code="ja_line_break_can_merge_soft", reason="Two lines reproduce actual visual caption unit."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s188"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 430.163."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s188-visual2"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 432.466."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s189"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 433.834."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s190"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 435.535."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s191"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 437.204."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s192"
+skip_checks = [{code="ja_line_break_can_merge_soft", reason="Actual speech balloon has two vertical text columns."}, {code="ja_terminal_punctuation", reason="Ellipses are visibly written in the source balloon."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s193"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source balloon starts at 442.041 after preceding balloon disappears at 442.008."}, {code="ja_terminal_punctuation", reason="Source balloon ends in an ellipsis."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s194"
+skip_checks = [{code="subtitle_gap_too_short", reason="Next quotation begins with overlapping source balloon at 442.975."}, {code="ja_terminal_punctuation", reason="Source balloon ends in an ellipsis."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s195"
+skip_checks = [{code="subtitle_gap_too_short", reason="Continuous spoken narration after quotation; independent balloon fade tail is in sidecar."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s197"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 448.048."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s198"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 449.850."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s200"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 452.185."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s202"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 454.221."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s205"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 460.560."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s207"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 462.062."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s209"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 465.065."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s210"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 467.501."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s212"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 469.937."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s213"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 471.038."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s214"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 472.673."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s215"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 475.442."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s216"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 477.711."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s218"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 481.081."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s219"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 483.517."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s221"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 486.653."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s222"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 489.822."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s223"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 491.591."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s224"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 493.459."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s224-visual2"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 494.927."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s225"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 497.397."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s226"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 498.531."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s227"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 501.267."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s229"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 505.305."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s230"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 507.340."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s231"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 510.510."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s232"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 511.444."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s233"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 515.081."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s234"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 518.818."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s235"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 519.686."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s236"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 522.923."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s237"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 525.325."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s238"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 528.962."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s239"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 530.964."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s241"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 536.502."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s242"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 537.136."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s243"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 538.571."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s246"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 539.872."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s247"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 541.074."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s248"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 544.544."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s249"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 546.546."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s250"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 548.381."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s251"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 549.916."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s252"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 552.619."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s254"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 556.923."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s255"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 559.526."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s256"
+skip_checks = [{code="subtitle_gap_too_short", reason="Continuous speech follows source cut to independent map overlay at 561.795."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s258"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 564.231."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s260-visual2"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 572.906."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s261"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 576.009."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s262"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 578.712."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s263"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 580.447."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s264"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 583.116."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s264-visual2"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 586.786."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s265"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 589.355."}]
+[[operations]]
+op = "edit"
+segment_id = "1-s266"
+skip_checks = [{code="subtitle_gap_too_short", reason="Source hard cut at 591.224."}]

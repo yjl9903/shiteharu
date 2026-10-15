@@ -1,0 +1,12 @@
+created_by = "main-spotcheck-1"
+start = 26
+end = 33
+summary = "第一轮最终画面抽查：修正アレ/コレ的近远指代"
+[[operations]]
+op = "edit"
+segment_id = "1-s14c"
+zh = "那个"
+[[operations]]
+op = "edit"
+segment_id = "1-s14d"
+zh = "这个"

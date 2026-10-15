@@ -1,0 +1,24 @@
+id = "clip-121000-128000"
+label = "missing-caption-125"
+source_media = "../../downloads/『信号機の墓場』へ行こう [l_jfyIEddfw].mkv"
+source_media_sha256 = "66c8a7d650efa7955433124793864b5b1f1af945509850a48736a428f63223c5"
+source_audio = "source.m4a"
+segments = "segments.toml"
+created_at = "2026-10-15T16:33:05.233Z"
+updated_at = "2026-10-15T16:33:07.235Z"
+provider = "elevenlabs"
+model = "scribe_v2"
+segmenter = "integrated"
+strategy = "single_file"
+start = 121
+end = 128
+
+[[chunks]]
+audio = "source.m4a"
+checkpoint = "checkpoints/input-000.toml"
+start = 0
+end = 7
+absolute_start = 121
+absolute_end = 128
+size = 63101
+sha256 = "76b9bf31f49879f2be2e0ea1b597a97ea63cfd8d702c5f555e1de7488a058846"

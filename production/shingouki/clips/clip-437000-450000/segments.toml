@@ -1,0 +1,799 @@
+version = 1
+
+[source]
+kind = "transcript"
+generated_at = "2026-10-15T16:22:15.823Z"
+
+[[segments]]
+id = "1-s1"
+start = 437.5
+end = 441.22
+speaker = "speaker_0"
+ja = "隣の大学生グループが私の抹茶をグラスパを見てやばくない"
+
+[[segments.words]]
+text = "隣"
+start = 437.5
+end = 437.62
+speaker = "speaker_0"
+confidence = 0.9998643582254791
+type = "word"
+
+[[segments.words]]
+text = "の"
+start = 437.62
+end = 437.8
+speaker = "speaker_0"
+confidence = 0.9999867679437158
+type = "word"
+
+[[segments.words]]
+text = "大"
+start = 437.8
+end = 438.06
+speaker = "speaker_0"
+confidence = 0.9993866869743369
+type = "word"
+
+[[segments.words]]
+text = "学"
+start = 438.08
+end = 438.18
+speaker = "speaker_0"
+confidence = 0.9993866869743369
+type = "word"
+
+[[segments.words]]
+text = "生"
+start = 438.18
+end = 438.32
+speaker = "speaker_0"
+confidence = 0.9993866869743369
+type = "word"
+
+[[segments.words]]
+text = "グ"
+start = 438.32
+end = 438.42
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "ル"
+start = 438.42
+end = 438.46
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "ー"
+start = 438.46
+end = 438.56
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "プ"
+start = 438.56
+end = 438.72
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "が"
+start = 438.72
+end = 439.02
+speaker = "speaker_0"
+confidence = 0.9999926090786457
+type = "word"
+
+[[segments.words]]
+text = "私"
+start = 439.02
+end = 439.2
+speaker = "speaker_0"
+confidence = 0.9999892712787918
+type = "word"
+
+[[segments.words]]
+text = "の"
+start = 439.2
+end = 439.3
+speaker = "speaker_0"
+confidence = 0.9999892712787918
+type = "word"
+
+[[segments.words]]
+text = "抹"
+start = 439.3
+end = 439.44
+speaker = "speaker_0"
+confidence = 0.9982819323471
+type = "word"
+
+[[segments.words]]
+text = "茶"
+start = 439.44
+end = 439.62
+speaker = "speaker_0"
+confidence = 0.9982819323471
+type = "word"
+
+[[segments.words]]
+text = "を"
+start = 439.62
+end = 439.68
+speaker = "speaker_0"
+confidence = 0.9319590327452689
+type = "word"
+
+[[segments.words]]
+text = "グ"
+start = 439.68
+end = 439.78
+speaker = "speaker_0"
+confidence = 0.994411523254111
+type = "word"
+
+[[segments.words]]
+text = "ラ"
+start = 439.78
+end = 439.88
+speaker = "speaker_0"
+confidence = 0.994411523254111
+type = "word"
+
+[[segments.words]]
+text = "ス"
+start = 439.88
+end = 439.98
+speaker = "speaker_0"
+confidence = 0.994411523254111
+type = "word"
+
+[[segments.words]]
+text = "パ"
+start = 439.98
+end = 440.06
+speaker = "speaker_0"
+confidence = 0.8846271634116376
+type = "word"
+
+[[segments.words]]
+text = "を"
+start = 440.06
+end = 440.2
+speaker = "speaker_0"
+confidence = 0.9998306322920667
+type = "word"
+
+[[segments.words]]
+text = "見"
+start = 440.2
+end = 440.34
+speaker = "speaker_0"
+confidence = 0.9998306322920667
+type = "word"
+
+[[segments.words]]
+text = "て"
+start = 440.34
+end = 440.7
+speaker = "speaker_0"
+confidence = 0.9998306322920667
+type = "word"
+
+[[segments.words]]
+text = "や"
+start = 440.7
+end = 440.76
+speaker = "speaker_0"
+confidence = 0.5435012190049109
+type = "word"
+
+[[segments.words]]
+text = "ば"
+start = 440.8
+end = 440.9
+speaker = "speaker_0"
+confidence = 0.9996850290835055
+type = "word"
+
+[[segments.words]]
+text = "く"
+start = 440.9
+end = 441
+speaker = "speaker_0"
+confidence = 0.9999979734461775
+type = "word"
+
+[[segments.words]]
+text = "な"
+start = 441
+end = 441.14
+speaker = "speaker_0"
+confidence = 0.9999979734461775
+type = "word"
+
+[[segments.words]]
+text = "い"
+start = 441.14
+end = 441.22
+speaker = "speaker_0"
+confidence = 0.9999979734461775
+type = "word"
+
+[[segments]]
+id = "1-s2"
+start = 441.56
+end = 443.82
+speaker = "speaker_0"
+ja = "？あれやば。いやちょっと気になるよね。"
+
+[[segments.words]]
+text = "？"
+start = 441.56
+end = 441.62
+speaker = "speaker_0"
+confidence = 0.9999970197767496
+type = "word"
+
+[[segments.words]]
+text = "あ"
+start = 441.62
+end = 441.74
+speaker = "speaker_0"
+confidence = 0.9818303154957283
+type = "word"
+
+[[segments.words]]
+text = "れ"
+start = 441.74
+end = 442.26
+speaker = "speaker_0"
+confidence = 0.9818303154957283
+type = "word"
+
+[[segments.words]]
+text = "や"
+start = 442.26
+end = 442.4
+speaker = "speaker_0"
+confidence = 0.9987650881816371
+type = "word"
+
+[[segments.words]]
+text = "ば"
+start = 442.4
+end = 442.72
+speaker = "speaker_0"
+confidence = 0.9999916554191085
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 442.72
+end = 442.72
+speaker = "speaker_0"
+confidence = 0.9801422246257318
+type = "word"
+
+[[segments.words]]
+text = "い"
+start = 442.76
+end = 442.8
+speaker = "speaker_0"
+confidence = 0.9989338571197517
+type = "word"
+
+[[segments.words]]
+text = "や"
+start = 442.8
+end = 442.9
+speaker = "speaker_0"
+confidence = 0.9989338571197517
+type = "word"
+
+[[segments.words]]
+text = "ち"
+start = 442.9
+end = 442.92
+speaker = "speaker_0"
+confidence = 0.9148903893135789
+type = "word"
+
+[[segments.words]]
+text = "ょ"
+start = 442.92
+end = 442.98
+speaker = "speaker_0"
+confidence = 0.9148903893135789
+type = "word"
+
+[[segments.words]]
+text = "っ"
+start = 442.98
+end = 443.06
+speaker = "speaker_0"
+confidence = 0.9148903893135789
+type = "word"
+
+[[segments.words]]
+text = "と"
+start = 443.06
+end = 443.2
+speaker = "speaker_0"
+confidence = 0.9148903893135789
+type = "word"
+
+[[segments.words]]
+text = "気"
+start = 443.2
+end = 443.32
+speaker = "speaker_0"
+confidence = 0.9998569693123998
+type = "word"
+
+[[segments.words]]
+text = "に"
+start = 443.32
+end = 443.44
+speaker = "speaker_0"
+confidence = 0.9998569693123998
+type = "word"
+
+[[segments.words]]
+text = "な"
+start = 443.44
+end = 443.54
+speaker = "speaker_0"
+confidence = 0.9998569693123998
+type = "word"
+
+[[segments.words]]
+text = "る"
+start = 443.54
+end = 443.6
+speaker = "speaker_0"
+confidence = 0.9998569693123998
+type = "word"
+
+[[segments.words]]
+text = "よ"
+start = 443.6
+end = 443.74
+speaker = "speaker_0"
+confidence = 0.9999974966112362
+type = "word"
+
+[[segments.words]]
+text = "ね"
+start = 443.74
+end = 443.82
+speaker = "speaker_0"
+confidence = 0.9999974966112362
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 443.82
+end = 443.82
+speaker = "speaker_0"
+confidence = 0.9999924898711537
+type = "word"
+
+[[segments]]
+id = "1-s3"
+start = 444.36
+end = 445.86
+speaker = "speaker_0"
+ja = "小声でヒソヒソしていました。"
+
+[[segments.words]]
+text = "小"
+start = 444.36
+end = 444.46
+speaker = "speaker_0"
+confidence = 0.7713647013759712
+type = "word"
+
+[[segments.words]]
+text = "声"
+start = 444.46
+end = 444.64
+speaker = "speaker_0"
+confidence = 0.9999443323610593
+type = "word"
+
+[[segments.words]]
+text = "で"
+start = 444.64
+end = 444.72
+speaker = "speaker_0"
+confidence = 0.9999992847447459
+type = "word"
+
+[[segments.words]]
+text = "ヒ"
+start = 444.72
+end = 444.86
+speaker = "speaker_0"
+confidence = 0.6511735199427495
+type = "word"
+
+[[segments.words]]
+text = "ソ"
+start = 444.86
+end = 444.98
+speaker = "speaker_0"
+confidence = 0.9999694833531786
+type = "word"
+
+[[segments.words]]
+text = "ヒ"
+start = 444.98
+end = 445.14
+speaker = "speaker_0"
+confidence = 0.9999928474936721
+type = "word"
+
+[[segments.words]]
+text = "ソ"
+start = 445.14
+end = 445.22
+speaker = "speaker_0"
+confidence = 0.9999619736836097
+type = "word"
+
+[[segments.words]]
+text = "し"
+start = 445.22
+end = 445.4
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "て"
+start = 445.4
+end = 445.42
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "い"
+start = 445.42
+end = 445.6
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "ま"
+start = 445.6
+end = 445.7
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "し"
+start = 445.7
+end = 445.8
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "た"
+start = 445.8
+end = 445.86
+speaker = "speaker_0"
+confidence = 0.9895519476667723
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 445.86
+end = 445.86
+speaker = "speaker_0"
+confidence = 0.9999996423722521
+type = "word"
+
+[[segments]]
+id = "1-s4"
+start = 446.12
+end = 449.4
+speaker = "speaker_0"
+ja = "気になるメニューが多くて名残惜しいのでもう一山行ってみま"
+
+[[segments.words]]
+text = "気"
+start = 446.12
+end = 446.2
+speaker = "speaker_0"
+confidence = 0.9999971389852362
+type = "word"
+
+[[segments.words]]
+text = "に"
+start = 446.2
+end = 446.32
+speaker = "speaker_0"
+confidence = 0.9999971389852362
+type = "word"
+
+[[segments.words]]
+text = "な"
+start = 446.32
+end = 446.4
+speaker = "speaker_0"
+confidence = 0.9999971389852362
+type = "word"
+
+[[segments.words]]
+text = "る"
+start = 446.4
+end = 446.52
+speaker = "speaker_0"
+confidence = 0.9999971389852362
+type = "word"
+
+[[segments.words]]
+text = "メ"
+start = 446.52
+end = 446.64
+speaker = "speaker_0"
+confidence = 0.9999902249342363
+type = "word"
+
+[[segments.words]]
+text = "ニ"
+start = 446.64
+end = 446.66
+speaker = "speaker_0"
+confidence = 0.9999902249342363
+type = "word"
+
+[[segments.words]]
+text = "ュ"
+start = 446.66
+end = 446.72
+speaker = "speaker_0"
+confidence = 0.9999902249342363
+type = "word"
+
+[[segments.words]]
+text = "ー"
+start = 446.72
+end = 446.86
+speaker = "speaker_0"
+confidence = 0.9999902249342363
+type = "word"
+
+[[segments.words]]
+text = "が"
+start = 446.86
+end = 446.92
+speaker = "speaker_0"
+confidence = 0.9991086329138222
+type = "word"
+
+[[segments.words]]
+text = "多"
+start = 446.92
+end = 447.06
+speaker = "speaker_0"
+confidence = 0.9991086329138222
+type = "word"
+
+[[segments.words]]
+text = "く"
+start = 447.06
+end = 447.18
+speaker = "speaker_0"
+confidence = 0.9991086329138222
+type = "word"
+
+[[segments.words]]
+text = "て"
+start = 447.18
+end = 447.36
+speaker = "speaker_0"
+confidence = 0.9999998807907247
+type = "word"
+
+[[segments.words]]
+text = "名"
+start = 447.36
+end = 447.46
+speaker = "speaker_0"
+confidence = 0.9990712692820937
+type = "word"
+
+[[segments.words]]
+text = "残"
+start = 447.46
+end = 447.68
+speaker = "speaker_0"
+confidence = 0.9989089961135483
+type = "word"
+
+[[segments.words]]
+text = "惜"
+start = 447.68
+end = 447.74
+speaker = "speaker_0"
+confidence = 0.9998629281127636
+type = "word"
+
+[[segments.words]]
+text = "し"
+start = 447.74
+end = 447.8
+speaker = "speaker_0"
+confidence = 0.9999992847447459
+type = "word"
+
+[[segments.words]]
+text = "い"
+start = 447.82
+end = 447.94
+speaker = "speaker_0"
+confidence = 0.9999992847447459
+type = "word"
+
+[[segments.words]]
+text = "の"
+start = 447.94
+end = 448.04
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "で"
+start = 448.04
+end = 448.16
+speaker = "speaker_0"
+confidence = 0.9999991655356624
+type = "word"
+
+[[segments.words]]
+text = "も"
+start = 448.2
+end = 448.26
+speaker = "speaker_0"
+confidence = 0.9978172842081096
+type = "word"
+
+[[segments.words]]
+text = "う"
+start = 448.28
+end = 448.46
+speaker = "speaker_0"
+confidence = 0.9978172842081096
+type = "word"
+
+[[segments.words]]
+text = "一"
+start = 448.46
+end = 448.68
+speaker = "speaker_0"
+confidence = 0.7008989858653605
+type = "word"
+
+[[segments.words]]
+text = "山"
+start = 448.78
+end = 448.88
+speaker = "speaker_0"
+confidence = 0.997187203829394
+type = "word"
+
+[[segments.words]]
+text = "行"
+start = 448.88
+end = 449
+speaker = "speaker_0"
+confidence = 0.9046159766662201
+type = "word"
+
+[[segments.words]]
+text = "っ"
+start = 449
+end = 449.08
+speaker = "speaker_0"
+confidence = 0.9999961853172863
+type = "word"
+
+[[segments.words]]
+text = "て"
+start = 449.08
+end = 449.18
+speaker = "speaker_0"
+confidence = 0.9999961853172863
+type = "word"
+
+[[segments.words]]
+text = "み"
+start = 449.18
+end = 449.32
+speaker = "speaker_0"
+confidence = 0.9999961853172863
+type = "word"
+
+[[segments.words]]
+text = "ま"
+start = 449.32
+end = 449.4
+speaker = "speaker_0"
+confidence = 0.9999613776818321
+type = "word"
+
+[[segments]]
+id = "1-s5"
+start = 449.4
+end = 449.62
+speaker = "speaker_0"
+ja = "しょう。"
+
+[[segments.words]]
+text = "し"
+start = 449.4
+end = 449.46
+speaker = "speaker_0"
+confidence = 0.9999613776818321
+type = "word"
+
+[[segments.words]]
+text = "ょ"
+start = 449.46
+end = 449.5
+speaker = "speaker_0"
+confidence = 0.9999613776818321
+type = "word"
+
+[[segments.words]]
+text = "う"
+start = 449.5
+end = 449.62
+speaker = "speaker_0"
+confidence = 0.9999613776818321
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 449.62
+end = 449.62
+speaker = "speaker_0"
+confidence = 0.9998169280547704
+type = "word"
+
+[[segments]]
+id = "1-s6"
+start = 449.94
+end = 449.98
+speaker = "speaker_0"
+ja = "ん。"
+
+[[segments.words]]
+text = "ん"
+start = 449.94
+end = 449.98
+speaker = "speaker_0"
+confidence = 0.4918727172521869
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 449.98
+end = 449.98
+speaker = "speaker_0"
+confidence = 0.5849173726058418
+type = "word"

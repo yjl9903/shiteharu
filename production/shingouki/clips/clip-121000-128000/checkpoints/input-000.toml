@@ -1,0 +1,122 @@
+version = 1
+status = "done"
+input_index = 0
+audio = "source.m4a"
+start = 121
+end = 128
+provider = "elevenlabs"
+model = "scribe_v2"
+segmenter = "integrated"
+started_at = "2026-10-15T16:33:05.241Z"
+completed_at = "2026-10-15T16:33:07.229Z"
+
+[response]
+languageCode = "jpn"
+languageProbability = 1
+text = "元気ない。ここまで来て本日"
+transcriptionId = "vqnP8TfYPr5iIHPuiiU7"
+audioDurationSecs = 7
+
+[[response.words]]
+text = "元"
+start = 3.76
+end = 4.019
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.021270260214805603
+
+[[response.words]]
+text = "気"
+start = 4.019
+end = 4.26
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.021270260214805603
+
+[[response.words]]
+text = "な"
+start = 4.26
+end = 4.46
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.001547330990433693
+
+[[response.words]]
+text = "い"
+start = 4.48
+end = 4.6
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.001547330990433693
+
+[[response.words]]
+text = "。"
+start = 4.6
+end = 4.6
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00210564024746418
+
+[[response.words]]
+text = "こ"
+start = 5.74
+end = 5.88
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.49255871772766113
+
+[[response.words]]
+text = "こ"
+start = 5.94
+end = 6.02
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.49255871772766113
+
+[[response.words]]
+text = "ま"
+start = 6.02
+end = 6.16
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.49255871772766113
+
+[[response.words]]
+text = "で"
+start = 6.16
+end = 6.26
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.49255871772766113
+
+[[response.words]]
+text = "来"
+start = 6.26
+end = 6.4
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00026222606538794935
+
+[[response.words]]
+text = "て"
+start = 6.4
+end = 6.54
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.00026222606538794935
+
+[[response.words]]
+text = "本"
+start = 6.54
+end = 6.74
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.2427610158920288
+
+[[response.words]]
+text = "日"
+start = 6.74
+end = 6.96
+type = "word"
+speakerId = "speaker_0"
+logprob = -0.2427610158920288

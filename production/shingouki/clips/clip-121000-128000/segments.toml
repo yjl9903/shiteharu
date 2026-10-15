@@ -1,0 +1,123 @@
+version = 1
+
+[source]
+kind = "transcript"
+generated_at = "2026-10-15T16:33:07.231Z"
+
+[[segments]]
+id = "1-s1"
+start = 124.76
+end = 125.6
+speaker = "speaker_0"
+ja = "元気ない。"
+
+[[segments.words]]
+text = "元"
+start = 124.76
+end = 125.019
+speaker = "speaker_0"
+confidence = 0.9789543563998943
+type = "word"
+
+[[segments.words]]
+text = "気"
+start = 125.019
+end = 125.26
+speaker = "speaker_0"
+confidence = 0.9789543563998943
+type = "word"
+
+[[segments.words]]
+text = "な"
+start = 125.26
+end = 125.46
+speaker = "speaker_0"
+confidence = 0.9984538655089569
+type = "word"
+
+[[segments.words]]
+text = "い"
+start = 125.48
+end = 125.6
+speaker = "speaker_0"
+confidence = 0.9984538655089569
+type = "word"
+
+[[segments.words]]
+text = "。"
+start = 125.6
+end = 125.6
+speaker = "speaker_0"
+confidence = 0.9978965750578103
+type = "word"
+
+[[segments]]
+id = "1-s2"
+start = 126.74
+end = 127.96
+speaker = "speaker_0"
+ja = "ここまで来て本日"
+
+[[segments.words]]
+text = "こ"
+start = 126.74
+end = 126.88
+speaker = "speaker_0"
+confidence = 0.6110608599034764
+type = "word"
+
+[[segments.words]]
+text = "こ"
+start = 126.94
+end = 127.02
+speaker = "speaker_0"
+confidence = 0.6110608599034764
+type = "word"
+
+[[segments.words]]
+text = "ま"
+start = 127.02
+end = 127.16
+speaker = "speaker_0"
+confidence = 0.6110608599034764
+type = "word"
+
+[[segments.words]]
+text = "で"
+start = 127.16
+end = 127.26
+speaker = "speaker_0"
+confidence = 0.6110608599034764
+type = "word"
+
+[[segments.words]]
+text = "来"
+start = 127.26
+end = 127.4
+speaker = "speaker_0"
+confidence = 0.9997378083128617
+type = "word"
+
+[[segments.words]]
+text = "て"
+start = 127.4
+end = 127.54
+speaker = "speaker_0"
+confidence = 0.9997378083128617
+type = "word"
+
+[[segments.words]]
+text = "本"
+start = 127.54
+end = 127.74
+speaker = "speaker_0"
+confidence = 0.7844589645976745
+type = "word"
+
+[[segments.words]]
+text = "日"
+start = 127.74
+end = 127.96
+speaker = "speaker_0"
+confidence = 0.7844589645976745
+type = "word"

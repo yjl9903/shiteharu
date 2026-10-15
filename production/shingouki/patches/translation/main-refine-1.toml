@@ -1,0 +1,29 @@
+created_by = "main-refine-1"
+start = 0
+end = 602
+summary = "第一轮全片语义与术语复核：修正遭難语义，统一回环短语"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s17"
+zh = "一台管着人类的机器\n这种古怪的存在本身"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s47"
+zh = "不断有人遇险的大山"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s57"
+zh = "钱包留守旅馆"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s224"
+zh = "觉悟与坚定的意志"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s249"
+zh = "怕是真要在山里遇险了"

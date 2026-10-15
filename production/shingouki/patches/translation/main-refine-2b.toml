@@ -1,0 +1,12 @@
+created_by = "main-refine-2b"
+start = 0
+end = 602
+summary = "第二轮回归修复：精简后的两句改为自然单行"
+[[operations]]
+op = "edit"
+segment_id = "1-s132"
+zh = "连这幅景象也要拿来消费情怀的"
+[[operations]]
+op = "edit"
+segment_id = "1-s261"
+zh = "但这片风景也带来了另一种感动"

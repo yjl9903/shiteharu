@@ -1,0 +1,8 @@
+name = "Preserve reviewed source cut across A/B boundary"
+created_by = "main"
+start = 197
+end = 202
+[[operations]]
+op = "edit"
+segment_id = "1-s89"
+skip_checks = [{code="subtitle_gap_too_short",reason="Source changes directly at decoded frame PTS 199.967, verified in a-changes/cuts-18.jpg; preserve original cut."}]

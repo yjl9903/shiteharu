@@ -1,0 +1,430 @@
+name = "Chinese translation 402.235–602"
+summary = "Manual translation of all83 reviewed caption units; source IDs, Japanese, timing and segmentation preserved. Independent overlays translated separately."
+created_by = "d7081f"
+start = 402.235
+end = 602
+
+[[operations]]
+op = "edit"
+segment_id = "1-s172"
+zh = "就决定是你了！"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s174"
+zh = "就是这个"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s175"
+zh = "甜味抹茶红豆意面～"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s176"
+zh = "这视觉冲击力真是数一数二"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s177"
+zh = "我开动啦"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s178"
+zh = "嗯～～～～～～"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s179"
+zh = "烫"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s181"
+zh = "一般店里的意面都没这么烫"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s182"
+zh = "刚出锅就热气腾腾地端上来了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s183"
+zh = "放凉应该会更好吃"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s184"
+zh = "可奶油会化 得赶紧吃"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s185"
+zh = "对着又烫又甜的东西呼呼吹"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s186"
+zh = "感觉还挺奇妙 挺有意思的"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s187"
+zh = "让我想起以前往乌冬面上\n浇巧克力酱和奶油"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s188"
+zh = "试图把它做成甜品的时候"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s188-visual2"
+zh = "真是令人怀念的味道"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s189"
+zh = "10分钟登顶成功"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s190"
+zh = "多谢款待"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s191"
+zh = "隔壁一群大学生看到我的抹茶红豆意面"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s192"
+zh = "那个…也太夸张了吧？"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s193"
+zh = "太夸张了…"
+skip_checks = [
+  { code = "subtitle_gap_too_short", reason = "Source balloon starts at 442.041 after preceding balloon disappears at 442.008." },
+  { code = "ja_terminal_punctuation", reason = "Source balloon ends in an ellipsis." },
+  { code = "zh_terminal_punctuation", reason = "Chinese retains source balloon's hesitant trailing ellipsis and timing beat." }
+]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s194"
+zh = "不过有点想尝尝…"
+skip_checks = [
+  { code = "subtitle_gap_too_short", reason = "Next quotation begins with overlapping source balloon at 442.975." },
+  { code = "ja_terminal_punctuation", reason = "Source balloon ends in an ellipsis." },
+  { code = "zh_terminal_punctuation", reason = "Chinese retains source balloon's hesitant trailing ellipsis and timing beat." }
+]
+
+[[operations]]
+op = "edit"
+segment_id = "1-s195"
+zh = "他们就这样小声嘀咕着"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s196"
+zh = "还有好多想吃的 实在舍不得走"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s197"
+zh = "再登一座山吧"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s198"
+zh = "嗯 菜名都好诱人"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s200"
+zh = "挑来挑去挑花了眼"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s202"
+zh = "最终有幸被选中的菜品是"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s204"
+zh = "香蕉饭"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s205"
+zh = "锵锵"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s207"
+zh = "上面放着一整根烤香蕉"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s209"
+zh = "我开动了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s210"
+zh = "嗯嗯～～～～～"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s212"
+zh = "烫"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s213"
+zh = "居然还挺好吃"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s214"
+zh = "本以为会是甜腻的牛奶粥之类"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s215"
+zh = "结果是培根菠萝饭上放了一根烤香蕉"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s216"
+zh = "我就爱吃加菠萝的咕咾肉\n所以这份也吃得很香"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s218"
+zh = "这种咸甜口真让人欲罢不能"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s219"
+zh = "而且每道菜都是刚做好\n就热腾腾地端上来"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s221"
+zh = "比起味道 先说温度"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s222"
+zh = "多谢款待"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s223"
+zh = "没朋友一起分着吃的人"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s224"
+zh = "觉悟和坚定的意志"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s224-visual2"
+zh = "记得随身带好"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s225"
+zh = "想吃名古屋美食"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s226"
+zh = "『觉悟』很重要"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s227"
+zh = "没想到有一半左右的客人\n点的都是普通餐品或饮料"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s229"
+zh = "不管是挑战款还是经典款"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s230"
+zh = "都有种让人想全部吃遍的魔力"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s231"
+zh = "听说这附近有个"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s232"
+zh = "『人间地狱』"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s233"
+zh = "概念登山结束后 又去试了试物理登山"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s234"
+zh = "怎么感觉"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s235"
+zh = "这入口绝对不对"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s236"
+zh = "牌子一片空白"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s237"
+zh = "可能是「入口」也可能是「禁止入内」"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s238"
+zh = "可地图指的确实是这条路"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s239"
+zh = "稍微进去看看吧"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s240"
+zh = "嗯嗯～～～～～"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s241"
+zh = "绝——"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s242"
+zh = "绝对走错了吧"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s243"
+zh = "登山失败"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s246"
+zh = "迷路了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s247"
+zh = "在附近转了一会儿\n总算找到了正路的指示牌"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s248"
+zh = "可现在进去 到那儿天都黑了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s249"
+zh = "怕是真的要迷路了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s250"
+zh = "只好放弃 真可惜"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s251"
+zh = "是因为我太善良 所以进不了地狱"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s252"
+zh = "还是说 都走到这儿了却功亏一篑\n只能回去 这才是人间地狱"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s254"
+zh = "又或者 连我这样胡思乱想"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s255"
+zh = "都说明已经陷入人间地狱了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s256"
+zh = "一个名字竟能有这么多解读"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s258"
+zh = "考据党狂喜"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s260"
+zh = "终于如愿来扫墓"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s260-visual2"
+zh = "虽然没有照片里那般震撼的景象"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s261"
+zh = "但这样的风景\n也让我感受到了另一种触动"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s262"
+zh = "最开心的是 这个一直向往的地方"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s263"
+zh = "终于成为了我人生的一部分"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s264"
+zh = "这里并不是景点\n所以就不透露具体位置了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s264-visual2"
+zh = "如果大家要去 请别给周围添麻烦"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s265"
+zh = "一定要注意哦"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s266"
+zh = "那就拜拜啦～"

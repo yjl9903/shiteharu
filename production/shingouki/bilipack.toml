@@ -1,0 +1,50 @@
+# 所有素材路径均相对于此文件所在目录。
+# 中文字幕已经烧录，不再自动导入 SRT。
+[video]
+file = "deliverables/zh.performance.1080p.mp4"
+
+[cover]
+file = "deliverables/cover.jpg"
+
+[info]
+title = "【熟肉】去『信号灯墓场』吧 してはる"
+category = "动画"
+tags = ["してはる", "VTuber", "Vlog", "信号灯墓场", "名古屋", "喫茶ツヅキ", "喫茶マウンテン", "中文字幕"]
+declaration = "内容为转载"
+no_reprint = false
+description = '''
+如果又有大量废旧信号灯的目击消息，或者这里变成了“信号灯墓场的墓场”，我还想再来一趟呢。
+
+原视频：してはる 『信号機の墓場』へ行こう https://www.youtube.com/watch?v=l_jfyIEddfw
+翻译和字幕制作：GPT-6 Astra high effort by codex
+制作工作流开源：https://github.com/yjl9903/rajio https://github.com/yjl9903/shiteharu
+
+简介：
+ばんわんこ〜
+意図せずVlog系Vtuberになりつつある動画投稿者です。
+そろそろブイロがない動画も上げたいところですが、(許諾が降りれば)お出かけ先のVlogがも一本上がります。
+
+大量の廃信号機の目撃情報があった時と信号機の墓場の墓場になった際は、また再訪したいですね。
+
+——————————————
+グッズ販売してはる屋さん
+https://shiteharu.booth.pm
+
+LINEスタンプ屋さん
+https://store.line.me/stickershop/pro...
+
+ツイッター屋さん
+https://x.com/popico_pi
+——————————————
+一部素材を使用させていただいております
+SE:OtoLogic 様
+
+#Vtuber #Vlog #信号機の墓場 #名古屋 #喫茶ツヅキ #喫茶マウンテン
+'''
+
+[interaction]
+dynamic = "去『信号灯墓场』吧 してはる"
+comments = true
+danmaku = true
+selected_comments = false
+

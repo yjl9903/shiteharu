@@ -1,0 +1,63 @@
+rajio_version = "0.2.1"
+session_id = "20261015T155428-5cde994b"
+created_at = "2026-10-15T15:54:28.857Z"
+updated_at = "2026-10-15T19:00:24.096Z"
+current_stage = "done"
+
+[input]
+description = "description.md"
+media = "../../downloads/『信号機の墓場』へ行こう [l_jfyIEddfw].mkv"
+media_sha256 = "66c8a7d650efa7955433124793864b5b1f1af945509850a48736a428f63223c5"
+
+[stages.audio]
+status = "done"
+started_at = "2026-10-15T15:54:28.861Z"
+metadata = "audio/metadata.json"
+audio = "audio/extracted.m4a"
+audio_size = 5362270
+audio_sha256 = "be9b343fabbe081599f9b19b4f82fa17e1a473f261b4905a7d2431889de29fee"
+duration = 601.708
+media_sha256 = "66c8a7d650efa7955433124793864b5b1f1af945509850a48736a428f63223c5"
+strategy = "single_file"
+completed_at = "2026-10-15T15:54:31.476Z"
+
+[stages.transcript_raw]
+status = "done"
+started_at = "2026-10-15T15:54:31.478Z"
+input_audio = "audio/extracted.m4a"
+checkpoints_dir = "transcript/raw/checkpoints"
+input_count = 1
+segments = "transcript/raw/segments.toml"
+segments_sha256 = "ce3f40689fe1c8db9b5ecc2240894b8ea94a8500fd3e6c90c9c5bcc9a84446ba"
+completed_at = "2026-10-15T15:55:24.196Z"
+
+[stages.transcript_work]
+status = "committed"
+source_segments = "transcript/raw/segments.toml"
+segments = "transcript/work/segments.toml"
+started_at = "2026-10-15T15:55:24.226Z"
+segments_sha256 = "0b095f882efdeb31e5432ff6521b5908a422ea0a0e46ef6b935a872cd9aff00d"
+committed_at = "2026-10-15T16:31:15.093Z"
+completed_at = "2026-10-15T16:31:15.093Z"
+
+[stages.translation_work]
+status = "committed"
+source_segments = "transcript/work/segments.toml"
+segments = "translation/work/segments.toml"
+started_at = "2026-10-15T16:31:15.097Z"
+segments_sha256 = "d3363c5479b7b90d5b0a78bc0f00b83acb196683c86b3d2cd6d418cc21574354"
+committed_at = "2026-10-15T19:00:24.086Z"
+completed_at = "2026-10-15T19:00:24.086Z"
+
+[stages.export]
+status = "done"
+started_at = "2026-10-15T19:00:24.088Z"
+ja_srt = "output/『信号機の墓場』へ行こう.ja.srt"
+zh_srt = "output/『信号機の墓場』へ行こう.zh.srt"
+bilingual_ass = "output/『信号機の墓場』へ行こう.ja-zh.ass"
+completed_at = "2026-10-15T19:00:24.096Z"
+
+[transcription]
+provider = "elevenlabs"
+model = "scribe_v2"
+segmenter = "integrated"

@@ -1,0 +1,29 @@
+created_by = "main-refine-2"
+start = 0
+end = 602
+summary = "第二轮全片连读：压缩生硬表述，改善菜单、赢家和结尾的中文节奏"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s63"
+zh = "选择好多 都不知道点什么了"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s80"
+zh = "我偏要以赢家 Winner 的身份谢幕"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s132"
+zh = "连这幅景象也要\n拿来消费情怀的"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s191"
+zh = "邻桌的大学生看到我的抹茶红豆意面"
+
+[[operations]]
+op = "edit"
+segment_id = "1-s261"
+zh = "但这片风景\n也带来了另一种感动"
