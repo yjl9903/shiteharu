@@ -27,6 +27,9 @@ __pycache__/
 .cache/
 *.log
 
+# 本机字体副本不提交或分发；配置只记录仓库内相对路径
+/fonts/local/
+
 # 下载原片、音频提取与媒体中间文件（字幕文件仍纳入版本管理）
 /downloads/
 /production/**/audio/
