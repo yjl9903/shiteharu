@@ -1,0 +1,16 @@
+.env
+downloads/
+production/**/.venv/
+production/**/audio/
+production/**/review/contact/
+production/**/review/contact-clean/
+production/**/review/overview/
+production/**/review/boundaries/
+production/**/review/render-fonts/
+production/**/review/cache/
+production/**/deliverables/*.mp4
+production/**/deliverables/*.mkv
+production/**/*.mp4
+production/**/*.m4a
+production/**/review/audit/mask-*.png
+**/__pycache__/
