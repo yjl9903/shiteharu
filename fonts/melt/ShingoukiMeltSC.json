@@ -1,0 +1,11 @@
+{
+  "font": "ShingoukiMeltSC",
+  "coverage": "烫",
+  "glyph_sources": {
+    " ": "SC Heavy + static fracture approximation",
+    "烫": "SC Heavy + static fracture approximation"
+  },
+  "original_source": "https://booth.pm/ja/items/1028548",
+  "sc_source": "https://github.com/adobe-fonts/source-han-serif",
+  "limitation": "Limited caption font; generated missing SC glyphs and melt variant are approximations, not original font identification."
+}
