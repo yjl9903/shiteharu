@@ -48,14 +48,9 @@ __pycache__/
 *.part
 *.ytdl
 
-# 可重新生成的截图、对照图与渲染缓存；保留审阅文本和配置
+
+# 可重新生成的截图、对照图与渲染缓存
 /production/**/frames/
-/production/**/review/render-fonts/
-/production/**/review/cache/
-/production/**/review/**/*.png
-/production/**/review/**/*.jpg
-/production/**/review/**/*.jpeg
-/production/**/review/**/*.webp
 /production/**/deliverables/comparisons/**/*.png
 /production/**/deliverables/comparisons/**/*.jpg
 /production/**/deliverables/comparisons/**/*.jpeg
@@ -79,7 +74,7 @@ __pycache__/
 /production/**/font-style-preview/**/*.tgz
 /production/**/font-style-preview/font-match/candidates/**/*.pdf
 
-# 打包交付产物；保留 deliverables/ 内的字幕、索引和检查数据
+# 打包交付产物；保留 deliverables/ 内的字幕和封面
 /production/**/deliverables/*.zip
 /production/**/deliverables/*.7z
 /production/**/deliverables/*.tar

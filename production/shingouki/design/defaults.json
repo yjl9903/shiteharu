@@ -1,0 +1,5 @@
+{
+  "width":1920, "height":1080,
+  "default":{"font_role":"sans", "fontsize":96, "x":960, "y":935, "align":2, "outline":5.5, "shadow":1.0, "color":"FFFFFF", "outline_color":"000000", "effect":"none", "max_width":1760},
+  "comment":"Coordinates are in 1920x1080. Per-event settings in events-*.json override these defaults. Each source caption has independent timing and appearance; animation is opt-in, never invented by the default."
+}

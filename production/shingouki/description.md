@@ -45,14 +45,6 @@ url: https://www.youtube.com/watch?v=l_jfyIEddfw
 - マニア -> 爱好者; 邂逅 -> 邂逅/相见 as context fits; ASR 開講 is wrong.
 - 墓地墓地 is a visual pun on ぼちぼち, to preserve in Chinese via 墓地/慢慢 where possible without overexplaining.
 
-## Evidence and Timing
-
-- `review/contact`: every 15th decoded frame (~0.5s), original PTS printed; covers entire video.
-- `review/contact-clean`: same complete sampling with timestamp outside the image; use this for corner-label and design review because the older contact timestamp can hide source text.
-- `review/*-changes`: candidate caption boundary before/after pairs, original PTS. Detector is non-editing visual support; agents must visually confirm each candidate and reject motion/cut false positives.
-- `review/boundaries`: dense original-PTS frame strips for ambiguous changes.
-- `review/overview`: coarse discovery only; do not use its nominal resampling timestamps for exact timing.
-
 ## Remaining Source Uncertainty
 
 - At124.76–125.60, the shot has no burned caption. Both initial and independent clip ASR say 元気ない; cash-only sign and forgotten-wallet context also make 現金ない plausible. Excluded from the source-caption track rather than assigning a certain reading. Reference: `clips/clip-121000-128000/segments.toml`.

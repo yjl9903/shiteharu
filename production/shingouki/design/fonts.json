@@ -1,0 +1,72 @@
+{
+  "sans": {
+    "family": "MiSans",
+    "file": "../../fonts/local/MiSans-Bold.ttf",
+    "bold": true
+  },
+  "serif": {
+    "family": "Songti SC",
+    "file": "../../fonts/local/Songti.ttc",
+    "bold": true
+  },
+  "hand": {
+    "family": "LXGW WenKai",
+    "file": "../../fonts/local/LXGWWenKai-Regular.ttf",
+    "bold": false
+  },
+  "brush": {
+    "family": "Ma Shan Zheng",
+    "file": "../../fonts/mashanzheng/MaShanZheng-Regular.ttf",
+    "bold": false
+  },
+  "mono": {
+    "family": "Sarasa Mono SC",
+    "file": "../../fonts/local/SarasaMonoSC-Bold.ttf",
+    "bold": true
+  },
+  "ja": {
+    "family": "Hiragino Sans",
+    "file": "../../fonts/local/ヒラギノ角ゴシック W6.ttc",
+    "bold": true
+  },
+  "round": {
+    "family": "Resource Han Rounded CN Heavy",
+    "file": "../../fonts/round/ResourceHanRoundedCN-Heavy.ttf",
+    "bold": false
+  },
+  "mincho": {
+    "family": "Source Han Serif SC Heavy",
+    "file": "../../fonts/mincho/SourceHanSerifSC-Heavy.otf",
+    "bold": false
+  },
+  "marker": {
+    "family": "LongZhuTi",
+    "file": "../../fonts/marker/LongZhuTi-Regular.ttf",
+    "bold": false
+  },
+  "casual": {
+    "family": "Yozai",
+    "file": "../../fonts/casual/Yozai-Regular.ttf",
+    "bold": false
+  },
+  "brush_title": {
+    "family": "PangMenZhengDao-Cu",
+    "file": "../../fonts/brush_title/PangMen.ttf",
+    "bold": false
+  },
+  "fracture": {
+    "family": "ShingoukiFractureSC",
+    "file": "../../fonts/fracture/ShingoukiFractureSC.ttf",
+    "bold": false
+  },
+  "melt": {
+    "family": "ShingoukiMeltSC",
+    "file": "../../fonts/melt/ShingoukiMeltSC.ttf",
+    "bold": false
+  },
+  "diamond": {
+    "family": "ShingoukiDiamondSC",
+    "file": "../../fonts/diamond/ShingoukiDiamondSC.ttf",
+    "bold": false
+  }
+}

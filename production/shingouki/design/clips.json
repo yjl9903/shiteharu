@@ -1,0 +1,22 @@
+[
+ {"name":"01-opening-scroll","start":0,"end":13},
+ {"name":"02-fonts-and-asides","start":29,"end":38},
+ {"name":"03-cost-emphasis","start":48,"end":56},
+ {"name":"04-encounter-title","start":78,"end":86.5},
+ {"name":"05-wallet-reveal","start":117,"end":133.5},
+ {"name":"06-coffee-wordplay","start":155,"end":177},
+ {"name":"07-fractured-resolve","start":190,"end":200.2},
+ {"name":"08-traffic-hood","start":245,"end":258.5},
+ {"name":"09-self-awareness","start":294,"end":303},
+ {"name":"10-graveyard-repetition","start":314,"end":321.5},
+ {"name":"11-contact-lenses","start":359,"end":368},
+ {"name":"12-menu-escalation","start":395,"end":403.5},
+ {"name":"13-heat-reactions","start":409,"end":425},
+ {"name":"14-asides-and-balloons","start":432,"end":446},
+ {"name":"15-banana-reveal","start":455,"end":474},
+ {"name":"16-temperature-heading","start":483,"end":490},
+ {"name":"17-hell-brush-lettering","start":510,"end":516},
+ {"name":"18-wrong-entrance","start":519,"end":542},
+ {"name":"19-interpretation","start":550,"end":567},
+ {"name":"20-outro","start":589,"end":601.708}
+]

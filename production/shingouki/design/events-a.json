@@ -1,0 +1,2704 @@
+[
+  {
+    "id": "1-s1",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "小号圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        710,
+        965,
+        1210,
+        1065
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s2",
+    "font_role": "round",
+    "fontsize": 220,
+    "x": -14320,
+    "y": 745,
+    "align": 4,
+    "from_x": 1300,
+    "from_y": 745,
+    "effect": "slide",
+    "in_ms": 7407,
+    "max_width": 30000,
+    "allow_offscreen": true,
+    "extra_tags": "\\clip(0,610,1920,840)",
+    "source_style": "巨大圆黑单行从右向左持续横滚",
+    "source_boxes": [
+      [
+        0,
+        850,
+        1920,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "User-finalized long sentence; actual rightmost ink offset 15420px at fs220; scroll lasts7407ms and ends with visible tail atx1100. Offscreen entry/exit intentional.",
+    "outline": 9.9,
+    "bold": false,
+    "shadow": 1.1
+  },
+  {
+    "id": "1-s4",
+    "font_role": "mincho",
+    "fontsize": 200,
+    "x": 960,
+    "y": -16,
+    "effect": "none",
+    "source_style": "大号明朝体呼喊，硬切",
+    "source_boxes": [
+      [
+        540,
+        850,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.2,
+    "bold": false,
+    "shadow": 1.6,
+    "align": 8
+  },
+  {
+    "id": "1-s5",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        550,
+        960,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s7",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        410,
+        960,
+        1510,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s8",
+    "font_role": "round",
+    "fontsize": 115,
+    "x": 960,
+    "y": 940,
+    "effect": "none",
+    "source_style": "略放大的圆黑提问，硬切",
+    "source_boxes": [
+      [
+        280,
+        945,
+        1650,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.17,
+    "bold": false,
+    "shadow": 0.58
+  },
+  {
+    "id": "1-s8b",
+    "font_role": "mincho",
+    "fontsize": 290,
+    "x": 960,
+    "y": -31,
+    "outline": 7.54,
+    "shadow": 2.32,
+    "effect": "none",
+    "source_style": "超大粗明朝体信号機，硬切",
+    "source_boxes": [
+      [
+        500,
+        705,
+        1440,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "按用户最新偏好，大字居中上置，允许盖头发但露出五官。",
+    "max_width": 1760,
+    "bold": false,
+    "align": 8
+  },
+  {
+    "id": "1-s9",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        80,
+        955,
+        1840,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s11",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        90,
+        955,
+        1830,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s12",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 860,
+    "effect": "none",
+    "source_style": "双行圆黑白字黑边，硬切；中间另有Mercari旁注",
+    "source_boxes": [
+      [
+        150,
+        870,
+        1770,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "bold": false,
+    "shadow": 0.53
+  },
+  {
+    "id": "1-s13",
+    "font_role": "mincho",
+    "fontsize": 175,
+    "x": 960,
+    "y": 870,
+    "effect": "none",
+    "source_style": "中大号明朝体，硬切",
+    "source_boxes": [
+      [
+        530,
+        890,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.55,
+    "bold": false,
+    "shadow": 1.4
+  },
+  {
+    "id": "1-s13b",
+    "font_role": "mincho",
+    "fontsize": 175,
+    "x": 960,
+    "y": 870,
+    "effect": "none",
+    "source_style": "中大号明朝体，硬切",
+    "source_boxes": [
+      [
+        200,
+        890,
+        1730,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.55,
+    "bold": false,
+    "shadow": 1.4
+  },
+  {
+    "id": "1-s13c",
+    "font_role": "mincho",
+    "fontsize": 240,
+    "x": 960,
+    "y": -22,
+    "effect": "none",
+    "source_style": "超大明朝体好き，硬切",
+    "source_boxes": [
+      [
+        650,
+        760,
+        1290,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 6.24,
+    "max_width": 1760,
+    "limitations": "按用户最新偏好，短巨字居中上置，保留笑脸表情。",
+    "bold": false,
+    "shadow": 1.92,
+    "align": 8
+  },
+  {
+    "id": "1-s14",
+    "font_role": "round",
+    "fontsize": 90,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "小圆黑犹豫语，硬切",
+    "source_boxes": [
+      [
+        650,
+        960,
+        1290,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.05,
+    "bold": false,
+    "shadow": 0.45
+  },
+  {
+    "id": "1-s14b",
+    "font_role": "marker",
+    "fontsize": 105,
+    "x": 960,
+    "y": 915,
+    "effect": "none",
+    "source_style": "松散手写感字形，静止硬切",
+    "source_boxes": [
+      [
+        460,
+        930,
+        1460,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "霞鹜文楷近似源不规则手写感，未复制字形。",
+    "outline": 3.36,
+    "bold": false,
+    "shadow": 0.0
+  },
+  {
+    "id": "1-s14c",
+    "font_role": "marker",
+    "fontsize": 105,
+    "x": 960,
+    "y": 915,
+    "effect": "none",
+    "source_style": "松散手写感字形，静止硬切",
+    "source_boxes": [
+      [
+        660,
+        930,
+        1260,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.36,
+    "bold": false,
+    "shadow": 0.0
+  },
+  {
+    "id": "1-s14d",
+    "font_role": "marker",
+    "fontsize": 105,
+    "x": 960,
+    "y": 915,
+    "effect": "none",
+    "source_style": "松散手写感字形，静止硬切",
+    "source_boxes": [
+      [
+        660,
+        930,
+        1260,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.36,
+    "bold": false,
+    "shadow": 0.0
+  },
+  {
+    "id": "1-s14e",
+    "font_role": "marker",
+    "fontsize": 105,
+    "x": 960,
+    "y": 915,
+    "effect": "none",
+    "source_style": "松散手写感字形，静止硬切",
+    "source_boxes": [
+      [
+        500,
+        930,
+        1420,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.36,
+    "bold": false,
+    "shadow": 0.0
+  },
+  {
+    "id": "1-s15",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑小字幕配中央预防线巨字，硬切",
+    "source_boxes": [
+      [
+        530,
+        960,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s16",
+    "font_role": "diamond",
+    "fontsize": 150,
+    "italic": false,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        420,
+        930,
+        1500,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.5,
+    "bold": false,
+    "shadow": 0,
+    "blur": 0
+  },
+  {
+    "id": "1-s17",
+    "font_role": "diamond",
+    "fontsize": 145,
+    "italic": false,
+    "x": 960,
+    "y": 4,
+    "effect": "none",
+    "source_style": "双行细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        330,
+        765,
+        1590,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "max_width": 1760,
+    "outline": 4.35,
+    "face_boxes": [
+      [
+        770,
+        440,
+        1280,
+        745
+      ]
+    ],
+    "limitations": "原文双行从765起；译文居中上置至头发区域，保留五官，避免左侧不对称布局。",
+    "bold": false,
+    "shadow": 0,
+    "align": 8,
+    "blur": 0
+  },
+  {
+    "id": "1-s17b",
+    "font_role": "diamond",
+    "fontsize": 145,
+    "italic": false,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "明朝体小字幕并发中央道歉，硬切",
+    "source_boxes": [
+      [
+        500,
+        930,
+        1420,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.35,
+    "bold": false,
+    "shadow": 0,
+    "blur": 0
+  },
+  {
+    "id": "1-s18",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        30,
+        955,
+        1890,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s19",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边并发左侧列表，硬切",
+    "source_boxes": [
+      [
+        130,
+        955,
+        1790,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s20",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        75,
+        955,
+        1845,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s21",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，背景统计表移动而字幕静止",
+    "source_boxes": [
+      [
+        130,
+        955,
+        1790,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s22",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，背景统计表移动而字幕静止",
+    "source_boxes": [
+      [
+        220,
+        955,
+        1700,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s23",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边并发成本面板，硬切",
+    "source_boxes": [
+      [
+        200,
+        955,
+        1720,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s23b",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑小字幕并发巨字价格，硬切",
+    "source_boxes": [
+      [
+        240,
+        955,
+        1680,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s24",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边并发顶部比较式，硬切",
+    "source_boxes": [
+      [
+        160,
+        955,
+        1760,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s25",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 870,
+    "effect": "none",
+    "source_style": "双行圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        100,
+        874,
+        1820,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "bold": false,
+    "shadow": 0.53,
+    "line_advance": 94
+  },
+  {
+    "id": "1-s27",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        200,
+        955,
+        1720,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s28",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        60,
+        955,
+        1860,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s29",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        130,
+        955,
+        1790,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s29b",
+    "font_role": "mincho",
+    "fontsize": 195,
+    "x": 960,
+    "y": -15,
+    "effect": "none",
+    "source_style": "放大的明朝体悬念字，硬切",
+    "source_boxes": [
+      [
+        400,
+        880,
+        1520,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.07,
+    "bold": false,
+    "shadow": 1.56,
+    "align": 8
+  },
+  {
+    "id": "1-s30",
+    "font_role": "brush_title",
+    "fontsize": 140,
+    "x": 960,
+    "y": 850,
+    "outline": 4.9,
+    "effect": "none",
+    "source_style": "粗糙毛笔感白字黑边，字形静止",
+    "source_boxes": [
+      [
+        220,
+        870,
+        1700,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "用马善政字体近似粗糙笔触；未加无依据震动。",
+    "bold": false,
+    "shadow": 1.12
+  },
+  {
+    "id": "1-s31",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "小圆黑过门字，硬切",
+    "source_boxes": [
+      [
+        700,
+        955,
+        1220,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s31b",
+    "font_role": "mincho",
+    "fontsize": 195,
+    "x": 960,
+    "y": -14,
+    "outline": 5.07,
+    "shadow": 1.56,
+    "effect": "none",
+    "source_style": "超大粗明朝体标题，硬切，中央另有命名吐槽",
+    "source_boxes": [
+      [
+        65,
+        810,
+        1880,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文标题略缩小且上移；括注保持同一可编辑文本。",
+    "allow_face_overlap": true,
+    "reason": "原画中央命名吐槽本就横跨脸部，主标题与吐槽共同构成故意巨字演出。",
+    "bold": false,
+    "align": 8
+  },
+  {
+    "id": "1-s31c",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，左上有来源角标",
+    "source_boxes": [
+      [
+        100,
+        955,
+        1820,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s32",
+    "font_role": "diamond",
+    "fontsize": 155,
+    "italic": false,
+    "x": 960,
+    "y": 900,
+    "effect": "none",
+    "source_style": "细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        300,
+        920,
+        1620,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.65,
+    "bold": false,
+    "shadow": 0,
+    "blur": 0
+  },
+  {
+    "id": "1-s33",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        330,
+        955,
+        1590,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s34",
+    "font_role": "mincho",
+    "fontsize": 205,
+    "x": 960,
+    "y": -16,
+    "effect": "none",
+    "source_style": "大明朝体時は，硬切",
+    "source_boxes": [
+      [
+        700,
+        860,
+        1220,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.33,
+    "bold": false,
+    "shadow": 1.64,
+    "align": 8
+  },
+  {
+    "id": "1-s34b",
+    "font_role": "mincho",
+    "fontsize": 180,
+    "x": 960,
+    "y": -11,
+    "effect": "none",
+    "source_style": "巨明朝体満ちた，下半屏与Vtuber最高同时占满",
+    "source_boxes": [
+      [
+        590,
+        810,
+        1420,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "按用户最新偏好，已成熟居中上方；并发Vtuber译文在其下一行，双方不压源字。",
+    "max_width": 1760,
+    "outline": 4.68,
+    "bold": false,
+    "shadow": 1.44,
+    "align": 8
+  },
+  {
+    "id": "1-s35",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        480,
+        955,
+        1440,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s35b",
+    "font_role": "round",
+    "fontsize": 135,
+    "x": 960,
+    "y": 895,
+    "effect": "none",
+    "source_style": "放大的粗圆黑惊叹，硬切",
+    "source_boxes": [
+      [
+        580,
+        905,
+        1340,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 6.08,
+    "bold": false,
+    "shadow": 0.68
+  },
+  {
+    "id": "1-s36",
+    "font_role": "mincho",
+    "fontsize": 210,
+    "x": 960,
+    "y": -15,
+    "effect": "none",
+    "source_style": "大粗明朝体标题，硬切",
+    "source_boxes": [
+      [
+        350,
+        840,
+        1570,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.46,
+    "bold": false,
+    "shadow": 1.68,
+    "align": 8
+  },
+  {
+    "id": "1-s37",
+    "font_role": "mincho",
+    "fontsize": 205,
+    "x": 960,
+    "y": -16,
+    "effect": "none",
+    "source_style": "大粗明朝体标题，背景速度线但字静止",
+    "source_boxes": [
+      [
+        55,
+        840,
+        1865,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.33,
+    "bold": false,
+    "shadow": 1.64,
+    "align": 8
+  },
+  {
+    "id": "1-s38",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        450,
+        955,
+        1470,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s39",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切后接品牌Logo",
+    "source_boxes": [
+      [
+        400,
+        955,
+        1520,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s40",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        320,
+        955,
+        1600,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s40b",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑过门字，硬切",
+    "source_boxes": [
+      [
+        770,
+        955,
+        1150,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s41",
+    "font_role": "mincho",
+    "fontsize": 190,
+    "x": 960,
+    "y": -13,
+    "effect": "none",
+    "source_style": "中大号粗明朝地名，硬切",
+    "source_boxes": [
+      [
+        290,
+        880,
+        1630,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.94,
+    "bold": false,
+    "shadow": 1.52,
+    "align": 8
+  },
+  {
+    "id": "1-s42",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        280,
+        955,
+        1640,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s43",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        30,
+        955,
+        1890,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s45",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        120,
+        955,
+        1800,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s46",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边并发新闻文字，硬切",
+    "source_boxes": [
+      [
+        360,
+        955,
+        1560,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s47",
+    "font_role": "mincho",
+    "fontsize": 165,
+    "x": 960,
+    "y": -8,
+    "effect": "none",
+    "source_style": "大粗明朝体山标题，下方固定同时上方新闻标题更换",
+    "source_boxes": [
+      [
+        210,
+        900,
+        1710,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.29,
+    "max_width": 1760,
+    "face_boxes": [
+      [
+        1490,
+        705,
+        1775,
+        900
+      ]
+    ],
+    "bold": false,
+    "shadow": 1.32,
+    "align": 8,
+    "limitations": "Per user revision, centered at top instead of side placement; actual ink margin is calibrated separately. Original Japanese remains visible."
+  },
+  {
+    "id": "1-s48",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        240,
+        955,
+        1680,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s49",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        230,
+        955,
+        1690,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s50",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑短句，硬切",
+    "source_boxes": [
+      [
+        780,
+        955,
+        1140,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s50b",
+    "font_role": "round",
+    "fontsize": 115,
+    "x": 960,
+    "y": 940,
+    "effect": "none",
+    "source_style": "圆黑拟声词，硬切",
+    "source_boxes": [
+      [
+        760,
+        945,
+        1160,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 5.17,
+    "bold": false,
+    "shadow": 0.58
+  },
+  {
+    "id": "1-s51",
+    "font_role": "round",
+    "fontsize": 110,
+    "x": 960,
+    "y": 935,
+    "effect": "none",
+    "source_style": "粗圆黑店名，硬切",
+    "source_boxes": [
+      [
+        550,
+        940,
+        1370,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.95,
+    "bold": false,
+    "shadow": 0.55
+  },
+  {
+    "id": "1-s52",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        380,
+        955,
+        1540,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s52b",
+    "font_role": "round",
+    "fontsize": 95,
+    "x": 960,
+    "y": 4,
+    "max_width": 1760,
+    "effect": "none",
+    "source_style": "圆黑延长音，静止；117.818切至现金提示近景",
+    "source_boxes": [
+      [
+        500,
+        955,
+        1450,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Per user revision, centered at top instead of side placement; actual ink margin is calibrated separately. Original Japanese remains visible.",
+    "outline": 4.27,
+    "bold": false,
+    "shadow": 0.48,
+    "align": 8
+  },
+  {
+    "id": "1-s53",
+    "font_role": "mincho",
+    "fontsize": 180,
+    "x": 960,
+    "y": -13,
+    "max_width": 1760,
+    "effect": "none",
+    "source_style": "手写感单字反应，硬切",
+    "source_boxes": [
+      [
+        870,
+        900,
+        1050,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Per user revision, centered at top instead of side placement; actual ink margin is calibrated separately. Original Japanese remains visible.",
+    "outline": 4.68,
+    "bold": false,
+    "shadow": 1.44,
+    "align": 8
+  },
+  {
+    "id": "1-s56",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        350,
+        955,
+        1570,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s57",
+    "font_role": "mincho",
+    "fontsize": 240,
+    "x": 960,
+    "y": -21,
+    "outline": 6.24,
+    "shadow": 0,
+    "effect": "none",
+    "source_style": "巨大的白色明朝体钱包标题，硬切",
+    "source_boxes": [
+      [
+        190,
+        820,
+        1760,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "max_width": 1760,
+    "face_boxes": [
+      [
+        760,
+        470,
+        1250,
+        740
+      ]
+    ],
+    "limitations": "按用户最新截图反馈，取消左侧分行；大字恢复单行居中上方，略缩小并允许覆盖头发。",
+    "bold": false,
+    "align": 8,
+    "blur": 0,
+    "soft_shadow": {
+      "x": 2.88,
+      "y": 5.76,
+      "spread": 2.88,
+      "blur": 5.76,
+      "alpha": "20"
+    }
+  },
+  {
+    "id": "1-s58",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边并发梦问号，硬切",
+    "source_boxes": [
+      [
+        150,
+        955,
+        1770,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s59",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        75,
+        955,
+        1845,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s60",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        150,
+        955,
+        1770,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s61",
+    "font_role": "mincho",
+    "fontsize": 155,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "中大号粗明朝体夸张描述，硬切",
+    "source_boxes": [
+      [
+        60,
+        930,
+        1860,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.03,
+    "bold": false,
+    "shadow": 1.24
+  },
+  {
+    "id": "1-s62",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        100,
+        955,
+        1820,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s63",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        80,
+        955,
+        1840,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s65",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 3,
+    "effect": "none",
+    "source_style": "双行圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        200,
+        860,
+        1720,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "max_width": 1760,
+    "face_boxes": [
+      [
+        1580,
+        730,
+        1840,
+        905
+      ]
+    ],
+    "bold": false,
+    "shadow": 0.53,
+    "align": 8,
+    "limitations": "Per user revision, centered at top instead of side placement; actual ink margin is calibrated separately. Original Japanese remains visible."
+  },
+  {
+    "id": "1-s67",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 3,
+    "effect": "none",
+    "source_style": "双行圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        210,
+        860,
+        1710,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "max_width": 1760,
+    "bold": false,
+    "shadow": 0.53,
+    "align": 8,
+    "limitations": "Per user revision, centered at top instead of side placement; actual ink margin is calibrated separately. Original Japanese remains visible."
+  },
+  {
+    "id": "1-s68",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        150,
+        955,
+        1770,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s68b",
+    "font_role": "round",
+    "fontsize": 100,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "小手写感笑声，硬切",
+    "source_boxes": [
+      [
+        800,
+        955,
+        1120,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.5,
+    "bold": false,
+    "shadow": 0.5
+  },
+  {
+    "id": "1-s69",
+    "font_role": "mincho",
+    "fontsize": 175,
+    "x": 960,
+    "y": 890,
+    "effect": "none",
+    "source_style": "明朝体长音反应，硬切",
+    "source_boxes": [
+      [
+        600,
+        910,
+        1320,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.55,
+    "bold": false,
+    "shadow": 1.4
+  },
+  {
+    "id": "1-s70",
+    "font_role": "mincho",
+    "fontsize": 160,
+    "x": 960,
+    "y": 752,
+    "outline": 4.16,
+    "shadow": 1.28,
+    "effect": "none",
+    "source_style": "双行大粗明朝体咖啡夸张标题，硬切",
+    "source_boxes": [
+      [
+        20,
+        762,
+        1900,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文双行上移，不覆盖原双行标题；源上下行字体细节用同一衬线家族近似。",
+    "bold": false,
+    "line_advance": 142
+  },
+  {
+    "id": "1-s72",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        350,
+        955,
+        1570,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s73",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        300,
+        955,
+        1620,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s74",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        430,
+        955,
+        1490,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s74b",
+    "font_role": "mincho",
+    "fontsize": 155,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "明朝体转述店员，硬切",
+    "source_boxes": [
+      [
+        480,
+        930,
+        1440,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.03,
+    "bold": false,
+    "shadow": 1.24
+  },
+  {
+    "id": "1-s74c",
+    "font_role": "mincho",
+    "fontsize": 185,
+    "spacing": 3,
+    "x": 960,
+    "y": 855,
+    "effect": "none",
+    "source_style": "大明朝体宽字距与音符，字形静止",
+    "source_boxes": [
+      [
+        260,
+        880,
+        1660,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.81,
+    "bold": false,
+    "shadow": 1.48
+  },
+  {
+    "id": "1-s75",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        470,
+        955,
+        1450,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s75b",
+    "font_role": "mincho",
+    "fontsize": 100,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "明朝体哲学旁白，硬切",
+    "source_boxes": [
+      [
+        50,
+        930,
+        1870,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 2.6,
+    "bold": false,
+    "shadow": 0.8
+  },
+  {
+    "id": "1-s76",
+    "font_role": "mincho",
+    "fontsize": 145,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "明朝体哲学旁白，硬切",
+    "source_boxes": [
+      [
+        390,
+        930,
+        1530,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.77,
+    "bold": false,
+    "shadow": 1.16
+  },
+  {
+    "id": "1-s77",
+    "font_role": "mincho",
+    "fontsize": 130,
+    "x": 960,
+    "y": 850,
+    "effect": "none",
+    "source_style": "双行明朝体哲学旁白，硬切",
+    "source_boxes": [
+      [
+        140,
+        845,
+        1780,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.38,
+    "bold": false,
+    "shadow": 1.04,
+    "line_advance": 105
+  },
+  {
+    "id": "1-s77b",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑短句并发適当小旁注，硬切",
+    "source_boxes": [
+      [
+        610,
+        955,
+        1310,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s78",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        90,
+        955,
+        1830,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s79",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        380,
+        955,
+        1540,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s79b",
+    "font_role": "mincho",
+    "fontsize": 170,
+    "x": 960,
+    "y": 890,
+    "effect": "none",
+    "source_style": "放大明朝体强调奶油，硬切",
+    "source_boxes": [
+      [
+        170,
+        910,
+        1750,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.42,
+    "bold": false,
+    "shadow": 1.36
+  },
+  {
+    "id": "1-s80",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        60,
+        955,
+        1860,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s82",
+    "font_role": "mincho",
+    "fontsize": 155,
+    "x": 960,
+    "y": 910,
+    "effect": "none",
+    "source_style": "中大明朝体强调，硬切",
+    "source_boxes": [
+      [
+        400,
+        930,
+        1520,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.03,
+    "bold": false,
+    "shadow": 1.24
+  },
+  {
+    "id": "1-s83",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑短反应，硬切",
+    "source_boxes": [
+      [
+        760,
+        955,
+        1160,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s84",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑短反应，硬切",
+    "source_boxes": [
+      [
+        740,
+        955,
+        1180,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s85",
+    "font_role": "mincho",
+    "fontsize": 135,
+    "x": 960,
+    "y": 930,
+    "effect": "none",
+    "source_style": "中号明朝体，硬切",
+    "source_boxes": [
+      [
+        60,
+        950,
+        1860,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.51,
+    "bold": false,
+    "shadow": 1.08
+  },
+  {
+    "id": "1-s86",
+    "font_role": "mincho",
+    "fontsize": 195,
+    "scale_x": 76,
+    "x": 960,
+    "y": 870,
+    "outline": 5.07,
+    "shadow": 1.56,
+    "effect": "none",
+    "source_style": "超宽细长大明朝体芭菲标题，硬切",
+    "source_boxes": [
+      [
+        40,
+        890,
+        1890,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文保持窄长字比例，略缩小避开日文和中央吐槽。",
+    "bold": false
+  },
+  {
+    "id": "1-s87",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        170,
+        955,
+        1750,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "1-s88",
+    "font_role": "fracture",
+    "fontsize": 200,
+    "outline": 5.0,
+    "shadow": 0.0,
+    "x": 960,
+    "y": 820,
+    "effect": "none",
+    "amplitude": 1.5,
+    "source_style": "粗明朝体带静态破损裂纹与错位，逐帧未见震动",
+    "source_boxes": [
+      [
+        140,
+        845,
+        1790,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "用静态8像素横带错位近似破损；无法逐笔复刻源字内部斑驳，不加时间震动。",
+    "bold": false
+  },
+  {
+    "id": "1-s88b",
+    "font_role": "round",
+    "fontsize": 105,
+    "x": 960,
+    "y": 952,
+    "effect": "none",
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        470,
+        955,
+        1450,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 4.72,
+    "shadow": 0.53,
+    "bold": false
+  },
+  {
+    "id": "a-mercari",
+    "supplemental": true,
+    "start": 21.956,
+    "end": 23.891,
+    "text_ja": "ちなみにメルカリでも売っています",
+    "text_zh": "顺带一提 Mercari上也有卖",
+    "font_role": "round",
+    "fontsize": 68,
+    "x": 960,
+    "y": 500,
+    "effect": "none",
+    "source_style": "中央小圆黑旁注，白字黑边硬切",
+    "source_boxes": [
+      [
+        465,
+        505,
+        1455,
+        600
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.06,
+    "bold": false,
+    "shadow": 0.34
+  },
+  {
+    "id": "a-disclaimer",
+    "supplemental": true,
+    "start": 30.931,
+    "end": 32.232,
+    "text_ja": "予防線",
+    "text_zh": "预防针",
+    "font_role": "mincho",
+    "fontsize": 260,
+    "outline": 6.76,
+    "shadow": 2.08,
+    "x": 960,
+    "y": -25,
+    "effect": "none",
+    "source_style": "中央超大明朝体预防线，硬切",
+    "source_boxes": [
+      [
+        490,
+        300,
+        1460,
+        710
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文移到顶部保留中央原文。",
+    "allow_face_overlap": true,
+    "reason": "原中央巨字故意遮脸，中文延续巨字强调。",
+    "bold": false,
+    "align": 8
+  },
+  {
+    "id": "a-enthusiasts",
+    "supplemental": true,
+    "start": 36.17,
+    "end": 37.304,
+    "text_ja": "マニアの皆さんご勘弁ください",
+    "text_zh": "各位爱好者请多包涵",
+    "font_role": "mincho",
+    "fontsize": 140,
+    "x": 960,
+    "y": 430,
+    "effect": "none",
+    "source_style": "中央明朝体恳求句，硬切",
+    "source_boxes": [
+      [
+        100,
+        450,
+        1850,
+        610
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.64,
+    "allow_face_overlap": true,
+    "reason": "原字幕在脸上横贯，中文紧贴其上方延续吐槽演出。",
+    "bold": false,
+    "shadow": 1.12
+  },
+  {
+    "id": "a-led-benefits",
+    "supplemental": true,
+    "start": 40.04,
+    "end": 42.442,
+    "text_ja": "・コスト削減\n・点灯寿命\n・軽量化\n・疑似点灯防止\n・高速応答時間\n・低熱　…",
+    "text_zh": "·降低成本\n·使用寿命\n·减轻重量\n·防止假亮\n·响应迅速\n·低发热　…",
+    "font_role": "round",
+    "fontsize": 90,
+    "x": 1400,
+    "y": 237,
+    "align": 7,
+    "max_width": 700,
+    "effect": "none",
+    "source_style": "左侧六行白字黑边列表，硬切",
+    "source_boxes": [
+      [
+        130,
+        235,
+        590,
+        825
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "译列表改置右侧空区，保留原列表。",
+    "outline": 4.05,
+    "bold": false,
+    "shadow": 0.35,
+    "line_advance": 97.7
+  },
+  {
+    "id": "a-price-panel",
+    "supplemental": true,
+    "start": 49.883,
+    "end": 52.319,
+    "text_ja": "信号機本体（灯器）：約6万〜12万円程度\n信号柱（支柱）：数十万〜100万円以上\n信号制御機（制御盤）：約100万円〜200万円以上\n全体の設置・工事費用総額：\n小さな交差点や単体交換：約120万〜300万円\n一般的な交差点全体（灯器・柱・制…\n約500万円〜600万円",
+    "text_zh": "信号灯本体：约6万～12万日元\n信号灯杆：数十万至100万日元以上\n信号控制器：约100万至200万日元以上\n整体安装及施工总费用：\n小型路口或单独更换：约120万～300万日元\n一般路口整套设备（灯具·灯杆·控…\n约500万～600万日元",
+    "font_role": "round",
+    "fontsize": 42,
+    "x": 1080,
+    "y": 35,
+    "align": 7,
+    "max_width": 800,
+    "outline": 1.89,
+    "shadow": 0.21,
+    "effect": "none",
+    "source_style": "左上白底成本说明面板，多行黑字",
+    "source_boxes": [
+      [
+        20,
+        20,
+        1060,
+        550
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文右上七行；源右端被挡内容只留省略号，细字为保持双语可见而缩小。",
+    "bold": false
+  },
+  {
+    "id": "a-big-price",
+    "supplemental": true,
+    "start": 52.319,
+    "end": 54.221,
+    "text_ja": "約3〜500万",
+    "text_zh": "约三五百万日元",
+    "font_role": "mincho",
+    "fontsize": 200,
+    "x": 960,
+    "y": 170,
+    "outline": 5.2,
+    "shadow": 1.6,
+    "effect": "none",
+    "source_style": "中央巨型粗明朝价格，白字黑边硬切",
+    "source_boxes": [
+      [
+        15,
+        190,
+        1900,
+        575
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文顶部并保留巨字；约三五百万是依前面价目语境解释，日文原样。",
+    "allow_face_overlap": true,
+    "reason": "原巨型价格覆盖角色，中文紧贴上缘。",
+    "bold": false
+  },
+  {
+    "id": "a-old-type",
+    "supplemental": true,
+    "start": 54.221,
+    "end": 56.223,
+    "text_ja": "従来型≠白熱球",
+    "text_zh": "老式外壳≠白炽灯泡",
+    "font_role": "round",
+    "fontsize": 135,
+    "x": 960,
+    "y": 420,
+    "effect": "none",
+    "source_style": "顶部粗圆黑比较式，灰色底条，硬切",
+    "source_boxes": [
+      [
+        330,
+        95,
+        1555,
+        295
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "源比较式近顶，中文以大字紧贴其下方约20像素；其上方不足容纳相当字号。",
+    "outline": 6.08,
+    "allow_face_overlap": true,
+    "reason": "原比较式覆盖角色额头区；译文贴近下方，不遮眼鼻嘴。",
+    "bold": false,
+    "shadow": 0.68
+  },
+  {
+    "id": "a-saisin",
+    "supplemental": true,
+    "start": 58.125,
+    "end": 60.728,
+    "text_ja": "saisin",
+    "text_zh": "最新款",
+    "font_role": "round",
+    "fontsize": 70,
+    "x": 940,
+    "y": 265,
+    "effect": "none",
+    "source_style": "小型拉丁字旁注，随背景轻微缩放",
+    "source_boxes": [
+      [
+        825,
+        270,
+        1070,
+        375
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "原旁注随背景轻微缩放，译文固定于上方安全区；源框含移动范围。",
+    "outline": 3.15,
+    "bold": false,
+    "shadow": 0.35
+  },
+  {
+    "id": "a-naming",
+    "supplemental": true,
+    "start": 71.906,
+    "end": 72.54,
+    "text_ja": "ネーミングそのままやないか",
+    "text_zh": "这名字也太直白了吧",
+    "font_role": "round",
+    "fontsize": 68,
+    "x": 960,
+    "y": 520,
+    "effect": "none",
+    "source_style": "中央小圆黑吐槽，硬切",
+    "source_boxes": [
+      [
+        620,
+        530,
+        1310,
+        625
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.06,
+    "allow_face_overlap": true,
+    "reason": "原吐槽横跨角色脸，中文跟随同一强调区域。",
+    "bold": false,
+    "shadow": 0.34
+  },
+  {
+    "id": "a-photo-credit",
+    "supplemental": true,
+    "start": 72.54,
+    "end": 76.71,
+    "text_ja": "写真引用：東海テレビ",
+    "text_zh": "图片来源：东海电视台",
+    "font_role": "round",
+    "fontsize": 30,
+    "x": 24,
+    "y": 42,
+    "align": 7,
+    "max_width": 600,
+    "outline": 1.35,
+    "shadow": 0.15,
+    "effect": "none",
+    "source_style": "左上角微小白色图片来源字",
+    "source_boxes": [
+      [
+        0,
+        0,
+        290,
+        35
+      ]
+    ],
+    "timing_status": "sampled",
+    "limitations": "clean联系图发现的角标；生命周期随图片入出场推定，未独立逐帧查角标。",
+    "bold": false
+  },
+  {
+    "id": "a-climbers",
+    "supplemental": true,
+    "start": 102.202,
+    "end": 103.804,
+    "text_ja": "全国から「登山者」が絶えない",
+    "text_zh": "全国各地的「登山客」络绎不绝",
+    "font_role": "round",
+    "fontsize": 85,
+    "x": 960,
+    "y": 405,
+    "effect": "none",
+    "source_style": "画面中央新闻标题，黑体印刷字",
+    "source_boxes": [
+      [
+        140,
+        420,
+        1780,
+        660
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 3.82,
+    "bold": false,
+    "shadow": 0.42
+  },
+  {
+    "id": "a-nagoya-headline",
+    "supplemental": true,
+    "start": 103.804,
+    "end": 105.238,
+    "text_ja": "名古屋観光に来た人を奈落に突き落とす「登山…",
+    "text_zh": "把名古屋游客推入深渊的「登山…",
+    "font_role": "round",
+    "fontsize": 80,
+    "x": 960,
+    "y": 460,
+    "effect": "none",
+    "source_style": "白底紫色新闻标题，硬切",
+    "source_boxes": [
+      [
+        70,
+        475,
+        1850,
+        610
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "保留可读标题至省略号，不补被角色挡住的后文；译文以白字黑边保持可读。",
+    "outline": 3.6,
+    "bold": false,
+    "shadow": 0.4
+  },
+  {
+    "id": "a-warning-headline",
+    "supplemental": true,
+    "start": 105.238,
+    "end": 106.64,
+    "text_ja": "【番外編】遭難にご注意\n単独登山記録 - 名古…",
+    "text_zh": "【番外篇】当心遇险\n单人登山记录 - 名古…",
+    "font_role": "round",
+    "fontsize": 85,
+    "x": 960,
+    "y": 335,
+    "effect": "none",
+    "source_style": "白底双行粗黑新闻标题，硬切",
+    "source_boxes": [
+      [
+        345,
+        355,
+        1595,
+        725
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "只译可读片段，中文置于源标题上方。",
+    "outline": 3.82,
+    "bold": false,
+    "shadow": 0.42
+  },
+  {
+    "id": "a-cash-sign",
+    "supplemental": true,
+    "start": 117.818,
+    "end": 121.055,
+    "text_ja": "お客様へ\n当店での\nお支払いは\n現金のみと\nなっております。",
+    "text_zh": "顾客须知\n本店仅接受现金支付",
+    "font_role": "casual",
+    "fontsize": 65,
+    "x": 35,
+    "y": 210,
+    "align": 7,
+    "max_width": 560,
+    "outline": 1.43,
+    "shadow": 0.0,
+    "effect": "none",
+    "source_style": "镜头硬切近景的真实手写现金牌，随后相机移动",
+    "source_boxes": [
+      [
+        650,
+        160,
+        1350,
+        925
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "可读近景从117.818硬切开始，修正旧118.1近似值；中文固定左侧，源框为相机运动的保守并集，不把相机运动伪作文字动画。",
+    "bold": false
+  },
+  {
+    "id": "a-dream",
+    "supplemental": true,
+    "start": 133.4,
+    "end": 134.368,
+    "text_ja": "夢？",
+    "text_zh": "做梦？",
+    "font_role": "mincho",
+    "fontsize": 230,
+    "x": 960,
+    "y": 420,
+    "outline": 5.98,
+    "shadow": 1.84,
+    "effect": "none",
+    "source_style": "中央大明朝体梦问号，硬切",
+    "source_boxes": [
+      [
+        735,
+        440,
+        1185,
+        720
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "allow_face_overlap": true,
+    "reason": "原夢？即在角色脸中央，中文延续提问大字。",
+    "bold": false
+  },
+  {
+    "id": "a-random-philosophy",
+    "supplemental": true,
+    "start": 178.211,
+    "end": 178.845,
+    "text_ja": "適当",
+    "text_zh": "随口胡诌",
+    "font_role": "mincho",
+    "fontsize": 105,
+    "x": 960,
+    "y": 500,
+    "effect": "none",
+    "source_style": "咖啡杯上方小明朝体吐槽，硬切",
+    "source_boxes": [
+      [
+        835,
+        515,
+        1080,
+        650
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 2.73,
+    "bold": false,
+    "shadow": 0.84
+  },
+  {
+    "id": "a-mistake",
+    "supplemental": true,
+    "start": 193.794,
+    "end": 195.362,
+    "text_ja": "本当に間違えたかも",
+    "text_zh": "这次可能真点错了",
+    "font_role": "mincho",
+    "fontsize": 110,
+    "x": 960,
+    "y": 495,
+    "effect": "none",
+    "source_style": "中央小明朝体吐槽，硬切",
+    "source_boxes": [
+      [
+        595,
+        510,
+        1325,
+        625
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "outline": 2.86,
+    "bold": false,
+    "shadow": 0.88
+  }
+]

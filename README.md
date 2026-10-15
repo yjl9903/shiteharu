@@ -26,7 +26,7 @@
 
 | 标题 | 视频 | 中文字幕 | 完成 | 更新时间 |
 | --- | --- | --- | --- | --- |
-| [『信号機の墓場』へ行こう](https://www.youtube.com/watch?v=l_jfyIEddfw)（去「信号灯墓场」吧） | ✅ | [SRT](production/shingouki/deliverables/zh.srt) · [ASS](production/shingouki/deliverables/zh.performance.ass) | ⬜ | 2026-10-16 |
+| [『信号機の墓場』へ行こう](https://www.youtube.com/watch?v=l_jfyIEddfw)（去「信号灯墓场」吧） | ✅ | [SRT](production/shingouki/deliverables/zh.srt) · [ASS](production/shingouki/deliverables/zh.performance.ass) | ✅ | 2026-10-16 |
 
 原片与渲染视频保存在本地，不纳入 Git。
 
