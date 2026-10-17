@@ -1,0 +1,345 @@
+[
+  {
+    "file": "research/fonts/candidates/FengYaSong/MaoKenWangFengYaSong.ttf",
+    "family": "MaoKenWangFengYaSong",
+    "style": "Regular",
+    "characters": 42767,
+    "sha256": "bf8331db9e2a4b7f16f81de2a24baae37e2619fbaad0599e6b2b8722a2ab7dd2"
+  },
+  {
+    "file": "research/fonts/candidates/yujisyuku/YujiSyuku-Regular.ttf",
+    "family": "Yuji Syuku",
+    "style": "Regular",
+    "characters": 8013,
+    "sha256": "82728ebafc8c97391e2dab633414a806f344b8e4e2227d307179f07b548fca61"
+  },
+  {
+    "file": "research/fonts/candidates/ZenMaru/ZenMaruGothic-Black.ttf",
+    "family": "Zen Maru Gothic Black",
+    "style": "Regular",
+    "characters": 7812,
+    "sha256": "6bd74fe76cd39ee0ec18775c3661d845343fb3f6f8fa09a3076638417baf741f"
+  },
+  {
+    "file": "research/fonts/candidates/stick/Stick-Regular.ttf",
+    "family": "Stick",
+    "style": "Regular",
+    "characters": 8231,
+    "sha256": "0e582d72b5125c7847d1c46b658333194f7a3f70bfa210d2f8cae1a596a17857"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Normal.ttf",
+    "family": "Resource Han Rounded CN Normal",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "33c26dd81ff65e9027a3628dc586fe59a2ed3c082c09e5b0836f1e1f389ee2f3"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Bold.ttf",
+    "family": "Resource Han Rounded CN",
+    "style": "Bold",
+    "characters": 30887,
+    "sha256": "f713907a21a10701cd68a7ce3e345ccdce46c789e1809d65ace54e095d7107c3"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-ExtraLight.ttf",
+    "family": "Resource Han Rounded CN ExtraLight",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "94df922839d72697ffe9753f1939649b1de8a11d477684a3dc10d09be8bd78ac"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Regular.ttf",
+    "family": "Resource Han Rounded CN",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Light.ttf",
+    "family": "Resource Han Rounded CN Light",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "fdb71ac5fb0bd44f0a26c1669242e729d45440aeacc1fde4df4c1848bb164290"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Heavy.ttf",
+    "family": "Resource Han Rounded CN Heavy",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "dfc757d9c5ae597cac15b12a51a1cee07af500cc8cf7439b243e1bb94b2b1f83"
+  },
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Medium.ttf",
+    "family": "Resource Han Rounded CN Medium",
+    "style": "Regular",
+    "characters": 30887,
+    "sha256": "b2ec1727fbc04b70255db6cb71be0eca3b7a7167ef11655059c5576cc920143f"
+  },
+  {
+    "file": "research/fonts/candidates/mochiypoppone/MochiyPopPOne-Regular.ttf",
+    "family": "Mochiy Pop P One",
+    "style": "Regular",
+    "characters": 14293,
+    "sha256": "0031243aa1290c63c7551f8cdf06b1631a5c72033d12b2b7c595e60660007252"
+  },
+  {
+    "file": "research/fonts/candidates/SourceHanSerif/SourceHanSerif-Heavy.otf",
+    "family": "Source Han Serif Heavy",
+    "style": "Regular",
+    "characters": 44779,
+    "sha256": "e0501f8d5dda1a967b416f03479b299d75b2a9310d1bde72fdd7fd5abb828070"
+  },
+  {
+    "file": "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf",
+    "family": "Source Han Serif SC Heavy",
+    "style": "Regular",
+    "characters": 44779,
+    "sha256": "d033af54f96530476faed924ab5d5e9e6ef0833495670fd57bab9a7758398048"
+  },
+  {
+    "file": "research/fonts/candidates/PangMen/PangMen.ttf",
+    "family": "PangMenZhengDao-Cu",
+    "style": "Regular",
+    "characters": 7590,
+    "sha256": "06b2048c592b1dae43b7ab895c941fbc7cfe11060da1c0cb8e68cb178ae6735a"
+  },
+  {
+    "file": "research/fonts/candidates/Reggae/ReggaeOne-Regular.ttf",
+    "family": "Reggae One",
+    "style": "Regular",
+    "characters": 8231,
+    "sha256": "aebe62598732d76036f30ec11bb0ec5f68938e373a06d1b4ceb6b9cf1abf3db2"
+  },
+  {
+    "file": "research/fonts/candidates/Jiyu/JiyunoTsubasa.ttf",
+    "family": "JiyunoTsubasaFont",
+    "style": "Regular",
+    "characters": 14963,
+    "sha256": "15abeb77c07a0fdc4623de28fc7881a04e8657565cbdee3a054d89751309e8aa"
+  },
+  {
+    "file": "research/fonts/candidates/mochiypopone/MochiyPopOne-Regular.ttf",
+    "family": "Mochiy Pop One",
+    "style": "Regular",
+    "characters": 14293,
+    "sha256": "9e009430e1316c271a5f34759c6b65fc343c4e806f193042528887e7235a92c6"
+  },
+  {
+    "file": "research/fonts/candidates/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf",
+    "family": "ZCOOL KuaiLe",
+    "style": "Regular",
+    "characters": 7053,
+    "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+  },
+  {
+    "file": "research/fonts/candidates/shipporiminchob1/ShipporiMinchoB1-ExtraBold.ttf",
+    "family": "Shippori Mincho B1 ExtraBold",
+    "style": "Regular",
+    "characters": 15363,
+    "sha256": "bee99a242f32128e8d6a4acff2b3f1742cd42ea90748758e6e10456871887e76"
+  },
+  {
+    "file": "research/fonts/candidates/rocknrollone/RocknRollOne-Regular.ttf",
+    "family": "RocknRoll One",
+    "style": "Regular",
+    "characters": 8230,
+    "sha256": "dc0f5ff975851827f63f2c6bfed128ffbca14b6399a10fb5e1711215c0108526"
+  },
+  {
+    "file": "research/fonts/candidates/Keifont/keifont.ttf",
+    "family": "Keifont",
+    "style": "Regular",
+    "characters": 14963,
+    "sha256": "d5795bdff960c2b2ec5727ffeb79d836f8f11dac3015f6e16089a912e9cced6f"
+  },
+  {
+    "file": "research/fonts/candidates/newtegomin/NewTegomin-Regular.ttf",
+    "family": "New Tegomin",
+    "style": "Regular",
+    "characters": 7074,
+    "sha256": "bcae8775f0f9b88e12e40434918c56817e96e3a291e2a6595a34fb38fe3e58fb"
+  },
+  {
+    "file": "research/fonts/candidates/MaokenAssortedSans/MaokenAssortedSans.ttf",
+    "family": "MaokenAssortedSans",
+    "style": "Regular",
+    "characters": 31220,
+    "sha256": "29b4fea4dfaf50be4b9ede602cc713eca1e411e0b498b74e8ea41f2c68f6fb90"
+  },
+  {
+    "file": "research/fonts/candidates/yozai-font/Yozai-Medium.ttf",
+    "family": "Yozai Medium",
+    "style": "Regular",
+    "characters": 26006,
+    "sha256": "05f50f252b45197d0d6148a4abc3e37c7cd4cfdf03c955b57c25d53d924f835f"
+  },
+  {
+    "file": "research/fonts/candidates/yozai-font/Yozai-Light.ttf",
+    "family": "Yozai Light",
+    "style": "Regular",
+    "characters": 26006,
+    "sha256": "0efc843308810c04ec394d8af27d0871ada3a9cc4860a226abde88a1bc67b3bd"
+  },
+  {
+    "file": "research/fonts/candidates/yozai-font/Yozai-Regular.ttf",
+    "family": "Yozai",
+    "style": "Regular",
+    "characters": 26006,
+    "sha256": "25071998a0fe6a72f54c235e714986d259633e5ff670b1a2b5e264387f3316ac"
+  },
+  {
+    "file": "research/fonts/candidates/Tiejili/TiejiliSC-Regular.ttf",
+    "family": "Tiejili SC",
+    "style": "Regular",
+    "characters": 13121,
+    "sha256": "a62b797d8a3b283791700c7b1a476dda34d11843b68bcde39960db78d22052d8"
+  },
+  {
+    "file": "research/fonts/candidates/hinamincho/HinaMincho-Regular.ttf",
+    "family": "Hina Mincho",
+    "style": "Regular",
+    "characters": 7967,
+    "sha256": "8395fafa0c2721b4b5c274031e1336fea0f703d908b175ee21f8ba2f1ad566a0"
+  },
+  {
+    "file": "research/fonts/candidates/kaiseidecol/KaiseiDecol-Regular.ttf",
+    "family": "Kaisei Decol",
+    "style": "Regular",
+    "characters": 7930,
+    "sha256": "fb9202b97944fa00b5f145ad4701def5c306bcd0d26407917baef9e01b042056"
+  },
+  {
+    "file": "research/fonts/candidates/LongZhuTi/LongZhuTi-Regular.ttf",
+    "family": "LongZhuTi",
+    "style": "Regular",
+    "characters": 14318,
+    "sha256": "a7c16e4ec41419981f2a54b35a0ec8f3dba61884b8b8e03721fed179f2088102"
+  },
+  {
+    "file": "research/fonts/candidates/Nikumaru/NikumaruFont/07é╔é¡é▄éΘâtâHâôâg.otf",
+    "family": "07NikumaruFont",
+    "style": "Regular",
+    "characters": 9804,
+    "sha256": "32146e718f54705267003b11df2013553c7e17d224a0fd49cca50353e81ccd87"
+  },
+  {
+    "file": "research/fonts/candidates/Nikumaru/NikumaruFont/é╗é╠æ╝âtâ@âCâïüiâTâ|ü[âgèOüj/07é╔é¡é▄éΘâtâHâôâg.ttf",
+    "family": "07NikumaruFont",
+    "style": "Regular",
+    "characters": 14963,
+    "sha256": "57d2978547314fb26f5a1618fa4101bdff5c6d75052f5a146c87cb141b35b409"
+  },
+  {
+    "file": "research/fonts/candidates/LightNovelPOP/LightNovelPOP_FONT/ラノベPOP.otf",
+    "family": "07LightNovelPOP",
+    "style": "Regular",
+    "characters": 9804,
+    "sha256": "b52155b2b43581864bc1d10859b0ab2c5e6fca1f3581161a7bb3f18b36646363"
+  },
+  {
+    "file": "research/fonts/candidates/LightNovelPOP/LightNovelPOP_FONT/その他-サポート外/ラノベPOP.ttf",
+    "family": "07LightNovelPOP",
+    "style": "Regular",
+    "characters": 9804,
+    "sha256": "33b76781aa0b48c2557513d1aadc553727b6be9e55b166d5e623263a573c28bf"
+  },
+  {
+    "file": "research/fonts/candidates/Kinkaku/kinkaku/Kinkakuji-Normal.otf",
+    "family": "金畫字 Normal",
+    "style": "Regular",
+    "characters": 7383,
+    "sha256": "52b4b2b3851ccd8f0c92c0f84d33516e17269bc2c89a164c5bcaa671f4c48f63"
+  },
+  {
+    "file": "research/fonts/candidates/Kinkaku/kinkaku/Kinkakuji-Normal.ttf",
+    "family": "金畫字 Normal",
+    "style": "Regular",
+    "characters": 7383,
+    "sha256": "cea3ebf88de8948e539507aa69c5c7809577e6547555ab1f299885f66e5ec79c"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Regular.otf",
+    "family": "Togalite",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "bfd5abfe30bfedf900f5facc4cc502f852b75912970f882b68b04a6818685f1f"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Black.otf",
+    "family": "Togalite Black",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "7e364d1fb107248e23b0aa288ad73908315b862275030bd3c0e281ae27359796"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Thin.otf",
+    "family": "Togalite Thin",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "7ab315422116177dadd7fff74bc28067eff8bf2605fcada12d1611fbdbbce9f8"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Bold.otf",
+    "family": "Togalite Bold",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "ee64cb8405a246f1e6685e41b86d559480e5160a37f78ac719289ab60d448260"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Heavy.otf",
+    "family": "Togalite Heavy",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "d23e02af7e22a98d2a74463f7ca26b6967c7e3a10e47a70cd0d27ee31f8b9b96"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Light.otf",
+    "family": "Togalite Light",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "7e6b986f0559be83ff8f1eb506df950c62827645f30dc68a25e43f37157939da"
+  },
+  {
+    "file": "research/fonts/candidates/Togalite/togalite/Togalite-Medium.otf",
+    "family": "Togalite Medium",
+    "style": "Regular",
+    "characters": 8592,
+    "sha256": "d8093fb070807baa3147c65cb5efbb7e34f3014d9d6f786f29ec2d458f9cd699"
+  },
+  {
+    "file": "research/fonts/candidates/GenkaiMincho/package/genkai-mincho.ttf",
+    "family": "Genkaimincho",
+    "style": "Regular",
+    "characters": 9804,
+    "sha256": "21facd62751b4597c349a3fccba1e77614eeae2f0b5c0df6df3e5a460b2a8e27"
+  },
+  {
+    "file": "research/fonts/candidates/ChillRound/ChillRoundM_v1.805/ChillRoundM.otf",
+    "family": "ChillRoundM",
+    "style": "Regular",
+    "characters": 12329,
+    "sha256": "2c8da065414e3cab951744f15c25b17a9ab4ae93e48def22004bc917550d1219"
+  },
+  {
+    "file": "research/fonts/candidates/ChillRound/ChillRoundM_v1.805/ChillRoundM.ttf",
+    "family": "ChillRoundM",
+    "style": "Regular",
+    "characters": 12329,
+    "sha256": "a7d2fb200b7336cbf7171c2205b7e4d75fdcf11f936da8a8e645cb061e7f0024"
+  },
+  {
+    "file": "research/fonts/candidates/LxgwMarkerGothic/LxgwMarkerGothic-v1.004/fonts/gf/LXGWMarkerGothic-Regular.ttf",
+    "family": "LXGW Marker Gothic",
+    "style": "Regular",
+    "characters": 15368,
+    "sha256": "b26c5a81a7a0bb06ed417474e0be6880c7558ec7ccb5b914dba2eb61a96de1ed"
+  },
+  {
+    "file": "research/fonts/candidates/LxgwMarkerGothic/LxgwMarkerGothic-v1.004/fonts/ttf/LXGWMarkerGothic-Regular.ttf",
+    "family": "LXGW Marker Gothic",
+    "style": "Regular",
+    "characters": 15368,
+    "sha256": "dfc9b27ef9e83024d5926d4a1feb70604eaf8c16aa73659c81d75a22accadae4"
+  }
+]

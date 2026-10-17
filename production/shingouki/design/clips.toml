@@ -1,0 +1,99 @@
+[[clips]]
+name = "01-opening-scroll"
+start = 0
+end = 13
+
+[[clips]]
+name = "02-fonts-and-asides"
+start = 29
+end = 38
+
+[[clips]]
+name = "03-cost-emphasis"
+start = 48
+end = 56
+
+[[clips]]
+name = "04-encounter-title"
+start = 78
+end = 86.5
+
+[[clips]]
+name = "05-wallet-reveal"
+start = 117
+end = 133.5
+
+[[clips]]
+name = "06-coffee-wordplay"
+start = 155
+end = 177
+
+[[clips]]
+name = "07-fractured-resolve"
+start = 190
+end = 200.2
+
+[[clips]]
+name = "08-traffic-hood"
+start = 245
+end = 258.5
+
+[[clips]]
+name = "09-self-awareness"
+start = 294
+end = 303
+
+[[clips]]
+name = "10-graveyard-repetition"
+start = 314
+end = 321.5
+
+[[clips]]
+name = "11-contact-lenses"
+start = 359
+end = 368
+
+[[clips]]
+name = "12-menu-escalation"
+start = 395
+end = 403.5
+
+[[clips]]
+name = "13-heat-reactions"
+start = 409
+end = 425
+
+[[clips]]
+name = "14-asides-and-balloons"
+start = 432
+end = 446
+
+[[clips]]
+name = "15-banana-reveal"
+start = 455
+end = 474
+
+[[clips]]
+name = "16-temperature-heading"
+start = 483
+end = 490
+
+[[clips]]
+name = "17-hell-brush-lettering"
+start = 510
+end = 516
+
+[[clips]]
+name = "18-wrong-entrance"
+start = 519
+end = 542
+
+[[clips]]
+name = "19-interpretation"
+start = 550
+end = 567
+
+[[clips]]
+name = "20-outro"
+start = 589
+end = 601.708

@@ -1,0 +1,16 @@
+{
+  "events": 302,
+  "missing": [],
+  "snapshot": {
+    "created_at": "2026-10-16 02:17:53 +0800",
+    "files": {
+      "design/clips.json": "99b2b9a43dbadbda1a3dd4896a96041c0b11dcb52bd4d5777a6fbcf4b466465c",
+      "design/defaults.json": "2962aa833fb769bdcd92c3681147da52dfb8afb8dafef0ceb2b18bd7b985bc3c",
+      "design/events-a.json": "41922c8aae4454dc41275d93272b412e8900fbfd9d7d233746de4d86953828aa",
+      "design/events-b.json": "a4285296ec82cbfd1d983ee0e6148f069cb1d4cce8a7a5e38f4269abd2bce2bf",
+      "design/events-c.json": "4667865285592d534a0f82d7da40fbafb9417d57e17c1b9a0a3bc888c71a544a",
+      "design/fonts.json": "80f50b5870427dbc6ba4ab69af52eb49d6f7fdf8f2e9481eb13aa3e37b5e1e8d"
+    },
+    "warning": "Event fields are a proposal. Recompute outline/fill ratios if production font sizes have changed. Preserve x/y/timings/text/current layout."
+  }
+}

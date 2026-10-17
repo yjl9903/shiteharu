@@ -1,0 +1,3691 @@
+[
+  {
+    "id": "1-s1",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s2",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 9.9,
+      "shadow": 1.1
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 220,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s4",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.2,
+      "shadow": 1.6
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 200,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s5",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s7",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s8",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 5.17,
+      "shadow": 0.58
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 115,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s8b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 7.54,
+      "shadow": 2.32
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 290,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s9",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s11",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s12",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-mercari",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.06,
+      "shadow": 0.34
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 68,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s13",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.55,
+      "shadow": 1.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 175,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s13b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.55,
+      "shadow": 1.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 175,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s13c",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.24,
+      "shadow": 1.92
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 240,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s14",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.05,
+      "shadow": 0.45
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 90,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s14b",
+    "set": {
+      "font_role": "marker",
+      "bold": false,
+      "outline": 3.36,
+      "shadow": 0
+    },
+    "reason": "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s14c",
+    "set": {
+      "font_role": "marker",
+      "bold": false,
+      "outline": 3.36,
+      "shadow": 0
+    },
+    "reason": "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s14d",
+    "set": {
+      "font_role": "marker",
+      "bold": false,
+      "outline": 3.36,
+      "shadow": 0
+    },
+    "reason": "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s14e",
+    "set": {
+      "font_role": "marker",
+      "bold": false,
+      "outline": 3.36,
+      "shadow": 0
+    },
+    "reason": "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s15",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-disclaimer",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.76,
+      "shadow": 2.08
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 260,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s16",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 150,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s17",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 4.35,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 145,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s17b",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 4.35,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 145,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-enthusiasts",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.64,
+      "shadow": 1.12
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 140,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s18",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s19",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-led-benefits",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.15,
+      "shadow": 0.35
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 70,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s20",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s21",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s22",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s23",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-price-panel",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 1.89,
+      "shadow": 0.21
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 42,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s23b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-big-price",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.2,
+      "shadow": 1.6
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 200,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s24",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-old-type",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 6.08,
+      "shadow": 0.68
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 135,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s25",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-saisin",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.15,
+      "shadow": 0.35
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 70,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s27",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s28",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s29",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s29b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.07,
+      "shadow": 1.56
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 195,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s30",
+    "set": {
+      "font_role": "brush_title",
+      "bold": false,
+      "outline": 4.9,
+      "shadow": 1.12
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片毛边更锋利，当前仍是近似；不要将本项标记为完全匹配。",
+    "base_fontsize": 140,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s31",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s31b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.07,
+      "shadow": 1.56
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 195,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-naming",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.06,
+      "shadow": 0.34
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 68,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s31c",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-photo-credit",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 1.35,
+      "shadow": 0.15
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 30,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s32",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 4.65,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 155,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s33",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s34",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.33,
+      "shadow": 1.64
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 205,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s34b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.68,
+      "shadow": 1.44
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 180,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-vtuber",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.42,
+      "shadow": 1.36
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 170,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s35",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s35b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 6.08,
+      "shadow": 0.68
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 135,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s36",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.46,
+      "shadow": 1.68
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 210,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s37",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.33,
+      "shadow": 1.64
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 205,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s38",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s39",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s40",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s40b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s41",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.94,
+      "shadow": 1.52
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 190,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s42",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s43",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s45",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s46",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-climbers",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.82,
+      "shadow": 0.42
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 85,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s47",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.29,
+      "shadow": 1.32
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 165,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-nagoya-headline",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.6,
+      "shadow": 0.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 80,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-warning-headline",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.82,
+      "shadow": 0.42
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 85,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s48",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s49",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s50",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s50b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 5.17,
+      "shadow": 0.58
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 115,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s51",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.95,
+      "shadow": 0.55
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 110,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s52",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s52b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.27,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 95,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-cash-sign",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 1.43,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 65,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s53",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.2,
+      "shadow": 1.6
+    },
+    "reason": "原片单字有明朝笔锋与粗细对比，纠正先前文楷归类。",
+    "base_fontsize": 200,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s56",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s57",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.24,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 2.88,
+        "y": 5.76,
+        "spread": 2.88,
+        "blur": 5.76,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 240,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s58",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-dream",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.98,
+      "shadow": 1.84
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 230,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s59",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s60",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s61",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.03,
+      "shadow": 1.24
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 155,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s62",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s63",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s65",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s67",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s68",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s68b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "原片反应字属于胖圆 POP，纠正先前误归手写体。",
+    "base_fontsize": 100,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s69",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.55,
+      "shadow": 1.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 175,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s70",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.16,
+      "shadow": 1.28
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 160,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s72",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s73",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s74",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s74b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.03,
+      "shadow": 1.24
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 155,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s74c",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.81,
+      "shadow": 1.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 185,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s75",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s75b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.6,
+      "shadow": 0.8
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s76",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.77,
+      "shadow": 1.16
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 145,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s77",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s77b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-random-philosophy",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.73,
+      "shadow": 0.84
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s78",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s79",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s79b",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.42,
+      "shadow": 1.36
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 170,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s80",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s82",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.03,
+      "shadow": 1.24
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 155,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s83",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s84",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s85",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.51,
+      "shadow": 1.08
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 135,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s86",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.07,
+      "shadow": 1.56,
+      "scale_x": 76
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。",
+    "base_fontsize": 195,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "a-mistake",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.86,
+      "shadow": 0.88
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 110,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s87",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s88",
+    "set": {
+      "font_role": "fracture",
+      "effect": "none",
+      "bold": false,
+      "outline": 5.0,
+      "shadow": 0
+    },
+    "reason": "原句裂纹与源界明朝高度一致；觉、坚用 SC Heavy 补字并作静态剥落，不使用横条错位。",
+    "base_fontsize": 200,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s88b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s89",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s90",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s91",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s92",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s93",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s93.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s94",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s94.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s95",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s96",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s97",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s98",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s99",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.46,
+      "shadow": 1.68
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 210,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s100",
+    "set": {
+      "font_role": "brush_title",
+      "bold": false,
+      "outline": 9.1,
+      "shadow": 2.08
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 260,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s101",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.12,
+      "shadow": 0.96
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 120,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s103",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 6.75,
+      "shadow": 0.75
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 150,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s104",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s105",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s105.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s106",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s107",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s108",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.07,
+      "shadow": 1.56
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 195,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s109",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s110",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s111",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.68,
+      "shadow": 1.44,
+      "scale_x": 69
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。",
+    "base_fontsize": 180,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s112",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.76,
+      "shadow": 2.08
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 260,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s112.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s112.b",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s113",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 6.75,
+      "shadow": 0.75
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 150,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s114",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s115",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s117",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s120",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s121",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.4,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 5.1,
+        "y": 10.2,
+        "spread": 6.8,
+        "blur": 13.6,
+        "alpha": "10"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 340,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s122",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s123",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s124",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s125",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-corner-long",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 2.43,
+      "shadow": 0.27
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 54,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s127",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s128",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s129",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s130",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s132",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s133",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-self-aware",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.24,
+      "shadow": 1.92
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 240,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s134",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.94,
+      "shadow": 1.52
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 190,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-sticky",
+    "set": {
+      "font_role": "brush_title",
+      "bold": false,
+      "outline": 3.5,
+      "shadow": 0.8
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s135",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-corner-short",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 2.43,
+      "shadow": 0.27
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 54,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s136",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s137",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s138",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s139",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-news-headline",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.06,
+      "shadow": 0.34
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 68,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s140",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s141",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.94,
+      "shadow": 1.52
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 190,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s142",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s143",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s144",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s145",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s146",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s147",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s148",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s149",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s150",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s151",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s151.a",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.72,
+      "shadow": 1.76
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 220,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s152",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s153",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s153.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s154",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.34,
+      "shadow": 0.72
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 90,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s155",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 7.28,
+      "shadow": 2.24
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 280,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s156",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.6,
+      "shadow": 0.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 80,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s156.a",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.46,
+      "shadow": 1.68
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 210,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s157",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s158",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.98,
+      "shadow": 1.84
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 230,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s159",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.6,
+      "shadow": 0.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 80,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s160",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "b-fifty-times",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.08,
+      "shadow": 0.64
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 80,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s161",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s162",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s162.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s163",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s164",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s165",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s166",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s166.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s167",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s168",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s169",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 5.4,
+      "shadow": 0.6
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 120,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s169.a",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 8.32,
+      "shadow": 0.93
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 185,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s170",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 7.15,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 3.3,
+        "y": 6.6,
+        "spread": 3.3,
+        "blur": 6.6,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 275,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s171",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.5,
+      "shadow": 0.5
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 100,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s172",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s174",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s175",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.11,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 2.82,
+        "y": 5.64,
+        "spread": 2.82,
+        "blur": 5.64,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 235,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s176",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s177",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s178",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 1.94,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 88,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s179",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 11.7,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 5.4,
+        "y": 10.8,
+        "spread": 9.0,
+        "blur": 10.8,
+        "alpha": "08"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 450,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s181",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s182",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.9,
+      "shadow": 1.2
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 150,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s183",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s184",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s185",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s186",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s187",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s188",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s188-visual2",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-overlay-432",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.12,
+      "shadow": 0.96
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 120,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s189",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s190",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-overlay-435",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 2.5,
+      "shadow": 0.77
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s191",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s192",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 0,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 58,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s193",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 0,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 58,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s194",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 0,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 58,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-overlay-443",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s195",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.05,
+      "shadow": 0.45
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 90,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s196",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s197",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 6.52,
+      "shadow": 0.72
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 145,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s198",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s200",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s202",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s204",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 8.32,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 3.84,
+        "y": 7.68,
+        "spread": 3.84,
+        "blur": 7.68,
+        "alpha": "20"
+      }
+    },
+    "reason": "原片香蕉饭为粗明朝式假名，先用 Heavy 对齐笔画反差，移除普通毛笔替代。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 320,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s205",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.96,
+      "shadow": 0.44
+    },
+    "reason": "原片反应字属于胖圆 POP，纠正先前误归手写体。",
+    "base_fontsize": 88,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s207",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s209",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s210",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 1.94,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 88,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s212",
+    "set": {
+      "font_role": "melt",
+      "effect": "none",
+      "bold": false,
+      "outline": 21.6,
+      "shadow": 14.4
+    },
+    "reason": "原片是扭曲的明朝巨字；中文烫用静态曲线位移与缺口近似。仍非精确复刻。",
+    "base_fontsize": 480,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s213",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.85,
+      "shadow": 1.8
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 225,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s214",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s215",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s216",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s218",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s219",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s221",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.2,
+      "shadow": 1.6
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 200,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s222",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s223",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s224",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 5.59,
+      "shadow": 1.72
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 215,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s224-visual2",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s225",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s226",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.68,
+      "shadow": 1.44
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 180,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s227",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s229",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s230",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s231",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s232",
+    "set": {
+      "font_role": "brush_title",
+      "bold": false,
+      "outline": 11.55,
+      "shadow": 2.64
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 330,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s233",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s234",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s235",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.5,
+      "shadow": 2.0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 250,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s236",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s237",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.64,
+      "shadow": 1.12
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 140,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s238",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.6,
+      "shadow": 0.4
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 80,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s239",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s240",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 1.94,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 88,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s241",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.96,
+      "shadow": 0.44
+    },
+    "reason": "原片反应字属于胖圆 POP，纠正先前误归手写体。",
+    "base_fontsize": 88,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s242",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 6.5,
+      "shadow": 2.0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 250,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s243",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.72,
+      "shadow": 0.53
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 105,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s246",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.64,
+      "shadow": 1.12
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 140,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s247",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s248",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s249",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s250",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s251",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.38,
+      "shadow": 1.04
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 130,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s252",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.25,
+      "shadow": 1.0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 125,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s254",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 3.64,
+      "shadow": 1.12
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 140,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s255",
+    "set": {
+      "font_role": "mincho",
+      "bold": false,
+      "outline": 4.03,
+      "shadow": 1.24,
+      "scale_x": 52
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。",
+    "base_fontsize": 155,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s256",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 2.61,
+      "shadow": 0.29
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 58,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-map-heading-561",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 2.16,
+      "shadow": 0.24
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 48,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-overlay-561",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 3.15,
+      "shadow": 0.35
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 70,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s258",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "c-overlay-568",
+    "set": {
+      "font_role": "casual",
+      "bold": false,
+      "outline": 1.43,
+      "shadow": 0
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 65,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s260",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s260-visual2",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s261",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s262",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s263",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s264",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s264-visual2",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s265",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s266",
+    "set": {
+      "font_role": "round",
+      "bold": false,
+      "outline": 4.32,
+      "shadow": 0.48
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。",
+    "base_fontsize": 96,
+    "base_design_file": "events-c.json"
+  }
+]

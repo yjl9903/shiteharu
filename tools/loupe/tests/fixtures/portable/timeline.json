@@ -1,0 +1,4 @@
+[
+  {"id":"intro","start":0,"end":0.8,"source_text":"Hello","text":"Hola","style":{"font_role":"title"}},
+  {"id":"end","start":0.8,"end":1.8,"source_text":"Goodbye","text":"Adiós","style":{"font_role":"body"}}
+]

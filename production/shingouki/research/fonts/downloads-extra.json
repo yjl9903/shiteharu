@@ -1,0 +1,46 @@
+[
+  {
+    "file": "research/fonts/candidates/ResourceHanRounded/rounded.7z",
+    "url": "https://github.com/CyanoHao/Resource-Han-Rounded/releases/download/v0.990/RHR-CN-0.990.7z",
+    "sha256": "e7005f7b4a7a0b8352d32c4a1358ff47564eb73be7fdb2db00d9f792755e9dc7"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/CyanoHao/Resource-Han-Rounded/master/LICENSE",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "research/fonts/candidates/MaokenAssortedSans/MaokenAssortedSans.ttf",
+    "url": "https://github.com/maoken-fonts/MaokenAssortedSans/releases/download/v1.70/MaokenAssortedSans.ttf",
+    "sha256": "29b4fea4dfaf50be4b9ede602cc713eca1e411e0b498b74e8ea41f2c68f6fb90"
+  },
+  {
+    "file": "research/fonts/candidates/MaokenAssortedSans/OFL.txt",
+    "url": "https://raw.githubusercontent.com/maoken-fonts/MaokenAssortedSans/main/OFL.txt",
+    "sha256": "5ef50096bf7368709da3326b0e2308cff43d50ed43cd712b8bfdb8a5a9cc5c38"
+  },
+  {
+    "file": "research/fonts/candidates/GenkaiMincho/genkai.tgz",
+    "url": "https://registry.npmjs.org/@fontpkg/genkaimincho/-/genkaimincho-1.0.0.tgz",
+    "sha256": "685dc987f385fdb4b00f3ab3b4bd9150276ece68581ddd805fb45ec7eb6e5521"
+  },
+  {
+    "file": "research/fonts/candidates/LightNovelPOP/LightNovelPOP_FONT.zip",
+    "url": "https://www.fontna.com/font/LightNovelPOP_FONT.zip",
+    "sha256": "4db9d2606c402588eae1f6608a747969d8c2eee933f5a7ea747fe7efa57ff57d"
+  },
+  {
+    "file": "research/fonts/candidates/ZenMaru/ZenMaruGothic-Black.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Black.ttf",
+    "sha256": "6bd74fe76cd39ee0ec18775c3661d845343fb3f6f8fa09a3076638417baf741f"
+  },
+  {
+    "file": "research/fonts/candidates/ZenMaru/OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/OFL.txt",
+    "sha256": "2a20cf7ce1909d8ee1e949095d340f7d7656705f7c810a2d6faf56800ad0cb3d"
+  },
+  {
+    "file": "research/fonts/candidates/yozai-font/OFL.txt",
+    "url": "https://raw.githubusercontent.com/lxgw/yozai-font/master/OFL.txt",
+    "sha256": "86b3a0b5162848503241d80ea9a309a6459690ba7dc547940758a6a689a53b02"
+  }
+]

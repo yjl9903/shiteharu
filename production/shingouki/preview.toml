@@ -1,0 +1,29 @@
+version = 1
+title = "『信号機の墓場』へ行こう"
+fonts = "design/fonts.toml"
+content = "design/preview.toml"
+thumbnail_width = 960
+duration_tolerance = 0.25
+
+[media]
+original = "../../downloads/『信号機の墓場』へ行こう [l_jfyIEddfw].mkv"
+rendered = "deliverables/zh.performance.1080p.mp4"
+
+[timeline]
+file = "translation/work/segments.toml"
+collection = "segments"
+source_text = "ja"
+text = "zh"
+defaults = "design/defaults.toml"
+defaults_key = "default"
+overlays = ["design/events-*.toml"]
+overlay_collection = "events"
+supplemental_flag = "supplemental"
+supplemental_source_text = "text_ja"
+supplemental_text = "text_zh"
+
+[labels]
+original = "原片 · 日文字幕"
+rendered = "当前成片 · 中文字幕"
+source_text = "日文"
+text = "中文"

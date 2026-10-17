@@ -1,0 +1,128 @@
+[
+  {
+    "group": "ChillRound",
+    "url": "https://github.com/Warren2060/ChillRound/releases/download/v1.805/ChillRoundM_v1.805.zip",
+    "file": "research/fonts/candidates/ChillRound/ChillRoundM_v1.805.zip",
+    "sha256": "197018fdce5436fc99d8874d32c5b4702b2cc595006d2d341fb3542b6b5779bd"
+  },
+  {
+    "group": "LongZhuTi",
+    "url": "https://github.com/maoken-fonts/LongZhuTi/releases/download/v1.000/LongZhuTi-Regular.ttf",
+    "file": "research/fonts/candidates/LongZhuTi/LongZhuTi-Regular.ttf",
+    "sha256": "a7c16e4ec41419981f2a54b35a0ec8f3dba61884b8b8e03721fed179f2088102"
+  },
+  {
+    "group": "LxgwMarkerGothic",
+    "url": "https://github.com/lxgw/LxgwMarkerGothic/releases/download/v1.004/LxgwMarkerGothic-v1.004.zip",
+    "file": "research/fonts/candidates/LxgwMarkerGothic/LxgwMarkerGothic-v1.004.zip",
+    "sha256": "4a30c82200664d5366ed8ef822ee2085ad16c767862396b96b8924fd94297aa6"
+  },
+  {
+    "group": "yozai-font",
+    "url": "https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Light.ttf",
+    "file": "research/fonts/candidates/yozai-font/Yozai-Light.ttf",
+    "sha256": "0efc843308810c04ec394d8af27d0871ada3a9cc4860a226abde88a1bc67b3bd"
+  },
+  {
+    "group": "yozai-font",
+    "url": "https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Medium.ttf",
+    "file": "research/fonts/candidates/yozai-font/Yozai-Medium.ttf",
+    "sha256": "05f50f252b45197d0d6148a4abc3e37c7cd4cfdf03c955b57c25d53d924f835f"
+  },
+  {
+    "group": "yozai-font",
+    "url": "https://github.com/lxgw/yozai-font/releases/download/v0.868/Yozai-Regular.ttf",
+    "file": "research/fonts/candidates/yozai-font/Yozai-Regular.ttf",
+    "sha256": "25071998a0fe6a72f54c235e714986d259633e5ff670b1a2b5e264387f3316ac"
+  },
+  {
+    "group": "SourceHanSerif",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/OTF/SimplifiedChinese/SourceHanSerifSC-Heavy.otf",
+    "file": "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf",
+    "sha256": "d033af54f96530476faed924ab5d5e9e6ef0833495670fd57bab9a7758398048"
+  },
+  {
+    "group": "SourceHanSerif",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/OTF/Japanese/SourceHanSerif-Heavy.otf",
+    "file": "research/fonts/candidates/SourceHanSerif/SourceHanSerif-Heavy.otf",
+    "sha256": "e0501f8d5dda1a967b416f03479b299d75b2a9310d1bde72fdd7fd5abb828070"
+  },
+  {
+    "group": "Keifont",
+    "url": "https://font.sumomo.ne.jp/fontdata-c2157415/k-font.zip",
+    "file": "research/fonts/candidates/Keifont/k-font.zip",
+    "sha256": "316b512a567951e1a1a10f831bd7bbdd68ba046aae414718a2356e003f147b50"
+  },
+  {
+    "group": "mochiypopone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf",
+    "file": "research/fonts/candidates/mochiypopone/MochiyPopOne-Regular.ttf",
+    "sha256": "9e009430e1316c271a5f34759c6b65fc343c4e806f193042528887e7235a92c6"
+  },
+  {
+    "group": "mochiypopone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/OFL.txt",
+    "file": "research/fonts/candidates/mochiypopone/OFL.txt",
+    "sha256": "76be26178f13ef82866cf6a5c54272191bb583c203ad7035021c7681c9043558"
+  },
+  {
+    "group": "mochiypoppone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypoppone/MochiyPopPOne-Regular.ttf",
+    "file": "research/fonts/candidates/mochiypoppone/MochiyPopPOne-Regular.ttf",
+    "sha256": "0031243aa1290c63c7551f8cdf06b1631a5c72033d12b2b7c595e60660007252"
+  },
+  {
+    "group": "mochiypoppone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypoppone/OFL.txt",
+    "file": "research/fonts/candidates/mochiypoppone/OFL.txt",
+    "sha256": "76be26178f13ef82866cf6a5c54272191bb583c203ad7035021c7681c9043558"
+  },
+  {
+    "group": "zcoolkuaile",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf",
+    "file": "research/fonts/candidates/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf",
+    "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+  },
+  {
+    "group": "zcoolkuaile",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/OFL.txt",
+    "file": "research/fonts/candidates/zcoolkuaile/OFL.txt",
+    "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+  },
+  {
+    "group": "rocknrollone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rocknrollone/RocknRollOne-Regular.ttf",
+    "file": "research/fonts/candidates/rocknrollone/RocknRollOne-Regular.ttf",
+    "sha256": "dc0f5ff975851827f63f2c6bfed128ffbca14b6399a10fb5e1711215c0108526"
+  },
+  {
+    "group": "rocknrollone",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/rocknrollone/OFL.txt",
+    "file": "research/fonts/candidates/rocknrollone/OFL.txt",
+    "sha256": "b2f42a005a6a48ead81e369021e300184f0cbecb48aee6f831e46c7897f6055b"
+  },
+  {
+    "group": "yujisyuku",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/yujisyuku/YujiSyuku-Regular.ttf",
+    "file": "research/fonts/candidates/yujisyuku/YujiSyuku-Regular.ttf",
+    "sha256": "82728ebafc8c97391e2dab633414a806f344b8e4e2227d307179f07b548fca61"
+  },
+  {
+    "group": "yujisyuku",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/yujisyuku/OFL.txt",
+    "file": "research/fonts/candidates/yujisyuku/OFL.txt",
+    "sha256": "ef7c85c72ae94381c8bc4832ae4e6fbabdeafa2bb8a31313cd75dce95a690256"
+  },
+  {
+    "group": "SourceHanSerif",
+    "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/LICENSE.txt",
+    "file": "research/fonts/candidates/SourceHanSerif/LICENSE.txt",
+    "sha256": "9ff5bb567e1b92c801fc1069e5fbf992ff8efccacb9db94e5959a5b3ba9bb903"
+  },
+  {
+    "group": "LongZhuTi",
+    "url": "https://raw.githubusercontent.com/maoken-fonts/LongZhuTi/main/OFL.txt",
+    "file": "research/fonts/candidates/LongZhuTi/OFL.txt",
+    "sha256": "ffa9b3b3903dc0904dde70e3023124b8b73acfd268ba2189a300a29cb5734057"
+  }
+]

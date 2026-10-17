@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1-s1",
+    "reel_start": 0,
+    "original_start": 0,
+    "duration": 1.235
+  },
+  {
+    "id": "1-s4",
+    "reel_start": 1.235,
+    "original_start": 8.642,
+    "duration": 1.4350000000000005
+  },
+  {
+    "id": "1-s14b",
+    "reel_start": 2.670000000000001,
+    "original_start": 27.661,
+    "duration": 1.2349999999999994
+  },
+  {
+    "id": "1-s30",
+    "reel_start": 3.9050000000000002,
+    "original_start": 68.269,
+    "duration": 1.7680000000000007
+  },
+  {
+    "id": "1-s88",
+    "reel_start": 5.673000000000001,
+    "original_start": 197.23,
+    "duration": 1.4690000000000225
+  },
+  {
+    "id": "1-s100",
+    "reel_start": 7.142000000000023,
+    "original_start": 223.223,
+    "duration": 1.768999999999977
+  },
+  {
+    "id": "1-s121",
+    "reel_start": 8.911000000000001,
+    "original_start": 268.368,
+    "duration": 1.134999999999991
+  },
+  {
+    "id": "1-s192",
+    "reel_start": 10.045999999999992,
+    "original_start": 440.374,
+    "duration": 1.6339999999999577
+  },
+  {
+    "id": "1-s205",
+    "reel_start": 11.67999999999995,
+    "original_start": 460.56,
+    "duration": 1.5020000000000095
+  },
+  {
+    "id": "1-s212",
+    "reel_start": 13.18199999999996,
+    "original_start": 469.937,
+    "duration": 1.100999999999999
+  },
+  {
+    "id": "1-s232",
+    "reel_start": 14.282999999999959,
+    "original_start": 511.444,
+    "duration": 3
+  },
+  {
+    "id": "1-s255",
+    "reel_start": 17.28299999999996,
+    "original_start": 559.526,
+    "duration": 2.2690000000000055
+  }
+]

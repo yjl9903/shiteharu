@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1-s57",
+    "set": {
+      "outline": 6.24,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 2.88,
+        "y": 5.76,
+        "spread": 2.88,
+        "blur": 5.76,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 240,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s121",
+    "set": {
+      "outline": 3.4,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 5.1,
+        "y": 10.2,
+        "spread": 6.8,
+        "blur": 13.6,
+        "alpha": "10"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 340,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s170",
+    "set": {
+      "outline": 7.15,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 3.3,
+        "y": 6.6,
+        "spread": 3.3,
+        "blur": 6.6,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 275,
+    "base_design_file": "events-b.json"
+  },
+  {
+    "id": "1-s175",
+    "set": {
+      "outline": 6.11,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 2.82,
+        "y": 5.64,
+        "spread": 2.82,
+        "blur": 5.64,
+        "alpha": "20"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 235,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s179",
+    "set": {
+      "outline": 11.7,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 5.4,
+        "y": 10.8,
+        "spread": 9.0,
+        "blur": 10.8,
+        "alpha": "08"
+      }
+    },
+    "reason": "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 450,
+    "base_design_file": "events-c.json"
+  },
+  {
+    "id": "1-s204",
+    "set": {
+      "outline": 8.32,
+      "shadow": 0,
+      "blur": 0,
+      "soft_shadow": {
+        "x": 3.84,
+        "y": 7.68,
+        "spread": 3.84,
+        "blur": 7.68,
+        "alpha": "20"
+      }
+    },
+    "reason": "原片香蕉饭为粗明朝式假名，先用 Heavy 对齐笔画反差，移除普通毛笔替代。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。",
+    "base_fontsize": 320,
+    "base_design_file": "events-c.json"
+  }
+]

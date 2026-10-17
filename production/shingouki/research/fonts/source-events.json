@@ -1,0 +1,1380 @@
+[
+  {
+    "font_role": "sans",
+    "fontsize": 64,
+    "x": 960,
+    "y": 900,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s1",
+    "start": 0,
+    "end": 1.235,
+    "speaker": "speaker_0",
+    "ja": "ばんわんこ〜",
+    "zh": "晚上好汪～",
+    "source_style": "小号圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        710,
+        965,
+        1210,
+        1065
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 0.6,
+    "source_frame": "research/fonts/source/1-s1.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 105,
+    "x": 960,
+    "y": 810,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s4",
+    "start": 8.642,
+    "end": 10.077,
+    "speaker": "speaker_0",
+    "ja": "皆さーん",
+    "zh": "各位朋友～",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source emphasis caption replaces scrolling text on this frame."
+      }
+    ],
+    "source_style": "大号明朝体呼喊，硬切",
+    "source_boxes": [
+      [
+        540,
+        850,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 9.241999999999999,
+    "source_frame": "research/fonts/source/1-s4.png"
+  },
+  {
+    "font_role": "sans",
+    "fontsize": 64,
+    "x": 960,
+    "y": 900,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s5",
+    "start": 10.077,
+    "end": 11.578,
+    "speaker": "speaker_0",
+    "ja": "なにしてはる〜",
+    "zh": "都在干什么呀～",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "圆黑白字黑边，硬切",
+    "source_boxes": [
+      [
+        550,
+        960,
+        1390,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 10.677,
+    "source_frame": "research/fonts/source/1-s5.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 150,
+    "x": 960,
+    "y": 650,
+    "align": 2,
+    "outline": 5,
+    "shadow": 3,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s8b",
+    "start": 14.414,
+    "end": 15.616,
+    "speaker": "speaker_0",
+    "ja": "信号機",
+    "zh": "信号灯",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "超大粗明朝体信号機，硬切",
+    "source_boxes": [
+      [
+        500,
+        705,
+        1440,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "巨字上移避开日文。",
+    "_design_file": "events-a.json",
+    "sample_time": 15.014,
+    "source_frame": "research/fonts/source/1-s8b.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 70,
+    "x": 960,
+    "y": 870,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s14b",
+    "start": 27.661,
+    "end": 28.896,
+    "speaker": "speaker_0",
+    "ja": "交通システム？とか",
+    "zh": "交通系统？还有",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "松散手写感字形，静止硬切",
+    "source_boxes": [
+      [
+        460,
+        930,
+        1460,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "霞鹜文楷近似源不规则手写感，未复制字形。",
+    "_design_file": "events-a.json",
+    "sample_time": 28.261000000000003,
+    "source_frame": "research/fonts/source/1-s14b.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 76,
+    "x": 960,
+    "y": 870,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s16",
+    "start": 32.232,
+    "end": 33.267,
+    "speaker": "speaker_0",
+    "ja": "ただ形が好きで",
+    "zh": "只是喜欢它的造型",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "italic": true,
+    "source_style": "细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        420,
+        930,
+        1500,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 32.7495,
+    "source_frame": "research/fonts/source/1-s16.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 94,
+    "x": 960,
+    "y": 810,
+    "align": 2,
+    "outline": 4,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s30",
+    "start": 68.269,
+    "end": 70.037,
+    "speaker": "speaker_0",
+    "ja": "この世には存在します",
+    "zh": "这世上还真有这么个地方",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "粗糙毛笔感白字黑边，字形静止",
+    "source_boxes": [
+      [
+        220,
+        870,
+        1700,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "用马善政字体近似粗糙笔触；未加无依据震动。",
+    "_design_file": "events-a.json",
+    "sample_time": 68.869,
+    "source_frame": "research/fonts/source/1-s30.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 110,
+    "x": 960,
+    "y": 780,
+    "align": 2,
+    "outline": 5,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s31b",
+    "start": 70.838,
+    "end": 72.54,
+    "speaker": "speaker_0",
+    "ja": "信号機の墓場（通称）",
+    "zh": "信号灯墓场（俗称）",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "超大粗明朝体标题，硬切，中央另有命名吐槽",
+    "source_boxes": [
+      [
+        65,
+        810,
+        1880,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文标题略缩小且上移；括注保持同一可编辑文本。",
+    "_design_file": "events-a.json",
+    "sample_time": 71.43799999999999,
+    "source_frame": "research/fonts/source/1-s31b.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 110,
+    "x": 960,
+    "y": 135,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s34b",
+    "start": 79.146,
+    "end": 80.014,
+    "speaker": "speaker_0",
+    "ja": "満ちた",
+    "zh": "已成熟",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "巨明朝体満ちた，下半屏与Vtuber最高同时占满",
+    "source_boxes": [
+      [
+        590,
+        810,
+        1420,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "为保留中下屏全部日文，中文移至顶部。",
+    "_design_file": "events-a.json",
+    "sample_time": 79.58,
+    "source_frame": "research/fonts/source/1-s34b.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 110,
+    "x": 300,
+    "y": 900,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 500,
+    "id": "1-s53",
+    "start": 118.952,
+    "end": 121.055,
+    "speaker": "speaker_0",
+    "ja": "ん",
+    "zh": "嗯？",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "手写感单字反应，硬切",
+    "source_boxes": [
+      [
+        870,
+        900,
+        1050,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "反应字置左，保留现金牌全文。",
+    "_design_file": "events-a.json",
+    "sample_time": 119.55199999999999,
+    "source_frame": "research/fonts/source/1-s53.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 120,
+    "x": 960,
+    "y": 760,
+    "align": 2,
+    "outline": 4,
+    "shadow": 3,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s57",
+    "start": 128.028,
+    "end": 130.597,
+    "speaker": "speaker_0",
+    "ja": "財布留守番中",
+    "zh": "钱包留守旅馆",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "巨大的白色明朝体钱包标题，硬切",
+    "source_boxes": [
+      [
+        190,
+        820,
+        1760,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 128.628,
+    "source_frame": "research/fonts/source/1-s57.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 64,
+    "x": 960,
+    "y": 900,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s68b",
+    "start": 154.688,
+    "end": 155.389,
+    "speaker": "speaker_0",
+    "ja": "プププ",
+    "zh": "噗噗噗",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "source_style": "小手写感笑声，硬切",
+    "source_boxes": [
+      [
+        800,
+        955,
+        1120,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 155.0385,
+    "source_frame": "research/fonts/source/1-s68b.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 95,
+    "x": 960,
+    "y": 820,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s74c",
+    "start": 167.934,
+    "end": 169.002,
+    "speaker": "speaker_0",
+    "ja": "いつか倒れま〜す♪",
+    "zh": "迟早会倒的哟♪",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "spacing": 3,
+    "source_style": "大明朝体宽字距与音符，字形静止",
+    "source_boxes": [
+      [
+        260,
+        880,
+        1660,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 168.46800000000002,
+    "source_frame": "research/fonts/source/1-s74c.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 100,
+    "x": 960,
+    "y": 830,
+    "align": 2,
+    "outline": 4,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s86",
+    "start": 192.759,
+    "end": 195.362,
+    "speaker": "speaker_0",
+    "ja": "馬鹿デカフードファイト用ホットケーキパフェ",
+    "zh": "巨无霸大胃王挑战级松饼芭菲",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "scale_x": 85,
+    "source_style": "超宽细长大明朝体芭菲标题，硬切",
+    "source_boxes": [
+      [
+        40,
+        890,
+        1890,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "中文保持窄长字比例，略缩小避开日文和中央吐槽。",
+    "_design_file": "events-a.json",
+    "sample_time": 193.35899999999998,
+    "source_frame": "research/fonts/source/1-s86.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 115,
+    "x": 960,
+    "y": 815,
+    "align": 2,
+    "outline": 5,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "distress",
+    "max_width": 1760,
+    "id": "1-s88",
+    "start": 197.23,
+    "end": 198.699,
+    "speaker": "speaker_0",
+    "ja": "「覚悟と強い意志」",
+    "zh": "「觉悟与坚定的意志」",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "amplitude": 1.5,
+    "source_style": "粗明朝体带静态破损裂纹与错位，逐帧未见震动",
+    "source_boxes": [
+      [
+        140,
+        845,
+        1790,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "用静态8像素横带错位近似破损；无法逐笔复刻源字内部斑驳，不加时间震动。",
+    "_design_file": "events-a.json",
+    "sample_time": 197.82999999999998,
+    "source_frame": "research/fonts/source/1-s88.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 140,
+    "x": 960,
+    "y": 790,
+    "align": 2,
+    "outline": 4,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1600,
+    "id": "1-s100",
+    "start": 223.223,
+    "end": 224.992,
+    "speaker": "speaker_0",
+    "ja": "『信号機の墓場』",
+    "zh": "『信号灯墓场』",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "source_boxes": [
+      [
+        230,
+        850,
+        1690,
+        1065
+      ]
+    ],
+    "source_style": "信号機の墓場为巨大毛笔字，黑描边白填充，硬切后无缩放",
+    "timing_status": "frame-verified",
+    "limitations": "Ma Shan Zheng近似原日文书法字形；中文移到原字上方",
+    "_design_file": "events-b.json",
+    "sample_time": 223.823,
+    "source_frame": "research/fonts/source/1-s100.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 90,
+    "x": 960,
+    "y": 840,
+    "align": 2,
+    "outline": 2,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1730,
+    "id": "1-s111",
+    "start": 251.317,
+    "end": 254.354,
+    "speaker": "speaker_0",
+    "ja": "絶対にお前には見せないという強い意思",
+    "zh": "一副绝对不让你看的坚定态度",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "scale_y": 115,
+    "source_boxes": [
+      [
+        35,
+        900,
+        1885,
+        1060
+      ]
+    ],
+    "source_style": "窄长明朝体大字横贯画面，硬切无运动",
+    "timing_status": "frame-verified",
+    "limitations": "以纵向拉伸宋体近似窄长字形",
+    "_design_file": "events-b.json",
+    "sample_time": 251.917,
+    "source_frame": "research/fonts/source/1-s111.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 180,
+    "x": 960,
+    "y": 725,
+    "align": 2,
+    "outline": 2,
+    "shadow": 6,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1650,
+    "id": "1-s121",
+    "start": 268.368,
+    "end": 269.503,
+    "speaker": "speaker_0",
+    "ja": "少ない",
+    "zh": "好少",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "source_boxes": [
+      [
+        520,
+        785,
+        1400,
+        1070
+      ]
+    ],
+    "source_style": "少ない超巨大明朝体，白色细笔画加软黑影，硬切无缩放",
+    "timing_status": "frame-verified",
+    "limitations": "中文搬至原字上方，保留相对巨大字号而非覆盖原字",
+    "_design_file": "events-b.json",
+    "sample_time": 268.9355,
+    "source_frame": "research/fonts/source/1-s121.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 62,
+    "x": 960,
+    "y": 435,
+    "align": 2,
+    "outline": 3,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "b-sticky",
+    "supplemental": true,
+    "start": 300.5,
+    "end": 301.835,
+    "text_ja": "ネチャ…",
+    "text_zh": "黏腻…",
+    "source_boxes": [
+      [
+        850,
+        495,
+        1070,
+        585
+      ]
+    ],
+    "source_style": "脸上短毛笔状白字黑边，硬切静置",
+    "timing_status": "frame-verified",
+    "limitations": "书写字形由Ma Shan Zheng近似",
+    "_design_file": "events-b.json",
+    "ja": "ネチャ…",
+    "zh": "黏腻…",
+    "sample_time": 301.1,
+    "source_frame": "research/fonts/source/b-sticky.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 150,
+    "x": 960,
+    "y": 780,
+    "align": 2,
+    "outline": 1,
+    "shadow": 0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s155",
+    "start": 356.156,
+    "end": 357.057,
+    "speaker": "speaker_0",
+    "ja": "ン",
+    "zh": "嗯",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "source_boxes": [
+      [
+        900,
+        840,
+        1030,
+        1045
+      ]
+    ],
+    "source_style": "单个ン突然换成巨大细笔画明朝体白字，硬切静置",
+    "timing_status": "frame-verified",
+    "_design_file": "events-b.json",
+    "sample_time": 356.6065,
+    "source_frame": "research/fonts/source/1-s155.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 140,
+    "x": 960,
+    "y": 765,
+    "align": 2,
+    "outline": 2,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1640,
+    "id": "1-s170",
+    "start": 397.964,
+    "end": 399.566,
+    "speaker": "speaker_0",
+    "ja": "メニューが多い",
+    "zh": "这菜单也太丰富了",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "source_boxes": [
+      [
+        60,
+        825,
+        1860,
+        1070
+      ]
+    ],
+    "source_style": "メニューが多い换成横贯画面巨大明朝体，硬切无运动",
+    "timing_status": "frame-verified",
+    "_design_file": "events-b.json",
+    "sample_time": 398.564,
+    "source_frame": "research/fonts/source/1-s170.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 150,
+    "x": 960,
+    "y": 815,
+    "align": 2,
+    "outline": 6,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s175",
+    "start": 404.437,
+    "end": 406.673,
+    "speaker": "speaker_0",
+    "ja": "甘口抹茶小倉スパ～",
+    "zh": "甜味抹茶红豆意面～",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 404.437."
+      }
+    ],
+    "source_style": "giant-Mincho-title",
+    "source_boxes": [
+      [
+        70,
+        870,
+        1850,
+        1075
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Source giant lettering is moved above Japanese and reduced to fit; font shape is an approximation. Hard cut retained.",
+    "_design_file": "events-c.json",
+    "sample_time": 405.03700000000003,
+    "source_frame": "research/fonts/source/1-s175.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 64,
+    "x": 960,
+    "y": 920,
+    "align": 2,
+    "outline": 2.5,
+    "shadow": 0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1800,
+    "id": "1-s178",
+    "start": 411.478,
+    "end": 413.48,
+    "speaker": "speaker_0",
+    "ja": "ﾝ～～～～～～～～～～～～～",
+    "zh": "嗯～～～～～～",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 411.478."
+      }
+    ],
+    "source_style": "thin-handwritten-wave",
+    "source_boxes": [
+      [
+        360,
+        975,
+        1520,
+        1065
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Font family is a visual approximation; source remains visible below Chinese.",
+    "bold": false,
+    "scale_x": 125,
+    "_design_file": "events-c.json",
+    "sample_time": 412.07800000000003,
+    "source_frame": "research/fonts/source/1-s178.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 320,
+    "x": 960,
+    "y": 440,
+    "align": 2,
+    "outline": 10,
+    "shadow": 3,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s179",
+    "start": 413.48,
+    "end": 414.481,
+    "speaker": "speaker_0",
+    "ja": "熱い",
+    "zh": "烫",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 413.480."
+      }
+    ],
+    "source_style": "giant-clean-Mincho",
+    "source_boxes": [
+      [
+        530,
+        650,
+        1390,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Source giant lettering is moved above Japanese and reduced to fit; font shape is an approximation. Hard cut retained.",
+    "_design_file": "events-c.json",
+    "sample_time": 413.9805,
+    "source_frame": "research/fonts/source/1-s179.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 44,
+    "x": 1810,
+    "y": 100,
+    "align": 2,
+    "outline": 2.8,
+    "shadow": 0,
+    "color": "000000",
+    "outline_color": "FFFFFF",
+    "effect": "slide",
+    "max_width": 1760,
+    "id": "1-s192",
+    "start": 440.374,
+    "end": 442.008,
+    "speaker": "speaker_0",
+    "ja": "やばくない…？\nあれ……",
+    "zh": "那个…也太夸张了吧？",
+    "skip_checks": [
+      {
+        "code": "ja_line_break_can_merge_soft",
+        "reason": "Actual speech balloon has two vertical text columns."
+      },
+      {
+        "code": "ja_terminal_punctuation",
+        "reason": "Ellipses are visibly written in the source balloon."
+      }
+    ],
+    "source_style": "vertical-handwriting-balloon",
+    "source_boxes": [
+      [
+        1270,
+        100,
+        1680,
+        740
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Vertical Chinese sits to right of original balloon. Left drift and fade approximate observed motion; balloon shape and exact Japanese glyph forms are preserved only in source. Full visual lifetime retained. Upper-right side placement is a necessary exception to horizontal-above layout, retaining column order and separate overlapping speakers. A duplicate white balloon would consume space and compete with the original; white outline maintains contrast without obscuring source.",
+    "bold": false,
+    "allow_overlap": true,
+    "text_layout": "vertical",
+    "column_chars": 20,
+    "column_gap": 1.2,
+    "row_gap": 1.0,
+    "from_x": 1860,
+    "from_y": 100,
+    "in_ms": 1634,
+    "extra_tags": "\\fad(300,150)",
+    "_design_file": "events-c.json",
+    "sample_time": 440.97400000000005,
+    "source_frame": "research/fonts/source/1-s192.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 145,
+    "x": 960,
+    "y": 760,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s204",
+    "start": 458.825,
+    "end": 460.56,
+    "speaker": "speaker_0",
+    "ja": "バナナライス",
+    "zh": "香蕉饭",
+    "source_style": "large-calligraphic-title",
+    "source_boxes": [
+      [
+        140,
+        810,
+        1790,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Font family is a visual approximation; source remains visible below Chinese.",
+    "_design_file": "events-c.json",
+    "sample_time": 459.425,
+    "source_frame": "research/fonts/source/1-s204.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 68,
+    "x": 960,
+    "y": 920,
+    "align": 2,
+    "outline": 2.5,
+    "shadow": 0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s205",
+    "start": 460.56,
+    "end": 462.062,
+    "speaker": "speaker_0",
+    "ja": "ジャジャン",
+    "zh": "锵锵",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 460.560."
+      }
+    ],
+    "source_style": "rounded-handwritten-reaction",
+    "source_boxes": [
+      [
+        700,
+        970,
+        1220,
+        1065
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Font family is a visual approximation; source remains visible below Chinese.",
+    "bold": false,
+    "_design_file": "events-c.json",
+    "sample_time": 461.16,
+    "source_frame": "research/fonts/source/1-s205.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 400,
+    "x": 960,
+    "y": 450,
+    "align": 2,
+    "outline": 8,
+    "shadow": 3,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "distress",
+    "max_width": 1760,
+    "id": "1-s212",
+    "start": 469.937,
+    "end": 471.038,
+    "speaker": "speaker_0",
+    "ja": "熱い",
+    "zh": "烫",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 469.937."
+      }
+    ],
+    "source_style": "giant-distressed-brush",
+    "source_boxes": [
+      [
+        530,
+        640,
+        1400,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Static clipped-glyph distress approximates the rough source letterform. This is not animated shaking; source hard cut retained.",
+    "amplitude": 2.0,
+    "_design_file": "events-c.json",
+    "sample_time": 470.4875,
+    "source_frame": "research/fonts/source/1-s212.png"
+  },
+  {
+    "font_role": "brush",
+    "fontsize": 230,
+    "x": 960,
+    "y": 750,
+    "align": 2,
+    "outline": 7,
+    "shadow": 2,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s232",
+    "start": 511.444,
+    "end": 515.081,
+    "speaker": "speaker_0",
+    "ja": "『人間地獄』",
+    "zh": "『人间地狱』",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 511.444."
+      }
+    ],
+    "source_style": "giant-brush",
+    "source_boxes": [
+      [
+        240,
+        780,
+        1730,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Source giant lettering is moved above Japanese and reduced to fit; font shape is an approximation. Hard cut retained.",
+    "_design_file": "events-c.json",
+    "sample_time": 512.044,
+    "source_frame": "research/fonts/source/1-s232.png"
+  },
+  {
+    "font_role": "hand",
+    "fontsize": 76,
+    "x": 960,
+    "y": 920,
+    "align": 2,
+    "outline": 2.5,
+    "shadow": 0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s241",
+    "start": 536.502,
+    "end": 537.136,
+    "speaker": "speaker_0",
+    "ja": "ゼッッ",
+    "zh": "绝——",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 536.502."
+      }
+    ],
+    "source_style": "handwritten-cutoff",
+    "source_boxes": [
+      [
+        690,
+        960,
+        1230,
+        1065
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Font family is a visual approximation; source remains visible below Chinese.",
+    "bold": false,
+    "_design_file": "events-c.json",
+    "sample_time": 536.819,
+    "source_frame": "research/fonts/source/1-s241.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 95,
+    "x": 960,
+    "y": 770,
+    "align": 2,
+    "outline": 3.5,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s255",
+    "start": 559.526,
+    "end": 561.795,
+    "speaker": "speaker_0",
+    "ja": "既に人間地獄にハマっているということなのか",
+    "zh": "都说明已经陷入人间地狱了",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source hard cut at 559.526."
+      }
+    ],
+    "source_style": "very-tall-condensed-Mincho",
+    "source_boxes": [
+      [
+        20,
+        830,
+        1900,
+        1080
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "limitations": "Font family is a visual approximation; source remains visible below Chinese.",
+    "scale_y": 150,
+    "scale_x": 90,
+    "_design_file": "events-c.json",
+    "sample_time": 560.126,
+    "source_frame": "research/fonts/source/1-s255.png"
+  },
+  {
+    "font_role": "sans",
+    "fontsize": 110,
+    "x": 960,
+    "y": 830,
+    "align": 2,
+    "outline": 4,
+    "shadow": 1,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s169.a",
+    "start": 396.897,
+    "end": 397.964,
+    "speaker": "speaker_0",
+    "ja": "メニューが",
+    "zh": "这菜单",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch on this frame without a blank gap"
+      }
+    ],
+    "source_boxes": [
+      [
+        510,
+        890,
+        1410,
+        1060
+      ]
+    ],
+    "source_style": "メニューが圆粗体进一步放大，逐帧确认突然换字而非缩放动画",
+    "timing_status": "frame-verified",
+    "_design_file": "events-b.json",
+    "sample_time": 397.4305,
+    "source_frame": "research/fonts/source/1-s169.a.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 110,
+    "x": 380,
+    "y": 745,
+    "align": 2,
+    "outline": 4,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 740,
+    "id": "1-s17",
+    "start": 33.267,
+    "end": 36.17,
+    "speaker": "speaker_0",
+    "ja": "人間を統制する機械で\n奇怪な存在自体が",
+    "zh": "一台管着人类的机器\n这种古怪的存在本身",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      },
+      {
+        "code": "ja_line_break_can_merge_soft",
+        "reason": "Preserve the source two-line caption arrangement."
+      }
+    ],
+    "italic": false,
+    "source_style": "双行细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        330,
+        765,
+        1590,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "face_boxes": [
+      [
+        770,
+        440,
+        1280,
+        745
+      ]
+    ],
+    "limitations": "实际日文上缘765；中文双行挪至近原文左端的脸外留白，横向收窄以免新增遮眼鼻嘴。",
+    "_design_file": "events-a.json",
+    "sample_time": 33.867000000000004,
+    "source_frame": "research/fonts/source/1-s17.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 110,
+    "x": 960,
+    "y": 910,
+    "align": 2,
+    "outline": 4,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s17b",
+    "start": 36.17,
+    "end": 37.304,
+    "speaker": "speaker_0",
+    "ja": "いいんですよねえ",
+    "zh": "就很有意思啊",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "italic": true,
+    "source_style": "明朝体小字幕并发中央道歉，硬切",
+    "source_boxes": [
+      [
+        500,
+        930,
+        1420,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 36.737,
+    "source_frame": "research/fonts/source/1-s17b.png"
+  },
+  {
+    "font_role": "serif",
+    "fontsize": 120,
+    "x": 960,
+    "y": 900,
+    "align": 2,
+    "outline": 4,
+    "shadow": 1.0,
+    "color": "FFFFFF",
+    "outline_color": "000000",
+    "effect": "none",
+    "max_width": 1760,
+    "id": "1-s32",
+    "start": 74.475,
+    "end": 76.71,
+    "speaker": "speaker_0",
+    "ja": "密かに恋焦がれていた場所",
+    "zh": "我就一直默默向往着它",
+    "skip_checks": [
+      {
+        "code": "subtitle_gap_too_short",
+        "reason": "Source captions switch directly on verified frame."
+      }
+    ],
+    "italic": true,
+    "source_style": "细长明朝体带倾斜感，硬切",
+    "source_boxes": [
+      [
+        300,
+        920,
+        1620,
+        1070
+      ]
+    ],
+    "timing_status": "frame-verified",
+    "_design_file": "events-a.json",
+    "sample_time": 75.07499999999999,
+    "source_frame": "research/fonts/source/1-s32.png"
+  }
+]

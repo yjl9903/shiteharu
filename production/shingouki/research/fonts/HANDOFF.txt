@@ -1,0 +1,72 @@
+字体研究历史记录
+
+以下数量和结论记录当时研究状态，不代表当前成片验收。当前预览由仓库 tools/loupe 提供，输入由工程 preview.toml 指定；本目录仅保留工程专属研究资料。研究命令与资料位置见 README.md。
+
+识别结论
+1. 普通胖圆对白：にくまるフォント（07NikumaruFont）同文的假名字形高度吻合；从作者 Fontna 原始 ZIP 获取用于诊断。中文部分缺常用简体字，因此中文选 Resource Han Rounded CN Heavy（资源圆体 Heavy），独立字重、bold=false，不额外填粗。不是宣称资源圆体就是原片字体。
+   原作者页 https://www.fontna.com/blog/nikumaru_font.html
+   原 ZIP https://www.fontna.com/font/NikumaruFont.zip
+   中文字体 https://github.com/CyanoHao/Resource-Han-Rounded
+2. 大字明朝：Source Han Serif SC Heavy（思源宋体 Heavy）匹配明显优于 Songti SC 的常规字重/合成粗体。原日文字体仅确定为高反差粗明朝风格，源ノ明朝 Heavy 是近似候选，尚未确认精确名字。
+   https://github.com/adobe-fonts/source-han-serif
+3. 1-s88「覚悟と強い意志」：源界明朝的裂纹位置高度吻合（视觉识别，非原作者确认）。原字体缺“觉、坚”，制作 ShingoukiFractureSC 有限字集字体：已覆盖字符保留源界原轮廓；两缺字以思源宋体 SC Heavy 轮廓补足静态破损。请将 effect 从 distress 改为 none，勿叠加 8px 横条错位。
+   https://booth.pm/ja/items/1028548
+4. 手写拆分：1-s14b/c/d/e 用龙珠体（RocknRoll One 的中文扩展）；气泡与细波浪用 Yozai（悠哉）。1-s68b、1-s205、1-s241 改归胖圆；1-s53、1-s204 改归粗明朝。
+   https://github.com/maoken-fonts/LongZhuTi
+   https://github.com/lxgw/yozai-font
+5. 1-s100、1-s232 等毛笔标题：庞门正道粗书体，较原 Ma Shan Zheng 更厚重、有顿挫；这是中文替代，原片毛笔名字未确认。下载为 wordshub/free-font 收录的原始 TTF，来源和作者发布地址在 candidates/PangMen/provenance.json；版权不是 OFL。作者发布页本环境无法打开，已有发布来源声明免费商用，尚未存档作者授权全文。
+6. 1-s212“烫”：原片字形极端变形，不宜普通毛笔+横条错位。ShingoukiMeltSC 基于 SC Heavy 的静态曲线变形和缺口，effect=none；这仍是近似，待进一步逐帧打磨。1-s30 恐怖字的毛边也尚未精确复刻。
+
+7. 菱形笔锋四处：原日文与 TypeBank／森泽「赤のアリス」官方同文试排高度吻合，属于直立装饰字；不是斜体。证据见 akano-alice-official.png、spiky-source-group.jpg。仍为视觉识别，非原作者确认。
+   https://www.morisawa.co.jp/fonts/specimen/detail/1561
+   中文 ShingoukiDiamondSC 使用 OFL 风雅宋轮廓，适度增厚细横画，再补菱形端点；无整体剪切，未使用原字体轮廓。它是中文近似方案，不是原字库或官方中文扩展。
+   https://github.com/maoken-fonts/fengyasong
+   derived/ShingoukiDiamondSC.ttf + derived/OFL-FengYaSong.txt；make_diamond.py 可重建，36 个字符，仅供这四条字幕。译文变动必须先补齐字集。
+
+本轮增量接入（已有七类字体无需重复合并）
+- diamond-event-patches.json 仅含本轮四处修正；只合并 set 字段。
+- 新角色 diamond: family=ShingoukiDiamondSC, file=derived/ShingoukiDiamondSC.ttf, bold=false；文件路径按生产目录调整。
+- 四处均明确 italic=false、outline=.030*当前字号、shadow=0、blur=0。保留生产线程最新坐标、时序与字号。
+
+合入要点（请由制作线程执行，避免并发覆盖）
+- 先读取最新 events-a/b/c。按 ID 仅合并 set 字段；保留你刚调整的字号、位置、时序、竖排、运动等。
+- 字体资源可以从 candidates/ 与 derived/ 拷贝到生产 fonts/，同时复制各字体授权文件；也可引用提案中的工程相对路径试渲染。不要系统安装。
+- 所有新增角色 bold=false：字体自身已经有独立 Heavy 字重，避免再次伪粗。
+- 补丁里的 outline/shadow 依据 base_fontsize 计算。若字号又变，按下面比例重算，不能照搬旧值：
+    round       outline=.045*fs  shadow=.005*fs
+    mincho      outline=.026*fs  shadow=.008*fs
+    diamond     outline=.030*fs  shadow=0 blur=0 italic=false
+    marker      outline=.032*fs  shadow=0
+    casual      黑字 outline=0；白字 outline=.022*fs；shadow=0
+    brush_title outline=.035*fs  shadow=.008*fs
+    fracture    outline=.025*fs  shadow=0
+    melt        outline=.045*fs  shadow=.030*fs
+    1-s121      outline=.010*fs；独立软阴影见下文
+    1-s179      outline=.026*fs；独立软阴影见下文
+- 1-s86/111/255 的 scale_x 上限分别为 76/69/52，与原片细长字面对齐。保留 max_width 的行宽保护；合入后再看是否需要放大字号以保持视觉字高。
+- 撤回之前对 1-s16/17/32 的右倾建议！1-s16、1-s17、1-s17b、1-s32 四处统一 diamond、italic=false；不是将宋体加斜。其他动画不改；两条破损字明确 effect=none。
+- 新字体的 ascent/descent 与旧字体不同，同一 ASS fontsize 的可见字高和底部留白会变化。需要在最新主排版上再检视原日文间距、气泡和多行交叠。本提案保留坐标，不把旧排版快照写回你的结果。
+- 一般字体字段沿用标准 build.py。新增 soft_shadow 字段需要 shadow_render.py 的双层渲染支持，接入方式见下文。
+- ShingoukiFractureSC 仅覆盖“「觉悟与坚定的意志」”；ShingoukiMeltSC 仅覆盖“烫”。若这两段译文改变，运行 make_fracture.py 时同步改 coverage，再检查缺字。不要把有限字集当通用字体。
+- derived/ 中的字体基于 OFL 来源，已换新字体名，含逐字来源说明、OFL 文件和生成脚本。源界明朝下载来自 npm 的原字体再分发包，原作者许可另以上述 BOOTH 页面交叉核对。
+
+验证边界
+- 302 条字库覆盖检查通过，35 组当前 ASS 实渲染日志没有缺字/回退报错，真实选中对应新字体。
+- 对照帧只单独叠加被检查事件；动态摘录叠加时间范围内全部提案事件。
+- 字形试样两列独立缩放，不能用试样宽度推断最终字号；请切“原片全画面”或看全片同步对照。
+- 尚未对新方案完整 10 分钟成片做碰撞/逐帧验收，交由制作线程合入后执行。
+
+2026-10-16 引号间距修正
+- 用户指出 1-s88 左引号与“觉”间距过大。原因是派生字体将源字的左边距设为0，却保留1000全角字宽，造成约659/1000字宽的内侧空白。
+- make_fracture.py 已将「」保持原始轮廓，改为轮廓宽度+40的紧凑字宽，左右各20单位留白。ShingoukiFractureSC.ttf 已重建；无需改字幕文字或整句字距。
+- 制作线程需要重新复制该TTF并重渲染1-s88，保持自身最新字号/位置/时间。全片预览同步更新。
+
+2026-10-16 软黑阴影校准
+- 用户指出1-s121“好少”阴影偏轻。当前纯ASS shadow继承默认BackColour=&H90000000（约44%不透明），偏移很小，无法对应原片的黑色柔边投影。
+- 对照原始帧后，1-s57/121/170/175/179/204六处添加独立阴影层。增量字段在 shadow-event-patches.json；只合并这些视觉字段，保留最新位置、字号、排版和时序。
+- 阴影逻辑统一在 仓库 tools/forge/pipeline/subtitles/shadow_render.py；在最终导出/预览入口用 render_with_shadow(e,fonts,render_event) 替换直接render_event(e,fonts)。底层原render_event保持不变。此函数仅处理有soft_shadow字段的事件，其余直接调用原函数。
+- soft_shadow值按当前字号fs重算：x=.012*fs，y=.024*fs，spread=.012*fs，blur=.024*fs，alpha="20"（ASS透明度，约87%不透明）。1-s179更重：spread=.020*fs，alpha="08"。1-s121单独按原片宽软影校准：x=.015*fs，y=.030*fs，spread=.020*fs，blur=.040*fs，alpha="10"（约94%不透明）。
+- 前景shadow=0、blur=0，保持白字与轮廓清晰；1-s121轮廓=.010*fs。底层纯黑填充/描边，layer比前景低1，按上述偏移和模糊。
+- 阴影层与前景沿用相同换行、宽度比例、字体、时间和运动；不改全局字体或默认阴影。
+- 字体提案与正式字幕均使用工程内同一双层渲染函数。
+

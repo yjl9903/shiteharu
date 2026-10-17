@@ -1,0 +1,15 @@
+[project]
+name = "shiteharu"
+version = "0.1.0"
+description = "Python tools for shiteharu video translation and review"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "fonttools==4.67.0",
+    "numpy==2.5.4",
+    "pillow==12.3.0",
+    "skia-pathops==0.9.2",
+    "tomlkit==0.15.2",
+]
+
+[tool.uv]
+package = false

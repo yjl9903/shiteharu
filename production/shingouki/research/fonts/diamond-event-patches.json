@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1-s16",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 3.45,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 115,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s17",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 3.3,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 110,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s17b",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 3.3,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 110,
+    "base_design_file": "events-a.json"
+  },
+  {
+    "id": "1-s32",
+    "set": {
+      "font_role": "diamond",
+      "italic": false,
+      "source_style": "直立菱形装饰字，硬切",
+      "bold": false,
+      "outline": 3.6,
+      "shadow": 0,
+      "blur": 0
+    },
+    "reason": "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。",
+    "base_fontsize": 120,
+    "base_design_file": "events-a.json"
+  }
+]

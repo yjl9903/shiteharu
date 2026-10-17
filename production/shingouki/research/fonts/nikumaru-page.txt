@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="description" content="にくまるフォント◎フリーフォントダウンロード開始 - フリーフォント無料ダウンロード" />
+<title>にくまるフォント◎フリーフォントダウンロード開始 - フォントな</title>
+<link rel="stylesheet" href="https://www.fontna.com/wp-content/themes/marylou/style.css" type="text/css" media="screen, print" />
+<link rel="alternate" type="application/atom+xml" title="フォントな Atom Feed" href="https://www.fontna.com/feed/atom/" />
+<link rel="alternate" type="application/rss+xml" title="フォントな RSS Feed" href="https://www.fontna.com/feed/" />
+<link rel="pingback" href="https://www.fontna.com/xmlrpc.php" />
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.fontna.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.4"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+	<style type="text/css">
+	img.wp-smiley,
+	img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=1.7.1" id="jquery-js"></script>
+<link rel="https://api.w.org/" href="https://www.fontna.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.fontna.com/wp-json/wp/v2/posts/1651" /><link rel='shortlink' href='https://www.fontna.com/?p=1651' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.fontna.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.fontna.com%2Fblog%2F1651%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.fontna.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.fontna.com%2Fblog%2F1651%2F&#038;format=xml" />
+	<style>img#wpstats{display:none}</style>
+		<meta property="og:title" content="にくまるフォント◎フリーフォントダウンロード開始" />
+<meta property="og:site_name" content="フォントな" />
+<meta property="og:description" content=" にくまるフォントはどんなフリーフォント？ フリーフォントのにくまるフォントは無料でダウンロードできる書体。 商用・非商用問わず使用可能なので、安心してダウンロードしてくだ..." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.fontna.com/blog/1651/" />
+<meta property="og:image" content="https://www.fontna.com/wp-content/uploads/nikumaru-font-150x150.png" />
+<meta property="fb:admins" content="100000009979857" />
+<meta property="fb:app_id" content="333605630024256" />
+<script type="text/javascript" src="https://www.fontna.com/wp-content/themes/marylou/js/scrolltopcontrol.js"></script>
+<script src="https://www.fontna.com/wp-content/themes/marylou/js/jquery.cycle.all.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$().ready(function() {
+		$(document).ready(
+			function(){
+				$("a img").hover(function(){
+				$(this).fadeTo(200, 0.5);
+			},function(){
+				$(this).fadeTo(300, 1.0);
+			});
+		});
+
+		$('#slide').cycle({
+			fx:'fade', timeout:5000 ,random:0, 
+		});
+	});	
+</script>
+</head>
+
+<body class="post-template-default single single-post postid-1651 single-format-standard">
+<!-- 全体warapper -->
+<div id="wrapper">
+
+<!-- ヘッダー -->
+<div id="header">
+<h1>フォントな</h1>
+<div class="logo">
+<a href="https://www.fontna.com" title="フォントな"><img src="http://www.fontna.com/wp-content/uploads/fontna_t.jpg" alt="フォントな"/></a>
+</div>
+
+<!-- トップナビゲーション -->
+<div class="contact">
+<ul id="topnav">
+
+</ul>
+</div>
+<!-- / トップナビゲーション -->  
+
+</div>    
+<!-- / ヘッダー -->    
+<!-- メインwrap -->
+<div id="main-wrap">
+
+<!-- メインカラム -->
+<div id="main-single">
+
+
+
+
+<h3 class="blog-title">にくまるフォント◎フリーフォントダウンロード開始</h3>
+
+<div id="date">Posted on 2014-11-08</div>
+
+<div class="79175b7a24e6ee641249bb180793337c" data-index="1" style="float: none; margin:0px;">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fontna-kijishita -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-5525958359910858"
+     data-ad-slot="2869915328"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><br clear="all" />
+<p><p/>
+</div>
+<p><a href="http://www.fontna.com/wp-content/uploads/nikumaru-font.png"><img fetchpriority="high" decoding="async" class="alignnone size-full wp-image-1652" src="http://www.fontna.com/wp-content/uploads/nikumaru-font.png" alt="にくまるフォント" width="283" height="283" srcset="https://www.fontna.com/wp-content/uploads/nikumaru-font.png 283w, https://www.fontna.com/wp-content/uploads/nikumaru-font-150x150.png 150w, https://www.fontna.com/wp-content/uploads/nikumaru-font-144x144.png 144w" sizes="(max-width: 283px) 100vw, 283px" /></a></p>
+<h2>にくまるフォントはどんなフリーフォント？</h2>
+<p>フリーフォントのにくまるフォントは無料でダウンロードできる書体。<br />
+商用・非商用問わず使用可能なので、安心してダウンロードしてください。<br />
+ロゴデザインやタイトルロゴ、見出し向けの漢字も含まれる日本語フリーフォントになります。<br />
+ゆるくて、てきとうな、柔らかい雰囲気が特徴のフォントです。<br />
+美しさや、正確さとは無縁ですが、デザインに素人っぽい楽しさを加えます。<br />
+ページ最下段のフォントのダウンロードボタンを押してダウンロードして下さい。<br />
+microsoftのエクセルやワードなどお手持ちのソフトでご使用できます。<br />
+Adobeのグラフィックソフト（イラストレーター、フォトショップ）があれば<br />
+アウトライン化などし編集して、よりお楽しみ頂くこともできると思います。<br />
+このまるまる太った可愛くて憎めないフォントを<br />
+自由に、たのし〜く使っていただけると、すごく嬉しいです。</p>
+<p><a href="http://www.fontna.com/wp-content/uploads/nikumafont-free.png"><img decoding="async" class="alignnone size-full wp-image-1660" src="http://www.fontna.com/wp-content/uploads/nikumafont-free.png" alt="にくまるフォント無料" width="600" height="600" srcset="https://www.fontna.com/wp-content/uploads/nikumafont-free.png 600w, https://www.fontna.com/wp-content/uploads/nikumafont-free-150x150.png 150w, https://www.fontna.com/wp-content/uploads/nikumafont-free-283x283.png 283w, https://www.fontna.com/wp-content/uploads/nikumafont-free-144x144.png 144w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<h2>にくまるフォントのライセンス</h2>
+<p>フォントは以下のライセンスに準じます。フォント同梱のテキストをお読み下さい。</p>
+<p>* M+ (LICENSE_J,LICENSE_E)</p>
+<p>Copyright(c) 2014 M+ FONTS PROJECT</p>
+<p>このフリーフォントをご使用になるには、ダウンロードファイルに含まれる</p>
+<p>「M+FONT-TESTFLIGHT」の内容を読みください。</p>
+<p>It is requested to read and accept “M+FONT” before downloading
+ Font.</p>
+<p>フォントを使用した成果物の商標登録・意匠登録はお避け下さい。</p><!--CusAds0-->
+<p>&nbsp;</p>
+<h2>フォントの商用利用・プログラムへの埋め込みについて</h2>
+<p>作成した印刷物およびデジタル・コンテンツにつき、その商用・非商用にかかわらず</p>
+<p>放送、通信、各種記録メディアなどの媒体の形式も問わず、使用をすることができます。</p>
+<p>ただし、これはM+のライセンスのもとにあります。</p>
+<p>M<sup>+</sup> フォント製作者の皆様ありがとうございます。</p>
+<p>&nbsp;</p>
+<h3>にくまるフォント収録文字について・フォント形式について</h3>
+<p>数字、アルファベット、記号、かな文字（ひらがな・かたかな）、教育漢字、常用漢字<br />
+第一水準漢字、第二水準漢字（途中まで完成）、その他主要な多言語</p>
+<p>OpenTypeフォントを収録（その他の用、旧OS用にTrueTypeも同梱）</p>
+<h3>フリーフォント使用上の注意事項</h3>
+<p>紹介・説明する目的でのスクリーンショットやフォント画像のご使用は<br />
+ご自由に行って大丈夫です。ご安心ください。</p>
+<p>フォントは、予告せず改良、変更、アップデートすることがあります。</p>
+<p>フォントのダウンロード・導入はお客様の責任において行っていただきます。</p>
+<p>規定した動作環境以外でのフォントの使用について、いかなる保証も行いません。</p>
+<p>このフォントを使用したことにより発生したいかなる損害（データ損失等を含む）<br />
+についても、作者や転載者は責任を負いません。</p>
+<h3>フォントの動作環境</h3>
+<p>ウィンドウズ：日本語版Windows 95/98/ME/NT4.0/2000/XP/VISTA/Windows7/Windows8</p>
+<p>マッキントッシュ：Macintosh OS7〜9、Mac OS X対応（10.x）～最新のOS</p>
+<p><a href="https://flopdesign.booth.pm/items/4571432"><img decoding="async" style="border: 0px none;" src="http://www.fontna.com/font/fontdownload_button.png" alt="ロゴたいぷゴシック" width="249" height="39" border="0" /></a></p>
+<p>ダウンロードした後の解凍、フォントのインストールは<a title="フォント解凍インストール" href="https://www.fontna.com/readme.html">こちらのページ</a>をご覧下さい。<br />
+当サイトでは同人コミック・同人誌の作者を応援します。</p>
+<!--CusAds0-->
+<div style="font-size: 0px; height: 0px; line-height: 0px; margin: 0; padding: 0; clear: both;"></div><p></p>
+
+<div id="blog-foot">
+
+</div>
+
+<!-- ページャー -->
+
+<!-- / ページャー -->
+
+<!-- 関連記事 -->
+
+<!-- / 関連記事 -->
+<p>　</p>
+
+
+<!-- コメントエリア -->
+
+<!-- / コメントエリア -->
+
+
+
+
+
+
+</div>
+<!-- / メインカラム -->
+
+<!-- サイドバー -->
+<div id="sidebar">
+
+
+
+
+
+<div id="sidebox">
+<div id="text-12" class="widget widget_text">			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- fontnaブログ右レクタングル -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-5525958359910858"
+     data-ad-slot="5152086129"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</div><div id="text-4" class="widget widget_text"><h2>&#8220;フォントな&#8221;について</h2>			<div class="textwidget">フォントな、情報サイト。オープンソースの安心フリーフォントのダウンロードが中心のサイトです。主に個人的に作成したフリーフォントを置いています。またフォント・タイプフェイス・文字に関する情報や基礎知識、フォントの作り方などの情報も掲載しています。リンクはリンクフリーなのでお気軽に。</div>
+		</div><div id="text-25" class="widget widget_text">			<div class="textwidget"><p>フォントな、のフォントは、同人誌での使用を推奨しています。ご自由にお使い下さい。</p>
+</div>
+		</div><div id="text-17" class="widget widget_text"><h2>Thank you　感謝</h2>			<div class="textwidget">フォント制作の応援ありがとうございます<br>
+更新が多くないですがコツコツ作っています<br>
+Thanks to the support of the production of Free Fonts<br>
+Merci à l'appui de la production de polices de caractères gratuit<br>
+Durch die Unterstützung der Produktion von Frei Schriftart<br>
+Grazie al sostegno della produzione di font caratteri<br></div>
+		</div></div>
+
+</div>
+<!-- /  サイドバー  -->
+</div>
+<!-- / メインwrap -->
+
+<!-- フッターエリア -->
+<div id="footer">
+
+<br>
+
+
+<div class="footer-line"></div>
+
+<div id="copyright">
+copyright © Fontna. all rights reserved. 　フォントな　漢字も揃った無料日本語フォントのダウンロード
+</div>
+
+</div>
+<!-- / フッターエリア -->
+
+
+</div>
+<!-- / 全体wrapper -->
+
+</body>
+</html>

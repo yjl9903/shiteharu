@@ -1,0 +1,17 @@
+version = 1
+title = "第二工程 · 竖屏双语对照"
+output = "preview-output"
+thumbnail_width = 240
+
+[media]
+original = "media/original.mp4"
+rendered = "media/rendered.mp4"
+
+[timeline]
+file = "timeline.json"
+
+[labels]
+original = "原始画面"
+rendered = "审阅画面"
+source_text = "English"
+text = "Español"

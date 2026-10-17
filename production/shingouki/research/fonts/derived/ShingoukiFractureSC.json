@@ -1,0 +1,20 @@
+{
+  "font": "ShingoukiFractureSC",
+  "coverage": "「觉悟与坚定的意志」",
+  "glyph_sources": {
+    " ": "Genkai Mincho original outline",
+    "「": "Genkai Mincho original outline",
+    "」": "Genkai Mincho original outline",
+    "与": "Genkai Mincho original outline",
+    "坚": "SC Heavy + static fracture approximation",
+    "定": "Genkai Mincho original outline",
+    "志": "Genkai Mincho original outline",
+    "悟": "Genkai Mincho original outline",
+    "意": "Genkai Mincho original outline",
+    "的": "Genkai Mincho original outline",
+    "觉": "SC Heavy + static fracture approximation"
+  },
+  "original_source": "https://booth.pm/ja/items/1028548",
+  "sc_source": "https://github.com/adobe-fonts/source-han-serif",
+  "limitation": "Limited caption font; generated missing SC glyphs and melt variant are approximations, not original font identification."
+}

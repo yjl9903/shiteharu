@@ -1,0 +1,598 @@
+directory = "research/fonts"
+label_font = "../../fonts/local/MiSans-Regular.ttf"
+default_role = "round"
+specimens = ["ばんわんこ〜", "皆さーん", "晚上好汪～ 各位朋友"]
+identification = [["1-s1", "ばんわんこ〜", "research/fonts/candidates/Nikumaru/**/*.otf", "にくまる：高吻合"], ["1-s4", "皆さーん", "research/fonts/candidates/SourceHanSerif/SourceHanSerif-Heavy.otf", "源ノ明朝 Heavy：近似候选"], ["1-s88", "「覚悟と強い意志」", "research/fonts/candidates/GenkaiMincho/package/genkai-mincho.ttf", "源界明朝：裂纹位置高吻合"]]
+capture_ids = ["1-s1", "1-s4", "1-s5", "1-s8b", "1-s14b", "1-s16", "1-s30", "1-s31b", "1-s34b", "1-s53", "1-s57", "1-s68b", "1-s74c", "1-s86", "1-s88", "1-s100", "1-s111", "1-s121", "b-sticky", "1-s155", "1-s170", "1-s175", "1-s178", "1-s179", "1-s192", "1-s204", "1-s205", "1-s212", "1-s232", "1-s241", "1-s255", "1-s169.a"]
+reel_ids = ["1-s1", "1-s4", "1-s14b", "1-s30", "1-s88", "1-s100", "1-s121", "1-s192", "1-s205", "1-s212", "1-s232", "1-s255"]
+repositories = ["maoken-fonts/LongZhuTi", "lxgw/LxgwMarkerGothic", "Warren2060/ChillRound", "lxgw/yozai-font"]
+extra_downloads = [["ResourceHanRounded", "https://github.com/CyanoHao/Resource-Han-Rounded/releases/download/v0.990/RHR-CN-0.990.7z", "rounded.7z"], ["ResourceHanRounded", "https://raw.githubusercontent.com/CyanoHao/Resource-Han-Rounded/master/LICENSE", "LICENSE"], ["MaokenAssortedSans", "https://github.com/maoken-fonts/MaokenAssortedSans/releases/download/v1.70/MaokenAssortedSans.ttf", "MaokenAssortedSans.ttf"], ["MaokenAssortedSans", "https://raw.githubusercontent.com/maoken-fonts/MaokenAssortedSans/main/OFL.txt", "OFL.txt"], ["GenkaiMincho", "https://registry.npmjs.org/@fontpkg/genkaimincho/-/genkaimincho-1.0.0.tgz", "genkai.tgz"], ["LightNovelPOP", "https://www.fontna.com/font/LightNovelPOP_FONT.zip", "LightNovelPOP_FONT.zip"], ["ZenMaru", "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/ZenMaruGothic-Black.ttf", "ZenMaruGothic-Black.ttf"], ["ZenMaru", "https://raw.githubusercontent.com/google/fonts/main/ofl/zenmarugothic/OFL.txt", "OFL.txt"], ["yozai-font", "https://raw.githubusercontent.com/lxgw/yozai-font/master/OFL.txt", "OFL.txt"]]
+downloads = [["SourceHanSerif", "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/OTF/SimplifiedChinese/SourceHanSerifSC-Heavy.otf", "SourceHanSerifSC-Heavy.otf"], ["SourceHanSerif", "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/OTF/Japanese/SourceHanSerif-Heavy.otf", "SourceHanSerif-Heavy.otf"], ["Keifont", "https://font.sumomo.ne.jp/fontdata-c2157415/k-font.zip", "k-font.zip"], ["mochiypopone", "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/MochiyPopOne-Regular.ttf", "MochiyPopOne-Regular.ttf"], ["mochiypopone", "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypopone/OFL.txt", "OFL.txt"], ["mochiypoppone", "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypoppone/MochiyPopPOne-Regular.ttf", "MochiyPopPOne-Regular.ttf"], ["mochiypoppone", "https://raw.githubusercontent.com/google/fonts/main/ofl/mochiypoppone/OFL.txt", "OFL.txt"], ["zcoolkuaile", "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf", "ZCOOLKuaiLe-Regular.ttf"], ["zcoolkuaile", "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolkuaile/OFL.txt", "OFL.txt"], ["rocknrollone", "https://raw.githubusercontent.com/google/fonts/main/ofl/rocknrollone/RocknRollOne-Regular.ttf", "RocknRollOne-Regular.ttf"], ["rocknrollone", "https://raw.githubusercontent.com/google/fonts/main/ofl/rocknrollone/OFL.txt", "OFL.txt"], ["yujisyuku", "https://raw.githubusercontent.com/google/fonts/main/ofl/yujisyuku/YujiSyuku-Regular.ttf", "YujiSyuku-Regular.ttf"], ["yujisyuku", "https://raw.githubusercontent.com/google/fonts/main/ofl/yujisyuku/OFL.txt", "OFL.txt"], ["SourceHanSerif", "https://raw.githubusercontent.com/adobe-fonts/source-han-serif/release/LICENSE.txt", "LICENSE.txt"], ["LongZhuTi", "https://raw.githubusercontent.com/maoken-fonts/LongZhuTi/main/OFL.txt", "OFL.txt"]]
+specimen_font_globs = ["research/fonts/candidates/**/*.ttf", "research/fonts/candidates/**/SourceHan*.otf"]
+specimen_exclude = ["/gf/"]
+
+[fonts.round]
+family = "Resource Han Rounded CN Heavy"
+file = "research/fonts/candidates/ResourceHanRounded/ResourceHanRoundedCN-Heavy.ttf"
+bold = false
+
+[fonts.mincho]
+family = "Source Han Serif SC Heavy"
+file = "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf"
+bold = false
+
+[fonts.marker]
+family = "LongZhuTi"
+file = "research/fonts/candidates/LongZhuTi/LongZhuTi-Regular.ttf"
+bold = false
+
+[fonts.casual]
+family = "Yozai"
+file = "research/fonts/candidates/yozai-font/Yozai-Regular.ttf"
+bold = false
+
+[fonts.brush_title]
+family = "PangMenZhengDao-Cu"
+file = "research/fonts/candidates/PangMen/PangMen.ttf"
+bold = false
+
+[fonts.fracture]
+family = "ShingoukiFractureSC"
+file = "research/fonts/derived/ShingoukiFractureSC.ttf"
+bold = false
+
+[fonts.melt]
+family = "ShingoukiMeltSC"
+file = "research/fonts/derived/ShingoukiMeltSC.ttf"
+bold = false
+
+[fonts.diamond]
+family = "ShingoukiDiamondSC"
+file = "research/fonts/derived/ShingoukiDiamondSC.ttf"
+bold = false
+
+[proposal_rules]
+black_outline_roles = ["casual"]
+
+[proposal_rules.roles.sans]
+reason = "圆黑应使用圆角极粗字面，避免 MiSans 的直角与常规 UI 字形。"
+
+[proposal_rules.roles.sans.set]
+font_role = "round"
+bold = false
+
+[proposal_rules.roles.sans.per_fontsize]
+outline = 0.045
+shadow = 0.005
+
+[proposal_rules.roles.serif]
+reason = "高反差横细竖粗与三角笔锋；独立 Heavy 字重，不对宋体伪粗。"
+
+[proposal_rules.roles.serif.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.roles.serif.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[proposal_rules.roles.hand]
+reason = "松散随手写，替换较端正的文楷。"
+
+[proposal_rules.roles.hand.set]
+font_role = "casual"
+bold = false
+shadow = 0
+
+[proposal_rules.roles.hand.per_fontsize]
+outline = 0.022
+
+[proposal_rules.roles.brush]
+reason = "粗毛笔的笔势、重心和飞白；保留汉字书写感。"
+
+[proposal_rules.roles.brush.set]
+font_role = "brush_title"
+bold = false
+
+[proposal_rules.roles.brush.per_fontsize]
+outline = 0.035
+shadow = 0.008
+
+[proposal_rules.roles.mono]
+reason = "非本轮书体目标，保留原配置。"
+
+[proposal_rules.roles.mono.set]
+font_role = "old_mono"
+
+[proposal_rules.roles.mono.per_fontsize]
+
+[proposal_rules.roles.ja]
+reason = "非本轮书体目标，保留原配置。"
+
+[proposal_rules.roles.ja.set]
+font_role = "old_ja"
+
+[proposal_rules.roles.ja.per_fontsize]
+
+[proposal_rules.roles.round]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.round.set]
+font_role = "round"
+bold = false
+
+[proposal_rules.roles.round.per_fontsize]
+outline = 0.045
+shadow = 0.005
+
+[proposal_rules.roles.mincho]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.mincho.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.roles.mincho.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[proposal_rules.roles.marker]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.marker.set]
+font_role = "marker"
+bold = false
+shadow = 0
+
+[proposal_rules.roles.marker.per_fontsize]
+outline = 0.032
+
+[proposal_rules.roles.casual]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.casual.set]
+font_role = "casual"
+bold = false
+shadow = 0
+
+[proposal_rules.roles.casual.per_fontsize]
+outline = 0.022
+
+[proposal_rules.roles.brush_title]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.brush_title.set]
+font_role = "brush_title"
+bold = false
+
+[proposal_rules.roles.brush_title.per_fontsize]
+outline = 0.035
+shadow = 0.008
+
+[proposal_rules.roles.fracture]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.fracture.set]
+font_role = "fracture"
+bold = false
+shadow = 0
+
+[proposal_rules.roles.fracture.per_fontsize]
+outline = 0.025
+
+[proposal_rules.roles.melt]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.melt.set]
+font_role = "melt"
+bold = false
+
+[proposal_rules.roles.melt.per_fontsize]
+outline = 0.045
+shadow = 0.03
+
+[proposal_rules.roles.diamond]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。"
+
+[proposal_rules.roles.diamond.set]
+font_role = "diamond"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.roles.diamond.per_fontsize]
+outline = 0.03
+
+[proposal_rules.events.1-s14b]
+reason = "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。"
+
+[proposal_rules.events.1-s14b.set]
+font_role = "marker"
+bold = false
+shadow = 0
+
+[proposal_rules.events.1-s14b.per_fontsize]
+outline = 0.032
+
+[proposal_rules.events.1-s14c]
+reason = "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。"
+
+[proposal_rules.events.1-s14c.set]
+font_role = "marker"
+bold = false
+shadow = 0
+
+[proposal_rules.events.1-s14c.per_fontsize]
+outline = 0.032
+
+[proposal_rules.events.1-s14d]
+reason = "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。"
+
+[proposal_rules.events.1-s14d.set]
+font_role = "marker"
+bold = false
+shadow = 0
+
+[proposal_rules.events.1-s14d.per_fontsize]
+outline = 0.032
+
+[proposal_rules.events.1-s14e]
+reason = "原片是有棱角的 POP 记号笔，不是细文楷；龙珠体为 RocknRoll One 的中文扩展。"
+
+[proposal_rules.events.1-s14e.set]
+font_role = "marker"
+bold = false
+shadow = 0
+
+[proposal_rules.events.1-s14e.per_fontsize]
+outline = 0.032
+
+[proposal_rules.events.1-s16]
+reason = "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。"
+
+[proposal_rules.events.1-s16.set]
+font_role = "diamond"
+italic = false
+source_style = "直立菱形装饰字，硬切"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s16.per_fontsize]
+outline = 0.03
+
+[proposal_rules.events.1-s17]
+reason = "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。"
+
+[proposal_rules.events.1-s17.set]
+font_role = "diamond"
+italic = false
+source_style = "直立菱形装饰字，硬切"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s17.per_fontsize]
+outline = 0.03
+
+[proposal_rules.events.1-s17b]
+reason = "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。"
+
+[proposal_rules.events.1-s17b.set]
+font_role = "diamond"
+italic = false
+source_style = "直立菱形装饰字，硬切"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s17b.per_fontsize]
+outline = 0.03
+
+[proposal_rules.events.1-s30]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片毛边更锋利，当前仍是近似；不要将本项标记为完全匹配。"
+
+[proposal_rules.events.1-s30.set]
+font_role = "brush_title"
+bold = false
+
+[proposal_rules.events.1-s30.per_fontsize]
+outline = 0.035
+shadow = 0.008
+
+[proposal_rules.events.1-s32]
+reason = "原日文与赤のアリス的菱形收笔高度吻合；中文使用风雅宋轮廓＋菱形端点的有限字集近似，保持竖笔直立，禁用合成斜体。"
+
+[proposal_rules.events.1-s32.set]
+font_role = "diamond"
+italic = false
+source_style = "直立菱形装饰字，硬切"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s32.per_fontsize]
+outline = 0.03
+
+[proposal_rules.events.1-s53]
+reason = "原片单字有明朝笔锋与粗细对比，纠正先前文楷归类。"
+
+[proposal_rules.events.1-s53.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.events.1-s53.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[proposal_rules.events.1-s57]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s57.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s57.set.soft_shadow]
+alpha = "20"
+
+[proposal_rules.events.1-s57.per_fontsize]
+outline = 0.026
+
+[proposal_rules.events.1-s57.per_fontsize.soft_shadow]
+x = 0.012
+y = 0.024
+spread = 0.012
+blur = 0.024
+
+[proposal_rules.events.1-s68b]
+reason = "原片反应字属于胖圆 POP，纠正先前误归手写体。"
+
+[proposal_rules.events.1-s68b.set]
+font_role = "round"
+bold = false
+
+[proposal_rules.events.1-s68b.per_fontsize]
+outline = 0.045
+shadow = 0.005
+
+[proposal_rules.events.1-s86]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。"
+scale_x_cap = 76
+
+[proposal_rules.events.1-s86.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.events.1-s86.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[proposal_rules.events.1-s88]
+reason = "原句裂纹与源界明朝高度一致；觉、坚用 SC Heavy 补字并作静态剥落，不使用横条错位。"
+
+[proposal_rules.events.1-s88.set]
+font_role = "fracture"
+effect = "none"
+bold = false
+shadow = 0
+
+[proposal_rules.events.1-s88.per_fontsize]
+outline = 0.025
+
+[proposal_rules.events.1-s111]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。"
+scale_x_cap = 69
+
+[proposal_rules.events.1-s111.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.events.1-s111.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[proposal_rules.events.1-s121]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s121.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s121.set.soft_shadow]
+alpha = "10"
+
+[proposal_rules.events.1-s121.per_fontsize]
+outline = 0.01
+
+[proposal_rules.events.1-s121.per_fontsize.soft_shadow]
+x = 0.015
+y = 0.03
+spread = 0.02
+blur = 0.04
+
+[proposal_rules.events.1-s170]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s170.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s170.set.soft_shadow]
+alpha = "20"
+
+[proposal_rules.events.1-s170.per_fontsize]
+outline = 0.026
+
+[proposal_rules.events.1-s170.per_fontsize.soft_shadow]
+x = 0.012
+y = 0.024
+spread = 0.012
+blur = 0.024
+
+[proposal_rules.events.1-s175]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s175.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s175.set.soft_shadow]
+alpha = "20"
+
+[proposal_rules.events.1-s175.per_fontsize]
+outline = 0.026
+
+[proposal_rules.events.1-s175.per_fontsize.soft_shadow]
+x = 0.012
+y = 0.024
+spread = 0.012
+blur = 0.024
+
+[proposal_rules.events.1-s179]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s179.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s179.set.soft_shadow]
+alpha = "08"
+
+[proposal_rules.events.1-s179.per_fontsize]
+outline = 0.026
+
+[proposal_rules.events.1-s179.per_fontsize.soft_shadow]
+x = 0.012
+y = 0.024
+spread = 0.02
+blur = 0.024
+
+[proposal_rules.events.1-s204]
+reason = "原片香蕉饭为粗明朝式假名，先用 Heavy 对齐笔画反差，移除普通毛笔替代。 原片有明显软黑投影；独立黑色阴影层加深扩散，前景白字和轮廓保持清晰。"
+
+[proposal_rules.events.1-s204.set]
+font_role = "mincho"
+bold = false
+shadow = 0
+blur = 0
+
+[proposal_rules.events.1-s204.set.soft_shadow]
+alpha = "20"
+
+[proposal_rules.events.1-s204.per_fontsize]
+outline = 0.026
+
+[proposal_rules.events.1-s204.per_fontsize.soft_shadow]
+x = 0.012
+y = 0.024
+spread = 0.012
+blur = 0.024
+
+[proposal_rules.events.1-s205]
+reason = "原片反应字属于胖圆 POP，纠正先前误归手写体。"
+
+[proposal_rules.events.1-s205.set]
+font_role = "round"
+bold = false
+
+[proposal_rules.events.1-s205.per_fontsize]
+outline = 0.045
+shadow = 0.005
+
+[proposal_rules.events.1-s212]
+reason = "原片是扭曲的明朝巨字；中文烫用静态曲线位移与缺口近似。仍非精确复刻。"
+
+[proposal_rules.events.1-s212.set]
+font_role = "melt"
+effect = "none"
+bold = false
+
+[proposal_rules.events.1-s212.per_fontsize]
+outline = 0.045
+shadow = 0.03
+
+[proposal_rules.events.1-s241]
+reason = "原片反应字属于胖圆 POP，纠正先前误归手写体。"
+
+[proposal_rules.events.1-s241.set]
+font_role = "round"
+bold = false
+
+[proposal_rules.events.1-s241.per_fontsize]
+outline = 0.045
+shadow = 0.005
+
+[proposal_rules.events.1-s255]
+reason = "保留已接入的字形类别，并按当前字号重算描边与阴影。 按原片的细长竖向字势收窄字面。"
+scale_x_cap = 52
+
+[proposal_rules.events.1-s255.set]
+font_role = "mincho"
+bold = false
+
+[proposal_rules.events.1-s255.per_fontsize]
+outline = 0.026
+shadow = 0.008
+
+[[releases]]
+name = "ChillRound"
+assets = []
+
+[[releases]]
+name = "LongZhuTi"
+assets = ["LongZhuTi-Regular.ttf"]
+
+[[releases]]
+name = "LxgwMarkerGothic"
+assets = []
+
+[[releases]]
+name = "yozai-font"
+assets = []
+
+[diamond]
+source = "research/fonts/candidates/FengYaSong/MaoKenWangFengYaSong.ttf"
+events = ["1-s16", "1-s17", "1-s17b", "1-s32"]
+family = "ShingoukiDiamondSC"
+license = "research/fonts/candidates/FengYaSong/OFL.txt"
+license_name = "OFL-FengYaSong.txt"
+
+[diamond.provenance]
+source = "https://github.com/maoken-fonts/fengyasong"
+reference_style = "Akano Alice, visual identification only; no proprietary outlines used"
+limitation = "Chinese visual approximation, not original Akano Alice or an official Chinese extension. Limited coverage."
+
+[fracture]
+original = "research/fonts/candidates/GenkaiMincho/package/genkai-mincho.ttf"
+fallback = "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf"
+original_label = "Genkai Mincho original outline"
+fallback_label = "SC Heavy + static fracture approximation"
+license = "research/fonts/candidates/SourceHanSerif/LICENSE.txt"
+fallback_license_name = "OFL-SourceHanSerif.txt"
+original_license_name = "OFL-Genkai.txt"
+original_license_note = "Derivative design: FLOP DESIGN / Genkai Mincho (https://booth.pm/ja/items/1028548)."
+
+[[fracture.jobs]]
+family = "ShingoukiFractureSC"
+text = "「觉悟与坚定的意志」"
+melt = false
+
+[[fracture.jobs]]
+family = "ShingoukiMeltSC"
+text = "烫"
+melt = true
+
+[fracture.provenance]
+original_source = "https://booth.pm/ja/items/1028548"
+sc_source = "https://github.com/adobe-fonts/source-han-serif"
+limitation = "Limited caption font; generated missing SC glyphs and melt variant are approximations, not original font identification."

@@ -1,0 +1,70 @@
+version = 1
+title = "Portable fixture"
+canvas = [320, 240]
+duration = 2.0
+media = "input.mp4"
+timeline = "timeline.json"
+source_text = "source"
+text = "translation"
+fonts = "fonts.toml"
+defaults = "defaults.toml"
+overlays = ["events.toml"]
+default_font = "plain"
+max_width = 300
+output = "output"
+performance_ass = "translated.ass"
+review_ass = "source.ass"
+source_srt = "source.srt"
+text_srt = "translated.srt"
+font_cache = ".cache/fonts"
+shared_fonts = "fonts"
+clips = "clips.toml"
+comparisons = "output/comparisons"
+comparison_width = 160
+
+[review]
+font = "plain"
+fontsize = 16
+x = 160
+y = 8
+max_width = 300
+outline = 1
+shadow = 0
+line_height = 1.3
+gap = 4
+
+[calibration]
+margin = 8
+max_y = 20
+
+[render.preview]
+file = "preview.mp4"
+width = 160
+crf = 21
+audio_bitrate = "64k"
+
+[render.full]
+file = "full.mp4"
+crf = 19
+audio_bitrate = "64k"
+
+[render.soft]
+file = "tracks.mkv"
+source_language = "eng"
+text_language = "deu"
+source_title = "Source"
+text_title = "Translation"
+
+[package]
+file = "output/editable.zip"
+include = ["clips.toml"]
+
+[ass_style]
+fontsize = 24
+bold = 0
+outline = 1
+shadow = 0
+align = 2
+margin_left = 10
+margin_right = 10
+margin_vertical = 20

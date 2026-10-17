@@ -1,0 +1,29 @@
+description = "原片与当前制作成片逐项对照；字体选择、特效提案和研究资料由本工程维护。"
+focus_ids = ["1-s1", "1-s4", "1-s5", "1-s8b", "1-s14b", "1-s16", "1-s30", "1-s31b", "1-s34b", "1-s53", "1-s57", "1-s68b", "1-s74c", "1-s86", "1-s88", "1-s100", "1-s111", "1-s121", "b-sticky", "1-s155", "1-s170", "1-s175", "1-s178", "1-s179", "1-s192", "1-s204", "1-s205", "1-s212", "1-s232", "1-s241", "1-s255", "1-s169.a", "1-s17", "1-s17b", "1-s32"]
+notes = ["原字体识别为视觉判断，尚未获得原作者确认。菱形收笔与 TypeBank「赤のアリス」高度吻合；中文风雅宋轮廓加菱形端点为近似方案，并非官方中文扩展。", "にくまるフォント、源界明朝与对应原字幕高度吻合；毛边、极端变形和部分毛笔标题仍需人工确认。具体提案、来源、派生字库与历史画面保留在本工程 research/fonts/。"]
+
+[video]
+thumbnail = "https://i.ytimg.com/vi/l_jfyIEddfw/maxresdefault.jpg"
+description = "ばんわんこ〜\n意図せずVlog系Vtuberになりつつある動画投稿者です。\nそろそろブイロがない動画も上げたいところですが、(許諾が降りれば)お出かけ先のVlogがも一本上がります。\n\n大量の廃信号機の目撃情報があった時と信号機の墓場の墓場になった際は、また再訪したいですね。\n\n——————————————\nグッズ販売してはる屋さん\nhttps://shiteharu.booth.pm\n\nLINEスタンプ屋さん\nhttps://store.line.me/stickershop/pro...\n\nツイッター屋さん\nhttps://x.com/popico_pi\n——————————————\n一部素材を使用させていただいております\nSE:OtoLogic 様\n\n#Vtuber #Vlog #信号機の墓場 #名古屋 #喫茶ツヅキ #喫茶マウンテン"
+channel = "してはる"
+channel_url = "https://www.youtube.com/channel/UCm9fknC7ObBFKCtEXN-6Hgg"
+published = "2026-10-15"
+url = "https://www.youtube.com/watch?v=l_jfyIEddfw"
+
+[role_labels]
+round = "胖圆对白"
+mincho = "高反差明朝"
+marker = "记号笔 POP"
+casual = "随手写"
+brush_title = "粗毛笔"
+fracture = "破损明朝"
+melt = "扭曲巨字"
+diamond = "直立菱形笔锋"
+
+[[links]]
+label = "赤のアリス官方样张"
+url = "https://www.morisawa.co.jp/fonts/specimen/detail/1561"
+
+[[links]]
+label = "中文风雅宋来源"
+url = "https://github.com/maoken-fonts/fengyasong"

@@ -1,0 +1,343 @@
+[Script Info]
+Title: 信号灯墓场 · editable Chinese performance
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Resource Han Rounded CN Heavy,58,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,3.5,1,2,60,60,265,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.23,Default,1-s1,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}汪上好～
+Dialogue: 0,0:00:01.23,0:00:08.64,Default,1-s2,0,0,0,,{\an4\fnResource Han Rounded CN Heavy\fs220\b0\fscx100.00\fscy100\fsp0\bord9.9\shad1.1\1c&HFFFFFF&\3c&H000000&\frz0\move(1300,745,-8763,745,0,7407)\clip(0,610,1920,840)}按下人行横道的信号灯按钮后 明明只有自己一个人要过马路 却在自己已经走到对面之后 还让所有车辆停在那里等上好一会儿 于是心生愧疚的摩西型
+Dialogue: 0,0:00:08.64,0:00:10.07,Default,1-s4,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs200\b0\fscx100.00\fscy100\fsp0\bord5.2\shad1.6\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}大家——！
+Dialogue: 0,0:00:10.07,0:00:11.57,Default,1-s5,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}都在干嘛哈噜～？
+Dialogue: 0,0:00:11.57,0:00:12.84,Default,1-s7,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}大家好 我是 してはる
+Dialogue: 0,0:00:12.84,0:00:14.41,Default,1-s8,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs115\b0\fscx100.00\fscy100\fsp0\bord5.17\shad0.58\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,940)}大家喜欢吗
+Dialogue: 0,0:00:14.41,0:00:15.61,Default,1-s8b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs290\b0\fscx100.00\fscy100\fsp0\bord7.54\shad2.32\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,400)}信号灯
+Dialogue: 0,0:00:15.61,0:00:18.05,Default,1-s9,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}以前逛过一家卖废旧信号灯的店
+Dialogue: 0,0:00:18.05,0:00:20.72,Default,1-s11,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}虽然知道现实中根本买不了
+Dialogue: 0,0:00:20.72,0:00:23.89,Default,1-s12,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}但至今还后悔当时没想办法买下来
+Dialogue: 1,0:00:21.95,0:00:23.89,Default,a-mercari,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs68\b0\fscx100.00\fscy100\fsp0\bord3.06\shad0.34\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,500)}顺带一提 Mercari上也有卖
+Dialogue: 0,0:00:23.89,0:00:24.79,Default,1-s13,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs175\b0\fscx100.00\fscy100\fsp0\bord4.55\shad1.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,870)}我其实
+Dialogue: 0,0:00:24.79,0:00:26.32,Default,1-s13b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs175\b0\fscx100.00\fscy100\fsp0\bord4.55\shad1.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,870)}对信号灯这种存在
+Dialogue: 0,0:00:26.32,0:00:26.99,Default,1-s13c,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs240\b0\fscx100.00\fscy100\fsp0\bord6.24\shad1.92\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,375)}挺喜欢的
+Dialogue: 0,0:00:26.99,0:00:27.66,Default,1-s14,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs90\b0\fscx100.00\fscy100\fsp0\bord4.05\shad0.45\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}那个～～～
+Dialogue: 0,0:00:27.66,0:00:28.89,Default,1-s14b,0,0,0,,{\an2\fnLongZhuTi\fs105\b0\fscx100.00\fscy100\fsp0\bord3.36\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,915)}交通系统？还有
+Dialogue: 0,0:00:28.89,0:00:29.46,Default,1-s14c,0,0,0,,{\an2\fnLongZhuTi\fs105\b0\fscx100.00\fscy100\fsp0\bord3.36\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,915)}那个
+Dialogue: 0,0:00:29.46,0:00:29.89,Default,1-s14d,0,0,0,,{\an2\fnLongZhuTi\fs105\b0\fscx100.00\fscy100\fsp0\bord3.36\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,915)}这个
+Dialogue: 0,0:00:29.89,0:00:30.93,Default,1-s14e,0,0,0,,{\an2\fnLongZhuTi\fs105\b0\fscx100.00\fscy100\fsp0\bord3.36\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,915)}那些东西
+Dialogue: 0,0:00:30.93,0:00:32.23,Default,1-s15,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}我都不太懂
+Dialogue: 1,0:00:30.93,0:00:32.23,Default,a-disclaimer,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs260\b0\fscx100.00\fscy100\fsp0\bord6.76\shad2.08\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,280)}先打个预防针
+Dialogue: 0,0:00:32.23,0:00:33.26,Default,1-s16,0,0,0,,{\an2\fnShingoukiDiamondSC\fs150\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)\blur0}只是喜欢它的造型
+Dialogue: 0,0:00:33.26,0:00:36.17,Default,1-s17,0,0,0,,{\an2\fnShingoukiDiamondSC\fs145\b0\fscx100.00\fscy100\fsp0\bord4.35\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,425)\blur0}一台管着人类的机器\N这种古怪的存在本身
+Dialogue: 0,0:00:36.17,0:00:37.30,Default,1-s17b,0,0,0,,{\an2\fnShingoukiDiamondSC\fs145\b0\fscx100.00\fscy100\fsp0\bord4.35\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)\blur0}就很有意思啊
+Dialogue: 1,0:00:36.17,0:00:37.30,Default,a-enthusiasts,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs140\b0\fscx100.00\fscy100\fsp0\bord3.64\shad1.12\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,430)}各位爱好者请多包涵
+Dialogue: 0,0:00:37.30,0:00:40.04,Default,1-s18,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}带遮檐又粗犷笨重的款式很有味道
+Dialogue: 0,0:00:40.04,0:00:42.44,Default,1-s19,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}但考虑到耐用性和辨识度等因素
+Dialogue: 1,0:00:40.04,0:00:42.44,Default,a-led-benefits,0,0,0,,{\an7\fnResource Han Rounded CN Heavy\fs70\b0\fscx100.00\fscy100\fsp0\bord3.15\shad0.35\1c&HFFFFFF&\3c&H000000&\frz0\pos(1380,240)}·降低成本\N·使用寿命\N·减轻重量\N·防止假亮\N·响应迅速\N·低发热　…
+Dialogue: 0,0:00:42.44,0:00:45.14,Default,1-s20,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}最近薄型信号灯越来越多了
+Dialogue: 0,0:00:45.14,0:00:47.28,Default,1-s21,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}顺带一提 东京 宫城 长野和岐阜
+Dialogue: 0,0:00:47.28,0:00:49.88,Default,1-s22,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}据说已经全部换成LED了
+Dialogue: 0,0:00:49.88,0:00:52.31,Default,1-s23,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}要把所有信号灯整台换掉
+Dialogue: 1,0:00:49.88,0:00:52.31,Default,a-price-panel,0,0,0,,{\an7\fnResource Han Rounded CN Heavy\fs42\b0\fscx86.58\fscy100\fsp0\bord1.89\shad0.21\1c&HFFFFFF&\3c&H000000&\frz0\pos(1080,35)}信号灯本体：约6万～12万日元\N信号灯杆：数十万至100万日元以上\N信号控制器：约100万至200万日元以上\N整体安装及施工总费用：\N小型路口或单独更换：约120万～300万日元\N一般路口整套设备（灯具·灯杆·控…\N约500万～600万日元
+Dialogue: 0,0:00:52.31,0:00:54.22,Default,1-s23b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}实在太烧钱
+Dialogue: 1,0:00:52.31,0:00:54.22,Default,a-big-price,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs200\b0\fscx100.00\fscy100\fsp0\bord5.2\shad1.6\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,170)}约三五百万日元
+Dialogue: 0,0:00:54.22,0:00:56.22,Default,1-s24,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}所以暂时只换了内部零件
+Dialogue: 1,0:00:54.22,0:00:56.22,Default,a-old-type,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs135\b0\fscx100.00\fscy100\fsp0\bord6.08\shad0.68\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,420)}老式外壳≠白炽灯泡
+Dialogue: 0,0:00:56.22,0:01:00.72,Default,1-s25,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}那些看着又老又笨重的家伙\N其实不少早就换上了崭新的内芯
+Dialogue: 1,0:00:58.12,0:01:00.72,Default,a-saisin,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs70\b0\fscx100.00\fscy100\fsp0\bord3.15\shad0.35\1c&HFFFFFF&\3c&H000000&\frz0\pos(940,265)}最新款
+Dialogue: 0,0:01:00.72,0:01:02.66,Default,1-s27,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}不过外壳也总有寿终正寝的一天
+Dialogue: 0,0:01:02.66,0:01:05.29,Default,1-s28,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}迟早都会换成薄型的吧
+Dialogue: 0,0:01:05.29,0:01:07.30,Default,1-s29,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}这些完成使命的废旧信号灯
+Dialogue: 0,0:01:07.30,0:01:08.26,Default,1-s29b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs195\b0\fscx100.00\fscy100\fsp0\bord5.07\shad1.56\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}最后的归宿
+Dialogue: 0,0:01:08.26,0:01:10.03,Default,1-s30,0,0,0,,{\an2\fnPangMenZhengDao-Cu\fs140\b0\fscx100.00\fscy100\fsp0\bord4.9\shad1.12\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,850)}这世上还真有这么个地方
+Dialogue: 0,0:01:10.03,0:01:10.83,Default,1-s31,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}它就是
+Dialogue: 0,0:01:10.83,0:01:12.54,Default,1-s31b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs195\b0\fscx100.00\fscy100\fsp0\bord5.07\shad1.56\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,430)}信号灯墓场（俗称）
+Dialogue: 1,0:01:11.90,0:01:12.54,Default,a-naming,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs68\b0\fscx100.00\fscy100\fsp0\bord3.06\shad0.34\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,520)}这名字也太直白了吧
+Dialogue: 0,0:01:12.54,0:01:14.47,Default,1-s31c,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}大约十年前知道这里以后
+Dialogue: 1,0:01:12.54,0:01:16.71,Default,a-photo-credit,0,0,0,,{\an7\fnResource Han Rounded CN Heavy\fs30\b0\fscx100.00\fscy100\fsp0\bord1.35\shad0.15\1c&HFFFFFF&\3c&H000000&\frz0\pos(24,42)}图片来源：东海电视台
+Dialogue: 0,0:01:14.47,0:01:16.71,Default,1-s32,0,0,0,,{\an2\fnShingoukiDiamondSC\fs155\b0\fscx100.00\fscy100\fsp0\bord4.65\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)\blur0}我就一直默默向往着它
+Dialogue: 0,0:01:16.71,0:01:18.54,Default,1-s33,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}如今我成了视频博主
+Dialogue: 0,0:01:18.54,0:01:19.14,Default,1-s34,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs205\b0\fscx100.00\fscy100\fsp0\bord5.33\shad1.64\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}时机
+Dialogue: 0,0:01:19.14,0:01:20.01,Default,1-s34b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs180\b0\fscx100.00\fscy100\fsp0\bord4.68\shad1.44\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,170)}已成熟
+Dialogue: 1,0:01:19.14,0:01:20.01,Default,a-vtuber,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs170\b0\fscx100.00\fscy100\fsp0\bord4.42\shad1.36\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,345)}Vtuber最棒了
+Dialogue: 0,0:01:20.01,0:01:21.21,Default,1-s35,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}所以这次
+Dialogue: 0,0:01:21.21,0:01:21.91,Default,1-s35b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs135\b0\fscx100.00\fscy100\fsp0\bord6.08\shad0.68\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,895)}盼了十年！
+Dialogue: 0,0:01:21.91,0:01:23.11,Default,1-s36,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs210\b0\fscx100.00\fscy100\fsp0\bord5.46\shad1.68\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}终于能相见了
+Dialogue: 0,0:01:23.11,0:01:25.11,Default,1-s37,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs205\b0\fscx95.39\fscy100\fsp0\bord5.33\shad1.64\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}去信号灯墓场扫个墓
+Dialogue: 0,0:01:25.11,0:01:26.42,Default,1-s38,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}这就出发吧
+Dialogue: 0,0:01:26.42,0:01:28.42,Default,1-s39,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}那么 我出门啦～
+Dialogue: 0,0:01:31.39,0:01:33.19,Default,1-s40,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}好啦 我们已经到达～
+Dialogue: 0,0:01:33.19,0:01:33.62,Default,1-s40b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}这里～
+Dialogue: 0,0:01:33.62,0:01:35.06,Default,1-s41,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs190\b0\fscx100.00\fscy100\fsp0\bord4.94\shad1.52\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}爱知县名古屋市
+Dialogue: 0,0:01:35.06,0:01:37.03,Default,1-s42,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}天气真好 心情也好起来了
+Dialogue: 0,0:01:37.03,0:01:40.13,Default,1-s43,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}这次想等日落时再去扫墓
+Dialogue: 0,0:01:40.13,0:01:42.20,Default,1-s45,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}就先沿途逛逛吧
+Dialogue: 0,0:01:42.20,0:01:43.80,Default,1-s46,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}听说名古屋市中心有座
+Dialogue: 1,0:01:42.20,0:01:43.80,Default,a-climbers,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs85\b0\fscx100.00\fscy100\fsp0\bord3.82\shad0.42\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,405)}全国各地的「登山客」络绎不绝
+Dialogue: 0,0:01:43.80,0:01:46.64,Default,1-s47,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs165\b0\fscx97.64\fscy100\fsp0\bord4.29\shad1.32\1c&HFFFFFF&\3c&H000000&\frz0\pos(790,880)}不断有人遇险的大山
+Dialogue: 1,0:01:43.80,0:01:45.23,Default,a-nagoya-headline,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs80\b0\fscx100.00\fscy100\fsp0\bord3.6\shad0.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,460)}把名古屋游客推入深渊的「登山…
+Dialogue: 1,0:01:45.23,0:01:46.64,Default,a-warning-headline,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs85\b0\fscx100.00\fscy100\fsp0\bord3.82\shad0.42\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,335)}【番外篇】当心遇险\N单人登山记录 - 名古…
+Dialogue: 0,0:01:46.64,0:01:48.64,Default,1-s48,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}难得来一趟 去登个山吧
+Dialogue: 0,0:01:48.64,0:01:51.11,Default,1-s49,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}好啦 已经到山脚下了
+Dialogue: 0,0:01:51.11,0:01:51.81,Default,1-s50,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}就是这家
+Dialogue: 0,0:01:51.81,0:01:52.61,Default,1-s50b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs115\b0\fscx100.00\fscy100\fsp0\bord5.17\shad0.58\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,940)}锵锵
+Dialogue: 0,0:01:52.61,0:01:54.24,Default,1-s51,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs110\b0\fscx100.00\fscy100\fsp0\bord4.95\shad0.55\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,935)}Mountain 咖啡馆（山）
+Dialogue: 0,0:01:54.24,0:01:55.54,Default,1-s52,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}会是怎样的登山之旅呢
+Dialogue: 0,0:01:55.54,0:01:58.95,Default,1-s52b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs95\b0\fscx84.21\fscy100\fsp0\bord4.27\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(310,955)}好期待啊～～～
+Dialogue: 1,0:01:57.81,0:02:01.05,Default,a-cash-sign,0,0,0,,{\an7\fnYozai\fs65\b0\fscx95.73\fscy100\fsp0\bord1.43\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(35,210)}顾客须知\N本店仅接受现金支付
+Dialogue: 0,0:01:58.95,0:02:01.05,Default,1-s53,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs200\b0\fscx100.00\fscy100\fsp0\bord5.2\shad1.6\1c&HFFFFFF&\3c&H000000&\frz0\pos(300,1040)}嗯？
+Dialogue: 0,0:02:06.49,0:02:08.02,Default,1-s56,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}都到这里了才发现 今天
+Dialogue: -1,0:02:08.02,0:02:10.59,Default,1-s57,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs240\b0\fscx100.00\fscy100\fsp0\bord2.88\shad0\1c&H000000&\3c&H000000&\frz0\pos(962.88,390.76)\blur5.76\alpha&H20&}钱包留守旅馆
+Dialogue: 0,0:02:08.02,0:02:10.59,Default,1-s57,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs240\b0\fscx100.00\fscy100\fsp0\bord6.24\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)\blur0}钱包留守旅馆
+Dialogue: 0,0:02:10.59,0:02:14.36,Default,1-s58,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}白来一趟 还没登山就得下山
+Dialogue: 1,0:02:13.40,0:02:14.36,Default,a-dream,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs230\b0\fscx100.00\fscy100\fsp0\bord5.98\shad1.84\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,420)}做梦？
+Dialogue: 0,0:02:14.36,0:02:16.93,Default,1-s59,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}只好放弃 换家咖啡馆
+Dialogue: 0,0:02:16.93,0:02:19.20,Default,1-s60,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}这里好像也是家名店
+Dialogue: 0,0:02:19.20,0:02:21.27,Default,1-s61,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs155\b0\fscx100.00\fscy100\fsp0\bord4.03\shad1.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)}满墙名人 网红浓度致死
+Dialogue: 0,0:02:21.27,0:02:23.57,Default,1-s62,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}稍微等了一会儿就入座了
+Dialogue: 0,0:02:23.57,0:02:26.31,Default,1-s63,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}选择好多 都不知道点什么了
+Dialogue: 0,0:02:26.31,0:02:29.31,Default,1-s65,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx91.67\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(840,860)}维也纳咖啡好像是推荐款 就选它吧
+Dialogue: 0,0:02:29.31,0:02:32.05,Default,1-s67,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(840,860)}还没喝过维也纳咖啡 真期待
+Dialogue: 0,0:02:32.05,0:02:34.68,Default,1-s68,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}该不会是在咖啡里插根香肠吧
+Dialogue: 0,0:02:34.68,0:02:35.38,Default,1-s68b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}噗噗噗
+Dialogue: 0,0:02:35.38,0:02:36.55,Default,1-s69,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs175\b0\fscx100.00\fscy100\fsp0\bord4.55\shad1.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,890)}诶～～～
+Dialogue: 0,0:02:36.55,0:02:41.39,Default,1-s70,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs160\b0\fscx100.00\fscy100\fsp0\bord4.16\shad1.28\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,755)}奶油加量再加量\N致死量高楼版维也纳咖啡
+Dialogue: 0,0:02:41.39,0:02:43.19,Default,1-s72,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}真是赢家winner的饮品
+Dialogue: 0,0:02:43.19,0:02:45.39,Default,1-s73,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}原来名字是这么来的啊
+Dialogue: 0,0:02:45.39,0:02:46.83,Default,1-s74,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}店员小哥轻快地说
+Dialogue: 0,0:02:46.83,0:02:47.93,Default,1-s74b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs155\b0\fscx100.00\fscy100\fsp0\bord4.03\shad1.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)}请趁早享用
+Dialogue: 0,0:02:47.93,0:02:49.00,Default,1-s74c,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs185\b0\fscx100.00\fscy100\fsp3\bord4.81\shad1.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,855)}迟早会倒的哟♪
+Dialogue: 0,0:02:49.00,0:02:50.23,Default,1-s75,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}说完就走了
+Dialogue: 0,0:02:50.23,0:02:52.47,Default,1-s75b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs100\b0\fscx76.52\fscy100\fsp0\bord2.6\shad0.8\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)}赢家winner也终将倒下 沦为输家loser
+Dialogue: 0,0:02:52.47,0:02:53.94,Default,1-s76,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs145\b0\fscx100.00\fscy100\fsp0\bord3.77\shad1.16\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)}这杯咖啡就是人生
+Dialogue: 0,0:02:53.94,0:02:58.21,Default,1-s77,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx96.70\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,825)}而容纳了无数人生的这家咖啡馆\N就是时间这个概念本身
+Dialogue: 0,0:02:58.21,0:02:58.84,Default,1-s77b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}我是这么想的
+Dialogue: 1,0:02:58.21,0:02:58.84,Default,a-random-philosophy,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord2.73\shad0.84\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,500)}随口胡诌
+Dialogue: 0,0:02:58.84,0:03:01.04,Default,1-s78,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}要是贸然用吸管喝咖啡
+Dialogue: 0,0:03:01.04,0:03:02.58,Default,1-s79,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}上面的高塔就会塌
+Dialogue: 0,0:03:02.58,0:03:03.91,Default,1-s79b,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs170\b0\fscx100.00\fscy100\fsp0\bord4.42\shad1.36\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,890)}只好埋头吃奶油
+Dialogue: 0,0:03:03.91,0:03:06.48,Default,1-s80,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx88.22\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}我偏要以赢家 Winner 的身份谢幕
+Dialogue: 0,0:03:06.48,0:03:08.48,Default,1-s82,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs155\b0\fscx100.00\fscy100\fsp0\bord4.03\shad1.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,910)}赢了就跑 绝不翻车
+Dialogue: 0,0:03:08.48,0:03:09.42,Default,1-s83,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}啊～
+Dialogue: 0,0:03:09.42,0:03:10.45,Default,1-s84,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}糟了
+Dialogue: 0,0:03:10.45,0:03:12.75,Default,1-s85,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs135\b0\fscx100.00\fscy100\fsp0\bord3.51\shad1.08\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,930)}手一滑 又点了份芭菲
+Dialogue: 0,0:03:12.75,0:03:15.36,Default,1-s86,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs195\b0\fscx69.43\fscy100\fsp0\bord5.07\shad1.56\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,870)}巨无霸大胃王挑战级松饼芭菲
+Dialogue: 1,0:03:13.79,0:03:15.36,Default,a-mistake,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs110\b0\fscx100.00\fscy100\fsp0\bord2.86\shad0.88\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,495)}这次可能真点错了
+Dialogue: 0,0:03:15.36,0:03:17.23,Default,1-s87,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}没人陪你分着吃的各位
+Dialogue: 0,0:03:17.23,0:03:18.69,Default,1-s88,0,0,0,,{\an2\fnShingoukiFractureSC\fs200\b0\fscx88.00\fscy100\fsp0\bord5.0\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,820)}「觉悟与坚定的意志」
+Dialogue: 0,0:03:18.69,0:03:19.96,Default,1-s88b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,952)}记得带好再来
+Dialogue: 0,0:03:19.96,0:03:21.66,Default,1-s89,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}多谢款待
+Dialogue: 0,0:03:21.66,0:03:24.13,Default,1-s90,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}胃里塞满童话世界 快撑爆了
+Dialogue: 0,0:03:24.13,0:03:25.83,Default,1-s91,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}走一走 把它们搅匀
+Dialogue: 0,0:03:25.83,0:03:28.20,Default,1-s92,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx100.00\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(900,950)}让全身都变得梦幻可爱吧
+Dialogue: 0,0:03:28.20,0:03:29.40,Default,1-s93,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}顺便说说 这附近
+Dialogue: 0,0:03:29.40,0:03:31.14,Default,1-s93.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}有家卖列车遗失物的店
+Dialogue: 0,0:03:31.14,0:03:32.64,Default,1-s94,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}叫作『JR 遗失物集市』
+Dialogue: 0,0:03:32.64,0:03:35.04,Default,1-s94.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}听说有这么家店 我就去看了看
+Dialogue: 0,0:03:35.04,0:03:36.55,Default,1-s95,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}结果好像已经关门大吉了
+Dialogue: 0,0:03:36.55,0:03:38.68,Default,1-s96,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}只剩一扇卷帘门
+Dialogue: 0,0:03:38.68,0:03:39.72,Default,1-s97,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}真遗憾
+Dialogue: 0,0:03:39.72,0:03:42.18,Default,1-s98,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}那么 也该慢慢向墓地进发了
+Dialogue: 0,0:03:42.18,0:03:43.22,Default,1-s99,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs210\b0\fscx100.00\fscy100\fsp0\bord5.46\shad1.68\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,930)}今天的重头戏
+Dialogue: 0,0:03:43.22,0:03:44.99,Default,1-s100,0,0,0,,{\an2\fnPangMenZhengDao-Cu\fs260\b0\fscx87.91\fscy100\fsp0\bord9.1\shad2.08\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,475)}『信号灯墓场』
+Dialogue: 0,0:03:49.43,0:03:53.46,Default,1-s101,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs120\b0\fscx72.92\fscy100\fsp0\bord3.12\shad0.96\1c&HFFFFFF&\3c&H000000&\frz0\pos(365,880)}以为换乘坐错了 \N折返后才发现没错\N于是第二次
+Dialogue: 0,0:03:53.46,0:03:54.93,Default,1-s103,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs150\b0\fscx100.00\fscy100\fsp0\bord6.75\shad0.75\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,918)}抵达最近的车站
+Dialogue: 0,0:03:54.93,0:03:57.37,Default,1-s104,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}眼前豁然开朗 视野清晰
+Dialogue: 0,0:03:57.37,0:03:59.40,Default,1-s105,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}走在这条路上真舒服
+Dialogue: 0,0:03:59.40,0:04:01.47,Default,1-s105.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}天空和建筑都大得惊人
+Dialogue: 0,0:04:01.47,0:04:05.44,Default,1-s106,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}每迈一步 都觉得自己步子好小\N还挺有意思
+Dialogue: 0,0:04:05.44,0:04:06.71,Default,1-s107,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}路上的信号灯
+Dialogue: 0,0:04:06.71,0:04:09.04,Default,1-s108,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs195\b0\fscx82.05\fscy100\fsp0\bord5.07\shad1.56\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,940)}总让人忍不住多看两眼呢
+Dialogue: 0,0:04:09.04,0:04:09.71,Default,1-s109,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}哎哟
+Dialogue: 0,0:04:09.71,0:04:11.31,Default,1-s110,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}还有个稀罕的小家伙
+Dialogue: 0,0:04:11.31,0:04:14.35,Default,1-s111,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs180\b0\fscx69.00\fscy115\fsp0\bord4.68\shad1.44\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)}一副绝对不让你看的坚定态度
+Dialogue: 0,0:04:14.35,0:04:15.58,Default,1-s112,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs260\b0\fscx84.62\fscy100\fsp0\bord6.76\shad2.08\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,845)}铜墙铁壁的遮光罩
+Dialogue: 0,0:04:15.58,0:04:18.45,Default,1-s112.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}粗犷又帅气 看得人好兴奋
+Dialogue: 0,0:04:18.45,0:04:18.89,Default,1-s112.b,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}哦
+Dialogue: 0,0:04:18.89,0:04:20.62,Default,1-s113,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs150\b0\fscx100.00\fscy100\fsp0\bord6.75\shad0.75\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,919)}好像就是那儿吧
+Dialogue: 0,0:04:20.62,0:04:22.92,Default,1-s114,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}盼了这么久的见面 开始紧张了
+Dialogue: 0,0:04:22.92,0:04:25.19,Default,1-s115,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}我的刘海没乱吧
+Dialogue: 0,0:04:25.19,0:04:26.29,Default,1-s117,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}来啦 锵锵
+Dialogue: 0,0:04:26.29,0:04:28.36,Default,1-s120,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}到啦～～～～～～
+Dialogue: -1,0:04:28.36,0:04:29.50,Default,1-s121,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs340\b0\fscx100.00\fscy100\fsp0\bord6.8\shad0\1c&H000000&\3c&H000000&\frz0\pos(965.1,825.2)\blur13.6\alpha&H10&}好少
+Dialogue: 0,0:04:28.36,0:04:29.50,Default,1-s121,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs340\b0\fscx100.00\fscy100\fsp0\bord3.4\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,815)\blur0}好少
+Dialogue: 0,0:04:29.50,0:04:32.50,Default,1-s122,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}并没有想象中堆成山的信号灯
+Dialogue: 0,0:04:32.50,0:04:35.20,Default,1-s123,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}它们在这里暂存后就会被处理掉
+Dialogue: 0,0:04:35.20,0:04:37.97,Default,1-s124,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}所以能看到多少台 全看来的时机
+Dialogue: 0,0:04:37.97,0:04:40.81,Default,1-s125,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}人类为了方便而造出的信号灯
+Dialogue: 1,0:04:38.04,0:04:58.33,Default,b-corner-long,0,0,0,,{\an7\fnResource Han Rounded CN Heavy\fs54\b0\fscx100.00\fscy100\fsp0\bord2.43\shad0.27\1c&HFFFFFF&\3c&H000000&\frz0\pos(20,63)\fad(900,0)}接下来是一分钟怪话时间
+Dialogue: 0,0:04:40.81,0:04:43.38,Default,1-s127,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}默默完成使命后 无人在意
+Dialogue: 0,0:04:43.38,0:04:46.32,Default,1-s128,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}就被当成没用的工业废料处理掉
+Dialogue: 0,0:04:46.32,0:04:49.52,Default,1-s129,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}被嫌弃是碍事的大件垃圾\N随意堆在一起
+Dialogue: 0,0:04:49.52,0:04:54.39,Default,1-s130,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}这小小的空间 从始至终\N都塞满了人类一厢情愿的私欲
+Dialogue: 0,0:04:54.39,0:04:56.66,Default,1-s132,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}连这幅景象也要拿来消费情怀的
+Dialogue: 0,0:04:56.66,0:04:58.33,Default,1-s133,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}像我这样的人也算在内
+Dialogue: 1,0:04:56.66,0:04:58.33,Default,b-self-aware,0,0,0,,{\an8\fnSource Han Serif SC Heavy\fs240\b0\fscx100.00\fscy100\fsp0\bord6.24\shad1.92\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,200)}有自知之明
+Dialogue: 0,0:04:58.33,0:05:01.83,Default,1-s134,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs190\b0\fscx83.25\fscy100\fsp0\bord4.94\shad1.52\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,385)}真是一幅罪业深重的景象
+Dialogue: 1,0:05:00.50,0:05:01.83,Default,b-sticky,0,0,0,,{\an2\fnPangMenZhengDao-Cu\fs100\b0\fscx100.00\fscy100\fsp0\bord3.5\shad0.8\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,513)}黏腻…
+Dialogue: 0,0:05:01.83,0:05:05.53,Default,1-s135,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}这片围栏里曾堆满了\N足足五千台信号灯
+Dialogue: 1,0:05:01.83,0:05:38.70,Default,b-corner-short,0,0,0,,{\an7\fnResource Han Rounded CN Heavy\fs54\b0\fscx100.00\fscy100\fsp0\bord2.43\shad0.27\1c&HFFFFFF&\3c&H000000&\frz0\pos(20,78)}一分钟怪话时间
+Dialogue: 0,0:05:05.53,0:05:07.80,Default,1-s136,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}我就是看了那张照片才来的
+Dialogue: 0,0:05:07.80,0:05:09.67,Default,1-s137,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}看来来得不是时候呢
+Dialogue: 0,0:05:09.67,0:05:12.94,Default,1-s138,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}信号灯制造满19年就该更换
+Dialogue: 0,0:05:12.94,0:05:15.44,Default,1-s139,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}现在的更换进度似乎还跟不上
+Dialogue: 1,0:05:12.97,0:05:15.44,Default,b-news-headline,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs68\b0\fscx100.00\fscy100\fsp0\bord3.06\shad0.34\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,370)}超期服役的信号灯占比达25.8% 创历史新高\N警察厅长官称老化问题严重
+Dialogue: 0,0:05:15.44,0:05:17.18,Default,1-s140,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}至于这地方会不会也走向废弃
+Dialogue: 0,0:05:17.18,0:05:19.21,Default,1-s141,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs190\b0\fscx91.58\fscy100\fsp0\bord4.94\shad1.52\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,435)}变成信号灯墓场的墓场
+Dialogue: 0,0:05:19.21,0:05:20.88,Default,1-s142,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}看来暂时还不会呢
+Dialogue: 0,0:05:20.88,0:05:23.82,Default,1-s143,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(870,882)}虽然没能看到成堆的信号灯有些遗憾
+Dialogue: 0,0:05:23.82,0:05:25.29,Default,1-s144,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}那些早已废弃处理掉的信号灯
+Dialogue: 0,0:05:25.29,0:05:28.02,Default,1-s145,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}遥想它们曾在这里的身影
+Dialogue: 0,0:05:28.02,0:05:30.26,Default,1-s146,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}也别有一番滋味
+Dialogue: 0,0:05:30.26,0:05:33.26,Default,1-s147,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}不知情时只是块地\N了解后却能成为圣地
+Dialogue: 0,0:05:33.26,0:05:35.13,Default,1-s148,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}你住的地方 脚下的地方
+Dialogue: 0,0:05:35.13,0:05:37.47,Default,1-s149,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}或许也是谁心中承载回忆的圣地
+Dialogue: 0,0:05:37.47,0:05:38.70,Default,1-s150,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}真奇妙啊
+Dialogue: 0,0:05:38.70,0:05:39.63,Default,1-s151,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx100.00\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}终于如愿相见
+Dialogue: 0,0:05:39.63,0:05:41.40,Default,1-s151.a,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs220\b0\fscx100.00\fscy100\fsp0\bord5.72\shad1.76\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)}拍了三百张
+Dialogue: 0,0:05:41.40,0:05:43.20,Default,1-s152,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}天都彻底黑了
+Dialogue: 0,0:05:43.20,0:05:45.97,Default,1-s153,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(870,882)}听说附近有个能看工厂夜景的地方
+Dialogue: 0,0:05:45.97,0:05:48.21,Default,1-s153.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}顺道去瞧瞧吧
+Dialogue: 0,0:05:53.52,0:05:56.15,Default,1-s154,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs90\b0\fscx100.00\fscy100\fsp0\bord2.34\shad0.72\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,980)}哦～～～～～～～～～～
+Dialogue: 0,0:05:56.15,0:05:57.05,Default,1-s155,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs280\b0\fscx100.00\fscy100\fsp0\bord7.28\shad2.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,855)}嗯
+Dialogue: 0,0:05:57.05,0:05:57.89,Default,1-s156,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs80\b0\fscx100.00\fscy100\fsp0\bord3.6\shad0.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,988)}总觉得
+Dialogue: 0,0:05:57.89,0:05:59.55,Default,1-s156.a,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs210\b0\fscx100.00\fscy100\fsp0\bord5.46\shad1.68\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)}有点一言难尽呢
+Dialogue: 0,0:05:59.55,0:06:01.46,Default,1-s157,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}正纳闷怎么这么模糊 原来今天
+Dialogue: 0,0:06:01.46,0:06:03.59,Default,1-s158,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs230\b0\fscx94.57\fscy100\fsp0\bord5.98\shad1.84\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)}隐形眼镜在家留守
+Dialogue: 0,0:06:03.59,0:06:04.43,Default,1-s159,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs80\b0\fscx100.00\fscy100\fsp0\bord3.6\shad0.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,988)}仔细
+Dialogue: 0,0:06:04.43,0:06:07.03,Default,1-s160,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}仔仔细细地看 说不定还挺美的呢
+Dialogue: 1,0:06:05.69,0:06:07.03,Default,b-fifty-times,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs80\b0\fscx100.00\fscy100\fsp0\bord2.08\shad0.64\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,507)}视频里反而好看50倍
+Dialogue: 0,0:06:07.03,0:06:10.13,Default,1-s161,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}我这近视眼 总只盯着眼前的东西
+Dialogue: 0,0:06:10.13,0:06:11.33,Default,1-s162,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}比起远处的工厂夜景
+Dialogue: 0,0:06:11.33,0:06:13.54,Default,1-s162.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}反倒是身边其他的大楼
+Dialogue: 0,0:06:13.54,0:06:15.00,Default,1-s163,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}看起来更漂亮
+Dialogue: 0,0:06:15.00,0:06:18.47,Default,1-s164,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,882)}看来得更认真地规划人生了
+Dialogue: 0,0:06:18.47,0:06:22.08,Default,1-s165,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(870,882)}好像还有乘船欣赏工厂夜景的行程
+Dialogue: 0,0:06:22.08,0:06:24.15,Default,1-s166,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx100.00\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(900,950)}等视力和未来都更清晰了
+Dialogue: 0,0:06:24.15,0:06:25.71,Default,1-s166.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}还想再来一次呢
+Dialogue: 0,0:06:31.15,0:06:33.29,Default,1-s167,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}接下来是第二天的加餐
+Dialogue: 0,0:06:33.29,0:06:35.42,Default,1-s168,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}再来登个山 一雪前耻吧
+Dialogue: 0,0:06:35.42,0:06:36.89,Default,1-s169,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs120\b0\fscx100.00\fscy100\fsp0\bord5.4\shad0.6\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,947)}看起来很好吃的菜
+Dialogue: 0,0:06:36.89,0:06:37.96,Default,1-s169.a,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs185\b0\fscx100.00\fscy100\fsp0\bord8.32\shad0.93\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,889)}这菜单
+Dialogue: -1,0:06:37.96,0:06:39.56,Default,1-s170,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs275\b0\fscx90.91\fscy100\fsp0\bord3.3\shad0\1c&H000000&\3c&H000000&\frz0\pos(963.3,826.6)\blur6.6\alpha&H20&}这菜单也太丰富了
+Dialogue: 0,0:06:37.96,0:06:39.56,Default,1-s170,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs275\b0\fscx90.91\fscy100\fsp0\bord7.15\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,820)\blur0}这菜单也太丰富了
+Dialogue: 0,0:06:39.56,0:06:42.23,Default,1-s171,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs100\b0\fscx100.00\fscy100\fsp0\bord4.5\shad0.5\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,972)}好多名字都很吸引人 真难选啊
+Dialogue: 0,0:06:42.23,0:06:43.90,Default,1-s172,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}就决定是你了！
+Dialogue: 0,0:06:43.90,0:06:44.43,Default,1-s174,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}就是这个
+Dialogue: -1,0:06:44.43,0:06:46.67,Default,1-s175,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs235\b0\fscx83.22\fscy100\fsp0\bord2.82\shad0\1c&H000000&\3c&H000000&\frz0\pos(962.82,840.64)\blur5.64\alpha&H20&}甜味抹茶红豆意面～
+Dialogue: 0,0:06:44.43,0:06:46.67,Default,1-s175,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs235\b0\fscx83.22\fscy100\fsp0\bord6.11\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,835)\blur0}甜味抹茶红豆意面～
+Dialogue: 0,0:06:46.67,0:06:48.94,Default,1-s176,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}这视觉冲击力真是数一数二
+Dialogue: 0,0:06:48.94,0:06:51.47,Default,1-s177,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}我开动啦
+Dialogue: 0,0:06:51.47,0:06:53.48,Default,1-s178,0,0,0,,{\an2\fnYozai\fs88\b0\fscx125.00\fscy100\fsp0\bord1.94\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,975)}嗯～～～～～～
+Dialogue: -1,0:06:53.48,0:06:54.48,Default,1-s179,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs450\b0\fscx100.00\fscy100\fsp0\bord9.0\shad0\1c&H000000&\3c&H000000&\frz0\pos(965.4,630.8)\blur10.8\alpha&H08&}烫
+Dialogue: 0,0:06:53.48,0:06:54.48,Default,1-s179,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs450\b0\fscx100.00\fscy100\fsp0\bord11.7\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,620)\blur0}烫
+Dialogue: 0,0:06:54.48,0:06:57.51,Default,1-s181,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}一般店里的意面都没这么烫
+Dialogue: 0,0:06:57.51,0:06:59.95,Default,1-s182,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs150\b0\fscx72.82\fscy100\fsp0\bord3.9\shad1.2\1c&HFFFFFF&\3c&H000000&\frz0\pos(800,912)}刚出锅就热气腾腾地端上来了
+Dialogue: 0,0:06:59.95,0:07:01.48,Default,1-s183,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}放凉应该会更好吃
+Dialogue: 0,0:07:01.48,0:07:03.75,Default,1-s184,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}可奶油会化 得赶紧吃
+Dialogue: 0,0:07:03.75,0:07:05.82,Default,1-s185,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}对着又烫又甜的东西呼呼吹
+Dialogue: 0,0:07:05.82,0:07:07.92,Default,1-s186,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}感觉还挺奇妙 挺有意思的
+Dialogue: 0,0:07:07.92,0:07:10.16,Default,1-s187,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(350,860)}让我想起以前\N往乌冬面上\N浇巧克力酱\N和奶油
+Dialogue: 0,0:07:10.16,0:07:12.46,Default,1-s188,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}试图把它做成甜品的时候
+Dialogue: 0,0:07:12.46,0:07:13.83,Default,1-s188-visual2,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}真是令人怀念的味道
+Dialogue: 1,0:07:12.46,0:07:13.83,Default,c-overlay-432,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs120\b0\fscx100.00\fscy100\fsp0\bord3.12\shad0.96\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,495)}这算哪门子美食测评
+Dialogue: 0,0:07:13.83,0:07:15.53,Default,1-s189,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}10分钟登顶成功
+Dialogue: 0,0:07:15.53,0:07:17.20,Default,1-s190,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}多谢款待
+Dialogue: 1,0:07:15.53,0:07:17.20,Default,c-overlay-435,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord2.5\shad0.77\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,525)}无可救药的酱汁
+Dialogue: 0,0:07:17.20,0:07:20.24,Default,1-s191,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}邻桌的大学生看到我的抹茶红豆意面
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,70.0,1745.0,70.0,0,1634)\fad(300,150)}那
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,128.0,1745.0,128.0,0,1634)\fad(300,150)}个
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an5\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz-90\move(1795.0,215.0,1745.0,215.0,0,1634)\fad(300,150)}…
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,244.0,1745.0,244.0,0,1634)\fad(300,150)}也
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,302.0,1745.0,302.0,0,1634)\fad(300,150)}太
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,360.0,1745.0,360.0,0,1634)\fad(300,150)}夸
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,418.0,1745.0,418.0,0,1634)\fad(300,150)}张
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,476.0,1745.0,476.0,0,1634)\fad(300,150)}了
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,534.0,1745.0,534.0,0,1634)\fad(300,150)}吧
+Dialogue: 0,0:07:20.37,0:07:22.00,Default,1-s192,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1795.0,592.0,1745.0,592.0,0,1634)\fad(300,150)}？
+Dialogue: 0,0:07:22.04,0:07:23.40,Default,1-s193,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1880.0,280.0,1860.0,280.0,0,1368)\fad(300,150)}太
+Dialogue: 0,0:07:22.04,0:07:23.40,Default,1-s193,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1880.0,338.0,1860.0,338.0,0,1368)\fad(300,150)}夸
+Dialogue: 0,0:07:22.04,0:07:23.40,Default,1-s193,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1880.0,396.0,1860.0,396.0,0,1368)\fad(300,150)}张
+Dialogue: 0,0:07:22.04,0:07:23.40,Default,1-s193,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1880.0,454.0,1860.0,454.0,0,1368)\fad(300,150)}了
+Dialogue: 0,0:07:22.04,0:07:23.40,Default,1-s193,0,0,0,,{\an5\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz-90\move(1880.0,541.0,1860.0,541.0,0,1368)\fad(300,150)}…
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,380.0,1740.0,380.0,0,1569)\fad(300,150)}不
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,438.0,1740.0,438.0,0,1569)\fad(300,150)}过
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,496.0,1740.0,496.0,0,1569)\fad(300,150)}有
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,554.0,1740.0,554.0,0,1569)\fad(300,150)}点
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,612.0,1740.0,612.0,0,1569)\fad(300,150)}想
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,670.0,1740.0,670.0,0,1569)\fad(300,150)}尝
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an8\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz0\move(1790.0,728.0,1740.0,728.0,0,1569)\fad(300,150)}尝
+Dialogue: 0,0:07:22.97,0:07:24.54,Default,1-s194,0,0,0,,{\an5\fnYozai\fs58\b0\fscx100.00\fscy100\fsp0\bord0\shad0\1c&H000000&\3c&HFFFFFF&\frz-90\move(1790.0,815.0,1740.0,815.0,0,1569)\fad(300,150)}…
+Dialogue: 1,0:07:23.74,0:07:25.97,Default,c-overlay-443,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(810,940)}结果他们还是点了
+Dialogue: 0,0:07:24.14,0:07:25.86,Default,1-s195,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs90\b0\fscx100.00\fscy100\fsp0\bord4.05\shad0.45\1c&HFFFFFF&\3c&H000000&\frz0\pos(660,155)}他们就这样小声嘀咕着
+Dialogue: 0,0:07:25.97,0:07:28.04,Default,1-s196,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}还有好多想吃的 实在舍不得走
+Dialogue: 0,0:07:28.04,0:07:29.85,Default,1-s197,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs145\b0\fscx100.00\fscy100\fsp0\bord6.52\shad0.72\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,900)}再登一座山吧
+Dialogue: 0,0:07:29.85,0:07:32.18,Default,1-s198,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}嗯 菜名都好诱人
+Dialogue: 0,0:07:32.18,0:07:34.22,Default,1-s200,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}挑来挑去挑花了眼
+Dialogue: 0,0:07:34.22,0:07:38.02,Default,1-s202,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)\fad(0,700)}最终有幸被选中的菜品是
+Dialogue: -1,0:07:38.82,0:07:40.56,Default,1-s204,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs320\b0\fscx100.00\fscy100\fsp0\bord3.84\shad0\1c&H000000&\3c&H000000&\frz0\pos(963.84,822.68)\blur7.68\alpha&H20&}香蕉饭
+Dialogue: 0,0:07:38.82,0:07:40.56,Default,1-s204,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs320\b0\fscx100.00\fscy100\fsp0\bord8.32\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,815)\blur0}香蕉饭
+Dialogue: 0,0:07:40.56,0:07:42.06,Default,1-s205,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs88\b0\fscx100.00\fscy100\fsp0\bord3.96\shad0.44\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,965)}锵锵
+Dialogue: 0,0:07:42.06,0:07:45.06,Default,1-s207,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}上面放着一整根烤香蕉
+Dialogue: 0,0:07:45.06,0:07:47.50,Default,1-s209,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}我开动了
+Dialogue: 0,0:07:47.50,0:07:49.93,Default,1-s210,0,0,0,,{\an2\fnYozai\fs88\b0\fscx125.00\fscy100\fsp0\bord1.94\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,975)}嗯嗯～～～～～
+Dialogue: 0,0:07:49.93,0:07:51.03,Default,1-s212,0,0,0,,{\an2\fnShingoukiMeltSC\fs480\b0\fscx100.00\fscy100\fsp0\bord21.6\shad14.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,660)}烫
+Dialogue: 0,0:07:51.03,0:07:52.67,Default,1-s213,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs225\b0\fscx100.00\fscy100\fsp0\bord5.85\shad1.8\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,790)}居然还挺好吃
+Dialogue: 0,0:07:52.67,0:07:55.44,Default,1-s214,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}本以为会是甜腻的牛奶粥之类
+Dialogue: 0,0:07:55.44,0:07:57.71,Default,1-s215,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx91.15\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(800,860)}结果是培根菠萝饭上放了一根烤香蕉
+Dialogue: 0,0:07:57.71,0:08:01.08,Default,1-s216,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}我就爱吃加菠萝的咕咾肉\N所以这份也吃得很香
+Dialogue: 0,0:08:01.08,0:08:03.51,Default,1-s218,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}这种咸甜口真让人欲罢不能
+Dialogue: 0,0:08:03.51,0:08:06.65,Default,1-s219,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}而且每道菜都是刚做好\N就热腾腾地端上来
+Dialogue: 0,0:08:06.65,0:08:09.82,Default,1-s221,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs200\b0\fscx97.78\fscy100\fsp0\bord5.2\shad1.6\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,350)}比起味道 先说温度
+Dialogue: 0,0:08:09.82,0:08:11.59,Default,1-s222,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}多谢款待
+Dialogue: 0,0:08:11.59,0:08:13.45,Default,1-s223,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}没朋友一起分着吃的人
+Dialogue: 0,0:08:13.45,0:08:14.92,Default,1-s224,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs215\b0\fscx100.00\fscy100\fsp0\bord5.59\shad1.72\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,350)}觉悟与坚定的意志
+Dialogue: 0,0:08:14.92,0:08:17.39,Default,1-s224-visual2,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}记得随身带好
+Dialogue: 0,0:08:17.39,0:08:18.53,Default,1-s225,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}想吃名古屋美食
+Dialogue: 0,0:08:18.53,0:08:21.26,Default,1-s226,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs180\b0\fscx100.00\fscy100\fsp0\bord4.68\shad1.44\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,880)}『觉悟』很重要
+Dialogue: 0,0:08:21.26,0:08:25.30,Default,1-s227,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx96.73\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(355,860)}没想到有一半\N左右的客人\N点的都是\N普通餐品或饮料
+Dialogue: 0,0:08:25.30,0:08:27.34,Default,1-s229,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}不管是挑战款还是经典款
+Dialogue: 0,0:08:27.34,0:08:30.51,Default,1-s230,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}都有种让人想全部吃遍的魔力
+Dialogue: 0,0:08:30.51,0:08:31.44,Default,1-s231,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}听说这附近有个
+Dialogue: 0,0:08:31.44,0:08:35.08,Default,1-s232,0,0,0,,{\an2\fnPangMenZhengDao-Cu\fs330\b0\fscx88.89\fscy100\fsp0\bord11.55\shad2.64\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,430)}『人间地狱』
+Dialogue: 0,0:08:35.08,0:08:38.81,Default,1-s233,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx84.56\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(760,860)}概念登山结束后 又去试了试物理登山
+Dialogue: 0,0:08:38.81,0:08:39.68,Default,1-s234,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}怎么感觉
+Dialogue: 0,0:08:39.68,0:08:42.92,Default,1-s235,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs250\b0\fscx100.00\fscy100\fsp0\bord6.5\shad2.0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,785)}这入口绝对不对
+Dialogue: 0,0:08:42.92,0:08:45.32,Default,1-s236,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx100.00\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,930)}牌子一片空白
+Dialogue: 0,0:08:45.32,0:08:48.96,Default,1-s237,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs140\b0\fscx73.95\fscy100\fsp0\bord3.64\shad1.12\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,775)}可能是「入口」也可能是「禁止入内」
+Dialogue: 0,0:08:48.96,0:08:50.96,Default,1-s238,0,0,0,,{\an8\fnResource Han Rounded CN Heavy\fs80\b0\fscx100.00\fscy100\fsp0\bord3.6\shad0.4\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,10)}可地图指的确实是这条路
+Dialogue: 0,0:08:50.96,0:08:53.40,Default,1-s239,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}稍微进去看看吧
+Dialogue: 0,0:08:55.16,0:08:56.50,Default,1-s240,0,0,0,,{\an2\fnYozai\fs88\b0\fscx125.00\fscy100\fsp0\bord1.94\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,975)}嗯嗯～～～～～
+Dialogue: 0,0:08:56.50,0:08:57.13,Default,1-s241,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs88\b0\fscx100.00\fscy100\fsp0\bord3.96\shad0.44\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}绝——
+Dialogue: 0,0:08:57.13,0:08:58.57,Default,1-s242,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs250\b0\fscx100.00\fscy100\fsp0\bord6.5\shad2.0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,330)}绝对走错了吧
+Dialogue: 0,0:08:58.57,0:08:59.87,Default,1-s243,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs105\b0\fscx100.00\fscy100\fsp0\bord4.72\shad0.53\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,950)}登山失败
+Dialogue: 0,0:08:59.87,0:09:01.07,Default,1-s246,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs140\b0\fscx100.00\fscy100\fsp0\bord3.64\shad1.12\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,930)}迷路了
+Dialogue: 0,0:09:01.07,0:09:04.54,Default,1-s247,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}在附近转了一会儿\N总算找到了正路的指示牌
+Dialogue: 0,0:09:04.54,0:09:06.54,Default,1-s248,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}可现在进去 到那儿天都黑了
+Dialogue: 0,0:09:06.54,0:09:08.38,Default,1-s249,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}怕是真要在山里遇险了
+Dialogue: 0,0:09:08.38,0:09:09.91,Default,1-s250,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}只好放弃 真可惜
+Dialogue: 0,0:09:09.91,0:09:12.61,Default,1-s251,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs130\b0\fscx90.26\fscy100\fsp0\bord3.38\shad1.04\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,918)}是因为我太善良 所以进不了地狱
+Dialogue: 0,0:09:12.61,0:09:16.92,Default,1-s252,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs125\b0\fscx93.87\fscy120\fsp0\bord3.25\shad1.0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,350)}还是说 都走到这儿了却功亏一篑\N只能回去 这才是人间地狱
+Dialogue: 0,0:09:16.92,0:09:19.52,Default,1-s254,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs140\b0\fscx100.00\fscy125\fsp0\bord3.64\shad1.12\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,380)}又或者 连我这样胡思乱想
+Dialogue: 0,0:09:19.52,0:09:21.79,Default,1-s255,0,0,0,,{\an2\fnSource Han Serif SC Heavy\fs155\b0\fscx52.00\fscy150\fsp0\bord4.03\shad1.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,380)}都说明已经陷入人间地狱了
+Dialogue: 0,0:09:21.79,0:09:24.38,Default,1-s256,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs58\b0\fscx100.00\fscy100\fsp0\bord2.61\shad0.29\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,62)}一个名字竟能有这么多解读
+Dialogue: 1,0:09:21.79,0:09:24.23,Default,c-map-heading-561,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs48\b0\fscx100.00\fscy100\fsp0\bord2.16\shad0.24\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,118)}人间地狱（漏斗状悬崖）
+Dialogue: 1,0:09:21.79,0:09:24.23,Default,c-overlay-561,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs70\b0\fscx100.00\fscy100\fsp0\bord3.15\shad0.35\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,965)}顺便一提 人间地狱长这样
+Dialogue: 0,0:09:24.23,0:09:26.63,Default,1-s258,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}考据党狂喜
+Dialogue: 1,0:09:28.76,0:09:31.60,Default,c-overlay-568,0,0,0,,{\an2\fnYozai\fs65\b0\fscx100.00\fscy100\fsp0\bord1.43\shad0\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,985)}这声音也太吓人了
+Dialogue: 0,0:09:31.60,0:09:32.90,Default,1-s260,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}终于如愿来扫墓
+Dialogue: 0,0:09:32.90,0:09:36.00,Default,1-s260-visual2,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}虽然没有照片里那般震撼的景象
+Dialogue: 0,0:09:36.00,0:09:38.71,Default,1-s261,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,860)}但这片风景也带来了另一种感动
+Dialogue: 0,0:09:38.71,0:09:40.44,Default,1-s262,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}最开心的是 这个一直向往的地方
+Dialogue: 0,0:09:40.44,0:09:43.11,Default,1-s263,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}终于成为了我人生的一部分
+Dialogue: 0,0:09:43.11,0:09:46.78,Default,1-s264,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx95.24\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(350,860)}这里并不是景点\N所以就不透露\N具体位置了
+Dialogue: 0,0:09:46.78,0:09:49.35,Default,1-s264-visual2,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}如果大家要去 请别给周围添麻烦
+Dialogue: 0,0:09:49.35,0:09:51.22,Default,1-s265,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}一定要注意哦
+Dialogue: 0,0:09:51.22,0:09:52.89,Default,1-s266,0,0,0,,{\an2\fnResource Han Rounded CN Heavy\fs96\b0\fscx100.00\fscy100\fsp0\bord4.32\shad0.48\1c&HFFFFFF&\3c&H000000&\frz0\pos(960,970)}那就拜拜啦～

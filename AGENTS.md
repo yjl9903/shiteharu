@@ -21,6 +21,6 @@
 | 新增文件、调整目录或模块边界 | [目录与模块职责](docs/layout.md) |
 | 准备资源、修改路径、重建或交付 | [资源、重建与交付](docs/reproducibility.md) |
 | 制作单片、查编辑入口与命令 | 对应工程的 `README.md`；现有工程：[信号灯墓场](production/shingouki/README.md)、[银泽](production/ginzawa/README.md) |
-| 修改单片内容、字幕设计或脚本 | 工程内的 `description.md`、`design/SCHEMA.md` 和已有的 `scripts/README.md` |
+| 修改单片内容、字幕设计或脚本 | 工程内的 `description.md`、`design/SCHEMA.md` 及公共 [Forge](tools/forge/README.md) |
 | 使用或修改公共审阅工具 | [Loupe](tools/loupe/README.md) |
 | 准备字体、核对来源与许可 | [字体来源](fonts/SOURCES.md) |

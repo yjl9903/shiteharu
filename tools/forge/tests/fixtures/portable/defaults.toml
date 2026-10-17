@@ -1,0 +1,11 @@
+[default]
+font_role = "plain"
+fontsize = 24
+x = 160
+y = 210
+align = 2
+outline = 1
+shadow = 0
+color = "FFFFFF"
+outline_color = "000000"
+effect = "none"

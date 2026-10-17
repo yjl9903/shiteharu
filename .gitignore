@@ -56,23 +56,23 @@ __pycache__/
 /production/**/deliverables/comparisons/**/*.jpeg
 /production/**/deliverables/comparisons/**/*.webp
 
-# 字体研究与预览的下载资源、字体副本和生成图片
-# 顶层 fonts/ 中的正式字体、许可和来源记录不受这些规则影响
-/production/**/font-style-preview/font-match/cache/
-/production/**/font-style-preview/**/*.ttf
-/production/**/font-style-preview/**/*.otf
-/production/**/font-style-preview/**/*.ttc
-/production/**/font-style-preview/**/*.woff
-/production/**/font-style-preview/**/*.woff2
-/production/**/font-style-preview/**/*.cache-*
-/production/**/font-style-preview/**/*.png
-/production/**/font-style-preview/**/*.jpg
-/production/**/font-style-preview/**/*.jpeg
-/production/**/font-style-preview/**/*.webp
-/production/**/font-style-preview/**/*.zip
-/production/**/font-style-preview/**/*.7z
-/production/**/font-style-preview/**/*.tgz
-/production/**/font-style-preview/font-match/candidates/**/*.pdf
+# 工程专属字体研究的下载资源、派生字库副本和生成图片
+# 正式字库、许可和来源记录仍由顶层 fonts/ 管理
+/production/**/research/fonts/cache/
+/production/**/research/fonts/candidates/
+/production/**/research/fonts/**/*.ttf
+/production/**/research/fonts/**/*.otf
+/production/**/research/fonts/**/*.ttc
+/production/**/research/fonts/**/*.woff
+/production/**/research/fonts/**/*.woff2
+/production/**/research/fonts/**/*.cache-*
+/production/**/research/fonts/**/*.png
+/production/**/research/fonts/**/*.jpg
+/production/**/research/fonts/**/*.jpeg
+/production/**/research/fonts/**/*.webp
+/production/**/research/fonts/**/*.zip
+/production/**/research/fonts/**/*.7z
+/production/**/research/fonts/**/*.tgz
 
 # 打包交付产物；保留 deliverables/ 内的字幕和封面
 /production/**/deliverables/*.zip

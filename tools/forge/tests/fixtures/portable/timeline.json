@@ -1,0 +1,16 @@
+[
+  {
+    "id": "first",
+    "start": 0.0,
+    "end": 1.0,
+    "source": "A",
+    "translation": "B"
+  },
+  {
+    "id": "second",
+    "start": 1.0,
+    "end": 2.0,
+    "source": "B",
+    "translation": "A"
+  }
+]

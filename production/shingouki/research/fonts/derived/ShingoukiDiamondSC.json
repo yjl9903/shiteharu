@@ -1,0 +1,125 @@
+{
+  "family": "ShingoukiDiamondSC",
+  "source": "https://github.com/maoken-fonts/fengyasong",
+  "reference_style": "Akano Alice, visual identification only; no proprietary outlines used",
+  "events": [
+    "1-s16",
+    "1-s17",
+    "1-s17b",
+    "1-s32"
+  ],
+  "coverage": "只是喜欢它的造型一台管着人类的机器\n这种古怪的存在本身就很有意思啊我就一直默默向往着它",
+  "italic": false,
+  "synthesis": false,
+  "limitation": "Chinese visual approximation, not original Akano Alice or an official Chinese extension. Limited coverage.",
+  "glyphs": {
+    " ": {
+      "decorations": 0
+    },
+    "一": {
+      "decorations": 2
+    },
+    "人": {
+      "decorations": 0
+    },
+    "古": {
+      "decorations": 4
+    },
+    "只": {
+      "decorations": 1
+    },
+    "台": {
+      "decorations": 1
+    },
+    "向": {
+      "decorations": 0
+    },
+    "啊": {
+      "decorations": 0
+    },
+    "喜": {
+      "decorations": 9
+    },
+    "器": {
+      "decorations": 7
+    },
+    "在": {
+      "decorations": 7
+    },
+    "型": {
+      "decorations": 11
+    },
+    "存": {
+      "decorations": 5
+    },
+    "它": {
+      "decorations": 1
+    },
+    "就": {
+      "decorations": 0
+    },
+    "往": {
+      "decorations": 6
+    },
+    "很": {
+      "decorations": 3
+    },
+    "思": {
+      "decorations": 1
+    },
+    "怪": {
+      "decorations": 6
+    },
+    "意": {
+      "decorations": 5
+    },
+    "我": {
+      "decorations": 3
+    },
+    "是": {
+      "decorations": 5
+    },
+    "有": {
+      "decorations": 4
+    },
+    "本": {
+      "decorations": 5
+    },
+    "机": {
+      "decorations": 4
+    },
+    "欢": {
+      "decorations": 1
+    },
+    "的": {
+      "decorations": 2
+    },
+    "直": {
+      "decorations": 8
+    },
+    "着": {
+      "decorations": 6
+    },
+    "种": {
+      "decorations": 4
+    },
+    "管": {
+      "decorations": 4
+    },
+    "类": {
+      "decorations": 6
+    },
+    "身": {
+      "decorations": 3
+    },
+    "这": {
+      "decorations": 3
+    },
+    "造": {
+      "decorations": 7
+    },
+    "默": {
+      "decorations": 5
+    }
+  }
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Loupe</title><link rel="stylesheet" href="assets/preview.css">
+  <script id="initialSnapshot" type="application/json">null</script>
+  <script src="assets/preview.js" defer></script>
+</head>
+<body><main>
+  <header class="page-header">
+    <div class="page-title"><p class="eyebrow">LOUPE</p><h1 id="title">正在读取工程…</h1></div>
+    <button id="refresh" class="refresh-button" data-state="checking" aria-busy="true" disabled data-tooltip="正在检查输入"><span data-icon="spinner"></span><span id="syncStatus" role="status">检查中</span></button>
+    <p id="syncMessage" class="sync-message" role="alert" hidden></p>
+    <details class="video-info">
+      <summary>视频信息</summary>
+      <div class="video-overview">
+        <a id="videoCoverLink" class="video-cover" target="_blank" rel="noopener noreferrer" hidden><img id="videoCover" alt="原视频封面" loading="lazy" referrerpolicy="no-referrer"></a>
+        <dl id="videoMetadata" class="video-metadata" aria-label="原视频信息"></dl>
+      </div>
+      <div id="videoDescription" class="video-description" hidden><h3>简介</h3><p></p></div>
+      <div class="video-source"><span>当前成片</span><p id="mediaInfo"></p></div>
+    </details>
+  </header>
+  <section id="videoPanel" aria-label="视频对照">
+    <div id="playerShell" class="player-shell" tabindex="0" aria-label="对照播放器">
+      <div class="player-heading">
+        <div class="player-heading-title"><h2>视频对照</h2></div>
+        <div id="layout" class="layout-switch" role="group" aria-label="画面布局">
+          <button type="button" data-layout="pair" aria-pressed="true" data-tooltip="左右并排"><span data-icon="pair"></span><span>并排</span></button>
+          <button type="button" data-layout="stack" aria-pressed="false" data-tooltip="上下放大"><span data-icon="stack"></span><span>上下</span></button>
+          <button type="button" data-layout="wipe" aria-pressed="false" data-tooltip="画面擦除"><span data-icon="wipe"></span><span>擦除</span></button>
+        </div>
+      </div>
+      <p id="playerStatus" class="loading-status" role="status">正在载入视频…</p>
+      <div class="player-frame">
+      <div id="compare" class="compare pair">
+        <div class="side original"><p id="originalLabel">原片</p><video id="original" playsinline preload="metadata"></video></div>
+        <div class="side rendered"><p id="renderedLabel">当前版</p><video id="rendered" playsinline preload="metadata" muted></video></div>
+      </div>
+      <label id="wipeControl" class="wipe-control" hidden><span>原片</span><input id="wipe" aria-label="擦除位置" type="range" min="0" max="100" value="50"><span>当前版</span></label>
+      <div class="player-controls">
+        <input id="seek" class="timeline" aria-label="播放进度" type="range" min="0" max="0" step="0.001" value="0">
+        <div class="transport">
+          <div class="control-group">
+            <button id="play" class="icon-button play-button" aria-label="播放" data-tooltip="播放（空格 / K）" data-icon="play"></button>
+            <button id="previous" class="icon-button" aria-label="上一条字幕" data-tooltip="上一条字幕" data-icon="previous" disabled></button>
+            <button id="back" class="icon-button" aria-label="后退约一帧" data-tooltip="后退约一帧（,）" data-icon="frameBack"></button>
+            <button id="forward" class="icon-button" aria-label="前进约一帧" data-tooltip="前进约一帧（.）" data-icon="frameForward"></button>
+            <button id="next" class="icon-button" aria-label="下一条字幕" data-tooltip="下一条字幕" data-icon="next" disabled></button>
+            <output id="time" class="timecode" aria-live="off">00:00 / 00:00</output>
+          </div>
+          <div class="control-group playback-options">
+            <select id="rate" aria-label="播放速度" data-tooltip="播放速度"><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select>
+            <button id="fullscreen" class="icon-button" aria-label="进入全屏" data-tooltip="进入全屏（F）" data-icon="fullscreen"></button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="subtitle-tools">
+      <label class="subtitle-search"><span data-icon="search"></span><input id="search" aria-label="字幕搜索" type="search" placeholder="搜索字幕、ID 或字体角色"></label>
+      <div class="subtitle-navigation" role="group" aria-label="切换匹配字幕">
+        <select id="event" aria-label="选择字幕" data-tooltip="跳转到字幕" disabled></select>
+      </div>
+      <div class="subtitle-actions">
+        <button id="replay" class="caption-action" data-tooltip="重播此句" disabled><span data-icon="restart"></span>重播此句</button>
+        <button id="loop" class="caption-action loop-button" data-tooltip="循环此句" aria-pressed="false" disabled><span data-icon="loop"></span>循环此句</button>
+      </div>
+    </div>
+    <div id="current" class="current-caption"></div>
+  </section>
+  <section id="framesPanel">
+    <div class="section-heading"><h2>字幕画面对照 <small id="count"></small></h2>
+      <div class="frame-filters"><label>字体角色 <select id="role"><option value="">全部</option></select></label><label><input id="focus" type="checkbox">仅重点样例</label></div>
+    </div>
+    <div id="frames"></div><p id="empty" hidden>没有匹配的字幕。</p>
+  </section>
+  <dialog id="imageDialog"><button id="closeImage">关闭大图</button><img alt="放大字幕画面"></dialog>
+</main></body></html>
