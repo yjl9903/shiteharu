@@ -29,7 +29,7 @@
 | 标题 | 视频 | 中文字幕 | 完成 | 更新时间 |
 | --- | --- | --- | --- | --- |
 | [『信号機の墓場』へ行こう](https://www.youtube.com/watch?v=l_jfyIEddfw)（去「信号灯墓场」吧） | ✅ | [SRT](production/shingouki/deliverables/zh.srt) · [ASS](production/shingouki/deliverables/zh.performance.ass) | ✅ | 2026-10-16 |
-| [石川県の存在しない街『銀沢』へ行こう](https://www.youtube.com/watch?v=hNc8Em2PKeQ)（去石川县并不存在的城市「银泽」吧） | ⬜ | ⬜ | ⬜ | 2026-10-18 |
+| [石川県の存在しない街『銀沢』へ行こう](https://www.youtube.com/watch?v=hNc8Em2PKeQ)（去石川县并不存在的城市「银泽」吧） | ✅ | [制作中](production/ginzawa/README.md) | ⬜ | 2026-10-18 |
 | [人様の音楽ライブを盛り下げに行くお仕事](https://www.youtube.com/watch?v=spLvdAZwGsE)（去给别人的音乐现场演出冷场的工作） | ⬜ | ⬜ | ⬜ | 2026-10-18 |
 | [初グッズに前代未聞のオマケを付けて怖がらせよう！](https://www.youtube.com/watch?v=IE-2xV_jtYY)（给首批周边附上前所未有的赠品，吓大家一跳吧！） | ⬜ | ⬜ | ⬜ | 2026-10-18 |
 | [誤算だらけの24時間夏休みRTA](https://www.youtube.com/watch?v=v6yM-L4vHBk)（意外连连的 24 小时暑假速通） | ⬜ | ⬜ | ⬜ | 2026-10-18 |
