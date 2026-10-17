@@ -100,7 +100,7 @@ function detail(){
   for(const [label,value] of [[l.source_text,e.source_text],[l.text,e.text]]){const row=node('div',undefined,'caption-row');row.append(node('span',label,'caption-language'),node('p',value));text.append(row);}
   $('current').append(meta,text);
 }
-function filtered(){const q=$('search').value.trim().toLowerCase(),role=$('role').value,focus=new Set(snapshot.content.focus_ids||[]);return snapshot.timeline.filter(e=>(!q||[e.id,e.text,e.source_text,e.style.font_role].join(' ').toLowerCase().includes(q))&&(!role||e.style.font_role===role)&&(!$('focus').checked||focus.has(e.id)));}
+function filtered(){const q=$('search').value.trim().toLowerCase(),role=$('role').value,focus=new Set(snapshot.content.focus_ids||[]);return snapshot.timeline.filter(e=>(!q||[e.id,e.text,e.source_text,...e.font_roles].join(' ').toLowerCase().includes(q))&&(!role||e.font_roles.includes(role))&&(!$('focus').checked||focus.has(e.id)));}
 function preciseTime(seconds){const ms=Math.max(0,Math.round(seconds*1000));return `${formatTime(Math.floor(ms/1000))}.${String(ms%1000).padStart(3,'0')}`;}
 function openImage(url,description){const img=$('imageDialog').querySelector('img');img.src=url;img.alt=description;$('imageDialog').showModal();}
 function proofFigure(event,frame,side){
@@ -173,7 +173,7 @@ async function apply(next){
     $('mediaInfo').title=`快照 ${new Date(next.generated_at).toLocaleString()} · ${next.timeline.length} 条字幕 · ${next.media.rendered.frame_rate} fps`;
     snapshot=next;window.PREVIEW_SNAPSHOT=next; // Read-only diagnostic state for browser checks.
     $('seek').max=duration();
-    const role=$('role').value;$('role').replaceChildren(new Option('全部',''),...[...new Set(next.timeline.map(e=>e.style.font_role).filter(Boolean))].map(r=>new Option(next.content.role_labels?.[r]||r,r)));if([...$('role').options].some(o=>o.value===role))$('role').value=role;
+    const role=$('role').value;$('role').replaceChildren(new Option('全部',''),...[...new Set(next.timeline.flatMap(e=>e.font_roles))].map(r=>new Option(next.content.role_labels?.[r]||r,r)));if([...$('role').options].some(o=>o.value===role))$('role').value=role;
     if(!next.timeline.some(e=>e.id===selected))selected=next.timeline[0]?.id||'';
     detail();draw(true);
     await Promise.all([loadVideo(original,next.media.original.url),loadVideo(rendered,next.media.rendered.url)]);

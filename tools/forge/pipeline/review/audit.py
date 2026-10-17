@@ -10,6 +10,7 @@ import tomllib
 from fontTools.ttLib import TTFont, TTCollection
 from ..paths import PROJECT, CONFIG, setting_path
 from ..subtitles.build import load
+from captions import font_runs
 
 
 def glyphs(path, spec):
@@ -47,14 +48,8 @@ def main():
     missing_evidence = []
     for e in events:
         targets=[('ja',CONFIG['review']['font'],e['ja'],bool(CONFIG['ass_style']['bold']))]
-        if e.get('text_runs'):
-            offset=0
-            for run in e['text_runs']:
-                role=run.get('font_role',e['font_role'])
-                targets.append(('zh',role,e['zh'][offset:offset+run['length']],run.get('bold',fonts[role].get('bold',False))))
-                offset+=run['length']
-        else:
-            targets.append(('zh',e['font_role'],e['zh'],e.get('bold',fonts[e['font_role']].get('bold',False))))
+        targets.extend(('zh',run['font_role'],run['text'],run['bold'])
+                       for run in font_runs(e['zh'],e,fonts,e['id']))
         for language,role,content,bold in targets:
             key=(role,bool(bold))
             if key not in style_faces:

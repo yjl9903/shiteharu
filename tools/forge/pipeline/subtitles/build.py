@@ -4,6 +4,7 @@ import argparse, html, json, math, re, subprocess, tomllib
 from ..paths import PROJECT, CONFIG, setting_path, design_files, read_config
 from pathlib import Path
 from ..subtitles.shadow_render import render_with_shadow
+from captions import font_runs
 ROOT = PROJECT
 
 def ass_time(t):
@@ -118,14 +119,10 @@ def render_event(e,fonts):
     text=esc(e['zh']); base=tags(e,fonts); effect=e.get('effect','none'); layer=e.get('layer',1 if e.get('supplemental') else 0)
     if 'text_runs' in e:
         # Typography spans reference character counts, never duplicate subtitle wording.
-        runs=e['text_runs']; offset=0; text=''
-        if sum(r['length'] for r in runs)!=len(e['zh']) or any(r['length']<1 for r in runs):
-            raise ValueError(f'Invalid text_runs for {e["id"]}')
-        for run in runs:
-            role=run.get('font_role',e['font_role'])
-            if role not in fonts: raise ValueError(f'Unknown run font for {e["id"]}')
-            text+=fr"{{\fn{fonts[role]['family']}\b{int(run.get('bold',fonts[role].get('bold',False)))}}}"
-            text+=esc(e['zh'][offset:offset+run['length']]);offset+=run['length']
+        text=''
+        for run in font_runs(e['zh'],e,fonts,e['id']):
+            text+=fr"{{\fn{fonts[run['font_role']]['family']}\b{int(run['bold'])}}}"
+            text+=esc(run['text'])
     if effect=='shake':
         result='';step=e.get('period_ms',65)/1000;amp=e.get('amplitude',5);t=e['start'];i=0
         while t<e['end']-.001:
@@ -184,6 +181,7 @@ def load():
     for e in events:
         if not 0<=e['start']<e['end']<=CONFIG['duration']:raise ValueError(f'Bad timing {e["id"]}')
         if e['font_role'] not in fonts:raise ValueError(f'Unknown font role {e["font_role"]}')
+        font_runs(e['zh'],e,fonts,e['id'])
         if not e.get('ja') or not e.get('zh'):raise ValueError(f'Missing bilingual text {e["id"]}')
         if e.get('effect','none') not in ['none','fade','pop','slide','shake','pulse','typewriter','wipe','glow','distress']:raise ValueError(f'Unknown effect in {e["id"]}')
         if e.get('text_layout','horizontal') not in ['horizontal','vertical']:raise ValueError(f'Unknown text layout in {e["id"]}')

@@ -18,6 +18,60 @@ TOOL = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(TOOL))
 from project import Project, probe
 from loupe import Handler, Preview, ffmpeg, render_index
+from fonts import export_fonts
+
+
+class FontSpans(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        fixture = TOOL/'tests/fixtures/portable'
+        for name in ('preview.toml', 'timeline.json'):
+            shutil.copyfile(fixture/name, self.root/name)
+
+    def font(self, name, chars):
+        from fontTools.fontBuilder import FontBuilder
+        from fontTools.pens.ttGlyphPen import TTGlyphPen
+        builder = FontBuilder(1000, isTTF=True)
+        names = ['.notdef', *chars]
+        builder.setupGlyphOrder(names)
+        builder.setupCharacterMap({ord(c): c for c in chars})
+        builder.setupGlyf({n: TTGlyphPen(None).glyph() for n in names})
+        builder.setupHorizontalMetrics({n: (600, 0) for n in names})
+        builder.setupHorizontalHeader(ascent=800, descent=-200)
+        builder.setupNameTable({'familyName': name, 'styleName': 'Regular',
+            'uniqueFontIdentifier': name, 'fullName': name, 'psName': name})
+        builder.setupOS2(); builder.setupPost(); builder.save(self.root/(name+'.ttf'))
+        return {'file': name+'.ttf', 'family': name}
+
+    def timeline(self, runs):
+        rows = [{'id': 'mixed', 'start': 0, 'end': 1, 'text': 'AB',
+                 'style': {'font_role': 'base', 'text_runs': runs}}]
+        (self.root/'timeline.json').write_text(json.dumps(rows))
+        project = Project(self.root/'preview.toml')
+        return project, project.timeline()
+
+    def test_mixed_font_coverage_and_secondary_role(self):
+        config = {'base': self.font('base', 'A'), 'secondary': self.font('secondary', 'B')}
+        project, events = self.timeline([{'length': 1}, {'length': 1, 'font_role': 'secondary'}])
+        self.assertEqual(events[0]['font_roles'], ['base', 'secondary'])
+        faces = export_fonts(project, config, events, self.root/'export')
+        self.assertEqual([f['missing'] for f in faces], [[], []])
+        self.font('secondary', 'A')
+        faces = export_fonts(project, config, events, self.root/'export')
+        self.assertEqual(faces[1]['missing'], [{'id': 'mixed', 'characters': 'B'}])
+        self.assertEqual(faces[0]['missing'], [])
+
+    def test_malformed_or_unknown_font_runs_fail(self):
+        for runs in ([], [{'length': 1}], [{'length': True}, {'length': 1}],
+                     [{'length': -1}, {'length': 3}]):
+            with self.subTest(runs=runs), self.assertRaisesRegex(ValueError, 'text_runs'):
+                self.timeline(runs)
+        config = {'base': self.font('base', 'AB')}
+        project, events = self.timeline([{'length': 1}, {'length': 1, 'font_role': 'unknown'}])
+        with self.assertRaisesRegex(ValueError, 'Unknown font role unknown'):
+            export_fonts(project, config, events, self.root/'export')
 
 
 class InitialDocument(unittest.TestCase):

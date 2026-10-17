@@ -73,6 +73,7 @@ class ForgeTests(unittest.TestCase):
     def test_second_project_builds_in_relocated_tool_and_any_cwd(self):
         relocated = self.root / 'checkout/tools/forge'
         shutil.copytree(TOOL, relocated, ignore=shutil.ignore_patterns('__pycache__'))
+        shutil.copytree(TOOL.parent/'captions', relocated.parent/'captions', ignore=shutil.ignore_patterns('__pycache__'))
         for cwd, name, tool in [(self.root,'first',TOOL),(self.project,'second',relocated)]:
             self.command('build', '--output', name, cwd=cwd, tool=tool)
         first = {p.name:p.read_bytes() for p in (self.project/'first').iterdir()}
@@ -149,7 +150,50 @@ class ForgeTests(unittest.TestCase):
         self.assertIn('# Keep editorial note',events_file.read_text())
         self.assertEqual(event['outline'],2)
         self.assertEqual(event['soft_shadow']['blur'],4)
-        self.assertTrue((self.project/'fonts/new/candidate.ttf').is_file())
+        fonts=tomllib.loads((self.project/'fonts.toml').read_text())
+        asset=self.project/fonts['new']['file']
+        self.assertTrue(asset.is_file())
+        self.assertTrue(asset.parent.name.startswith('candidate-'))
+
+    def test_font_merge_preserves_shared_assets_and_rejects_conflicting_documents(self):
+        config=tomllib.loads(self.config.read_text());config['research']='research/recipe.toml'
+        config['shared_fonts']='../shared-fonts';write_data(self.config,config)
+        research=self.project/'research';research.mkdir()
+        write_data(research/'recipe.toml',{'directory':'research'})
+        candidate=research/'candidate.ttf';candidate.write_bytes(b'new version')
+        (research/'OFL.txt').write_text('license')
+        shared=self.root/'shared-fonts';approved=shared/'new/candidate.ttf'
+        approved.parent.mkdir(parents=True);approved.write_bytes(b'approved other project version')
+        write_data(research/'font-config.proposed.toml',{'new':{'family':'New','file':'research/candidate.ttf'}})
+        write_data(research/'event-font-patches.json',[{'id':'second','base_fontsize':24,'set':{'font_role':'new'}}])
+        self.command('fonts-merge')
+        fonts=tomllib.loads((self.project/'fonts.toml').read_text())
+        published=self.project/fonts['new']['file']
+        self.assertEqual(approved.read_bytes(),b'approved other project version')
+        self.assertEqual(published.read_bytes(),b'new version')
+        self.assertEqual((published.parent/'OFL.txt').read_text(),'license')
+        original=(self.project/'events.toml').read_bytes()
+        (research/'OFL.txt').write_text('conflicting license')
+        result=self.command('fonts-merge',success=False)
+        self.assertIn('Refusing to overwrite',result.stderr)
+        self.assertEqual((self.project/'events.toml').read_bytes(),original)
+        self.assertEqual((published.parent/'OFL.txt').read_text(),'license')
+
+    def test_font_merge_restores_old_roles_and_rejects_unknown_runs_before_writes(self):
+        config=tomllib.loads(self.config.read_text());config['research']='research/recipe.toml';write_data(self.config,config)
+        research=self.project/'research';research.mkdir();write_data(research/'recipe.toml',{'directory':'research'})
+        fonts=tomllib.loads((self.project/'fonts.toml').read_text())
+        write_data(research/'font-config.proposed.toml',{'old_plain':fonts['plain']})
+        patch_file=research/'event-font-patches.json'
+        changes={'font_role':'old_plain','text_runs':[{'length':1,'font_role':'old_plain'}]}
+        write_data(patch_file,[{'id':'second','base_fontsize':24,'set':changes}])
+        self.command('fonts-merge');self.command('build')
+        self.assertNotIn('old_plain',(self.project/'events.toml').read_text())
+        before={name:(self.project/name).read_bytes() for name in ['fonts.toml','events.toml']}
+        changes['text_runs'][0]['font_role']='missing'
+        write_data(patch_file,[{'id':'second','base_fontsize':24,'set':changes}])
+        self.command('fonts-merge',success=False)
+        self.assertEqual(before,{name:(self.project/name).read_bytes() for name in before})
 
     @unittest.skipUnless(shutil.which('ffmpeg'), 'FFmpeg required')
     def test_wipe_reveals_partial_ink_without_moving_anchor(self):
@@ -180,6 +224,7 @@ class ForgeTests(unittest.TestCase):
         # This checkout contains no real production project or system font input.
         checkout=self.root/'checkout';tool=checkout/'tools/forge'
         shutil.copytree(TOOL,tool,ignore=shutil.ignore_patterns('__pycache__'))
+        shutil.copytree(TOOL.parent/'captions',checkout/'tools/captions',ignore=shutil.ignore_patterns('__pycache__'))
         (checkout/'tools/loupe').mkdir();(checkout/'tools/loupe/README.md').write_text('Test placeholder')
         (checkout/'docs').mkdir();(checkout/'docs/reproducibility.md').write_text('Test fixture')
         for name in ['pyproject.toml','uv.lock','.python-version']:
@@ -188,7 +233,20 @@ class ForgeTests(unittest.TestCase):
         self.config=self.project/'forge.toml'
         create_font(self.project/'fonts/fixture.ttf')
         (checkout/'fonts/local').mkdir(parents=True);(checkout/'fonts/local/excluded.txt').write_text('excluded')
-        config=tomllib.loads(self.config.read_text());config['package']['include'].append('fonts');config['package']['include_evidence']=True;write_data(self.config,config)
+        config=tomllib.loads(self.config.read_text());config['package']['include_evidence']=True
+        config['shared_fonts']='../../fonts';config['research']='recipe.toml';write_data(self.config,config)
+        write_data(self.project/'recipe.toml',{'fracture':{'original':'../../fonts/source/source.ttf'}})
+        create_font(checkout/'fonts/source/source.ttf')
+        (checkout/'fonts/source/OFL.txt').write_text('source license')
+        create_font(checkout/'fonts/unrelated/other.ttf')
+        (checkout/'fonts/SOURCES.md').write_text('source index')
+        (self.project/'fonts/OFL.txt').write_text('fixture license')
+        (self.project/'fonts/fixture.json').write_text('{}')
+        (self.project/'fonts/unrelated.json').write_text('{}')
+        fonts=tomllib.loads((self.project/'fonts.toml').read_text())
+        fonts['external']={'family':'Not packaged','file':'../../fonts/local/unavailable.ttf'}
+        # Local fonts may be absent at the recipient; package must still omit them.
+        # Add this config only immediately before packaging, after render/audit.
         subprocess.run(['ffmpeg','-v','error','-f','lavfi','-i','color=c=blue:s=320x240:r=12:d=2','-f','lavfi','-i','anullsrc=r=48000:cl=stereo','-t','2','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',str(self.project/'input.mp4')],check=True)
         event_file=self.project/'events.toml'
         event_file.write_text('# Keep layout note\n[[events]]\nid="second"\nalign=8\nx=160\ny=10\nface_boxes=[[0,0,320,240]]\nevidence=["frames/probe/000000.200.jpg"]\n')
@@ -229,11 +287,18 @@ class ForgeTests(unittest.TestCase):
         audit=json.loads((self.project/'review/technical-audit.json').read_text())
         self.assertEqual(audit['missing_glyphs'],[])
         self.assertEqual(audit['event_count'],2)
+        write_data(self.project/'fonts.toml',fonts)
         self.command('package',tool=tool)
         from zipfile import ZipFile
         extracted=self.root/'unpacked'
         with ZipFile(self.project/'output/editable.zip') as archive:
             self.assertIn('tools/forge/forge.py',archive.namelist())
+            self.assertIn('tools/captions/__init__.py',archive.namelist())
+            for name in ['production/portable/fonts/fixture.ttf','production/portable/fonts/OFL.txt',
+                         'production/portable/fonts/fixture.json','fonts/source/source.ttf','fonts/source/OFL.txt']:
+                self.assertIn(name,archive.namelist())
+            self.assertNotIn('fonts/unrelated/other.ttf',archive.namelist())
+            self.assertNotIn('production/portable/fonts/unrelated.json',archive.namelist())
             self.assertIn('production/portable/frames/probe/000000.200.jpg',archive.namelist())
             self.assertFalse(any('/scripts/' in p or '/local/' in p or '/.cache/' in p for p in archive.namelist()))
             archive.extractall(extracted)

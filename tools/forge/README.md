@@ -33,7 +33,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 | `clips`、`comparisons`、`comparison_width` | 对照片段列表、输出位置与单侧宽度。 |
 | `calibration` | 顶部校准的可见边距与筛选位置。 |
 | `research` | 可选研究配方 TOML。普通构建、渲染和 Loupe 不读取它。 |
-| `package` | ZIP 位置与需要加入的工程资料列表。共享工具、环境锁文件、字幕输入和可分发字体由打包器加入；`include_evidence = true` 可额外收录事件引用的取证图片。 |
+| `package` | ZIP 位置与需要加入的工程资料列表。共享工具、环境锁文件、字幕输入和本工程配置引用的可分发字体由打包器加入；`include_evidence = true` 可额外收录事件引用的取证图片。 |
 
 研究配方包含候选来源、字体映射、样例 ID、派生字体名称和许可，以及逐角色／逐事件提案规则。规则的 `set` 为固定值，`per_fontsize` 为按字号计算并保留两位小数的系数，`scale_x_cap` 为横向缩放上限。新增工程只需提供自己的配置、时间轴、设计和资源；需要研究时再提供配方。不要把单片 ID、字体选择或结论加入公共 Python。
 
@@ -61,13 +61,17 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 
 每条命令支持 `--help`。参数校验在加载实际实现之前完成，帮助和非法参数不会触发写入。下载后的 7z 等外部素材准备步骤按工程研究说明执行；缺少素材会明确失败，不自动换用系统字体。
 
+`fonts-merge` 将新字体放到 `shared_fonts/<文件名去扩展名>-<内容哈希前16位>/`，已在共享目录内的资产保留原路径。任何已有文件（包括许可）的内容冲突都会在写入设计前报错，不覆盖另一工程正在引用的资产。提案中的 `old_` 角色仅用于研究对照，合入时还原为原角色；若原角色已被替换或提案过期则报错，须重新生成提案。
+
+字体合入和打包携带同目录的同名字体说明文件，以及 `OFL*`、`LICENSE*`、`LICENCE*`、`COPYRIGHT*`、`README*` 和 `provenance` 文档（TXT/MD/JSON/TOML）。打包保留共享来源索引，但不再整包收录 `fonts/`；研究配方中 diamond/fracture 引用的共享源字体和许可也会加入。`fonts/local/` 始终排除。其他研究输入通过 `package.include` 明确声明或按工程说明重新准备。
+
 混合字体使用 `text_runs = [{length = 3, font_role = "brush"}, ...]`，只指定连续字符数量和字体角色，不复制正文。数量之和必须等于译文长度，不能同时使用逐行布局、竖排或逐字动画。`typewriter` 可用 `reveal_ms` 为每个非换行字符提供递增的出现时刻；未指定时继续使用 `char_ms`。这些参数必须有原片依据。
 
 审计字段 `source_boxes` 使用画布坐标的 `[left, top, right, bottom]` 矩形；`evidence` 为工程相对截图路径，`timing_status = "frame-confirmed"` 只适用于确实查看过相邻源帧的事件。技术审计不会自动做出这个判断，且联系表采样不能冒充完整动态观看。
 
 ## 实现与验证
 
-`forge.py` 解析参数；`pipeline/paths.py` 载入显式工程上下文；`subtitles/`、`fonts/`、`delivery/`、`research/` 分别负责对应流程。内部模块由 CLI 在配置完成后运行，不作为独立脚本或多工程常驻服务接口。
+`forge.py` 解析参数；`pipeline/paths.py` 载入显式工程上下文；`subtitles/`、`fonts/`、`delivery/`、`research/` 分别负责对应流程。文字分段与字体角色解析和 Loupe 共用 `tools/captions/`，复制工具时须一并保留。内部模块由 CLI 在配置完成后运行，不作为独立脚本或多工程常驻服务接口。
 
 ```sh
 uv run --locked python -m unittest discover -s tools/forge/tests -v

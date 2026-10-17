@@ -1,6 +1,10 @@
 """Export configured faces and report missing glyphs without system fallback."""
 import hashlib
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from captions import font_runs
 
 
 def export_fonts(project, config, events, folder):
@@ -11,6 +15,8 @@ def export_fonts(project, config, events, folder):
     except ImportError as exc:
         raise ValueError("字体检查需要 fonttools；请在仓库根目录运行 uv sync --locked，并通过 uv run --locked python 启动") from exc
     folder.mkdir(exist_ok=True)
+    spans = {event['id']: font_runs(event['text'], event['style'], config, event['id'])
+             for event in events}
     faces = []
     for role, spec in config.items():
         path = project.resolve(spec["file"])
@@ -30,11 +36,16 @@ def export_fonts(project, config, events, folder):
                 raise ValueError(f"字体文件中没有配置的字面：{role}")
             index, font = min(eligible, key=lambda pair: abs(pair[1]["OS/2"].usWeightClass - spec.get("weight", 700 if spec.get("bold") else 400)))
             coverage = set(font.getBestCmap() or {})
+            run_coverage = {}
+            for bold in (False, True):
+                _, face = min(eligible, key=lambda pair: abs(pair[1]['OS/2'].usWeightClass
+                              - spec.get('weight', 700 if bold else 400)))
+                run_coverage[bold] = set(face.getBestCmap() or {})
             missing = []
             for event in events:
-                if event["style"].get("font_role") != role:
-                    continue
-                chars = sorted({ch for ch in event["text"] if not ch.isspace() and ord(ch) not in coverage})
+                chars = sorted({ch for run in spans[event['id']] if run['font_role'] == role
+                                for ch in run['text'] if not ch.isspace()
+                                and ord(ch) not in run_coverage[bool(run['bold'])]})
                 if chars:
                     missing.append({"id": event["id"], "characters": "".join(chars)})
             ranges = []

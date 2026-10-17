@@ -8,6 +8,7 @@ import math
 import os
 import subprocess
 import tomllib
+from fonts import font_runs
 
 REPOSITORY = Path(__file__).resolve().parents[2]
 CACHE_ROOT = REPOSITORY / ".cache/loupe"
@@ -126,6 +127,8 @@ class Project:
                 raise ValueError(f"无效时间区间：{event['id']}")
             if not all(isinstance(event[k], str) for k in ("text", "source_text")):
                 raise ValueError(f"字幕必须是文本：{event['id']}")
+            event['font_roles'] = sorted({run['font_role'] for run in
+                font_runs(event['text'], event['style'], None, event['id']) if run['font_role']})
             events.append(event)
         return sorted(events, key=lambda e: (e["start"], e["id"]))
 
@@ -162,12 +165,14 @@ class Project:
             stat = path.stat()
             stamps[font["file"]] = (stat.st_size, stat.st_mtime_ns)
         if fonts:
-            unknown = {e["style"].get("font_role") for e in events} - fonts.keys() - {None}
+            unknown = {role for e in events for role in e['font_roles']} - fonts.keys()
             if unknown:
                 raise ValueError("未知字体角色：" + ", ".join(sorted(unknown)))
         content = self.read_config(self.resolve(self.config["content"])) if self.config.get("content") else {}
         # UI and pipeline changes also invalidate generated snapshots.
-        tool_files = sorted(Path(__file__).parent.glob("*.py")) + sorted((Path(__file__).parent / "assets").glob("*"))
+        tool_files = (sorted(Path(__file__).parent.glob("*.py"))
+                      + sorted((Path(__file__).parent / "assets").glob("*"))
+                      + sorted((REPOSITORY / 'tools/captions').glob('*.py')))
         tool_hash = digest(b"".join(p.read_bytes() for p in tool_files if p.is_file()))
         revision = digest(json.dumps([self.snapshots, stamps, tool_hash], sort_keys=True).encode())[:20]
         return dict(revision=revision, timeline=events, videos=videos, media=metadata,
