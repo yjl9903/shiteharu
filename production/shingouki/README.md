@@ -33,7 +33,7 @@
 
 ## 重建
 
-Python 环境统一由仓库根目录的 uv 配置和锁文件管理，首次使用按 [运行环境](../../docs/reproducibility.md#python-运行环境) 执行 `uv sync --locked`。
+Python 环境统一由仓库根目录的 uv 配置和锁文件管理，首次使用按 [运行环境](../../docs/migration.md#python-运行环境) 执行 `uv sync --locked`。
 
 本机使用 rajio 0.2.1、Python 3.14.2、FFmpeg 7.1.1（含 libass）。共享字体及许可统一保存在仓库顶层 `fonts/`，来源见 [字体来源](../../fonts/SOURCES.md)。字体必须在本机可用；`../../tools/forge/forge.py --config forge.toml fonts-prepare` 根据配置复制到本地渲染缓存，不需要改动系统字体。渲染字体缓存和运行日志位于 `.cache/`，不纳入交付。
 
@@ -89,7 +89,7 @@ uv run --locked python tools/loupe/loupe.py --config production/shingouki/previe
 
 ## 迁移前检查
 
-原片、本机字体、证据图片与缓存的取舍和恢复顺序见 [迁移清单](../../docs/reproducibility.md#迁移时带什么)。本机字体按 [版本与校验清单](../../fonts/local-fonts.toml) 准备。以下从仓库根目录执行；检查不修改制作数据：
+原片、本机字体、证据图片与缓存的取舍和恢复顺序见 [迁移清单](../../docs/migration.md#迁移时带什么)。本机字体按 [版本与校验清单](../../fonts/local-fonts.toml) 准备。以下从仓库根目录执行；检查不修改制作数据：
 
 ```sh
 uv run --locked python tools/forge/forge.py --config production/shingouki/forge.toml check-inputs

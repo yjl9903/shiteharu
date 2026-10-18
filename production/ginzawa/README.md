@@ -10,7 +10,7 @@
 
 `deliverables/` 中的720p预览、软字幕MKV、ZIP和对照片段是较早的制作产物，本次不更新，不能代表当前字幕设计。旧审阅记录中的版本称呼仅为当时制作记录，不代表对外发布。
 
-字体采用逐条匹配的中文近似，原有日文保留；具体近似见 [差异记录](review/differences.md)。可编辑源以当前 `translation/work/` 与 `design/` 为准。MKV未嵌入字体；工程包不含原视频、本机字体或凭据，资源准备见下文。
+字体采用逐条匹配的中文近似，原有日文保留；具体近似见 [差异记录](review/differences.md)。可编辑源以当前 `translation/work/` 与 `design/` 为准。MKV未嵌入字体；工程包不含原视频、本机字体或凭据。
 
 ## 原片与依据
 
@@ -26,7 +26,7 @@
 
 制作工具统一使用仓库的 [Forge](../../tools/forge/README.md)，审阅使用 [Loupe](../../tools/loupe/README.md)。工程只保留内容、配置、设计与取证数据。配置路径相对本工程，字体引用 `../../fonts/`；本机字体只从被忽略的 `../../fonts/local/` 读取。
 
-以下命令从仓库根目录执行。Python 依赖统一使用根目录 uv 环境，准备方法见 [运行环境](../../docs/reproducibility.md#python-运行环境)。
+以下命令从仓库根目录执行。
 
 ```sh
 uv sync --locked
@@ -92,14 +92,3 @@ cp production/ginzawa/deliverables/cover.jpg production/ginzawa/deliverables/bil
 ```
 
 配置依据为 2026-10-18 读取的 [Bilipack README](https://github.com/yjl9903/bilipack/blob/main/README.md) 与 [schema.ts](https://github.com/yjl9903/bilipack/blob/main/packages/bilipack/src/config/schema.ts)。本次打包检查见 [bilipack-validation.json](review/bilipack-validation.json)，包括上游 schema 校验、包内文件校验及完整音视频解码；这些检查不替代全片人工观看或 B 站页面实际导入验收。提交前请在页面检查分区、封面裁剪及投稿信息。
-
-
-## 迁移前检查
-
-原片、本机字体、证据图片与缓存的取舍和恢复顺序见 [迁移清单](../../docs/reproducibility.md#迁移时带什么)。本机字体按 [版本与校验清单](../../fonts/local-fonts.toml) 准备。以下从仓库根目录执行；检查不修改制作数据：
-
-```sh
-uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml check-inputs
-```
-
-重新生成的工程包包含原片来源、原始转写、日文校对、中文工作数据及字体准备清单；仍不包含原片和本机字体。已有旧 ZIP 不会自动更新，不能用旧包代表当前工作区。

@@ -26,7 +26,7 @@ uv run --locked python ../../tools/forge/forge.py --config forge.toml research-p
 uv run --locked python ../../tools/forge/forge.py --config forge.toml research-sheets
 ```
 
-这些命令会重新读取设计并更新研究产物。字体研究与 Loupe 共用仓库根目录的 uv 环境；依赖准备见 [运行环境](../../../../docs/reproducibility.md#python-运行环境)。
+这些命令会重新读取设计并更新研究产物。字体研究与 Loupe 共用仓库根目录的 uv 环境；依赖准备见 [运行环境](../../../../docs/migration.md#python-运行环境)。
 
 其他命令：`research-discover` 查询候选发布记录，`research-download` 与 `research-download-extra` 下载字体，`research-specimens` 生成字形试样，`research-reel` 和 `research-render` 生成提案视频。所有帮助都在加载实现前处理；运行研究命令不自动发布到 Loupe，也不自动合入设计。
 
