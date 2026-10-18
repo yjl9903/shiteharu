@@ -135,6 +135,28 @@ class PreviewIntegration(unittest.TestCase):
             self.assertNotEqual(first["media"][side]["url"], second["media"][side]["url"])
             self.assertTrue((self.preview.output / first["media"][side]["url"]).exists())
 
+    def test_inline_content_is_published_and_changes_invalidate_snapshot(self):
+        cfg = self.root / "preview.toml"
+        document = tomlkit.parse(cfg.read_text())
+        content = {"description": "页面说明", "focus_ids": ["caption-1"],
+                   "notes": ["待核对"], "role_labels": {"body": "正文"},
+                   "links": [{"label": "来源", "url": "https://example.com/source"}],
+                   "video": {"channel": "作者", "published": "2026-09-26"}}
+        document["content"] = content
+        cfg.write_text(tomlkit.dumps(document))
+        first = self.preview.sync()
+        self.assertEqual(first["content"], content)
+        document["content"]["notes"] = ["已核对"]
+        cfg.write_text(tomlkit.dumps(document))
+        second = self.preview.sync()
+        self.assertNotEqual(first["revision"], second["revision"])
+        self.assertEqual(second["content"]["notes"], ["已核对"])
+        self.assertEqual(first["timeline"], second["timeline"])
+        document["content"] = "removed-content.toml"
+        cfg.write_text(tomlkit.dumps(document))
+        with self.assertRaisesRegex(ValueError, r"\[content\]"):
+            Project(cfg)
+
     def test_failure_preserves_snapshot_and_never_falls_back(self):
         self.preview.sync()
         before = (self.preview.output / "snapshot.json").read_bytes()

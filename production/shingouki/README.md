@@ -76,7 +76,7 @@ ASS 使用百分之一秒，生成器向下量化原片帧时间，SRT 保留毫
 
 ## Loupe 审阅
 
-本工程仅提供 `preview.toml`、`design/preview.toml` 和已有素材。播放器、抽帧、字体检查及同步服务统一使用仓库 [Loupe](../../tools/loupe/README.md)，不需要工程内的工具目录或兼容启动脚本。
+本工程仅提供 `preview.toml` 和已有素材。播放器、抽帧、字体检查及同步服务统一使用仓库 [Loupe](../../tools/loupe/README.md)，不需要工程内的工具目录或兼容启动脚本。
 
 从仓库根目录运行：
 
@@ -84,4 +84,4 @@ ASS 使用百分之一秒，生成器向下量化原片帧时间，SRT 保留毫
 uv run --locked python tools/loupe/loupe.py --config production/shingouki/preview.toml --serve
 ```
 
-媒体快照、抽帧和浏览器字体写入仓库 `.cache/loupe/`，不写入本工程。标题、重点字幕及研究说明在 `design/preview.toml`；字体研究资料位于 [research/fonts](research/fonts/README.md)，研究命令经 `../../tools/forge/forge.py --config forge.toml research-*` 调用，不参与 Loupe 启动。
+媒体快照、抽帧和浏览器字体写入仓库 `.cache/loupe/`，不写入本工程。标题、重点字幕及研究说明在 `preview.toml` 的 `[content]` 中；字体研究资料位于 [research/fonts](research/fonts/README.md)，研究命令经 `../../tools/forge/forge.py --config forge.toml research-*` 调用，不参与 Loupe 启动。

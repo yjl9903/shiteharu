@@ -63,6 +63,8 @@ class Project:
         self.config = self.read_config(self.path)
         if self.config.get("version") != 1:
             raise ValueError("预览配置 version 必须为 1")
+        if not isinstance(self.config.get("content", {}), dict):
+            raise ValueError("页面展示内容请直接写在 preview.toml 的 [content] 表中")
         if "output" in self.config:
             self.output = self.resolve(self.config["output"])
             if self.output == self.root or not self.output.is_relative_to(self.root):
@@ -168,7 +170,7 @@ class Project:
             unknown = {role for e in events for role in e['font_roles']} - fonts.keys()
             if unknown:
                 raise ValueError("未知字体角色：" + ", ".join(sorted(unknown)))
-        content = self.read_config(self.resolve(self.config["content"])) if self.config.get("content") else {}
+        content = self.config.get("content", {})
         # UI and pipeline changes also invalidate generated snapshots.
         tool_files = (sorted(Path(__file__).parent.glob("*.py"))
                       + sorted((Path(__file__).parent / "assets").glob("*"))

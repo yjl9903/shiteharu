@@ -9,6 +9,7 @@ from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 from fontTools.pens.cu2quPen import Cu2QuPen
 from fontTools.pens.transformPen import TransformPen
+from fontTools.pens.boundsPen import BoundsPen
 H=path(RESEARCH['directory']);D=H/'derived';D.mkdir(exist_ok=True)
 job=RESEARCH['fracture']
 gen=TTFont(path(job['original']))
@@ -18,7 +19,14 @@ def make(name,text,melt=False):
  empty=TTGlyphPen(None).glyph();glyphs['.notdef']=empty;metrics['.notdef']=(1000,0)
  for ch in chars:
   source=sc if melt or ord(ch) not in gen.getBestCmap() else gen
+  if source is gen and not ch.isspace():
+   bounds=BoundsPen(gen.getGlyphSet())
+   gen.getGlyphSet()[gen.getBestCmap()[ord(ch)]].draw(bounds)
+   if bounds.bounds is None:source=sc
   gn=source.getBestCmap()[ord(ch)]; gs=source.getGlyphSet(); scale=1000/source['head'].unitsPerEm
+  if not ch.isspace():
+   bounds=BoundsPen(gs);gs[gn].draw(bounds)
+   if bounds.bounds is None:raise ValueError(f'No visible glyph for {ch!r} in configured source or fallback')
   g=pathops.Path();gs[gn].draw(TransformPen(g.getPen(),(scale,0,0,scale,0,0)))
   if source is sc and ch!=' ':
    r=random.Random(ord(ch)+704)
