@@ -23,7 +23,8 @@ def main():
             if file.is_symlink():
                 raise ValueError(f'Package inputs must be real files: {relative}')
             files.add(file)
-    for name in ['pyproject.toml', 'uv.lock', '.python-version', 'docs/reproducibility.md',
+    for name in ['pyproject.toml', 'uv.lock', '.python-version', '.githooks', 'docs/reproducibility.md',
+                 'docs/migration.md', 'fonts/local-fonts.toml',
                  'tools/forge', 'tools/loupe', 'tools/captions']:
         add(REPOSITORY / name)
     def add_font(source):

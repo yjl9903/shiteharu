@@ -97,6 +97,61 @@ class ForgeTests(unittest.TestCase):
         self.command('research-propose',success=False)
         self.assertFalse((self.project/'research').exists())
 
+    def test_migration_preflight_rejects_missing_changed_and_external_inputs(self):
+        import hashlib
+        checkout = self.root / 'checkout'
+        tool = checkout / 'tools/forge'
+        shutil.copytree(TOOL, tool, ignore=shutil.ignore_patterns('__pycache__'))
+        self.project = checkout / 'production/portable'
+        shutil.copytree(FIXTURE, self.project)
+        self.config = self.project / 'forge.toml'
+        local = checkout / 'fonts/local/fixture.ttf'
+        local.parent.mkdir(parents=True)
+        local.write_bytes(b'font identity')
+        write_data(checkout / 'fonts/local-fonts.toml', {'fonts': [{
+            'file': local.name, 'sha256': hashlib.sha256(local.read_bytes()).hexdigest()}]})
+        write_data(self.project / 'fonts.toml', {'plain': {
+            'file': '../../fonts/local/fixture.ttf', 'family': 'Fixture'}})
+        self.command('check-inputs', '--no-media', tool=tool)
+        local.write_bytes(b'different font with the same filename')
+        result = self.command('check-inputs', '--no-media', tool=tool, success=False)
+        self.assertIn('SHA-256 mismatch', result.stdout)
+        local.unlink()
+        result = self.command('check-inputs', '--no-media', tool=tool, success=False)
+        self.assertIn('missing input', result.stdout)
+        external = self.root / 'external.ttf'
+        external.write_bytes(b'font identity')
+        local.symlink_to(external)
+        result = self.command('check-inputs', '--no-media', tool=tool, success=False)
+        self.assertIn('outside repository', result.stdout)
+        self.assertFalse((self.project / 'output').exists())
+
+    def test_diamond_rebuild_inherits_source_timestamps(self):
+        from fontTools.ttLib import TTFont
+        source = self.project / 'fonts/fixture.ttf'
+        create_font(source)
+        font = TTFont(source)
+        font['head'].created = 3500000000
+        font['head'].modified = 3500000001
+        font.recalcTimestamp = False
+        font.save(source)
+        (source.parent / 'OFL.txt').write_text('fixture license')
+        config = tomllib.loads(self.config.read_text())
+        config['research'] = 'recipe.toml'
+        write_data(self.config, config)
+        write_data(self.project / 'recipe.toml', {'directory': 'research', 'diamond': {
+            'source': 'fonts/fixture.ttf', 'license': 'fonts/OFL.txt',
+            'license_name': 'OFL.txt', 'events': ['first', 'second'],
+            'family': 'FixtureDiamond', 'provenance': {}}})
+        self.command('research-diamond')
+        output = self.project / 'research/derived/FixtureDiamond.ttf'
+        first = output.read_bytes()
+        derived = TTFont(output)
+        self.assertEqual(derived['head'].created, 3500000000)
+        self.assertEqual(derived['head'].modified, 3500000001)
+        self.command('research-diamond')
+        self.assertEqual(first, output.read_bytes())
+
     def test_proposal_rules_scale_without_changing_editorial_decisions(self):
         from pipeline.research.rules import proposal
         rules={'roles':{'body':{'set':{'font_role':'round','soft_shadow':{'alpha':'20'}},'per_fontsize':{'outline':.04,'soft_shadow':{'blur':.02}},'reason':'reviewed','scale_x_cap':80}},'events':{},'black_outline_roles':[]}
@@ -226,13 +281,17 @@ class ForgeTests(unittest.TestCase):
         shutil.copytree(TOOL,tool,ignore=shutil.ignore_patterns('__pycache__'))
         shutil.copytree(TOOL.parent/'captions',checkout/'tools/captions',ignore=shutil.ignore_patterns('__pycache__'))
         (checkout/'tools/loupe').mkdir();(checkout/'tools/loupe/README.md').write_text('Test placeholder')
-        (checkout/'docs').mkdir();(checkout/'docs/reproducibility.md').write_text('Test fixture')
+        (checkout/'docs').mkdir()
+        for name in ['reproducibility.md', 'migration.md']:
+            shutil.copy2(TOOL.parents[1]/'docs'/name,checkout/'docs'/name)
+        shutil.copytree(TOOL.parents[1]/'.githooks',checkout/'.githooks')
         for name in ['pyproject.toml','uv.lock','.python-version']:
             shutil.copy2(TOOL.parents[1]/name,checkout/name)
         self.project=checkout/'production/portable';shutil.copytree(FIXTURE,self.project)
         self.config=self.project/'forge.toml'
         create_font(self.project/'fonts/fixture.ttf')
         (checkout/'fonts/local').mkdir(parents=True);(checkout/'fonts/local/excluded.txt').write_text('excluded')
+        (checkout/'fonts/local-fonts.toml').write_text('fonts = []\n')
         config=tomllib.loads(self.config.read_text());config['package']['include_evidence']=True
         config['shared_fonts']='../../fonts';config['research']='recipe.toml';write_data(self.config,config)
         write_data(self.project/'recipe.toml',{'fracture':{'original':'../../fonts/source/source.ttf'}})
@@ -294,6 +353,10 @@ class ForgeTests(unittest.TestCase):
         with ZipFile(self.project/'output/editable.zip') as archive:
             self.assertIn('tools/forge/forge.py',archive.namelist())
             self.assertIn('tools/captions/__init__.py',archive.namelist())
+            self.assertIn('fonts/local-fonts.toml',archive.namelist())
+            self.assertIn('.githooks/pre-commit',archive.namelist())
+            for name in ['docs/reproducibility.md', 'docs/migration.md']:
+                self.assertIn(name,archive.namelist())
             for name in ['production/portable/fonts/fixture.ttf','production/portable/fonts/OFL.txt',
                          'production/portable/fonts/fixture.json','fonts/source/source.ttf','fonts/source/OFL.txt']:
                 self.assertIn(name,archive.namelist())

@@ -92,3 +92,14 @@ cp production/ginzawa/deliverables/cover.jpg production/ginzawa/deliverables/bil
 ```
 
 配置依据为 2026-10-18 读取的 [Bilipack README](https://github.com/yjl9903/bilipack/blob/main/README.md) 与 [schema.ts](https://github.com/yjl9903/bilipack/blob/main/packages/bilipack/src/config/schema.ts)。本次打包检查见 [bilipack-validation.json](review/bilipack-validation.json)，包括上游 schema 校验、包内文件校验及完整音视频解码；这些检查不替代全片人工观看或 B 站页面实际导入验收。提交前请在页面检查分区、封面裁剪及投稿信息。
+
+
+## 迁移前检查
+
+原片、本机字体、证据图片与缓存的取舍和恢复顺序见 [迁移清单](../../docs/reproducibility.md#迁移时带什么)。本机字体按 [版本与校验清单](../../fonts/local-fonts.toml) 准备。以下从仓库根目录执行；检查不修改制作数据：
+
+```sh
+uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml check-inputs
+```
+
+重新生成的工程包包含原片来源、原始转写、日文校对、中文工作数据及字体准备清单；仍不包含原片和本机字体。已有旧 ZIP 不会自动更新，不能用旧包代表当前工作区。

@@ -1,0 +1,93 @@
+{
+  "id": "MWXWw8-QbhU",
+  "title": "【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】",
+  "channel": "してはる ",
+  "channel_url": "https://www.youtube.com/channel/UCm9fknC7ObBFKCtEXN-6Hgg",
+  "webpage_url": "https://www.youtube.com/watch?v=MWXWw8-QbhU",
+  "upload_date": "20260506",
+  "duration": 985,
+  "description": "みなさん、大〜〜変お待たせいたしました！\n皆様にたくさん再生していただいて面白いデータを見ることができました！\n\n逆張りはダサい！逆張りはやめよう！！\n---------------------------------------------------------------------\n件のショート動画シリーズはこちらから！↓\n\n【検証】ドパガキ卒業動画【ドパミンデトックス】\nhttps://www.youtube.com/shorts/eFHaB5wpzR0\n\n【検証】ドパガキ卒業動画【上級編】\nhttps://www.youtube.com/shorts/AUznaR6bV-E\n\n【検証】ドパガキ卒業動画【超!上級編】\nhttps://www.youtube.com/shorts/E8J5qSjZ_Hs\n\n【検証】ドパガキ卒業動画【鬼編】\nhttps://www.youtube.com/shorts/4VV0tzU62Is\n\n▶︎ 再生リストもあるよ！\nhttps://www.youtube.com/watch?v=eFHaB5wpzR0&list=PLTXm6RVY36zL3nwJSZf2pMMSzKvcOiIiT\n\n-------------------------------------------------------------------\n\nドパ中のためのトゥイッターもやっていますよ↓\nhttps://x.com/popico_pi\n\n\n君たちがコメントを\"編集\"するところ、私はニコニコしながら見ていますよ........\n\n#検証 #vtuber  #ドパガキ #ドーパミンデトックス",
+  "thumbnail": "https://i.ytimg.com/vi_webp/MWXWw8-QbhU/maxresdefault.webp",
+  "download": {
+    "date": "2026-10-18",
+    "yt_dlp_version": "2026.08.19",
+    "ffmpeg_version": "7.1.1",
+    "node_version": "24.15.0",
+    "selector": "bestvideo+bestaudio",
+    "format_id": "616+251",
+    "max_available_height": 1080,
+    "selected_formats": [
+      {
+        "format_id": "251",
+        "ext": "webm",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "tbr": 141.952,
+        "filesize": 17485018,
+        "format_note": "medium",
+        "protocol": "https"
+      },
+      {
+        "format_id": "616",
+        "ext": "mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0,
+        "vcodec": "vp09.00.40.08",
+        "acodec": "none",
+        "tbr": 4451.357,
+        "filesize": null,
+        "format_note": "Premium",
+        "protocol": "m3u8_native"
+      }
+    ],
+    "media": "../../downloads/【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】 [MWXWw8-QbhU].mkv",
+    "media_sha256": "07f40b444a649de97618cea22be72b1b935f2196e45668e3d27ea35b80be8eab",
+    "media_bytes": 368464737,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "29342/979",
+          "time_base": "1/1000"
+        },
+        {
+          "index": 1,
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "avg_frame_rate": "0/0",
+          "time_base": "1/1000"
+        }
+      ],
+      "format": {
+        "duration": "985.408000",
+        "size": "368464737"
+      }
+    },
+    "verification": {
+      "full_av_decode": "passed",
+      "date": "2026-10-18",
+      "video_time_base": "source",
+      "fps_mode": "passthrough"
+    },
+    "thumbnail_file": {
+      "path": "../../downloads/【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】 [MWXWw8-QbhU].webp",
+      "sha256": "6e34a5542ed2372d2eea40f7d17f43409a9d5a5a5f5964601642ac6a87508137"
+    },
+    "description_file": {
+      "path": "../../downloads/【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】 [MWXWw8-QbhU].description",
+      "sha256": "9926461c844a870e22c4bf10d567e6c80ef5d0ada7e10a6d31f22fe298ee5a19"
+    }
+  }
+}

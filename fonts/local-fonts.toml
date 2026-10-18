@@ -1,0 +1,64 @@
+# file 是 fonts/local/ 内的文件名；不含字体本体，不代表再分发许可。
+# 2026-10-18 从实际制作输入提取；更新字体须重新检查排版并更新此清单。
+[[fonts]]
+file = "LXGWWenKai-Regular.ttf"
+version = "Version 1.501; October 10, 2024"
+sha256 = "fea0004a42506f6b1583c4dfe35a13ce1cff0bbda32bb70629b3f9aafd8a8a6a"
+bytes = 19082660
+postscript_names = ["LXGWWenKai-Regular"]
+source = "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.501"
+prepare = "从 v1.501 发布获取同名字体，保留 OFL。"
+
+[[fonts]]
+file = "MiSans-Bold.ttf"
+version = "Version 4.003"
+sha256 = "c01078cf5e0ca166672612e29ae8c94f3a6b224d047ffbf3801e33003051ec0e"
+bytes = 7959920
+postscript_names = ["MiSans-Bold"]
+source = "https://hyperos.mi.com/font/zh/download/"
+prepare = "从 MiSans 官方包提取对应静态字重，保留随包许可。"
+
+[[fonts]]
+file = "MiSans-Light.ttf"
+version = "Version 4.003"
+sha256 = "3d8dde7ea7d675111c6883661548914bf1a79824a648394f461fef91c180b667"
+bytes = 8127308
+postscript_names = ["MiSans-Light"]
+source = "https://hyperos.mi.com/font/zh/download/"
+prepare = "从 MiSans 官方包提取对应静态字重，保留随包许可。"
+
+[[fonts]]
+file = "MiSans-Regular.ttf"
+version = "Version 4.003"
+sha256 = "6aa32ded55e110a95be10080e0c322f2382681cd581c5cbb24f4fd4ce96fbb08"
+bytes = 8073152
+postscript_names = ["MiSans-Regular"]
+source = "https://hyperos.mi.com/font/zh/download/"
+prepare = "从 MiSans 官方包提取对应静态字重，保留随包许可。"
+
+[[fonts]]
+file = "SarasaMonoSC-Bold.ttf"
+version = "Version 1.0.27; ttfautohint (v1.8.4)"
+sha256 = "f8574c2d00f82f21937e620303dca210f411595de9308275174c97b2c229d0dc"
+bytes = 25279224
+postscript_names = ["Sarasa-Mono-SC-Bold"]
+source = "https://github.com/be5invis/Sarasa-Gothic/releases/tag/v1.0.27"
+prepare = "从 v1.0.27 的 SarasaMonoSC-TTF-1.0.27.7z 提取 Bold；保留 OFL；如上游文件名大小写不同，在目标目录使用本清单文件名。"
+
+[[fonts]]
+file = "Songti.ttc"
+version = "17.0d2e3"
+sha256 = "6873ac2ccab5c2e74d87d6b690f3773098dd6a6238805363a3b3567f2caf6f47"
+bytes = 66933080
+postscript_names = ["STSongti-SC-Black", "STSongti-SC-Bold", "STSongti-TC-Bold", "STSongti-SC-Light", "STSong", "STSongti-TC-Light", "STSongti-SC-Regular", "STSongti-TC-Regular"]
+source = ""
+prepare = "从自己合法持有、许可允许使用的字体安装中复制完整 TTC；不分发。本清单记录文件内版本，不保证其他系统版本提供相同文件。"
+
+[[fonts]]
+file = "ヒラギノ角ゴシック W6.ttc"
+version = "20.0d1e1"
+sha256 = "790fe535987adc662e83489e162dc54c1e50be8de15169300082f6cc7a082e4e"
+bytes = 7965696
+postscript_names = ["HiraginoSans-W6", ".HiraKakuInterface-W6", "HiraKakuProN-W6", "HiraKakuPro-W6"]
+source = ""
+prepare = "从自己合法持有、许可允许使用的字体安装中复制完整 TTC；不分发。本清单记录文件内版本，不保证其他系统版本提供相同文件。"

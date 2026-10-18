@@ -50,7 +50,12 @@ for ch in chars:
  pen=TTGlyphPen(None);p.draw(Cu2QuPen(pen,max_err=.7));glyph=pen.glyph();key='uni%04X'%ord(ch);order.append(key);glyphs[key]=glyph;metrics[key]=(gs[gn].width,0);cmap[ord(ch)]=key;details[ch]={'decorations':len(caps)}
 fb=FontBuilder(1000,isTTF=True);fb.setupGlyphOrder(order);fb.setupCharacterMap(cmap);fb.setupGlyf(glyphs);fb.setupHorizontalMetrics(metrics);fb.setupHorizontalHeader(ascent=880,descent=-120)
 fb.setupNameTable({'familyName':name,'styleName':'Regular','uniqueFontIdentifier':name+'-1.0','fullName':name,'psName':name,'version':'Version 1.0','copyright':str(source['name'].getDebugName(0))+'; caption-specific diamond-terminal adaptation','licenseDescription':'SIL Open Font License 1.1; see '+job['license_name'],'licenseInfoURL':'https://openfontlicense.org/'})
-fb.setupOS2(sTypoAscender=880,sTypoDescender=-120,usWinAscent=1050,usWinDescent=250,usWeightClass=700);fb.setupPost(italicAngle=0);fb.setupMaxp();fb.save(D/(name+'.ttf'))
+fb.setupOS2(sTypoAscender=880, sTypoDescender=-120, usWinAscent=1050, usWinDescent=250, usWeightClass=700)
+fb.setupPost(italicAngle=0);fb.setupMaxp()
+fb.font['head'].created=source['head'].created
+fb.font['head'].modified=source['head'].modified
+fb.font.recalcTimestamp=False
+fb.save(D/(name+'.ttf'))
 shutil.copy2(path(job['license']),D/job['license_name'])
 (D/(name+'.json')).write_text(json.dumps({**job['provenance'],'family':name,'events':IDS,'coverage':text,'italic':False,'synthesis':False,'glyphs':details},ensure_ascii=False,indent=2))
 print('Built',len(chars),'characters;',sum(x['decorations'] for x in details.values()),'terminal decorations')

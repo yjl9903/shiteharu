@@ -59,7 +59,7 @@ source_title = "日文校对（原片已有日文）"
 
 [package]
 file = "deliverables/editable-project.zip"
-include = ["design", "translation/work", "patches", "README.md", "description.md", "session.toml", "preview.toml"]
+include = ["design", "translation/work", "patches", "README.md", "description.md", "session.toml", "preview.toml", "source.info.json", "transcript/raw", "transcript/work"]
 
 [ass_style]
 fontsize = 58

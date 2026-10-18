@@ -85,3 +85,14 @@ uv run --locked python tools/loupe/loupe.py --config production/shingouki/previe
 ```
 
 媒体快照、抽帧和浏览器字体写入仓库 `.cache/loupe/`，不写入本工程。标题、重点字幕及研究说明在 `preview.toml` 的 `[content]` 中；字体研究资料位于 [research/fonts](research/fonts/README.md)，研究命令经 `../../tools/forge/forge.py --config forge.toml research-*` 调用，不参与 Loupe 启动。
+
+
+## 迁移前检查
+
+原片、本机字体、证据图片与缓存的取舍和恢复顺序见 [迁移清单](../../docs/reproducibility.md#迁移时带什么)。本机字体按 [版本与校验清单](../../fonts/local-fonts.toml) 准备。以下从仓库根目录执行；检查不修改制作数据：
+
+```sh
+uv run --locked python tools/forge/forge.py --config production/shingouki/forge.toml check-inputs
+```
+
+重新生成的工程包包含原片来源、原始转写、日文校对、中文工作数据及字体准备清单；仍不包含原片和本机字体。已有旧 ZIP 不会自动更新，不能用旧包代表当前工作区。

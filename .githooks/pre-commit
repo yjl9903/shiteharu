@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""Reject machine-specific paths in the staged content of changed files."""
+from pathlib import PurePosixPath, PureWindowsPath
+import os
+import re
+import subprocess
+import sys
+
+PREFIXES = ('Users', 'home', 'root', 'System', 'Library', 'Applications',
+            'Volumes', 'opt', 'private', 'tmp', 'var', 'mnt', 'media')
+ABSOLUTE = re.compile(
+    r'(?<![\w./-])/(?:(?:' + '|'.join(PREFIXES) + r')/|usr/local/)'
+    r'|(?<![A-Za-z0-9])[A-Za-z]:[\\/]'
+    r'|file:/{3}'
+)
+
+
+def git(*args):
+    return subprocess.check_output(['git', *args])
+
+
+def main():
+    changed = set(filter(None, git('diff', '--cached', '--name-only',
+                                   '--diff-filter=ACMRT', '-z').split(b'\0')))
+    failures = []
+    for entry in git('ls-files', '--stage', '-z').split(b'\0'):
+        if not entry:
+            continue
+        metadata, name = entry.split(b'\t', 1)
+        mode, oid, stage = metadata.split()
+        if name not in changed or stage != b'0' or mode == b'160000':
+            continue
+        raw = git('cat-file', 'blob', oid.decode('ascii'))
+        display = os.fsdecode(name)
+        if mode == b'120000':
+            target = os.fsdecode(raw)
+            if PurePosixPath(target).is_absolute() or PureWindowsPath(target).is_absolute():
+                failures.append(f'{display}: absolute symlink target')
+            continue
+        if b'\0' in raw:
+            continue
+        try:
+            text = raw.decode('utf-8')
+        except UnicodeDecodeError:
+            continue
+        for number, line in enumerate(text.splitlines(), 1):
+            if ABSOLUTE.search(line.replace('\\/', '/')):
+                failures.append(f'{display}:{number}: machine-specific absolute path')
+    if failures:
+        print('Commit blocked: remove absolute paths from staged files.', file=sys.stderr)
+        print('\n'.join(failures), file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

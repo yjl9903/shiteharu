@@ -2,7 +2,7 @@ directory = "research/fonts"
 label_font = "../../fonts/local/MiSans-Regular.ttf"
 default_role = "round"
 specimens = ["ばんわんこ〜", "皆さーん", "晚上好汪～ 各位朋友"]
-identification = [["1-s1", "ばんわんこ〜", "research/fonts/candidates/Nikumaru/**/*.otf", "にくまる：高吻合"], ["1-s4", "皆さーん", "research/fonts/candidates/SourceHanSerif/SourceHanSerif-Heavy.otf", "源ノ明朝 Heavy：近似候选"], ["1-s88", "「覚悟と強い意志」", "research/fonts/candidates/GenkaiMincho/package/genkai-mincho.ttf", "源界明朝：裂纹位置高吻合"]]
+identification = [["1-s1", "ばんわんこ〜", "research/fonts/candidates/Nikumaru/**/*.otf", "にくまる：高吻合"], ["1-s4", "皆さーん", "research/fonts/candidates/SourceHanSerif/SourceHanSerif-Heavy.otf", "源ノ明朝 Heavy：近似候选"], ["1-s88", "「覚悟と強い意志」", "../../fonts/genkai/Genkaimincho.ttf", "源界明朝：裂纹位置高吻合"]]
 capture_ids = ["1-s1", "1-s4", "1-s5", "1-s8b", "1-s14b", "1-s16", "1-s30", "1-s31b", "1-s34b", "1-s53", "1-s57", "1-s68b", "1-s74c", "1-s86", "1-s88", "1-s100", "1-s111", "1-s121", "b-sticky", "1-s155", "1-s170", "1-s175", "1-s178", "1-s179", "1-s192", "1-s204", "1-s205", "1-s212", "1-s232", "1-s241", "1-s255", "1-s169.a"]
 reel_ids = ["1-s1", "1-s4", "1-s14b", "1-s30", "1-s88", "1-s100", "1-s121", "1-s192", "1-s205", "1-s212", "1-s232", "1-s255"]
 repositories = ["maoken-fonts/LongZhuTi", "lxgw/LxgwMarkerGothic", "Warren2060/ChillRound", "lxgw/yozai-font"]
@@ -18,7 +18,7 @@ bold = false
 
 [fonts.mincho]
 family = "Source Han Serif SC Heavy"
-file = "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf"
+file = "../../fonts/mincho/SourceHanSerifSC-Heavy.otf"
 bold = false
 
 [fonts.marker]
@@ -561,10 +561,10 @@ name = "yozai-font"
 assets = []
 
 [diamond]
-source = "research/fonts/candidates/FengYaSong/MaoKenWangFengYaSong.ttf"
+source = "../../fonts/fengyasong/MaoKenWangFengYaSong.ttf"
 events = ["1-s16", "1-s17", "1-s17b", "1-s32"]
 family = "ShingoukiDiamondSC"
-license = "research/fonts/candidates/FengYaSong/OFL.txt"
+license = "../../fonts/fengyasong/OFL.txt"
 license_name = "OFL-FengYaSong.txt"
 
 [diamond.provenance]
@@ -573,11 +573,11 @@ reference_style = "Akano Alice, visual identification only; no proprietary outli
 limitation = "Chinese visual approximation, not original Akano Alice or an official Chinese extension. Limited coverage."
 
 [fracture]
-original = "research/fonts/candidates/GenkaiMincho/package/genkai-mincho.ttf"
-fallback = "research/fonts/candidates/SourceHanSerif/SourceHanSerifSC-Heavy.otf"
+original = "../../fonts/genkai/Genkaimincho.ttf"
+fallback = "../../fonts/mincho/SourceHanSerifSC-Heavy.otf"
 original_label = "Genkai Mincho original outline"
 fallback_label = "SC Heavy + static fracture approximation"
-license = "research/fonts/candidates/SourceHanSerif/LICENSE.txt"
+license = "../../fonts/mincho/LICENSE.txt"
 fallback_license_name = "OFL-SourceHanSerif.txt"
 original_license_name = "OFL-Genkai.txt"
 original_license_note = "Derivative design: FLOP DESIGN / Genkai Mincho (https://booth.pm/ja/items/1028548)."

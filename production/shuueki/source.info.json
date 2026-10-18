@@ -1,0 +1,93 @@
+{
+  "id": "CEyKoT2Ue8M",
+  "title": "みなさまに￥化をご報告",
+  "channel": "してはる ",
+  "channel_url": "https://www.youtube.com/channel/UCm9fknC7ObBFKCtEXN-6Hgg",
+  "webpage_url": "https://www.youtube.com/watch?v=CEyKoT2Ue8M",
+  "upload_date": "20260510",
+  "duration": 105,
+  "description": "ご報告動画をご報告！\nご視聴くださったみなさま、登録してくださったみなさま、本当にありがとうございます。\n\n寒暖差の激しい季節です。\n体調を崩しますと視聴者が減りますので、視聴者の皆様方におかれましてはくれぐれもお身体にお気をつけて、快適な生活をお送りください。\n\n-----------------------------------------\nこちら、収益化していないツゥイッタァ(現ｴｯｸｽ)もございます ↓\nhttps://x.com/popico_pi\n-----------------------------------------\n一部素材を使用させていただいております\nSE:OtoLogic 様\nBGM:MusMus 様",
+  "thumbnail": "https://i.ytimg.com/vi_webp/CEyKoT2Ue8M/maxresdefault.webp",
+  "download": {
+    "date": "2026-10-18",
+    "yt_dlp_version": "2026.08.19",
+    "ffmpeg_version": "7.1.1",
+    "node_version": "24.15.0",
+    "selector": "bestvideo+bestaudio",
+    "format_id": "616+251",
+    "max_available_height": 1080,
+    "selected_formats": [
+      {
+        "format_id": "251",
+        "ext": "webm",
+        "width": null,
+        "height": null,
+        "fps": null,
+        "vcodec": "none",
+        "acodec": "opus",
+        "tbr": 138.234,
+        "filesize": 1821260,
+        "format_note": "medium",
+        "protocol": "https"
+      },
+      {
+        "format_id": "616",
+        "ext": "mp4",
+        "width": 1920,
+        "height": 1080,
+        "fps": 30.0,
+        "vcodec": "vp09.00.40.08",
+        "acodec": "none",
+        "tbr": 4344.71,
+        "filesize": null,
+        "format_note": "Premium",
+        "protocol": "m3u8_native"
+      }
+    ],
+    "media": "../../downloads/みなさまに￥化をご報告 [CEyKoT2Ue8M].mkv",
+    "media_sha256": "0af56e8d46b6e39dd80b76d03bc8f914a7d068b3723495a964f0cc979860e1be",
+    "media_bytes": 43731176,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "avg_frame_rate": "12978/433",
+          "time_base": "1/1000"
+        },
+        {
+          "index": 1,
+          "codec_name": "opus",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "avg_frame_rate": "0/0",
+          "time_base": "1/1000"
+        }
+      ],
+      "format": {
+        "duration": "105.408000",
+        "size": "43731176"
+      }
+    },
+    "verification": {
+      "full_av_decode": "passed",
+      "date": "2026-10-18",
+      "video_time_base": "source",
+      "fps_mode": "passthrough"
+    },
+    "thumbnail_file": {
+      "path": "../../downloads/みなさまに￥化をご報告 [CEyKoT2Ue8M].webp",
+      "sha256": "c5e7b77271d3bb35c55f5bb2c4f1b114d46b9e36a79e5265b2edb8479c6a4441"
+    },
+    "description_file": {
+      "path": "../../downloads/みなさまに￥化をご報告 [CEyKoT2Ue8M].description",
+      "sha256": "2a1c43e2a3afb1ca0d62496a89d80734e84bc8e52bdd41b4cd6666e7fd040bd9"
+    }
+  }
+}

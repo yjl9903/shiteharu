@@ -4,7 +4,7 @@
 
 ## 启动
 
-在仓库根目录运行，需要 uv、FFmpeg 和 FFprobe。Python 和 fonttools 等依赖由仓库根目录的 uv 配置统一管理，准备方法见 [运行环境](../../docs/reproducibility.md#python-运行环境)。
+在仓库根目录运行，需要 uv、FFmpeg 和 FFprobe。Python 和 fonttools 等依赖由仓库根目录的 uv 配置统一管理，准备方法见 [运行环境](../../docs/migration.md#python-运行环境)。
 
 ```sh
 uv sync --locked

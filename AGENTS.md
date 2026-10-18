@@ -19,7 +19,8 @@
 | --- | --- |
 | 查视频、状态与工程入口 | [仓库 README](README.md) |
 | 新增文件、调整目录或模块边界 | [目录与模块职责](docs/layout.md) |
-| 准备资源、修改路径、重建或交付 | [资源、重建与交付](docs/reproducibility.md) |
+| 制作中新增资源、修改路径或依赖、准备交付 | [可复现性要求](docs/reproducibility.md) |
+| 换机器、备份资源、恢复环境与重建结果 | [迁移与恢复指南](docs/migration.md) |
 | 制作单片、查编辑入口与命令 | 对应工程的 `README.md`；现有工程：[信号灯墓场](production/shingouki/README.md)、[银泽](production/ginzawa/README.md) |
 | 修改单片内容、字幕设计或脚本 | 工程内的 `description.md`、`design/SCHEMA.md` 及公共 [Forge](tools/forge/README.md) |
 | 使用或修改公共审阅工具 | [Loupe](tools/loupe/README.md) |

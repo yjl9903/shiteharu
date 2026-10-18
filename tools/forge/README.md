@@ -4,7 +4,7 @@
 
 ## 使用
 
-先在仓库根目录执行 `uv sync --locked`；视频命令需要含 libass 的 FFmpeg 和 ffprobe。TOML 配置通过 tomlkit 写回以保留注释；所有 Python 依赖共用仓库根目录环境，见[运行环境](../../docs/reproducibility.md#python-运行环境)。
+先在仓库根目录执行 `uv sync --locked`；视频命令需要含 libass 的 FFmpeg 和 ffprobe。TOML 配置通过 tomlkit 写回以保留注释；所有 Python 依赖共用仓库根目录环境，见[运行环境](../../docs/migration.md#python-运行环境)。
 
 从仓库根目录执行：
 
@@ -33,7 +33,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 | `clips`、`comparisons`、`comparison_width` | 对照片段列表、输出位置与单侧宽度。 |
 | `calibration` | 顶部校准的可见边距与筛选位置。 |
 | `research` | 可选研究配方 TOML。普通构建、渲染和 Loupe 不读取它。 |
-| `package` | ZIP 位置与需要加入的工程资料列表。共享工具、环境锁文件、字幕输入和本工程配置引用的可分发字体由打包器加入；`include_evidence = true` 可额外收录事件引用的取证图片。 |
+| `package` | ZIP 位置与需要加入的工程资料列表。共享工具、环境锁文件、本机字体身份清单、路径检查钩子、字幕输入和本工程配置引用的可分发字体由打包器加入；`include_evidence = true` 可额外收录事件引用的取证图片。 |
 
 研究配方包含候选来源、字体映射、样例 ID、派生字体名称和许可，以及逐角色／逐事件提案规则。规则的 `set` 为固定值，`per_fontsize` 为按字号计算并保留两位小数的系数，`scale_x_cap` 为横向缩放上限。新增工程只需提供自己的配置、时间轴、设计和资源；需要研究时再提供配方。不要把单片 ID、字体选择或结论加入公共 Python。
 
@@ -41,6 +41,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 
 | 命令 | 作用及输出 |
 | --- | --- |
+| `check-inputs [--no-media]` | 只读检查时间轴、设计、正式/本机字体、派生源资产、原片 SHA-256 以及 FFmpeg 的 ass/libx264/AAC 能力；本机字体身份来自 `fonts/local-fonts.toml`。`--no-media` 跳过原片与工具检查，不检查历史证据及其他候选。准备方法见 [迁移与恢复指南](../../docs/migration.md)。 |
 | `build [--output DIR]` | 生成主轨、审阅轨 ASS 与两份 SRT。输出目录可覆盖，用于回归比较。 |
 | `fonts-prepare` | 校验并复制配置字体到缓存，移除缓存中不再配置的字体。 |
 | `render [preview\|full\|soft]` | 构建字幕、准备字体、渲染所选视频；成功并通过时长校验后才替换目标。 |

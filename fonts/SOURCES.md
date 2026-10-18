@@ -30,3 +30,10 @@
 银泽推文修订使用 MiSans Regular 真实常规字面。字体从 [MiSans 官方下载页](https://hyperos.mi.com/font/zh/download/) 获取；使用前阅读随包许可，将静态 `MiSans-Regular.ttf` 放到本目录的 `local/` 下，再运行工程 README 的 `fonts-prepare` 命令。本机字体文件不纳入 Git 或交付包。
 
 本次使用版本为 4.003，PostScript 名为 `MiSans-Regular`，SHA-256 为 `6aa32ded55e110a95be10080e0c322f2382681cd581c5cbb24f4fd4ce96fbb08`。重建时应核对该版本与校验值；若官方包已更新，应重新检查排版，不把不同版本当作相同输入。
+
+
+完整本机依赖清单见 [local-fonts.toml](local-fonts.toml)，覆盖 MiSans Bold/Light/Regular、LXGW WenKai Regular、更纱等宽黑体 SC Bold、宋体 TTC、日文字体 W6 TTC。两个正式工程共用这些文件；信号灯研究的标注字体另用 MiSans Regular。将清单中的文件准备到 `fonts/local/`，运行工程的 `check-inputs` 核对 SHA-256。宋体和日文 TTC 须从自己的合法安装准备，保留完整集合；其他平台未必可取得同一版本，缺少时明确停下，不能用同名字体替代已确认的排版。
+
+### 派生字体完整输入
+
+风雅宋完整源资产已保存在 [MaoKenWangFengYaSong.ttf](fengyasong/MaoKenWangFengYaSong.ttf)，附 [OFL](fengyasong/OFL.txt) 与 [来源、版本、SHA-256](fengyasong/provenance.json)。它是本次从现存研究输入保存的原文件；原下载修订号未记录，不声称等于上游最新版。信号灯的菱形、破损和融化字库现在只引用 `fonts/fengyasong/`、`fonts/genkai/`、`fonts/mincho/`，无需候选缓存。现有正式派生字库不改动；重建产物在工程研究目录中，需检查后显式采纳。

@@ -7,6 +7,7 @@ import sys
 
 COMMANDS = {
     'build': ('subtitles.build', '生成 ASS 和 SRT 字幕'),
+    'check-inputs': ('review.inputs', '只读检查迁移所需输入、字体校验值及视频工具'),
     'calibrate-top': ('subtitles.calibrate_top', '测量顶部字形并修改设计位置'),
     'fonts-prepare': ('fonts.prepare_fonts', '准备本地渲染字体缓存'),
     'fonts-merge': ('fonts.merge_font_proposal', '合入已审阅的字体提案，修改设计及共享字体'),
@@ -42,6 +43,8 @@ def parser():
         cmd = commands.add_parser(name, help=description, description=description)
         if name == 'build':
             cmd.add_argument('--output', help='输出目录，默认使用工程配置；相对工程目录解析')
+        elif name == 'check-inputs':
+            cmd.add_argument('--no-media', action='store_true', help='跳过原片及 FFmpeg 检查，仅检查字幕和字体输入')
         elif name == 'render':
             cmd.add_argument('mode', nargs='?', choices=['preview', 'full', 'soft'], default='preview')
         elif name == 'compare-clips':
@@ -86,7 +89,7 @@ def main(argv=None):
             options = [args.mode]
         elif args.command == 'compare-clips' and args.filter:
             options = [args.filter]
-        elif args.command in ('source-frames', 'source-boundary', 'source-atlas', 'review-stills', 'audit', 'audit-layout'):
+        elif args.command in ('check-inputs', 'source-frames', 'source-boundary', 'source-atlas', 'review-stills', 'audit', 'audit-layout'):
             options = argv[argv.index(args.command)+1:]
         sys.argv = [f'{Path(__file__).name} {args.command}', *options]
         runpy.run_module('pipeline.' + target, run_name='__main__')
