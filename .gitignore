@@ -51,10 +51,10 @@ __pycache__/
 
 # 可重新生成的截图、对照图与渲染缓存
 /production/**/frames/
-/production/**/deliverables/comparisons/**/*.png
-/production/**/deliverables/comparisons/**/*.jpg
-/production/**/deliverables/comparisons/**/*.jpeg
-/production/**/deliverables/comparisons/**/*.webp
+/production/**/review/comparisons/**/*.png
+/production/**/review/comparisons/**/*.jpg
+/production/**/review/comparisons/**/*.jpeg
+/production/**/review/comparisons/**/*.webp
 
 # 工程专属字体研究的下载资源、派生字库副本和生成图片
 # 正式字库、许可和来源记录仍由顶层 fonts/ 管理

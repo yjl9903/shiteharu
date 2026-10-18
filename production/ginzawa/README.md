@@ -8,7 +8,7 @@
 
 本轮纳入 a002 句末问号、上置字幕顶部留白、a035缩小置顶、a055与c066字体修正，以及c067置顶。更早的位置字号专项覆盖288个事件，修改54条；依据见 [位置字号记录](review/composition-user-review.md) 和 [逐条修订记录](review/opening-user-revision.md)。
 
-720p预览、软字幕MKV和可编辑工程ZIP随当前字幕重新生成，覆盖 `deliverables/` 中的同名文件。`comparisons/` 中的历史局部对照片段仅作审阅证据，不代表当前成片；当前导出状态以上方核验记录为准。
+720p预览、软字幕MKV和可编辑工程ZIP随当前字幕重新生成，覆盖 `deliverables/` 中的同名文件。`review/comparisons/` 中的历史局部对照片段仅作审阅证据，不代表当前成片；当前导出状态以上方核验记录为准。对照媒体不纳入 Git 或可编辑工程 ZIP，需要留存的历史版本随本地制作资料另行备份。
 
 字体采用逐条匹配的中文近似，原有日文保留；具体近似见 [差异记录](review/differences.md)。可编辑源以当前 `translation/work/` 与 `design/` 为准。MKV未嵌入字体；工程包不含原视频、本机字体或凭据。
 
@@ -42,6 +42,8 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml package
 ```
 
+上述 `compare-clips` 按 `design/clips.toml` 读取已构建的 ASS 和字体缓存，生成 `review/comparisons/` 中的对照视频；`compare-stills` 再提取中点图。只重做对照时，先执行 `build` 和 `fonts-prepare`，已有样片不会随工作稿自动更新，重跑会覆盖同名文件。
+
 辅助取证命令也使用同一个环境：
 
 ```sh
@@ -58,7 +60,7 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 uv run --locked python tools/loupe/loupe.py --config production/ginzawa/preview.toml --serve --port 8974
 ```
 
-打开命令输出的本地地址。预览明确使用原片与最终 1080p 成片，包含全部 288 条时间轴事件。
+打开命令输出的本地地址。Loupe 读取原片与当前 1080p 成片，包含全部 288 条时间轴事件。局部对照样片用于排版与动态检查，结论、疑点和检查范围保存在 `review/`。
 
 ## 完成检查
 

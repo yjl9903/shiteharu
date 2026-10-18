@@ -104,5 +104,6 @@
     "source": "deliverables/zh.performance.1080p.mp4",
     "title": "『银泽』· 字幕与字体对照",
     "range_status": 206
-  }
+  },
+  "input_metadata_note": "输入哈希记录编码时状态；后续仅清理设计说明中的旧版本称呼及过时进度。清理后四份ASS/SRT重建结果与当前输出逐字节一致，未重新编码视频。"
 }

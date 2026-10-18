@@ -8,6 +8,7 @@ from ..fonts.assets import companions
 def main():
     files = set()
     local_fonts = (REPOSITORY / 'fonts/local').resolve()
+    comparisons = setting_path('comparisons')
     def add(item):
         if item.is_relative_to(local_fonts):
             return
@@ -16,6 +17,9 @@ def main():
         candidates = item.rglob('*') if item.is_dir() else [item]
         for file in candidates:
             if not file.is_file():
+                continue
+            # Review media is backed up separately, even when review/ is included.
+            if file.is_relative_to(comparisons):
                 continue
             relative = file.relative_to(REPOSITORY)
             if any(part in {'.cache', '.venv', '__pycache__', 'local'} for part in relative.parts):

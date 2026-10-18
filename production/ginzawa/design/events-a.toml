@@ -47,7 +47,7 @@ source_style = "极宽粗黑体单行由右向左匀速横滚，原字触左右�
 source_boxes = [[0, 875, 1920, 1080]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-scrollstart/0009.jpg", "frames/opening/000005.000.jpg", "frames/75fc47-scrollstart/sheet-000.jpg", "frames/75fc47-btest/sheet-000.jpg", "frames/comparison-a-pass1/001-a002.jpg", "frames/comparison-a-pass2/001-a002.jpg", "frames/comparison-opening-user-r1/004.70.jpg", "frames/comparison-opening-user-r1/001.30.jpg", "frames/comparison-opening-user-r1/003.00.jpg", "frames/comparison-opening-user-r1/006.10.jpg", "frames/comparison-opening-user-r1/008.30.jpg", "frames/a002-question-mark/8.00.jpg", "frames/a002-question-mark/8.30.jpg"]
-limitations = "用户要求忠实扩写以接近原片文风与长度。74字中文实测白色墨迹宽12055px；全段横移12948px/7.241s≈1788px/s，对齐原片三帧横移179px的速度。起末保留原节拍；中文词语位置仍不逐字相同。 v2导出后按用户反馈补回句末问号；既有74字宽度为补标点前测量，横移轨迹与速度未变。已实看8.00和8.30秒局部帧，问号完整可见；此修订尚未写入v2视频。"
+limitations = "用户要求忠实扩写以接近原片文风与长度。74字中文实测白色墨迹宽12055px；全段横移12948px/7.241s≈1788px/s，对齐原片三帧横移179px的速度。起末保留原节拍；中文词语位置仍不逐字相同。 按用户反馈补回句末问号；既有74字宽度为补标点前测量，横移轨迹与速度未变。已实看8.00和8.30秒局部帧，问号完整可见；此修订已纳入当前成片，见review/current-export-qa.json。"
 face_boxes = [[610, 310, 1300, 875]]
 from_x = 1498
 from_y = 850
@@ -445,7 +445,7 @@ source_style = "まさにそこ大号明朝体，原画横跨胸口，强调硬�
 source_boxes = [[410, 850, 1520, 1080]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-b-34.500/0012.jpg", "frames/opening/000035.000.jpg", "frames/75fc47-pairs/sheet-002.jpg", "frames/comparison-a-pass1/022-a017.jpg", "frames/comparison-a-pass2/022-a017.jpg", "frames/comparison-opening-user-r3/a017-centered.png", "frames/top-spacing-user/a017-0.jpg", "frames/top-spacing-user/a017-1.jpg", "frames/top-spacing-user/a017-2.jpg"]
-limitations = "用户指出首版可见字形未水平居中。原锚点960的实际墨迹横界501–1302，中心901.5；锚点右移58.5至1018.5，以包含感叹号的可见墨迹整体居中。仅局部试排，完整导出与全片复查仍待用户确认。 修订后墨迹横界560–1360，中心960；已实看34.885秒局部画面。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "用户指出首版可见字形未水平居中。原锚点960的实际墨迹横界501–1302，中心901.5；锚点右移58.5至1018.5，以包含感叹号的可见墨迹整体居中。当时仅作局部试排。 修订后墨迹横界560–1360，中心960；已实看34.885秒局部画面。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 face_boxes = [[610, 310, 1300, 875]]
 
 [[events]]
@@ -520,7 +520,7 @@ source_style = "石川県・銀沢超大粗明朝体，黑底与人物放大，�
 source_boxes = [[115, 800, 1770, 1080]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-b-38.500/0021.jpg", "frames/75fc47-scan/000040.000.jpg", "frames/75fc47-pairs/sheet-002.jpg", "frames/comparison-a-pass1/025-a020.jpg", "frames/comparison-a-pass2/025-a020.jpg", "frames/top-spacing-user/a020-0.jpg", "frames/top-spacing-user/a020-1.jpg", "frames/top-spacing-user/a020-2.jpg"]
-limitations = "实看原画大标题在下脸下方；中文大字继续上移会新遮脸，改顶部居中保留字号量级，不把强调当作任意遮脸许可。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "实看原画大标题在下脸下方；中文大字继续上移会新遮脸，改顶部居中保留字号量级，不把强调当作任意遮脸许可。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 face_boxes = [[610, 310, 1300, 875]]
 allow_face_overlap = false
 
@@ -897,7 +897,7 @@ source_style = "曇天极大明朝体粗黑边和软黑阴影，空镜无头像"
 source_boxes = [[585, 720, 1370, 1080]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-b-76.500/0016.jpg", "frames/75fc47-scan/000077.000.jpg", "frames/75fc47-pairs/sheet-005.jpg", "frames/comparison-a-pass1/041-a035.jpg", "frames/comparison-a-pass2/041-a035.jpg", "frames/a035-small-top/76.623.jpg", "frames/a035-small-top/77.210.jpg", "frames/a035-small-top/77.798.jpg"]
-limitations = "字体为同类别中文替代；第二轮已逐条对照实际墨迹，字号、原字间隔与位置通过。 第二轮放大后的可见字高及间隙已实看通过。 v2导出后按用户要求缩小置顶：字号470改160，描边9改6，软阴影按比例缩小，y=-6、align=8。实测含描边顶部留22px，已实看10%、50%、90%局部帧，天空主体及原日文保持可见。现有v2视频尚未包含此修改。"
+limitations = "字体为同类别中文替代；第二轮已逐条对照实际墨迹，字号、原字间隔与位置通过。 第二轮放大后的可见字高及间隙已实看通过。 按用户要求缩小置顶：字号470改160，描边9改6，软阴影按比例缩小，y=-6、align=8。实测含描边顶部留22px，已实看10%、50%、90%局部帧，天空主体及原日文保持可见。此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [events.soft_shadow]
 x = 0
@@ -1153,7 +1153,7 @@ source_style = "两行圆黑体组织名说明，网页卡片横贯中部，中�
 source_boxes = [[480, 875, 1450, 960], [425, 970, 1520, 1060]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-b-94.500/0026.jpg", "frames/75fc47-scan/000097.000.jpg", "frames/75fc47-pairs/sheet-007.jpg", "frames/comparison-a-pass1/051-a045.jpg", "frames/comparison-a-pass2/051-a045.jpg", "frames/top-spacing-user/a045-0.jpg", "frames/top-spacing-user/a045-1.jpg", "frames/top-spacing-user/a045-2.jpg"]
-limitations = "中央网页卡片延伸到原字幕上方，中文改顶部两行以避网页正文及右下头像；组织名称保持原译。 第二轮放大后的可见字高及间隙已实看通过。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "中央网页卡片延伸到原字幕上方，中文改顶部两行以避网页正文及右下头像；组织名称保持原译。 第二轮放大后的可见字高及间隙已实看通过。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 line_advance = 101
 
 [[events]]
@@ -1402,7 +1402,7 @@ source_style = "銀魚超大粗明朝体和厚轮廓，空镜无头像"
 source_boxes = [[565, 690, 1345, 1080]]
 timing_status = "frame-confirmed"
 evidence = ["frames/75fc47-b-119.500/0007.jpg", "frames/75fc47-scan/000120.000.jpg", "frames/75fc47-pairs/sheet-008.jpg", "frames/comparison-a-pass1/061-a055.jpg", "frames/comparison-a-pass2/061-a055.jpg", "frames/comparison-opening-user-r13/a055-normal.png", "frames/top-spacing-user/a055-0.jpg", "frames/top-spacing-user/a055-1.jpg", "frames/top-spacing-user/a055-2.jpg", "frames/a055-font-confirm/midpoint.jpg"]
-limitations = "原片为粗明朝体，采用同类别中文思源宋体Heavy替代，非原作者字体精确识别。此前将用户「正常点的字体」理解为圆体，现按字体类型复核修正为mincho；保留108字号、x=960、y=3、align=8、5.5描边及其余排版参数。已实看119.770秒局部帧，含描边顶部留19px，原日文与水面主体保持可见。早期圆体及20px顶部记录属于历史版本；现有v2视频尚未包含此修订。"
+limitations = "原片为粗明朝体，采用同类别中文思源宋体Heavy替代，非原作者字体精确识别。此前将用户「正常点的字体」理解为圆体，现按字体类型复核修正为mincho；保留108字号、x=960、y=3、align=8、5.5描边及其余排版参数。已实看119.770秒局部帧，含描边顶部留19px，原日文与水面主体保持可见。早期圆体及20px顶部记录属于历史版本；此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "a056"

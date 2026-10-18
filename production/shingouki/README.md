@@ -9,7 +9,6 @@
 - `deliverables/zh.performance.ass`：可编辑中文演出字幕。
 - `deliverables/ja.review.ass`：独立日文审阅轨；不要同时烧入中文预览。
 - `deliverables/ja.srt` / `zh.srt`：同时间轴的纯文本字幕，含并发旁注；需完整演出及并发显示时使用 ASS。
-- `deliverables/comparisons/`：左边原片、右边中文演出的代表段落。
 
 ## 修改位置
 
@@ -48,6 +47,8 @@ uv run --locked python ../../tools/forge/forge.py --config forge.toml compare-st
 uv run --locked python ../../tools/forge/forge.py --config forge.toml package
 ```
 
+`compare-clips` 按 `design/clips.toml` 读取已有 ASS 和字体缓存，生成 `review/comparisons/` 中的左右对照视频；`compare-stills` 再从视频中点取图。工作稿修改后须按上述顺序重新构建、准备字体和生成对照，重跑会覆盖同名样片。
+
 配置、报告和预览元数据中的文件路径统一相对本工程目录解析；`clips/*/clip.toml` 的 `source_media` 也遵循 rajio 的工程目录基准。Forge 以显式配置文件所在目录定位工程，避免依赖启动命令时的工作目录。
 
 未随仓库分发的本机字体放在仓库顶层 `fonts/local/`（已被 Git 和交付打包脚本排除）。按 `design/fonts.toml` 准备 MiSans-Bold.ttf、LXGWWenKai-Regular.ttf、SarasaMonoSC-Bold.ttf、Songti.ttc 和ヒラギノ角ゴシック W6.ttc。从自己的合法字体安装中复制同名文件即可；保留实际字体文件，不使用指向本机绝对路径的软链接。Loupe 按配置的字面检查字形覆盖。配置中只填写 `../../fonts/local/文件名`，不填写用户目录或系统安装位置。
@@ -68,11 +69,13 @@ rajio . --reset export --commit --continue=until-manual
 
 ASS 使用百分之一秒，生成器向下量化原片帧时间，SRT 保留毫秒时机。动画时长、字号、位置和文字均可独立修改后重建。
 
-`deliverables/editable-project.zip` 收录字幕文字、设计、共享字体及许可、Forge/Loupe 共享工具和根目录环境锁文件。检查页、CSV/JSON 检查索引和审计报告已删除，构建不再生成这些文件。必要的运行缓存写入 `.cache/`；本机字体和视频不装入工程包。
+`deliverables/editable-project.zip` 收录字幕文字、设计、共享字体及许可、Forge/Loupe 共享工具和根目录环境锁文件。检查页、CSV/JSON 检查索引和审计报告已删除，构建不再生成这些文件。必要的运行缓存写入 `.cache/`；本机字体和视频不装入工程包。`review/comparisons/` 不纳入 Git 或工程包，需要保留的历史样片另行备份。
 
 解压时保留仓库目录结构，并按上述说明准备源视频和本机字体。字体对比页直接读取字幕配置用于导航，不依赖交付目录中的检查索引。
 
-## Loupe 审阅
+## 审阅
+
+局部排版与动态检查使用 `review/comparisons/` 的左右对照样片，结论、疑点和检查范围记录在 `review/`。历史样片仅代表生成时的效果；完整成片通过 Loupe 查看，是否完成验收以实际核验记录为准。
 
 本工程仅提供 `preview.toml` 和已有素材。播放器、抽帧、字体检查及同步服务统一使用仓库 [Loupe](../../tools/loupe/README.md)，不需要工程内的工具目录或兼容启动脚本。
 

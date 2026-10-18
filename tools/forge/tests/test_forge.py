@@ -293,6 +293,7 @@ class ForgeTests(unittest.TestCase):
         (checkout/'fonts/local').mkdir(parents=True);(checkout/'fonts/local/excluded.txt').write_text('excluded')
         (checkout/'fonts/local-fonts.toml').write_text('fonts = []\n')
         config=tomllib.loads(self.config.read_text());config['package']['include_evidence']=True
+        config['package']['include'].append('review')
         config['shared_fonts']='../../fonts';config['research']='recipe.toml';write_data(self.config,config)
         write_data(self.project/'recipe.toml',{'fracture':{'original':'../../fonts/source/source.ttf'}})
         create_font(checkout/'fonts/source/source.ttf')
@@ -323,7 +324,7 @@ class ForgeTests(unittest.TestCase):
         tracks=probe(self.project/'output/tracks.mkv')
         self.assertEqual([s['tags']['language'] for s in tracks['streams'] if s['codec_type']=='subtitle'],['deu','eng'])
         self.command('compare-clips',tool=tool);self.command('compare-stills',tool=tool)
-        self.assertTrue((self.project/'output/comparisons/sample.jpg').is_file())
+        self.assertTrue((self.project/'review/comparisons/sample.jpg').is_file())
         self.command('source-frames','--start','0.2','--end','0.3','--label','probe',tool=tool)
         self.command('source-boundary','1','--radius','0.1','--label','boundary',tool=tool)
         boundary=json.loads((self.project/'frames/boundary/index.json').read_text())
@@ -363,6 +364,8 @@ class ForgeTests(unittest.TestCase):
             self.assertNotIn('fonts/unrelated/other.ttf',archive.namelist())
             self.assertNotIn('production/portable/fonts/unrelated.json',archive.namelist())
             self.assertIn('production/portable/frames/probe/000000.200.jpg',archive.namelist())
+            self.assertIn('production/portable/review/technical-audit.json',archive.namelist())
+            self.assertFalse(any('/review/comparisons/' in p for p in archive.namelist()))
             self.assertFalse(any('/scripts/' in p or '/local/' in p or '/.cache/' in p for p in archive.namelist()))
             archive.extractall(extracted)
         expected={p.name:p.read_bytes() for p in (self.project/'output').glob('*.ass')}

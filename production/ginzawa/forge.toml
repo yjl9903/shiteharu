@@ -21,7 +21,7 @@ font_cache = ".cache/render-fonts"
 shared_fonts = "../../fonts"
 clips = "design/clips.toml"
 research = "research/fonts/recipe.toml"
-comparisons = "deliverables/comparisons"
+comparisons = "review/comparisons"
 comparison_width = 960
 
 [review]

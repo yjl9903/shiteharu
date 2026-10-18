@@ -996,7 +996,7 @@ source_boxes = [[430, 845, 1490, 1065]]
 timing_status = "frame-confirmed"
 face_boxes = [[580, 430, 1390, 950]]
 evidence = ["frames/a0e72e-overview/000526.500.jpg", "frames/a0e72e-exact/sheet-04.jpg", "frames/composition-review-02/c047-0.jpg", "frames/composition-review-02/c047-1.jpg", "frames/composition-review-02/c047-2.jpg", "frames/top-spacing-user/c047-0.jpg", "frames/top-spacing-user/c047-1.jpg", "frames/top-spacing-user/c047-2.jpg"]
-limitations = "原文上方是惊讶表情，保留顶部标题但缩小，让表情成为主体。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；仅完成位置字号专项，不代表逐帧动态或最终成片验收，未完整视频导出。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "原文上方是惊讶表情，保留顶部标题但缩小，让表情成为主体。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；当时完成位置字号专项，不代表逐帧动态或最终成片验收。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "c048"
@@ -1406,7 +1406,7 @@ source_boxes = [[345, 978, 1575, 1065]]
 timing_status = "frame-confirmed"
 face_boxes = [[1500, 690, 1870, 1010]]
 evidence = ["frames/a0e72e-overview/000566.500.jpg", "frames/a0e72e-exact/sheet-05.jpg", "frames/comparison-c-final-serif/000-explicit.jpg", "frames/c066-font-confirm/0.1.jpg", "frames/c066-font-confirm/0.5.jpg", "frames/c066-font-confirm/0.9.jpg"]
-limitations = "用户复核字体后重新比对：原片为较厚明朝体，此前细明朝分类及Songti SC字重偏细。改用思源宋体Heavy（mincho），关闭额外合成加粗；字号82改110以补偿字体度量差异，实际含边字高由84px变79px，保留接近原来的可见大小。x=960、y=965、align=2、描边2及阴影1不变。已实看10%、50%、90%局部帧；与源字框间隙24px，无触边或头像交叠。采用同类字体而非确认原作者具体字体；现有v2视频尚未包含修订。"
+limitations = "用户复核字体后重新比对：原片为较厚明朝体，此前细明朝分类及Songti SC字重偏细。改用思源宋体Heavy（mincho），关闭额外合成加粗；字号82改110以补偿字体度量差异，实际含边字高由84px变79px，保留接近原来的可见大小。x=960、y=965、align=2、描边2及阴影1不变。已实看10%、50%、90%局部帧；与源字框间隙24px，无触边或头像交叠。采用同类字体而非确认原作者具体字体；此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "c067"
@@ -1427,7 +1427,7 @@ source_boxes = [[285, 905, 1635, 1065]]
 timing_status = "frame-confirmed"
 face_boxes = [[1500, 690, 1870, 1010]]
 evidence = ["frames/a0e72e-overview/000568.500.jpg", "frames/a0e72e-exact/sheet-05.jpg", "frames/comparison-spacing-user/c067.jpg", "frames/composition-review-03/c067-0.jpg", "frames/composition-review-03/c067-1.jpg", "frames/composition-review-03/c067-2.jpg", "frames/c067-top/0.1.jpg", "frames/c067-top/0.5.jpg", "frames/c067-top/0.9.jpg"]
-limitations = "用户在v2后明确指定改为上方，替代此前左下布局。保留思源宋体Heavy、140字号、3.5描边及阴影1，改x=960、y=-4、align=8。已实看10%、50%、90%局部帧，含描边顶部留21px，玩偶脸部、银衣及右侧头像保持可见，原日文无交叠；顶部文字会叠到包装品牌右部，按用户指定顶部位置保留。现有v2视频尚未包含修订。"
+limitations = "用户后续明确指定改为上方，替代此前左下布局。保留思源宋体Heavy、140字号、3.5描边及阴影1，改x=960、y=-4、align=8。已实看10%、50%、90%局部帧，含描边顶部留21px，玩偶脸部、银衣及右侧头像保持可见，原日文无交叠；顶部文字会叠到包装品牌右部，按用户指定顶部位置保留。此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "c068"
@@ -1595,7 +1595,7 @@ source_boxes = [[130, 845, 1790, 1065]]
 timing_status = "frame-confirmed"
 face_boxes = [[580, 430, 1390, 950]]
 evidence = ["frames/a0e72e-overview/000587.500.jpg", "frames/a0e72e-exact/sheet-06.jpg", "frames/composition-review-02/c075-0.jpg", "frames/composition-review-02/c075-1.jpg", "frames/composition-review-02/c075-2.jpg", "frames/top-spacing-user/c075-0.jpg", "frames/top-spacing-user/c075-1.jpg", "frames/top-spacing-user/c075-2.jpg"]
-limitations = "放大笑脸与原字相邻，下方容不下；顶部适度减小仍保留强调。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；仅完成位置字号专项，不代表逐帧动态或最终成片验收，未完整视频导出。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "放大笑脸与原字相邻，下方容不下；顶部适度减小仍保留强调。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；当时完成位置字号专项，不代表逐帧动态或最终成片验收。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "c076"
@@ -1742,7 +1742,7 @@ source_boxes = [[380, 850, 1540, 1065]]
 timing_status = "frame-confirmed"
 face_boxes = [[580, 430, 1390, 950]]
 evidence = ["frames/a0e72e-overview/000602.500.jpg", "frames/a0e72e-exact/sheet-07.jpg", "frames/composition-review-02/c082-0.jpg", "frames/composition-review-02/c082-1.jpg", "frames/composition-review-02/c082-2.jpg", "frames/top-spacing-user/c082-0.jpg", "frames/top-spacing-user/c082-1.jpg", "frames/top-spacing-user/c082-2.jpg"]
-limitations = "铜泽标题与原片近景共同构成反转；下方无空位，缩小顶部标题。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；仅完成位置字号专项，不代表逐帧动态或最终成片验收，未完整视频导出。 v2导出后按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；现有v2视频未更新。"
+limitations = "铜泽标题与原片近景共同构成反转；下方无空位，缩小顶部标题。 已实看本轮10%、50%、90%合成关键帧，原日文与眼口可辨；当时完成位置字号专项，不代表逐帧动态或最终成片验收。 按用户上置字幕靠上要求调整顶部留白；已实看10%、50%、90%局部帧，含描边顶部留20px，未裁切或遮挡原日文；此修订已纳入当前成片，见review/current-export-qa.json。"
 
 [[events]]
 id = "c083"

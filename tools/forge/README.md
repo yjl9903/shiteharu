@@ -46,7 +46,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 | `fonts-prepare` | 校验并复制配置字体到缓存，移除缓存中不再配置的字体。 |
 | `render [preview\|full\|soft]` | 构建字幕、准备字体、渲染所选视频；成功并通过时长校验后才替换目标。 |
 | `compare-clips [FILTER]`、`compare-stills` | 按工程选定片段生成原片／译文对照视频和截图。 |
-| `package` | 包含共享工具的可编辑工程 ZIP，保留仓库结构；排除本机字体、环境与缓存。视频按工程说明另行准备。 |
+| `package` | 包含共享工具的可编辑工程 ZIP，保留仓库结构；排除本机字体、环境、缓存和 `comparisons` 配置指定的对照媒体目录（即使其父目录被收录）。历史对照媒体另行备份，视频按工程说明另行准备。 |
 | `source-frames --start S [--end E --step N --label NAME]` | 采样原片并生成联系表；标签是请求时间，不是字幕边界认证。 |
 | `source-boundary TIME [--radius R --crop x,y,w,h --label NAME]` | 提取时间附近的全部解码帧，标注真实 PTS，保存捕获参数。 |
 | `review-stills [--start S --end E --label NAME --at TIME]` | 按每条事件中点或指定时间生成原片／译文对照；使用当前构建的 ASS。 |

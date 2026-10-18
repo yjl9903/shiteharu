@@ -19,7 +19,7 @@ text_srt = "translated.srt"
 font_cache = ".cache/fonts"
 shared_fonts = "fonts"
 clips = "clips.toml"
-comparisons = "output/comparisons"
+comparisons = "review/comparisons"
 comparison_width = 160
 
 [review]
