@@ -9,7 +9,7 @@ url: https://www.youtube.com/watch?v=l_jfyIEddfw
 - Source: user-supplied downloaded YouTube video; 1920×1080, ~30fps, 601.708 seconds.
 - Original contains burned-in Japanese captions. Visual text and actual on/off frames take priority over ASR and rajio formatting heuristics.
 - User authorized audio upload to configured ASR provider in this chat.
-- Narrator/branding and proper nouns: visually reviewed; see confirmed context and glossary below.
+- Narrator, branding and proper nouns follow the context and glossary below.
 
 ## Glossary And Fixed Terms
 
@@ -22,7 +22,7 @@ url: https://www.youtube.com/watch?v=l_jfyIEddfw
 - Preserve original media, manual patches, visual evidence, editable animation configuration and build scripts.
 - Inspect entire timeline. Record uncertain readings and approximation limits honestly.
 
-## Confirmed Context After Visual Review
+## Visual Context
 
 - Narrator/branding: してはる / SHITEHARU; Chinese retain してはる (do not invent Chinese name).
 - Visit sequence: introductory traffic-light enthusiasm; Nagoya; 喫茶マウンテン attempt without wallet; another cafe and towering whipped cream coffee; closed JR lost-property shop; traffic-light graveyard; industrial night view; next-day Mountain cafe revisit; 人間地獄 attempt; outro.
@@ -50,7 +50,7 @@ url: https://www.youtube.com/watch?v=l_jfyIEddfw
 - At124.76–125.60, the shot has no burned caption. Both initial and independent clip ASR say 元気ない; cash-only sign and forgotten-wallet context also make 現金ない plausible. Excluded from the source-caption track rather than assigning a certain reading. Reference: `clips/clip-121000-128000/segments.toml`.
 - Approximately53s source display is literally 約3〜500万; the first 百 is normally elided in this range expression. Chinese interprets it as roughly300–500万日元, supported by the preceding installation-cost panel. Japanese stays literal.
 
-### 最新演出约定
+### 演出约定
 
 开场跑马灯允许忠实扩写中文，增加字串长度并加快横滚，末尾衔接“大家——”。普通字幕放大并贴近原字。巨字强调保持水平居中；空间不足可放到画面上方并适度缩小，允许盖住头顶，不为避脸拆到左侧。尽量不新增眼鼻嘴遮挡；原片故意挡脸的特效可跟随。按镜头演出判断，不以矩形检测机械决定。
 
@@ -58,4 +58,4 @@ url: https://www.youtube.com/watch?v=l_jfyIEddfw
 
 最终跑马灯原样采用用户定稿：按下人行横道的信号灯按钮后 明明只有自己一个人要过马路 却让整条路上的车都停下来给自己让路 等自己都已经走到马路对面了 大家还得继续停在那里等上一阵子 一想到只是为了自己一个人就耽误了这么多车 便忍不住心生愧疚的
 
-最新修订：予防線只译“预防针”；删除额外的“Vtuber最棒了”，保留原画文字。顶部字幕按实际可见字形保留约20px边距。LED左右六行对齐；双行中文按原画日文的可见行距整体定位。左上角怪话标题使用白色无描边无阴影的无衬线字体。邻座竖排台词采用右侧白字黑描边，保留原气泡和各自寿命。
+予防線只译“预防针”；删除额外的“Vtuber最棒了”，保留原画文字。顶部字幕按实际可见字形保留约20px边距。LED左右六行对齐；双行中文按原画日文的可见行距整体定位。左上角怪话标题使用白色无描边无阴影的无衬线字体。邻座竖排台词采用右侧白字黑描边，保留原气泡和各自寿命。

@@ -22,7 +22,7 @@
 | 对照片段选择 | `design/clips.toml` |
 | 演出生成逻辑 | 仓库 `tools/forge/pipeline/subtitles/build.py`（公共实现） |
 
-不要编辑 `transcript/raw/`。它是原始 ASR 参考，不是最终字幕。`output/` 是 rajio 的标准导出；最终演出及并发视觉时间以 `deliverables/` 为准。`design/SCHEMA.md` 解释各参数。
+不要编辑 `transcript/raw/`。它是原始 ASR 参考，不是最终字幕。`output/` 是 rajio 的标准导出；最终演出及并发视觉时间以 `deliverables/` 为准。[设计说明](design/SCHEMA.md) 解释各参数，[内容说明](description.md) 保存语境、术语和翻译要求。
 
 原视频字幕有刻意省略、提炼或改写旁白的情况，主轨以原画文字为准。并发气泡、旁注允许在最终 ASS 中重叠；它们不受 rajio 单线时间轴限制。`timing_status` 区分逐帧确认、采样和仅语音内容。
 
@@ -68,13 +68,13 @@ rajio . --reset export --commit --continue=until-manual
 
 ASS 使用百分之一秒，生成器向下量化原片帧时间，SRT 保留毫秒时机。动画时长、字号、位置和文字均可独立修改后重建。
 
-检查页、CSV/JSON 检查索引和审计报告已删除，构建不再生成这些文件。必要的运行缓存写入 `.cache/`。`review/comparisons/` 不纳入 Git，需要保留的历史样片另行备份。
+构建不生成检查页、CSV/JSON 检查索引或审计报告。必要的运行缓存写入 `.cache/`。`review/comparisons/` 不纳入 Git，需要保留的历史样片另行备份。
 
 解压时保留仓库目录结构，并按上述说明准备源视频和本机字体。字体对比页直接读取字幕配置用于导航，不依赖交付目录中的检查索引。
 
 ## 审阅
 
-局部排版与动态检查使用 `review/comparisons/` 的左右对照样片，结论、疑点和检查范围记录在 `review/`。历史样片仅代表生成时的效果；完整成片通过 Loupe 查看，是否完成验收以实际核验记录为准。
+局部排版与动态检查使用 `review/comparisons/` 的左右对照样片。历史样片仅代表生成时的效果；完整成片通过 Loupe 查看。
 
 本工程仅提供 `preview.toml` 和已有素材。播放器、抽帧、字体检查及同步服务统一使用仓库 [Loupe](../../tools/loupe/README.md)，不需要工程内的工具目录或兼容启动脚本。
 

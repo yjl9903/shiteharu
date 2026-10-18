@@ -10,7 +10,7 @@
 
 - 原片：[`みなさまに￥化をご報告 [CEyKoT2Ue8M].mkv`](<../../downloads/みなさまに￥化をご報告 [CEyKoT2Ue8M].mkv>)。
 - 1920×1080，平均 29.972 fps，105.408 秒，41.71 MiB。
-- yt-dlp 按 `bestvideo+bestaudio` 选择 `616+251`：VP9 视频、Opus 音频；这是本次格式列表可获取的最高分辨率；所选视频流标记为 `Premium`。下载后以流复制合并为 MKV，没有重编码。
+- yt-dlp 按 `bestvideo+bestaudio` 选择 `616+251`：VP9 视频、Opus 音频；所选视频流标记为 `Premium`。恢复时以流复制合并为 MKV。
 - `downloads/` 同名 `.webp` 为封面，`.description` 为原文简介，`.info.json` 为 yt-dlp 下载元数据。这些下载文件不入库。
 - [source.info.json](source.info.json) 保存标题、作者、原简介、来源和媒体参数。
 
@@ -31,9 +31,3 @@ UV_CACHE_DIR=.cache/uv UV_TOOL_DIR=.cache/uv-tools \
 ```
 
 固定格式 ID 用于重新获取本次所选的视频、音频流；平台不再提供时命令会失败。若需重新评估平台当时的最高质量，可将 `-f '616+251'` 改为 `-f 'bestvideo+bestaudio'`，并检查视频参数和字幕时序。
-
-## 已验证
-
-- 分辨率与下载时最高可用分辨率一致；音视频流齐全，时长与平台元数据相符。
-- FFmpeg 全片音视频解码通过。
-- 未做连续人工观看、内容校对或字幕验收。
