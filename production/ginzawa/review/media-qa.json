@@ -4,708 +4,88 @@
   "outputs": [
     {
       "file": "deliverables/zh.performance.1080p.mp4",
-      "bytes": 485813351,
-      "sha256": "97de20b49f1afa7fdbb1cb0f018835c28e2ccabdabf1f7d5f30e6ada5ab10c0a",
+      "bytes": 483409420,
+      "sha256": "22f7a909c1040a69881c1b7fb5fdef6723606ea8ed0887229888344c0f97de3d",
       "duration": 616.140998,
-      "expected_duration": 616.141,
       "full_decode": "passed",
       "streams": [
         {
-          "index": 0,
           "codec_type": "video",
           "codec_name": "h264",
           "width": 1920,
-          "height": 1080,
-          "avg_frame_rate": "30000/1001",
-          "duration": "616.082133",
-          "language": "und",
-          "default": 1
+          "height": 1080
         },
         {
-          "index": 1,
           "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "616.140998",
-          "language": "eng",
-          "default": 1
+          "codec_name": "aac"
         }
       ]
     },
     {
       "file": "deliverables/zh.preview.720p.mp4",
-      "bytes": 240780997,
-      "sha256": "d7efb488fe7341d168cc0f001cce11bf27cb0433726f43c1b6a3dc2c73a633b4",
+      "bytes": 240166811,
+      "sha256": "4e570f4b4ae9b500dabcab75b8b63037a629b42cb7b62871bab7875afbd44204",
       "duration": 616.140998,
-      "expected_duration": 616.141,
       "full_decode": "passed",
       "streams": [
         {
-          "index": 0,
           "codec_type": "video",
           "codec_name": "h264",
           "width": 1280,
-          "height": 720,
-          "avg_frame_rate": "30000/1001",
-          "duration": "616.082133",
-          "language": "und",
-          "default": 1
+          "height": 720
         },
         {
-          "index": 1,
           "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "616.140998",
-          "language": "eng",
-          "default": 1
+          "codec_name": "aac"
         }
       ]
     },
     {
       "file": "deliverables/editable-tracks.mkv",
-      "bytes": 235096293,
-      "sha256": "24afd12a0db8f97a739c8c832e1a219c4770f5e71965aa88267a76ada0244b0a",
+      "bytes": 235096291,
+      "sha256": "cc9cb77345fbce7d390b477dbb2b90c1d6cd700414200f0daa7f5c46d4e1a717",
       "duration": 616.141,
-      "expected_duration": 616.141,
       "full_decode": "passed",
       "streams": [
         {
-          "index": 0,
           "codec_type": "video",
           "codec_name": "h264",
           "width": 1920,
-          "height": 1080,
-          "avg_frame_rate": "30000/1001",
-          "language": null,
-          "default": 1
+          "height": 1080
         },
         {
-          "index": 1,
           "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "language": "eng",
-          "default": 1
+          "codec_name": "aac"
         },
         {
-          "index": 2,
           "codec_type": "subtitle",
-          "codec_name": "ass",
-          "avg_frame_rate": "0/0",
-          "language": "zho",
-          "default": 1
+          "codec_name": "ass"
         },
         {
-          "index": 3,
           "codec_type": "subtitle",
-          "codec_name": "ass",
-          "avg_frame_rate": "0/0",
-          "language": "jpn",
-          "default": 0
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/01-opening-scroll.mp4",
-      "bytes": 5263394,
-      "sha256": "c43fc25a5b0f7171344fa16039235f511d652cd6a40c231535f0aa4ac443697f",
-      "duration": 9.3,
-      "expected_duration": 9.3,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "23250/773",
-          "duration": "9.276000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "9.300000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/02-name-and-tweets.mp4",
-      "bytes": 2230660,
-      "sha256": "44f10b45397673a8c55a102786b124a396fd3d2d937d763b5f605bac5d47a740",
-      "duration": 9.8,
-      "expected_duration": 9.8,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "11760/391",
-          "duration": "9.775000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "9.800000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/03-city-title.mp4",
-      "bytes": 799050,
-      "sha256": "929d4dc44984c4b6481bb1756387e3e6a3b908cf44462546c42132af33c45cb0",
-      "duration": 3.0,
-      "expected_duration": 3,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "90000/2969",
-          "duration": "2.969000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "3.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/04-cloudy-emphasis.mp4",
-      "bytes": 3563968,
-      "sha256": "b848af84939b143225ff8c4b1ac1307c8f37a1fc3311b2e1c8cbc4bb977ddfca",
-      "duration": 7.8,
-      "expected_duration": 7.799999999999997,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "9360/311",
-          "duration": "7.775000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "7.800000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/05-forbidden-phrase.mp4",
-      "bytes": 4735353,
-      "sha256": "550b1f25d260406454420450611d57864a35f8519e8100adc0b42f1b4524bb30",
-      "duration": 7.0,
-      "expected_duration": 7,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "105000/3487",
-          "duration": "6.974000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "7.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/06-fish-aside.mp4",
-      "bytes": 2589955,
-      "sha256": "b08754124d802a8789b3b7d3e4e007da1a9b0942bb247ecb28938e2a0d61dfe5",
-      "duration": 2.5,
-      "expected_duration": 2.5,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "25000/823",
-          "duration": "2.469000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "2.500000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/07-certificate-and-wipe.mp4",
-      "bytes": 5961034,
-      "sha256": "14a75727a70dfa89ce4c6cd29d538c4b15d8c1c7e79338b33bd0d6fff1dd84d4",
-      "duration": 9.0,
-      "expected_duration": 9,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "5625/187",
-          "duration": "8.976000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "9.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/08-silver-leaf.mp4",
-      "bytes": 4570880,
-      "sha256": "de4dfb473b76d4956357516c609a50399d1f7d1844595915e1dc53c91967c367",
-      "duration": 6.0,
-      "expected_duration": 6,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "60000/1991",
-          "duration": "5.972000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "6.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/09-silver-icecream.mp4",
-      "bytes": 3187646,
-      "sha256": "e64505682e149ac687415d905ee1251e1e6721579c8b78f3a73b6887590095a1",
-      "duration": 10.0,
-      "expected_duration": 10,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "300000/9977",
-          "duration": "9.976000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "10.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/10-sticker-aside.mp4",
-      "bytes": 651383,
-      "sha256": "267d33878a8a328acad2d22ea2f07185ad5a964fb755ef8ccfc89cb3b61af313",
-      "duration": 2.7,
-      "expected_duration": 2.6999999999999886,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "2700/89",
-          "duration": "2.669000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "2.700000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/11-rice-sushi-taste.mp4",
-      "bytes": 13368304,
-      "sha256": "75389f5b6ae50ca8e97a7b578cdc26f5ba3a81f4c294d2b10ff15a579f05e901",
-      "duration": 21.5,
-      "expected_duration": 21.5,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "80625/2686",
-          "duration": "21.488000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "21.500000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/12-chickens.mp4",
-      "bytes": 7468207,
-      "sha256": "e19089a693a002a5b271c51ddd4736429ecb5c52e0695ae8f8aa229a976e673e",
-      "duration": 13.0,
-      "expected_duration": 13,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "390000/12979",
-          "duration": "12.979000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "13.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/13-coexistence-aside.mp4",
-      "bytes": 3987504,
-      "sha256": "f3c3eba1e0433501f7d65dd2b75942ce85761a6dc2ca77dda4e6c0fe7df0bfa8",
-      "duration": 7.5,
-      "expected_duration": 7.5,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "9000/299",
-          "duration": "7.474000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "7.500000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/14-umbrella-roof.mp4",
-      "bytes": 5782108,
-      "sha256": "9350e22cbd648e53de3fd6539f724e826fd23039c10c607443f1f111ff105923",
-      "duration": 8.0,
-      "expected_duration": 8,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "9600/319",
-          "duration": "7.975000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "8.000000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/15-sweet-potato.mp4",
-      "bytes": 7675299,
-      "sha256": "ecebbf9c67ed8cc95ea22ddc7ef16feb7d926fe6d86bf0cfe60cea369205b041",
-      "duration": 10.6,
-      "expected_duration": 10.600000000000023,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "318000/10577",
-          "duration": "10.577000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "10.600000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/16-fish-and-night.mp4",
-      "bytes": 2871533,
-      "sha256": "e2345769b3b4e68ffc679875dd383431b14711caba92d33401a5485476fc16c3",
-      "duration": 8.8,
-      "expected_duration": 8.799999999999955,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "132000/4387",
-          "duration": "8.774000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "8.800000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/17-souvenirs-censor.mp4",
-      "bytes": 8853248,
-      "sha256": "eba419c7ab3993b2640bb8fe167a7392b1a36a66a83c2f16a4605a1686be5fbd",
-      "duration": 19.1,
-      "expected_duration": 19.100000000000023,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "114600/3817",
-          "duration": "19.085000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "19.100000",
-          "language": "eng",
-          "default": 1
-        }
-      ]
-    },
-    {
-      "file": "deliverables/comparisons/18-next-holiday-ending.mp4",
-      "bytes": 8645832,
-      "sha256": "084936d5455e20fcd4deb55979785658ec6f3a2dc09e8b6ebab89761ebec83f2",
-      "duration": 23.0,
-      "expected_duration": 23,
-      "full_decode": "passed",
-      "streams": [
-        {
-          "index": 0,
-          "codec_type": "video",
-          "codec_name": "h264",
-          "width": 1920,
-          "height": 540,
-          "avg_frame_rate": "69000/2299",
-          "duration": "22.989000",
-          "language": "und",
-          "default": 1
-        },
-        {
-          "index": 1,
-          "codec_type": "audio",
-          "codec_name": "aac",
-          "avg_frame_rate": "0/0",
-          "sample_rate": "44100",
-          "channels": 2,
-          "duration": "23.000000",
-          "language": "eng",
-          "default": 1
+          "codec_name": "ass"
         }
       ]
     }
   ],
+  "soft_subtitle_events_match_current_ass": true,
   "subtitle_files": [
     {
       "file": "deliverables/zh.performance.ass",
-      "sha256": "6e3fbefc8163f1f52e9f9fee9f8eef72139c0299dd77c7e81fbee81dcbffbd09"
+      "sha256": "38c94a57ec7783dff6a8c8d90e88c48157e9d32f770cce9410852340611310a3"
     },
     {
       "file": "deliverables/ja.review.ass",
       "sha256": "50a3c88ae0f0d2727078a4a245b42217ae912bd0736ccbe4240d05b9c6ea2d3d"
     },
     {
-      "file": "deliverables/ja.srt",
-      "sha256": "cd9c34d3d09cc4f680e433973c1d18412980a3e97657ef4bd9609360aadaf6b8"
+      "file": "deliverables/zh.srt",
+      "sha256": "cd8befc566904a39111b619f9a88b6a7b9e150dbcbbd010f4f62720aaac9ab4b"
     },
     {
-      "file": "deliverables/zh.srt",
-      "sha256": "a553174834d66c28fb33a7ff5ed63e7146825f109ae611c910ec6747c5e783bb"
+      "file": "deliverables/ja.srt",
+      "sha256": "cd9c34d3d09cc4f680e433973c1d18412980a3e97657ef4bd9609360aadaf6b8"
     }
   ],
-  "note": "Complete audio/video decode checks plus separate sampled visual review; not a claim of continuous human playback."
+  "note": "Current full-length outputs only. Historical comparison clips are review evidence. Complete audio/video decoding and subtitle consistency checks passed; no new continuous manual viewing or visual acceptance is claimed."
 }

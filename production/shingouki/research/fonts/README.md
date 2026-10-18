@@ -35,6 +35,6 @@ uv run --locked python ../../tools/forge/forge.py --config forge.toml research-s
 
 ## 派生字库与候选缓存
 
-`research-fracture` 和 `research-diamond` 的完整输入已保存在仓库顶层 `fonts/`；配方引用正式源资产，因此新检出无需先运行下载或准备候选目录。生成器继承源字体时间戳；在锁定环境、同一字集和输入下可重复生成相同字节。历史正式字库的生成时间戳可能不同，不应只因哈希变化自动覆盖正式资产。
+正式字库及源字体均保存在仓库顶层 `fonts/`，直接使用。只有修改字集或字形时才运行 `research-fracture` 或 `research-diamond`。
 
 其余候选研究仍是可选流程：`research-download` 读取已保存的发布记录，部分压缩包需手工解压；`research-download-extra` 的历史记录含资源 404，不能视为所有候选都可自动恢复的保证。已采用字体及派生源均已独立保存。重新制作提案会更新研究结果，迁移恢复当前字幕无需执行这些步骤。

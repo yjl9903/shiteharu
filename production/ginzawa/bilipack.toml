@@ -1,4 +1,4 @@
-# 素材路径相对于 bilipack.toml；本配置同时用于工程和独立投稿包。
+# 素材路径相对于工程根目录的 bilipack.toml。
 # 中文字幕已烧录，不重复导入 SRT。未配置的选项由投稿页保持原状。
 [video]
 file = "deliverables/zh.performance.1080p.mp4"
@@ -13,7 +13,6 @@ title = "【熟肉】去石川县并不存在的城市『银泽』吧 しては�
 category = "动画"
 tags = ["してはる", "VTuber", "Vlog", "银泽", "石川县", "白银周", "中文字幕"]
 declaration = "内容为转载"
-no_reprint = false
 description = '''
 ※视频里的内容有九成都是随口胡编的，可别照单全信哦。
 

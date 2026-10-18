@@ -15,9 +15,9 @@
 | `README.md` | shiteharu 资料、视频索引、整体制作状态和工程入口。单片操作细节放到工程 README。 |
 | `pyproject.toml`、`uv.lock`、`.python-version` | 全仓库 Python 依赖、锁定版本和解释器版本；统一通过 uv 管理根目录 `.venv/`。 |
 | `production/<工程>/` | 单个视频的独立制作工程；当前包含 `shingouki`、`ginzawa`。保存该片的内容、配置、研究数据和交付结果。 |
-| `downloads/` | 原片及下载素材，通常不入库；来源和校验信息保存在对应工程中，不修改原片。 |
+| `downloads/` | 原片及下载素材，通常不入库；来源与准备方法保存在对应工程中，不修改原片。 |
 | `fonts/` | 正式使用的共享字体、许可、来源及派生字形记录；来源索引为 `fonts/SOURCES.md`。 |
-| `fonts/local-fonts.toml` | 不分发的实际制作字体的文件名、版本、校验值与准备来源。 |
+| `fonts/local-fonts.toml` | 不分发的实际制作字体清单与准备来源。 |
 | `fonts/local/` | 不随仓库分发的本机字体副本；必须有准备说明，不作为隐藏依赖。 |
 | `tools/<工具>/` | 跨工程使用的制作辅助工具，各自维护实现、说明与测试；Python 依赖由仓库根目录统一管理。 |
 | `tools/forge/` | 公共字幕构建、字体准备、视频渲染、对照、研究算法与交付打包；工程通过 `forge.toml` 和数据声明制作决策。 |

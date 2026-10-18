@@ -30,7 +30,7 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 | `source.info.json`、工程配置、研究配方 | Git；当前打包配置收录 | 保存来源、路径和操作参数；原片哈希以会话 `input.media_sha256` 为准。 |
 | `downloads/` | 忽略；不打包 | 优先备份现有原片。网络重下载只用于恢复候选，必须核对哈希与 PTS，见下文。原始下载元数据可能带临时 URL，不作为共享配置。 |
 | `fonts/` 中正式字库、完整派生源字体与许可 | Git；包按工程引用收录 | 直接保留，普通渲染无需重建字库。信号灯派生配方已脱离候选目录。 |
-| `fonts/local/` | 忽略；不打包 | 只需准备 `fonts/local-fonts.toml` 列出的 7 个实际使用文件，约 137 MiB；其余本机副本不参与当前流程。合法来源、版本、文件大小与 SHA-256 均在清单中。 |
+| `fonts/local/` | 忽略；不打包 | 只需准备 `fonts/local-fonts.toml` 列出的 7 个实际使用文件，约 137 MiB；其余本机副本不参与当前流程。准备来源见清单。 |
 | `frames/`、对照与最终成片采样 | 多数忽略；银泽包仅收录已声明的证据与最终采样 | 既是派生媒体，也是历史审阅的证据。若要保留原审阅记录对应的图片，迁移时一起备份；取帧配方能恢复采样，但未必恢复历史命名和联系表。不能仅因忽略规则而一概删除。 |
 | `audio/`、校对片段媒体 | 忽略；不打包 | 从同一原片重新提取即可继续取证；原 ASR 文字已保存。恢复旧会话的音频阶段可能影响下游状态，不作为成片重建步骤。 |
 | `output/`、`deliverables/` | 字幕与部分文字/封面入库，视频/ZIP 忽略 | 当前源可以重建字幕与视频；要保留已验收文件的确切字节，另外备份原成片。银泽 README 已注明部分预览和 ZIP 过时。 |
@@ -43,7 +43,7 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 
 ## Python 运行环境
 
-仓库内的工程脚本、字体研究、Loupe 和维护检查共用根目录的 `pyproject.toml`、`uv.lock` 与 `.python-version`，由 uv 创建根目录 `.venv/`。当前使用 Python 3.14.2；依赖覆盖 Pillow 图像处理、NumPy 测量、fonttools 字体读写、skia-pathops 字形运算和 tomlkit 配置读写。不再维护工程或工具各自的 requirements 文件和独立环境。
+仓库内的工程脚本、字体研究、Loupe 和维护检查共用根目录的 `pyproject.toml`、`uv.lock` 与 `.python-version`，由 uv 创建根目录 `.venv/`。依赖覆盖 Pillow 图像处理、NumPy 测量、fonttools 字体读写、skia-pathops 字形运算和 tomlkit 配置读写。不再维护工程或工具各自的 requirements 文件和独立环境。
 
 先按 [uv 官方说明](https://docs.astral.sh/uv/getting-started/installation/) 安装 uv，然后在仓库根目录执行：
 
@@ -80,7 +80,7 @@ git config core.hooksPath .githooks
 | 其他字体研究 | `research/fonts/README.md` 与配方声明的候选、发布记录和下载工具 | 不属于日常成片复现；上游资源可能变更或下架 |
 | `package` | 字幕输出、声明的工程资料、共享工具/字体；银泽还需要引用的证据图片 | 原片、本机字体、虚拟环境和缓存不纳入包 |
 
-2026-10-18 检查环境为 uv 0.11.6、Python 3.14.2、FFmpeg/ffprobe 7.1.1、Node.js 24.15.0。Python 包由 `uv.lock` 锁定；FFmpeg 不是 Python 依赖，按 [FFmpeg 官方入口](https://ffmpeg.org/download.html)单独准备，须包含 `ass` 滤镜（libass）、`libx264` 与 AAC 编码器。不同 libass/字体排版引擎与编码器构建可能改变像素或压缩字节；固定输入不等于跨系统 MP4 字节一致。rajio 按现有工程说明使用。
+Python 包由 `uv.lock` 管理；FFmpeg 按 [官方入口](https://ffmpeg.org/download.html)单独准备，须包含 `ass` 滤镜（libass）、`libx264` 与 AAC 编码器。rajio 按现有工程说明使用。
 
 ## 原片恢复
 
