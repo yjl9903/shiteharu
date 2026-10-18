@@ -24,25 +24,25 @@
 
 ### 普通视频
 
-| 标题 | 视频 | 字幕制作 | Bilibili |
+| 标题 | 视频 | 制作 | Bilibili |
 | --- | --- | --- | --- |
-| [『信号機の墓場』へ行こう](https://www.youtube.com/watch?v=l_jfyIEddfw) | ✅ | ✅ [工程](production/shingouki/README.md) | [去『信号灯墓场』吧](https://www.bilibili.com/video/BV1eUJm6CEco/) |
-| [石川県の存在しない街『銀沢』へ行こう](https://www.youtube.com/watch?v=hNc8Em2PKeQ) | ✅ | ✅ [工程](production/ginzawa/README.md) | [去石川县并不存在的城市『银泽』吧](https://www.bilibili.com/video/BV1GMnM6aEhH) |
+| [『信号機の墓場』へ行こう](https://www.youtube.com/watch?v=l_jfyIEddfw) | ✅ | [✅](production/shingouki/README.md) | [去『信号灯墓场』吧](https://www.bilibili.com/video/BV1eUJm6CEco/) |
+| [石川県の存在しない街『銀沢』へ行こう](https://www.youtube.com/watch?v=hNc8Em2PKeQ) | ✅ | [✅](production/ginzawa/README.md) | [去石川县并不存在的城市『银泽』吧](https://www.bilibili.com/video/BV1GMnM6aEhH) |
 | [人様の音楽ライブを盛り下げに行くお仕事](https://www.youtube.com/watch?v=spLvdAZwGsE) | ⬜ | ⬜ | — |
 | [初グッズに前代未聞のオマケを付けて怖がらせよう！](https://www.youtube.com/watch?v=IE-2xV_jtYY) | ⬜ | ⬜ | — |
 | [誤算だらけの24時間夏休みRTA](https://www.youtube.com/watch?v=v6yM-L4vHBk) | ⬜ | ⬜ | — |
 | [2年分の動画データが消失【嘘でしょ】【どうして】【さよなら】【ガチ】【助けて】](https://www.youtube.com/watch?v=gRbl5l1pN4o) | ⬜ | ⬜ | — |
 | [深夜３時の新宿バッティングセンターに行こう](https://www.youtube.com/watch?v=rTZXfrUcbuQ) | ⬜ | ⬜ | — |
 | [流れ星 ( 鈍行 )](https://www.youtube.com/watch?v=8G1zcOd-BUg) | ⬜ | ⬜ | — |
-| [同接1万を置き去りにした初配信、その裏側とは…](https://www.youtube.com/watch?v=-JWRBhLtfaA) | [✅](production/hatsuhaishin/README.md) | ⬜ | — |
+| [同接1万を置き去りにした初配信、その裏側とは…](https://www.youtube.com/watch?v=-JWRBhLtfaA) | ✅ | [⬜](production/hatsuhaishin/README.md) | — |
 | [2ヶ月で10万人達成した新人Vtuberです【重大告知】](https://www.youtube.com/watch?v=1PbnU2ovMno) | ⬜ | ⬜ | — |
 | [インプレゾンビを逆手に取ろう【バズった皆へ】](https://www.youtube.com/watch?v=ndcISorEKfc) | ⬜ | ⬜ | — |
 | [今から終電で夜光虫を見に行こう](https://www.youtube.com/watch?v=pymx0y02qy8) | ⬜ | ⬜ | — |
 | ["勧誘の聖地"に一日中いてみよう！【検証】](https://www.youtube.com/watch?v=QM8Ver9Hsh8) | ⬜ | ⬜ | — |
 | [【劣悪】勢いでVtuberを始めると、こうなる](https://www.youtube.com/watch?v=6ZFGY-NYA4s) | ⬜ | ⬜ | — |
 | [【力技】Switch無しでトモコレをプレイする方法【全部描く】](https://www.youtube.com/watch?v=PAhQKKApP70) | ⬜ | ⬜ | — |
-| [みなさまに￥化をご報告](https://www.youtube.com/watch?v=CEyKoT2Ue8M) | [✅](production/shuueki/README.md) | ⬜ | — |
-| [【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】](https://www.youtube.com/watch?v=MWXWw8-QbhU) | [✅](production/dopadet/README.md) | ⬜ | — |
+| [みなさまに￥化をご報告](https://www.youtube.com/watch?v=CEyKoT2Ue8M) | ✅ | [⬜](production/shuueki/README.md) | — |
+| [【100万再生】ドパデトシリーズ検証結果！全部公開!!【ドパミンデトックス】](https://www.youtube.com/watch?v=MWXWw8-QbhU) | ✅ | [⬜](production/dopadet/README.md) | — |
 | [銀座の路上で乞食を成功させるには【検証】](https://www.youtube.com/watch?v=3fJTZwRikYw) | ⬜ | ⬜ | — |
 | [飼いねこが死ぬ夢を見た【夢日記】](https://www.youtube.com/watch?v=WMS1REz7A94) | ⬜ | ⬜ | — |
 | [今日は動画が上がりません。](https://www.youtube.com/watch?v=0tbbucC3A18) | ⬜ | ⬜ | — |
@@ -53,7 +53,7 @@
 
 ### Shorts
 
-| 标题 | 视频 | 字幕制作 | Bilibili |
+| 标题 | 视频 | 制作 | Bilibili |
 | --- | --- | --- | --- |
 | [深夜3時の新宿バッティングセンター](https://www.youtube.com/watch?v=L1qoHZzxhWw) | ⬜ | ⬜ | — |
 | [新人Vtuberの初配信【11万人記念】](https://www.youtube.com/watch?v=_uTax2OTchM) | ⬜ | ⬜ | — |
@@ -80,7 +80,7 @@
 
 ### 直播
 
-| 标题 | 视频 | 字幕制作 | Bilibili |
+| 标题 | 视频 | 制作 | Bilibili |
 | --- | --- | --- | --- |
 | [誕生日なのに](https://www.youtube.com/watch?v=SQUFG0HjcgM) | ⬜ | ⬜ | — |
 | [初お誕生日配信です【お知らせもあるよ】](https://www.youtube.com/watch?v=mRy-lBqgxxc) | ⬜ | ⬜ | — |
