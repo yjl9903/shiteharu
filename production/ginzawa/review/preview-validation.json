@@ -1,0 +1,28 @@
+{
+  "events": 288,
+  "media": {
+    "original": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 616.141,
+      "fps": 29.97002997002997,
+      "frame_rate": "30000/1001",
+      "display_ratio": 1.7777777777777777,
+      "codec": "h264",
+      "source": "../../downloads/石川県の存在しない街『銀沢』へ行こう [hNc8Em2PKeQ].mkv",
+      "source_modified": "2026-10-17T18:06:17.815541+00:00"
+    },
+    "rendered": {
+      "width": 1920,
+      "height": 1080,
+      "duration": 616.140998,
+      "fps": 29.97002997002997,
+      "frame_rate": "30000/1001",
+      "display_ratio": 1.7777777777777777,
+      "codec": "h264",
+      "source": "deliverables/zh.performance.1080p.mp4",
+      "source_modified": "2026-10-17T19:49:46.206610+00:00"
+    }
+  },
+  "revision": "cde4305a09b662b62d32"
+}

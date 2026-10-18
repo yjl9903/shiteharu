@@ -1,0 +1,28 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "a037",
+      "time": 79.996,
+      "ink_bounds": [
+        485,
+        773,
+        1434,
+        888
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a037-lower/a037-0.png"
+    }
+  ]
+}

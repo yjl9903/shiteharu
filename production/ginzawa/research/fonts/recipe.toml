@@ -1,0 +1,21 @@
+directory = "research/fonts"
+
+[fracture]
+original = "../../fonts/genkai/Genkaimincho.ttf"
+fallback = "../../fonts/mincho/SourceHanSerifSC-Heavy.otf"
+original_label = "Genkai Mincho original outline"
+fallback_label = "SC Heavy + static fracture approximation"
+license = "../../fonts/mincho/LICENSE.txt"
+fallback_license_name = "OFL-SourceHanSerif.txt"
+original_license_name = "OFL-Genkai.txt"
+original_license_note = "Derivative design: FLOP DESIGN / Genkai Mincho (https://booth.pm/ja/items/1028548)."
+
+[[fracture.jobs]]
+family = "GinzawaFractureSC"
+text = "银平牛蒡据说要等到6年后了其实这话不能说勉强算寿司"
+melt = false
+
+[fracture.provenance]
+original_source = "https://booth.pm/ja/items/1028548"
+sc_source = "https://github.com/adobe-fonts/source-han-serif"
+limitation = "Limited caption font. Missing simplified Chinese glyphs use deterministic fractured Source Han Serif outlines; not exact original font identification."

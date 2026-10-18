@@ -1,0 +1,3377 @@
+{
+  "scope": "Static lower horizontal main captions in round/mincho/sans, font size below 300; actual rendered Chinese ink vs recorded source boxes. Source boxes are approximate, not automatic visual approval.",
+  "target_gap": 24,
+  "unchanged_band": [
+    14,
+    34
+  ],
+  "events": [
+    {
+      "id": "a001",
+      "start": 0,
+      "end": 1.134,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        809,
+        870,
+        1111,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a003",
+      "start": 8.375,
+      "end": 8.809,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        807,
+        869,
+        1111,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a004",
+      "start": 8.809,
+      "end": 10.377,
+      "font_role": "round",
+      "fontsize": 150,
+      "old_y": 900,
+      "bounds": [
+        765,
+        773,
+        1155,
+        887
+      ],
+      "source_top": 900,
+      "gap": 13,
+      "proposed_y": 889,
+      "applied": false
+    },
+    {
+      "id": "a005",
+      "start": 10.377,
+      "end": 11.912,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        695,
+        868,
+        1223,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a006",
+      "start": 11.912,
+      "end": 14.081,
+      "font_role": "round",
+      "fontsize": 80,
+      "old_y": 865,
+      "bounds": [
+        528,
+        714,
+        1359,
+        860
+      ],
+      "source_top": 875,
+      "gap": 15,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "a007",
+      "start": 14.081,
+      "end": 16.25,
+      "font_role": "mincho",
+      "fontsize": 125,
+      "old_y": 955,
+      "bounds": [
+        428,
+        848,
+        1484,
+        943
+      ],
+      "source_top": 960,
+      "gap": 17,
+      "proposed_y": 955,
+      "applied": false
+    },
+    {
+      "id": "a008",
+      "start": 16.25,
+      "end": 17.484,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        660,
+        869,
+        1261,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a010",
+      "start": 20.888,
+      "end": 24.791,
+      "font_role": "round",
+      "fontsize": 92,
+      "old_y": 865,
+      "bounds": [
+        608,
+        696,
+        1313,
+        859
+      ],
+      "source_top": 875,
+      "gap": 16,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "a011",
+      "start": 24.791,
+      "end": 26.994,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        583,
+        869,
+        1333,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a012",
+      "start": 26.994,
+      "end": 29.396,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        585,
+        868,
+        1336,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a013",
+      "start": 29.396,
+      "end": 30.531,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        772,
+        867,
+        1151,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a014",
+      "start": 30.531,
+      "end": 32.332,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        585,
+        869,
+        1336,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a015",
+      "start": 32.332,
+      "end": 33,
+      "font_role": "round",
+      "fontsize": 165,
+      "old_y": 950,
+      "bounds": [
+        844,
+        812,
+        1078,
+        935
+      ],
+      "source_top": 955,
+      "gap": 20,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a016",
+      "start": 33,
+      "end": 34.334,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        619,
+        869,
+        1299,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a018",
+      "start": 35.435,
+      "end": 36.603,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        695,
+        869,
+        1224,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a019",
+      "start": 36.603,
+      "end": 38.639,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        509,
+        869,
+        1411,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a021",
+      "start": 40.541,
+      "end": 43.043,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        729,
+        867,
+        1189,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a022",
+      "start": 49.683,
+      "end": 51.985,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        538,
+        869,
+        1382,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a023",
+      "start": 51.985,
+      "end": 53.987,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        621,
+        869,
+        1300,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a024",
+      "start": 53.987,
+      "end": 55.422,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        696,
+        868,
+        1224,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a025",
+      "start": 55.422,
+      "end": 57.658,
+      "font_role": "mincho",
+      "fontsize": 120,
+      "old_y": 950,
+      "bounds": [
+        378,
+        848,
+        1543,
+        940
+      ],
+      "source_top": 965,
+      "gap": 25,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a026",
+      "start": 57.658,
+      "end": 59.159,
+      "font_role": "sans",
+      "fontsize": 220,
+      "old_y": 875,
+      "bounds": [
+        711,
+        678,
+        1208,
+        849
+      ],
+      "source_top": 925,
+      "gap": 76,
+      "proposed_y": 927,
+      "applied": true
+    },
+    {
+      "id": "a027",
+      "start": 59.159,
+      "end": 61.128,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        698,
+        869,
+        1223,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a028",
+      "start": 61.128,
+      "end": 63.43,
+      "font_role": "mincho",
+      "fontsize": 125,
+      "old_y": 950,
+      "bounds": [
+        564,
+        844,
+        1356,
+        940
+      ],
+      "source_top": 965,
+      "gap": 25,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a029",
+      "start": 63.43,
+      "end": 65.699,
+      "font_role": "mincho",
+      "fontsize": 170,
+      "old_y": 830,
+      "bounds": [
+        465,
+        685,
+        1454,
+        817
+      ],
+      "source_top": 840,
+      "gap": 23,
+      "proposed_y": 830,
+      "applied": false
+    },
+    {
+      "id": "a030",
+      "start": 65.699,
+      "end": 67.434,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        730,
+        867,
+        1192,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a031",
+      "start": 67.434,
+      "end": 69.67,
+      "font_role": "round",
+      "fontsize": 170,
+      "old_y": 910,
+      "bounds": [
+        766,
+        767,
+        1154,
+        895
+      ],
+      "source_top": 925,
+      "gap": 30,
+      "proposed_y": 910,
+      "applied": false
+    },
+    {
+      "id": "a032",
+      "start": 69.67,
+      "end": 72.873,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 960,
+      "bounds": [
+        476,
+        871,
+        1442,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a033",
+      "start": 72.873,
+      "end": 74.241,
+      "font_role": "mincho",
+      "fontsize": 210,
+      "old_y": 890,
+      "bounds": [
+        738,
+        715,
+        1184,
+        870
+      ],
+      "source_top": 900,
+      "gap": 30,
+      "proposed_y": 890,
+      "applied": false
+    },
+    {
+      "id": "a034",
+      "start": 74.241,
+      "end": 76.476,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        623,
+        869,
+        1297,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a036",
+      "start": 77.945,
+      "end": 78.845,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        806,
+        867,
+        1116,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a037",
+      "start": 78.845,
+      "end": 81.148,
+      "font_role": "mincho",
+      "fontsize": 150,
+      "old_y": 900,
+      "bounds": [
+        485,
+        773,
+        1434,
+        888
+      ],
+      "source_top": 910,
+      "gap": 22,
+      "proposed_y": 900,
+      "applied": false
+    },
+    {
+      "id": "a038",
+      "start": 81.148,
+      "end": 83.717,
+      "font_role": "mincho",
+      "fontsize": 130,
+      "old_y": 950,
+      "bounds": [
+        430,
+        841,
+        1492,
+        939
+      ],
+      "source_top": 965,
+      "gap": 26,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a039",
+      "start": 83.717,
+      "end": 86.119,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        585,
+        869,
+        1336,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a040",
+      "start": 86.119,
+      "end": 87.154,
+      "font_role": "round",
+      "fontsize": 185,
+      "old_y": 900,
+      "bounds": [
+        768,
+        747,
+        1155,
+        883
+      ],
+      "source_top": 940,
+      "gap": 57,
+      "proposed_y": 933,
+      "applied": true
+    },
+    {
+      "id": "a041",
+      "start": 87.154,
+      "end": 89.089,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        576,
+        869,
+        1346,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a042",
+      "start": 89.089,
+      "end": 91.091,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        586,
+        869,
+        1335,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a046",
+      "start": 98.231,
+      "end": 101.034,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 835,
+      "bounds": [
+        404,
+        743,
+        1514,
+        827
+      ],
+      "source_top": 875,
+      "gap": 48,
+      "proposed_y": 859,
+      "applied": true
+    },
+    {
+      "id": "a047",
+      "start": 101.034,
+      "end": 102.703,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        690,
+        867,
+        1230,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a049",
+      "start": 104.805,
+      "end": 106.74,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        606,
+        869,
+        1311,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a050",
+      "start": 106.74,
+      "end": 108.976,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        471,
+        869,
+        1404,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a052",
+      "start": 111.311,
+      "end": 115.816,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 840,
+      "bounds": [
+        594,
+        650,
+        1326,
+        832
+      ],
+      "source_top": 875,
+      "gap": 43,
+      "proposed_y": 859,
+      "applied": true
+    },
+    {
+      "id": "a053",
+      "start": 115.816,
+      "end": 118.051,
+      "font_role": "round",
+      "fontsize": 175,
+      "old_y": 900,
+      "bounds": [
+        583,
+        754,
+        1338,
+        884
+      ],
+      "source_top": 930,
+      "gap": 46,
+      "proposed_y": 922,
+      "applied": true
+    },
+    {
+      "id": "a054",
+      "start": 118.051,
+      "end": 119.186,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        845,
+        869,
+        1072,
+        950
+      ],
+      "source_top": 975,
+      "gap": 25,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a056",
+      "start": 120.354,
+      "end": 124.124,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 840,
+      "bounds": [
+        559,
+        649,
+        1362,
+        832
+      ],
+      "source_top": 875,
+      "gap": 43,
+      "proposed_y": 859,
+      "applied": true
+    },
+    {
+      "id": "a057",
+      "start": 124.124,
+      "end": 126.159,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        696,
+        868,
+        1221,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a058",
+      "start": 126.159,
+      "end": 128.128,
+      "font_role": "mincho",
+      "fontsize": 280,
+      "old_y": 855,
+      "bounds": [
+        369,
+        622,
+        1550,
+        828
+      ],
+      "source_top": 850,
+      "gap": 22,
+      "proposed_y": 855,
+      "applied": false
+    },
+    {
+      "id": "a059",
+      "start": 128.128,
+      "end": 129.329,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        807,
+        869,
+        1111,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a060",
+      "start": 129.329,
+      "end": 131.498,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        584,
+        869,
+        1335,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a061",
+      "start": 131.498,
+      "end": 132.165,
+      "font_role": "round",
+      "fontsize": 110,
+      "old_y": 960,
+      "bounds": [
+        880,
+        868,
+        1040,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a062",
+      "start": 132.165,
+      "end": 136.069,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 840,
+      "bounds": [
+        666,
+        650,
+        1254,
+        832
+      ],
+      "source_top": 875,
+      "gap": 43,
+      "proposed_y": 859,
+      "applied": true
+    },
+    {
+      "id": "a064",
+      "start": 140.407,
+      "end": 142.943,
+      "font_role": "mincho",
+      "fontsize": 150,
+      "old_y": 930,
+      "bounds": [
+        381,
+        802,
+        1538,
+        918
+      ],
+      "source_top": 950,
+      "gap": 32,
+      "proposed_y": 930,
+      "applied": false
+    },
+    {
+      "id": "a065",
+      "start": 142.943,
+      "end": 145.045,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        472,
+        869,
+        1449,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a066",
+      "start": 145.045,
+      "end": 146.98,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        585,
+        868,
+        1336,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a067",
+      "start": 146.98,
+      "end": 147.914,
+      "font_role": "mincho",
+      "fontsize": 125,
+      "old_y": 950,
+      "bounds": [
+        522,
+        844,
+        1399,
+        940
+      ],
+      "source_top": 965,
+      "gap": 25,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a068",
+      "start": 147.914,
+      "end": 149.783,
+      "font_role": "mincho",
+      "fontsize": 215,
+      "old_y": 885,
+      "bounds": [
+        344,
+        706,
+        1570,
+        864
+      ],
+      "source_top": 915,
+      "gap": 51,
+      "proposed_y": 912,
+      "applied": true
+    },
+    {
+      "id": "a069",
+      "start": 149.783,
+      "end": 150.484,
+      "font_role": "round",
+      "fontsize": 112,
+      "old_y": 960,
+      "bounds": [
+        842,
+        866,
+        1032,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a071",
+      "start": 151.652,
+      "end": 154.855,
+      "font_role": "mincho",
+      "fontsize": 135,
+      "old_y": 860,
+      "bounds": [
+        487,
+        617,
+        1433,
+        848
+      ],
+      "source_top": 870,
+      "gap": 22,
+      "proposed_y": 860,
+      "applied": false
+    },
+    {
+      "id": "a072",
+      "start": 154.855,
+      "end": 158.258,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 860,
+      "bounds": [
+        522,
+        670,
+        1400,
+        852
+      ],
+      "source_top": 875,
+      "gap": 23,
+      "proposed_y": 860,
+      "applied": false
+    },
+    {
+      "id": "a073",
+      "start": 158.258,
+      "end": 160.661,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 860,
+      "bounds": [
+        501,
+        768,
+        1420,
+        851
+      ],
+      "source_top": 875,
+      "gap": 24,
+      "proposed_y": 860,
+      "applied": false
+    },
+    {
+      "id": "a074",
+      "start": 160.661,
+      "end": 163.43,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 950,
+      "bounds": [
+        501,
+        858,
+        1418,
+        942
+      ],
+      "source_top": 975,
+      "gap": 33,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a075",
+      "start": 163.43,
+      "end": 166.5,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 950,
+      "bounds": [
+        438,
+        861,
+        1480,
+        942
+      ],
+      "source_top": 975,
+      "gap": 33,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a079",
+      "start": 174.675,
+      "end": 176.176,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 950,
+      "bounds": [
+        621,
+        858,
+        1294,
+        942
+      ],
+      "source_top": 975,
+      "gap": 33,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "a081",
+      "start": 179.146,
+      "end": 181.682,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        613,
+        869,
+        1308,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a082",
+      "start": 181.682,
+      "end": 185.352,
+      "font_role": "round",
+      "fontsize": 105,
+      "old_y": 865,
+      "bounds": [
+        562,
+        670,
+        1368,
+        857
+      ],
+      "source_top": 875,
+      "gap": 18,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "a083",
+      "start": 185.352,
+      "end": 186.353,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        694,
+        869,
+        1223,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a084",
+      "start": 186.353,
+      "end": 188.488,
+      "font_role": "mincho",
+      "fontsize": 215,
+      "old_y": 880,
+      "bounds": [
+        506,
+        701,
+        1406,
+        859
+      ],
+      "source_top": 915,
+      "gap": 56,
+      "proposed_y": 912,
+      "applied": true
+    },
+    {
+      "id": "a085",
+      "start": 188.488,
+      "end": 189.056,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        921,
+        869,
+        1000,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a086",
+      "start": 189.056,
+      "end": 190.924,
+      "font_role": "round",
+      "fontsize": 190,
+      "old_y": 895,
+      "bounds": [
+        632,
+        738,
+        1291,
+        877
+      ],
+      "source_top": 925,
+      "gap": 48,
+      "proposed_y": 919,
+      "applied": true
+    },
+    {
+      "id": "a087",
+      "start": 190.924,
+      "end": 192.659,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        611,
+        868,
+        1308,
+        951
+      ],
+      "source_top": 975,
+      "gap": 24,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a090",
+      "start": 195.262,
+      "end": 197.698,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        539,
+        869,
+        1384,
+        952
+      ],
+      "source_top": 975,
+      "gap": 23,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "a095",
+      "start": 207.474,
+      "end": 208.075,
+      "font_role": "sans",
+      "fontsize": 210,
+      "old_y": 890,
+      "bounds": [
+        848,
+        678,
+        1007,
+        853
+      ],
+      "source_top": 915,
+      "gap": 62,
+      "proposed_y": 928,
+      "applied": true
+    },
+    {
+      "id": "a096",
+      "start": 208.075,
+      "end": 209.409,
+      "font_role": "mincho",
+      "fontsize": 270,
+      "old_y": 825,
+      "bounds": [
+        579,
+        601,
+        1221,
+        799
+      ],
+      "source_top": 880,
+      "gap": 81,
+      "proposed_y": 882,
+      "applied": true
+    },
+    {
+      "id": "b002",
+      "start": 210.61,
+      "end": 212.779,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        583,
+        868,
+        1337,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b003",
+      "start": 212.779,
+      "end": 214.381,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        620,
+        868,
+        1298,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b004",
+      "start": 214.381,
+      "end": 217.384,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        485,
+        772,
+        1429,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b005",
+      "start": 217.384,
+      "end": 219.252,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        471,
+        868,
+        1448,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b006",
+      "start": 219.252,
+      "end": 221.655,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        658,
+        868,
+        1257,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b007",
+      "start": 221.655,
+      "end": 224.191,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        760,
+        868,
+        1156,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b008",
+      "start": 224.191,
+      "end": 225.058,
+      "font_role": "mincho",
+      "fontsize": 240,
+      "old_y": 870,
+      "bounds": [
+        624,
+        673,
+        1190,
+        845
+      ],
+      "source_top": 895,
+      "gap": 50,
+      "proposed_y": 896,
+      "applied": true
+    },
+    {
+      "id": "b010",
+      "start": 226.626,
+      "end": 230.23,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        458,
+        773,
+        1419,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b011",
+      "start": 230.23,
+      "end": 233.867,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        471,
+        772,
+        1447,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b012",
+      "start": 233.867,
+      "end": 235.869,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        508,
+        868,
+        1411,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b013",
+      "start": 235.869,
+      "end": 240.24,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        585,
+        663,
+        1336,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b015",
+      "start": 243.21,
+      "end": 244.845,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        622,
+        868,
+        1300,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b016",
+      "start": 244.845,
+      "end": 247.981,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        499,
+        773,
+        1419,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b020",
+      "start": 256.69,
+      "end": 258.358,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        806,
+        868,
+        1111,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b021",
+      "start": 258.358,
+      "end": 260.761,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        545,
+        868,
+        1374,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b023",
+      "start": 262.162,
+      "end": 263.83,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        623,
+        868,
+        1299,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b024",
+      "start": 263.83,
+      "end": 266.399,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        545,
+        868,
+        1374,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b026",
+      "start": 267.234,
+      "end": 268.869,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        732,
+        868,
+        1187,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b027",
+      "start": 268.869,
+      "end": 270.203,
+      "font_role": "round",
+      "fontsize": 210,
+      "old_y": 890,
+      "bounds": [
+        739,
+        718,
+        1176,
+        869
+      ],
+      "source_top": 915,
+      "gap": 46,
+      "proposed_y": 912,
+      "applied": true
+    },
+    {
+      "id": "b030",
+      "start": 275.509,
+      "end": 277.811,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        583,
+        867,
+        1338,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b031",
+      "start": 277.811,
+      "end": 279.746,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        649,
+        868,
+        1270,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b032",
+      "start": 279.746,
+      "end": 281.915,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        620,
+        869,
+        1301,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b033",
+      "start": 281.915,
+      "end": 283.483,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        620,
+        869,
+        1295,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b034",
+      "start": 283.483,
+      "end": 285.786,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        658,
+        868,
+        1263,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b035",
+      "start": 285.786,
+      "end": 289.89,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        486,
+        773,
+        1432,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b036",
+      "start": 289.89,
+      "end": 292.192,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        548,
+        867,
+        1373,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b039",
+      "start": 294.461,
+      "end": 297.063,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        545,
+        868,
+        1376,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b040",
+      "start": 297.063,
+      "end": 298.799,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        626,
+        868,
+        1299,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b042",
+      "start": 300.367,
+      "end": 302.435,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        623,
+        868,
+        1300,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b043",
+      "start": 302.435,
+      "end": 305.806,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        458,
+        773,
+        1425,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b044",
+      "start": 305.806,
+      "end": 307.44,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        808,
+        869,
+        1108,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b050",
+      "start": 313.28,
+      "end": 316.016,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        611,
+        868,
+        1306,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b051",
+      "start": 316.016,
+      "end": 317.05,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        806,
+        868,
+        1111,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b054",
+      "start": 322.589,
+      "end": 323.924,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        696,
+        868,
+        1225,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b055",
+      "start": 323.924,
+      "end": 328.862,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        459,
+        773,
+        1461,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b056",
+      "start": 328.862,
+      "end": 331.464,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        459,
+        773,
+        1461,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b057",
+      "start": 331.464,
+      "end": 333.567,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        621,
+        868,
+        1299,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b058",
+      "start": 333.567,
+      "end": 334.568,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        881,
+        869,
+        1037,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b061",
+      "start": 337.37,
+      "end": 340.34,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        583,
+        773,
+        1336,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b062",
+      "start": 340.34,
+      "end": 342.342,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        620,
+        868,
+        1299,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b063",
+      "start": 342.342,
+      "end": 343.443,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        770,
+        868,
+        1151,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b065",
+      "start": 344.678,
+      "end": 347.314,
+      "font_role": "mincho",
+      "fontsize": 160,
+      "old_y": 925,
+      "bounds": [
+        415,
+        793,
+        1507,
+        908
+      ],
+      "source_top": 945,
+      "gap": 37,
+      "proposed_y": 938,
+      "applied": true
+    },
+    {
+      "id": "b070",
+      "start": 352.352,
+      "end": 355.922,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        544,
+        773,
+        1370,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b073",
+      "start": 359.926,
+      "end": 362.462,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        619,
+        773,
+        1301,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b074",
+      "start": 362.462,
+      "end": 365.165,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        546,
+        868,
+        1371,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b075",
+      "start": 365.165,
+      "end": 366.066,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        921,
+        868,
+        1000,
+        951
+      ],
+      "source_top": 980,
+      "gap": 29,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b076",
+      "start": 366.066,
+      "end": 368.501,
+      "font_role": "mincho",
+      "fontsize": 150,
+      "old_y": 925,
+      "bounds": [
+        437,
+        801,
+        1484,
+        910
+      ],
+      "source_top": 950,
+      "gap": 40,
+      "proposed_y": 941,
+      "applied": true
+    },
+    {
+      "id": "b077",
+      "start": 368.501,
+      "end": 370.37,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        656,
+        868,
+        1261,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b078",
+      "start": 370.37,
+      "end": 372.005,
+      "font_role": "sans",
+      "fontsize": 210,
+      "old_y": 885,
+      "bounds": [
+        564,
+        697,
+        1355,
+        863
+      ],
+      "source_top": 905,
+      "gap": 42,
+      "proposed_y": 903,
+      "applied": true
+    },
+    {
+      "id": "b079",
+      "start": 372.005,
+      "end": 373.373,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        808,
+        869,
+        1108,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b085",
+      "start": 379.012,
+      "end": 381.882,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        470,
+        868,
+        1444,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b086",
+      "start": 381.882,
+      "end": 383.35,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        471,
+        867,
+        1448,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b087",
+      "start": 383.35,
+      "end": 386.62,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        458,
+        773,
+        1427,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "b088",
+      "start": 386.62,
+      "end": 388.722,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 960,
+      "bounds": [
+        696,
+        869,
+        1226,
+        952
+      ],
+      "source_top": 980,
+      "gap": 28,
+      "proposed_y": 960,
+      "applied": false
+    },
+    {
+      "id": "b089",
+      "start": 388.722,
+      "end": 390.257,
+      "font_role": "sans",
+      "fontsize": 220,
+      "old_y": 880,
+      "bounds": [
+        714,
+        692,
+        1202,
+        852
+      ],
+      "source_top": 900,
+      "gap": 48,
+      "proposed_y": 904,
+      "applied": true
+    },
+    {
+      "id": "b092",
+      "start": 396.162,
+      "end": 399.232,
+      "font_role": "round",
+      "fontsize": 108,
+      "old_y": 865,
+      "bounds": [
+        621,
+        773,
+        1301,
+        857
+      ],
+      "source_top": 885,
+      "gap": 28,
+      "proposed_y": 865,
+      "applied": false
+    },
+    {
+      "id": "c001",
+      "start": 403.003,
+      "end": 405.972,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        650,
+        882,
+        1271,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c002",
+      "start": 405.972,
+      "end": 408.742,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        492,
+        883,
+        1430,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c004",
+      "start": 411.177,
+      "end": 414.014,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        557,
+        792,
+        1361,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c005",
+      "start": 414.014,
+      "end": 414.981,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        823,
+        883,
+        1096,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c006",
+      "start": 414.981,
+      "end": 417.15,
+      "font_role": "mincho",
+      "fontsize": 175,
+      "old_y": 915,
+      "bounds": [
+        470,
+        770,
+        1453,
+        899
+      ],
+      "source_top": 925,
+      "gap": 26,
+      "proposed_y": 915,
+      "applied": false
+    },
+    {
+      "id": "c007",
+      "start": 417.15,
+      "end": 420.453,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        658,
+        793,
+        1263,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c008",
+      "start": 420.453,
+      "end": 422.422,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        657,
+        882,
+        1262,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c009",
+      "start": 422.422,
+      "end": 425.058,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        557,
+        882,
+        1362,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c010",
+      "start": 427.027,
+      "end": 429.329,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        526,
+        882,
+        1396,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c011",
+      "start": 429.329,
+      "end": 430.664,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        857,
+        883,
+        1064,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c012",
+      "start": 430.664,
+      "end": 433.8,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        593,
+        793,
+        1330,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c013",
+      "start": 433.8,
+      "end": 436.136,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        624,
+        883,
+        1295,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c014",
+      "start": 436.136,
+      "end": 437.904,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        657,
+        882,
+        1262,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c015",
+      "start": 437.904,
+      "end": 439.472,
+      "font_role": "mincho",
+      "fontsize": 175,
+      "old_y": 920,
+      "bounds": [
+        471,
+        778,
+        1448,
+        901
+      ],
+      "source_top": 930,
+      "gap": 29,
+      "proposed_y": 920,
+      "applied": false
+    },
+    {
+      "id": "c016",
+      "start": 439.472,
+      "end": 441.308,
+      "font_role": "mincho",
+      "fontsize": 160,
+      "old_y": 920,
+      "bounds": [
+        472,
+        789,
+        1448,
+        903
+      ],
+      "source_top": 930,
+      "gap": 27,
+      "proposed_y": 920,
+      "applied": false
+    },
+    {
+      "id": "c017",
+      "start": 441.308,
+      "end": 444.311,
+      "font_role": "sans",
+      "fontsize": 108,
+      "old_y": 870,
+      "bounds": [
+        470,
+        771,
+        1451,
+        860
+      ],
+      "source_top": 880,
+      "gap": 20,
+      "proposed_y": 870,
+      "applied": false
+    },
+    {
+      "id": "c018",
+      "start": 444.311,
+      "end": 445.946,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        649,
+        883,
+        1270,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c019",
+      "start": 445.946,
+      "end": 449.115,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        403,
+        792,
+        1516,
+        870
+      ],
+      "source_top": 885,
+      "gap": 15,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c020",
+      "start": 449.115,
+      "end": 450.483,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        659,
+        882,
+        1262,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c022",
+      "start": 460.694,
+      "end": 463.763,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        617,
+        883,
+        1303,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c023",
+      "start": 463.763,
+      "end": 464.931,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        658,
+        883,
+        1261,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c024",
+      "start": 464.931,
+      "end": 467.667,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        624,
+        883,
+        1297,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c025",
+      "start": 467.667,
+      "end": 470.971,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        690,
+        692,
+        1229,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c026",
+      "start": 470.971,
+      "end": 472.138,
+      "font_role": "mincho",
+      "fontsize": 195,
+      "old_y": 900,
+      "bounds": [
+        553,
+        740,
+        1368,
+        878
+      ],
+      "source_top": 915,
+      "gap": 37,
+      "proposed_y": 913,
+      "applied": true
+    },
+    {
+      "id": "c027",
+      "start": 472.138,
+      "end": 473.84,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        824,
+        882,
+        1097,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c028",
+      "start": 473.84,
+      "end": 475.909,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        592,
+        883,
+        1330,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c029",
+      "start": 475.909,
+      "end": 478.611,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        472,
+        883,
+        1449,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c030",
+      "start": 478.611,
+      "end": 481.314,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        517,
+        883,
+        1404,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c031",
+      "start": 481.314,
+      "end": 482.482,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        857,
+        882,
+        1059,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c032",
+      "start": 482.482,
+      "end": 485.118,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        690,
+        883,
+        1229,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c033",
+      "start": 485.118,
+      "end": 487.42,
+      "font_role": "round",
+      "fontsize": 126,
+      "old_y": 945,
+      "bounds": [
+        696,
+        840,
+        1219,
+        935
+      ],
+      "source_top": 955,
+      "gap": 20,
+      "proposed_y": 945,
+      "applied": false
+    },
+    {
+      "id": "c034",
+      "start": 487.42,
+      "end": 490.056,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        658,
+        882,
+        1263,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c035",
+      "start": 490.056,
+      "end": 491.191,
+      "font_role": "sans",
+      "fontsize": 180,
+      "old_y": 905,
+      "bounds": [
+        689,
+        747,
+        1148,
+        883
+      ],
+      "source_top": 920,
+      "gap": 37,
+      "proposed_y": 918,
+      "applied": true
+    },
+    {
+      "id": "c037",
+      "start": 493.226,
+      "end": 495.061,
+      "font_role": "sans",
+      "fontsize": 118,
+      "old_y": 950,
+      "bounds": [
+        558,
+        843,
+        1361,
+        938
+      ],
+      "source_top": 965,
+      "gap": 27,
+      "proposed_y": 950,
+      "applied": false
+    },
+    {
+      "id": "c038",
+      "start": 495.061,
+      "end": 498.465,
+      "font_role": "sans",
+      "fontsize": 118,
+      "old_y": 855,
+      "bounds": [
+        520,
+        632,
+        1406,
+        843
+      ],
+      "source_top": 870,
+      "gap": 27,
+      "proposed_y": 855,
+      "applied": false
+    },
+    {
+      "id": "c040",
+      "start": 500.533,
+      "end": 503.403,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        521,
+        883,
+        1404,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c041",
+      "start": 503.403,
+      "end": 507.507,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        591,
+        693,
+        1325,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c042",
+      "start": 507.507,
+      "end": 509.909,
+      "font_role": "round",
+      "fontsize": 122,
+      "old_y": 940,
+      "bounds": [
+        503,
+        837,
+        1416,
+        931
+      ],
+      "source_top": 950,
+      "gap": 19,
+      "proposed_y": 940,
+      "applied": false
+    },
+    {
+      "id": "c043",
+      "start": 509.909,
+      "end": 513.58,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        658,
+        692,
+        1262,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c044",
+      "start": 513.58,
+      "end": 515.915,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        591,
+        883,
+        1329,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c045",
+      "start": 515.915,
+      "end": 519.285,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        626,
+        693,
+        1296,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c046",
+      "start": 523.156,
+      "end": 524.991,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        592,
+        883,
+        1328,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c048",
+      "start": 527.327,
+      "end": 529.596,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        618,
+        883,
+        1299,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c049",
+      "start": 529.596,
+      "end": 532.599,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        519,
+        794,
+        1401,
+        868
+      ],
+      "source_top": 885,
+      "gap": 17,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c050",
+      "start": 532.599,
+      "end": 534.634,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        630,
+        884,
+        1296,
+        958
+      ],
+      "source_top": 978,
+      "gap": 20,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c051",
+      "start": 534.634,
+      "end": 537.303,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        499,
+        884,
+        1421,
+        958
+      ],
+      "source_top": 978,
+      "gap": 20,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c052",
+      "start": 537.303,
+      "end": 539.339,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        619,
+        884,
+        1303,
+        958
+      ],
+      "source_top": 978,
+      "gap": 20,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c053",
+      "start": 539.339,
+      "end": 542.042,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        526,
+        884,
+        1395,
+        958
+      ],
+      "source_top": 978,
+      "gap": 20,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c054",
+      "start": 542.042,
+      "end": 544.978,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        559,
+        694,
+        1363,
+        868
+      ],
+      "source_top": 885,
+      "gap": 17,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c055",
+      "start": 544.978,
+      "end": 546.312,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        790,
+        883,
+        1129,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c056",
+      "start": 546.312,
+      "end": 549.315,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        584,
+        882,
+        1337,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c057",
+      "start": 549.315,
+      "end": 551.818,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 875,
+      "bounds": [
+        624,
+        793,
+        1295,
+        869
+      ],
+      "source_top": 885,
+      "gap": 16,
+      "proposed_y": 875,
+      "applied": false
+    },
+    {
+      "id": "c058",
+      "start": 551.818,
+      "end": 552.986,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        723,
+        883,
+        1196,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c060",
+      "start": 554.254,
+      "end": 556.056,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        658,
+        883,
+        1262,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c064",
+      "start": 562.429,
+      "end": 564.197,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        623,
+        883,
+        1295,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c067",
+      "start": 567.333,
+      "end": 568.802,
+      "font_role": "mincho",
+      "fontsize": 220,
+      "old_y": 895,
+      "bounds": [
+        660,
+        716,
+        1266,
+        869
+      ],
+      "source_top": 905,
+      "gap": 36,
+      "proposed_y": 907,
+      "applied": true
+    },
+    {
+      "id": "c068",
+      "start": 568.802,
+      "end": 570.537,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        758,
+        883,
+        1162,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    },
+    {
+      "id": "c069",
+      "start": 570.537,
+      "end": 573.44,
+      "font_role": "round",
+      "fontsize": 96,
+      "old_y": 965,
+      "bounds": [
+        516,
+        882,
+        1399,
+        959
+      ],
+      "source_top": 978,
+      "gap": 19,
+      "proposed_y": 965,
+      "applied": false
+    }
+  ],
+  "decision": "Applied the 21 excessive-gap candidates after viewing all six contact sheets. Kept a004 at its locally reviewed 13px gap; did not alter it for a 1px threshold difference."
+}

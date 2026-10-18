@@ -1,0 +1,3685 @@
+{
+  "scope": "User-authorized whole-project position and font-size review; no full movie export. Decisions made from individual scene evidence, not automatic coordinate calibration.",
+  "changes": {
+    "a009": {
+      "set": {
+        "fontsize": 108,
+        "outline": 4,
+        "y": 0,
+        "max_width": 1840
+      },
+      "reason": "推文放大面板下方已占满；保留顶部窄带，降低字高并放宽文字框，减轻过度横压。",
+      "before": {
+        "fontsize": 150,
+        "outline": 7,
+        "y": -10,
+        "max_width": 1860
+      },
+      "previous_limitations": "放大推文下方已有双行日文；中文合为一行置于顶部空白，词句未改。可见墨迹顶缘12px，未碰原推文作者；白区高度有限，横向压缩较明显，保留此排版近似。三条推文译文另用独立事件，不遮推文正文。 第二轮放大后的可见字高及间隙已实看通过。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/a009-0.jpg",
+        "frames/composition-review-02/a009-1.jpg",
+        "frames/composition-review-02/a009-2.jpg"
+      ],
+      "final": {
+        "fontsize": 108,
+        "outline": 4,
+        "y": 0,
+        "max_width": 1840
+      }
+    },
+    "a044": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": 862,
+        "align": 2
+      },
+      "reason": "街景下方可容纳短句；缩小裂纹大字后放在原文上方，保留车夫与右侧表情。",
+      "before": {
+        "fontsize": 270,
+        "outline": 9,
+        "y": 10,
+        "align": 8
+      },
+      "previous_limitations": "已实看共享候选94.jpg，GinzawaFractureSC厚重裂纹结构比旁门正道和普通宋体更接近原禁句；以顶部居中避免候选旧位置新增遮右下脸。为重建近似，不声称识别原作者字体。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/a044-0.jpg",
+        "frames/composition-review-02/a044-1.jpg",
+        "frames/composition-review-02/a044-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": 862,
+        "align": 2
+      }
+    },
+    "a070": {
+      "set": {
+        "fontsize": 220,
+        "outline": 6,
+        "x": 983,
+        "y": 795
+      },
+      "reason": "忍者所在廊下是展示主体；减小叠加大字，保持下方并继续按原文实际中心对齐。",
+      "before": {
+        "fontsize": 370,
+        "outline": 9,
+        "x": 1016,
+        "y": 790
+      },
+      "previous_limitations": "用户指出中日文未对齐。中文原锚点虽为960，可见墨迹中心为879.5；原日文白色字面中心约935.5，标点及字体边距导致偏差。仅将中文水平锚点右移56至1016，以实际字形中心对齐。已实看151.068秒局部画面，修订后墨迹中心为935.5px，未完整导出或全片复查。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/a070-0.jpg",
+        "frames/composition-review-02/a070-1.jpg",
+        "frames/composition-review-02/a070-2.jpg"
+      ],
+      "final": {
+        "fontsize": 220,
+        "outline": 6,
+        "x": 983,
+        "y": 795
+      }
+    },
+    "a077": {
+      "set": {
+        "fontsize": 120,
+        "outline": 5,
+        "y": 0,
+        "line_advance": 116
+      },
+      "reason": "长双行原文上方紧邻人物嘴部，下方不足；保留顶部，缩小两行字高与行距。",
+      "before": {
+        "fontsize": 155,
+        "outline": 7,
+        "y": 20,
+        "line_advance": 149
+      },
+      "previous_limitations": "原字在下方；中文顶部居中避人物脸部，保留源字。中文字体为同类别替代，第二轮实际墨迹与避脸位置已核验。 第二轮放大后的可见字高及间隙已实看通过。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/a077-0.jpg",
+        "frames/composition-review-02/a077-1.jpg",
+        "frames/composition-review-02/a077-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 5,
+        "y": 0,
+        "line_advance": 116
+      }
+    },
+    "a080": {
+      "set": {
+        "fontsize": 100,
+        "outline": 4.5,
+        "y": 824,
+        "align": 2,
+        "line_breaks": [
+          16
+        ]
+      },
+      "reason": "放大核对发现与日文第一行描边过近，整体再上移26px；眼口与译文之间仍有空隙。",
+      "before": {
+        "fontsize": 135,
+        "outline": 5.5,
+        "y": 20,
+        "align": 8,
+        "line_breaks": null
+      },
+      "previous_limitations": "原字在下方；中文顶部居中避人物脸部，保留源字。中文字体为同类别替代，第二轮实际墨迹与避脸位置已核验。 第二轮放大后的可见字高及间隙已实看通过。",
+      "removed": {
+        "line_advance": 130
+      },
+      "trial_adjustment": "放大核对发现与日文第一行描边过近，整体再上移26px；眼口与译文之间仍有空隙。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-03/a080-0.jpg",
+        "frames/composition-review-03/a080-1.jpg",
+        "frames/composition-review-03/a080-2.jpg"
+      ],
+      "final": {
+        "fontsize": 100,
+        "outline": 4.5,
+        "y": 824,
+        "align": 2,
+        "line_breaks": [
+          16
+        ]
+      }
+    },
+    "a093": {
+      "set": {
+        "fontsize": 120,
+        "outline": 5,
+        "y": 759,
+        "align": 2
+      },
+      "reason": "树根寻物画面上方应留给地面；缩短字高放回原双行日文上方，避开右侧表情。",
+      "before": {
+        "fontsize": 170,
+        "outline": 7,
+        "y": 20,
+        "align": 8
+      },
+      "previous_limitations": "原字在下方；中文顶部居中避人物脸部，保留源字。中文字体为同类别替代，第二轮实际墨迹与避脸位置已核验。 第二轮放大后的可见字高及间隙已实看通过。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/a093-0.jpg",
+        "frames/composition-review-02/a093-1.jpg",
+        "frames/composition-review-02/a093-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 5,
+        "y": 759,
+        "align": 2
+      }
+    },
+    "b014": {
+      "set": {
+        "fontsize": 125,
+        "outline": 4.5,
+        "y": 937,
+        "align": 2
+      },
+      "reason": "银叶银果集中在中部，下方短句不会覆盖主体；移回原文上方。",
+      "before": {
+        "fontsize": 150,
+        "outline": 4,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "中文宋体比日文原字略厚；为避开右下脸与原文上移顶部。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b014-0.jpg",
+        "frames/composition-review-02/b014-1.jpg",
+        "frames/composition-review-02/b014-2.jpg"
+      ],
+      "final": {
+        "fontsize": 125,
+        "outline": 4.5,
+        "y": 937,
+        "align": 2
+      }
+    },
+    "b029": {
+      "set": {
+        "fontsize": 300,
+        "outline": 7,
+        "y": -34
+      },
+      "reason": "无味笑点依靠文字与表情，顶部保留强调但缩小，腾出头部与冰淇淋。",
+      "before": {
+        "fontsize": 450,
+        "outline": 9,
+        "y": -60
+      },
+      "previous_limitations": "中文顶部保留原字；头像自身缩放属于原视频，译字不额外制造缩放。 原片此处巨大强调文字与放大角色同框并覆盖下脸/胸口，中文沿用强调规模，允许顶部触及头部；不盖原日文。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b029-0.jpg",
+        "frames/composition-review-02/b029-1.jpg",
+        "frames/composition-review-02/b029-2.jpg"
+      ],
+      "final": {
+        "fontsize": 300,
+        "outline": 7,
+        "y": -34
+      }
+    },
+    "b046": {
+      "set": {
+        "fontsize": 120,
+        "outline": 4.5,
+        "y": 888,
+        "align": 2
+      },
+      "reason": "放大核对三时点后，缩小的下方字幕与嘴部仍有空隙，保留120字号下方方案；不能仅凭缩略图或脸框就移顶。",
+      "before": {
+        "fontsize": 200,
+        "outline": 4,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "中文移顶避开居中面部与原文；宋体保留细横粗竖反差。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b046-0.jpg",
+        "frames/composition-review-02/b046-1.jpg",
+        "frames/composition-review-02/b046-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 4.5,
+        "y": 888,
+        "align": 2
+      }
+    },
+    "b048": {
+      "set": {
+        "fontsize": 200,
+        "outline": 5,
+        "y": -16
+      },
+      "reason": "中间银字保留顶部停顿，缩小并上移，避免压住头发。",
+      "before": {
+        "fontsize": 260,
+        "outline": 6,
+        "y": 30
+      },
+      "previous_limitations": "头像居中，中文置顶避开脸与原字。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b048-0.jpg",
+        "frames/composition-review-02/b048-1.jpg",
+        "frames/composition-review-02/b048-2.jpg"
+      ],
+      "final": {
+        "fontsize": 200,
+        "outline": 5,
+        "y": -16
+      }
+    },
+    "b049": {
+      "set": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      },
+      "reason": "源巨字占下脸，新增中文不能再次夹住表情；顶部缩小，保留明朝体反差。",
+      "before": {
+        "fontsize": 550,
+        "outline": 9,
+        "y": -80
+      },
+      "previous_limitations": "译字移顶保留原巨大字。原视频的角色变大已保留，无新增字级缩放。 原片此处巨大强调文字与放大角色同框并覆盖下脸/胸口，中文沿用强调规模，允许顶部触及头部；不盖原日文。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b049-0.jpg",
+        "frames/composition-review-02/b049-1.jpg",
+        "frames/composition-review-02/b049-2.jpg"
+      ],
+      "final": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      }
+    },
+    "b052": {
+      "set": {
+        "fontsize": 150,
+        "outline": 6,
+        "y": 898,
+        "align": 2
+      },
+      "reason": "包装名称与增量标识在上部；译文缩小移到下方，保留包装关键字。",
+      "before": {
+        "fontsize": 225,
+        "outline": 7,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "字号约普通两倍；中文移顶避免原文上方的右侧头像。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b052-0.jpg",
+        "frames/composition-review-02/b052-1.jpg",
+        "frames/composition-review-02/b052-2.jpg"
+      ],
+      "final": {
+        "fontsize": 150,
+        "outline": 6,
+        "y": 898,
+        "align": 2
+      }
+    },
+    "b053": {
+      "set": {
+        "fontsize": 145,
+        "outline": 5.5,
+        "y": 913,
+        "align": 2
+      },
+      "reason": "上方袋装商品标识需保留；缩小方黑字后回下方。",
+      "before": {
+        "fontsize": 185,
+        "outline": 6,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "MiSans粗体替代日文方黑；顶部居中避开源字和右侧脸。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b053-0.jpg",
+        "frames/composition-review-02/b053-1.jpg",
+        "frames/composition-review-02/b053-2.jpg"
+      ],
+      "final": {
+        "fontsize": 145,
+        "outline": 5.5,
+        "y": 913,
+        "align": 2
+      }
+    },
+    "b060": {
+      "set": {
+        "fontsize": 145,
+        "outline": 6,
+        "y": 918,
+        "align": 2
+      },
+      "reason": "无标识杯身是主体；缩小后放在原文上方，留出杯身中上部。",
+      "before": {
+        "fontsize": 190,
+        "outline": 7,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "顶部居中防止上移后覆盖右侧脸。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b060-0.jpg",
+        "frames/composition-review-02/b060-1.jpg",
+        "frames/composition-review-02/b060-2.jpg"
+      ],
+      "final": {
+        "fontsize": 145,
+        "outline": 6,
+        "y": 918,
+        "align": 2
+      }
+    },
+    "b064": {
+      "set": {
+        "fontsize": 240,
+        "outline": 6,
+        "y": -6
+      },
+      "reason": "角色居中且下方原文巨大；保留顶部书法演出但减小，避开头部表情。",
+      "before": {
+        "fontsize": 460,
+        "outline": 7,
+        "y": 20
+      },
+      "previous_limitations": "首轮实看马善政偏细，改用庞门正道粗书法对应源粗笔势；字形仍是中文近似，保持原文可见。 原片此处巨大强调文字与放大角色同框并覆盖下脸/胸口，中文沿用强调规模，允许顶部触及头部；不盖原日文。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b064-0.jpg",
+        "frames/composition-review-02/b064-1.jpg",
+        "frames/composition-review-02/b064-2.jpg"
+      ],
+      "final": {
+        "fontsize": 240,
+        "outline": 6,
+        "y": -6
+      }
+    },
+    "b067": {
+      "set": {
+        "y": 964,
+        "align": 2
+      },
+      "reason": "普通短口语在下方衣领区域可容纳，无需顶部。",
+      "before": {
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "普通口语不新增遮脸，译字顶部居中。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b067-0.jpg",
+        "frames/composition-review-02/b067-1.jpg",
+        "frames/composition-review-02/b067-2.jpg"
+      ],
+      "final": {
+        "y": 964,
+        "align": 2
+      }
+    },
+    "b068": {
+      "set": {
+        "y": 964,
+        "align": 2
+      },
+      "reason": "普通单行说明放回下方，保留脸和包装信息。",
+      "before": {
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "顶部居中以免将正常对白上移到面部。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b068-0.jpg",
+        "frames/composition-review-02/b068-1.jpg",
+        "frames/composition-review-02/b068-2.jpg"
+      ],
+      "final": {
+        "y": 964,
+        "align": 2
+      }
+    },
+    "b069": {
+      "set": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      },
+      "reason": "下方原文与中央表情已相邻；顶部保留冷笑点，减小覆盖范围。",
+      "before": {
+        "fontsize": 470,
+        "outline": 7,
+        "y": -60
+      },
+      "previous_limitations": "不够冰以大宋体重现冷笑点，移顶避开原字，背景的角色变大不重复添加。 原片此处巨大强调文字与放大角色同框并覆盖下脸/胸口，中文沿用强调规模，允许顶部触及头部；不盖原日文。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b069-0.jpg",
+        "frames/composition-review-02/b069-1.jpg",
+        "frames/composition-review-02/b069-2.jpg"
+      ],
+      "final": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      }
+    },
+    "b071": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": 884,
+        "align": 2
+      },
+      "reason": "杯子和包装集中在中上部；缩小明朝强调句回到下方。",
+      "before": {
+        "fontsize": 240,
+        "outline": 5,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "中文顶部避免撞到右下脸和底部源字。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b071-0.jpg",
+        "frames/composition-review-02/b071-1.jpg",
+        "frames/composition-review-02/b071-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": 884,
+        "align": 2
+      }
+    },
+    "b072": {
+      "set": {
+        "fontsize": 110,
+        "outline": 5,
+        "y": 935,
+        "align": 2
+      },
+      "reason": "普通说明可放下方，无需遮上部包装名。",
+      "before": {
+        "fontsize": 140,
+        "outline": 5,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "MiSans对应方黑类别；顶部避开右侧脸。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b072-0.jpg",
+        "frames/composition-review-02/b072-1.jpg",
+        "frames/composition-review-02/b072-2.jpg"
+      ],
+      "final": {
+        "fontsize": 110,
+        "outline": 5,
+        "y": 935,
+        "align": 2
+      }
+    },
+    "b080": {
+      "set": {
+        "y": 974,
+        "align": 2
+      },
+      "reason": "保留用户指定的附近圆体；短感叹可放在下方原字附近，避开脸。",
+      "before": {
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "按用户要求采用附近普通字幕的资源圆体Heavy，取消单独手绘字体处理；与b079一致使用108字号、6描边，保留顶部位置。已实看373.9235秒局部截图，无裁切或原字交集；未完整导出或全片复查。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b080-0.jpg",
+        "frames/composition-review-02/b080-1.jpg",
+        "frames/composition-review-02/b080-2.jpg"
+      ],
+      "final": {
+        "y": 974,
+        "align": 2
+      }
+    },
+    "b081": {
+      "set": {
+        "fontsize": 120,
+        "outline": 6,
+        "y": 948,
+        "align": 2
+      },
+      "reason": "普通说明缩小回下方，保留中央表情。",
+      "before": {
+        "fontsize": 140,
+        "outline": 7,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "中文顶部居中，普通说明不新增面部遮挡。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b081-0.jpg",
+        "frames/composition-review-02/b081-1.jpg",
+        "frames/composition-review-02/b081-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 6,
+        "y": 948,
+        "align": 2
+      }
+    },
+    "b082": {
+      "set": {
+        "fontsize": 200,
+        "outline": 6,
+        "y": -12
+      },
+      "reason": "好吃/银/无味三拍保留字体切换；中央表情与底部原字间不足，顶部缩小。",
+      "before": {
+        "fontsize": 340,
+        "outline": 7,
+        "y": 25
+      },
+      "previous_limitations": "中文上移顶部；保持这组好吃圆体、银与无味宋体的切换。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b082-0.jpg",
+        "frames/composition-review-02/b082-1.jpg",
+        "frames/composition-review-02/b082-2.jpg"
+      ],
+      "final": {
+        "fontsize": 200,
+        "outline": 6,
+        "y": -12
+      }
+    },
+    "b083": {
+      "set": {
+        "fontsize": 200,
+        "outline": 5,
+        "y": -16
+      },
+      "reason": "三拍中的银字与前后大小相称，顶部留出头部。",
+      "before": {
+        "fontsize": 260,
+        "outline": 6,
+        "y": 25
+      },
+      "previous_limitations": "译字移顶，保留三拍中间的小号宋体单字停顿。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b083-0.jpg",
+        "frames/composition-review-02/b083-1.jpg",
+        "frames/composition-review-02/b083-2.jpg"
+      ],
+      "final": {
+        "fontsize": 200,
+        "outline": 5,
+        "y": -16
+      }
+    },
+    "b084": {
+      "set": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      },
+      "reason": "无味文字目前压近眼部，顶部减小但保留三拍中的强调。",
+      "before": {
+        "fontsize": 550,
+        "outline": 9,
+        "y": -80
+      },
+      "previous_limitations": "中文顶部保留原巨字；原角色缩放保留于视频，不另加文字弹跳。 原片此处巨大强调文字与放大角色同框并覆盖下脸/胸口，中文沿用强调规模，允许顶部触及头部；不盖原日文。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b084-0.jpg",
+        "frames/composition-review-02/b084-1.jpg",
+        "frames/composition-review-02/b084-2.jpg"
+      ],
+      "final": {
+        "fontsize": 280,
+        "outline": 7,
+        "y": -30
+      }
+    },
+    "b090": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -6
+      },
+      "reason": "近景脸与原文之间不足；顶部缩小，保留雨景和表情。",
+      "before": {
+        "fontsize": 260,
+        "outline": 5,
+        "y": 25
+      },
+      "previous_limitations": "中文移顶避免与原文和居中面部重叠；源字号反差保留。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b090-0.jpg",
+        "frames/composition-review-02/b090-1.jpg",
+        "frames/composition-review-02/b090-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -6
+      }
+    },
+    "b091": {
+      "set": {
+        "fontsize": 110,
+        "outline": 4.5,
+        "line_advance": 106,
+        "y": 793,
+        "align": 2
+      },
+      "reason": "桥下步道与右侧小头像容许下方双行；缩小后靠近原文，不遮路径。",
+      "before": {
+        "fontsize": 175,
+        "outline": 4,
+        "line_advance": 160,
+        "y": 35,
+        "align": 8
+      },
+      "previous_limitations": "中文两行顶部居中，保持宋体与行高；避开右下头像和原两行。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/b091-0.jpg",
+        "frames/composition-review-02/b091-1.jpg",
+        "frames/composition-review-02/b091-2.jpg"
+      ],
+      "final": {
+        "fontsize": 110,
+        "outline": 4.5,
+        "line_advance": 106,
+        "y": 793,
+        "align": 2
+      }
+    },
+    "c015": {
+      "set": {
+        "fontsize": 140,
+        "outline": 3.5,
+        "y": 918
+      },
+      "reason": "鸡的身体在中下部；减小强调说明的占高，保留头部和身体更多细节。",
+      "before": {
+        "fontsize": 175,
+        "outline": 3,
+        "y": 920
+      },
+      "previous_limitations": "译文较短，保持明朝体且避开右侧脸部",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c015-0.jpg",
+        "frames/composition-review-02/c015-1.jpg",
+        "frames/composition-review-02/c015-2.jpg"
+      ],
+      "final": {
+        "fontsize": 140,
+        "outline": 3.5,
+        "y": 918
+      }
+    },
+    "c016": {
+      "set": {
+        "fontsize": 120,
+        "outline": 3.5,
+        "y": 917
+      },
+      "reason": "乌鸦个体较小，减小字高使其与下方字幕分离。",
+      "before": {
+        "fontsize": 160,
+        "outline": 3,
+        "y": 920
+      },
+      "previous_limitations": "近源上方，短译文留出头像空间",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c016-0.jpg",
+        "frames/composition-review-02/c016-1.jpg",
+        "frames/composition-review-02/c016-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 3.5,
+        "y": 917
+      }
+    },
+    "c021": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "普通短句可置于下方衣领区域，装置艺术上部不再叠文字。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "源字贴胸口，中文若紧贴其上会遮下脸，改顶部居中",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c021-0.jpg",
+        "frames/composition-review-02/c021-1.jpg",
+        "frames/composition-review-02/c021-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c036": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      },
+      "reason": "三时点显示银色红薯会旋转横放，下方缩小标题仍会挡住尖端；改为小号顶部，保留食物轮廓。",
+      "before": {
+        "fontsize": 350,
+        "outline": 5,
+        "y": 775,
+        "align": 2
+      },
+      "previous_limitations": "译文五字大号置标题上方，源视频银色食物仍可见",
+      "trial_adjustment": "三时点显示银色红薯会旋转横放，下方缩小标题仍会挡住尖端；改为小号顶部，保留食物轮廓。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-03/c036-0.jpg",
+        "frames/composition-review-03/c036-1.jpg",
+        "frames/composition-review-03/c036-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      }
+    },
+    "c039": {
+      "set": {
+        "fontsize": 160,
+        "outline": 4,
+        "y": -4
+      },
+      "reason": "角色特写嘴部贴近原文；保留顶部，缩小并上移减少头部覆盖。",
+      "before": {
+        "fontsize": 200,
+        "outline": 4,
+        "y": 24
+      },
+      "previous_limitations": "原文字已贴下脸，中文移顶部保留眼口表情",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c039-0.jpg",
+        "frames/composition-review-02/c039-1.jpg",
+        "frames/composition-review-02/c039-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 4,
+        "y": -4
+      }
+    },
+    "c047": {
+      "set": {
+        "fontsize": 220,
+        "outline": 3,
+        "y": -10
+      },
+      "reason": "原文上方是惊讶表情，保留顶部标题但缩小，让表情成为主体。",
+      "before": {
+        "fontsize": 295,
+        "outline": 1,
+        "y": 24
+      },
+      "previous_limitations": "中文移顶部，保留大字反差并让惊讶表情可见",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c047-0.jpg",
+        "frames/composition-review-02/c047-1.jpg",
+        "frames/composition-review-02/c047-2.jpg"
+      ],
+      "final": {
+        "fontsize": 220,
+        "outline": 3,
+        "y": -10
+      }
+    },
+    "c059": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      },
+      "reason": "下方大译字挡住栗子银团切面和勺子动作；缩小后放顶部空带。",
+      "before": {
+        "fontsize": 340,
+        "outline": 5,
+        "y": 815,
+        "align": 2
+      },
+      "previous_limitations": "五字替换四字中文仍保持高字号，移至源字上方",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c059-0.jpg",
+        "frames/composition-review-02/c059-1.jpg",
+        "frames/composition-review-02/c059-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      }
+    },
+    "c061": {
+      "set": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      },
+      "reason": "下方大译字覆盖银锷饼断面；缩小后放顶部，露出馅料与银箔。",
+      "before": {
+        "fontsize": 340,
+        "outline": 5,
+        "y": 815,
+        "align": 2
+      },
+      "previous_limitations": "用中文明朝重字保留标题层级，假名曲线不能逐形复刻",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c061-0.jpg",
+        "frames/composition-review-02/c061-1.jpg",
+        "frames/composition-review-02/c061-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 5,
+        "y": -5,
+        "align": 8
+      }
+    },
+    "c062": {
+      "set": {
+        "fontsize": 160,
+        "outline": 4,
+        "y": 0,
+        "align": 8
+      },
+      "reason": "菜名大字压住盘中牛蒡；缩小裂纹字体放顶部边缘，保留菜品。",
+      "before": {
+        "fontsize": 340,
+        "outline": 4,
+        "y": 790,
+        "align": 2
+      },
+      "previous_limitations": "采用GinzawaFractureSC：源界明朝共有字形与思源宋体简体补字的确定性剥落近似。已看候选，厚实结构与破损明显改善；并未确认原作者字体，个别字的孔洞形状有差异。保持整句硬切，不加抖动。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c062-0.jpg",
+        "frames/composition-review-02/c062-1.jpg",
+        "frames/composition-review-02/c062-2.jpg"
+      ],
+      "final": {
+        "fontsize": 160,
+        "outline": 4,
+        "y": 0,
+        "align": 8
+      }
+    },
+    "c063": {
+      "set": {
+        "fontsize": 120,
+        "outline": 3.5,
+        "y": 931,
+        "align": 2
+      },
+      "reason": "普通总结放回下方盘沿区域，避免叠在菜品上沿。",
+      "before": {
+        "fontsize": 140,
+        "outline": 3,
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "长译文按原字号会靠近右侧脸部，改顶部居中",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c063-0.jpg",
+        "frames/composition-review-02/c063-1.jpg",
+        "frames/composition-review-02/c063-2.jpg"
+      ],
+      "final": {
+        "fontsize": 120,
+        "outline": 3.5,
+        "y": 931,
+        "align": 2
+      }
+    },
+    "c067": {
+      "set": {
+        "fontsize": 140,
+        "outline": 3.5,
+        "y": 900,
+        "x": 440
+      },
+      "reason": "银衣在下方中央、包装品牌在上方中央；采用下方左侧空地上的短横排强调，避开玩偶银衣、包装文字与右侧头像，不强制居中。",
+      "before": {
+        "fontsize": 220,
+        "outline": 3,
+        "y": 907,
+        "x": 960
+      },
+      "previous_limitations": "中文四字近原文上方，保留玩具主体和头像 用户要求统一双语间距：本次仅调整纵向位置，中文墨迹至原字框的间隔由36px收紧至约24px；已实看事件中点局部图，完整导出与全片复查尚未执行。",
+      "trial_adjustment": "银衣在下方中央、包装品牌在上方中央；采用下方左侧空地上的短横排强调，避开玩偶银衣、包装文字与右侧头像，不强制居中。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-03/c067-0.jpg",
+        "frames/composition-review-03/c067-1.jpg",
+        "frames/composition-review-03/c067-2.jpg"
+      ],
+      "final": {
+        "fontsize": 140,
+        "outline": 3.5,
+        "y": 900,
+        "x": 440
+      }
+    },
+    "c070": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "普通对白置顶，不在脸上新增文字",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c070-0.jpg",
+        "frames/composition-review-02/c070-1.jpg",
+        "frames/composition-review-02/c070-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c071": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中央头像近景，中文置顶",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c071-0.jpg",
+        "frames/composition-review-02/c071-1.jpg",
+        "frames/composition-review-02/c071-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c076": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中央人物普通对白置顶",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c076-0.jpg",
+        "frames/composition-review-02/c076-1.jpg",
+        "frames/composition-review-02/c076-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c077": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中央人物普通对白置顶",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c077-0.jpg",
+        "frames/composition-review-02/c077-1.jpg",
+        "frames/composition-review-02/c077-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c079": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中央人物普通对白置顶",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c079-0.jpg",
+        "frames/composition-review-02/c079-1.jpg",
+        "frames/composition-review-02/c079-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c081": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中央人物普通对白置顶",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c081-0.jpg",
+        "frames/composition-review-02/c081-1.jpg",
+        "frames/composition-review-02/c081-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c083": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中文置顶，面部的小旁注另行保留",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c083-0.jpg",
+        "frames/composition-review-02/c083-1.jpg",
+        "frames/composition-review-02/c083-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c072": {
+      "set": {
+        "fontsize": 90,
+        "outline": 5,
+        "y": 870,
+        "align": 2
+      },
+      "reason": "下方双行原文上方试放紧凑单行，按实际嘴部而非整个人物框判断。",
+      "before": {
+        "fontsize": 96,
+        "outline": 6,
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中文完整一行置顶，避开源双行与人物脸部",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c072-0.jpg",
+        "frames/composition-review-02/c072-1.jpg",
+        "frames/composition-review-02/c072-2.jpg"
+      ],
+      "final": {
+        "fontsize": 90,
+        "outline": 5,
+        "y": 870,
+        "align": 2
+      }
+    },
+    "c073": {
+      "set": {
+        "y": 870,
+        "align": 2
+      },
+      "reason": "短句放回双行原文上方，检查是否接近嘴部。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "中文短句置顶，保留人物表情",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c073-0.jpg",
+        "frames/composition-review-02/c073-1.jpg",
+        "frames/composition-review-02/c073-2.jpg"
+      ],
+      "final": {
+        "y": 870,
+        "align": 2
+      }
+    },
+    "c074": {
+      "set": {
+        "fontsize": 135,
+        "outline": 3.5,
+        "y": 917,
+        "align": 2
+      },
+      "reason": "短强调可减小放在原字上方衣领区域，保持明朝体。",
+      "before": {
+        "fontsize": 170,
+        "outline": 3,
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "跟随字体升级，中文置顶以免覆盖笑脸",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c074-0.jpg",
+        "frames/composition-review-02/c074-1.jpg",
+        "frames/composition-review-02/c074-2.jpg"
+      ],
+      "final": {
+        "fontsize": 135,
+        "outline": 3.5,
+        "y": 917,
+        "align": 2
+      }
+    },
+    "c075": {
+      "set": {
+        "fontsize": 210,
+        "outline": 3.5,
+        "y": -8
+      },
+      "reason": "放大笑脸与原字相邻，下方容不下；顶部适度减小仍保留强调。",
+      "before": {
+        "fontsize": 295,
+        "outline": 3,
+        "y": 24
+      },
+      "previous_limitations": "保留第二级放大，改顶部居中避免眼口",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c075-0.jpg",
+        "frames/composition-review-02/c075-1.jpg",
+        "frames/composition-review-02/c075-2.jpg"
+      ],
+      "final": {
+        "fontsize": 210,
+        "outline": 3.5,
+        "y": -8
+      }
+    },
+    "c078": {
+      "set": {
+        "fontsize": 180,
+        "outline": 4,
+        "y": 0
+      },
+      "reason": "近景惊讶表情下方已被原文占据；缩小顶部裂纹字，保留完整眼口。",
+      "before": {
+        "fontsize": 260,
+        "outline": 4,
+        "y": 24
+      },
+      "previous_limitations": "采用GinzawaFractureSC：源界明朝共有字形与思源宋体简体补字的确定性剥落近似。已看候选，厚实结构与破损明显改善；并未确认原作者字体，个别字的孔洞形状有差异。保持整句硬切，不加抖动。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c078-0.jpg",
+        "frames/composition-review-02/c078-1.jpg",
+        "frames/composition-review-02/c078-2.jpg"
+      ],
+      "final": {
+        "fontsize": 180,
+        "outline": 4,
+        "y": 0
+      }
+    },
+    "c080": {
+      "set": {
+        "fontsize": 110,
+        "outline": 3,
+        "y": 945,
+        "align": 2
+      },
+      "reason": "普通单行下方有空间，减小字高后放回原文上方。",
+      "before": {
+        "fontsize": 125,
+        "outline": 2,
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "保持对比字体，中文顶部居中避脸",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c080-0.jpg",
+        "frames/composition-review-02/c080-1.jpg",
+        "frames/composition-review-02/c080-2.jpg"
+      ],
+      "final": {
+        "fontsize": 110,
+        "outline": 3,
+        "y": 945,
+        "align": 2
+      }
+    },
+    "c082": {
+      "set": {
+        "fontsize": 180,
+        "outline": 3.5,
+        "y": 0
+      },
+      "reason": "铜泽标题与原片近景共同构成反转；下方无空位，缩小顶部标题。",
+      "before": {
+        "fontsize": 280,
+        "outline": 3,
+        "y": 24
+      },
+      "previous_limitations": "大字中文置顶，保留原画铜泽及近景表情",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c082-0.jpg",
+        "frames/composition-review-02/c082-1.jpg",
+        "frames/composition-review-02/c082-2.jpg"
+      ],
+      "final": {
+        "fontsize": 180,
+        "outline": 3.5,
+        "y": 0
+      }
+    },
+    "c084": {
+      "set": {
+        "y": 962,
+        "align": 2
+      },
+      "reason": "告别短句放回原罗马字上方，保留已有末尾淡出。",
+      "before": {
+        "y": 24,
+        "align": 8
+      },
+      "previous_limitations": "原罗马字保留不覆盖，中文顶部居中。已实看新构建606.2/606.4/606.5秒，末200ms线性淡出消除旧700ms提前变暗问题；原画整体曝光变化非严格线性，606.4中文略亮、末帧亮度仍为近似。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-02/c084-0.jpg",
+        "frames/composition-review-02/c084-1.jpg",
+        "frames/composition-review-02/c084-2.jpg"
+      ],
+      "final": {
+        "y": 962,
+        "align": 2
+      }
+    },
+    "c003": {
+      "set": {
+        "fontsize": 180,
+        "outline": 4.5,
+        "y": 850
+      },
+      "before": {
+        "fontsize": 300,
+        "outline": 5,
+        "y": 845
+      },
+      "previous_limitations": "中文单字保持大字号，不按日文四字总宽拉伸",
+      "trial_adjustment": "10%、50%、90%画面显示鸡走到译字附近；缩小下方短标题，减少对腿部和身体的遮挡。",
+      "reason": "10%、50%、90%画面显示鸡走到译字附近；缩小下方短标题，减少对腿部和身体的遮挡。",
+      "verification": "Visually inspected 10%, 50%, 90% composites, including concurrent captions; not continuous playback.",
+      "evidence": [
+        "frames/composition-review-03/c003-0.jpg",
+        "frames/composition-review-03/c003-1.jpg",
+        "frames/composition-review-03/c003-2.jpg"
+      ],
+      "final": {
+        "fontsize": 180,
+        "outline": 4.5,
+        "y": 850
+      }
+    }
+  },
+  "statistics": {
+    "events_midpoint_inspected": 288,
+    "events_keyframes_inspected": 60,
+    "keyframes_initial_pass": 180,
+    "refinement_keyframes": 12,
+    "events_changed": 54,
+    "top_to_bottom": 29,
+    "bottom_to_top": 4,
+    "fontsize_reduced": 41,
+    "text_changed": false,
+    "font_family_changed": false,
+    "full_video_exported": false
+  },
+  "coverage": [
+    {
+      "id": "a001",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a001.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a002",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a002.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a002-0.jpg",
+        "frames/composition-review-02/a002-1.jpg",
+        "frames/composition-review-02/a002-2.jpg"
+      ],
+      "decision": "原片自身为巨大滚动字幕，保留已校准的滚动节奏与下方表现；三时点检查未新增独立遮挡。"
+    },
+    {
+      "id": "a003",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a003.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a004",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a004.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a005",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a005.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a006",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a006.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a007",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a007.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-bottom-small",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-bottom-small.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-middle-small",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-middle-small.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-top-small",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-top-small.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a008",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a008.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-bottom-large",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-bottom-large.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-middle-large",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-middle-large.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a-tweet-top-large",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-tweet-top-large.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a009",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a009.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a009-0.jpg",
+        "frames/composition-review-02/a009-1.jpg",
+        "frames/composition-review-02/a009-2.jpg"
+      ],
+      "decision": "推文放大面板下方已占满；保留顶部窄带，降低字高并放宽文字框，减轻过度横压。"
+    },
+    {
+      "id": "a010",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a010.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a011",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a011.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a012",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a012.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a013",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a013.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a014",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a014.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a015",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a015.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a016",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a016.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a017",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a017.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a017-0.jpg",
+        "frames/composition-review-02/a017-1.jpg",
+        "frames/composition-review-02/a017-2.jpg"
+      ],
+      "decision": "已按用户要求校准字面中心；上方标题保留眼口，原大字占下方，三时点保持。"
+    },
+    {
+      "id": "a018",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a018.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a019",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a019.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a020",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a020.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a020-0.jpg",
+        "frames/composition-review-02/a020-1.jpg",
+        "frames/composition-review-02/a020-2.jpg"
+      ],
+      "decision": "城市名揭示是有意标题演出；上方保留大字，原日文占下方且眼口仍可辨，三时点保持。"
+    },
+    {
+      "id": "a021",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a021.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-merch",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-merch.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a022",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a022.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a023",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a023.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a024",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a024.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a025",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a025.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a026",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a026.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a027",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a027.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a028",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a028.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a029",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a029.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a030",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a030.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a031",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a031.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a032",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a032.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a033",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a033.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a034",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a034.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a035",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a035.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a035-0.jpg",
+        "frames/composition-review-02/a035-1.jpg",
+        "frames/composition-review-02/a035-2.jpg"
+      ],
+      "decision": "画面为阴云，巨大下方文字本身是笑点，没有人物或小物件被盖住，保留。"
+    },
+    {
+      "id": "a036",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a036.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a037",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a037.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a038",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a038.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a039",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a039.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a040",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a040.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a041",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a041.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a042",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a042.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a043",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a043.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a044",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a044.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a044-0.jpg",
+        "frames/composition-review-02/a044-1.jpg",
+        "frames/composition-review-02/a044-2.jpg"
+      ],
+      "decision": "街景下方可容纳短句；缩小裂纹大字后放在原文上方，保留车夫与右侧表情。"
+    },
+    {
+      "id": "a045",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a045.jpg",
+      "final_evidence": [],
+      "decision": "中央搜索结果面板和下方双行原文同时存在；顶部双行说明留在面板上侧空带。"
+    },
+    {
+      "id": "a046",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a046.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a047",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a047.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a048",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a048.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a049",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a049.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a050",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a050.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a051",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a051.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a052",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a052.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a053",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a053.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a054",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a054.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a055",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a055.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "a056",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a056.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a057",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a057.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a058",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a058.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-swim",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-swim.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a059",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a059.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a060",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a060.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a061",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a061.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a062",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a062.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a063",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a063.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a064",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a064.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a065",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a065.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a066",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a066.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a067",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a067.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a068",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a068.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a069",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a069.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a070",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a070.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a070-0.jpg",
+        "frames/composition-review-02/a070-1.jpg",
+        "frames/composition-review-02/a070-2.jpg"
+      ],
+      "decision": "忍者所在廊下是展示主体；减小叠加大字，保持下方并继续按原文实际中心对齐。"
+    },
+    {
+      "id": "a071",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a071.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-cute",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-cute.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a072",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a072.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a073",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a073.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a074",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a074.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a075",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a075.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a076",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a076.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a076-0.jpg",
+        "frames/composition-review-02/a076-1.jpg",
+        "frames/composition-review-02/a076-2.jpg"
+      ],
+      "decision": "用户明确要求上移，已留出顶部边距且避开眼口；三时点保持。"
+    },
+    {
+      "id": "a077",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a077.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a077-0.jpg",
+        "frames/composition-review-02/a077-1.jpg",
+        "frames/composition-review-02/a077-2.jpg"
+      ],
+      "decision": "长双行原文上方紧邻人物嘴部，下方不足；保留顶部，缩小两行字高与行距。"
+    },
+    {
+      "id": "a078",
+      "status": "retained-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a078.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a078-0.jpg",
+        "frames/composition-review-02/a078-1.jpg",
+        "frames/composition-review-02/a078-2.jpg"
+      ],
+      "decision": "用户明确要求上移，大字原文紧贴下脸；顶部保留，三时点保持。"
+    },
+    {
+      "id": "a079",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a079.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a080",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a080.jpg",
+      "final_evidence": [
+        "frames/composition-review-03/a080-0.jpg",
+        "frames/composition-review-03/a080-1.jpg",
+        "frames/composition-review-03/a080-2.jpg"
+      ],
+      "decision": "放大核对发现与日文第一行描边过近，整体再上移26px；眼口与译文之间仍有空隙。"
+    },
+    {
+      "id": "a081",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a081.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a082",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a082.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a083",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a083.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a084",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a084.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a-certified",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a-certified.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "a085",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a085.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a086",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a086.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a087",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a087.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a088",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a088.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a089",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a089.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "a090",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a090.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a091",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a091.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a092",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a092.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a093",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a093.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/a093-0.jpg",
+        "frames/composition-review-02/a093-1.jpg",
+        "frames/composition-review-02/a093-2.jpg"
+      ],
+      "decision": "树根寻物画面上方应留给地面；缩短字高放回原双行日文上方，避开右侧表情。"
+    },
+    {
+      "id": "a094",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a094.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a095",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a095.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "a096",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/a096.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b001",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b001.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b002",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b002.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b003",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b003.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b004",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b004.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b005",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b005.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b006",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b006.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b007",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b007.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b008",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b008.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b009",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b009.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b010",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b010.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b011",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b011.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b012",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b012.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b013",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b013.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b014",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b014.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b014-0.jpg",
+        "frames/composition-review-02/b014-1.jpg",
+        "frames/composition-review-02/b014-2.jpg"
+      ],
+      "decision": "银叶银果集中在中部，下方短句不会覆盖主体；移回原文上方。"
+    },
+    {
+      "id": "b015",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b015.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b016",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b016.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b017",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b017.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b018",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b018.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b019",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b019.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b020",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b020.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b021",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b021.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b022",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b022.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b023",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b023.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b024",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b024.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b025",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b025.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b026",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b026.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b027",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b027.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b028",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b028.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b029",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b029.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b029-0.jpg",
+        "frames/composition-review-02/b029-1.jpg",
+        "frames/composition-review-02/b029-2.jpg"
+      ],
+      "decision": "无味笑点依靠文字与表情，顶部保留强调但缩小，腾出头部与冰淇淋。"
+    },
+    {
+      "id": "b-aside-001",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b-aside-001.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "b030",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b030.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b031",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b031.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b032",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b032.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b033",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b033.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b034",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b034.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b035",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b035.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b036",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b036.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b037",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b037.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b038",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b038.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b039",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b039.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b040",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b040.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b041",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b041.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b042",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b042.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b043",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b043.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b044",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b044.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b045",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b045.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b046",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b046.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b046-0.jpg",
+        "frames/composition-review-02/b046-1.jpg",
+        "frames/composition-review-02/b046-2.jpg"
+      ],
+      "decision": "放大核对三时点后，缩小的下方字幕与嘴部仍有空隙，保留120字号下方方案；不能仅凭缩略图或脸框就移顶。"
+    },
+    {
+      "id": "b047",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b047.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b048",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b048.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b048-0.jpg",
+        "frames/composition-review-02/b048-1.jpg",
+        "frames/composition-review-02/b048-2.jpg"
+      ],
+      "decision": "中间银字保留顶部停顿，缩小并上移，避免压住头发。"
+    },
+    {
+      "id": "b049",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b049.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b049-0.jpg",
+        "frames/composition-review-02/b049-1.jpg",
+        "frames/composition-review-02/b049-2.jpg"
+      ],
+      "decision": "源巨字占下脸，新增中文不能再次夹住表情；顶部缩小，保留明朝体反差。"
+    },
+    {
+      "id": "b050",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b050.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b051",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b051.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b052",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b052.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b052-0.jpg",
+        "frames/composition-review-02/b052-1.jpg",
+        "frames/composition-review-02/b052-2.jpg"
+      ],
+      "decision": "包装名称与增量标识在上部；译文缩小移到下方，保留包装关键字。"
+    },
+    {
+      "id": "b053",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b053.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b053-0.jpg",
+        "frames/composition-review-02/b053-1.jpg",
+        "frames/composition-review-02/b053-2.jpg"
+      ],
+      "decision": "上方袋装商品标识需保留；缩小方黑字后回下方。"
+    },
+    {
+      "id": "b054",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b054.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b055",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b055.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b056",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b056.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b057",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b057.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b058",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b058.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b059",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b059.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b060",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b060.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b060-0.jpg",
+        "frames/composition-review-02/b060-1.jpg",
+        "frames/composition-review-02/b060-2.jpg"
+      ],
+      "decision": "无标识杯身是主体；缩小后放在原文上方，留出杯身中上部。"
+    },
+    {
+      "id": "b061",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b061.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b062",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b062.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b063",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b063.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b064",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b064.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b064-0.jpg",
+        "frames/composition-review-02/b064-1.jpg",
+        "frames/composition-review-02/b064-2.jpg"
+      ],
+      "decision": "角色居中且下方原文巨大；保留顶部书法演出但减小，避开头部表情。"
+    },
+    {
+      "id": "b065",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b065.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b066",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b066.jpg",
+      "final_evidence": [],
+      "decision": "沿用用户逐条指定的上方位置及已缩小/上移方案；本轮中点图仍能保留主体与原文，不用通用下方优先规则覆盖明确要求。"
+    },
+    {
+      "id": "b067",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b067.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b067-0.jpg",
+        "frames/composition-review-02/b067-1.jpg",
+        "frames/composition-review-02/b067-2.jpg"
+      ],
+      "decision": "普通短口语在下方衣领区域可容纳，无需顶部。"
+    },
+    {
+      "id": "b068",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b068.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b068-0.jpg",
+        "frames/composition-review-02/b068-1.jpg",
+        "frames/composition-review-02/b068-2.jpg"
+      ],
+      "decision": "普通单行说明放回下方，保留脸和包装信息。"
+    },
+    {
+      "id": "b069",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b069.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b069-0.jpg",
+        "frames/composition-review-02/b069-1.jpg",
+        "frames/composition-review-02/b069-2.jpg"
+      ],
+      "decision": "下方原文与中央表情已相邻；顶部保留冷笑点，减小覆盖范围。"
+    },
+    {
+      "id": "b070",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b070.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b071",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b071.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b071-0.jpg",
+        "frames/composition-review-02/b071-1.jpg",
+        "frames/composition-review-02/b071-2.jpg"
+      ],
+      "decision": "杯子和包装集中在中上部；缩小明朝强调句回到下方。"
+    },
+    {
+      "id": "b072",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b072.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b072-0.jpg",
+        "frames/composition-review-02/b072-1.jpg",
+        "frames/composition-review-02/b072-2.jpg"
+      ],
+      "decision": "普通说明可放下方，无需遮上部包装名。"
+    },
+    {
+      "id": "b073",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b073.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b074",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b074.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b075",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b075.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b076",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b076.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b077",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b077.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b078",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b078.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b079",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b079.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b080",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b080.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b080-0.jpg",
+        "frames/composition-review-02/b080-1.jpg",
+        "frames/composition-review-02/b080-2.jpg"
+      ],
+      "decision": "保留用户指定的附近圆体；短感叹可放在下方原字附近，避开脸。"
+    },
+    {
+      "id": "b081",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b081.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b081-0.jpg",
+        "frames/composition-review-02/b081-1.jpg",
+        "frames/composition-review-02/b081-2.jpg"
+      ],
+      "decision": "普通说明缩小回下方，保留中央表情。"
+    },
+    {
+      "id": "b082",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b082.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b082-0.jpg",
+        "frames/composition-review-02/b082-1.jpg",
+        "frames/composition-review-02/b082-2.jpg"
+      ],
+      "decision": "好吃/银/无味三拍保留字体切换；中央表情与底部原字间不足，顶部缩小。"
+    },
+    {
+      "id": "b083",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b083.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b083-0.jpg",
+        "frames/composition-review-02/b083-1.jpg",
+        "frames/composition-review-02/b083-2.jpg"
+      ],
+      "decision": "三拍中的银字与前后大小相称，顶部留出头部。"
+    },
+    {
+      "id": "b084",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b084.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b084-0.jpg",
+        "frames/composition-review-02/b084-1.jpg",
+        "frames/composition-review-02/b084-2.jpg"
+      ],
+      "decision": "无味文字目前压近眼部，顶部减小但保留三拍中的强调。"
+    },
+    {
+      "id": "b085",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b085.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b086",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b086.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b087",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b087.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b088",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b088.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b089",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b089.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "b090",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b090.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b090-0.jpg",
+        "frames/composition-review-02/b090-1.jpg",
+        "frames/composition-review-02/b090-2.jpg"
+      ],
+      "decision": "近景脸与原文之间不足；顶部缩小，保留雨景和表情。"
+    },
+    {
+      "id": "b091",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b091.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/b091-0.jpg",
+        "frames/composition-review-02/b091-1.jpg",
+        "frames/composition-review-02/b091-2.jpg"
+      ],
+      "decision": "桥下步道与右侧小头像容许下方双行；缩小后靠近原文，不遮路径。"
+    },
+    {
+      "id": "b092",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/b092.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c001",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c001.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c002",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c002.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c003",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c003.jpg",
+      "final_evidence": [
+        "frames/composition-review-03/c003-0.jpg",
+        "frames/composition-review-03/c003-1.jpg",
+        "frames/composition-review-03/c003-2.jpg"
+      ],
+      "decision": "10%、50%、90%画面显示鸡走到译字附近；缩小下方短标题，减少对腿部和身体的遮挡。"
+    },
+    {
+      "id": "c004",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c004.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c005",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c005.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c006",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c006.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c007",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c007.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c008",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c008.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c009",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c009.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c010",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c010.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c011",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c011.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c012",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c012.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c013",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c013.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c014",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c014.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c015",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c015.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c015-0.jpg",
+        "frames/composition-review-02/c015-1.jpg",
+        "frames/composition-review-02/c015-2.jpg"
+      ],
+      "decision": "鸡的身体在中下部；减小强调说明的占高，保留头部和身体更多细节。"
+    },
+    {
+      "id": "c016",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c016.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c016-0.jpg",
+        "frames/composition-review-02/c016-1.jpg",
+        "frames/composition-review-02/c016-2.jpg"
+      ],
+      "decision": "乌鸦个体较小，减小字高使其与下方字幕分离。"
+    },
+    {
+      "id": "c017",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c017.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c-note-wild",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c-note-wild.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "c018",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c018.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c019",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c019.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c020",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c020.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c021",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c021.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c021-0.jpg",
+        "frames/composition-review-02/c021-1.jpg",
+        "frames/composition-review-02/c021-2.jpg"
+      ],
+      "decision": "普通短句可置于下方衣领区域，装置艺术上部不再叠文字。"
+    },
+    {
+      "id": "c022",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c022.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c023",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c023.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c024",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c024.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c-note-umbrella",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c-note-umbrella.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "c025",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c025.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c026",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c026.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c027",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c027.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c028",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c028.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c029",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c029.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c030",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c030.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c031",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c031.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c032",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c032.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c033",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c033.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c034",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c034.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c035",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c035.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c036",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c036.jpg",
+      "final_evidence": [
+        "frames/composition-review-03/c036-0.jpg",
+        "frames/composition-review-03/c036-1.jpg",
+        "frames/composition-review-03/c036-2.jpg"
+      ],
+      "decision": "三时点显示银色红薯会旋转横放，下方缩小标题仍会挡住尖端；改为小号顶部，保留食物轮廓。"
+    },
+    {
+      "id": "c037",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c037.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c038",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c038.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c039",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c039.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c039-0.jpg",
+        "frames/composition-review-02/c039-1.jpg",
+        "frames/composition-review-02/c039-2.jpg"
+      ],
+      "decision": "角色特写嘴部贴近原文；保留顶部，缩小并上移减少头部覆盖。"
+    },
+    {
+      "id": "c040",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c040.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c041",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c041.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c042",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c042.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c043",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c043.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c044",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c044.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c045",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c045.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c-note-fish",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c-note-fish.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "c046",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c046.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c047",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c047.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c047-0.jpg",
+        "frames/composition-review-02/c047-1.jpg",
+        "frames/composition-review-02/c047-2.jpg"
+      ],
+      "decision": "原文上方是惊讶表情，保留顶部标题但缩小，让表情成为主体。"
+    },
+    {
+      "id": "c048",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c048.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c-note-eat",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c-note-eat.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "c049",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c049.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c050",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c050.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c051",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c051.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c052",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c052.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c053",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c053.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c054",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c054.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c055",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c055.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c056",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c056.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c057",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c057.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c058",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c058.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c059",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c059.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c059-0.jpg",
+        "frames/composition-review-02/c059-1.jpg",
+        "frames/composition-review-02/c059-2.jpg"
+      ],
+      "decision": "下方大译字挡住栗子银团切面和勺子动作；缩小后放顶部空带。"
+    },
+    {
+      "id": "c060",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c060.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c061",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c061.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c061-0.jpg",
+        "frames/composition-review-02/c061-1.jpg",
+        "frames/composition-review-02/c061-2.jpg"
+      ],
+      "decision": "下方大译字覆盖银锷饼断面；缩小后放顶部，露出馅料与银箔。"
+    },
+    {
+      "id": "c062",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c062.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c062-0.jpg",
+        "frames/composition-review-02/c062-1.jpg",
+        "frames/composition-review-02/c062-2.jpg"
+      ],
+      "decision": "菜名大字压住盘中牛蒡；缩小裂纹字体放顶部边缘，保留菜品。"
+    },
+    {
+      "id": "c063",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c063.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c063-0.jpg",
+        "frames/composition-review-02/c063-1.jpg",
+        "frames/composition-review-02/c063-2.jpg"
+      ],
+      "decision": "普通总结放回下方盘沿区域，避免叠在菜品上沿。"
+    },
+    {
+      "id": "c064",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c064.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c065",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c065.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c066",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c066.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c067",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c067.jpg",
+      "final_evidence": [
+        "frames/composition-review-03/c067-0.jpg",
+        "frames/composition-review-03/c067-1.jpg",
+        "frames/composition-review-03/c067-2.jpg"
+      ],
+      "decision": "银衣在下方中央、包装品牌在上方中央；采用下方左侧空地上的短横排强调，避开玩偶银衣、包装文字与右侧头像，不强制居中。"
+    },
+    {
+      "id": "c068",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c068.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c069",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c069.jpg",
+      "final_evidence": [],
+      "decision": "保留下方原文附近的现有排版；中点合成画面未发现需要调整的位置字号问题。"
+    },
+    {
+      "id": "c070",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c070.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c070-0.jpg",
+        "frames/composition-review-02/c070-1.jpg",
+        "frames/composition-review-02/c070-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c071",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c071.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c071-0.jpg",
+        "frames/composition-review-02/c071-1.jpg",
+        "frames/composition-review-02/c071-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c072",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c072.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c072-0.jpg",
+        "frames/composition-review-02/c072-1.jpg",
+        "frames/composition-review-02/c072-2.jpg"
+      ],
+      "decision": "下方双行原文上方试放紧凑单行，按实际嘴部而非整个人物框判断。"
+    },
+    {
+      "id": "c073",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c073.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c073-0.jpg",
+        "frames/composition-review-02/c073-1.jpg",
+        "frames/composition-review-02/c073-2.jpg"
+      ],
+      "decision": "短句放回双行原文上方，检查是否接近嘴部。"
+    },
+    {
+      "id": "c074",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c074.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c074-0.jpg",
+        "frames/composition-review-02/c074-1.jpg",
+        "frames/composition-review-02/c074-2.jpg"
+      ],
+      "decision": "短强调可减小放在原字上方衣领区域，保持明朝体。"
+    },
+    {
+      "id": "c075",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c075.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c075-0.jpg",
+        "frames/composition-review-02/c075-1.jpg",
+        "frames/composition-review-02/c075-2.jpg"
+      ],
+      "decision": "放大笑脸与原字相邻，下方容不下；顶部适度减小仍保留强调。"
+    },
+    {
+      "id": "c076",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c076.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c076-0.jpg",
+        "frames/composition-review-02/c076-1.jpg",
+        "frames/composition-review-02/c076-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c077",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c077.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c077-0.jpg",
+        "frames/composition-review-02/c077-1.jpg",
+        "frames/composition-review-02/c077-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c078",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c078.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c078-0.jpg",
+        "frames/composition-review-02/c078-1.jpg",
+        "frames/composition-review-02/c078-2.jpg"
+      ],
+      "decision": "近景惊讶表情下方已被原文占据；缩小顶部裂纹字，保留完整眼口。"
+    },
+    {
+      "id": "c079",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c079.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c079-0.jpg",
+        "frames/composition-review-02/c079-1.jpg",
+        "frames/composition-review-02/c079-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c080",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c080.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c080-0.jpg",
+        "frames/composition-review-02/c080-1.jpg",
+        "frames/composition-review-02/c080-2.jpg"
+      ],
+      "decision": "普通单行下方有空间，减小字高后放回原文上方。"
+    },
+    {
+      "id": "c081",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c081.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c081-0.jpg",
+        "frames/composition-review-02/c081-1.jpg",
+        "frames/composition-review-02/c081-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c082",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c082.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c082-0.jpg",
+        "frames/composition-review-02/c082-1.jpg",
+        "frames/composition-review-02/c082-2.jpg"
+      ],
+      "decision": "铜泽标题与原片近景共同构成反转；下方无空位，缩小顶部标题。"
+    },
+    {
+      "id": "c083",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c083.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c083-0.jpg",
+        "frames/composition-review-02/c083-1.jpg",
+        "frames/composition-review-02/c083-2.jpg"
+      ],
+      "decision": "结尾普通单行可放下方衣领附近；不因居中头像整体框就移顶，保留眼口。"
+    },
+    {
+      "id": "c-note-trust",
+      "status": "retained-midpoint-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c-note-trust.jpg",
+      "final_evidence": [],
+      "decision": "保留同屏旁注/面板/过场的位置层级；中点合成画面未发现需修改的位置字号问题。"
+    },
+    {
+      "id": "c084",
+      "status": "changed-keyframes-inspected",
+      "midpoint_evidence": "frames/composition-review-01/c084.jpg",
+      "final_evidence": [
+        "frames/composition-review-02/c084-0.jpg",
+        "frames/composition-review-02/c084-1.jpg",
+        "frames/composition-review-02/c084-2.jpg"
+      ],
+      "decision": "告别短句放回原罗马字上方，保留已有末尾淡出。"
+    }
+  ],
+  "final_input_sha256": {
+    "translation/work/segments.toml": "884e4f3e212549b3e782ce9d22fe26b8984b2607404adc7bb1b4cb78b83ca037",
+    "design/events-a.toml": "91c290e77f21902baaa73a8ce831044e1131f1a2e02121b351c10a61a7255601",
+    "design/events-b.toml": "ad023dabc7c721bfaefaff83fc3799a504961bcd6cf5d9ff96a3769e88207e9c",
+    "design/events-c.toml": "9cc7309518d7a46920240930e9d873c2ec373d67fe9811923bdbca9bb7caaf7f",
+    "design/fonts.toml": "599bed6a08f69365d83872f6dbef1f28baa0803a5946336c26c149e11432343f",
+    "design/defaults.toml": "6730f4e4a8a3f0449463edc713d2cc9d121684e6edcacd15bbbd8094545abd42",
+    "forge.toml": "d207ee928cb5259da2c53087f49b5d423ff9d71e7c9f08ed3d93742c93450866"
+  }
+}

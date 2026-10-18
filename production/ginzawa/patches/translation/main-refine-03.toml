@@ -1,0 +1,9 @@
+created_by = "main-refine-03"
+start = 0
+end = 616.141
+summary = "第三轮全文润色：全文检查术语、标点和节奏，将惊呼ウオ！译为更贴切的哇！。"
+
+[[operations]]
+op = "edit"
+segment_id = "a095"
+zh = "哇！"

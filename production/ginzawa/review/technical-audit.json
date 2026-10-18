@@ -1,0 +1,175 @@
+{
+  "event_count": 288,
+  "supplemental_count": 16,
+  "missing_glyphs": [],
+  "timing_not_frame_confirmed": [],
+  "missing_source_style": [],
+  "machine_specific_paths": [],
+  "missing_evidence": [],
+  "fonts": [
+    {
+      "role": "sans",
+      "family": "MiSans",
+      "file": "../../fonts/local/MiSans-Bold.ttf",
+      "face_index": 0,
+      "sha256": "c01078cf5e0ca166672612e29ae8c94f3a6b224d047ffbf3801e33003051ec0e"
+    },
+    {
+      "role": "serif",
+      "family": "Songti SC",
+      "file": "../../fonts/local/Songti.ttc",
+      "face_index": 1,
+      "sha256": "6873ac2ccab5c2e74d87d6b690f3773098dd6a6238805363a3b3567f2caf6f47"
+    },
+    {
+      "role": "hand",
+      "family": "LXGW WenKai",
+      "file": "../../fonts/local/LXGWWenKai-Regular.ttf",
+      "face_index": 0,
+      "sha256": "fea0004a42506f6b1583c4dfe35a13ce1cff0bbda32bb70629b3f9aafd8a8a6a"
+    },
+    {
+      "role": "brush",
+      "family": "Ma Shan Zheng",
+      "file": "../../fonts/mashanzheng/MaShanZheng-Regular.ttf",
+      "face_index": 0,
+      "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+    },
+    {
+      "role": "mono",
+      "family": "Sarasa Mono SC",
+      "file": "../../fonts/local/SarasaMonoSC-Bold.ttf",
+      "face_index": 0,
+      "sha256": "f8574c2d00f82f21937e620303dca210f411595de9308275174c97b2c229d0dc"
+    },
+    {
+      "role": "ja",
+      "family": "Hiragino Sans",
+      "file": "../../fonts/local/ヒラギノ角ゴシック W6.ttc",
+      "face_index": 0,
+      "sha256": "790fe535987adc662e83489e162dc54c1e50be8de15169300082f6cc7a082e4e"
+    },
+    {
+      "role": "round",
+      "family": "Resource Han Rounded CN Heavy",
+      "file": "../../fonts/round/ResourceHanRoundedCN-Heavy.ttf",
+      "face_index": 0,
+      "sha256": "dfc757d9c5ae597cac15b12a51a1cee07af500cc8cf7439b243e1bb94b2b1f83"
+    },
+    {
+      "role": "mincho",
+      "family": "Source Han Serif SC Heavy",
+      "file": "../../fonts/mincho/SourceHanSerifSC-Heavy.otf",
+      "face_index": 0,
+      "sha256": "d033af54f96530476faed924ab5d5e9e6ef0833495670fd57bab9a7758398048"
+    },
+    {
+      "role": "marker",
+      "family": "LongZhuTi",
+      "file": "../../fonts/marker/LongZhuTi-Regular.ttf",
+      "face_index": 0,
+      "sha256": "a7c16e4ec41419981f2a54b35a0ec8f3dba61884b8b8e03721fed179f2088102"
+    },
+    {
+      "role": "casual",
+      "family": "Yozai",
+      "file": "../../fonts/casual/Yozai-Regular.ttf",
+      "face_index": 0,
+      "sha256": "25071998a0fe6a72f54c235e714986d259633e5ff670b1a2b5e264387f3316ac"
+    },
+    {
+      "role": "brush_title",
+      "family": "PangMenZhengDao-Cu",
+      "file": "../../fonts/brush_title/PangMen.ttf",
+      "face_index": 0,
+      "sha256": "06b2048c592b1dae43b7ab895c941fbc7cfe11060da1c0cb8e68cb178ae6735a"
+    },
+    {
+      "role": "sans_light",
+      "family": "MiSans Light",
+      "file": "../../fonts/local/MiSans-Light.ttf",
+      "face_index": 0,
+      "sha256": "3d8dde7ea7d675111c6883661548914bf1a79824a648394f461fef91c180b667"
+    },
+    {
+      "role": "fracture",
+      "family": "GinzawaFractureSC",
+      "file": "../../fonts/ginzawa-fracture/GinzawaFractureSC.ttf",
+      "face_index": 0,
+      "sha256": "b249e09d7e1292aefb9b208737be253650bc4497f77c9d8f84ee9358f19fa866"
+    }
+  ],
+  "used_font_faces": [
+    {
+      "role": "ja",
+      "bold": true,
+      "face_index": 0
+    },
+    {
+      "role": "round",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "sans",
+      "bold": true,
+      "face_index": 0
+    },
+    {
+      "role": "mincho",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "sans",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "hand",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "fracture",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "casual",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "brush_title",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "marker",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "sans_light",
+      "bold": false,
+      "face_index": 0
+    },
+    {
+      "role": "serif",
+      "bold": false,
+      "face_index": 6
+    },
+    {
+      "role": "mono",
+      "bold": true,
+      "face_index": 0
+    },
+    {
+      "role": "serif",
+      "bold": true,
+      "face_index": 1
+    }
+  ],
+  "note": "Technical audit only. Full visual review and comparison clips are separately required."
+}

@@ -1,0 +1,11 @@
+{
+  "font": "../../fonts/ginzawa-fracture/GinzawaFractureSC.ttf",
+  "sha256": "62b9fb421f505e08f0d71d5b348a0615fb6999246f67f9779c52d3658b21fdc4",
+  "consecutive_rebuilds_identical": true,
+  "recipe": "research/fonts/recipe.toml",
+  "source_inputs": [
+    "../../fonts/genkai/Genkaimincho.ttf",
+    "../../fonts/mincho/SourceHanSerifSC-Heavy.otf"
+  ],
+  "revision_reason": "Source cmap includes 强 but its outline is empty; use configured SC Heavy fracture fallback. All other generated glyph outlines unchanged."
+}

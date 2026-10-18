@@ -22,3 +22,11 @@
 | ShingoukiFractureSC | [ShingoukiFractureSC.ttf](fracture/ShingoukiFractureSC.ttf) | [源界明朝](https://booth.pm/ja/items/1028548)字形，使用思源宋体补充简体字并添加裂纹效果 | [逐字来源与覆盖范围](fracture/ShingoukiFractureSC.json) · [源界明朝 OFL](fracture/OFL-Genkai.txt) · [思源宋体 OFL](fracture/OFL-SourceHanSerif.txt) |
 | ShingoukiMeltSC | [ShingoukiMeltSC.ttf](melt/ShingoukiMeltSC.ttf) | 基于思源宋体的变形字形，仅含「烫」及空格 | [逐字来源与覆盖范围](melt/ShingoukiMeltSC.json) · [思源宋体 OFL](melt/OFL-SourceHanSerif.txt) |
 | ShingoukiDiamondSC | [ShingoukiDiamondSC.ttf](diamond/ShingoukiDiamondSC.ttf) | 基于[风雅宋](https://github.com/maoken-fonts/fengyasong)的菱形装饰字形；视觉参考赤のアリス，未使用其字体轮廓 | [字形记录与覆盖范围](diamond/ShingoukiDiamondSC.json) · [风雅宋 OFL](diamond/OFL-FengYaSong.txt) |
+
+银泽新增可复现来源：[源界明朝完整源资产](genkai/Genkaimincho.ttf)（[来源与校验](genkai/provenance.json)、[OFL](genkai/OFL.txt)）；[GinzawaFractureSC](ginzawa-fracture/GinzawaFractureSC.ttf) 使用同一共享派生工具生成，[逐字来源](ginzawa-fracture/GinzawaFractureSC.json)与[配方](../production/ginzawa/research/fonts/recipe.toml)保留在仓库。简体缺字使用思源宋体重字加固定裂痕近似，并非确认原视频字体。
+
+## 本机准备的字体
+
+银泽推文修订使用 MiSans Regular 真实常规字面。字体从 [MiSans 官方下载页](https://hyperos.mi.com/font/zh/download/) 获取；使用前阅读随包许可，将静态 `MiSans-Regular.ttf` 放到本目录的 `local/` 下，再运行工程 README 的 `fonts-prepare` 命令。本机字体文件不纳入 Git 或交付包。
+
+本次使用版本为 4.003，PostScript 名为 `MiSans-Regular`，SHA-256 为 `6aa32ded55e110a95be10080e0c322f2382681cd581c5cbb24f4fd4ce96fbb08`。重建时应核对该版本与校验值；若官方包已更新，应重新检查排版，不把不同版本当作相同输入。

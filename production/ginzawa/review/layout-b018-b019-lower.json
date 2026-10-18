@@ -1,0 +1,37 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "b018",
+      "time": 252.352,
+      "ink_bounds": [
+        544,
+        872,
+        1372,
+        956
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b018-b019-lower/b018-0.png"
+    },
+    {
+      "id": "b019",
+      "time": 255.205,
+      "ink_bounds": [
+        460,
+        872,
+        1462,
+        956
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b018-b019-lower/b019-0.png"
+    }
+  ]
+}

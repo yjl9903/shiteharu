@@ -1,0 +1,31 @@
+{
+  "created_by": "b19f45",
+  "range": [209.409,403.003],
+  "segment_count": 92,
+  "segment_ids": "b001–b092",
+  "patch": "patches/translation/b19f45-0209s-0403s.toml",
+  "dry_run": "patches/translation/b19f45-dryrun.json",
+  "counts": {"fatal":0,"error":0,"warning":19},
+  "reviews": {
+    "full_assigned_range_read_in_order_with_neighbors": true,
+    "full_range_reread_after_final_check": true,
+    "all_92_final_translations_reread_individually_in_order": true,
+    "id_start_end_speaker_ja_preserved": true
+  },
+  "warning_rationale": [
+    {"scope":"ja","count":17,"reason":"既有日文原画布局警告，保留已经逐帧核对的日文及换行。"},
+    {"ids":["b013","b091"],"code":"zh_line_break_can_merge_hard","count":2,"reason":"两条各18个可见中文字，按前因后果分为两行，与原画两行叙述一致；显示分别4.371秒、3.970秒，保留可读的语义换行。"}
+  ],
+  "new_exceptions": [
+    {"id":"b007","code":"zh_terminal_punctuation","reason":"保留原画寻找银杏果时的迟疑省略号。原有时间与日文标点豁免完整保留。"},
+    {"id":"b074","code":"zh_terminal_punctuation","reason":"保留原画发现银箔前的转折省略号。原有时间与日文标点豁免完整保留。"}
+  ],
+  "glossary_proposals": [
+    {"ja":"コンソメ味","zh":"清汤味","ids":["b053","b074","b081"]},
+    {"ja":"かっぱえびせん","zh":"卡乐比虾条","ids":["b052"],"note":"画面包装同时可见Calbee；以品牌加产品类别呈现。"}
+  ],
+  "source_doubts": [],
+  "boundary_notes": "a096发现提示接b001银色的叶子；b092躲雨后为原画过场，c001从403.003接雨停后的散步。各段时间不改。",
+  "asides": "patches/translation/b19f45-asides.json",
+  "status": "ready_for_main_agent_review_not_applied"
+}

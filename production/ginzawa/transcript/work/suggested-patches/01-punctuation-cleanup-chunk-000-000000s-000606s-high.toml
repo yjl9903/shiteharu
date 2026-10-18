@@ -1,0 +1,1503 @@
+name = "Punctuation cleanup suggestions"
+summary = "Remove ordinary Japanese subtitle punctuation that rajio check flags. Chunk 000 covers 0s-606.376s."
+created_by = "rajio"
+start = 0
+end = 606.376
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s1"
+ja = "ゴールデンウィークに続いてシルバーウィークができたなら"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s4"
+ja = "？な"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s6"
+ja = "何してはる？どうも してはるの師はシルバーウィークの師"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s7"
+ja = "自認シルバーウィークのしてはるです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s9"
+ja = "いな感じですが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s11"
+ja = "騒ぎな天気の大型連休だったみたいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s13"
+ja = "週間なシルバーウィーク"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s14"
+ja = "一体どこへお出かけするのが最適か ありますよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s15"
+ja = "バッチリピッタリ当てはまる場所"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s16"
+ja = "そう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s17"
+ja = "皆さんが思い浮かべたまさにそこ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s18"
+ja = "ということで"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s19"
+ja = "今回は最高にシルバーウィークのスポット"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s20"
+ja = "石川県にある白金沢へ遊びに行こうと思います"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s21"
+ja = "さて"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s22"
+ja = "贅沢に新幹線で向かいます"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s23"
+ja = "新幹線ってあんまり乗らないので"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s25"
+ja = "かなりお得ですね 本日向かっている白金沢 なんとシルバーウィ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s28"
+ja = "幻の街なんだとか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s29"
+ja = "楽しみですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s30"
+ja = "さあ 到着です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s31"
+ja = "すごい銀色の骨格がしっかりガッチリした駅"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s32"
+ja = "壮観です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s33"
+ja = "本日出迎えてくれるのは なんと気の利く空模様までシルバー揃"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s34"
+ja = "えときました 徹底した景観作りに感服ですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s35"
+ja = "さて まず向かう場所はやっぱり定番の茶屋街"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s36"
+ja = "せっかくなので散策してみましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s38"
+ja = "すが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s39"
+ja = "実はこれ禁句"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s40"
+ja = "小京都を名乗るためには"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s42"
+ja = "ないんだとか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s43"
+ja = "おもしれーですよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s44"
+ja = "ここもかつては加盟していたらしいんですが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s46"
+ja = "八年に退会しているため 現在は小京都を名乗っていない"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s47"
+ja = "等しくそれぞれに文化の歴史があるのだから"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s49"
+ja = "言葉になるのかは 一考してから発言したいものです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s50"
+ja = "お"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s51"
+ja = "何かいますね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s53"
+ja = "銀魚"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s56"
+ja = "賞用です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s57"
+ja = "用水路に泳いで泳いでいるんですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s58"
+ja = "ここにもいる"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s59"
+ja = "ここでは普通の光景なんでしょうか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s60"
+ja = "それにしても お寺や神社の多さと建築"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s61"
+ja = "物のこだわりが目立ちますね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s62"
+ja = "見かけたお寺"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s65"
+ja = "念し 気まぐれに参"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s66"
+ja = "籠計画に変更です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s67"
+ja = "手水って清めるための行為なのに"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s69"
+ja = "でいます"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s70"
+ja = "おや"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s71"
+ja = "忍者"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s72"
+ja = "のくせに見つけて欲しさが前面に出ています"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s74"
+ja = "寂しいですからね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s75"
+ja = "みーつけた"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s76"
+ja = "しておいてあげましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s77"
+ja = "参拝していたら"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s80"
+ja = "た"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s81"
+ja = "ここで私が二礼二拍手一礼大拍手大回転特大ジャンプしたら"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s82"
+ja = "異常行動集団と新たな伝統を作り上げられたかもしれませんが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s83"
+ja = "日本人代表としてなんとか気持ちを抑えました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s84"
+ja = "せっかくなのでおみくじも引いていきましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s86"
+ja = "者でもないラッキーな存在 しっかりと大吉を引いて裏付け証明"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s87"
+ja = "をしておきました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s88"
+ja = "お"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s89"
+ja = "イチョウの木ですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s91"
+ja = "色です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s94"
+ja = "数"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s95"
+ja = "ボトボト重い音を鳴らして落ちてきます 踏めば悲惨なのでくれ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s96"
+ja = "ぐれも足元注意ですが しかしこれだけ大きくて落葉と落実があ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s97"
+ja = "ればあれも一つくらい見つかるはず"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s99"
+ja = "ん"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s100"
+ja = "お"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s101"
+ja = "発見です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s102"
+ja = "銀色の葉"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s104"
+ja = "ですが 生態変化で最近はほとんど見られないんですよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s107"
+ja = "金沢だけなんです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s108"
+ja = "そして え"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s109"
+ja = "ーと 実は"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s110"
+ja = "ありました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s111"
+ja = "銀色の銀杏"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s113"
+ja = "が まさにそれを体現するような素晴らしい銀色ですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s114"
+ja = "これも白金沢でしか見られないもので"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s116"
+ja = "とか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s117"
+ja = "大変貴重なものが見られて嬉しいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s118"
+ja = "見つからないかもと思っていましたが 探してみるとそこそこの"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s119"
+ja = "数見つけることができました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s120"
+ja = "大吉のおみくじは伊達じゃなさそうですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s121"
+ja = "さすがに連休は人が多くて気が滅入りますが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s122"
+ja = "でもやっぱり有名なあれは外せないですよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s123"
+ja = "じゃじゃーん"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s124"
+ja = "白金沢お決まりの名物といえば 銀"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s125"
+ja = "箔ソフト"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s126"
+ja = "食用の銀箔を使っているので このままパクッと食べられちゃう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s127"
+ja = "んだそうです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s129"
+ja = "ん ミルクがとっても濃くて"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s130"
+ja = "美味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s131"
+ja = "銀"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s132"
+ja = "無味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s133"
+ja = "いい感じの大きな川があります"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s134"
+ja = "この辺は広くて人が少ないので一休みできそうな予感"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s135"
+ja = "お腹もペコペコになってきたので ここらでお昼ご飯にしましょ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s136"
+ja = "うか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s137"
+ja = "さて 名誉ある本日のお昼ご飯に採用されたのは"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s138"
+ja = "その辺の売店で買ってきましたよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s139"
+ja = "じゃじゃん"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s140"
+ja = "銀シャリ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s143"
+ja = "物みたいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s145"
+ja = "箔がのっているギリ寿司"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s146"
+ja = "銀箔が風に踊っている様子から かつお節ならぬ白金節と呼ばれ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s147"
+ja = "ているのだとか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s148"
+ja = "いただきます"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s150"
+ja = "ん"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s151"
+ja = "白米が割とべちゃっとしていて 美"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s152"
+ja = "味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s153"
+ja = "銀"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s154"
+ja = "無味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s155"
+ja = "続きまして まだあります"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s158"
+ja = "物"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s160"
+ja = "ん かっぱえびせん十パーセント増量"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s161"
+ja = "とポテトチップスコンソメ味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s164"
+ja = "別パッケージが採用されているんですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s166"
+ja = "ゃいますよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s168"
+ja = "銀麦"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s170"
+ja = "クールですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s171"
+ja = "並べてみるとかなりいい感じです 始めていきましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s173"
+ja = "会 吹き出さないビールなど"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s176"
+ja = "断"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s178"
+ja = "杯"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s179"
+ja = "うーん 強いて言うなら"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s181"
+ja = "ぬるい"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s182"
+ja = "四 五人ほどジョギングしている人に見られてしまいました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s183"
+ja = "金色まみれの宴会"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s186"
+ja = "丸出しで恥ずかしいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s187"
+ja = "このままポテトチップスも開けちゃいましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s189"
+ja = "中身は普通にコンソメ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s190"
+ja = "おや"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s192"
+ja = "箔フレークがまぶされていますね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s194"
+ja = "細かい"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s195"
+ja = "いただきます"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s197"
+ja = "ん"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s198"
+ja = "コンソメ味のパンチが効いていて美味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s199"
+ja = "銀"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s200"
+ja = "無味"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s201"
+ja = "カラスも羨ましそうにこちらを見てきますよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s202"
+ja = "光り物の多いこの町"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s204"
+ja = "？君にはあげませんよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s205"
+ja = "雨が降ってきました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s206"
+ja = "これぞ銀色の雨ですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s208"
+ja = "力を思い知らされます"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s209"
+ja = "ちょっくら橋の下で雨をしのばせてもらいましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s210"
+ja = "雨も止んだので少しぶらぶらしましょうか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s211"
+ja = "ひらけた緑と川がとっても気持ちいいです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s212"
+ja = "ニ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s214"
+ja = "散歩していたら元気なコケコッコーが聞こえてきたので"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s215"
+ja = "何かと思ったらニワトリが野に放たれています"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s216"
+ja = "どうやらここで飼育されているニワトリみたいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s217"
+ja = "大量のスズメと数羽のニワトリ コケコッコーを練習中の子もい"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s218"
+ja = "ます 最後 急に不安になっちゃう気持ちわかりますよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s219"
+ja = "話を聞くと たまにオーナーさんが外で作業する時"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s220"
+ja = "数羽一緒に外へ放しているのだとか 小屋の中のスズメやムクド"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s221"
+ja = "リは勝手に入ってきている子たちで たまにカラスも入ってきた"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s222"
+ja = "りするけど 結局なんだかんだうまく"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s223"
+ja = "共生しているみたいです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s225"
+ja = "ートが展示されているインスタレーションのアトリエで"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s226"
+ja = "とっても素敵空間でしたよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s227"
+ja = "歩いていたらまた大粒の雨が降ってきました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s228"
+ja = "いい感じの公園があったので ベンチでちょっと雨宿りさせても"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s229"
+ja = "らいましょう"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s232"
+ja = "存在"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s233"
+ja = "本当に面白い 雨を一時"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s235"
+ja = "感性も その豊かさを大切にしたいものですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s236"
+ja = "止みました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s237"
+ja = "通り雨だったみたいで助かりましたね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s238"
+ja = "そして雨が降ったということは"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s239"
+ja = "おそらくこの地面を掘れば"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s240"
+ja = "ありました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s241"
+ja = "五郎島銀時です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s242"
+ja = "銀色の雨が土に染み込むと 白銀イオンが反応して一時的に銀色"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s245"
+ja = "色する不思議な野菜なんですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s247"
+ja = "上品な甘さが特徴で これからの季節を背負うにはふさわしい"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s248"
+ja = "こうぼこぼなお芋です"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s249"
+ja = "さて 移動するべくバスへ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s250"
+ja = "乗車"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s251"
+ja = "バスの車窓に水滴が流れると"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s253"
+ja = "るので なんとなく目にも脳にも優しくてありがたいですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s254"
+ja = "気軽に海鮮丼に並んでみたら 三時間くらい待つことになってし"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s255"
+ja = "まい 気づけばすっかり夜になってしまいました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s256"
+ja = "おやつのつもりが夜ご飯になってしまいましたね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s257"
+ja = "昼の活気ある風景も良しですが 夜は暖"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s258"
+ja = "色に統一された温かい光"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s259"
+ja = "静けさと涼しさが心地よくて 夜こそが本来の姿のような気さえ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s260"
+ja = "します"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s262"
+ja = "夜も どちらも情緒的ですが その種類に違いがあって面白いです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s263"
+ja = "よね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s264"
+ja = "今回は深く紹介しませんでしたが 他にも断面がギンギラな栗"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s266"
+ja = "丼や"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s268"
+ja = "や銀ピラウ棒などなど"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s272"
+ja = "物を堪能しました"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s274"
+ja = "や"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s276"
+ja = "に煌びやか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s277"
+ja = "とっても可愛いですよね バリエーションも豊富で選ぶのに一苦"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s278"
+ja = "労でした"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s279"
+ja = "夜になるとこの辺りは一面銀世界になるようで"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s282"
+ja = "姿を消した後ですが"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s283"
+ja = "銀の面影や気配が感じられるのはなんとも面白いですよね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s286"
+ja = "沢へ遊びに行ってみてはいかがでしょうか"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s287"
+ja = "ちなみに今回の五連休は十一年ぶり 次の大型シルバーウィーク"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s289"
+ja = "六年後らしいですよ"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s290"
+ja = "六年後のシルバーウィークを迎えるのが先か"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s291"
+ja = "新たなキラキラ連休が生成されるのが先か"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s292"
+ja = "見ものですね"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s293"
+ja = "次は赤銀沢にも遊びに行ってみたいものです"
+
+[[operations]]
+op = "edit"
+reason = "Remove ordinary punctuation from Japanese subtitle text."
+confidence = "high"
+segment_id = "1-s294"
+ja = "それでは"

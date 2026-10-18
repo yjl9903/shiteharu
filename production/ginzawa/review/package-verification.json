@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "method": "Extracted into an unrelated temporary checkout, then built via the packaged shared Forge with the root locked Python environment.",
+  "subtitle_files": [
+    {
+      "file": "zh.performance.ass",
+      "byte_identical": true,
+      "sha256": "6e3fbefc8163f1f52e9f9fee9f8eef72139c0299dd77c7e81fbee81dcbffbd09"
+    },
+    {
+      "file": "ja.review.ass",
+      "byte_identical": true,
+      "sha256": "50a3c88ae0f0d2727078a4a245b42217ae912bd0736ccbe4240d05b9c6ea2d3d"
+    },
+    {
+      "file": "zh.srt",
+      "byte_identical": true,
+      "sha256": "a553174834d66c28fb33a7ff5ed63e7146825f109ae611c910ec6747c5e783bb"
+    },
+    {
+      "file": "ja.srt",
+      "byte_identical": true,
+      "sha256": "cd9c34d3d09cc4f680e433973c1d18412980a3e97657ef4bd9609360aadaf6b8"
+    }
+  ],
+  "event_evidence_images_present": 579,
+  "excluded": [
+    "source video",
+    "fonts/local",
+    "credentials",
+    "Python environment",
+    "render cache"
+  ],
+  "checks": [
+    "four subtitle files rebuilt byte-identically",
+    "all event evidence references resolve in extracted package",
+    "no absolute machine-specific paths in project text/config/review files",
+    "no symlinks or traversal paths in archive",
+    "no local fonts, environment files or cache entries"
+  ],
+  "note": "Video re-encoding requires source video and separately prepared local fonts; this check verifies editable subtitle rebuild and evidence portability."
+}

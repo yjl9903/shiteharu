@@ -1,0 +1,10 @@
+created_by = "main-user-revision"
+start = 1.134
+end = 8.375
+summary = "按用户反馈补回 a002 跑马灯句末问号。"
+
+[[operations]]
+op = "edit"
+segment_id = "a002"
+zh = "既然继黄金周之后 如今连白银周这样的假期都已经诞生了 那今后是不是也能期待一下青铜周这样的假期 铂金周这样的假期 甚至连极光周这样的假期也会出现呢～？"
+reason = "原文以〜？收尾，补回遗漏的疑问标点。"

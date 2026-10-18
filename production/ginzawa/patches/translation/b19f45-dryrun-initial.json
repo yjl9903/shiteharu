@@ -1,0 +1,131 @@
+{
+  "apply": {
+    "dry_run": true,
+    "stats": {
+      "edits": 92,
+      "splits": 0,
+      "merges": 0,
+      "inserts": 0,
+      "deletes": 0,
+      "total": 92
+    }
+  },
+  "check": {
+    "ok": false,
+    "range": {
+      "start": 209.409,
+      "end": 403.003
+    },
+    "counts": {
+      "fatal": 0,
+      "error": 3,
+      "warning": 2
+    },
+    "summary": [
+      {
+        "file": "translation/work/segments.toml",
+        "level": "error",
+        "code": "zh_line_break_can_merge_soft",
+        "count": 1,
+        "message": "Segment b043 Chinese text has 2 lines but merges to 13 chars; soft limit is 16. Use one line.",
+        "examples": [
+          {
+            "id": "b043"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "error",
+        "code": "zh_terminal_punctuation",
+        "count": 2,
+        "message": "Segment b007 Chinese line 1 ends with ordinary punctuation; subtitle lines should omit ordinary sentence-ending punctuation.",
+        "examples": [
+          {
+            "id": "b007"
+          },
+          {
+            "id": "b074"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "zh_line_break_can_merge_hard",
+        "count": 2,
+        "message": "Segment b013 Chinese text has 2 lines but merges to 18 chars; hard limit is 24. Prefer one line.",
+        "examples": [
+          {
+            "id": "b013"
+          },
+          {
+            "id": "b091"
+          }
+        ]
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": "b007",
+      "ja": "そしてエーット実は…",
+      "zh": "还有 嗯 其实…",
+      "issues": [
+        {
+          "level": "error",
+          "code": "zh_terminal_punctuation",
+          "message": "Segment b007 Chinese line 1 ends with ordinary punctuation; subtitle lines should omit ordinary sentence-ending punctuation."
+        }
+      ]
+    },
+    {
+      "id": "b013",
+      "ja": "少し時間が経つと黄色く変色するので\n流通することもないのだとか",
+      "zh": "听说放一会儿就会变黄\n所以也没法拿去卖",
+      "issues": [
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment b013 Chinese text has 2 lines but merges to 18 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "b043",
+      "ja": "「かつおぶし」ならぬ\n「しろがねぶし」と呼ばれているのだとか",
+      "zh": "所以这不叫「木鱼花」\n而叫「白银花」",
+      "issues": [
+        {
+          "level": "error",
+          "code": "zh_line_break_can_merge_soft",
+          "message": "Segment b043 Chinese text has 2 lines but merges to 13 chars; soft limit is 16. Use one line."
+        }
+      ]
+    },
+    {
+      "id": "b074",
+      "ja": "まあ中身は普通にコンソメ…",
+      "zh": "里面就是普通的清汤味…",
+      "issues": [
+        {
+          "level": "error",
+          "code": "zh_terminal_punctuation",
+          "message": "Segment b074 Chinese line 1 ends with ordinary punctuation; subtitle lines should omit ordinary sentence-ending punctuation."
+        }
+      ]
+    },
+    {
+      "id": "b091",
+      "ja": "どこまでも歓迎ムードで\n大吉の力を思い知らされます",
+      "zh": "处处都在欢迎我\n真是见识到大吉的威力了",
+      "issues": [
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment b091 Chinese text has 2 lines but merges to 18 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    }
+  ]
+}

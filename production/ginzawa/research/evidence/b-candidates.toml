@@ -1,0 +1,394 @@
+stride = 1
+width = 480
+columns = 4
+groups_per_sheet = 8
+crop = [0, 750, 1920, 330]
+white_threshold = 225
+candidate_neighbors = 2
+[[windows]]
+start = 315.9
+end = 316.5
+
+[[windows]]
+start = 377.0
+end = 377.6
+
+[[windows]]
+start = 292.0
+end = 292.7
+
+[[windows]]
+start = 269.8
+end = 270.5
+
+[[windows]]
+start = 383.0
+end = 384.0
+
+[[windows]]
+start = 355.0
+end = 356.0
+
+[[windows]]
+start = 377.0
+end = 378.0
+
+[[windows]]
+start = 340.0
+end = 341.0
+
+[[windows]]
+start = 370.0
+end = 371.0
+
+[[windows]]
+start = 396.0
+end = 397.0
+
+[[windows]]
+start = 365.0
+end = 366.0
+
+[[windows]]
+start = 347.0
+end = 348.0
+
+[[windows]]
+start = 386.0
+end = 387.0
+
+[[windows]]
+start = 388.0
+end = 389.0
+
+[[windows]]
+start = 357.0
+end = 358.0
+
+[[windows]]
+start = 349.0
+end = 350.0
+
+[[windows]]
+start = 378.0
+end = 379.0
+
+[[windows]]
+start = 376.0
+end = 377.0
+
+[[windows]]
+start = 390.0
+end = 391.0
+
+[[windows]]
+start = 368.0
+end = 369.0
+
+[[windows]]
+start = 343.0
+end = 344.0
+
+[[windows]]
+start = 366.0
+end = 367.0
+
+[[windows]]
+start = 373.0
+end = 374.0
+
+[[windows]]
+start = 348.0
+end = 349.0
+
+[[windows]]
+start = 371.0
+end = 372.0
+
+[[windows]]
+start = 392.0
+end = 393.0
+
+[[windows]]
+start = 374.0
+end = 375.0
+
+[[windows]]
+start = 399.0
+end = 400.0
+
+[[windows]]
+start = 351.0
+end = 352.0
+
+[[windows]]
+start = 344.0
+end = 345.0
+
+[[windows]]
+start = 342.0
+end = 343.0
+
+[[windows]]
+start = 352.0
+end = 353.0
+
+[[windows]]
+start = 359.0
+end = 360.0
+
+[[windows]]
+start = 362.0
+end = 363.0
+
+[[windows]]
+start = 381.0
+end = 382.0
+
+[[windows]]
+start = 328.0
+end = 329.0
+
+[[windows]]
+start = 313.0
+end = 314.0
+
+[[windows]]
+start = 292.0
+end = 293.0
+
+[[windows]]
+start = 308.0
+end = 309.0
+
+[[windows]]
+start = 323.0
+end = 324.0
+
+[[windows]]
+start = 333.0
+end = 334.0
+
+[[windows]]
+start = 337.0
+end = 338.0
+
+[[windows]]
+start = 294.0
+end = 295.0
+
+[[windows]]
+start = 315.0
+end = 316.0
+
+[[windows]]
+start = 281.0
+end = 282.0
+
+[[windows]]
+start = 300.0
+end = 301.0
+
+[[windows]]
+start = 305.0
+end = 306.0
+
+[[windows]]
+start = 310.0
+end = 311.0
+
+[[windows]]
+start = 279.0
+end = 280.0
+
+[[windows]]
+start = 317.0
+end = 318.0
+
+[[windows]]
+start = 335.0
+end = 336.0
+
+[[windows]]
+start = 307.0
+end = 308.0
+
+[[windows]]
+start = 312.0
+end = 313.0
+
+[[windows]]
+start = 298.0
+end = 299.0
+
+[[windows]]
+start = 302.0
+end = 303.0
+
+[[windows]]
+start = 283.0
+end = 284.0
+
+[[windows]]
+start = 277.0
+end = 278.0
+
+[[windows]]
+start = 319.0
+end = 320.0
+
+[[windows]]
+start = 322.0
+end = 323.0
+
+[[windows]]
+start = 334.0
+end = 335.0
+
+[[windows]]
+start = 297.0
+end = 298.0
+
+[[windows]]
+start = 289.0
+end = 290.0
+
+[[windows]]
+start = 331.0
+end = 332.0
+
+[[windows]]
+start = 311.0
+end = 312.0
+
+[[windows]]
+start = 285.0
+end = 286.0
+
+[[windows]]
+start = 371.7
+end = 372.2
+
+[[windows]]
+start = 378.6
+end = 379.2
+
+[[windows]]
+start = 219.0
+end = 220.0
+
+[[windows]]
+start = 244.0
+end = 245.0
+
+[[windows]]
+start = 274.0
+end = 275.0
+
+[[windows]]
+start = 212.0
+end = 213.0
+
+[[windows]]
+start = 272.0
+end = 273.0
+
+[[windows]]
+start = 214.0
+end = 215.0
+
+[[windows]]
+start = 262.0
+end = 263.0
+
+[[windows]]
+start = 224.0
+end = 225.0
+
+[[windows]]
+start = 221.0
+end = 222.0
+
+[[windows]]
+start = 275.0
+end = 276.0
+
+[[windows]]
+start = 233.0
+end = 234.0
+
+[[windows]]
+start = 260.0
+end = 261.0
+
+[[windows]]
+start = 247.0
+end = 248.0
+
+[[windows]]
+start = 270.0
+end = 271.0
+
+[[windows]]
+start = 240.0
+end = 241.0
+
+[[windows]]
+start = 250.0
+end = 251.0
+
+[[windows]]
+start = 226.0
+end = 227.0
+
+[[windows]]
+start = 267.0
+end = 268.0
+
+[[windows]]
+start = 263.0
+end = 264.0
+
+[[windows]]
+start = 225.0
+end = 226.0
+
+[[windows]]
+start = 230.0
+end = 231.0
+
+[[windows]]
+start = 217.0
+end = 218.0
+
+[[windows]]
+start = 235.0
+end = 236.0
+
+[[windows]]
+start = 209.0
+end = 210.0
+
+[[windows]]
+start = 258.0
+end = 259.0
+
+[[windows]]
+start = 256.0
+end = 257.0
+
+[[windows]]
+start = 266.0
+end = 267.0
+
+[[windows]]
+start = 268.0
+end = 269.0
+
+[[windows]]
+start = 243.0
+end = 244.0
+
+[[windows]]
+start = 253.0
+end = 254.0

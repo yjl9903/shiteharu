@@ -1,0 +1,3357 @@
+version = 1
+
+[source]
+kind = "translation"
+generated_at = "2026-10-17T18:37:27.398Z"
+
+[[segments]]
+id = "a001"
+start = 0
+end = 1.134
+speaker = "speaker_0"
+ja = "ばんわんこ〜"
+zh = "汪上好～"
+
+[[segments]]
+id = "a002"
+start = 1.134
+end = 8.375
+speaker = "speaker_0"
+ja = "ゴールデンウィークに続いてシルバーウィークが出来たなら今後ブロンズウィークもプラチナウィークもオーロラウィークも期待できるのでは〜？"
+zh = "既然继黄金周之后 如今连白银周这样的假期都已经诞生了 那今后是不是也能期待一下青铜周这样的假期 铂金周这样的假期 甚至连极光周这样的假期也会出现呢～？"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画1.134で挨拶からスクロール長文へ連続変更"
+
+[[segments.skip_checks]]
+code = "ja_line_hard_limit"
+reason = "原画は一つの横スクロール長文でありASR分割に戻さない"
+
+[[segments.skip_checks]]
+code = "zh_line_hard_limit"
+reason = "中文对应原片单一横向滚动长句；以滚动呈现，拆成静态短句会破坏原画笑点"
+
+[[segments]]
+id = "a003"
+start = 8.375
+end = 8.809
+speaker = "speaker_0"
+ja = "な"
+zh = "这么想的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画8.375で長文が消えて単独の『な』へ連続変更"
+
+[[segments]]
+id = "a004"
+start = 8.809
+end = 10.377
+speaker = "speaker_0"
+ja = "みなさ〜ん"
+zh = "大家——"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画8.809で『な』から呼びかけへ連続変更"
+
+[[segments]]
+id = "a005"
+start = 10.377
+end = 11.912
+speaker = "speaker_0"
+ja = "なにしてはる〜"
+zh = "都在干嘛哈噜～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画10.377の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a006"
+start = 11.912
+end = 14.081
+speaker = "speaker_0"
+ja = "どうも「してはる」の「し」は\nシルバーウィークの「シ」"
+zh = "大家好 「してはる」的「shi」\n就是「白银周」日语开头的「shi」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画11.912の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "原画の自己紹介は二行表示で保持"
+
+[[segments]]
+id = "a007"
+start = 14.081
+end = 16.25
+speaker = "speaker_0"
+ja = "自認シルバーウィークのしてはるです"
+zh = "我是自认白银周的してはる"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画14.081の黒背景への連続切替を確認"
+
+[[segments]]
+id = "a008"
+start = 16.25
+end = 17.484
+speaker = "speaker_0"
+ja = "自認している割には"
+zh = "嘴上这么说"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画16.250の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a009"
+start = 17.484
+end = 20.888
+speaker = "speaker_0"
+ja = "何日から何日までがなんなのか\nさっぱりみたいな感じですが"
+zh = "但到底哪天到哪天算什么假期\n我好像完全搞不清楚"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画17.484のツイート拡大と同時の連続換字"
+
+[[segments]]
+id = "a010"
+start = 20.888
+end = 24.791
+speaker = "speaker_0"
+ja = "どうやら世間はお騒がせ天気の\n大型連休だったみたいですね"
+zh = "看来大家这个长假\n没少被天气折腾呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画20.888の天気図への連続切替を確認"
+
+[[segments.skip_checks]]
+code = "zh_line_break_can_merge_soft"
+reason = "用户确认文风改句后保留既有双行演出，与底部原日文双行相邻；不因缩短文案改变已确认布局。"
+
+[[segments]]
+id = "a011"
+start = 24.791
+end = 26.994
+speaker = "speaker_0"
+ja = "そんな銀色週間なシルバーウィーク"
+zh = "这个银光闪闪的白银周"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画24.791の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a012"
+start = 26.994
+end = 29.396
+speaker = "speaker_0"
+ja = "一体どこへお出かけするのが最適か"
+zh = "到底去哪里玩最合适呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画26.994の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a013"
+start = 29.396
+end = 30.531
+speaker = "speaker_0"
+ja = "ありますよね〜"
+zh = "当然有啦～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画29.396の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a014"
+start = 30.531
+end = 32.332
+speaker = "speaker_0"
+ja = "ばっちりぴったり当てはまる場所"
+zh = "有个再合适不过的地方"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画30.531の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a015"
+start = 32.332
+end = 33
+speaker = "speaker_0"
+ja = "そう"
+zh = "没错"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画32.332の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a016"
+start = 33
+end = 34.334
+speaker = "speaker_0"
+ja = "みなさんが思い浮かべた"
+zh = "你们想到的那个地方"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画33.000の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a017"
+start = 34.334
+end = 35.435
+speaker = "speaker_0"
+ja = "まさにそこ！"
+zh = "就是那里！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画34.334で大文字に連続切替"
+
+[[segments]]
+id = "a018"
+start = 35.435
+end = 36.603
+speaker = "speaker_0"
+ja = "ということで今回は"
+zh = "所以这次要去的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画35.435の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a019"
+start = 36.603
+end = 38.639
+speaker = "speaker_0"
+ja = "最高にシルバーウィークなスポット"
+zh = "就是最有白银周气氛的地方"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画36.603の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a020"
+start = 38.639
+end = 40.541
+speaker = "speaker_0"
+ja = "石川県・銀沢"
+zh = "石川县·银泽"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画38.639で地名大見出しへ連続切替"
+
+[[segments]]
+id = "a021"
+start = 40.541
+end = 43.043
+speaker = "speaker_0"
+ja = "遊びに行こうと思いま〜す"
+zh = "我们去玩吧～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画40.541で背景と字幕が連続切替"
+
+[[segments]]
+id = "a022"
+start = 49.683
+end = 51.985
+speaker = "speaker_0"
+ja = "さて 贅沢に新幹線で向かいます"
+zh = "这次奢侈一把 坐新干线去"
+
+[[segments]]
+id = "a023"
+start = 51.985
+end = 53.987
+speaker = "speaker_0"
+ja = "新幹線ってあんまり乗らないので"
+zh = "平时不怎么坐新干线"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画51.985の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a024"
+start = 53.987
+end = 55.422
+speaker = "speaker_0"
+ja = "席に座っているだけで既に"
+zh = "光是坐在座位上"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画53.987の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a025"
+start = 55.422
+end = 57.658
+speaker = "speaker_0"
+ja = "トラベルで修学旅行な気分になって"
+zh = "就已经有了出游和修学旅行的感觉"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画55.422でトラベルの明朝体へ連続切替"
+
+[[segments]]
+id = "a026"
+start = 57.658
+end = 59.159
+speaker = "speaker_0"
+ja = "かなりお得"
+zh = "超划算"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画57.658の大文字への連続切替を確認"
+
+[[segments]]
+id = "a027"
+start = 59.159
+end = 61.128
+speaker = "speaker_0"
+ja = "本日向かっている銀沢"
+zh = "今天要去的银泽"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画59.159の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a028"
+start = 61.128
+end = 63.43
+speaker = "speaker_0"
+ja = "シルバーウィークの間だけ姿を現す"
+zh = "只在白银周期间现身"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画61.128の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a029"
+start = 63.43
+end = 65.699
+speaker = "speaker_0"
+ja = "超レアで幻の街"
+zh = "是座超稀有的梦幻城市"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画63.430の大見出しへの連続切替を確認"
+
+[[segments]]
+id = "a030"
+start = 65.699
+end = 67.434
+speaker = "speaker_0"
+ja = "楽しみですねぇ"
+zh = "真让人期待呀"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画65.699の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a031"
+start = 67.434
+end = 69.67
+speaker = "speaker_0"
+ja = "さあ 到着です"
+zh = "好 到啦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画67.434の駅到着画面への連続切替を確認"
+
+[[segments]]
+id = "a032"
+start = 69.67
+end = 72.873
+speaker = "speaker_0"
+ja = "すーごい銀色の骨格がしっかりがっちりした駅"
+zh = "哇 这车站的银色骨架可真扎实"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画69.670の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a033"
+start = 72.873
+end = 74.241
+speaker = "speaker_0"
+ja = "壮観です"
+zh = "真壮观"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画72.873の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a034"
+start = 74.241
+end = 76.476
+speaker = "speaker_0"
+ja = "本日出迎えてくれるのは〜"
+zh = "今天迎接我们的是～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画74.241の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a035"
+start = 76.476
+end = 77.945
+speaker = "speaker_0"
+ja = "曇天"
+zh = "阴天"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画76.476の曇天見出しへの連続切替を確認"
+
+[[segments]]
+id = "a036"
+start = 77.945
+end = 78.845
+speaker = "speaker_0"
+ja = "なんと気の利く"
+zh = "真贴心啊"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画77.945の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a037"
+start = 78.845
+end = 81.148
+speaker = "speaker_0"
+ja = "空模様までシルバー揃え"
+zh = "连天空都配成了银色"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画78.845の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a038"
+start = 81.148
+end = 83.717
+speaker = "speaker_0"
+ja = "徹底した景観作りに感服ですね"
+zh = "景观统一到这份上 真让人佩服"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画81.148の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a039"
+start = 83.717
+end = 86.119
+speaker = "speaker_0"
+ja = "さて まず向かう場所はやっぱり定番の"
+zh = "第一站当然要去经典的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画83.717の河川画面への連続切替を確認"
+
+[[segments]]
+id = "a040"
+start = 86.119
+end = 87.154
+speaker = "speaker_0"
+ja = "茶屋まち"
+zh = "茶屋街"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画86.119で茶屋まち見出しへ連続変更"
+
+[[segments]]
+id = "a041"
+start = 87.154
+end = 89.089
+speaker = "speaker_0"
+ja = "せっかくなので散策してみましょう"
+zh = "来都来了 就四处逛逛吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画87.154の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a042"
+start = 89.089
+end = 91.091
+speaker = "speaker_0"
+ja = "日本の伝統的な景観から"
+zh = "因为有着日本传统街景"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画89.089の街路画面への連続切替を確認"
+
+[[segments]]
+id = "a043"
+start = 91.091
+end = 93.226
+speaker = "speaker_0"
+ja = "「小京都」と\n呼ばれることもあるみたいですが"
+zh = "好像也有人把这里叫作「小京都」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画91.091の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "原画が小京都を一行目に置いた二行表示"
+
+[[segments]]
+id = "a044"
+start = 93.226
+end = 94.795
+speaker = "speaker_0"
+ja = "実はこれ禁句"
+zh = "其实这话不能说"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画93.226の禁句見出しへの連続切替を確認"
+
+[[segments]]
+id = "a045"
+start = 94.795
+end = 98.231
+speaker = "speaker_0"
+ja = "「小京都」と名乗るためには\n「全国京都会議」という団体に"
+zh = "想自称「小京都」\n得加入一个叫「全国京都会议」的组织"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画94.795の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a046"
+start = 98.231
+end = 101.034
+speaker = "speaker_0"
+ja = "条件を満たして\n加盟しなければならないんだとか"
+zh = "而且还得满足规定的条件才能入会"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画98.231の条件説明への連続換字を確認"
+
+[[segments]]
+id = "a047"
+start = 101.034
+end = 102.703
+speaker = "speaker_0"
+ja = "おもしれ〜ですよね"
+zh = "还挺有意思的吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画101.034の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a048"
+start = 102.703
+end = 104.805
+speaker = "speaker_0"
+ja = "ここもかつては加盟していたらしいのですが"
+zh = "这里以前好像也加入过"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画102.703の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a049"
+start = 104.805
+end = 106.74
+speaker = "speaker_0"
+ja = "2008年に退会しているため"
+zh = "不过2008年就退会了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画104.805の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a050"
+start = 106.74
+end = 108.976
+speaker = "speaker_0"
+ja = "現在は「小京都」を名乗っていない"
+zh = "所以现在并不自称「小京都」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画106.740の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a051"
+start = 108.976
+end = 111.311
+speaker = "speaker_0"
+ja = "等しくそれぞれに文化の歴史があるのだから"
+zh = "每个地方都有自己的文化历史"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画108.976の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a052"
+start = 111.311
+end = 115.816
+speaker = "speaker_0"
+ja = "その言葉が本当に褒め言葉になるのかは\n一考してから発言したいものです"
+zh = "这称呼到底算不算夸奖\n说之前还真得想一想"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画111.311の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a053"
+start = 115.816
+end = 118.051
+speaker = "speaker_0"
+ja = "お、何かいますね"
+zh = "咦 有什么东西"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画115.816の魚発見字幕への連続切替を確認"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画の『お、何かいますね』の読点を保持"
+
+[[segments]]
+id = "a054"
+start = 118.051
+end = 119.186
+speaker = "speaker_0"
+ja = "これは…"
+zh = "这是…"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画118.051の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画の溜めの点々を保持"
+
+[[segments.skip_checks]]
+code = "zh_terminal_punctuation"
+reason = "保留原画等待揭晓银鱼的悬念省略号"
+
+[[segments]]
+id = "a055"
+start = 119.186
+end = 120.354
+speaker = "speaker_0"
+ja = "銀魚"
+zh = "银鱼"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画119.186の銀魚見出しへの連続切替を確認"
+
+[[segments]]
+id = "a056"
+start = 120.354
+end = 124.124
+speaker = "speaker_0"
+ja = "銀沢を代表する\nフナを品種改良した観賞魚です"
+zh = "银泽的代表性观赏鱼\n是用鲫鱼改良培育出来的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画120.354の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a057"
+start = 124.124
+end = 126.159
+speaker = "speaker_0"
+ja = "用水路に泳いで...."
+zh = "在水渠里游着…"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画124.124の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画は泳いでの後に四つの点を表示"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画の言い淀みを示す末尾四点を保持"
+
+[[segments.skip_checks]]
+code = "zh_terminal_punctuation"
+reason = "此处怀疑鱼是否在游的迟疑是笑点，保留原画点点停顿"
+
+[[segments]]
+id = "a058"
+start = 126.159
+end = 128.128
+speaker = "speaker_0"
+ja = "泳いでいるんですね"
+zh = "还真是在游呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画126.159の強調字幕への連続切替を確認"
+
+[[segments]]
+id = "a059"
+start = 128.128
+end = 129.329
+speaker = "speaker_0"
+ja = "ここにもいる"
+zh = "这儿也有"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画128.128の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a060"
+start = 129.329
+end = 131.498
+speaker = "speaker_0"
+ja = "ここでは普通の光景なんでしょうか"
+zh = "这在当地很常见吗"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画129.329の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a061"
+start = 131.498
+end = 132.165
+speaker = "speaker_0"
+ja = "それにしても"
+zh = "话说"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画131.498の神社画面への連続切替を確認"
+
+[[segments]]
+id = "a062"
+start = 132.165
+end = 136.069
+speaker = "speaker_0"
+ja = "お寺や神社の多さと\n建築物のこだわりが目立ちますね"
+zh = "这里寺庙神社真多\n建筑也都很讲究呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画132.165の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "zh_line_break_can_merge_soft"
+reason = "对应原画寺庙神社与建筑讲究两个分句的上下两行布局"
+
+[[segments]]
+id = "a063"
+start = 136.069
+end = 140.407
+speaker = "speaker_0"
+ja = "見かけたお寺・神社全てに\n片っ端から参ろう計画は早々に断念し"
+zh = "本来想见到寺庙神社就挨个拜\n结果没多久就放弃了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画136.069の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a064"
+start = 140.407
+end = 142.943
+speaker = "speaker_0"
+ja = "気まぐれに参ろう計画に変更です"
+zh = "改成随心情参拜的计划"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画140.407の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a065"
+start = 142.943
+end = 145.045
+speaker = "speaker_0"
+ja = "手水って清めるための行為なのに"
+zh = "洗手漱口明明是为了净化身心"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画142.943の手水画面への連続切替を確認"
+
+[[segments]]
+id = "a066"
+start = 145.045
+end = 146.98
+speaker = "speaker_0"
+ja = "潔癖症には苦行だろうなと"
+zh = "有洁癖的人怕是要受罪"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画145.045の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a067"
+start = 146.98
+end = 147.914
+speaker = "speaker_0"
+ja = "いつも横目で見て"
+zh = "每次都这么想着瞄一眼"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画146.980の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a068"
+start = 147.914
+end = 149.783
+speaker = "speaker_0"
+ja = "余裕で口を濯いでいます"
+zh = "然后照样淡定地漱口"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画147.914の強調字幕への連続切替を確認"
+
+[[segments]]
+id = "a069"
+start = 149.783
+end = 150.484
+speaker = "speaker_0"
+ja = "おや！"
+zh = "哎呀！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画149.783の忍者画面への連続切替を確認"
+
+[[segments]]
+id = "a070"
+start = 150.484
+end = 151.652
+speaker = "speaker_0"
+ja = "忍者！"
+zh = "忍者！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画150.484の忍者見出しへの連続切替を確認"
+
+[[segments]]
+id = "a071"
+start = 151.652
+end = 154.855
+speaker = "speaker_0"
+ja = "のくせに、\n見つけて欲しさが全面に出ています"
+zh = "明明是忍者\n却浑身写着快来发现我"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画151.652の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "原画の『のくせに、』を独立一行にした二行表示を保持"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画の『のくせに、』の読点を保持"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画一行目末尾の読点を保持"
+
+[[segments.skip_checks]]
+code = "zh_line_break_can_merge_soft"
+reason = "上下两行分别呈现忍者身份与想被发现的反差，沿用原画布局"
+
+[[segments]]
+id = "a072"
+start = 154.855
+end = 158.258
+speaker = "speaker_0"
+ja = "かくれんぼでも見つけられないと\nちょっと寂しいですからね"
+zh = "毕竟躲猫猫时一直没人发现\n也是会有点寂寞的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画154.855の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a073"
+start = 158.258
+end = 160.661
+speaker = "speaker_0"
+ja = "みーつけた\nしておいてあげましょう"
+zh = "那就配合一下 说声找到你啦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画158.258の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "原画はみーつけたを上段に置く二行字幕"
+
+[[segments]]
+id = "a074"
+start = 160.661
+end = 163.43
+speaker = "speaker_0"
+ja = "参拝していたら周りの外国人観光客たちが"
+zh = "我参拜时 周围的外国游客们"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画160.661の参拝画面への連続切替を確認"
+
+[[segments]]
+id = "a075"
+start = 163.43
+end = 166.5
+speaker = "speaker_0"
+ja = "私に続いて一斉に二礼二拍手一礼しだして"
+zh = "跟着我鞠两次躬 拍两次手 再鞠躬"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画163.430の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a076"
+start = 166.5
+end = 167.801
+speaker = "speaker_0"
+ja = "愉快でした"
+zh = "可好玩了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画166.500の強調字幕への連続切替を確認"
+
+[[segments]]
+id = "a077"
+start = 167.801
+end = 172.439
+speaker = "speaker_0"
+ja = "ここで私が二礼二拍手一礼\n大拍手大回転特大ジャンプをしたら"
+zh = "要是我鞠两次躬拍两次手再鞠躬后\n又猛拍手大旋转来个超级跳"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画167.801の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a078"
+start = 172.439
+end = 174.675
+speaker = "speaker_0"
+ja = "異常行動集団と新たな伝統"
+zh = "一群怪人和全新传统"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画172.439の強調字幕への連続切替を確認"
+
+[[segments]]
+id = "a079"
+start = 174.675
+end = 176.176
+speaker = "speaker_0"
+ja = "を作り上げられたかもしれませんが"
+zh = "说不定就这样诞生了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画174.675の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a080"
+start = 176.176
+end = 179.146
+speaker = "speaker_0"
+ja = "日本人代表として\nなんとか気持ちを押さえました"
+zh = "但作为日本人代表\n我还是努力忍住了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画176.176の連続換字を隣接PTSで確認"
+
+[[segments.skip_checks]]
+code = "zh_line_break_can_merge_soft"
+reason = "保留原画日本人代表与克制冲动上下两行的布局"
+
+[[segments]]
+id = "a081"
+start = 179.146
+end = 181.682
+speaker = "speaker_0"
+ja = "せっかくなのでおみくじも引いていきましょう"
+zh = "来都来了 再抽个签吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画179.146のおみくじ画面への連続切替を確認"
+
+[[segments]]
+id = "a082"
+start = 181.682
+end = 185.352
+speaker = "speaker_0"
+ja = "してはるとかいう大吉以外の\nなにものでもないラッキーな存在"
+zh = "像してはる这么幸运的人\n简直就是大吉本吉"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画181.682の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a083"
+start = 185.352
+end = 186.353
+speaker = "speaker_0"
+ja = "しっかりと大吉を引いて"
+zh = "稳稳抽中了大吉"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画185.352の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a084"
+start = 186.353
+end = 188.488
+speaker = "speaker_0"
+ja = "裏付け証明しておきました"
+zh = "这下有证据了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画186.353の強調字幕への連続切替を確認"
+
+[[segments]]
+id = "a085"
+start = 188.488
+end = 189.056
+speaker = "speaker_0"
+ja = "お"
+zh = "咦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画188.489の銀杏画面への連続切替を確認"
+
+[[segments]]
+id = "a086"
+start = 189.056
+end = 190.924
+speaker = "speaker_0"
+ja = "銀杏の木ですね"
+zh = "是银杏树呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画189.056の銀杏見出しへの連続切替を確認"
+
+[[segments]]
+id = "a087"
+start = 190.924
+end = 192.659
+speaker = "speaker_0"
+ja = "まだ色づく前の緑色で"
+zh = "还没变色 仍是一片绿"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画190.924の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a088"
+start = 192.993
+end = 194.327
+speaker = "speaker_0"
+ja = "sssssssssssssssんごい"
+zh = "好～～～～～～～～多"
+
+[[segments]]
+id = "a089"
+start = 194.327
+end = 195.262
+speaker = "speaker_0"
+ja = "銀杏の数"
+zh = "银杏果"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画194.327の銀杏の数見出しへの連続切替を確認"
+
+[[segments]]
+id = "a090"
+start = 195.262
+end = 197.698
+speaker = "speaker_0"
+ja = "ボトボト重い音を鳴らして落ちてきます"
+zh = "落下来时砰砰响 听着好沉"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画195.262の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a091"
+start = 197.698
+end = 200.6
+speaker = "speaker_0"
+ja = "踏めば悲惨なのでくれぐれも足元注意ですが"
+zh = "踩到可就惨了 千万小心脚下"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画197.698の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a092"
+start = 200.6
+end = 203.37
+speaker = "speaker_0"
+ja = "しかしこれだけ大きくて落葉と落実があれば"
+zh = "不过树这么大 叶子果子掉这么多"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画200.600の連続換字を隣接PTSで確認"
+
+[[segments]]
+id = "a093"
+start = 203.37
+end = 205.772
+speaker = "speaker_0"
+ja = "「アレ」も一つくらい\n見つかるはず…"
+zh = "应该能找到一片「那个」吧…"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画203.370の期待を煽る字幕への連続切替を確認"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "原画の二行の強調字幕を保持"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画の溜めを表す末尾点々を保持"
+
+[[segments.skip_checks]]
+code = "zh_terminal_punctuation"
+reason = "原画故意不说那个是什么，省略号保留期待与搜索停顿"
+
+[[segments]]
+id = "a094"
+start = 205.772
+end = 207.474
+speaker = "speaker_0"
+ja = "ン～～～～～～～"
+zh = "嗯～～～～～～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画205.772の伸ばす鼻音への連続切替を確認"
+
+[[segments]]
+id = "a095"
+start = 207.474
+end = 208.075
+speaker = "speaker_0"
+ja = "ウオ！"
+zh = "哇！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画207.474の発見反応への連続切替を確認"
+
+[[segments]]
+id = "a096"
+start = 208.075
+end = 209.409
+speaker = "speaker_0"
+ja = "発見です！"
+zh = "找到了！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画208.075の発見見出しへの連続切替を確認"
+
+[[segments]]
+id = "b001"
+start = 209.409
+end = 210.61
+speaker = "speaker_0"
+ja = "銀色の葉"
+zh = "银色的叶子"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "209.376帧仍为発見です！；209.409帧切为銀色の葉，原片直接换字，无空白；主代理与A/B均已视觉确认"
+
+[[segments]]
+id = "b002"
+start = 210.61
+end = 212.779
+speaker = "speaker_0"
+ja = "本来、銀杏は銀色に色づくことから"
+zh = "银杏叶原本会变成银色"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画210.610の連続切替を隣接フレームで確認"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画に本来、の読点があるため保存"
+
+[[segments]]
+id = "b003"
+start = 212.779
+end = 214.381
+speaker = "speaker_0"
+ja = "その名前がつけられたんですが"
+zh = "所以才取了这个名字"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画212.779の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b004"
+start = 214.381
+end = 217.384
+speaker = "speaker_0"
+ja = "生態変化で最近は\nほとんど見られないんですよね"
+zh = "但生态变了 最近几乎见不到了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画214.381の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b005"
+start = 217.384
+end = 219.252
+speaker = "speaker_0"
+ja = "貴重な銀色の葉が見られるのは"
+zh = "如今还能看到这些珍贵银叶的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画217.384の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b006"
+start = 219.252
+end = 221.655
+speaker = "speaker_0"
+ja = "もうここ銀沢だけなんです"
+zh = "就只剩银泽这里了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画219.252の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b007"
+start = 221.655
+end = 224.191
+speaker = "speaker_0"
+ja = "そしてエーット実は…"
+zh = "还有 其实…"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画221.655の連続切替を隣接フレームで確認"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画のためらいを示す末尾三点を保存"
+
+[[segments.skip_checks]]
+code = "zh_terminal_punctuation"
+reason = "原画的省略号表现寻找银杏果时的迟疑，中文保留同一停顿"
+
+[[segments]]
+id = "b008"
+start = 224.191
+end = 225.058
+speaker = "speaker_0"
+ja = "ありました！"
+zh = "找到了！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画224.191の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b009"
+start = 225.058
+end = 226.626
+speaker = "speaker_0"
+ja = "銀色の銀杏"
+zh = "银色的银杏果"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画225.058の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b010"
+start = 226.626
+end = 230.23
+speaker = "speaker_0"
+ja = "銀杏は「銀のように光る杏」\nが名前の由来になっているんですが"
+zh = "银杏的意思是「银光闪闪的杏」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画226.626の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b011"
+start = 230.23
+end = 233.867
+speaker = "speaker_0"
+ja = "まさにそれを体現するような\n素晴らしい銀色ですね"
+zh = "这漂亮的银色还真是名副其实"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画230.230の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b012"
+start = 233.867
+end = 235.869
+speaker = "speaker_0"
+ja = "これも銀沢でしか見られないもので"
+zh = "这也是只有银泽才能见到的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画233.867の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b013"
+start = 235.869
+end = 240.24
+speaker = "speaker_0"
+ja = "少し時間が経つと黄色く変色するので\n流通することもないのだとか"
+zh = "听说放一会儿就会变黄\n所以也没法拿去卖"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画235.869の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b014"
+start = 240.24
+end = 243.21
+speaker = "speaker_0"
+ja = "大変貴重なものが見られて嬉しいですね"
+zh = "能见到这么稀罕的东西 真开心"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画240.240の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b015"
+start = 243.21
+end = 244.845
+speaker = "speaker_0"
+ja = "見つからないかもと思っていましたが"
+zh = "本来还以为找不到呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画243.210の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b016"
+start = 244.845
+end = 247.981
+speaker = "speaker_0"
+ja = "探してみるとそこそこの数\n見つけることができました"
+zh = "结果仔细找找 还找到了不少"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画244.845の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b017"
+start = 247.981
+end = 250.984
+speaker = "speaker_0"
+ja = "大吉恐るべし"
+zh = "大吉果然厉害"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画247.981の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b018"
+start = 250.984
+end = 253.72
+speaker = "speaker_0"
+ja = "さすがに連休は人が多くて気が滅入りますが"
+zh = "连休人多得让人有点心累"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画250.984の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b019"
+start = 253.72
+end = 256.69
+speaker = "speaker_0"
+ja = "でもやっぱり有名なアレは外せないですよね"
+zh = "不过那款招牌美食还是不能错过"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画253.720の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b020"
+start = 256.69
+end = 258.358
+speaker = "speaker_0"
+ja = "ジャジャ～～ン"
+zh = "锵锵～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画256.690の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b021"
+start = 258.358
+end = 260.761
+speaker = "speaker_0"
+ja = "銀沢お決まりの名物といえば"
+zh = "说到银泽必吃的特色美食"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画258.358の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b022"
+start = 260.761
+end = 262.162
+speaker = "speaker_0"
+ja = "銀箔ソフト"
+zh = "银箔冰淇淋"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画260.761の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b023"
+start = 262.162
+end = 263.83
+speaker = "speaker_0"
+ja = "食用の銀箔を使っていてるので"
+zh = "因为用的是食用银箔"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画262.162の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b024"
+start = 263.83
+end = 266.399
+speaker = "speaker_0"
+ja = "このままパクッと食べられちゃうのだそうです"
+zh = "据说可以直接一口咬下去"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画263.830の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b025"
+start = 266.399
+end = 267.234
+speaker = "speaker_0"
+ja = "ンー"
+zh = "嗯～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画266.399の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b026"
+start = 267.234
+end = 268.869
+speaker = "speaker_0"
+ja = "ミルクがとっても濃くて"
+zh = "奶味特别浓郁"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画267.234の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b027"
+start = 268.869
+end = 270.203
+speaker = "speaker_0"
+ja = "美味～"
+zh = "好吃～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画268.869の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b028"
+start = 270.203
+end = 270.837
+speaker = "speaker_0"
+ja = "銀"
+zh = "银"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画270.203の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b029"
+start = 270.837
+end = 272.372
+speaker = "speaker_0"
+ja = "無味～"
+zh = "无味～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画270.837の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b030"
+start = 275.509
+end = 277.811
+speaker = "speaker_0"
+ja = "いい感じの大きな川があります"
+zh = "这里有条挺漂亮的大河"
+
+[[segments]]
+id = "b031"
+start = 277.811
+end = 279.746
+speaker = "speaker_0"
+ja = "この辺は広くて人が少ないので"
+zh = "这一带宽敞 人也少"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画277.811の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b032"
+start = 279.746
+end = 281.915
+speaker = "speaker_0"
+ja = "一休みできそうな予感"
+zh = "感觉能好好歇一会儿"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画279.746の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b033"
+start = 281.915
+end = 283.483
+speaker = "speaker_0"
+ja = "お腹もぺこぺこになってきたので"
+zh = "肚子也饿得咕咕叫了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画281.915の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b034"
+start = 283.483
+end = 285.786
+speaker = "speaker_0"
+ja = "ここらでお昼ご飯にしましょうか"
+zh = "就在这儿吃午饭吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画283.483の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b035"
+start = 285.786
+end = 289.89
+speaker = "speaker_0"
+ja = "さて名誉ある本日の\nお昼ご飯に採用されたのは～"
+zh = "那么 荣幸入选今天午餐的是～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画285.786の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b036"
+start = 289.89
+end = 292.192
+speaker = "speaker_0"
+ja = "その辺の売店で買ってきましたよ"
+zh = "刚从旁边的小卖部买来的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画289.890の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b037"
+start = 292.192
+end = 292.959
+speaker = "speaker_0"
+ja = "ジャジャン"
+zh = "锵锵"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画292.192の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b038"
+start = 292.959
+end = 294.461
+speaker = "speaker_0"
+ja = "銀シャリ"
+zh = "银饭"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画292.959の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b039"
+start = 294.461
+end = 297.063
+speaker = "speaker_0"
+ja = "これも銀沢名物みたいですね"
+zh = "好像也是银泽的特色小吃"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画294.461の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b040"
+start = 297.063
+end = 298.799
+speaker = "speaker_0"
+ja = "白米の上に銀箔が乗っている"
+zh = "白米饭上面铺着银箔"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画297.063の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b041"
+start = 298.799
+end = 300.367
+speaker = "speaker_0"
+ja = "ギリ・寿司"
+zh = "勉强算寿司"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画298.799の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b042"
+start = 300.367
+end = 302.435
+speaker = "speaker_0"
+ja = "銀箔が風に踊っている様子から"
+zh = "因为银箔会随风起舞"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画300.367の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b043"
+start = 302.435
+end = 305.806
+speaker = "speaker_0"
+ja = "「かつおぶし」ならぬ\n「しろがねぶし」と呼ばれているのだとか"
+zh = "所以不叫「木鱼花」而叫「白银花」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画302.435の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b044"
+start = 305.806
+end = 307.44
+speaker = "speaker_0"
+ja = "いただきます"
+zh = "我开动了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画305.806の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b045"
+start = 307.44
+end = 308.675
+speaker = "speaker_0"
+ja = "ンーーー"
+zh = "嗯～～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画307.440の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b046"
+start = 308.675
+end = 310.71
+speaker = "speaker_0"
+ja = "白米が割とべちゃっとしていて"
+zh = "米饭煮得还挺湿黏的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画308.675の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b047"
+start = 310.71
+end = 311.678
+speaker = "speaker_0"
+ja = "美味"
+zh = "好吃"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画310.710の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b048"
+start = 311.678
+end = 312.345
+speaker = "speaker_0"
+ja = "銀"
+zh = "银"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画311.678の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b049"
+start = 312.345
+end = 313.28
+speaker = "speaker_0"
+ja = "無味"
+zh = "无味"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画312.345の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b050"
+start = 313.28
+end = 316.016
+speaker = "speaker_0"
+ja = "続きましてまだあります銀沢名物"
+zh = "接下来 还有银泽特产"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画313.280の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b051"
+start = 316.016
+end = 317.05
+speaker = "speaker_0"
+ja = "じゃじゃ～～ん"
+zh = "锵锵～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画316.016の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b052"
+start = 317.05
+end = 319.786
+speaker = "speaker_0"
+ja = "かっぱえびせん10%増量"
+zh = "卡乐比虾条 增量10%"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画317.050の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b053"
+start = 319.786
+end = 322.589
+speaker = "speaker_0"
+ja = "と、ポテトチップスコンソメ味"
+zh = "还有清汤味薯片"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画319.786の連続切替を隣接フレームで確認"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画の商品紹介にある読点を保存"
+
+[[segments]]
+id = "b054"
+start = 322.589
+end = 323.924
+speaker = "speaker_0"
+ja = "なんと銀沢エリアでは"
+zh = "没想到银泽这边"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画322.589の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b055"
+start = 323.924
+end = 328.862
+speaker = "speaker_0"
+ja = "全体を銀色であしらった\n特別パッケージが採用されているんですね"
+zh = "居然用的是通体银色的特别包装"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画323.924の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b056"
+start = 328.862
+end = 331.464
+speaker = "speaker_0"
+ja = "普段見慣れているものが\n特別仕様になっていると"
+zh = "平时见惯的东西换上特别版包装"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画328.862の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b057"
+start = 331.464
+end = 333.567
+speaker = "speaker_0"
+ja = "ワクワクしちゃいますよね"
+zh = "就会让人兴奋起来呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画331.464の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b058"
+start = 333.567
+end = 334.568
+speaker = "speaker_0"
+ja = "そして"
+zh = "还有"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画333.567の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b059"
+start = 334.568
+end = 335.902
+speaker = "speaker_0"
+ja = "銀麦"
+zh = "银麦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画334.568の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b060"
+start = 335.902
+end = 337.37
+speaker = "speaker_0"
+ja = "むしろ何も表示しないという"
+zh = "干脆什么都不标"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画335.902の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b061"
+start = 337.37
+end = 340.34
+speaker = "speaker_0"
+ja = "シンプルイズベストな\nデザインがクールですね"
+zh = "这种极简设计还挺酷的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画337.370の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b062"
+start = 340.34
+end = 342.342
+speaker = "speaker_0"
+ja = "並べてみるとかなりいい感じです"
+zh = "摆在一起还挺像样的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画340.340の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b063"
+start = 342.342
+end = 343.443
+speaker = "speaker_0"
+ja = "始めていきましょう"
+zh = "那就开始吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画342.342の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b064"
+start = 343.443
+end = 344.678
+speaker = "speaker_0"
+ja = "銀の宴会"
+zh = "银色盛宴"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画343.443の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b065"
+start = 344.678
+end = 347.314
+speaker = "speaker_0"
+ja = "吹き出さないビールなど言語道断"
+zh = "开盖不喷的啤酒 简直不像话"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画344.678の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b066"
+start = 347.314
+end = 348.715
+speaker = "speaker_0"
+ja = "乾杯"
+zh = "干杯"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画347.314の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b067"
+start = 348.715
+end = 349.683
+speaker = "speaker_0"
+ja = "ウーーン"
+zh = "嗯～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画348.715の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b068"
+start = 349.683
+end = 351.451
+speaker = "speaker_0"
+ja = "強いていうなら金麦より"
+zh = "非要和金麦比的话"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画349.683の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b069"
+start = 351.451
+end = 352.352
+speaker = "speaker_0"
+ja = "ぬるい"
+zh = "不够冰"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画351.451の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b070"
+start = 352.352
+end = 355.922
+speaker = "speaker_0"
+ja = "4、5人ほどジョギングしている人に\n見られてしまいました"
+zh = "被四五个跑步的人看见了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画352.352の連続切替を隣接フレームで確認"
+
+[[segments.skip_checks]]
+code = "ja_common_punctuation"
+reason = "原画の人数表記4、5人の読点を保存"
+
+[[segments]]
+id = "b071"
+start = 355.922
+end = 357.29
+speaker = "speaker_0"
+ja = "銀色まみれの宴会"
+zh = "这场银光闪闪的宴会"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画355.922の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b072"
+start = 357.29
+end = 359.926
+speaker = "speaker_0"
+ja = "観光客丸出しで恥ずかしいですね"
+zh = "一看就是游客 真不好意思"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画357.290の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b073"
+start = 359.926
+end = 362.462
+speaker = "speaker_0"
+ja = "このままポテトチップスも\n開けちゃいましょう"
+zh = "顺便把薯片也拆了吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画359.926の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b074"
+start = 362.462
+end = 365.165
+speaker = "speaker_0"
+ja = "まあ中身は普通にコンソメ…"
+zh = "里面就是普通的清汤味…"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画362.462の連続切替を隣接フレームで確認"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "原画のコンソメ…という発見前の三点を保存"
+
+[[segments.skip_checks]]
+code = "zh_terminal_punctuation"
+reason = "原画的省略号铺垫下一条发现银箔，中文保留同一转折停顿"
+
+[[segments]]
+id = "b075"
+start = 365.165
+end = 366.066
+speaker = "speaker_0"
+ja = "おや"
+zh = "咦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画365.165の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b076"
+start = 366.066
+end = 368.501
+speaker = "speaker_0"
+ja = "銀箔フレークがまぶされていますね"
+zh = "上面还撒着银箔碎片呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画366.066の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b077"
+start = 368.501
+end = 370.37
+speaker = "speaker_0"
+ja = "中身まで特別仕様とは"
+zh = "连里面都是特别版"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画368.501の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b078"
+start = 370.37
+end = 372.005
+speaker = "speaker_0"
+ja = "芸が細かい"
+zh = "细节真到位"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画370.370の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b079"
+start = 372.005
+end = 373.373
+speaker = "speaker_0"
+ja = "いただきます"
+zh = "我开动了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画372.005の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b080"
+start = 373.373
+end = 374.474
+speaker = "speaker_0"
+ja = "ンン～～"
+zh = "嗯嗯～～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画373.373の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b081"
+start = 374.474
+end = 376.176
+speaker = "speaker_0"
+ja = "コンソメ味のパンチが効いていて"
+zh = "清汤味还挺够劲的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画374.474の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b082"
+start = 376.176
+end = 377.143
+speaker = "speaker_0"
+ja = "美味"
+zh = "好吃"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画376.176の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b083"
+start = 377.143
+end = 377.878
+speaker = "speaker_0"
+ja = "銀"
+zh = "银"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画377.143の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b084"
+start = 377.878
+end = 379.012
+speaker = "speaker_0"
+ja = "無味"
+zh = "无味"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画377.878の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b085"
+start = 379.012
+end = 381.882
+speaker = "speaker_0"
+ja = "カラスにも羨ましそうにこちらを見てきますよ"
+zh = "连乌鸦都一脸羡慕地看过来了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画379.012の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b086"
+start = 381.882
+end = 383.35
+speaker = "speaker_0"
+ja = "光り物の多いこの街"
+zh = "这座城到处都是亮闪闪的东西"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画381.882の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b087"
+start = 383.35
+end = 386.62
+speaker = "speaker_0"
+ja = "必然的にカラスがたくさん\n住み着いているんでしょうか"
+zh = "所以才会有这么多乌鸦定居吗？"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画383.350の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b088"
+start = 386.62
+end = 388.722
+speaker = "speaker_0"
+ja = "君にはあげませんよ"
+zh = "可不会分给你哦"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画386.620の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b089"
+start = 388.722
+end = 390.257
+speaker = "speaker_0"
+ja = "雨が降ってきました"
+zh = "下雨了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画388.722の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b090"
+start = 390.257
+end = 392.192
+speaker = "speaker_0"
+ja = "これぞ銀色の雨ですね"
+zh = "这就是银色的雨吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画390.257の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b091"
+start = 392.192
+end = 396.162
+speaker = "speaker_0"
+ja = "どこまでも歓迎ムードで\n大吉の力を思い知らされます"
+zh = "处处都在欢迎我\n真是见识到大吉的威力了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画392.192の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "b092"
+start = 396.162
+end = 399.232
+speaker = "speaker_0"
+ja = "ちょっくら橋の下で\n雨を凌がせてもらいましょう"
+zh = "去桥底下躲会儿雨吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "原画396.162の連続切替を隣接フレームで確認"
+
+[[segments]]
+id = "c001"
+start = 403.003
+end = 405.972
+speaker = "speaker_0"
+ja = "雨も止んだので少しブラブラしましょうか"
+zh = "雨停了 再随便逛逛吧"
+
+[[segments]]
+id = "c002"
+start = 405.972
+end = 408.742
+speaker = "speaker_0"
+ja = "ひらけた緑と川がとっても気持ちいいです"
+zh = "绿地这么开阔 河水看着也舒服"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "405.972逐帧确认原画直接换字，无空帧"
+
+[[segments]]
+id = "c003"
+start = 409.776
+end = 411.177
+speaker = "speaker_0"
+ja = "ニワトリ"
+zh = "鸡"
+
+[[segments]]
+id = "c004"
+start = 411.177
+end = 414.014
+speaker = "speaker_0"
+ja = "散歩していたら元気な\nコケコッコーが聞こえてきたので"
+zh = "散步时听见响亮的喔喔叫声"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "411.177逐帧确认原画直接换字"
+
+[[segments]]
+id = "c005"
+start = 414.014
+end = 414.981
+speaker = "speaker_0"
+ja = "何かと思ったら"
+zh = "循声一看"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "414.014逐帧确认原画直接换字"
+
+[[segments]]
+id = "c006"
+start = 414.981
+end = 417.15
+speaker = "speaker_0"
+ja = "ニワトリが野に放たれています"
+zh = "原来是放出来溜达的鸡"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "414.981逐帧确认原画直接换字"
+
+[[segments]]
+id = "c007"
+start = 417.15
+end = 420.453
+speaker = "speaker_0"
+ja = "どうやらここで\n飼育されているニワトリみたいですね"
+zh = "看样子是这里养的鸡"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "417.150逐帧确认原画直接换字"
+
+[[segments]]
+id = "c008"
+start = 420.453
+end = 422.422
+speaker = "speaker_0"
+ja = "大量のスズメと数羽のニワトリ"
+zh = "一大群麻雀和几只鸡"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "420.453逐帧确认原画直接换字"
+
+[[segments]]
+id = "c009"
+start = 422.422
+end = 425.058
+speaker = "speaker_0"
+ja = "コケコッコー練習中の子もいます"
+zh = "还有正在练习打鸣的小家伙"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "422.422逐帧确认原画直接换字"
+
+[[segments]]
+id = "c010"
+start = 427.027
+end = 429.329
+speaker = "speaker_0"
+ja = "最後急に不安になっちゃう気持ち"
+zh = "叫到最后突然没了底气的感觉"
+
+[[segments]]
+id = "c011"
+start = 429.329
+end = 430.664
+speaker = "speaker_0"
+ja = "わかりますよ"
+zh = "我懂你"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "429.329逐帧确认原画直接换字"
+
+[[segments]]
+id = "c012"
+start = 430.664
+end = 433.8
+speaker = "speaker_0"
+ja = "話を聞くとたまに\nオーナーさんが外で作業する時"
+zh = "听说主人有时在外面干活"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "430.664逐帧确认原画直接换字"
+
+[[segments]]
+id = "c013"
+start = 433.8
+end = 436.136
+speaker = "speaker_0"
+ja = "数羽一緒に外へ放しているのだとか"
+zh = "就会顺便放几只鸡出来"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "433.800逐帧确认原画直接换字"
+
+[[segments]]
+id = "c014"
+start = 436.136
+end = 437.904
+speaker = "speaker_0"
+ja = "小屋の中のスズメやムクドリは"
+zh = "鸡舍里的麻雀和椋鸟"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "436.136逐帧确认原画直接换字"
+
+[[segments]]
+id = "c015"
+start = 437.904
+end = 439.472
+speaker = "speaker_0"
+ja = "勝手に入ってきている子達で"
+zh = "都是自己跑进来的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "437.904逐帧确认原画直接换字"
+
+[[segments]]
+id = "c016"
+start = 439.472
+end = 441.308
+speaker = "speaker_0"
+ja = "たまにカラスも入ってきたりするけど"
+zh = "偶尔也会有乌鸦进来"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "439.472逐帧确认原画直接换字"
+
+[[segments]]
+id = "c017"
+start = 441.308
+end = 444.311
+speaker = "speaker_0"
+ja = "結局なんだかんだ\nうまく共生しているみたいです"
+zh = "不过大家倒也相处得挺和谐"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "441.308逐帧确认原画直接换字"
+
+[[segments]]
+id = "c018"
+start = 444.311
+end = 445.946
+speaker = "speaker_0"
+ja = "ちなみにこの施設の中は"
+zh = "顺带一提 这里其实是间"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "444.311逐帧确认原画直接换字"
+
+[[segments]]
+id = "c019"
+start = 445.946
+end = 449.115
+speaker = "speaker_0"
+ja = "たくさんのたんぽぽの綿毛や\nピールアートが展示されている"
+zh = "展出蒲公英绒毛和果皮艺术的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "445.946逐帧确认原画直接换字"
+
+[[segments]]
+id = "c020"
+start = 449.115
+end = 450.483
+speaker = "speaker_0"
+ja = "インスタレーションなアトリエで"
+zh = "装置艺术工作室"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "449.115逐帧确认原画直接换字"
+
+[[segments]]
+id = "c021"
+start = 450.483
+end = 452.819
+speaker = "speaker_0"
+ja = "とっても素敵空間でしたよ"
+zh = "是个特别美好的地方"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "450.483逐帧确认原画直接换字"
+
+[[segments]]
+id = "c022"
+start = 460.694
+end = 463.763
+speaker = "speaker_0"
+ja = "歩いていたらまた大粒の雨が降ってきました"
+zh = "走着走着 又下起了大雨"
+
+[[segments]]
+id = "c023"
+start = 463.763
+end = 464.931
+speaker = "speaker_0"
+ja = "いい感じの公園があったので"
+zh = "正好有个不错的公园"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "463.763逐帧确认原画直接换字"
+
+[[segments]]
+id = "c024"
+start = 464.931
+end = 467.667
+speaker = "speaker_0"
+ja = "ベンチでちょっと雨宿りさせてもらいましょう"
+zh = "就在长椅上躲会儿雨吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "464.931逐帧确认原画直接换字"
+
+[[segments]]
+id = "c025"
+start = 467.667
+end = 470.971
+speaker = "speaker_0"
+ja = "空と身体の間に一枚板を\n挟むだけで濡れなくなる"
+zh = "在天空和身体之间隔块板就能挡雨"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "467.667逐帧确认原画直接换字"
+
+[[segments]]
+id = "c026"
+start = 470.971
+end = 472.138
+speaker = "speaker_0"
+ja = "屋根という存在"
+zh = "屋顶这种东西"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "470.971逐帧确认原画直接换字"
+
+[[segments]]
+id = "c027"
+start = 472.138
+end = 473.84
+speaker = "speaker_0"
+ja = "本当に面白い"
+zh = "真有意思"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "472.138逐帧确认原画直接换字"
+
+[[segments]]
+id = "c028"
+start = 473.84
+end = 475.909
+speaker = "speaker_0"
+ja = "雨を一時的に凌ぐこの時間も"
+zh = "暂时躲雨的这段时光也好"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "473.840逐帧确认原画直接换字"
+
+[[segments]]
+id = "c029"
+start = 475.909
+end = 478.611
+speaker = "speaker_0"
+ja = "雨宿りという単語を考えた人の感性も"
+zh = "给躲雨取名「雨宿」的那份心思也好"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "475.909逐帧确认原画直接换字"
+
+[[segments]]
+id = "c030"
+start = 478.611
+end = 481.314
+speaker = "speaker_0"
+ja = "その豊かさを大切にしたいものですね"
+zh = "这些细腻的感受 真想好好珍惜"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "478.611逐帧确认原画直接换字"
+
+[[segments]]
+id = "c031"
+start = 481.314
+end = 482.482
+speaker = "speaker_0"
+ja = "止みました"
+zh = "雨停了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "481.314逐帧确认原画直接换字"
+
+[[segments]]
+id = "c032"
+start = 482.482
+end = 485.118
+speaker = "speaker_0"
+ja = "通り雨だったみたいで助かりましたね"
+zh = "还好只是一场阵雨"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "482.482逐帧确认原画直接换字"
+
+[[segments]]
+id = "c033"
+start = 485.118
+end = 487.42
+speaker = "speaker_0"
+ja = "そして雨が降ったということは"
+zh = "既然下过雨了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "485.118逐帧确认原画直接换字"
+
+[[segments]]
+id = "c034"
+start = 487.42
+end = 490.056
+speaker = "speaker_0"
+ja = "おそらく地面を掘れば…"
+zh = "想必只要挖一挖地面"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "487.420逐帧确认原画直接换字"
+
+[[segments.skip_checks]]
+code = "ja_terminal_punctuation"
+reason = "实看原画句尾省略号，保留原画标点"
+
+[[segments]]
+id = "c035"
+start = 490.056
+end = 491.191
+speaker = "speaker_0"
+ja = "ありました！"
+zh = "找到了！"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "490.056逐帧确认原画直接换字"
+
+[[segments]]
+id = "c036"
+start = 491.191
+end = 493.226
+speaker = "speaker_0"
+ja = "吾郎島銀時"
+zh = "吾郎岛银时"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "491.191逐帧确认原画直接换字"
+
+[[segments]]
+id = "c037"
+start = 493.226
+end = 495.061
+speaker = "speaker_0"
+ja = "銀色の雨が土に染み込むと"
+zh = "银色的雨渗入土里后"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "493.226逐帧确认原画直接换字"
+
+[[segments]]
+id = "c038"
+start = 495.061
+end = 498.465
+speaker = "speaker_0"
+ja = "シロガニウムが反応して\n一時的に銀色に変色する"
+zh = "白银元素就会发生反应 让它暂时变成银色"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "495.061逐帧确认原画直接换字"
+
+[[segments]]
+id = "c039"
+start = 498.465
+end = 500.533
+speaker = "speaker_0"
+ja = "不思議な野菜なんですね～"
+zh = "真是神奇的蔬菜呢～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "498.465逐帧确认原画直接换字"
+
+[[segments]]
+id = "c040"
+start = 500.533
+end = 503.403
+speaker = "speaker_0"
+ja = "栗のようなホクホク感と上品な甘さが特徴で"
+zh = "像栗子一样粉糯 甜味也很细腻"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "500.533逐帧确认原画直接换字"
+
+[[segments]]
+id = "c041"
+start = 503.403
+end = 507.507
+speaker = "speaker_0"
+ja = "これからの季節を背負うに\nふさわしいこっぼこぼなお芋です"
+zh = "这粉糯松软的红薯\n正适合当下个季节的主角"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "503.403逐帧确认原画直接换字"
+
+[[segments]]
+id = "c042"
+start = 507.507
+end = 509.909
+speaker = "speaker_0"
+ja = "さて 移動するべくバスへ乗車"
+zh = "好了 坐上公交去下个地方"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "507.507逐帧确认原画直接换字"
+
+[[segments]]
+id = "c043"
+start = 509.909
+end = 513.58
+speaker = "speaker_0"
+ja = "バスの車窓に水滴が流れると\n強制的に景色がボヤけて"
+zh = "水滴滑过车窗 景色就被迫变得模糊"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "509.909逐帧确认原画直接换字"
+
+[[segments]]
+id = "c044"
+start = 513.58
+end = 515.915
+speaker = "speaker_0"
+ja = "詳細な情報をシャットアウトしてくれるので"
+zh = "替我屏蔽了那些细节信息"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "513.580逐帧确认原画直接换字"
+
+[[segments]]
+id = "c045"
+start = 515.915
+end = 519.285
+speaker = "speaker_0"
+ja = "なんとなく目にも脳にも\n優しくてありがたいですね"
+zh = "眼睛和脑袋都轻松了些 还挺贴心的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "515.915逐帧确认原画直接换字"
+
+[[segments]]
+id = "c046"
+start = 523.156
+end = 524.991
+speaker = "speaker_0"
+ja = "気軽に海鮮丼に並んでみたら"
+zh = "心血来潮排队吃个海鲜饭"
+
+[[segments]]
+id = "c047"
+start = 524.991
+end = 527.327
+speaker = "speaker_0"
+ja = "3時間待ち"
+zh = "一等就是3小时"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "524.991逐帧确认原画直接换字"
+
+[[segments]]
+id = "c048"
+start = 527.327
+end = 529.596
+speaker = "speaker_0"
+ja = "気づけばすっかり夜になってしまいました"
+zh = "回过神来 天已经全黑了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "527.327逐帧确认原画直接换字"
+
+[[segments]]
+id = "c049"
+start = 529.596
+end = 532.599
+speaker = "speaker_0"
+ja = "おやつのつもりが\n夜ご飯になってしまいましたね"
+zh = "本来想当加餐吃 结果成了晚饭"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "529.596逐帧确认原画直接换字"
+
+[[segments]]
+id = "c050"
+start = 532.599
+end = 534.634
+speaker = "speaker_0"
+ja = "昼の活気ある風景も良しですが"
+zh = "白天热热闹闹的也很好"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "532.599逐帧确认原画直接换字"
+
+[[segments]]
+id = "c051"
+start = 534.634
+end = 537.303
+speaker = "speaker_0"
+ja = "夜は暖色に統一されたあたたかい光"
+zh = "到了夜晚 灯光统一成温暖的色调"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "534.634逐帧确认原画直接换字"
+
+[[segments]]
+id = "c052"
+start = 537.303
+end = 539.339
+speaker = "speaker_0"
+ja = "静けさと涼しさが心地よくって"
+zh = "安安静静又凉快 真舒服"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "537.303逐帧确认原画直接换字"
+
+[[segments]]
+id = "c053"
+start = 539.339
+end = 542.042
+speaker = "speaker_0"
+ja = "夜こそが本来の姿のような気さえします"
+zh = "甚至觉得这才是它本来的模样"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "539.339逐帧确认原画直接换字"
+
+[[segments]]
+id = "c054"
+start = 542.042
+end = 544.978
+speaker = "speaker_0"
+ja = "コンクリートジャングルの夜も\nしっとりと品のある夜も"
+zh = "无论是钢筋水泥丛林的夜晚\n还是这般沉静雅致的夜色"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "542.042逐帧确认原画直接换字"
+
+[[segments]]
+id = "c055"
+start = 544.978
+end = 546.312
+speaker = "speaker_0"
+ja = "どちらも情緒的ですが"
+zh = "都很有情调"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "544.978逐帧确认原画直接换字"
+
+[[segments]]
+id = "c056"
+start = 546.312
+end = 549.315
+speaker = "speaker_0"
+ja = "その種類に違いがあって面白いですね"
+zh = "却各有各的韵味 真有意思"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "546.312逐帧确认原画直接换字"
+
+[[segments]]
+id = "c057"
+start = 549.315
+end = 551.818
+speaker = "speaker_0"
+ja = "今回は深く\n紹介しませんでしたが他にも"
+zh = "这次没详细介绍的还有"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "549.315逐帧确认原画直接换字"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "实看画面为两行，原画单位与行布局优先"
+
+[[segments]]
+id = "c058"
+start = 551.818
+end = 552.986
+speaker = "speaker_0"
+ja = "断面がギンギラな"
+zh = "切面银光闪闪的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "551.818逐帧确认原画直接换字"
+
+[[segments]]
+id = "c059"
+start = 552.986
+end = 554.254
+speaker = "speaker_0"
+ja = "栗ぎんとん"
+zh = "栗子银团"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "552.986逐帧确认原画直接换字"
+
+[[segments]]
+id = "c060"
+start = 554.254
+end = 556.056
+speaker = "speaker_0"
+ja = "表面が銀色でコーティングされた"
+zh = "表面裹着一层银色的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "554.254逐帧确认原画直接换字"
+
+[[segments]]
+id = "c061"
+start = 556.056
+end = 557.257
+speaker = "speaker_0"
+ja = "ぎんつば"
+zh = "银锷饼"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "556.056逐帧确认原画直接换字"
+
+[[segments]]
+id = "c062"
+start = 557.257
+end = 559.192
+speaker = "speaker_0"
+ja = "ギンピラごぼう"
+zh = "银平牛蒡"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "557.257逐帧确认原画直接换字"
+
+[[segments]]
+id = "c063"
+start = 559.192
+end = 562.429
+speaker = "speaker_0"
+ja = "様々な銀沢名物を堪能しました"
+zh = "各种银泽特产 都吃了个过瘾"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "559.192逐帧确认原画直接换字"
+
+[[segments]]
+id = "c064"
+start = 562.429
+end = 564.197
+speaker = "speaker_0"
+ja = "お土産にはやっぱり定番の"
+zh = "伴手礼当然要买经典的"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "562.429逐帧确认原画直接换字"
+
+[[segments]]
+id = "c065"
+start = 564.197
+end = 565.298
+speaker = "speaker_0"
+ja = "■■■ニア"
+zh = "■■■尼亚"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "564.197逐帧确认原画直接换字"
+
+[[segments]]
+id = "c066"
+start = 565.298
+end = 567.333
+speaker = "speaker_0"
+ja = "限定のシルバーなお洋服を着ていて"
+zh = "穿着限定款的银色小衣服"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "565.298逐帧确认原画直接换字"
+
+[[segments]]
+id = "c067"
+start = 567.333
+end = 568.802
+speaker = "speaker_0"
+ja = "非常に煌びやか"
+zh = "闪闪发亮"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "567.333逐帧确认原画直接换字"
+
+[[segments]]
+id = "c068"
+start = 568.802
+end = 570.537
+speaker = "speaker_0"
+ja = "とってもかわいいですよね"
+zh = "真的特别可爱"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "568.802逐帧确认原画直接换字"
+
+[[segments]]
+id = "c069"
+start = 570.537
+end = 573.44
+speaker = "speaker_0"
+ja = "バリエーションも豊富で選ぶのに一苦労でした"
+zh = "款式还很丰富 选起来可费劲了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "570.537逐帧确认原画直接换字"
+
+[[segments]]
+id = "c070"
+start = 573.44
+end = 576.409
+speaker = "speaker_0"
+ja = "冬になるとこのあたりは一面銀世界になるようで"
+zh = "听说一到冬天 这里就会银装素裹"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "573.440逐帧确认原画直接换字"
+
+[[segments]]
+id = "c071"
+start = 576.409
+end = 578.511
+speaker = "speaker_0"
+ja = "銀沢は姿を消した後ですが"
+zh = "虽然那时银泽早已消失"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "576.409逐帧确认原画直接换字"
+
+[[segments]]
+id = "c072"
+start = 578.511
+end = 582.449
+speaker = "speaker_0"
+ja = "銀の面影や気配が感じられるのは\nなんとも面白いですよね"
+zh = "却还能感受到银色的痕迹和气息 真是奇妙"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "578.511逐帧确认原画直接换字"
+
+[[segments]]
+id = "c073"
+start = 582.449
+end = 584.751
+speaker = "speaker_0"
+ja = "みなさんも是非\n次のシルバーウィークには"
+zh = "大家下次白银周"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "582.449逐帧确认原画直接换字"
+
+[[segments.skip_checks]]
+code = "ja_line_break_can_merge_soft"
+reason = "实看画面为两行，原画单位与行布局优先"
+
+[[segments]]
+id = "c074"
+start = 584.751
+end = 586.619
+speaker = "speaker_0"
+ja = "銀沢へ遊びに行ってみては"
+zh = "也来银泽玩玩"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "584.751逐帧确认原画直接换字"
+
+[[segments]]
+id = "c075"
+start = 586.619
+end = 588.188
+speaker = "speaker_0"
+ja = "いかがでしょうか"
+zh = "怎么样呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "586.619逐帧确认原画直接换字"
+
+[[segments]]
+id = "c076"
+start = 588.188
+end = 590.99
+speaker = "speaker_0"
+ja = "ちなみに今回の5連休は11年ぶり"
+zh = "上次这样的五连休 是11年前了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "588.188逐帧确认原画直接换字"
+
+[[segments]]
+id = "c077"
+start = 590.99
+end = 592.892
+speaker = "speaker_0"
+ja = "次の大型シルバーウィークは"
+zh = "下一个这么长的白银周"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "590.990逐帧确认原画直接换字"
+
+[[segments]]
+id = "c078"
+start = 592.892
+end = 594.761
+speaker = "speaker_0"
+ja = "6年後らしいですよ"
+zh = "据说要等到6年后了"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "592.892逐帧确认原画直接换字"
+
+[[segments]]
+id = "c079"
+start = 594.761
+end = 597.263
+speaker = "speaker_0"
+ja = "6年後のシルバーウィークを迎えるのが先か"
+zh = "究竟是6年后的白银周先到来"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "594.761逐帧确认原画直接换字"
+
+[[segments]]
+id = "c080"
+start = 597.263
+end = 600.366
+speaker = "speaker_0"
+ja = "新たなキラキラ連休が生成されるのが先か"
+zh = "还是先冒出个闪闪发亮的新连休"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "597.263逐帧确认原画直接换字"
+
+[[segments]]
+id = "c081"
+start = 600.366
+end = 601.801
+speaker = "speaker_0"
+ja = "見ものですね"
+zh = "拭目以待吧"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "600.366逐帧确认原画直接换字"
+
+[[segments]]
+id = "c082"
+start = 601.801
+end = 603.103
+speaker = "speaker_0"
+ja = "次は「銅沢」"
+zh = "下一站「铜泽」"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "601.801逐帧确认原画直接换字"
+
+[[segments]]
+id = "c083"
+start = 603.103
+end = 605.038
+speaker = "speaker_0"
+ja = "遊びに行ってみたいものです"
+zh = "真想去玩玩呢"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "603.103逐帧确认原画直接换字"
+
+[[segments]]
+id = "c084"
+start = 605.038
+end = 606.606
+speaker = "speaker_0"
+ja = "soreidewa ～"
+zh = "那么 下次再见啦～"
+
+[[segments.skip_checks]]
+code = "subtitle_gap_too_short"
+reason = "605.038逐帧确认原画直接换字"

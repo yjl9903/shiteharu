@@ -1,0 +1,54 @@
+worker = "a6ca4a"
+scope = "a001–a096 and seven translated supplemental texts"
+status = "A design passed: all 106 event comparisons visually reviewed in pass2, a029 final relocation re-rendered and passed"
+event_file = "design/events-a.toml"
+main_events = 96
+supplemental_records = 10
+source_review = "复看开场三张联系表、36–209秒全部十五张联系表、a003/a015短句原始帧、七条旁注原图，并新查看a088全部连续源PTS帧。沿用校对阶段已逐条实看的首尾相邻帧证据。source_boxes为人工保守墨迹外框，未声称像素分割测量。"
+validation = "106条A事件必填字段完整；96主ID唯一完整；证据相对路径全部存在；只读调用Forge事件序列化验证成功，未写全局ASS/SRT或调用build。"
+font_substitutions = ["普通圆黑体使用 Resource Han Rounded；第二轮按实际墨迹校准可见字高", "粗明朝体使用思源宋体 Heavy", "禁句使用共享重建 GinzawaFractureSC；厚重裂纹结构接近原画，不声称识别原作者字体", "轻手写旁注使用霞鹜文楷；细长拖音使用悠哉", "角黑体使用 MiSans；してはる四假名通过 text_runs 使用 Hiragino Sans"]
+layout_limits = ["顶部避脸的普通句及双行句偏离源底部位置，已逐条说明并实看", "a020/a029大标题均改顶部，避免上移一行新增遮脸；a002横滚保留有意强调遮下脸", "a002中文自然宽度不同，以实际墨迹宽5508px校准运动，早中末已实看；末尾与源尾句同步保留", "a009一行横向压缩明显，白区高度有限；实际墨迹顶余量12px且未盖推文作者", "认证旁注原画近顶，中文改右旁；第三条放大推文译文上移避免原片主字幕", "源推文作者账号及品牌logo不重复翻译"]
+priority_review = ["1.134–8.809：横滚读完时刻、边界尾句与后续这么想的衔接", "11.912–20.888：日文名字混排，三条推文17.484同步放大且不遮原正文", "38.639–40.541与63.430–65.699：大标题量级与允许的强调遮脸", "76.476–83.717：阴天巨字、软阴影、中央头像避让", "93.226–101.034：禁句笔刷及网页截图", "126.159–128.128：大明朝体与游泳旁注双层", "151.652–160.661：忍者旁注与普通双行", "167.801–179.146：明朝体夸张长句和中央脸部", "186.353–188.488：认证旁注与主轨", "192.993–194.327：连续擦出初态/中态/终态", "205.772–209.409：鼻音、窄高哇！、发现三拍"]
+
+[wipe_a088]
+capture = "frames/a-style-s-growth/capture.json"
+index = "frames/a-style-s-growth/index.json"
+sheets = ["frames/a-style-s-growth/sheet-000.jpg", "frames/a-style-s-growth/sheet-001.jpg"]
+observed_behavior = "固定左缘，裁切边缘每帧向右推进；s和末尾假名均可见半字，不是整字跳现，也不居中重排。"
+last_blank_pts = 192.959
+first_visible_pts = 192.993
+first_partial_n_pts = 193.794
+first_partial_go_pts = 193.894
+first_partial_i_pts = 193.960
+complete_phrase_pts = 194.027
+last_phrase_pts = 194.294
+next_caption_pts = 194.327
+translated_effect = "wipe"
+translated_duration_ms = 1034
+limitation = "中文8个波浪对应15个s，字形长度不同；保留连续擦出节奏。最终clip已经按libass实际墨迹加3px边距校准，早中末三态实看通过。"
+
+[render_pass1]
+status = "Historical pass1: all106 comparisons viewed, corrections subsequently rebuilt and verified in pass2"
+sheets = "frames/comparison-a-pass1/sheet-000.jpg through sheet-035.jpg"
+index = "frames/comparison-a-pass1/index.json"
+layout_report = "review/layout-a-pass1.json"
+extra_times = [1.25, 8.3, 193.06, 193.4, 194.1]
+extra_evidence = ["frames/comparison-a-pass1-at-1.25/sheet-000.jpg", "frames/comparison-a-pass1-at-8.3/sheet-000.jpg", "frames/comparison-a-pass1-at-193.06/sheet-000.jpg", "frames/comparison-a-pass1-at-193.4/sheet-000.jpg", "frames/comparison-a-pass1-at-194.1/sheet-000.jpg"]
+findings = "圆体、明朝体及旁注实际可见字高普遍不足；全部逐条重设字号。a004/a015/a017碰原字或下脸，改顶部。a020大标题上移新遮脸，改顶部并撤销遮脸许可。a044实际笔刷太细，采用实看的共享破损重宋体候选，顶部避脸。a009顶部主句过小，重设为可见高116px单行并保留推文作者上方余白。"
+scroll = "实看首/中/末：原225字号校准墨迹宽5508px；终点x=-4860，使尾墨迹最终右缘650px；首字起左缘1500px。其后第二轮新快照已确认末帧不提前消失。"
+wipe = "放大到190后完整实墨迹[322,738,1642,875]；clip加3px边距设[319,735,1645,878]，避免旧大clip导致提前擦完。"
+layout_followup = "第二版布局候选多为保守人物框含颈部，不能当作真实遮脸；其后第二轮已逐条确认。a007贴近源字边界已额外上移20px并实看通过。"
+
+[render_pass2]
+status = "All106 event comparisons viewed; 105 passed, a029 relocated and then separately passed"
+index = "frames/comparison-a-pass2/index.json"
+visual_results = "review/a-pass2-visual.json"
+layout_report = "review/layout-a-pass2.json"
+final_layout_report = "review/layout-final-all.json"
+extra_times = [1.25, 4.755, 8.3, 193.06, 193.4, 194.1]
+final_a029 = "frames/comparison-a-pass3-a029/sheet-000.jpg"
+source_overlap_count = 0
+unapproved_edge_count = 0
+face_candidate_count = 19
+face_review = "17条中央下方候选实际为颈、衣领、衣服区域；a064为右下头像左侧发梢边缘，a077为顶部头发；无新增面部遮挡。具体ID和各条截图记录见visual_results。不为消除候选擅改allow_face_overlap。"
+animation_review = "滚动1.25/4.755/8.3秒及wipe193.06/193.4/194.1秒全部实看；首中末、字高和原字间隙通过。三条tweet缩放前后均在全106条中逐项看过；游泳/可爱/认证旁注叠层通过。"

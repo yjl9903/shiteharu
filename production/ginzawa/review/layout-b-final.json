@@ -1,0 +1,1525 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "b001",
+      "time": 210.01,
+      "ink_bounds": [
+        344,
+        115,
+        1574,
+        427
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b001-0.png"
+    },
+    {
+      "id": "b002",
+      "time": 211.695,
+      "ink_bounds": [
+        583,
+        868,
+        1337,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b002-0.png"
+    },
+    {
+      "id": "b003",
+      "time": 213.58,
+      "ink_bounds": [
+        620,
+        868,
+        1298,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b003-0.png"
+    },
+    {
+      "id": "b004",
+      "time": 215.882,
+      "ink_bounds": [
+        485,
+        772,
+        1429,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b004-0.png"
+    },
+    {
+      "id": "b005",
+      "time": 218.318,
+      "ink_bounds": [
+        471,
+        868,
+        1448,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b005-0.png"
+    },
+    {
+      "id": "b006",
+      "time": 220.454,
+      "ink_bounds": [
+        658,
+        868,
+        1257,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b006-0.png"
+    },
+    {
+      "id": "b007",
+      "time": 222.923,
+      "ink_bounds": [
+        760,
+        868,
+        1156,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b007-0.png"
+    },
+    {
+      "id": "b008",
+      "time": 224.625,
+      "ink_bounds": [
+        624,
+        673,
+        1190,
+        845
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b008-0.png"
+    },
+    {
+      "id": "b009",
+      "time": 225.842,
+      "ink_bounds": [
+        191,
+        115,
+        1728,
+        427
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b009-0.png"
+    },
+    {
+      "id": "b010",
+      "time": 228.428,
+      "ink_bounds": [
+        458,
+        773,
+        1419,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b010-0.png"
+    },
+    {
+      "id": "b011",
+      "time": 232.048,
+      "ink_bounds": [
+        471,
+        772,
+        1447,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b011-0.png"
+    },
+    {
+      "id": "b012",
+      "time": 234.868,
+      "ink_bounds": [
+        508,
+        868,
+        1411,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b012-0.png"
+    },
+    {
+      "id": "b013",
+      "time": 238.055,
+      "ink_bounds": [
+        585,
+        663,
+        1336,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b013-0.png"
+    },
+    {
+      "id": "b014",
+      "time": 241.725,
+      "ink_bounds": [
+        391,
+        60,
+        1529,
+        170
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b014-0.png"
+    },
+    {
+      "id": "b015",
+      "time": 244.028,
+      "ink_bounds": [
+        622,
+        868,
+        1300,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b015-0.png"
+    },
+    {
+      "id": "b016",
+      "time": 246.413,
+      "ink_bounds": [
+        499,
+        773,
+        1419,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b016-0.png"
+    },
+    {
+      "id": "b017",
+      "time": 249.483,
+      "ink_bounds": [
+        512,
+        688,
+        1405,
+        861
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b017-0.png"
+    },
+    {
+      "id": "b018",
+      "time": 252.352,
+      "ink_bounds": [
+        544,
+        51,
+        1372,
+        135
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b018-0.png"
+    },
+    {
+      "id": "b019",
+      "time": 255.205,
+      "ink_bounds": [
+        460,
+        51,
+        1462,
+        135
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b019-0.png"
+    },
+    {
+      "id": "b020",
+      "time": 257.524,
+      "ink_bounds": [
+        806,
+        868,
+        1111,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b020-0.png"
+    },
+    {
+      "id": "b021",
+      "time": 259.56,
+      "ink_bounds": [
+        545,
+        868,
+        1374,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b021-0.png"
+    },
+    {
+      "id": "b022",
+      "time": 261.462,
+      "ink_bounds": [
+        244,
+        115,
+        1680,
+        427
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b022-0.png"
+    },
+    {
+      "id": "b023",
+      "time": 262.996,
+      "ink_bounds": [
+        623,
+        868,
+        1299,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b023-0.png"
+    },
+    {
+      "id": "b024",
+      "time": 265.115,
+      "ink_bounds": [
+        545,
+        868,
+        1374,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b024-0.png"
+    },
+    {
+      "id": "b025",
+      "time": 266.817,
+      "ink_bounds": [
+        889,
+        886,
+        1030,
+        957
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b025-0.png"
+    },
+    {
+      "id": "b026",
+      "time": 268.052,
+      "ink_bounds": [
+        732,
+        868,
+        1187,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b026-0.png"
+    },
+    {
+      "id": "b027",
+      "time": 269.536,
+      "ink_bounds": [
+        739,
+        718,
+        1176,
+        869
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b027-0.png"
+    },
+    {
+      "id": "b028",
+      "time": 270.52,
+      "ink_bounds": [
+        867,
+        82,
+        1055,
+        268
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b028-0.png"
+    },
+    {
+      "id": "b029",
+      "time": 271.605,
+      "ink_bounds": [
+        491,
+        22,
+        1423,
+        339
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b029-0.png"
+    },
+    {
+      "id": "b-aside-001",
+      "time": 274.141,
+      "ink_bounds": [
+        784,
+        933,
+        1136,
+        979
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b-aside-001-0.png"
+    },
+    {
+      "id": "b-aside-001",
+      "time": 274.792,
+      "ink_bounds": [
+        784,
+        932,
+        1137,
+        979
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b-aside-001-1.png"
+    },
+    {
+      "id": "b-aside-001",
+      "time": 275.442,
+      "ink_bounds": [
+        784,
+        932,
+        1137,
+        979
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b-aside-001-2.png"
+    },
+    {
+      "id": "b030",
+      "time": 276.66,
+      "ink_bounds": [
+        583,
+        867,
+        1338,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b030-0.png"
+    },
+    {
+      "id": "b031",
+      "time": 278.779,
+      "ink_bounds": [
+        649,
+        868,
+        1270,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b031-0.png"
+    },
+    {
+      "id": "b032",
+      "time": 280.831,
+      "ink_bounds": [
+        620,
+        869,
+        1301,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b032-0.png"
+    },
+    {
+      "id": "b033",
+      "time": 282.699,
+      "ink_bounds": [
+        620,
+        869,
+        1295,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b033-0.png"
+    },
+    {
+      "id": "b034",
+      "time": 284.635,
+      "ink_bounds": [
+        658,
+        868,
+        1263,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b034-0.png"
+    },
+    {
+      "id": "b035",
+      "time": 287.838,
+      "ink_bounds": [
+        486,
+        773,
+        1432,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b035-0.png"
+    },
+    {
+      "id": "b036",
+      "time": 291.041,
+      "ink_bounds": [
+        548,
+        867,
+        1373,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b036-0.png"
+    },
+    {
+      "id": "b037",
+      "time": 292.576,
+      "ink_bounds": [
+        869,
+        855,
+        1050,
+        946
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b037-0.png"
+    },
+    {
+      "id": "b038",
+      "time": 293.71,
+      "ink_bounds": [
+        624,
+        124,
+        1296,
+        462
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b038-0.png"
+    },
+    {
+      "id": "b039",
+      "time": 295.762,
+      "ink_bounds": [
+        545,
+        868,
+        1376,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b039-0.png"
+    },
+    {
+      "id": "b040",
+      "time": 297.931,
+      "ink_bounds": [
+        626,
+        868,
+        1299,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b040-0.png"
+    },
+    {
+      "id": "b041",
+      "time": 299.583,
+      "ink_bounds": [
+        335,
+        88,
+        1597,
+        449
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b041-0.png"
+    },
+    {
+      "id": "b042",
+      "time": 301.401,
+      "ink_bounds": [
+        623,
+        868,
+        1300,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b042-0.png"
+    },
+    {
+      "id": "b043",
+      "time": 304.12,
+      "ink_bounds": [
+        458,
+        773,
+        1425,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b043-0.png"
+    },
+    {
+      "id": "b044",
+      "time": 306.623,
+      "ink_bounds": [
+        808,
+        869,
+        1108,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b044-0.png"
+    },
+    {
+      "id": "b045",
+      "time": 308.058,
+      "ink_bounds": [
+        817,
+        886,
+        1102,
+        957
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b045-0.png"
+    },
+    {
+      "id": "b046",
+      "time": 309.692,
+      "ink_bounds": [
+        347,
+        72,
+        1574,
+        213
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b046-0.png"
+    },
+    {
+      "id": "b047",
+      "time": 311.194,
+      "ink_bounds": [
+        702,
+        101,
+        1219,
+        356
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b047-0.png"
+    },
+    {
+      "id": "b048",
+      "time": 312.012,
+      "ink_bounds": [
+        867,
+        77,
+        1055,
+        263
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b048-0.png"
+    },
+    {
+      "id": "b049",
+      "time": 312.812,
+      "ink_bounds": [
+        580,
+        22,
+        1349,
+        405
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b049-0.png"
+    },
+    {
+      "id": "b050",
+      "time": 314.648,
+      "ink_bounds": [
+        611,
+        868,
+        1306,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b050-0.png"
+    },
+    {
+      "id": "b051",
+      "time": 316.533,
+      "ink_bounds": [
+        806,
+        868,
+        1111,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b051-0.png"
+    },
+    {
+      "id": "b052",
+      "time": 318.418,
+      "ink_bounds": [
+        247,
+        75,
+        1674,
+        238
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b052-0.png"
+    },
+    {
+      "id": "b053",
+      "time": 321.188,
+      "ink_bounds": [
+        472,
+        55,
+        1446,
+        198
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b053-0.png"
+    },
+    {
+      "id": "b054",
+      "time": 323.256,
+      "ink_bounds": [
+        696,
+        868,
+        1225,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b054-0.png"
+    },
+    {
+      "id": "b055",
+      "time": 326.393,
+      "ink_bounds": [
+        459,
+        773,
+        1461,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b055-0.png"
+    },
+    {
+      "id": "b056",
+      "time": 330.163,
+      "ink_bounds": [
+        459,
+        773,
+        1461,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b056-0.png"
+    },
+    {
+      "id": "b057",
+      "time": 332.515,
+      "ink_bounds": [
+        621,
+        868,
+        1299,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b057-0.png"
+    },
+    {
+      "id": "b058",
+      "time": 334.067,
+      "ink_bounds": [
+        881,
+        869,
+        1037,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b058-0.png"
+    },
+    {
+      "id": "b059",
+      "time": 335.235,
+      "ink_bounds": [
+        585,
+        91,
+        1300,
+        484
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b059-0.png"
+    },
+    {
+      "id": "b060",
+      "time": 336.636,
+      "ink_bounds": [
+        499,
+        68,
+        1424,
+        207
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b060-0.png"
+    },
+    {
+      "id": "b061",
+      "time": 338.855,
+      "ink_bounds": [
+        583,
+        773,
+        1336,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b061-0.png"
+    },
+    {
+      "id": "b062",
+      "time": 341.341,
+      "ink_bounds": [
+        620,
+        868,
+        1299,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b062-0.png"
+    },
+    {
+      "id": "b063",
+      "time": 342.892,
+      "ink_bounds": [
+        770,
+        868,
+        1151,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b063-0.png"
+    },
+    {
+      "id": "b064",
+      "time": 344.06,
+      "ink_bounds": [
+        340,
+        82,
+        1584,
+        406
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b064-0.png"
+    },
+    {
+      "id": "b065",
+      "time": 345.996,
+      "ink_bounds": [
+        415,
+        793,
+        1507,
+        908
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b065-0.png"
+    },
+    {
+      "id": "b066",
+      "time": 348.014,
+      "ink_bounds": [
+        646,
+        244,
+        1322,
+        593
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b066-0.png"
+    },
+    {
+      "id": "b067",
+      "time": 349.199,
+      "ink_bounds": [
+        846,
+        53,
+        1074,
+        133
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b067-0.png"
+    },
+    {
+      "id": "b068",
+      "time": 350.567,
+      "ink_bounds": [
+        658,
+        51,
+        1263,
+        135
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b068-0.png"
+    },
+    {
+      "id": "b069",
+      "time": 351.901,
+      "ink_bounds": [
+        471,
+        29,
+        1456,
+        357
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b069-0.png"
+    },
+    {
+      "id": "b070",
+      "time": 354.137,
+      "ink_bounds": [
+        544,
+        773,
+        1370,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b070-0.png"
+    },
+    {
+      "id": "b071",
+      "time": 356.606,
+      "ink_bounds": [
+        373,
+        78,
+        1547,
+        249
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b071-0.png"
+    },
+    {
+      "id": "b072",
+      "time": 358.608,
+      "ink_bounds": [
+        364,
+        48,
+        1557,
+        161
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b072-0.png"
+    },
+    {
+      "id": "b073",
+      "time": 361.194,
+      "ink_bounds": [
+        619,
+        773,
+        1301,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b073-0.png"
+    },
+    {
+      "id": "b074",
+      "time": 363.813,
+      "ink_bounds": [
+        546,
+        868,
+        1371,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b074-0.png"
+    },
+    {
+      "id": "b075",
+      "time": 365.615,
+      "ink_bounds": [
+        921,
+        868,
+        1000,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b075-0.png"
+    },
+    {
+      "id": "b076",
+      "time": 367.284,
+      "ink_bounds": [
+        437,
+        801,
+        1484,
+        910
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b076-0.png"
+    },
+    {
+      "id": "b077",
+      "time": 369.435,
+      "ink_bounds": [
+        656,
+        868,
+        1261,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b077-0.png"
+    },
+    {
+      "id": "b078",
+      "time": 371.188,
+      "ink_bounds": [
+        564,
+        697,
+        1355,
+        863
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b078-0.png"
+    },
+    {
+      "id": "b079",
+      "time": 372.689,
+      "ink_bounds": [
+        808,
+        869,
+        1108,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b079-0.png"
+    },
+    {
+      "id": "b080",
+      "time": 373.923,
+      "ink_bounds": [
+        817,
+        46,
+        1102,
+        117
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b080-0.png"
+    },
+    {
+      "id": "b081",
+      "time": 375.325,
+      "ink_bounds": [
+        619,
+        57,
+        1303,
+        164
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b081-0.png"
+    },
+    {
+      "id": "b082",
+      "time": 376.659,
+      "ink_bounds": [
+        724,
+        92,
+        1198,
+        327
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b082-0.png"
+    },
+    {
+      "id": "b083",
+      "time": 377.51,
+      "ink_bounds": [
+        867,
+        72,
+        1055,
+        258
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b083-0.png"
+    },
+    {
+      "id": "b084",
+      "time": 378.445,
+      "ink_bounds": [
+        580,
+        22,
+        1349,
+        405
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b084-0.png"
+    },
+    {
+      "id": "b085",
+      "time": 380.447,
+      "ink_bounds": [
+        470,
+        868,
+        1444,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b085-0.png"
+    },
+    {
+      "id": "b086",
+      "time": 382.616,
+      "ink_bounds": [
+        471,
+        867,
+        1448,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b086-0.png"
+    },
+    {
+      "id": "b087",
+      "time": 384.985,
+      "ink_bounds": [
+        458,
+        773,
+        1427,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b087-0.png"
+    },
+    {
+      "id": "b088",
+      "time": 387.671,
+      "ink_bounds": [
+        696,
+        869,
+        1226,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b088-0.png"
+    },
+    {
+      "id": "b089",
+      "time": 389.49,
+      "ink_bounds": [
+        714,
+        692,
+        1202,
+        852
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b089-0.png"
+    },
+    {
+      "id": "b090",
+      "time": 391.225,
+      "ink_bounds": [
+        344,
+        72,
+        1576,
+        257
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b090-0.png"
+    },
+    {
+      "id": "b091",
+      "time": 394.177,
+      "ink_bounds": [
+        347,
+        66,
+        1569,
+        351
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b091-0.png"
+    },
+    {
+      "id": "b092",
+      "time": 397.697,
+      "ink_bounds": [
+        621,
+        773,
+        1301,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b-final/b092-0.png"
+    }
+  ]
+}

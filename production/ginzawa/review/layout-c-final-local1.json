@@ -1,0 +1,85 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "c062",
+      "time": 558.225,
+      "ink_bounds": [
+        432,
+        495,
+        1479,
+        760
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local1/c062-0.png"
+    },
+    {
+      "id": "c063",
+      "time": 560.811,
+      "ink_bounds": [
+        421,
+        49,
+        1498,
+        149
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local1/c063-0.png"
+    },
+    {
+      "id": "c064",
+      "time": 563.313,
+      "ink_bounds": [
+        623,
+        883,
+        1295,
+        959
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local1/c064-0.png"
+    },
+    {
+      "id": "c065",
+      "time": 564.747,
+      "ink_bounds": [
+        781,
+        878,
+        1151,
+        946
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local1/c065-0.png"
+    },
+    {
+      "id": "c066",
+      "time": 566.315,
+      "ink_bounds": [
+        512,
+        887,
+        1412,
+        971
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local1/c066-0.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "baseline_events": 272,
+  "byte_identical": {
+    "zh.srt": true,
+    "ja.srt": true,
+    "ja.review.ass": true,
+    "zh.performance.ass": true
+  },
+  "shared_regression": "shingouki 301 events: four ASS/SRT outputs byte-identical",
+  "note": "Baseline before visual design; mixed font and reveal behavior additionally covered by Forge tests.",
+  "shared_tests": {
+    "passed": 8,
+    "includes": [
+      "relocated independent project",
+      "mixed font spans",
+      "irregular character reveal",
+      "continuous wipe partial ink",
+      "real FFmpeg preview/full/soft",
+      "source frame and atlas capture",
+      "layout and glyph audit",
+      "package extraction and rebuild"
+    ]
+  },
+  "legacy_tools_removed": true,
+  "evidence_recipes": "research/evidence"
+}

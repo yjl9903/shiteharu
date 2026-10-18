@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "a092",
+      "time": 201.985,
+      "ink_bounds": [
+        442,
+        870,
+        1478,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a092-lower/a092-0.png"
+    }
+  ]
+}

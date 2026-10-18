@@ -1,0 +1,83 @@
+{
+  "created_by": "75fc47",
+  "start": 0.0,
+  "end": 209.64,
+  "purpose": "原片非念出补充文字；后续翻译与ASS独立事件使用。本文件仅日文，尚未翻译。",
+  "events": [
+    {
+      "id": "a-tweet-top",
+      "start": 16.250,
+      "end": 20.888,
+      "ja": "もしかしてシルバーウィークって終わったのか？",
+      "kind": "tweet_inset",
+      "boundary_status": "Inset onset/exit coincide with confirmed source scene changes; screenshot scale changes at 17.484.",
+      "evidence": ["frames/opening/000017.000.jpg", "frames/opening/000018.000.jpg", "frames/opening/sheet-001.jpg", "frames/75fc47-pairs/sheet-000.jpg", "frames/75fc47-pairs/sheet-001.jpg"],
+      "placement": "推文截图第一条正文；保留名字/头像/指标原图，正文需要翻译"
+    },
+    {
+      "id": "a-tweet-middle",
+      "start": 16.250,
+      "end": 20.888,
+      "ja": "もしかしてシルバーウィーク終わるのか？",
+      "kind": "tweet_inset",
+      "boundary_status": "Shares top tweet inset timing.",
+      "evidence": ["frames/opening/000018.000.jpg"],
+      "placement": "推文截图第二条正文"
+    },
+    {
+      "id": "a-tweet-bottom",
+      "start": 16.250,
+      "end": 20.888,
+      "ja": "もしかしてシルバーウィークなのか？",
+      "kind": "tweet_inset",
+      "boundary_status": "Shares top tweet inset timing.",
+      "evidence": ["frames/opening/000018.000.jpg"],
+      "placement": "推文截图第三条正文"
+    },
+    {
+      "id": "a-merch",
+      "start": 47.481,
+      "end": 49.683,
+      "ja": "グッズなど売っています",
+      "kind": "nonspoken_card_note",
+      "boundary_status": "Adjacent source frames viewed at both start and end.",
+      "evidence": ["frames/75fc47-extra-pairs/sheet-000.jpg", "frames/75fc47-pairs/sheet-003.jpg", "frames/75fc47-scan/000048.000.jpg"],
+      "placement": "品牌过场卡底部；品牌字样してはる与SHITEHARU保留原图"
+    },
+    {
+      "id": "a-swim",
+      "start": 127.160,
+      "end": 128.128,
+      "ja": "泳いでいます",
+      "kind": "concurrent_note",
+      "boundary_status": "Start: absent127.127/present127.160; end: present128.095/absent128.128. Both pairs actually viewed.",
+      "evidence": ["frames/75fc47-swim-note/sheet-000.jpg", "frames/75fc47-swim-end/sheet-000.jpg"],
+      "placement": "鱼上方细白字，与a058并发"
+    },
+    {
+      "id": "a-cute",
+      "start": 153.320,
+      "end": 154.855,
+      "ja": "かわいい",
+      "kind": "concurrent_note",
+      "boundary_status": "Start: absent153.286/present153.320; end: present154.821/absent154.855. Both pairs actually viewed.",
+      "evidence": ["frames/75fc47-cute-note/sheet-000.jpg", "frames/75fc47-cute-end/sheet-000.jpg"],
+      "placement": "忍者附近细白字，与a071并发"
+    },
+    {
+      "id": "a-certified",
+      "start": 187.354,
+      "end": 188.488,
+      "ja": "お墨付き",
+      "kind": "concurrent_note",
+      "boundary_status": "Start: absent187.320/present187.354; end: present188.455/absent188.488–188.489 (showinfo seek-window rounding differs by 1ms). Both pairs actually viewed.",
+      "evidence": ["frames/75fc47-cert-note/sheet-000.jpg", "frames/75fc47-cert-end/sheet-000.jpg"],
+      "placement": "御神签画面上方明朝体，与a084并发"
+    }
+  ],
+  "source_insets_retained": [
+    {"range": [95, 101.034], "note": "全国京都会議搜索结果与文章长引用；依主代理决定保留原图，核心术语已在主字幕。"},
+    {"range": [179.146, 188.489], "note": "おみくじ100円招牌与签文是景物文字；保留原图，另加旁注お墨付き已登记。"}
+  ],
+  "style_followup": "推文截图17.484发生缩放/裁切，旁注字体与位置需后续样式任务复现。主字幕a088逐字s的中间时刻尚未逐字认证，不能称其完整动画参数已完成。"
+}

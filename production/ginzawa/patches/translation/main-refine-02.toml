@@ -1,0 +1,29 @@
+created_by = "main-refine-02"
+start = 0
+end = 616.141
+summary = "第二轮全文润色：连续阅读与简洁度，顺畅手水段内心话，缩短季节主角措辞，理清五连休时间关系。"
+
+[[operations]]
+op = "edit"
+segment_id = "a066"
+zh = "有洁癖的人怕是要受罪"
+
+[[operations]]
+op = "edit"
+segment_id = "a067"
+zh = "每次都这么想着瞄一眼"
+
+[[operations]]
+op = "edit"
+segment_id = "a068"
+zh = "然后照样淡定地漱口"
+
+[[operations]]
+op = "edit"
+segment_id = "c041"
+zh = "这粉糯松软的红薯\n正适合当下个季节的主角"
+
+[[operations]]
+op = "edit"
+segment_id = "c076"
+zh = "上次这样的五连休 是11年前了"

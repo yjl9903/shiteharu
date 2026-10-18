@@ -1,0 +1,2029 @@
+{
+  "created_by": "242838",
+  "assigned_range": [
+    209.64,
+    403.336
+  ],
+  "actual_dialogue_range": [
+    209.409,
+    399.232
+  ],
+  "method": "全範囲の1秒間隔全画面図を実見し、短い字幕を追加確認。各字幕の切替は実PTSの直前フレームと最初のフレームを実見。ピクセル差分は確認候補の抽出のみで、字幕本文・パッチ操作の生成には使用していない。",
+  "overview_sheets": [
+    "frames/b-overview/sheet-000.jpg",
+    "frames/b-overview/sheet-001.jpg",
+    "frames/b-overview/sheet-002.jpg",
+    "frames/b-overview/sheet-003.jpg",
+    "frames/b-overview/sheet-004.jpg",
+    "frames/b-overview/sheet-005.jpg",
+    "frames/b-overview/sheet-006.jpg",
+    "frames/b-overview/sheet-007.jpg",
+    "frames/b-overview/sheet-008.jpg",
+    "frames/b-overview/sheet-009.jpg",
+    "frames/b-overview/sheet-010.jpg",
+    "frames/b-overview/sheet-011.jpg",
+    "frames/b-overview/sheet-012.jpg",
+    "frames/b-overview/sheet-013.jpg",
+    "frames/b-overview/sheet-014.jpg",
+    "frames/b-overview/sheet-015.jpg",
+    "frames/b-overview/sheet-016.jpg"
+  ],
+  "boundary_sheets": [
+    "frames/b-bound1/sheet-000.jpg",
+    "frames/b-bound1/sheet-001.jpg",
+    "frames/b-bound1/sheet-002.jpg",
+    "frames/b-bound1/sheet-003.jpg",
+    "frames/b-bound2/sheet-000.jpg",
+    "frames/b-bound2/sheet-001.jpg",
+    "frames/b-bound2/sheet-002.jpg",
+    "frames/b-bound2/sheet-003.jpg",
+    "frames/b-bound3/sheet-000.jpg",
+    "frames/b-bound3/sheet-001.jpg",
+    "frames/b-bound3/sheet-002.jpg",
+    "frames/b-bound3/sheet-003.jpg",
+    "frames/b-bound4/sheet-000.jpg",
+    "frames/b-bound5/sheet-000.jpg",
+    "frames/b-test2/sheet-000.jpg"
+  ],
+  "details": [
+    "frames/b-detail222/000222.000.jpg",
+    "frames/b-detail263/000263.000.jpg",
+    "frames/b-detail267/000267.000.jpg",
+    "frames/b-detail292/000292.600.jpg",
+    "frames/b-detail308/000308.000.jpg",
+    "frames/b-detail374/000374.000.jpg"
+  ],
+  "entries": [
+    {
+      "id": "b001",
+      "ja": "銀色の葉",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 209.409,
+        "previous_pts": 209.376,
+        "previous_frame": "frames/b-bound1/209.000-210.000/0012.jpg",
+        "first_frame": "frames/b-bound1/209.000-210.000/0013.jpg",
+        "index": "frames/b-bound1/209.000-210.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 210.61,
+        "previous_pts": 210.577,
+        "previous_frame": "frames/b-test2/0006.jpg",
+        "first_frame": "frames/b-test2/0007.jpg",
+        "index": "frames/b-test2/index.json"
+      }
+    },
+    {
+      "id": "b002",
+      "ja": "本来、銀杏は銀色に色づくことから",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 210.61,
+        "previous_pts": 210.577,
+        "previous_frame": "frames/b-test2/0006.jpg",
+        "first_frame": "frames/b-test2/0007.jpg",
+        "index": "frames/b-test2/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 212.779,
+        "previous_pts": 212.746,
+        "previous_frame": "frames/b-bound1/212.000-213.000/0023.jpg",
+        "first_frame": "frames/b-bound1/212.000-213.000/0024.jpg",
+        "index": "frames/b-bound1/212.000-213.000/index.json"
+      }
+    },
+    {
+      "id": "b003",
+      "ja": "その名前がつけられたんですが",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 212.779,
+        "previous_pts": 212.746,
+        "previous_frame": "frames/b-bound1/212.000-213.000/0023.jpg",
+        "first_frame": "frames/b-bound1/212.000-213.000/0024.jpg",
+        "index": "frames/b-bound1/212.000-213.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 214.381,
+        "previous_pts": 214.347,
+        "previous_frame": "frames/b-bound1/214.000-215.000/0011.jpg",
+        "first_frame": "frames/b-bound1/214.000-215.000/0012.jpg",
+        "index": "frames/b-bound1/214.000-215.000/index.json"
+      }
+    },
+    {
+      "id": "b004",
+      "ja": "生態変化で最近は\nほとんど見られないんですよね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 214.381,
+        "previous_pts": 214.347,
+        "previous_frame": "frames/b-bound1/214.000-215.000/0011.jpg",
+        "first_frame": "frames/b-bound1/214.000-215.000/0012.jpg",
+        "index": "frames/b-bound1/214.000-215.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 217.384,
+        "previous_pts": 217.35,
+        "previous_frame": "frames/b-bound1/217.000-218.000/0011.jpg",
+        "first_frame": "frames/b-bound1/217.000-218.000/0012.jpg",
+        "index": "frames/b-bound1/217.000-218.000/index.json"
+      }
+    },
+    {
+      "id": "b005",
+      "ja": "貴重な銀色の葉が見られるのは",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 217.384,
+        "previous_pts": 217.35,
+        "previous_frame": "frames/b-bound1/217.000-218.000/0011.jpg",
+        "first_frame": "frames/b-bound1/217.000-218.000/0012.jpg",
+        "index": "frames/b-bound1/217.000-218.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 219.252,
+        "previous_pts": 219.219,
+        "previous_frame": "frames/b-bound1/219.000-220.000/0007.jpg",
+        "first_frame": "frames/b-bound1/219.000-220.000/0008.jpg",
+        "index": "frames/b-bound1/219.000-220.000/index.json"
+      }
+    },
+    {
+      "id": "b006",
+      "ja": "もうここ銀沢だけなんです",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 219.252,
+        "previous_pts": 219.219,
+        "previous_frame": "frames/b-bound1/219.000-220.000/0007.jpg",
+        "first_frame": "frames/b-bound1/219.000-220.000/0008.jpg",
+        "index": "frames/b-bound1/219.000-220.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 221.655,
+        "previous_pts": 221.621,
+        "previous_frame": "frames/b-bound1/221.000-222.000/0019.jpg",
+        "first_frame": "frames/b-bound1/221.000-222.000/0020.jpg",
+        "index": "frames/b-bound1/221.000-222.000/index.json"
+      }
+    },
+    {
+      "id": "b007",
+      "ja": "そしてエーット実は…",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 221.655,
+        "previous_pts": 221.621,
+        "previous_frame": "frames/b-bound1/221.000-222.000/0019.jpg",
+        "first_frame": "frames/b-bound1/221.000-222.000/0020.jpg",
+        "index": "frames/b-bound1/221.000-222.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 224.191,
+        "previous_pts": 224.157,
+        "previous_frame": "frames/b-bound1/224.000-225.000/0005.jpg",
+        "first_frame": "frames/b-bound1/224.000-225.000/0006.jpg",
+        "index": "frames/b-bound1/224.000-225.000/index.json"
+      }
+    },
+    {
+      "id": "b008",
+      "ja": "ありました！",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 224.191,
+        "previous_pts": 224.157,
+        "previous_frame": "frames/b-bound1/224.000-225.000/0005.jpg",
+        "first_frame": "frames/b-bound1/224.000-225.000/0006.jpg",
+        "index": "frames/b-bound1/224.000-225.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 225.058,
+        "previous_pts": 225.025,
+        "previous_frame": "frames/b-bound1/225.000-226.000/0001.jpg",
+        "first_frame": "frames/b-bound1/225.000-226.000/0002.jpg",
+        "index": "frames/b-bound1/225.000-226.000/index.json"
+      }
+    },
+    {
+      "id": "b009",
+      "ja": "銀色の銀杏",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 225.058,
+        "previous_pts": 225.025,
+        "previous_frame": "frames/b-bound1/225.000-226.000/0001.jpg",
+        "first_frame": "frames/b-bound1/225.000-226.000/0002.jpg",
+        "index": "frames/b-bound1/225.000-226.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 226.626,
+        "previous_pts": 226.593,
+        "previous_frame": "frames/b-bound1/226.000-227.000/0018.jpg",
+        "first_frame": "frames/b-bound1/226.000-227.000/0019.jpg",
+        "index": "frames/b-bound1/226.000-227.000/index.json"
+      }
+    },
+    {
+      "id": "b010",
+      "ja": "銀杏は「銀のように光る杏」\nが名前の由来になっているんですが",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 226.626,
+        "previous_pts": 226.593,
+        "previous_frame": "frames/b-bound1/226.000-227.000/0018.jpg",
+        "first_frame": "frames/b-bound1/226.000-227.000/0019.jpg",
+        "index": "frames/b-bound1/226.000-227.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 230.23,
+        "previous_pts": 230.197,
+        "previous_frame": "frames/b-bound1/230.000-231.000/0006.jpg",
+        "first_frame": "frames/b-bound1/230.000-231.000/0007.jpg",
+        "index": "frames/b-bound1/230.000-231.000/index.json"
+      }
+    },
+    {
+      "id": "b011",
+      "ja": "まさにそれを体現するような\n素晴らしい銀色ですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 230.23,
+        "previous_pts": 230.197,
+        "previous_frame": "frames/b-bound1/230.000-231.000/0006.jpg",
+        "first_frame": "frames/b-bound1/230.000-231.000/0007.jpg",
+        "index": "frames/b-bound1/230.000-231.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 233.867,
+        "previous_pts": 233.834,
+        "previous_frame": "frames/b-bound1/233.000-234.000/0025.jpg",
+        "first_frame": "frames/b-bound1/233.000-234.000/0026.jpg",
+        "index": "frames/b-bound1/233.000-234.000/index.json"
+      }
+    },
+    {
+      "id": "b012",
+      "ja": "これも銀沢でしか見られないもので",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 233.867,
+        "previous_pts": 233.834,
+        "previous_frame": "frames/b-bound1/233.000-234.000/0025.jpg",
+        "first_frame": "frames/b-bound1/233.000-234.000/0026.jpg",
+        "index": "frames/b-bound1/233.000-234.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 235.869,
+        "previous_pts": 235.836,
+        "previous_frame": "frames/b-bound1/235.000-236.000/0026.jpg",
+        "first_frame": "frames/b-bound1/235.000-236.000/0027.jpg",
+        "index": "frames/b-bound1/235.000-236.000/index.json"
+      }
+    },
+    {
+      "id": "b013",
+      "ja": "少し時間が経つと黄色く変色するので\n流通することもないのだとか",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 235.869,
+        "previous_pts": 235.836,
+        "previous_frame": "frames/b-bound1/235.000-236.000/0026.jpg",
+        "first_frame": "frames/b-bound1/235.000-236.000/0027.jpg",
+        "index": "frames/b-bound1/235.000-236.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 240.24,
+        "previous_pts": 240.207,
+        "previous_frame": "frames/b-bound1/240.000-241.000/0007.jpg",
+        "first_frame": "frames/b-bound1/240.000-241.000/0008.jpg",
+        "index": "frames/b-bound1/240.000-241.000/index.json"
+      }
+    },
+    {
+      "id": "b014",
+      "ja": "大変貴重なものが見られて嬉しいですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 240.24,
+        "previous_pts": 240.207,
+        "previous_frame": "frames/b-bound1/240.000-241.000/0007.jpg",
+        "first_frame": "frames/b-bound1/240.000-241.000/0008.jpg",
+        "index": "frames/b-bound1/240.000-241.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 243.21,
+        "previous_pts": 243.176,
+        "previous_frame": "frames/b-bound1/243.000-244.000/0006.jpg",
+        "first_frame": "frames/b-bound1/243.000-244.000/0007.jpg",
+        "index": "frames/b-bound1/243.000-244.000/index.json"
+      }
+    },
+    {
+      "id": "b015",
+      "ja": "見つからないかもと思っていましたが",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 243.21,
+        "previous_pts": 243.176,
+        "previous_frame": "frames/b-bound1/243.000-244.000/0006.jpg",
+        "first_frame": "frames/b-bound1/243.000-244.000/0007.jpg",
+        "index": "frames/b-bound1/243.000-244.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 244.845,
+        "previous_pts": 244.811,
+        "previous_frame": "frames/b-bound1/244.000-245.000/0025.jpg",
+        "first_frame": "frames/b-bound1/244.000-245.000/0026.jpg",
+        "index": "frames/b-bound1/244.000-245.000/index.json"
+      }
+    },
+    {
+      "id": "b016",
+      "ja": "探してみるとそこそこの数\n見つけることができました",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 244.845,
+        "previous_pts": 244.811,
+        "previous_frame": "frames/b-bound1/244.000-245.000/0025.jpg",
+        "first_frame": "frames/b-bound1/244.000-245.000/0026.jpg",
+        "index": "frames/b-bound1/244.000-245.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 247.981,
+        "previous_pts": 247.948,
+        "previous_frame": "frames/b-bound1/247.000-248.000/0029.jpg",
+        "first_frame": "frames/b-bound1/247.000-248.000/0030.jpg",
+        "index": "frames/b-bound1/247.000-248.000/index.json"
+      }
+    },
+    {
+      "id": "b017",
+      "ja": "大吉恐るべし",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 247.981,
+        "previous_pts": 247.948,
+        "previous_frame": "frames/b-bound1/247.000-248.000/0029.jpg",
+        "first_frame": "frames/b-bound1/247.000-248.000/0030.jpg",
+        "index": "frames/b-bound1/247.000-248.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 250.984,
+        "previous_pts": 250.951,
+        "previous_frame": "frames/b-bound1/250.000-251.000/0029.jpg",
+        "first_frame": "frames/b-bound1/250.000-251.000/0030.jpg",
+        "index": "frames/b-bound1/250.000-251.000/index.json"
+      }
+    },
+    {
+      "id": "b018",
+      "ja": "さすがに連休は人が多くて気が滅入りますが",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 250.984,
+        "previous_pts": 250.951,
+        "previous_frame": "frames/b-bound1/250.000-251.000/0029.jpg",
+        "first_frame": "frames/b-bound1/250.000-251.000/0030.jpg",
+        "index": "frames/b-bound1/250.000-251.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 253.72,
+        "previous_pts": 253.687,
+        "previous_frame": "frames/b-bound1/253.000-254.000/0021.jpg",
+        "first_frame": "frames/b-bound1/253.000-254.000/0022.jpg",
+        "index": "frames/b-bound1/253.000-254.000/index.json"
+      }
+    },
+    {
+      "id": "b019",
+      "ja": "でもやっぱり有名なアレは外せないですよね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 253.72,
+        "previous_pts": 253.687,
+        "previous_frame": "frames/b-bound1/253.000-254.000/0021.jpg",
+        "first_frame": "frames/b-bound1/253.000-254.000/0022.jpg",
+        "index": "frames/b-bound1/253.000-254.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 256.69,
+        "previous_pts": 256.656,
+        "previous_frame": "frames/b-bound1/256.000-257.000/0020.jpg",
+        "first_frame": "frames/b-bound1/256.000-257.000/0021.jpg",
+        "index": "frames/b-bound1/256.000-257.000/index.json"
+      }
+    },
+    {
+      "id": "b020",
+      "ja": "ジャジャ～～ン",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 256.69,
+        "previous_pts": 256.656,
+        "previous_frame": "frames/b-bound1/256.000-257.000/0020.jpg",
+        "first_frame": "frames/b-bound1/256.000-257.000/0021.jpg",
+        "index": "frames/b-bound1/256.000-257.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 258.358,
+        "previous_pts": 258.325,
+        "previous_frame": "frames/b-bound1/258.000-259.000/0010.jpg",
+        "first_frame": "frames/b-bound1/258.000-259.000/0011.jpg",
+        "index": "frames/b-bound1/258.000-259.000/index.json"
+      }
+    },
+    {
+      "id": "b021",
+      "ja": "銀沢お決まりの名物といえば",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 258.358,
+        "previous_pts": 258.325,
+        "previous_frame": "frames/b-bound1/258.000-259.000/0010.jpg",
+        "first_frame": "frames/b-bound1/258.000-259.000/0011.jpg",
+        "index": "frames/b-bound1/258.000-259.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 260.761,
+        "previous_pts": 260.727,
+        "previous_frame": "frames/b-bound1/260.000-261.000/0022.jpg",
+        "first_frame": "frames/b-bound1/260.000-261.000/0023.jpg",
+        "index": "frames/b-bound1/260.000-261.000/index.json"
+      }
+    },
+    {
+      "id": "b022",
+      "ja": "銀箔ソフト",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 260.761,
+        "previous_pts": 260.727,
+        "previous_frame": "frames/b-bound1/260.000-261.000/0022.jpg",
+        "first_frame": "frames/b-bound1/260.000-261.000/0023.jpg",
+        "index": "frames/b-bound1/260.000-261.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 262.162,
+        "previous_pts": 262.129,
+        "previous_frame": "frames/b-bound1/262.000-263.000/0004.jpg",
+        "first_frame": "frames/b-bound1/262.000-263.000/0005.jpg",
+        "index": "frames/b-bound1/262.000-263.000/index.json"
+      }
+    },
+    {
+      "id": "b023",
+      "ja": "食用の銀箔を使っていてるので",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 262.162,
+        "previous_pts": 262.129,
+        "previous_frame": "frames/b-bound1/262.000-263.000/0004.jpg",
+        "first_frame": "frames/b-bound1/262.000-263.000/0005.jpg",
+        "index": "frames/b-bound1/262.000-263.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 263.83,
+        "previous_pts": 263.797,
+        "previous_frame": "frames/b-bound1/263.000-264.000/0024.jpg",
+        "first_frame": "frames/b-bound1/263.000-264.000/0025.jpg",
+        "index": "frames/b-bound1/263.000-264.000/index.json"
+      }
+    },
+    {
+      "id": "b024",
+      "ja": "このままパクッと食べられちゃうのだそうです",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 263.83,
+        "previous_pts": 263.797,
+        "previous_frame": "frames/b-bound1/263.000-264.000/0024.jpg",
+        "first_frame": "frames/b-bound1/263.000-264.000/0025.jpg",
+        "index": "frames/b-bound1/263.000-264.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 266.399,
+        "previous_pts": 266.366,
+        "previous_frame": "frames/b-bound1/266.000-267.000/0011.jpg",
+        "first_frame": "frames/b-bound1/266.000-267.000/0012.jpg",
+        "index": "frames/b-bound1/266.000-267.000/index.json"
+      }
+    },
+    {
+      "id": "b025",
+      "ja": "ンー",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 266.399,
+        "previous_pts": 266.366,
+        "previous_frame": "frames/b-bound1/266.000-267.000/0011.jpg",
+        "first_frame": "frames/b-bound1/266.000-267.000/0012.jpg",
+        "index": "frames/b-bound1/266.000-267.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 267.234,
+        "previous_pts": 267.2,
+        "previous_frame": "frames/b-bound1/267.000-268.000/0007.jpg",
+        "first_frame": "frames/b-bound1/267.000-268.000/0008.jpg",
+        "index": "frames/b-bound1/267.000-268.000/index.json"
+      }
+    },
+    {
+      "id": "b026",
+      "ja": "ミルクがとっても濃くて",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 267.234,
+        "previous_pts": 267.2,
+        "previous_frame": "frames/b-bound1/267.000-268.000/0007.jpg",
+        "first_frame": "frames/b-bound1/267.000-268.000/0008.jpg",
+        "index": "frames/b-bound1/267.000-268.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 268.869,
+        "previous_pts": 268.835,
+        "previous_frame": "frames/b-bound1/268.000-269.000/0026.jpg",
+        "first_frame": "frames/b-bound1/268.000-269.000/0027.jpg",
+        "index": "frames/b-bound1/268.000-269.000/index.json"
+      }
+    },
+    {
+      "id": "b027",
+      "ja": "美味～",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 268.869,
+        "previous_pts": 268.835,
+        "previous_frame": "frames/b-bound1/268.000-269.000/0026.jpg",
+        "first_frame": "frames/b-bound1/268.000-269.000/0027.jpg",
+        "index": "frames/b-bound1/268.000-269.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 270.203,
+        "previous_pts": 270.17,
+        "previous_frame": "frames/b-bound1/270.000-271.000/0006.jpg",
+        "first_frame": "frames/b-bound1/270.000-271.000/0007.jpg",
+        "index": "frames/b-bound1/270.000-271.000/index.json"
+      }
+    },
+    {
+      "id": "b028",
+      "ja": "銀",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 270.203,
+        "previous_pts": 270.17,
+        "previous_frame": "frames/b-bound1/270.000-271.000/0006.jpg",
+        "first_frame": "frames/b-bound1/270.000-271.000/0007.jpg",
+        "index": "frames/b-bound1/270.000-271.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 270.837,
+        "previous_pts": 270.804,
+        "previous_frame": "frames/b-bound1/270.000-271.000/0025.jpg",
+        "first_frame": "frames/b-bound1/270.000-271.000/0026.jpg",
+        "index": "frames/b-bound1/270.000-271.000/index.json"
+      }
+    },
+    {
+      "id": "b029",
+      "ja": "無味～",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 270.837,
+        "previous_pts": 270.804,
+        "previous_frame": "frames/b-bound1/270.000-271.000/0025.jpg",
+        "first_frame": "frames/b-bound1/270.000-271.000/0026.jpg",
+        "index": "frames/b-bound1/270.000-271.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 272.372,
+        "previous_pts": 272.339,
+        "previous_frame": "frames/b-bound1/272.000-273.000/0011.jpg",
+        "first_frame": "frames/b-bound1/272.000-273.000/0012.jpg",
+        "index": "frames/b-bound1/272.000-273.000/index.json"
+      }
+    },
+    {
+      "id": "b030",
+      "ja": "いい感じの大きな川があります",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 275.509,
+        "previous_pts": 275.475,
+        "previous_frame": "frames/b-bound1/275.000-276.000/0015.jpg",
+        "first_frame": "frames/b-bound1/275.000-276.000/0016.jpg",
+        "index": "frames/b-bound1/275.000-276.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 277.811,
+        "previous_pts": 277.778,
+        "previous_frame": "frames/b-bound2/277.000-278.000/0024.jpg",
+        "first_frame": "frames/b-bound2/277.000-278.000/0025.jpg",
+        "index": "frames/b-bound2/277.000-278.000/index.json"
+      }
+    },
+    {
+      "id": "b031",
+      "ja": "この辺は広くて人が少ないので",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 277.811,
+        "previous_pts": 277.778,
+        "previous_frame": "frames/b-bound2/277.000-278.000/0024.jpg",
+        "first_frame": "frames/b-bound2/277.000-278.000/0025.jpg",
+        "index": "frames/b-bound2/277.000-278.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 279.746,
+        "previous_pts": 279.713,
+        "previous_frame": "frames/b-bound2/279.000-280.000/0022.jpg",
+        "first_frame": "frames/b-bound2/279.000-280.000/0023.jpg",
+        "index": "frames/b-bound2/279.000-280.000/index.json"
+      }
+    },
+    {
+      "id": "b032",
+      "ja": "一休みできそうな予感",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 279.746,
+        "previous_pts": 279.713,
+        "previous_frame": "frames/b-bound2/279.000-280.000/0022.jpg",
+        "first_frame": "frames/b-bound2/279.000-280.000/0023.jpg",
+        "index": "frames/b-bound2/279.000-280.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 281.915,
+        "previous_pts": 281.882,
+        "previous_frame": "frames/b-bound2/281.000-282.000/0027.jpg",
+        "first_frame": "frames/b-bound2/281.000-282.000/0028.jpg",
+        "index": "frames/b-bound2/281.000-282.000/index.json"
+      }
+    },
+    {
+      "id": "b033",
+      "ja": "お腹もぺこぺこになってきたので",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 281.915,
+        "previous_pts": 281.882,
+        "previous_frame": "frames/b-bound2/281.000-282.000/0027.jpg",
+        "first_frame": "frames/b-bound2/281.000-282.000/0028.jpg",
+        "index": "frames/b-bound2/281.000-282.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 283.483,
+        "previous_pts": 283.45,
+        "previous_frame": "frames/b-bound2/283.000-284.000/0014.jpg",
+        "first_frame": "frames/b-bound2/283.000-284.000/0015.jpg",
+        "index": "frames/b-bound2/283.000-284.000/index.json"
+      }
+    },
+    {
+      "id": "b034",
+      "ja": "ここらでお昼ご飯にしましょうか",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 283.483,
+        "previous_pts": 283.45,
+        "previous_frame": "frames/b-bound2/283.000-284.000/0014.jpg",
+        "first_frame": "frames/b-bound2/283.000-284.000/0015.jpg",
+        "index": "frames/b-bound2/283.000-284.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 285.786,
+        "previous_pts": 285.752,
+        "previous_frame": "frames/b-bound2/285.000-286.000/0023.jpg",
+        "first_frame": "frames/b-bound2/285.000-286.000/0024.jpg",
+        "index": "frames/b-bound2/285.000-286.000/index.json"
+      }
+    },
+    {
+      "id": "b035",
+      "ja": "さて名誉ある本日の\nお昼ご飯に採用されたのは～",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 285.786,
+        "previous_pts": 285.752,
+        "previous_frame": "frames/b-bound2/285.000-286.000/0023.jpg",
+        "first_frame": "frames/b-bound2/285.000-286.000/0024.jpg",
+        "index": "frames/b-bound2/285.000-286.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 289.89,
+        "previous_pts": 289.856,
+        "previous_frame": "frames/b-bound2/289.000-290.000/0026.jpg",
+        "first_frame": "frames/b-bound2/289.000-290.000/0027.jpg",
+        "index": "frames/b-bound2/289.000-290.000/index.json"
+      }
+    },
+    {
+      "id": "b036",
+      "ja": "その辺の売店で買ってきましたよ",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 289.89,
+        "previous_pts": 289.856,
+        "previous_frame": "frames/b-bound2/289.000-290.000/0026.jpg",
+        "first_frame": "frames/b-bound2/289.000-290.000/0027.jpg",
+        "index": "frames/b-bound2/289.000-290.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 292.192,
+        "previous_pts": 292.159,
+        "previous_frame": "frames/b-bound2/292.000-293.000/0005.jpg",
+        "first_frame": "frames/b-bound2/292.000-293.000/0006.jpg",
+        "index": "frames/b-bound2/292.000-293.000/index.json"
+      }
+    },
+    {
+      "id": "b037",
+      "ja": "ジャジャン",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 292.192,
+        "previous_pts": 292.159,
+        "previous_frame": "frames/b-bound2/292.000-293.000/0005.jpg",
+        "first_frame": "frames/b-bound2/292.000-293.000/0006.jpg",
+        "index": "frames/b-bound2/292.000-293.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 292.959,
+        "previous_pts": 292.926,
+        "previous_frame": "frames/b-bound2/292.000-293.000/0028.jpg",
+        "first_frame": "frames/b-bound2/292.000-293.000/0029.jpg",
+        "index": "frames/b-bound2/292.000-293.000/index.json"
+      }
+    },
+    {
+      "id": "b038",
+      "ja": "銀シャリ",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 292.959,
+        "previous_pts": 292.926,
+        "previous_frame": "frames/b-bound2/292.000-293.000/0028.jpg",
+        "first_frame": "frames/b-bound2/292.000-293.000/0029.jpg",
+        "index": "frames/b-bound2/292.000-293.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 294.461,
+        "previous_pts": 294.427,
+        "previous_frame": "frames/b-bound2/294.000-295.000/0013.jpg",
+        "first_frame": "frames/b-bound2/294.000-295.000/0014.jpg",
+        "index": "frames/b-bound2/294.000-295.000/index.json"
+      }
+    },
+    {
+      "id": "b039",
+      "ja": "これも銀沢名物みたいですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 294.461,
+        "previous_pts": 294.427,
+        "previous_frame": "frames/b-bound2/294.000-295.000/0013.jpg",
+        "first_frame": "frames/b-bound2/294.000-295.000/0014.jpg",
+        "index": "frames/b-bound2/294.000-295.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 297.063,
+        "previous_pts": 297.03,
+        "previous_frame": "frames/b-bound2/297.000-298.000/0001.jpg",
+        "first_frame": "frames/b-bound2/297.000-298.000/0002.jpg",
+        "index": "frames/b-bound2/297.000-298.000/index.json"
+      }
+    },
+    {
+      "id": "b040",
+      "ja": "白米の上に銀箔が乗っている",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 297.063,
+        "previous_pts": 297.03,
+        "previous_frame": "frames/b-bound2/297.000-298.000/0001.jpg",
+        "first_frame": "frames/b-bound2/297.000-298.000/0002.jpg",
+        "index": "frames/b-bound2/297.000-298.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 298.799,
+        "previous_pts": 298.765,
+        "previous_frame": "frames/b-bound2/298.000-299.000/0023.jpg",
+        "first_frame": "frames/b-bound2/298.000-299.000/0024.jpg",
+        "index": "frames/b-bound2/298.000-299.000/index.json"
+      }
+    },
+    {
+      "id": "b041",
+      "ja": "ギリ・寿司",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 298.799,
+        "previous_pts": 298.765,
+        "previous_frame": "frames/b-bound2/298.000-299.000/0023.jpg",
+        "first_frame": "frames/b-bound2/298.000-299.000/0024.jpg",
+        "index": "frames/b-bound2/298.000-299.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 300.367,
+        "previous_pts": 300.333,
+        "previous_frame": "frames/b-bound2/300.000-301.000/0011.jpg",
+        "first_frame": "frames/b-bound2/300.000-301.000/0012.jpg",
+        "index": "frames/b-bound2/300.000-301.000/index.json"
+      }
+    },
+    {
+      "id": "b042",
+      "ja": "銀箔が風に踊っている様子から",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 300.367,
+        "previous_pts": 300.333,
+        "previous_frame": "frames/b-bound2/300.000-301.000/0011.jpg",
+        "first_frame": "frames/b-bound2/300.000-301.000/0012.jpg",
+        "index": "frames/b-bound2/300.000-301.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 302.435,
+        "previous_pts": 302.402,
+        "previous_frame": "frames/b-bound2/302.000-303.000/0013.jpg",
+        "first_frame": "frames/b-bound2/302.000-303.000/0014.jpg",
+        "index": "frames/b-bound2/302.000-303.000/index.json"
+      }
+    },
+    {
+      "id": "b043",
+      "ja": "「かつおぶし」ならぬ\n「しろがねぶし」と呼ばれているのだとか",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 302.435,
+        "previous_pts": 302.402,
+        "previous_frame": "frames/b-bound2/302.000-303.000/0013.jpg",
+        "first_frame": "frames/b-bound2/302.000-303.000/0014.jpg",
+        "index": "frames/b-bound2/302.000-303.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 305.806,
+        "previous_pts": 305.772,
+        "previous_frame": "frames/b-bound2/305.000-306.000/0024.jpg",
+        "first_frame": "frames/b-bound2/305.000-306.000/0025.jpg",
+        "index": "frames/b-bound2/305.000-306.000/index.json"
+      }
+    },
+    {
+      "id": "b044",
+      "ja": "いただきます",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 305.806,
+        "previous_pts": 305.772,
+        "previous_frame": "frames/b-bound2/305.000-306.000/0024.jpg",
+        "first_frame": "frames/b-bound2/305.000-306.000/0025.jpg",
+        "index": "frames/b-bound2/305.000-306.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 307.44,
+        "previous_pts": 307.407,
+        "previous_frame": "frames/b-bound2/307.000-308.000/0013.jpg",
+        "first_frame": "frames/b-bound2/307.000-308.000/0014.jpg",
+        "index": "frames/b-bound2/307.000-308.000/index.json"
+      }
+    },
+    {
+      "id": "b045",
+      "ja": "ンーーー",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 307.44,
+        "previous_pts": 307.407,
+        "previous_frame": "frames/b-bound2/307.000-308.000/0013.jpg",
+        "first_frame": "frames/b-bound2/307.000-308.000/0014.jpg",
+        "index": "frames/b-bound2/307.000-308.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 308.675,
+        "previous_pts": 308.642,
+        "previous_frame": "frames/b-bound2/308.000-309.000/0020.jpg",
+        "first_frame": "frames/b-bound2/308.000-309.000/0021.jpg",
+        "index": "frames/b-bound2/308.000-309.000/index.json"
+      }
+    },
+    {
+      "id": "b046",
+      "ja": "白米が割とべちゃっとしていて",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 308.675,
+        "previous_pts": 308.642,
+        "previous_frame": "frames/b-bound2/308.000-309.000/0020.jpg",
+        "first_frame": "frames/b-bound2/308.000-309.000/0021.jpg",
+        "index": "frames/b-bound2/308.000-309.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 310.71,
+        "previous_pts": 310.677,
+        "previous_frame": "frames/b-bound2/310.000-311.000/0021.jpg",
+        "first_frame": "frames/b-bound2/310.000-311.000/0022.jpg",
+        "index": "frames/b-bound2/310.000-311.000/index.json"
+      }
+    },
+    {
+      "id": "b047",
+      "ja": "美味",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 310.71,
+        "previous_pts": 310.677,
+        "previous_frame": "frames/b-bound2/310.000-311.000/0021.jpg",
+        "first_frame": "frames/b-bound2/310.000-311.000/0022.jpg",
+        "index": "frames/b-bound2/310.000-311.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 311.678,
+        "previous_pts": 311.645,
+        "previous_frame": "frames/b-bound2/311.000-312.000/0020.jpg",
+        "first_frame": "frames/b-bound2/311.000-312.000/0021.jpg",
+        "index": "frames/b-bound2/311.000-312.000/index.json"
+      }
+    },
+    {
+      "id": "b048",
+      "ja": "銀",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 311.678,
+        "previous_pts": 311.645,
+        "previous_frame": "frames/b-bound2/311.000-312.000/0020.jpg",
+        "first_frame": "frames/b-bound2/311.000-312.000/0021.jpg",
+        "index": "frames/b-bound2/311.000-312.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 312.345,
+        "previous_pts": 312.312,
+        "previous_frame": "frames/b-bound2/312.000-313.000/0010.jpg",
+        "first_frame": "frames/b-bound2/312.000-313.000/0011.jpg",
+        "index": "frames/b-bound2/312.000-313.000/index.json"
+      }
+    },
+    {
+      "id": "b049",
+      "ja": "無味",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 312.345,
+        "previous_pts": 312.312,
+        "previous_frame": "frames/b-bound2/312.000-313.000/0010.jpg",
+        "first_frame": "frames/b-bound2/312.000-313.000/0011.jpg",
+        "index": "frames/b-bound2/312.000-313.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 313.28,
+        "previous_pts": 313.246,
+        "previous_frame": "frames/b-bound2/313.000-314.000/0008.jpg",
+        "first_frame": "frames/b-bound2/313.000-314.000/0009.jpg",
+        "index": "frames/b-bound2/313.000-314.000/index.json"
+      }
+    },
+    {
+      "id": "b050",
+      "ja": "続きましてまだあります銀沢名物",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 313.28,
+        "previous_pts": 313.246,
+        "previous_frame": "frames/b-bound2/313.000-314.000/0008.jpg",
+        "first_frame": "frames/b-bound2/313.000-314.000/0009.jpg",
+        "index": "frames/b-bound2/313.000-314.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 316.016,
+        "previous_pts": 315.982,
+        "previous_frame": "frames/b-bound4/315.900-316.500/0003.jpg",
+        "first_frame": "frames/b-bound4/315.900-316.500/0004.jpg",
+        "index": "frames/b-bound4/315.900-316.500/index.json"
+      }
+    },
+    {
+      "id": "b051",
+      "ja": "じゃじゃ～～ん",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 316.016,
+        "previous_pts": 315.982,
+        "previous_frame": "frames/b-bound4/315.900-316.500/0003.jpg",
+        "first_frame": "frames/b-bound4/315.900-316.500/0004.jpg",
+        "index": "frames/b-bound4/315.900-316.500/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 317.05,
+        "previous_pts": 317.017,
+        "previous_frame": "frames/b-bound2/317.000-318.000/0001.jpg",
+        "first_frame": "frames/b-bound2/317.000-318.000/0002.jpg",
+        "index": "frames/b-bound2/317.000-318.000/index.json"
+      }
+    },
+    {
+      "id": "b052",
+      "ja": "かっぱえびせん10%増量",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 317.05,
+        "previous_pts": 317.017,
+        "previous_frame": "frames/b-bound2/317.000-318.000/0001.jpg",
+        "first_frame": "frames/b-bound2/317.000-318.000/0002.jpg",
+        "index": "frames/b-bound2/317.000-318.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 319.786,
+        "previous_pts": 319.753,
+        "previous_frame": "frames/b-bound2/319.000-320.000/0023.jpg",
+        "first_frame": "frames/b-bound2/319.000-320.000/0024.jpg",
+        "index": "frames/b-bound2/319.000-320.000/index.json"
+      }
+    },
+    {
+      "id": "b053",
+      "ja": "と、ポテトチップスコンソメ味",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 319.786,
+        "previous_pts": 319.753,
+        "previous_frame": "frames/b-bound2/319.000-320.000/0023.jpg",
+        "first_frame": "frames/b-bound2/319.000-320.000/0024.jpg",
+        "index": "frames/b-bound2/319.000-320.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 322.589,
+        "previous_pts": 322.556,
+        "previous_frame": "frames/b-bound2/322.000-323.000/0017.jpg",
+        "first_frame": "frames/b-bound2/322.000-323.000/0018.jpg",
+        "index": "frames/b-bound2/322.000-323.000/index.json"
+      }
+    },
+    {
+      "id": "b054",
+      "ja": "なんと銀沢エリアでは",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 322.589,
+        "previous_pts": 322.556,
+        "previous_frame": "frames/b-bound2/322.000-323.000/0017.jpg",
+        "first_frame": "frames/b-bound2/322.000-323.000/0018.jpg",
+        "index": "frames/b-bound2/322.000-323.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 323.924,
+        "previous_pts": 323.89,
+        "previous_frame": "frames/b-bound2/323.000-324.000/0027.jpg",
+        "first_frame": "frames/b-bound2/323.000-324.000/0028.jpg",
+        "index": "frames/b-bound2/323.000-324.000/index.json"
+      }
+    },
+    {
+      "id": "b055",
+      "ja": "全体を銀色であしらった\n特別パッケージが採用されているんですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 323.924,
+        "previous_pts": 323.89,
+        "previous_frame": "frames/b-bound2/323.000-324.000/0027.jpg",
+        "first_frame": "frames/b-bound2/323.000-324.000/0028.jpg",
+        "index": "frames/b-bound2/323.000-324.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 328.862,
+        "previous_pts": 328.829,
+        "previous_frame": "frames/b-bound2/328.000-329.000/0025.jpg",
+        "first_frame": "frames/b-bound2/328.000-329.000/0026.jpg",
+        "index": "frames/b-bound2/328.000-329.000/index.json"
+      }
+    },
+    {
+      "id": "b056",
+      "ja": "普段見慣れているものが\n特別仕様になっていると",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 328.862,
+        "previous_pts": 328.829,
+        "previous_frame": "frames/b-bound2/328.000-329.000/0025.jpg",
+        "first_frame": "frames/b-bound2/328.000-329.000/0026.jpg",
+        "index": "frames/b-bound2/328.000-329.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 331.464,
+        "previous_pts": 331.431,
+        "previous_frame": "frames/b-bound2/331.000-332.000/0013.jpg",
+        "first_frame": "frames/b-bound2/331.000-332.000/0014.jpg",
+        "index": "frames/b-bound2/331.000-332.000/index.json"
+      }
+    },
+    {
+      "id": "b057",
+      "ja": "ワクワクしちゃいますよね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 331.464,
+        "previous_pts": 331.431,
+        "previous_frame": "frames/b-bound2/331.000-332.000/0013.jpg",
+        "first_frame": "frames/b-bound2/331.000-332.000/0014.jpg",
+        "index": "frames/b-bound2/331.000-332.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 333.567,
+        "previous_pts": 333.533,
+        "previous_frame": "frames/b-bound2/333.000-334.000/0016.jpg",
+        "first_frame": "frames/b-bound2/333.000-334.000/0017.jpg",
+        "index": "frames/b-bound2/333.000-334.000/index.json"
+      }
+    },
+    {
+      "id": "b058",
+      "ja": "そして",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 333.567,
+        "previous_pts": 333.533,
+        "previous_frame": "frames/b-bound2/333.000-334.000/0016.jpg",
+        "first_frame": "frames/b-bound2/333.000-334.000/0017.jpg",
+        "index": "frames/b-bound2/333.000-334.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 334.568,
+        "previous_pts": 334.534,
+        "previous_frame": "frames/b-bound2/334.000-335.000/0017.jpg",
+        "first_frame": "frames/b-bound2/334.000-335.000/0018.jpg",
+        "index": "frames/b-bound2/334.000-335.000/index.json"
+      }
+    },
+    {
+      "id": "b059",
+      "ja": "銀麦",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 334.568,
+        "previous_pts": 334.534,
+        "previous_frame": "frames/b-bound2/334.000-335.000/0017.jpg",
+        "first_frame": "frames/b-bound2/334.000-335.000/0018.jpg",
+        "index": "frames/b-bound2/334.000-335.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 335.902,
+        "previous_pts": 335.869,
+        "previous_frame": "frames/b-bound2/335.000-336.000/0027.jpg",
+        "first_frame": "frames/b-bound2/335.000-336.000/0028.jpg",
+        "index": "frames/b-bound2/335.000-336.000/index.json"
+      }
+    },
+    {
+      "id": "b060",
+      "ja": "むしろ何も表示しないという",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 335.902,
+        "previous_pts": 335.869,
+        "previous_frame": "frames/b-bound2/335.000-336.000/0027.jpg",
+        "first_frame": "frames/b-bound2/335.000-336.000/0028.jpg",
+        "index": "frames/b-bound2/335.000-336.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 337.37,
+        "previous_pts": 337.337,
+        "previous_frame": "frames/b-bound2/337.000-338.000/0011.jpg",
+        "first_frame": "frames/b-bound2/337.000-338.000/0012.jpg",
+        "index": "frames/b-bound2/337.000-338.000/index.json"
+      }
+    },
+    {
+      "id": "b061",
+      "ja": "シンプルイズベストな\nデザインがクールですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 337.37,
+        "previous_pts": 337.337,
+        "previous_frame": "frames/b-bound2/337.000-338.000/0011.jpg",
+        "first_frame": "frames/b-bound2/337.000-338.000/0012.jpg",
+        "index": "frames/b-bound2/337.000-338.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 340.34,
+        "previous_pts": 340.307,
+        "previous_frame": "frames/b-bound3/340.000-341.000/0010.jpg",
+        "first_frame": "frames/b-bound3/340.000-341.000/0011.jpg",
+        "index": "frames/b-bound3/340.000-341.000/index.json"
+      }
+    },
+    {
+      "id": "b062",
+      "ja": "並べてみるとかなりいい感じです",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 340.34,
+        "previous_pts": 340.307,
+        "previous_frame": "frames/b-bound3/340.000-341.000/0010.jpg",
+        "first_frame": "frames/b-bound3/340.000-341.000/0011.jpg",
+        "index": "frames/b-bound3/340.000-341.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 342.342,
+        "previous_pts": 342.309,
+        "previous_frame": "frames/b-bound3/342.000-343.000/0010.jpg",
+        "first_frame": "frames/b-bound3/342.000-343.000/0011.jpg",
+        "index": "frames/b-bound3/342.000-343.000/index.json"
+      }
+    },
+    {
+      "id": "b063",
+      "ja": "始めていきましょう",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 342.342,
+        "previous_pts": 342.309,
+        "previous_frame": "frames/b-bound3/342.000-343.000/0010.jpg",
+        "first_frame": "frames/b-bound3/342.000-343.000/0011.jpg",
+        "index": "frames/b-bound3/342.000-343.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 343.443,
+        "previous_pts": 343.41,
+        "previous_frame": "frames/b-bound3/343.000-344.000/0013.jpg",
+        "first_frame": "frames/b-bound3/343.000-344.000/0014.jpg",
+        "index": "frames/b-bound3/343.000-344.000/index.json"
+      }
+    },
+    {
+      "id": "b064",
+      "ja": "銀の宴会",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 343.443,
+        "previous_pts": 343.41,
+        "previous_frame": "frames/b-bound3/343.000-344.000/0013.jpg",
+        "first_frame": "frames/b-bound3/343.000-344.000/0014.jpg",
+        "index": "frames/b-bound3/343.000-344.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 344.678,
+        "previous_pts": 344.644,
+        "previous_frame": "frames/b-bound3/344.000-345.000/0020.jpg",
+        "first_frame": "frames/b-bound3/344.000-345.000/0021.jpg",
+        "index": "frames/b-bound3/344.000-345.000/index.json"
+      }
+    },
+    {
+      "id": "b065",
+      "ja": "吹き出さないビールなど言語道断",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 344.678,
+        "previous_pts": 344.644,
+        "previous_frame": "frames/b-bound3/344.000-345.000/0020.jpg",
+        "first_frame": "frames/b-bound3/344.000-345.000/0021.jpg",
+        "index": "frames/b-bound3/344.000-345.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 347.314,
+        "previous_pts": 347.28,
+        "previous_frame": "frames/b-bound3/347.000-348.000/0009.jpg",
+        "first_frame": "frames/b-bound3/347.000-348.000/0010.jpg",
+        "index": "frames/b-bound3/347.000-348.000/index.json"
+      }
+    },
+    {
+      "id": "b066",
+      "ja": "乾杯",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 347.314,
+        "previous_pts": 347.28,
+        "previous_frame": "frames/b-bound3/347.000-348.000/0009.jpg",
+        "first_frame": "frames/b-bound3/347.000-348.000/0010.jpg",
+        "index": "frames/b-bound3/347.000-348.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 348.715,
+        "previous_pts": 348.682,
+        "previous_frame": "frames/b-bound3/348.000-349.000/0021.jpg",
+        "first_frame": "frames/b-bound3/348.000-349.000/0022.jpg",
+        "index": "frames/b-bound3/348.000-349.000/index.json"
+      }
+    },
+    {
+      "id": "b067",
+      "ja": "ウーーン",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 348.715,
+        "previous_pts": 348.682,
+        "previous_frame": "frames/b-bound3/348.000-349.000/0021.jpg",
+        "first_frame": "frames/b-bound3/348.000-349.000/0022.jpg",
+        "index": "frames/b-bound3/348.000-349.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 349.683,
+        "previous_pts": 349.649,
+        "previous_frame": "frames/b-bound3/349.000-350.000/0020.jpg",
+        "first_frame": "frames/b-bound3/349.000-350.000/0021.jpg",
+        "index": "frames/b-bound3/349.000-350.000/index.json"
+      }
+    },
+    {
+      "id": "b068",
+      "ja": "強いていうなら金麦より",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 349.683,
+        "previous_pts": 349.649,
+        "previous_frame": "frames/b-bound3/349.000-350.000/0020.jpg",
+        "first_frame": "frames/b-bound3/349.000-350.000/0021.jpg",
+        "index": "frames/b-bound3/349.000-350.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 351.451,
+        "previous_pts": 351.418,
+        "previous_frame": "frames/b-bound3/351.000-352.000/0013.jpg",
+        "first_frame": "frames/b-bound3/351.000-352.000/0014.jpg",
+        "index": "frames/b-bound3/351.000-352.000/index.json"
+      }
+    },
+    {
+      "id": "b069",
+      "ja": "ぬるい",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 351.451,
+        "previous_pts": 351.418,
+        "previous_frame": "frames/b-bound3/351.000-352.000/0013.jpg",
+        "first_frame": "frames/b-bound3/351.000-352.000/0014.jpg",
+        "index": "frames/b-bound3/351.000-352.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 352.352,
+        "previous_pts": 352.319,
+        "previous_frame": "frames/b-bound3/352.000-353.000/0010.jpg",
+        "first_frame": "frames/b-bound3/352.000-353.000/0011.jpg",
+        "index": "frames/b-bound3/352.000-353.000/index.json"
+      }
+    },
+    {
+      "id": "b070",
+      "ja": "4、5人ほどジョギングしている人に\n見られてしまいました",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 352.352,
+        "previous_pts": 352.319,
+        "previous_frame": "frames/b-bound3/352.000-353.000/0010.jpg",
+        "first_frame": "frames/b-bound3/352.000-353.000/0011.jpg",
+        "index": "frames/b-bound3/352.000-353.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 355.922,
+        "previous_pts": 355.889,
+        "previous_frame": "frames/b-bound3/355.000-356.000/0027.jpg",
+        "first_frame": "frames/b-bound3/355.000-356.000/0028.jpg",
+        "index": "frames/b-bound3/355.000-356.000/index.json"
+      }
+    },
+    {
+      "id": "b071",
+      "ja": "銀色まみれの宴会",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 355.922,
+        "previous_pts": 355.889,
+        "previous_frame": "frames/b-bound3/355.000-356.000/0027.jpg",
+        "first_frame": "frames/b-bound3/355.000-356.000/0028.jpg",
+        "index": "frames/b-bound3/355.000-356.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 357.29,
+        "previous_pts": 357.257,
+        "previous_frame": "frames/b-bound3/357.000-358.000/0008.jpg",
+        "first_frame": "frames/b-bound3/357.000-358.000/0009.jpg",
+        "index": "frames/b-bound3/357.000-358.000/index.json"
+      }
+    },
+    {
+      "id": "b072",
+      "ja": "観光客丸出しで恥ずかしいですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 357.29,
+        "previous_pts": 357.257,
+        "previous_frame": "frames/b-bound3/357.000-358.000/0008.jpg",
+        "first_frame": "frames/b-bound3/357.000-358.000/0009.jpg",
+        "index": "frames/b-bound3/357.000-358.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 359.926,
+        "previous_pts": 359.893,
+        "previous_frame": "frames/b-bound3/359.000-360.000/0027.jpg",
+        "first_frame": "frames/b-bound3/359.000-360.000/0028.jpg",
+        "index": "frames/b-bound3/359.000-360.000/index.json"
+      }
+    },
+    {
+      "id": "b073",
+      "ja": "このままポテトチップスも\n開けちゃいましょう",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 359.926,
+        "previous_pts": 359.893,
+        "previous_frame": "frames/b-bound3/359.000-360.000/0027.jpg",
+        "first_frame": "frames/b-bound3/359.000-360.000/0028.jpg",
+        "index": "frames/b-bound3/359.000-360.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 362.462,
+        "previous_pts": 362.429,
+        "previous_frame": "frames/b-bound3/362.000-363.000/0013.jpg",
+        "first_frame": "frames/b-bound3/362.000-363.000/0014.jpg",
+        "index": "frames/b-bound3/362.000-363.000/index.json"
+      }
+    },
+    {
+      "id": "b074",
+      "ja": "まあ中身は普通にコンソメ…",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 362.462,
+        "previous_pts": 362.429,
+        "previous_frame": "frames/b-bound3/362.000-363.000/0013.jpg",
+        "first_frame": "frames/b-bound3/362.000-363.000/0014.jpg",
+        "index": "frames/b-bound3/362.000-363.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 365.165,
+        "previous_pts": 365.131,
+        "previous_frame": "frames/b-bound3/365.000-366.000/0004.jpg",
+        "first_frame": "frames/b-bound3/365.000-366.000/0005.jpg",
+        "index": "frames/b-bound3/365.000-366.000/index.json"
+      }
+    },
+    {
+      "id": "b075",
+      "ja": "おや",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 365.165,
+        "previous_pts": 365.131,
+        "previous_frame": "frames/b-bound3/365.000-366.000/0004.jpg",
+        "first_frame": "frames/b-bound3/365.000-366.000/0005.jpg",
+        "index": "frames/b-bound3/365.000-366.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 366.066,
+        "previous_pts": 366.032,
+        "previous_frame": "frames/b-bound3/366.000-367.000/0001.jpg",
+        "first_frame": "frames/b-bound3/366.000-367.000/0002.jpg",
+        "index": "frames/b-bound3/366.000-367.000/index.json"
+      }
+    },
+    {
+      "id": "b076",
+      "ja": "銀箔フレークがまぶされていますね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 366.066,
+        "previous_pts": 366.032,
+        "previous_frame": "frames/b-bound3/366.000-367.000/0001.jpg",
+        "first_frame": "frames/b-bound3/366.000-367.000/0002.jpg",
+        "index": "frames/b-bound3/366.000-367.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 368.501,
+        "previous_pts": 368.468,
+        "previous_frame": "frames/b-bound3/368.000-369.000/0015.jpg",
+        "first_frame": "frames/b-bound3/368.000-369.000/0016.jpg",
+        "index": "frames/b-bound3/368.000-369.000/index.json"
+      }
+    },
+    {
+      "id": "b077",
+      "ja": "中身まで特別仕様とは",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 368.501,
+        "previous_pts": 368.468,
+        "previous_frame": "frames/b-bound3/368.000-369.000/0015.jpg",
+        "first_frame": "frames/b-bound3/368.000-369.000/0016.jpg",
+        "index": "frames/b-bound3/368.000-369.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 370.37,
+        "previous_pts": 370.337,
+        "previous_frame": "frames/b-bound3/370.000-371.000/0011.jpg",
+        "first_frame": "frames/b-bound3/370.000-371.000/0012.jpg",
+        "index": "frames/b-bound3/370.000-371.000/index.json"
+      }
+    },
+    {
+      "id": "b078",
+      "ja": "芸が細かい",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 370.37,
+        "previous_pts": 370.337,
+        "previous_frame": "frames/b-bound3/370.000-371.000/0011.jpg",
+        "first_frame": "frames/b-bound3/370.000-371.000/0012.jpg",
+        "index": "frames/b-bound3/370.000-371.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 372.005,
+        "previous_pts": 371.972,
+        "previous_frame": "frames/b-bound5/371.700-372.200/0009.jpg",
+        "first_frame": "frames/b-bound5/371.700-372.200/0010.jpg",
+        "index": "frames/b-bound5/371.700-372.200/index.json"
+      }
+    },
+    {
+      "id": "b079",
+      "ja": "いただきます",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 372.005,
+        "previous_pts": 371.972,
+        "previous_frame": "frames/b-bound5/371.700-372.200/0009.jpg",
+        "first_frame": "frames/b-bound5/371.700-372.200/0010.jpg",
+        "index": "frames/b-bound5/371.700-372.200/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 373.373,
+        "previous_pts": 373.34,
+        "previous_frame": "frames/b-bound3/373.000-374.000/0011.jpg",
+        "first_frame": "frames/b-bound3/373.000-374.000/0012.jpg",
+        "index": "frames/b-bound3/373.000-374.000/index.json"
+      }
+    },
+    {
+      "id": "b080",
+      "ja": "ンン～～",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 373.373,
+        "previous_pts": 373.34,
+        "previous_frame": "frames/b-bound3/373.000-374.000/0011.jpg",
+        "first_frame": "frames/b-bound3/373.000-374.000/0012.jpg",
+        "index": "frames/b-bound3/373.000-374.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 374.474,
+        "previous_pts": 374.441,
+        "previous_frame": "frames/b-bound3/374.000-375.000/0014.jpg",
+        "first_frame": "frames/b-bound3/374.000-375.000/0015.jpg",
+        "index": "frames/b-bound3/374.000-375.000/index.json"
+      }
+    },
+    {
+      "id": "b081",
+      "ja": "コンソメ味のパンチが効いていて",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 374.474,
+        "previous_pts": 374.441,
+        "previous_frame": "frames/b-bound3/374.000-375.000/0014.jpg",
+        "first_frame": "frames/b-bound3/374.000-375.000/0015.jpg",
+        "index": "frames/b-bound3/374.000-375.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 376.176,
+        "previous_pts": 376.142,
+        "previous_frame": "frames/b-bound3/376.000-377.000/0005.jpg",
+        "first_frame": "frames/b-bound3/376.000-377.000/0006.jpg",
+        "index": "frames/b-bound3/376.000-377.000/index.json"
+      }
+    },
+    {
+      "id": "b082",
+      "ja": "美味",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 376.176,
+        "previous_pts": 376.142,
+        "previous_frame": "frames/b-bound3/376.000-377.000/0005.jpg",
+        "first_frame": "frames/b-bound3/376.000-377.000/0006.jpg",
+        "index": "frames/b-bound3/376.000-377.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 377.143,
+        "previous_pts": 377.11,
+        "previous_frame": "frames/b-bound3/377.000-378.000/0004.jpg",
+        "first_frame": "frames/b-bound3/377.000-378.000/0005.jpg",
+        "index": "frames/b-bound3/377.000-378.000/index.json"
+      }
+    },
+    {
+      "id": "b083",
+      "ja": "銀",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 377.143,
+        "previous_pts": 377.11,
+        "previous_frame": "frames/b-bound3/377.000-378.000/0004.jpg",
+        "first_frame": "frames/b-bound3/377.000-378.000/0005.jpg",
+        "index": "frames/b-bound3/377.000-378.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 377.878,
+        "previous_pts": 377.844,
+        "previous_frame": "frames/b-bound3/377.000-378.000/0026.jpg",
+        "first_frame": "frames/b-bound3/377.000-378.000/0027.jpg",
+        "index": "frames/b-bound3/377.000-378.000/index.json"
+      }
+    },
+    {
+      "id": "b084",
+      "ja": "無味",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 377.878,
+        "previous_pts": 377.844,
+        "previous_frame": "frames/b-bound3/377.000-378.000/0026.jpg",
+        "first_frame": "frames/b-bound3/377.000-378.000/0027.jpg",
+        "index": "frames/b-bound3/377.000-378.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 379.012,
+        "previous_pts": 378.979,
+        "previous_frame": "frames/b-bound5/378.600-379.200/0012.jpg",
+        "first_frame": "frames/b-bound5/378.600-379.200/0013.jpg",
+        "index": "frames/b-bound5/378.600-379.200/index.json"
+      }
+    },
+    {
+      "id": "b085",
+      "ja": "カラスにも羨ましそうにこちらを見てきますよ",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 379.012,
+        "previous_pts": 378.979,
+        "previous_frame": "frames/b-bound5/378.600-379.200/0012.jpg",
+        "first_frame": "frames/b-bound5/378.600-379.200/0013.jpg",
+        "index": "frames/b-bound5/378.600-379.200/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 381.882,
+        "previous_pts": 381.848,
+        "previous_frame": "frames/b-bound3/381.000-382.000/0026.jpg",
+        "first_frame": "frames/b-bound3/381.000-382.000/0027.jpg",
+        "index": "frames/b-bound3/381.000-382.000/index.json"
+      }
+    },
+    {
+      "id": "b086",
+      "ja": "光り物の多いこの街",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 381.882,
+        "previous_pts": 381.848,
+        "previous_frame": "frames/b-bound3/381.000-382.000/0026.jpg",
+        "first_frame": "frames/b-bound3/381.000-382.000/0027.jpg",
+        "index": "frames/b-bound3/381.000-382.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 383.35,
+        "previous_pts": 383.316,
+        "previous_frame": "frames/b-bound3/383.000-384.000/0010.jpg",
+        "first_frame": "frames/b-bound3/383.000-384.000/0011.jpg",
+        "index": "frames/b-bound3/383.000-384.000/index.json"
+      }
+    },
+    {
+      "id": "b087",
+      "ja": "必然的にカラスがたくさん\n住み着いているんでしょうか",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 383.35,
+        "previous_pts": 383.316,
+        "previous_frame": "frames/b-bound3/383.000-384.000/0010.jpg",
+        "first_frame": "frames/b-bound3/383.000-384.000/0011.jpg",
+        "index": "frames/b-bound3/383.000-384.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 386.62,
+        "previous_pts": 386.586,
+        "previous_frame": "frames/b-bound3/386.000-387.000/0018.jpg",
+        "first_frame": "frames/b-bound3/386.000-387.000/0019.jpg",
+        "index": "frames/b-bound3/386.000-387.000/index.json"
+      }
+    },
+    {
+      "id": "b088",
+      "ja": "君にはあげませんよ",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 386.62,
+        "previous_pts": 386.586,
+        "previous_frame": "frames/b-bound3/386.000-387.000/0018.jpg",
+        "first_frame": "frames/b-bound3/386.000-387.000/0019.jpg",
+        "index": "frames/b-bound3/386.000-387.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 388.722,
+        "previous_pts": 388.688,
+        "previous_frame": "frames/b-bound3/388.000-389.000/0021.jpg",
+        "first_frame": "frames/b-bound3/388.000-389.000/0022.jpg",
+        "index": "frames/b-bound3/388.000-389.000/index.json"
+      }
+    },
+    {
+      "id": "b089",
+      "ja": "雨が降ってきました",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 388.722,
+        "previous_pts": 388.688,
+        "previous_frame": "frames/b-bound3/388.000-389.000/0021.jpg",
+        "first_frame": "frames/b-bound3/388.000-389.000/0022.jpg",
+        "index": "frames/b-bound3/388.000-389.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 390.257,
+        "previous_pts": 390.223,
+        "previous_frame": "frames/b-bound3/390.000-391.000/0007.jpg",
+        "first_frame": "frames/b-bound3/390.000-391.000/0008.jpg",
+        "index": "frames/b-bound3/390.000-391.000/index.json"
+      }
+    },
+    {
+      "id": "b090",
+      "ja": "これぞ銀色の雨ですね",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 390.257,
+        "previous_pts": 390.223,
+        "previous_frame": "frames/b-bound3/390.000-391.000/0007.jpg",
+        "first_frame": "frames/b-bound3/390.000-391.000/0008.jpg",
+        "index": "frames/b-bound3/390.000-391.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 392.192,
+        "previous_pts": 392.158,
+        "previous_frame": "frames/b-bound3/392.000-393.000/0005.jpg",
+        "first_frame": "frames/b-bound3/392.000-393.000/0006.jpg",
+        "index": "frames/b-bound3/392.000-393.000/index.json"
+      }
+    },
+    {
+      "id": "b091",
+      "ja": "どこまでも歓迎ムードで\n大吉の力を思い知らされます",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 392.192,
+        "previous_pts": 392.158,
+        "previous_frame": "frames/b-bound3/392.000-393.000/0005.jpg",
+        "first_frame": "frames/b-bound3/392.000-393.000/0006.jpg",
+        "index": "frames/b-bound3/392.000-393.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 396.162,
+        "previous_pts": 396.129,
+        "previous_frame": "frames/b-bound3/396.000-397.000/0004.jpg",
+        "first_frame": "frames/b-bound3/396.000-397.000/0005.jpg",
+        "index": "frames/b-bound3/396.000-397.000/index.json"
+      }
+    },
+    {
+      "id": "b092",
+      "ja": "ちょっくら橋の下で\n雨を凌がせてもらいましょう",
+      "text_review": "viewed_in_full_frame_overview_and_adjacent_boundary_frames",
+      "start": {
+        "status": "frame_verified",
+        "pts": 396.162,
+        "previous_pts": 396.129,
+        "previous_frame": "frames/b-bound3/396.000-397.000/0004.jpg",
+        "first_frame": "frames/b-bound3/396.000-397.000/0005.jpg",
+        "index": "frames/b-bound3/396.000-397.000/index.json"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 399.232,
+        "previous_pts": 399.199,
+        "previous_frame": "frames/b-bound3/399.000-400.000/0006.jpg",
+        "first_frame": "frames/b-bound3/399.000-400.000/0007.jpg",
+        "index": "frames/b-bound3/399.000-400.000/index.json"
+      }
+    }
+  ],
+  "source_specific_notes": [
+    {
+      "id": "b017",
+      "visual": "大吉恐るべし",
+      "asr_reference": "大吉のおみくじは伊達じゃなさそうですね。",
+      "decision": "画面優先。発話との差分を保持して報告。"
+    },
+    {
+      "id": "b023",
+      "decision": "原画には使っていてるのでと重複したてがあり、原画優先で維持。"
+    },
+    {
+      "id": "b085",
+      "decision": "原画にはカラスにもとあり、ASRのカラスもより原画を優先。"
+    },
+    {
+      "id": "b007",
+      "decision": "エーットのエが装飾字体でI状。読みはASRのえーとと整合。"
+    },
+    {
+      "ids": [
+        "b025",
+        "b045",
+        "b080"
+      ],
+      "decision": "うーん相当の鼻音を原画ではンー、ンーーー、ンン～～の装飾表記として表示。"
+    }
+  ],
+  "warnings_rationale": "17件は原画の二行表示15件と原画の21文字一行2件。原画単位と改行の保存を優先し、手動確認後に維持。",
+  "submission_review": {
+    "original_range_reread_in_order": true,
+    "all_92_patched_units_reread_in_order": true,
+    "dry_run": {
+      "fatal": 0,
+      "error": 0,
+      "warning": 17
+    }
+  },
+  "asides_file": "patches/transcript/242838-asides.json"
+}

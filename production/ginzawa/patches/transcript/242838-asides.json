@@ -1,0 +1,49 @@
+{
+  "created_by": "242838",
+  "stage": "transcript",
+  "notes": "画面内の非発話注記。翻訳段階で独立イベントにする。",
+  "events": [
+    {
+      "id": "b-aside-001",
+      "ja": "スタンプもあります",
+      "start": 274.074,
+      "end": 275.509,
+      "start_status": "frame_verified_fade_onset",
+      "end_status": "frame_verified_scene_cut",
+      "evidence": [
+        "frames/b-promo-boundary/sheet-000.jpg",
+        "frames/b-bound1/sheet-003.jpg",
+        "frames/b-overview/sheet-005.jpg"
+      ],
+      "note": "274.074で黒背景に薄く出現し、フェードイン。275.475まで表示、275.509で次場面。"
+    },
+    {
+      "id": "b-brand-001",
+      "ja": "してはる\nSHITEHARU",
+      "start": 272.372,
+      "end": 275.509,
+      "start_status": "frame_verified_scene_cut",
+      "end_status": "frame_verified_scene_cut",
+      "evidence": [
+        "frames/b-bound1/sheet-003.jpg",
+        "frames/b-overview/sheet-005.jpg"
+      ],
+      "note": "アイキャッチ内ブランドロゴ。固有名は原文維持候補。"
+    },
+    {
+      "id": "b-brand-002",
+      "ja": "してはる\nSHITEHARU",
+      "start": 399.232,
+      "end": 403.003,
+      "start_status": "frame_verified_scene_cut",
+      "end_status": "frame_verified_scene_cut",
+      "evidence": [
+        "frames/b-bound3/sheet-003.jpg",
+        "frames/b-overview/sheet-015.jpg",
+        "frames/b-overview/sheet-016.jpg",
+        "frames/a0e72e-exact/sheet-00.jpg"
+      ],
+      "note": "402.969はアイキャッチ、403.003で次場面。c担当の実PTS図をb担当も実見。"
+    }
+  ]
+}

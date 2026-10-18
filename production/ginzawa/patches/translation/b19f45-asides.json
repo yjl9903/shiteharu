@@ -1,0 +1,22 @@
+{
+  "created_by": "b19f45",
+  "stage": "translation",
+  "source": "patches/transcript/242838-asides.json",
+  "events": [
+    {
+      "id": "b-aside-001",
+      "ja": "スタンプもあります",
+      "zh": "还有聊天贴纸哦",
+      "start": 274.074,
+      "end": 275.509,
+      "start_status": "frame_verified_fade_onset",
+      "end_status": "frame_verified_scene_cut",
+      "evidence": [
+        "frames/b-promo-boundary/sheet-000.jpg",
+        "frames/b-bound1/sheet-003.jpg",
+        "frames/b-overview/sheet-005.jpg"
+      ],
+      "note": "274.074开始淡入，275.475仍显示，275.509切镜消失。非口播宣传字，独立事件；品牌logo沿用原画。"
+    }
+  ]
+}

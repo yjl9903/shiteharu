@@ -1,0 +1,509 @@
+name = "Boundary retime suggestions"
+summary = "Prefer 150ms subtitle gaps and fall back to 50ms when needed. Chunk 000 covers 0s-606.376s."
+created_by = "rajio"
+start = 0
+end = 606.376
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s1"
+end = 3.695
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s2"
+start = 3.845
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s2"
+end = 6.445
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s3"
+start = 6.595
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s8"
+end = 19.905
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s9"
+start = 20.055
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s14"
+end = 30.535
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s15"
+start = 30.685
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s24"
+end = 57.805
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s25"
+start = 57.955
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s25"
+end = 61.925
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s26"
+start = 62.075
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s33"
+end = 80.445
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s34"
+start = 80.595
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s35"
+end = 87.195
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s36"
+start = 87.345
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s41"
+end = 100.145
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s42"
+start = 100.295
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s47"
+end = 111.405
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s48"
+start = 111.555
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s68"
+end = 149.185
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s69"
+start = 149.335
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s81"
+end = 172.625
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s82"
+start = 172.775
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s82"
+end = 176.405
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s83"
+start = 176.555
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s86"
+end = 187.405
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s87"
+start = 187.555
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s95"
+end = 199.105
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s96"
+start = 199.255
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s96"
+end = 203.085
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s97"
+start = 203.235
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s103"
+end = 214.125
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s104"
+start = 214.275
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s112"
+end = 230.245
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s113"
+start = 230.395
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s118"
+end = 246.365
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s119"
+start = 246.515
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s121"
+end = 253.685
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s122"
+start = 253.835
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s126"
+end = 265.645
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s127"
+start = 265.795
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s146"
+end = 304.785
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s147"
+start = 304.935
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s165"
+end = 332.345
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s166"
+start = 332.495
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s169"
+end = 339.125
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s170"
+start = 339.275
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s217"
+end = 424.381
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s218"
+start = 424.531
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s220"
+end = 437.641
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s221"
+start = 437.791
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s221"
+end = 440.941
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s222"
+start = 441.091
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s224"
+end = 447.981
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s225"
+start = 448.131
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s225"
+end = 450.671
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s226"
+start = 450.821
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s228"
+end = 466.801
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s229"
+start = 466.951
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s247"
+end = 505.721
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s248"
+start = 505.871
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s252"
+end = 515.591
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s253"
+start = 515.741
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s254"
+end = 527.001
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s255"
+start = 527.151
+
+[[operations]]
+op = "edit"
+reason = "Insert a 50ms hard-minimum subtitle gap at a tight boundary."
+confidence = "high"
+segment_id = "1-s262"
+end = 548.471
+
+[[operations]]
+op = "edit"
+reason = "Insert a 50ms hard-minimum subtitle gap at a tight boundary."
+confidence = "high"
+segment_id = "1-s263"
+start = 548.521
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s277"
+end = 572.781
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s278"
+start = 572.931
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s290"
+end = 597.361
+
+[[operations]]
+op = "edit"
+reason = "Insert a 150ms subtitle gap at a short boundary."
+confidence = "high"
+segment_id = "1-s291"
+start = 597.511

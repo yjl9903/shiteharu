@@ -1,0 +1,73 @@
+version = 1
+title = "银泽 · editable Chinese performance"
+canvas = [1920, 1080]
+duration = 616.141
+media_session = "session.toml"
+timeline = "translation/work/segments.toml"
+collection = "segments"
+source_text = "ja"
+text = "zh"
+fonts = "design/fonts.toml"
+defaults = "design/defaults.toml"
+overlays = ["design/events-*.toml"]
+default_font = "sans"
+max_width = 1760
+output = "deliverables"
+performance_ass = "zh.performance.ass"
+review_ass = "ja.review.ass"
+source_srt = "ja.srt"
+text_srt = "zh.srt"
+font_cache = ".cache/render-fonts"
+shared_fonts = "../../fonts"
+clips = "design/clips.toml"
+research = "research/fonts/recipe.toml"
+comparisons = "deliverables/comparisons"
+comparison_width = 960
+
+[review]
+font = "ja"
+fontsize = 52
+x = 960
+y = 45
+max_width = 1740
+outline = 3
+shadow = 1
+line_height = 1.3
+gap = 14
+
+[calibration]
+margin = 20
+max_y = 30
+
+[render.preview]
+file = "zh.preview.720p.mp4"
+width = 1280
+crf = 21
+audio_bitrate = "160k"
+
+[render.full]
+file = "zh.performance.1080p.mp4"
+crf = 19
+audio_bitrate = "192k"
+
+[render.soft]
+file = "editable-tracks.mkv"
+text_language = "zho"
+source_language = "jpn"
+text_title = "中文演出字幕"
+source_title = "日文校对（原片已有日文）"
+
+[package]
+include_evidence = true
+file = "deliverables/editable-project.zip"
+include = ["design", "translation/work", "patches", "review", "research", "frames/final-encoded", "README.md", "description.md", "session.toml", "preview.toml"]
+
+[ass_style]
+fontsize = 58
+bold = -1
+outline = 3.5
+shadow = 1
+align = 2
+margin_left = 60
+margin_right = 60
+margin_vertical = 265

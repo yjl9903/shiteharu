@@ -1,0 +1,89 @@
+[[clips]]
+name = "01-opening-scroll"
+start = 0
+end = 9.3
+
+[[clips]]
+name = "02-name-and-tweets"
+start = 11.5
+end = 21.3
+
+[[clips]]
+name = "03-city-title"
+start = 38
+end = 41
+
+[[clips]]
+name = "04-cloudy-emphasis"
+start = 76.2
+end = 84
+
+[[clips]]
+name = "05-forbidden-phrase"
+start = 93
+end = 100
+
+[[clips]]
+name = "06-fish-aside"
+start = 126
+end = 128.5
+
+[[clips]]
+name = "07-certificate-and-wipe"
+start = 186
+end = 195
+
+[[clips]]
+name = "08-silver-leaf"
+start = 209
+end = 215
+
+[[clips]]
+name = "09-silver-icecream"
+start = 230
+end = 240
+
+[[clips]]
+name = "10-sticker-aside"
+start = 273
+end = 275.7
+
+[[clips]]
+name = "11-rice-sushi-taste"
+start = 292
+end = 313.5
+
+[[clips]]
+name = "12-chickens"
+start = 403
+end = 416
+
+[[clips]]
+name = "13-coexistence-aside"
+start = 437
+end = 444.5
+
+[[clips]]
+name = "14-umbrella-roof"
+start = 466
+end = 474
+
+[[clips]]
+name = "15-sweet-potato"
+start = 490
+end = 500.6
+
+[[clips]]
+name = "16-fish-and-night"
+start = 521
+end = 529.8
+
+[[clips]]
+name = "17-souvenirs-censor"
+start = 551.5
+end = 570.6
+
+[[clips]]
+name = "18-next-holiday-ending"
+start = 584
+end = 607

@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "b038",
+      "time": 293.71,
+      "ink_bounds": [
+        845,
+        20,
+        1075,
+        139
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b038-small-top/b038-0.png"
+    }
+  ]
+}

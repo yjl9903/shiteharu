@@ -1,0 +1,109 @@
+version = 1
+worker = "proofread_b"
+design = "design/events-b.toml"
+range = [209.409, 403.003]
+main_events = 92
+supplemental_events = 1
+source_review = "重新逐条实看 b-overview/sheet-000 至 sheet-015 的全画面采样；短闪 b028/b037/b083 另看原帧，b025/b045/b080 手写字另看原尺寸细节。全部92条源字幕均已观察。"
+timing_review = "本批校对时已实看所有起止相邻实际PTS帧；逐条索引与起止前后帧保存在 patches/transcript/242838-evidence.json。概览采样本身不用于逐帧认证。"
+timing_evidence = "patches/transcript/242838-evidence.json"
+translation = "translation/work/segments.toml"
+text_changed = false
+render_review_status = "pass1与pass2的全部31张对照表、93条事件已逐条实看；7条最终位置/横比修订已统一build并逐条复查通过，见 review/review-b.toml。"
+motion_review = "源入退场邻帧和内部采样未见主字幕自身渐变或位移；大字处角色缩放属于原视频。主字幕使用硬切，不增添弹跳。贴纸旁注274.14秒淡入中间状态已对照；未将联系表称为全帧连续动态验收。"
+position_policy = "普通对白在原字正上方；两行原字腾出整块空间。宽强调、居中头像与街头人群冲突时顶部居中，原日文始终保留。"
+source_box_method = "在1920×1080全帧中人工估计字幕墨迹外包矩形并保留小余量；非自动分割。两轮实际中文墨迹碰撞检查均无候选；人工实看仍发现部分顶部强调遮眼，已另修。"
+
+[[font_substitutions]]
+role = "round"
+source_category = "普通对白的重圆体，以及第一和第三组美味"
+replacement = "Resource Han Rounded CN Heavy"
+limitation = "中文字面比例不同，必须按渲染墨迹高度校正，不能以相同字号认定匹配。"
+
+[[font_substitutions]]
+role = "mincho"
+source_category = "明朝标题、银/无味及部分冷静感想"
+replacement = "Source Han Serif SC Heavy"
+limitation = "中文宋体细横粗竖接近源类别，但假名字形与中文形体不可逐字等同。"
+
+[[font_substitutions]]
+role = "brush_title"
+source_category = "大吉恐るべし、银麦、银色盛宴、干杯和勉强算寿司前半"
+replacement = "PangMenZhengDao-Cu"
+limitation = "实际渲染比Ma Shan Zheng厚重，能保留强调量级，但笔端、斜势与原作不相同，部分字仍偏细。b041前3字用此书法体，后2字用fracture，不声称原作者字体。"
+
+[[font_substitutions]]
+role = "marker"
+source_category = "小号品尝声及饭盒揭晓的手绘假名"
+replacement = "LongZhuTi"
+limitation = "重现圆头手绘类别与小尺寸，不能复制假名笔迹。"
+
+[[font_substitutions]]
+role = "sans"
+source_category = "方黑强调"
+replacement = "MiSans Bold"
+limitation = "保留方黑类别和实际墨迹高度；中文字面与日文假名宽度不同。"
+
+[[font_substitutions]]
+role = "sans_light"
+source_category = "贴纸宣传旁注"
+replacement = "MiSans Light"
+limitation = "已实际对照灰色无描边细字和淡入中间状态；线性167毫秒淡入近似原片亮度变化。"
+[[font_substitutions]]
+role = "fracture"
+source_category = "b041寿司两字的破损明朝"
+replacement = "GinzawaFractureSC"
+limitation = "有限中文字集的裂纹派生近似，轮廓/缺口不是原作者字库；工具配方、源资产与许可由工程统一保存。"
+[[representative_clips]]
+name = "b-leaf"
+start = 208.9
+end = 217.6
+purpose = "巨型明朝标题切换普通圆体与双行对白"
+
+[[representative_clips]]
+name = "b-icecream-triplet"
+start = 266.2
+end = 272.5
+purpose = "手写品尝声、圆体好吃、宋体银、巨型无味三拍"
+
+[[representative_clips]]
+name = "b-sticker-aside"
+start = 273.8
+end = 275.7
+purpose = "非口播旁注首帧、淡入与硬切结束；保留logo"
+
+[[representative_clips]]
+name = "b-mixed-sushi"
+start = 297.8
+end = 300.7
+purpose = "勉强算寿司毛笔/明朝混排与原字破损近似限制"
+
+[[representative_clips]]
+name = "b-rice-triplet"
+start = 307.2
+end = 313.5
+purpose = "第二组三拍的好吃采用宋体，与第一组不同"
+
+[[representative_clips]]
+name = "b-beer-calligraphy"
+start = 333.4
+end = 337.5
+purpose = "极小引导、巨型银麦毛笔、中大圆体的反差"
+
+[[representative_clips]]
+name = "b-toast-temperature"
+start = 343.2
+end = 352.6
+purpose = "毛笔宴会/干杯、普通圆体、巨型宋体冷笑点与居中头像"
+
+[[representative_clips]]
+name = "b-chips-triplet"
+start = 373.1
+end = 379.2
+purpose = "第三组手写声和圆体/宋体三拍，实际墨迹高度对比"
+
+[[representative_clips]]
+name = "b-rain"
+start = 388.5
+end = 399.4
+purpose = "方黑下雨、明朝银色雨、明朝两行和普通圆体收尾"

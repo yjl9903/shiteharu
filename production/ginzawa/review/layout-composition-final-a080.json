@@ -1,0 +1,28 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "a080",
+      "time": 177.661,
+      "ink_bounds": [
+        400,
+        739,
+        1517,
+        816
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/composition-final-a080/a080-0.png"
+    }
+  ]
+}

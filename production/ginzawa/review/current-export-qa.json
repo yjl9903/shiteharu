@@ -1,0 +1,108 @@
+{
+  "video": "deliverables/zh.performance.1080p.mp4",
+  "source_duration": "616.141000",
+  "encoded_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30000/1001"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "616.140998",
+      "size": "483409420"
+    }
+  },
+  "sha256": "22f7a909c1040a69881c1b7fb5fdef6723606ea8ed0887229888344c0f97de3d",
+  "full_audio_video_decode": {
+    "exit_code": 0,
+    "error_output": ""
+  },
+  "inputs": {
+    "forge.toml": "d207ee928cb5259da2c53087f49b5d423ff9d71e7c9f08ed3d93742c93450866",
+    "design/fonts.toml": "599bed6a08f69365d83872f6dbef1f28baa0803a5946336c26c149e11432343f",
+    "design/defaults.toml": "6730f4e4a8a3f0449463edc713d2cc9d121684e6edcacd15bbbd8094545abd42",
+    "design/events-a.toml": "5608139f28d68858665d9075865e17545505e8b540d521b0083344d387dde7d2",
+    "design/events-b.toml": "ad023dabc7c721bfaefaff83fc3799a504961bcd6cf5d9ff96a3769e88207e9c",
+    "design/events-c.toml": "bc91824faf7134cb036e887c00e7781a3565732233660ebcb3c771a20331dce0",
+    "translation/work/segments.toml": "e4721b6d67ee4068461f3ac50207f5935a0321aa98dad2b0a7ba492310f1d625"
+  },
+  "visual_samples": [
+    {
+      "id": "a002",
+      "requested_time": 8.3,
+      "file": "frames/current-export/a002.jpg"
+    },
+    {
+      "id": "a017",
+      "requested_time": 34.8845,
+      "file": "frames/current-export/a017.jpg"
+    },
+    {
+      "id": "a020",
+      "requested_time": 39.59,
+      "file": "frames/current-export/a020.jpg"
+    },
+    {
+      "id": "a035",
+      "requested_time": 77.2105,
+      "file": "frames/current-export/a035.jpg"
+    },
+    {
+      "id": "a045",
+      "requested_time": 96.513,
+      "file": "frames/current-export/a045.jpg"
+    },
+    {
+      "id": "a055",
+      "requested_time": 119.77,
+      "file": "frames/current-export/a055.jpg"
+    },
+    {
+      "id": "c047",
+      "requested_time": 526.159,
+      "file": "frames/current-export/c047.jpg"
+    },
+    {
+      "id": "c066",
+      "requested_time": 566.3155,
+      "file": "frames/current-export/c066.jpg"
+    },
+    {
+      "id": "c067",
+      "requested_time": 568.0675,
+      "file": "frames/current-export/c067.jpg"
+    },
+    {
+      "id": "c075",
+      "requested_time": 587.4035,
+      "file": "frames/current-export/c075.jpg"
+    },
+    {
+      "id": "c082",
+      "requested_time": 602.452,
+      "file": "frames/current-export/c082.jpg"
+    }
+  ],
+  "visual_status": "Inspected all 11 encoded frame samples; requested changes visible. c067 overlaps part of the package branding as recorded in its user-directed top layout.",
+  "note": "Current working export, no release version. Full decode and sampled frames do not imply continuous visual acceptance.",
+  "built_subtitles_match_current_inputs": true,
+  "loupe": {
+    "revision": "445aa4a44b1834d88d58",
+    "source": "deliverables/zh.performance.1080p.mp4",
+    "title": "『银泽』· 字幕与字体对照",
+    "range_status": 206
+  }
+}

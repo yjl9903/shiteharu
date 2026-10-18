@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "c003",
+      "time": 410.476,
+      "ink_bounds": [
+        896,
+        702,
+        1028,
+        832
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/composition-final-c003/c003-0.png"
+    }
+  ]
+}

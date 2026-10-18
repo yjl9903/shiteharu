@@ -1,0 +1,39 @@
+created_by = "main-refine-01"
+start = 0
+end = 616.141
+summary = "第一轮全文润色：语义和语气；去掉无依据的性别指代，校准粉糯口感，顺畅表达艺术空间与雨宿感受。"
+
+[[operations]]
+op = "edit"
+segment_id = "b068"
+zh = "非要和金麦比的话"
+
+[[operations]]
+op = "edit"
+segment_id = "c004"
+zh = "散步时听见响亮的喔喔叫声"
+
+[[operations]]
+op = "edit"
+segment_id = "c012"
+zh = "听说主人有时在外面干活"
+
+[[operations]]
+op = "edit"
+segment_id = "c021"
+zh = "是个特别美好的地方"
+
+[[operations]]
+op = "edit"
+segment_id = "c030"
+zh = "这些细腻的感受 真想好好珍惜"
+
+[[operations]]
+op = "edit"
+segment_id = "c040"
+zh = "口感像栗子一样粉糯 甜味清雅"
+
+[[operations]]
+op = "edit"
+segment_id = "c050"
+zh = "白天热热闹闹的也很好"

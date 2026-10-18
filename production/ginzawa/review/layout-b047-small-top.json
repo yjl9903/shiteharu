@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "b047",
+      "time": 311.194,
+      "ink_bounds": [
+        844,
+        20,
+        1076,
+        139
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/b047-small-top/b047-0.png"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "created_by":"a0e72e",
+  "language":"ja",
+  "note":"并发或无语音文字独立保存；不是已翻译内容。start/end为源视频PTS，end排他。渐入首个可见文字帧为起点。",
+  "overlays":[
+    {"id":"c-note-wild","start":442.609,"end":444.311,"ja":"ワイルド","kind":"unspoken_aside","boundary_status":"frame_verified","evidence":["frames/a0e72e-side-wild/sheet-000.jpg","frames/a0e72e-side-wild-end/sheet-000.jpg"]},
+    {"id":"c-logo-1","start":452.819,"end":460.694,"ja":"してはる","secondary":"SHITEHARU","kind":"eyecatch_logo","boundary_status":"frame_verified_cut","evidence":["frames/a0e72e-overview/sheet-004.jpg","frames/a0e72e-exact/sheet-01.jpg","frames/a0e72e-exact/sheet-02.jpg"]},
+    {"id":"c-note-umbrella","start":466.199,"end":467.667,"ja":"傘買えばいいのに","kind":"unspoken_aside","boundary_status":"frame_verified","evidence":["frames/a0e72e-side-umbrella/sheet-000.jpg","frames/a0e72e-side-umbrella-end/sheet-000.jpg"]},
+    {"id":"c-logo-2","start":519.285,"end":523.156,"ja":"してはる","secondary":"SHITEHARU","kind":"eyecatch_logo","boundary_status":"frame_verified_cut","evidence":["frames/a0e72e-note/000521.000.jpg","frames/a0e72e-exact/sheet-04.jpg"]},
+    {"id":"c-note-fish","start":521.454,"end":523.156,"ja":"生魚ありがとう","kind":"unspoken_aside","boundary_status":"frame_verified_fade","note":"渐入：521.421裁剪区域全黑，521.454首个可见文字帧；至523.156切镜消失。","evidence":["frames/a0e72e-side-fish-exact/sheet-000.jpg","frames/a0e72e-side-fish/sheet-001.jpg","frames/a0e72e-exact/sheet-04.jpg"]},
+    {"id":"c-note-eat","start":528.528,"end":529.596,"ja":"食べないわけにはいかない………","kind":"unspoken_aside","boundary_status":"frame_verified","note":"原画尾部为连续点状省略标点，保留延长感。","evidence":["frames/a0e72e-side-eat/sheet-001.jpg","frames/a0e72e-side-eat-end/sheet-000.jpg"]},
+    {"id":"c-note-trust","start":604.204,"end":605.038,"ja":"たのんだぞ","kind":"unspoken_aside","boundary_status":"frame_verified","evidence":["frames/a0e72e-side-trust/sheet-000.jpg","frames/a0e72e-side-trust-end/sheet-000.jpg"]}
+  ],
+  "ending":{"range":[606.606,616.141],"note":"收尾黑场及河边人物画面未见新增文字。607.5至615.5逐秒实看，非全范围逐帧。末端616.1已无可抽取视频帧。","evidence":["frames/a0e72e-overview/sheet-017.jpg","frames/a0e72e-last/000616.000.jpg"]}
+}

@@ -1,0 +1,131 @@
+{
+  "video": "deliverables/revisions/v2/zh.performance.1080p.mp4",
+  "source_duration": "616.141000",
+  "encoded_probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30000/1001",
+        "duration": "616.082133"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0",
+        "duration": "616.140998"
+      }
+    ],
+    "format": {
+      "duration": "616.140998",
+      "size": "483411691"
+    }
+  },
+  "sha256": "90b6d4c156e23b3855bfd2b5a890e2254b472e0ab1ea6e314aded5da54c53f51",
+  "full_audio_video_decode": {
+    "exit_code": 0,
+    "error_output": ""
+  },
+  "frozen_input_hashes_match": true,
+  "visual_samples": [
+    {
+      "id": "a002",
+      "requested_time": 4.7545,
+      "file": "frames/export-v2/a002.jpg"
+    },
+    {
+      "id": "a006",
+      "requested_time": 12.9965,
+      "file": "frames/export-v2/a006.jpg"
+    },
+    {
+      "id": "a009",
+      "requested_time": 19.186,
+      "file": "frames/export-v2/a009.jpg"
+    },
+    {
+      "id": "a070",
+      "requested_time": 151.068,
+      "file": "frames/export-v2/a070.jpg"
+    },
+    {
+      "id": "b041",
+      "requested_time": 299.583,
+      "file": "frames/export-v2/b041.jpg"
+    },
+    {
+      "id": "b047",
+      "requested_time": 311.194,
+      "file": "frames/export-v2/b047.jpg"
+    },
+    {
+      "id": "b052",
+      "requested_time": 318.418,
+      "file": "frames/export-v2/b052.jpg"
+    },
+    {
+      "id": "b059",
+      "requested_time": 335.235,
+      "file": "frames/export-v2/b059.jpg"
+    },
+    {
+      "id": "b066",
+      "requested_time": 348.0145,
+      "file": "frames/export-v2/b066.jpg"
+    },
+    {
+      "id": "b080",
+      "requested_time": 373.9235,
+      "file": "frames/export-v2/b080.jpg"
+    },
+    {
+      "id": "b084",
+      "requested_time": 378.445,
+      "file": "frames/export-v2/b084.jpg"
+    },
+    {
+      "id": "c036",
+      "requested_time": 492.2085,
+      "file": "frames/export-v2/c036.jpg"
+    },
+    {
+      "id": "c061",
+      "requested_time": 556.6565,
+      "file": "frames/export-v2/c061.jpg"
+    },
+    {
+      "id": "c067",
+      "requested_time": 568.0675,
+      "file": "frames/export-v2/c067.jpg"
+    },
+    {
+      "id": "c072",
+      "requested_time": 580.48,
+      "file": "frames/export-v2/c072.jpg"
+    },
+    {
+      "id": "c084",
+      "requested_time": 605.822,
+      "file": "frames/export-v2/c084.jpg"
+    }
+  ],
+  "visual_status": "Inspected all 16 actual encoded samples in two contact sheets; reviewed opening, changed typography, objects and closing. Sampling is not continuous visual acceptance.",
+  "note": "Full decode is technical validation, not continuous visual acceptance.",
+  "loupe": {
+    "revision": "9ad37bbd68e650f41678",
+    "source": "deliverables/revisions/v2/zh.performance.1080p.mp4",
+    "events": 288,
+    "frames": 288,
+    "state": "ready",
+    "video_range_status": 206,
+    "sample_thumbnail": "c067 fetched successfully"
+  }
+}

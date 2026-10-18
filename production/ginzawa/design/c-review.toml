@@ -1,0 +1,67 @@
+status = "passed-render-review"
+events = "design/events-c.toml"
+range = [403.003, 616.141]
+main_count = 84
+aside_count = 5
+source_review = "逐条实看84条主字幕和5旁注。主轨起止PTS及5旁注边界继承本工作者转写阶段已实看的相邻帧证据；此次重新查看全段18张逐秒联系表，并放大查看片尾圆体、明朝、遮字及眼部旁注。"
+validation = "全部84主轨和5旁注完成两轮逐事件人工对照：pass1与pass2各30张联系表，共89事件。pass2新版audit-layout含face候选93采样、0flag。最后c062/c066/c078/c084修订已实看新构建6张局部对照；两组局部audit共15采样、0flag。未发现源日文遮挡、越界或普通头像新增遮挡；已核对放大后字高、4处新分行、既有2行行距、白块及5旁注实际墨迹间隙。此结论为逐事件静帧和已列动态时点审阅，不宣称连续全片逐帧播放验收。"
+source_boxes = "1920×1080坐标；根据画面可见墨迹人工估计，留出描边范围。不是自动像素分割结果。"
+font_substitutions = ["圆体正文使用Resource Han Rounded CN Heavy", "方黑说明使用MiSans Bold并显式bold=true", "重明朝强调使用Source Han Serif SC Heavy", "细明朝使用Songti SC，c066显式粗字重补足可见白笔画，小旁注保留常规字重", "细无衬线旁注使用MiSans Light", "c065方块使用Sarasa Mono SC，后两字使用圆体", "c062与c078使用GinzawaFractureSC，源界明朝共有字与思源宋体简体裂纹补字"]
+texture_limit = "已实看候选及正式新构建558、593.7秒，GinzawaFractureSC比纯重明朝显著接近原画剥落效果，字高与原字间隙通过。未确认原作者字体；简体补字纹理为可重建近似，孔洞分布不逐形复制。"
+motion_limit = "普通和强调字幕保持观察到的整句硬切，无新增摇晃弹跳。已看生鱼521.55/521.85淡入中间帧，400ms线性近似可用；收尾旧700ms过早变暗已修正为200ms，并实看新构建606.2/606.4/606.5秒。原画整体曝光曲线非线性，606.4中文略亮及最后数帧亮度仍为明确近似。"
+position_limit = "正常右侧头像段中文尽量在日文上方，并限制宽度；中央人物近景转顶部居中。c-note-trust原画有意叠在眼部，中文近旁上移，显式允许同场景遮脸。"
+mask_limit = "c065前三方块保持审定文本并使用有覆盖的字体，实际呈现为三个独立白方块，近似原连续白遮条，非原样复刻；不还原被遮名称，不覆盖源白块。"
+pass1_changes = ["普通圆体72增至96，并按实际字体墨迹将右侧头像段宽度上限1000增至1400", "明朝标题按逐条原文字高分别增大；c066细宋体仅74增至82", "方黑c017/c035/c037/c038分别增大并明确粗体", "c025/c038/c043/c045仅视觉分行，c041/c054增加行距以适配字号", "c062/c078改重明朝，继续记录剥落纹理限制", "c065增大并明确三独立方块差异", "小旁注分别调整字号，生鱼旁注上移40像素并纠正源框，拜托旁注上移13像素"]
+coverage = ["408.742–409.776 转镜看鸡前无字", "425.058–427.027 鸡打鸣声的无字停顿", "452.819–460.694 原Logo过场不重复覆盖", "519.285–523.156 原Logo过场，仅加入生鱼旁注译文", "606.606–616.141 淡黑及河边片尾画面，无新增字幕"]
+pass2_changes = ["c062/c078采用fracture字体，正式新构建字高、间隙及破损效果通过", "c066改bold=true后已实看566.3秒，较细常规字面更接近源字且无碰撞", "c084末700ms淡出改200ms，新构建606.2/606.4/606.5秒通过，保留非线性曝光差异说明"]
+pass2_evidence = ["frames/comparison-c-pass2/sheet-000.jpg", "frames/comparison-c-pass2/sheet-001.jpg", "frames/comparison-c-pass2/sheet-002.jpg", "frames/comparison-c-pass2/sheet-003.jpg", "frames/comparison-c-pass2/sheet-004.jpg", "frames/comparison-c-pass2/sheet-005.jpg", "frames/comparison-c-pass2/sheet-006.jpg", "frames/comparison-c-pass2/sheet-007.jpg", "frames/comparison-c-pass2/sheet-008.jpg", "frames/comparison-c-pass2/sheet-009.jpg", "frames/comparison-c-pass2/sheet-010.jpg", "frames/comparison-c-pass2/sheet-011.jpg", "frames/comparison-c-pass2/sheet-012.jpg", "frames/comparison-c-pass2/sheet-013.jpg", "frames/comparison-c-pass2/sheet-014.jpg", "frames/comparison-c-pass2/sheet-015.jpg", "frames/comparison-c-pass2/sheet-016.jpg", "frames/comparison-c-pass2/sheet-017.jpg", "frames/comparison-c-pass2/sheet-018.jpg", "frames/comparison-c-pass2/sheet-019.jpg", "frames/comparison-c-pass2/sheet-020.jpg", "frames/comparison-c-pass2/sheet-021.jpg", "frames/comparison-c-pass2/sheet-022.jpg", "frames/comparison-c-pass2/sheet-023.jpg", "frames/comparison-c-pass2/sheet-024.jpg", "frames/comparison-c-pass2/sheet-025.jpg", "frames/comparison-c-pass2/sheet-026.jpg", "frames/comparison-c-pass2/sheet-027.jpg", "frames/comparison-c-pass2/sheet-028.jpg", "frames/comparison-c-pass2/sheet-029.jpg"]
+dynamic_evidence = ["frames/comparison-c-fade-in-early/000-explicit.jpg", "frames/comparison-c-fade-in-mid/000-explicit.jpg", "frames/comparison-c-fade-out-early/000-explicit.jpg", "frames/comparison-c-fade-out-late/000-explicit.jpg", "frames/comparison-c-fade-out-check1/000-explicit.jpg", "frames/comparison-c-fade-out-check2/000-explicit.jpg"]
+audit_report = "review/layout-c-pass2.json"
+final_local_evidence = ["frames/comparison-c-final-fracture1/000-explicit.jpg", "frames/comparison-c-final-serif/000-explicit.jpg", "frames/comparison-c-final-fracture2/000-explicit.jpg", "frames/comparison-c-final-fade1/000-explicit.jpg", "frames/comparison-c-final-fade2/000-explicit.jpg", "frames/comparison-c-final-fade3/000-explicit.jpg"]
+final_local_audits = ["review/layout-c-final-local1.json", "review/layout-c-final-local2.json"]
+remaining_differences = ["中文字体为已记录替代，不是原作者字体认定；简繁/中日字形结构不同", "破损字体简体补字孔洞为确定性近似，不逐形复制", "c065三个独立白方块近似原画连续遮条，保持可编辑审定文本", "中央头像段中文顶部居中，和原底部日文有有意位置差异；眼部拜托旁注保留源强调场景的局部遮脸", "生鱼淡入与片尾淡出使用线性近似，非原片曝光逐帧拟合"]
+
+[[representative_clips]]
+start = 409.776
+end = 420.453
+focus = "大明朝鸡字、两行圆体及放养强调"
+
+[[representative_clips]]
+start = 437.904
+end = 444.311
+focus = "大明朝吐槽、方黑共生说明与真野小旁注"
+
+[[representative_clips]]
+start = 466.199
+end = 473.840
+focus = "细字买伞旁注、两行说明及屋顶明朝强调"
+
+[[representative_clips]]
+start = 490.056
+end = 500.533
+focus = "发现、极大吾郎岛银时、方黑说明及人物近景置顶"
+
+[[representative_clips]]
+start = 521.454
+end = 529.596
+focus = "生鱼旁注淡入、三小时大明朝和不吃不行细字"
+
+[[representative_clips]]
+start = 551.818
+end = 559.192
+focus = "栗子银团、银锷饼、银平牛蒡标题对比；重点审c062纹理"
+
+[[representative_clips]]
+start = 564.197
+end = 570.537
+focus = "白遮块字形、细明朝银衣、大明朝煌亮及圆体可爱"
+
+[[representative_clips]]
+start = 584.751
+end = 594.761
+focus = "邀请逐级放大明朝和六年后破损标题；重点审c078纹理"
+
+[[representative_clips]]
+start = 601.801
+end = 606.606
+focus = "铜泽明朝标题、眼部拜托旁注及罗马字收尾淡出"

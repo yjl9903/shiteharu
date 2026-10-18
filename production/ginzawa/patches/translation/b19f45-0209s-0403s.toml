@@ -1,0 +1,375 @@
+created_by = "b19f45"
+start = 209.409
+end = 403.003
+summary = "92条原画单位的简体中文翻译，保留银色主题、三拍重复及原始时序。"
+
+[[operations]]
+op = "edit"
+segment_id = "b001"
+zh = "银色的叶子"
+[[operations]]
+op = "edit"
+segment_id = "b002"
+zh = "银杏叶原本会变成银色"
+[[operations]]
+op = "edit"
+segment_id = "b003"
+zh = "所以才取了这个名字"
+[[operations]]
+op = "edit"
+segment_id = "b004"
+zh = "但生态变了 最近几乎见不到了"
+[[operations]]
+op = "edit"
+segment_id = "b005"
+zh = "如今还能看到这些珍贵银叶的"
+[[operations]]
+op = "edit"
+segment_id = "b006"
+zh = "就只剩银泽这里了"
+[[operations]]
+op = "edit"
+segment_id = "b007"
+zh = "还有 其实…"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画221.655の連続切替を隣接フレームで確認"},{code="ja_terminal_punctuation",reason="原画のためらいを示す末尾三点を保存"},{code="zh_terminal_punctuation",reason="原画的省略号表现寻找银杏果时的迟疑，中文保留同一停顿"}]
+[[operations]]
+op = "edit"
+segment_id = "b008"
+zh = "找到了！"
+[[operations]]
+op = "edit"
+segment_id = "b009"
+zh = "银色的银杏果"
+[[operations]]
+op = "edit"
+segment_id = "b010"
+zh = "银杏的意思是「银光闪闪的杏」"
+[[operations]]
+op = "edit"
+segment_id = "b011"
+zh = "这漂亮的银色还真是名副其实"
+[[operations]]
+op = "edit"
+segment_id = "b012"
+zh = "这也是只有银泽才能见到的"
+[[operations]]
+op = "edit"
+segment_id = "b013"
+zh = "听说放一会儿就会变黄\n所以也没法拿去卖"
+[[operations]]
+op = "edit"
+segment_id = "b014"
+zh = "能见到这么稀罕的东西 真开心"
+[[operations]]
+op = "edit"
+segment_id = "b015"
+zh = "本来还以为找不到呢"
+[[operations]]
+op = "edit"
+segment_id = "b016"
+zh = "结果仔细找找 还找到了不少"
+[[operations]]
+op = "edit"
+segment_id = "b017"
+zh = "大吉果然厉害"
+[[operations]]
+op = "edit"
+segment_id = "b018"
+zh = "连休人多得让人有点心累"
+[[operations]]
+op = "edit"
+segment_id = "b019"
+zh = "不过那款招牌美食还是不能错过"
+[[operations]]
+op = "edit"
+segment_id = "b020"
+zh = "锵锵～～"
+[[operations]]
+op = "edit"
+segment_id = "b021"
+zh = "说到银泽必吃的特色美食"
+[[operations]]
+op = "edit"
+segment_id = "b022"
+zh = "银箔冰淇淋"
+[[operations]]
+op = "edit"
+segment_id = "b023"
+zh = "因为用的是食用银箔"
+[[operations]]
+op = "edit"
+segment_id = "b024"
+zh = "据说可以直接一口咬下去"
+[[operations]]
+op = "edit"
+segment_id = "b025"
+zh = "嗯～"
+[[operations]]
+op = "edit"
+segment_id = "b026"
+zh = "奶味特别浓郁"
+[[operations]]
+op = "edit"
+segment_id = "b027"
+zh = "好吃～"
+[[operations]]
+op = "edit"
+segment_id = "b028"
+zh = "银"
+[[operations]]
+op = "edit"
+segment_id = "b029"
+zh = "无味～"
+[[operations]]
+op = "edit"
+segment_id = "b030"
+zh = "这里有条挺漂亮的大河"
+[[operations]]
+op = "edit"
+segment_id = "b031"
+zh = "这一带宽敞 人也少"
+[[operations]]
+op = "edit"
+segment_id = "b032"
+zh = "感觉能好好歇一会儿"
+[[operations]]
+op = "edit"
+segment_id = "b033"
+zh = "肚子也饿得咕咕叫了"
+[[operations]]
+op = "edit"
+segment_id = "b034"
+zh = "就在这儿吃午饭吧"
+[[operations]]
+op = "edit"
+segment_id = "b035"
+zh = "那么 荣幸入选今天午餐的是～"
+[[operations]]
+op = "edit"
+segment_id = "b036"
+zh = "刚从旁边的小卖部买来的"
+[[operations]]
+op = "edit"
+segment_id = "b037"
+zh = "锵锵"
+[[operations]]
+op = "edit"
+segment_id = "b038"
+zh = "银饭"
+[[operations]]
+op = "edit"
+segment_id = "b039"
+zh = "好像也是银泽的特色小吃"
+[[operations]]
+op = "edit"
+segment_id = "b040"
+zh = "白米饭上面铺着银箔"
+[[operations]]
+op = "edit"
+segment_id = "b041"
+zh = "勉强算寿司"
+[[operations]]
+op = "edit"
+segment_id = "b042"
+zh = "因为银箔会随风起舞"
+[[operations]]
+op = "edit"
+segment_id = "b043"
+zh = "所以不叫「木鱼花」而叫「白银花」"
+[[operations]]
+op = "edit"
+segment_id = "b044"
+zh = "我开动了"
+[[operations]]
+op = "edit"
+segment_id = "b045"
+zh = "嗯～～～"
+[[operations]]
+op = "edit"
+segment_id = "b046"
+zh = "米饭煮得还挺湿黏的"
+[[operations]]
+op = "edit"
+segment_id = "b047"
+zh = "好吃"
+[[operations]]
+op = "edit"
+segment_id = "b048"
+zh = "银"
+[[operations]]
+op = "edit"
+segment_id = "b049"
+zh = "无味"
+[[operations]]
+op = "edit"
+segment_id = "b050"
+zh = "接下来 还有银泽特产"
+[[operations]]
+op = "edit"
+segment_id = "b051"
+zh = "锵锵～～"
+[[operations]]
+op = "edit"
+segment_id = "b052"
+zh = "卡乐比虾条 增量10%"
+[[operations]]
+op = "edit"
+segment_id = "b053"
+zh = "还有清汤味薯片"
+[[operations]]
+op = "edit"
+segment_id = "b054"
+zh = "没想到银泽这边"
+[[operations]]
+op = "edit"
+segment_id = "b055"
+zh = "居然用的是通体银色的特别包装"
+[[operations]]
+op = "edit"
+segment_id = "b056"
+zh = "平时见惯的东西换上特别版包装"
+[[operations]]
+op = "edit"
+segment_id = "b057"
+zh = "就会让人兴奋起来呢"
+[[operations]]
+op = "edit"
+segment_id = "b058"
+zh = "还有"
+[[operations]]
+op = "edit"
+segment_id = "b059"
+zh = "银麦"
+[[operations]]
+op = "edit"
+segment_id = "b060"
+zh = "干脆什么都不标"
+[[operations]]
+op = "edit"
+segment_id = "b061"
+zh = "这种极简设计还挺酷的"
+[[operations]]
+op = "edit"
+segment_id = "b062"
+zh = "摆在一起还挺像样的"
+[[operations]]
+op = "edit"
+segment_id = "b063"
+zh = "那就开始吧"
+[[operations]]
+op = "edit"
+segment_id = "b064"
+zh = "银色盛宴"
+[[operations]]
+op = "edit"
+segment_id = "b065"
+zh = "开盖不喷的啤酒 简直不像话"
+[[operations]]
+op = "edit"
+segment_id = "b066"
+zh = "干杯"
+[[operations]]
+op = "edit"
+segment_id = "b067"
+zh = "嗯～～"
+[[operations]]
+op = "edit"
+segment_id = "b068"
+zh = "硬要说跟金麦比有什么不同"
+[[operations]]
+op = "edit"
+segment_id = "b069"
+zh = "不够冰"
+[[operations]]
+op = "edit"
+segment_id = "b070"
+zh = "被四五个跑步的人看见了"
+[[operations]]
+op = "edit"
+segment_id = "b071"
+zh = "满是银色的宴会"
+[[operations]]
+op = "edit"
+segment_id = "b072"
+zh = "一看就是游客 真不好意思"
+[[operations]]
+op = "edit"
+segment_id = "b073"
+zh = "顺便把薯片也拆了吧"
+[[operations]]
+op = "edit"
+segment_id = "b074"
+zh = "里面就是普通的清汤味…"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画362.462の連続切替を隣接フレームで確認"},{code="ja_terminal_punctuation",reason="原画のコンソメ…という発見前の三点を保存"},{code="zh_terminal_punctuation",reason="原画的省略号铺垫下一条发现银箔，中文保留同一转折停顿"}]
+[[operations]]
+op = "edit"
+segment_id = "b075"
+zh = "咦"
+[[operations]]
+op = "edit"
+segment_id = "b076"
+zh = "上面还撒着银箔碎片呢"
+[[operations]]
+op = "edit"
+segment_id = "b077"
+zh = "连里面都是特别版"
+[[operations]]
+op = "edit"
+segment_id = "b078"
+zh = "细节真到位"
+[[operations]]
+op = "edit"
+segment_id = "b079"
+zh = "我开动了"
+[[operations]]
+op = "edit"
+segment_id = "b080"
+zh = "嗯嗯～～"
+[[operations]]
+op = "edit"
+segment_id = "b081"
+zh = "清汤味相当浓烈"
+[[operations]]
+op = "edit"
+segment_id = "b082"
+zh = "好吃"
+[[operations]]
+op = "edit"
+segment_id = "b083"
+zh = "银"
+[[operations]]
+op = "edit"
+segment_id = "b084"
+zh = "无味"
+[[operations]]
+op = "edit"
+segment_id = "b085"
+zh = "连乌鸦都一脸羡慕地看过来了"
+[[operations]]
+op = "edit"
+segment_id = "b086"
+zh = "这座城到处都是亮闪闪的东西"
+[[operations]]
+op = "edit"
+segment_id = "b087"
+zh = "所以才会有这么多乌鸦定居吗？"
+[[operations]]
+op = "edit"
+segment_id = "b088"
+zh = "可不会分给你哦"
+[[operations]]
+op = "edit"
+segment_id = "b089"
+zh = "下雨了"
+[[operations]]
+op = "edit"
+segment_id = "b090"
+zh = "这就是银色的雨吧"
+[[operations]]
+op = "edit"
+segment_id = "b091"
+zh = "处处都在欢迎我\n真是见识到大吉的威力了"
+[[operations]]
+op = "edit"
+segment_id = "b092"
+zh = "去桥底下躲会儿雨吧"

@@ -1,0 +1,60 @@
+{
+  "created_by": "16aaa3",
+  "language": "zh-Hans",
+  "source": "patches/transcript/a0e72e-overlays.json",
+  "note": "五条非念出的旁注独立翻译；保留源视频PTS及实看证据，end排他；logo不重复覆盖。",
+  "overlays": [
+    {
+      "id": "c-note-wild",
+      "start": 442.609,
+      "end": 444.311,
+      "ja": "ワイルド",
+      "zh": "真野",
+      "kind": "unspoken_aside",
+      "boundary_status": "frame_verified",
+      "evidence": ["frames/a0e72e-side-wild/sheet-000.jpg", "frames/a0e72e-side-wild-end/sheet-000.jpg"]
+    },
+    {
+      "id": "c-note-umbrella",
+      "start": 466.199,
+      "end": 467.667,
+      "ja": "傘買えばいいのに",
+      "zh": "买把伞不就好了",
+      "kind": "unspoken_aside",
+      "boundary_status": "frame_verified",
+      "evidence": ["frames/a0e72e-side-umbrella/sheet-000.jpg", "frames/a0e72e-side-umbrella-end/sheet-000.jpg"]
+    },
+    {
+      "id": "c-note-fish",
+      "start": 521.454,
+      "end": 523.156,
+      "ja": "生魚ありがとう",
+      "zh": "谢谢你 生鱼",
+      "kind": "unspoken_aside",
+      "boundary_status": "frame_verified_fade",
+      "note": "渐入：521.421裁剪区域全黑，521.454首个可见文字帧；至523.156切镜消失。",
+      "evidence": ["frames/a0e72e-side-fish-exact/sheet-000.jpg", "frames/a0e72e-side-fish/sheet-001.jpg", "frames/a0e72e-exact/sheet-04.jpg"]
+    },
+    {
+      "id": "c-note-eat",
+      "start": 528.528,
+      "end": 529.596,
+      "ja": "食べないわけにはいかない………",
+      "zh": "不吃可不行……",
+      "kind": "unspoken_aside",
+      "boundary_status": "frame_verified",
+      "note": "保留原画省略标点的延长语气。",
+      "evidence": ["frames/a0e72e-side-eat/sheet-001.jpg", "frames/a0e72e-side-eat-end/sheet-000.jpg"]
+    },
+    {
+      "id": "c-note-trust",
+      "start": 604.204,
+      "end": 605.038,
+      "ja": "たのんだぞ",
+      "zh": "就拜托你了",
+      "kind": "unspoken_aside",
+      "boundary_status": "frame_verified",
+      "evidence": ["frames/a0e72e-side-trust/sheet-000.jpg", "frames/a0e72e-side-trust-end/sheet-000.jpg"]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+created_by = "main-side-style-review"
+summary = "用户确认全文文风审阅中的12处明确改句，并放松c052夜景感想；保留a025、c029待斟酌项及固定开场。"
+
+[[operations]]
+op = "edit"
+segment_id = "a008"
+zh = "嘴上这么说"
+reason = "自然承接自认白银周的自嘲。"
+
+[[operations]]
+op = "edit"
+segment_id = "a010"
+zh = "看来大家这个长假\n没少被天气折腾呢"
+reason = "保留天气调侃，消除直译感。"
+skip_checks = [{code = "subtitle_gap_too_short", reason = "原画20.888の天気図への連続切替を確認"}, {code = "zh_line_break_can_merge_soft", reason = "用户确认文风改句后保留既有双行演出，与底部原日文双行相邻；不因缩短文案改变已确认布局。"}]
+
+[[operations]]
+op = "edit"
+segment_id = "a048"
+zh = "这里以前好像也加入过"
+reason = "用口语动作表达入会。"
+
+[[operations]]
+op = "edit"
+segment_id = "a052"
+zh = "这称呼到底算不算夸奖\n说之前还真得想一想"
+reason = "保持自我感想，减少劝告观众的语气。"
+
+[[operations]]
+op = "edit"
+segment_id = "a060"
+zh = "这在当地很常见吗"
+reason = "减少说明文措辞。"
+
+[[operations]]
+op = "edit"
+segment_id = "a064"
+zh = "改成随心情参拜的计划"
+reason = "保留计划的幽默，理顺口语。"
+
+[[operations]]
+op = "edit"
+segment_id = "a082"
+zh = "像してはる这么幸运的人\n简直就是大吉本吉"
+reason = "消除前半直译感，保留自夸笑点。"
+
+[[operations]]
+op = "edit"
+segment_id = "b071"
+zh = "这一桌银光闪闪的宴席"
+reason = "让银色宴会的描述更有画面感。"
+
+[[operations]]
+op = "edit"
+segment_id = "b081"
+zh = "清汤味还挺够劲的"
+reason = "采用自然的即兴食评语气。"
+
+[[operations]]
+op = "edit"
+segment_id = "c002"
+zh = "绿地这么开阔 河水看着也舒服"
+reason = "减少旅游文案口吻。"
+
+[[operations]]
+op = "edit"
+segment_id = "c040"
+zh = "像栗子一样粉糯 甜得很清爽"
+reason = "保留食评细节，降低书面感。"
+
+[[operations]]
+op = "edit"
+segment_id = "c052"
+zh = "安安静静又凉快 真舒服"
+reason = "放松夜景感想的口吻，保留沉静气氛。"
+
+[[operations]]
+op = "edit"
+segment_id = "c063"
+zh = "各种银泽特产 都吃了个过瘾"
+reason = "修正吃了个满足的不自然搭配。"

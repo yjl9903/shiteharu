@@ -1,0 +1,278 @@
+{
+  "note": "Re-rendered masks from applied designs. Gap is to recorded source box, not exact source glyph segmentation. Each changed midpoint was also visually inspected.",
+  "events": [
+    {
+      "id": "a026",
+      "y": 927,
+      "ink_bounds": [
+        711,
+        730,
+        1208,
+        901
+      ],
+      "gap_before": 76,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a026.jpg"
+    },
+    {
+      "id": "a040",
+      "y": 933,
+      "ink_bounds": [
+        768,
+        780,
+        1155,
+        916
+      ],
+      "gap_before": 57,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a040.jpg"
+    },
+    {
+      "id": "a046",
+      "y": 859,
+      "ink_bounds": [
+        404,
+        767,
+        1514,
+        851
+      ],
+      "gap_before": 48,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a046.jpg"
+    },
+    {
+      "id": "a052",
+      "y": 859,
+      "ink_bounds": [
+        594,
+        669,
+        1326,
+        851
+      ],
+      "gap_before": 43,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a052.jpg"
+    },
+    {
+      "id": "a053",
+      "y": 922,
+      "ink_bounds": [
+        583,
+        776,
+        1338,
+        906
+      ],
+      "gap_before": 46,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a053.jpg"
+    },
+    {
+      "id": "a056",
+      "y": 859,
+      "ink_bounds": [
+        559,
+        668,
+        1362,
+        851
+      ],
+      "gap_before": 43,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a056.jpg"
+    },
+    {
+      "id": "a062",
+      "y": 859,
+      "ink_bounds": [
+        666,
+        669,
+        1254,
+        851
+      ],
+      "gap_before": 43,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a062.jpg"
+    },
+    {
+      "id": "a068",
+      "y": 912,
+      "ink_bounds": [
+        344,
+        733,
+        1570,
+        891
+      ],
+      "gap_before": 51,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a068.jpg"
+    },
+    {
+      "id": "a084",
+      "y": 912,
+      "ink_bounds": [
+        506,
+        733,
+        1406,
+        891
+      ],
+      "gap_before": 56,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a084.jpg"
+    },
+    {
+      "id": "a086",
+      "y": 919,
+      "ink_bounds": [
+        632,
+        762,
+        1291,
+        901
+      ],
+      "gap_before": 48,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a086.jpg"
+    },
+    {
+      "id": "a095",
+      "y": 928,
+      "ink_bounds": [
+        848,
+        716,
+        1007,
+        891
+      ],
+      "gap_before": 62,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a095.jpg"
+    },
+    {
+      "id": "a096",
+      "y": 882,
+      "ink_bounds": [
+        579,
+        658,
+        1221,
+        856
+      ],
+      "gap_before": 81,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/a096.jpg"
+    },
+    {
+      "id": "b008",
+      "y": 896,
+      "ink_bounds": [
+        624,
+        699,
+        1190,
+        871
+      ],
+      "gap_before": 50,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b008.jpg"
+    },
+    {
+      "id": "b027",
+      "y": 912,
+      "ink_bounds": [
+        739,
+        740,
+        1176,
+        891
+      ],
+      "gap_before": 46,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b027.jpg"
+    },
+    {
+      "id": "b065",
+      "y": 938,
+      "ink_bounds": [
+        415,
+        806,
+        1507,
+        921
+      ],
+      "gap_before": 37,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b065.jpg"
+    },
+    {
+      "id": "b076",
+      "y": 941,
+      "ink_bounds": [
+        437,
+        817,
+        1484,
+        926
+      ],
+      "gap_before": 40,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b076.jpg"
+    },
+    {
+      "id": "b078",
+      "y": 903,
+      "ink_bounds": [
+        564,
+        715,
+        1355,
+        881
+      ],
+      "gap_before": 42,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b078.jpg"
+    },
+    {
+      "id": "b089",
+      "y": 904,
+      "ink_bounds": [
+        714,
+        716,
+        1202,
+        876
+      ],
+      "gap_before": 48,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/b089.jpg"
+    },
+    {
+      "id": "c026",
+      "y": 913,
+      "ink_bounds": [
+        553,
+        753,
+        1368,
+        891
+      ],
+      "gap_before": 37,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/c026.jpg"
+    },
+    {
+      "id": "c035",
+      "y": 918,
+      "ink_bounds": [
+        689,
+        760,
+        1148,
+        896
+      ],
+      "gap_before": 37,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/c035.jpg"
+    },
+    {
+      "id": "c067",
+      "y": 907,
+      "ink_bounds": [
+        660,
+        728,
+        1266,
+        881
+      ],
+      "gap_before": 36,
+      "gap_after": 24,
+      "proof": "frames/comparison-spacing-user/c067.jpg"
+    }
+  ]
+}

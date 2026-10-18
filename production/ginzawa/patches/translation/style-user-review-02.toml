@@ -1,0 +1,32 @@
+created_by = "main-side-style-review"
+summary = "用户确认第二轮文风复审：修正宴会画面描述、甜味措辞及工作室介绍的跨句衔接。"
+
+[[operations]]
+op = "edit"
+segment_id = "b071"
+zh = "这场银光闪闪的宴会"
+reason = "去掉与地面野餐画面不符的一桌。"
+
+[[operations]]
+op = "edit"
+segment_id = "c018"
+zh = "顺带一提 这里其实是间"
+reason = "与后续定语和工作室名称构成完整句子。"
+
+[[operations]]
+op = "edit"
+segment_id = "c019"
+zh = "展出蒲公英绒毛和果皮艺术的"
+reason = "连接前句与后句的工作室名称。"
+
+[[operations]]
+op = "edit"
+segment_id = "c020"
+zh = "装置艺术工作室"
+reason = "承接前两条，去掉重复系词。"
+
+[[operations]]
+op = "edit"
+segment_id = "c040"
+zh = "像栗子一样粉糯 甜味也很细腻"
+reason = "上品な甘さ强调甜味细腻雅致，避免改成清爽。"

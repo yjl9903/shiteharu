@@ -1,0 +1,172 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "c078",
+      "time": 593.827,
+      "ink_bounds": [
+        308,
+        56,
+        1590,
+        261
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c078-0.png"
+    },
+    {
+      "id": "c079",
+      "time": 596.012,
+      "ink_bounds": [
+        539,
+        37,
+        1382,
+        114
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c079-0.png"
+    },
+    {
+      "id": "c080",
+      "time": 598.814,
+      "ink_bounds": [
+        368,
+        47,
+        1553,
+        135
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c080-0.png"
+    },
+    {
+      "id": "c081",
+      "time": 601.083,
+      "ink_bounds": [
+        790,
+        38,
+        1131,
+        114
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c081-0.png"
+    },
+    {
+      "id": "c082",
+      "time": 602.452,
+      "ink_bounds": [
+        370,
+        77,
+        1447,
+        272
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c082-0.png"
+    },
+    {
+      "id": "c083",
+      "time": 604.071,
+      "ink_bounds": [
+        758,
+        38,
+        1163,
+        114
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c083-0.png"
+    },
+    {
+      "id": "c-note-trust",
+      "time": 604.621,
+      "ink_bounds": [
+        841,
+        508,
+        1075,
+        554
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          580,
+          430,
+          1390,
+          950
+        ]
+      ],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c-note-trust-0.png"
+    },
+    {
+      "id": "c084",
+      "time": 605.105,
+      "ink_bounds": [
+        684,
+        38,
+        1235,
+        113
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c084-0.png"
+    },
+    {
+      "id": "c084",
+      "time": 605.822,
+      "ink_bounds": [
+        684,
+        38,
+        1235,
+        113
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c084-1.png"
+    },
+    {
+      "id": "c084",
+      "time": 606.539,
+      "ink_bounds": [
+        690,
+        44,
+        1224,
+        107
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/c-final-local2/c084-2.png"
+    }
+  ]
+}

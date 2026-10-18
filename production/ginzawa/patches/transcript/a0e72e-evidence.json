@@ -1,0 +1,1624 @@
+{
+  "created_by": "a0e72e",
+  "assigned_range": [
+    403.336,
+    616.141
+  ],
+  "method": "全范围逐秒全图实看定位字幕，全部主轨字幕起止点再用真实PTS前后连续源帧实看；没有将采样称逐帧。字幕补丁全部手写，本JSON仅把既有补丁和帧索引关联以支持审阅。",
+  "overview": "frames/a0e72e-overview/index.json",
+  "frame_boundary_index": "frames/a0e72e-exact/index.json",
+  "units": [
+    {
+      "id": "c001",
+      "ja": "雨も止んだので少しブラブラしましょうか",
+      "start": {
+        "status": "frame_verified",
+        "pts": 403.003,
+        "frame": "frames/a0e72e-exact/403.069/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/403.069/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 405.972,
+        "frame": "frames/a0e72e-exact/405.972/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/405.972/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000404.500.jpg"
+    },
+    {
+      "id": "c002",
+      "ja": "ひらけた緑と川がとっても気持ちいいです",
+      "start": {
+        "status": "frame_verified",
+        "pts": 405.972,
+        "frame": "frames/a0e72e-exact/405.972/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/405.972/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 408.742,
+        "frame": "frames/a0e72e-exact/408.775/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/408.775/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000407.500.jpg"
+    },
+    {
+      "id": "c003",
+      "ja": "ニワトリ",
+      "start": {
+        "status": "frame_verified",
+        "pts": 409.776,
+        "frame": "frames/a0e72e-exact/409.776/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/409.776/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 411.177,
+        "frame": "frames/a0e72e-exact/411.177/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/411.177/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000410.500.jpg"
+    },
+    {
+      "id": "c004",
+      "ja": "散歩していたら元気な\nコケコッコーが聞こえてきたので",
+      "start": {
+        "status": "frame_verified",
+        "pts": 411.177,
+        "frame": "frames/a0e72e-exact/411.177/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/411.177/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 414.014,
+        "frame": "frames/a0e72e-exact/414.080/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/414.080/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000412.500.jpg"
+    },
+    {
+      "id": "c005",
+      "ja": "何かと思ったら",
+      "start": {
+        "status": "frame_verified",
+        "pts": 414.014,
+        "frame": "frames/a0e72e-exact/414.080/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/414.080/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 414.981,
+        "frame": "frames/a0e72e-exact/414.981/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/414.981/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000414.500.jpg"
+    },
+    {
+      "id": "c006",
+      "ja": "ニワトリが野に放たれています",
+      "start": {
+        "status": "frame_verified",
+        "pts": 414.981,
+        "frame": "frames/a0e72e-exact/414.981/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/414.981/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 417.15,
+        "frame": "frames/a0e72e-exact/417.183/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/417.183/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000416.500.jpg"
+    },
+    {
+      "id": "c007",
+      "ja": "どうやらここで\n飼育されているニワトリみたいですね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 417.15,
+        "frame": "frames/a0e72e-exact/417.183/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/417.183/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 420.453,
+        "frame": "frames/a0e72e-exact/420.453/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/420.453/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000418.500.jpg"
+    },
+    {
+      "id": "c008",
+      "ja": "大量のスズメと数羽のニワトリ",
+      "start": {
+        "status": "frame_verified",
+        "pts": 420.453,
+        "frame": "frames/a0e72e-exact/420.453/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/420.453/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 422.422,
+        "frame": "frames/a0e72e-exact/422.455/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/422.455/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000421.500.jpg"
+    },
+    {
+      "id": "c009",
+      "ja": "コケコッコー練習中の子もいます",
+      "start": {
+        "status": "frame_verified",
+        "pts": 422.422,
+        "frame": "frames/a0e72e-exact/422.455/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/422.455/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 425.058,
+        "frame": "frames/a0e72e-exact/425.058/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/425.058/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000423.500.jpg"
+    },
+    {
+      "id": "c010",
+      "ja": "最後急に不安になっちゃう気持ち",
+      "start": {
+        "status": "frame_verified",
+        "pts": 427.027,
+        "frame": "frames/a0e72e-exact/427.060/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/427.060/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-00.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 429.329,
+        "frame": "frames/a0e72e-exact/429.362/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/429.362/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000428.500.jpg"
+    },
+    {
+      "id": "c011",
+      "ja": "わかりますよ",
+      "start": {
+        "status": "frame_verified",
+        "pts": 429.329,
+        "frame": "frames/a0e72e-exact/429.362/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/429.362/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 430.664,
+        "frame": "frames/a0e72e-exact/430.664/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/430.664/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000429.500.jpg"
+    },
+    {
+      "id": "c012",
+      "ja": "話を聞くとたまに\nオーナーさんが外で作業する時",
+      "start": {
+        "status": "frame_verified",
+        "pts": 430.664,
+        "frame": "frames/a0e72e-exact/430.664/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/430.664/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 433.8,
+        "frame": "frames/a0e72e-exact/433.867/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/433.867/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000432.500.jpg"
+    },
+    {
+      "id": "c013",
+      "ja": "数羽一緒に外へ放しているのだとか",
+      "start": {
+        "status": "frame_verified",
+        "pts": 433.8,
+        "frame": "frames/a0e72e-exact/433.867/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/433.867/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 436.136,
+        "frame": "frames/a0e72e-exact/436.169/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/436.169/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000434.500.jpg"
+    },
+    {
+      "id": "c014",
+      "ja": "小屋の中のスズメやムクドリは",
+      "start": {
+        "status": "frame_verified",
+        "pts": 436.136,
+        "frame": "frames/a0e72e-exact/436.169/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/436.169/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 437.904,
+        "frame": "frames/a0e72e-exact/437.971/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/437.971/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000437.500.jpg"
+    },
+    {
+      "id": "c015",
+      "ja": "勝手に入ってきている子達で",
+      "start": {
+        "status": "frame_verified",
+        "pts": 437.904,
+        "frame": "frames/a0e72e-exact/437.971/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/437.971/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 439.472,
+        "frame": "frames/a0e72e-exact/439.472/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/439.472/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000438.500.jpg"
+    },
+    {
+      "id": "c016",
+      "ja": "たまにカラスも入ってきたりするけど",
+      "start": {
+        "status": "frame_verified",
+        "pts": 439.472,
+        "frame": "frames/a0e72e-exact/439.472/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/439.472/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 441.308,
+        "frame": "frames/a0e72e-exact/441.374/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/441.374/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000440.500.jpg"
+    },
+    {
+      "id": "c017",
+      "ja": "結局なんだかんだ\nうまく共生しているみたいです",
+      "start": {
+        "status": "frame_verified",
+        "pts": 441.308,
+        "frame": "frames/a0e72e-exact/441.374/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/441.374/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 444.311,
+        "frame": "frames/a0e72e-exact/444.377/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/444.377/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000442.500.jpg"
+    },
+    {
+      "id": "c018",
+      "ja": "ちなみにこの施設の中は",
+      "start": {
+        "status": "frame_verified",
+        "pts": 444.311,
+        "frame": "frames/a0e72e-exact/444.377/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/444.377/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 445.946,
+        "frame": "frames/a0e72e-exact/445.979/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/445.979/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000445.500.jpg"
+    },
+    {
+      "id": "c019",
+      "ja": "たくさんのたんぽぽの綿毛や\nピールアートが展示されている",
+      "start": {
+        "status": "frame_verified",
+        "pts": 445.946,
+        "frame": "frames/a0e72e-exact/445.979/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/445.979/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 449.115,
+        "frame": "frames/a0e72e-exact/449.182/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/449.182/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000447.500.jpg"
+    },
+    {
+      "id": "c020",
+      "ja": "インスタレーションなアトリエで",
+      "start": {
+        "status": "frame_verified",
+        "pts": 449.115,
+        "frame": "frames/a0e72e-exact/449.182/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/449.182/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 450.483,
+        "frame": "frames/a0e72e-exact/450.483/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/450.483/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000449.500.jpg"
+    },
+    {
+      "id": "c021",
+      "ja": "とっても素敵空間でしたよ",
+      "start": {
+        "status": "frame_verified",
+        "pts": 450.483,
+        "frame": "frames/a0e72e-exact/450.483/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/450.483/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 452.819,
+        "frame": "frames/a0e72e-exact/452.852/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/452.852/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-01.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000451.500.jpg"
+    },
+    {
+      "id": "c022",
+      "ja": "歩いていたらまた大粒の雨が降ってきました",
+      "start": {
+        "status": "frame_verified",
+        "pts": 460.694,
+        "frame": "frames/a0e72e-exact/460.760/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/460.760/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 463.763,
+        "frame": "frames/a0e72e-exact/463.763/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/463.763/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000462.500.jpg"
+    },
+    {
+      "id": "c023",
+      "ja": "いい感じの公園があったので",
+      "start": {
+        "status": "frame_verified",
+        "pts": 463.763,
+        "frame": "frames/a0e72e-exact/463.763/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/463.763/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 464.931,
+        "frame": "frames/a0e72e-exact/464.965/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/464.965/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000464.500.jpg"
+    },
+    {
+      "id": "c024",
+      "ja": "ベンチでちょっと雨宿りさせてもらいましょう",
+      "start": {
+        "status": "frame_verified",
+        "pts": 464.931,
+        "frame": "frames/a0e72e-exact/464.965/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/464.965/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 467.667,
+        "frame": "frames/a0e72e-exact/467.667/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/467.667/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000466.500.jpg"
+    },
+    {
+      "id": "c025",
+      "ja": "空と身体の間に一枚板を\n挟むだけで濡れなくなる",
+      "start": {
+        "status": "frame_verified",
+        "pts": 467.667,
+        "frame": "frames/a0e72e-exact/467.667/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/467.667/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 470.971,
+        "frame": "frames/a0e72e-exact/470.971/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/470.971/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000469.500.jpg"
+    },
+    {
+      "id": "c026",
+      "ja": "屋根という存在",
+      "start": {
+        "status": "frame_verified",
+        "pts": 470.971,
+        "frame": "frames/a0e72e-exact/470.971/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/470.971/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 472.138,
+        "frame": "frames/a0e72e-exact/472.172/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/472.172/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000471.500.jpg"
+    },
+    {
+      "id": "c027",
+      "ja": "本当に面白い",
+      "start": {
+        "status": "frame_verified",
+        "pts": 472.138,
+        "frame": "frames/a0e72e-exact/472.172/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/472.172/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 473.84,
+        "frame": "frames/a0e72e-exact/473.873/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/473.873/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000472.500.jpg"
+    },
+    {
+      "id": "c028",
+      "ja": "雨を一時的に凌ぐこの時間も",
+      "start": {
+        "status": "frame_verified",
+        "pts": 473.84,
+        "frame": "frames/a0e72e-exact/473.873/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/473.873/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 475.909,
+        "frame": "frames/a0e72e-exact/475.976/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/475.976/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000474.500.jpg"
+    },
+    {
+      "id": "c029",
+      "ja": "雨宿りという単語を考えた人の感性も",
+      "start": {
+        "status": "frame_verified",
+        "pts": 475.909,
+        "frame": "frames/a0e72e-exact/475.976/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/475.976/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 478.611,
+        "frame": "frames/a0e72e-exact/478.678/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/478.678/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000477.500.jpg"
+    },
+    {
+      "id": "c030",
+      "ja": "その豊かさを大切にしたいものですね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 478.611,
+        "frame": "frames/a0e72e-exact/478.678/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/478.678/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 481.314,
+        "frame": "frames/a0e72e-exact/481.381/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/481.381/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000479.500.jpg"
+    },
+    {
+      "id": "c031",
+      "ja": "止みました",
+      "start": {
+        "status": "frame_verified",
+        "pts": 481.314,
+        "frame": "frames/a0e72e-exact/481.381/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/481.381/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 482.482,
+        "frame": "frames/a0e72e-exact/482.482/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/482.482/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000481.500.jpg"
+    },
+    {
+      "id": "c032",
+      "ja": "通り雨だったみたいで助かりましたね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 482.482,
+        "frame": "frames/a0e72e-exact/482.482/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/482.482/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 485.118,
+        "frame": "frames/a0e72e-exact/485.151/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/485.151/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000483.500.jpg"
+    },
+    {
+      "id": "c033",
+      "ja": "そして雨が降ったということは",
+      "start": {
+        "status": "frame_verified",
+        "pts": 485.118,
+        "frame": "frames/a0e72e-exact/485.151/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/485.151/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-02.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 487.42,
+        "frame": "frames/a0e72e-exact/487.454/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/487.454/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000486.500.jpg"
+    },
+    {
+      "id": "c034",
+      "ja": "おそらく地面を掘れば…",
+      "start": {
+        "status": "frame_verified",
+        "pts": 487.42,
+        "frame": "frames/a0e72e-exact/487.454/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/487.454/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 490.056,
+        "frame": "frames/a0e72e-exact/490.056/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/490.056/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000488.500.jpg"
+    },
+    {
+      "id": "c035",
+      "ja": "ありました！",
+      "start": {
+        "status": "frame_verified",
+        "pts": 490.056,
+        "frame": "frames/a0e72e-exact/490.056/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/490.056/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 491.191,
+        "frame": "frames/a0e72e-exact/491.257/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/491.257/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000490.500.jpg"
+    },
+    {
+      "id": "c036",
+      "ja": "吾郎島銀時",
+      "start": {
+        "status": "frame_verified",
+        "pts": 491.191,
+        "frame": "frames/a0e72e-exact/491.257/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/491.257/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 493.226,
+        "frame": "frames/a0e72e-exact/493.259/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/493.259/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000492.500.jpg"
+    },
+    {
+      "id": "c037",
+      "ja": "銀色の雨が土に染み込むと",
+      "start": {
+        "status": "frame_verified",
+        "pts": 493.226,
+        "frame": "frames/a0e72e-exact/493.259/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/493.259/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 495.061,
+        "frame": "frames/a0e72e-exact/495.061/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/495.061/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000494.500.jpg"
+    },
+    {
+      "id": "c038",
+      "ja": "シロガニウムが反応して\n一時的に銀色に変色する",
+      "start": {
+        "status": "frame_verified",
+        "pts": 495.061,
+        "frame": "frames/a0e72e-exact/495.061/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/495.061/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 498.465,
+        "frame": "frames/a0e72e-exact/498.465/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/498.465/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000496.500.jpg"
+    },
+    {
+      "id": "c039",
+      "ja": "不思議な野菜なんですね～",
+      "start": {
+        "status": "frame_verified",
+        "pts": 498.465,
+        "frame": "frames/a0e72e-exact/498.465/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/498.465/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 500.533,
+        "frame": "frames/a0e72e-exact/500.567/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/500.567/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000499.500.jpg"
+    },
+    {
+      "id": "c040",
+      "ja": "栗のようなホクホク感と上品な甘さが特徴で",
+      "start": {
+        "status": "frame_verified",
+        "pts": 500.533,
+        "frame": "frames/a0e72e-exact/500.567/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/500.567/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 503.403,
+        "frame": "frames/a0e72e-exact/503.470/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/503.470/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000501.500.jpg"
+    },
+    {
+      "id": "c041",
+      "ja": "これからの季節を背負うに\nふさわしいこっぼこぼなお芋です",
+      "start": {
+        "status": "frame_verified",
+        "pts": 503.403,
+        "frame": "frames/a0e72e-exact/503.470/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/503.470/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 507.507,
+        "frame": "frames/a0e72e-exact/507.574/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/507.574/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000505.500.jpg"
+    },
+    {
+      "id": "c042",
+      "ja": "さて 移動するべくバスへ乗車",
+      "start": {
+        "status": "frame_verified",
+        "pts": 507.507,
+        "frame": "frames/a0e72e-exact/507.574/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/507.574/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 509.909,
+        "frame": "frames/a0e72e-exact/509.976/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/509.976/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000508.500.jpg"
+    },
+    {
+      "id": "c043",
+      "ja": "バスの車窓に水滴が流れると\n強制的に景色がボヤけて",
+      "start": {
+        "status": "frame_verified",
+        "pts": 509.909,
+        "frame": "frames/a0e72e-exact/509.976/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/509.976/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 513.58,
+        "frame": "frames/a0e72e-exact/513.580/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/513.580/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000511.500.jpg"
+    },
+    {
+      "id": "c044",
+      "ja": "詳細な情報をシャットアウトしてくれるので",
+      "start": {
+        "status": "frame_verified",
+        "pts": 513.58,
+        "frame": "frames/a0e72e-exact/513.580/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/513.580/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 515.915,
+        "frame": "frames/a0e72e-exact/515.982/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/515.982/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000514.500.jpg"
+    },
+    {
+      "id": "c045",
+      "ja": "なんとなく目にも脳にも\n優しくてありがたいですね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 515.915,
+        "frame": "frames/a0e72e-exact/515.982/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/515.982/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-03.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 519.285,
+        "frame": "frames/a0e72e-exact/519.352/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/519.352/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000517.500.jpg"
+    },
+    {
+      "id": "c046",
+      "ja": "気軽に海鮮丼に並んでみたら",
+      "start": {
+        "status": "frame_verified",
+        "pts": 523.156,
+        "frame": "frames/a0e72e-exact/523.156/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/523.156/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 524.991,
+        "frame": "frames/a0e72e-exact/525.058/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/525.058/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000524.500.jpg"
+    },
+    {
+      "id": "c047",
+      "ja": "3時間待ち",
+      "start": {
+        "status": "frame_verified",
+        "pts": 524.991,
+        "frame": "frames/a0e72e-exact/525.058/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/525.058/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 527.327,
+        "frame": "frames/a0e72e-exact/527.360/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/527.360/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000526.500.jpg"
+    },
+    {
+      "id": "c048",
+      "ja": "気づけばすっかり夜になってしまいました",
+      "start": {
+        "status": "frame_verified",
+        "pts": 527.327,
+        "frame": "frames/a0e72e-exact/527.360/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/527.360/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 529.596,
+        "frame": "frames/a0e72e-exact/529.662/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/529.662/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000528.500.jpg"
+    },
+    {
+      "id": "c049",
+      "ja": "おやつのつもりが\n夜ご飯になってしまいましたね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 529.596,
+        "frame": "frames/a0e72e-exact/529.662/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/529.662/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 532.599,
+        "frame": "frames/a0e72e-exact/532.665/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/532.665/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000531.500.jpg"
+    },
+    {
+      "id": "c050",
+      "ja": "昼の活気ある風景も良しですが",
+      "start": {
+        "status": "frame_verified",
+        "pts": 532.599,
+        "frame": "frames/a0e72e-exact/532.665/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/532.665/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 534.634,
+        "frame": "frames/a0e72e-exact/534.667/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/534.667/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000533.500.jpg"
+    },
+    {
+      "id": "c051",
+      "ja": "夜は暖色に統一されたあたたかい光",
+      "start": {
+        "status": "frame_verified",
+        "pts": 534.634,
+        "frame": "frames/a0e72e-exact/534.667/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/534.667/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 537.303,
+        "frame": "frames/a0e72e-exact/537.370/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/537.370/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000535.500.jpg"
+    },
+    {
+      "id": "c052",
+      "ja": "静けさと涼しさが心地よくって",
+      "start": {
+        "status": "frame_verified",
+        "pts": 537.303,
+        "frame": "frames/a0e72e-exact/537.370/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/537.370/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 539.339,
+        "frame": "frames/a0e72e-exact/539.372/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/539.372/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000538.500.jpg"
+    },
+    {
+      "id": "c053",
+      "ja": "夜こそが本来の姿のような気さえします",
+      "start": {
+        "status": "frame_verified",
+        "pts": 539.339,
+        "frame": "frames/a0e72e-exact/539.372/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/539.372/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 542.042,
+        "frame": "frames/a0e72e-exact/542.075/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/542.075/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000540.500.jpg"
+    },
+    {
+      "id": "c054",
+      "ja": "コンクリートジャングルの夜も\nしっとりと品のある夜も",
+      "start": {
+        "status": "frame_verified",
+        "pts": 542.042,
+        "frame": "frames/a0e72e-exact/542.075/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/542.075/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 544.978,
+        "frame": "frames/a0e72e-exact/544.978/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/544.978/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000543.500.jpg"
+    },
+    {
+      "id": "c055",
+      "ja": "どちらも情緒的ですが",
+      "start": {
+        "status": "frame_verified",
+        "pts": 544.978,
+        "frame": "frames/a0e72e-exact/544.978/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/544.978/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 546.312,
+        "frame": "frames/a0e72e-exact/546.379/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/546.379/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000545.500.jpg"
+    },
+    {
+      "id": "c056",
+      "ja": "その種類に違いがあって面白いですね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 546.312,
+        "frame": "frames/a0e72e-exact/546.379/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/546.379/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-04.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 549.315,
+        "frame": "frames/a0e72e-exact/549.382/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/549.382/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000547.500.jpg"
+    },
+    {
+      "id": "c057",
+      "ja": "今回は深く\n紹介しませんでしたが他にも",
+      "start": {
+        "status": "frame_verified",
+        "pts": 549.315,
+        "frame": "frames/a0e72e-exact/549.382/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/549.382/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 551.818,
+        "frame": "frames/a0e72e-exact/551.851/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/551.851/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000550.500.jpg"
+    },
+    {
+      "id": "c058",
+      "ja": "断面がギンギラな",
+      "start": {
+        "status": "frame_verified",
+        "pts": 551.818,
+        "frame": "frames/a0e72e-exact/551.851/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/551.851/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 552.986,
+        "frame": "frames/a0e72e-exact/553.053/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/553.053/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000552.500.jpg"
+    },
+    {
+      "id": "c059",
+      "ja": "栗ぎんとん",
+      "start": {
+        "status": "frame_verified",
+        "pts": 552.986,
+        "frame": "frames/a0e72e-exact/553.053/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/553.053/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 554.254,
+        "frame": "frames/a0e72e-exact/554.254/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/554.254/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000553.500.jpg"
+    },
+    {
+      "id": "c060",
+      "ja": "表面が銀色でコーティングされた",
+      "start": {
+        "status": "frame_verified",
+        "pts": 554.254,
+        "frame": "frames/a0e72e-exact/554.254/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/554.254/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 556.056,
+        "frame": "frames/a0e72e-exact/556.056/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/556.056/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000555.500.jpg"
+    },
+    {
+      "id": "c061",
+      "ja": "ぎんつば",
+      "start": {
+        "status": "frame_verified",
+        "pts": 556.056,
+        "frame": "frames/a0e72e-exact/556.056/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/556.056/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 557.257,
+        "frame": "frames/a0e72e-exact/557.257/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/557.257/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000556.500.jpg"
+    },
+    {
+      "id": "c062",
+      "ja": "ギンピラごぼう",
+      "start": {
+        "status": "frame_verified",
+        "pts": 557.257,
+        "frame": "frames/a0e72e-exact/557.257/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/557.257/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 559.192,
+        "frame": "frames/a0e72e-exact/559.259/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/559.259/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000558.500.jpg"
+    },
+    {
+      "id": "c063",
+      "ja": "様々な銀沢名物を堪能しました",
+      "start": {
+        "status": "frame_verified",
+        "pts": 559.192,
+        "frame": "frames/a0e72e-exact/559.259/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/559.259/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 562.429,
+        "frame": "frames/a0e72e-exact/562.462/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/562.462/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000560.500.jpg"
+    },
+    {
+      "id": "c064",
+      "ja": "お土産にはやっぱり定番の",
+      "start": {
+        "status": "frame_verified",
+        "pts": 562.429,
+        "frame": "frames/a0e72e-exact/562.462/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/562.462/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 564.197,
+        "frame": "frames/a0e72e-exact/564.264/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/564.264/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000563.500.jpg"
+    },
+    {
+      "id": "c065",
+      "ja": "■■■ニア",
+      "start": {
+        "status": "frame_verified",
+        "pts": 564.197,
+        "frame": "frames/a0e72e-exact/564.264/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/564.264/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 565.298,
+        "frame": "frames/a0e72e-exact/565.365/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/565.365/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000564.500.jpg"
+    },
+    {
+      "id": "c066",
+      "ja": "限定のシルバーなお洋服を着ていて",
+      "start": {
+        "status": "frame_verified",
+        "pts": 565.298,
+        "frame": "frames/a0e72e-exact/565.365/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/565.365/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 567.333,
+        "frame": "frames/a0e72e-exact/567.367/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/567.367/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000566.500.jpg"
+    },
+    {
+      "id": "c067",
+      "ja": "非常に煌びやか",
+      "start": {
+        "status": "frame_verified",
+        "pts": 567.333,
+        "frame": "frames/a0e72e-exact/567.367/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/567.367/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 568.802,
+        "frame": "frames/a0e72e-exact/568.868/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/568.868/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000568.500.jpg"
+    },
+    {
+      "id": "c068",
+      "ja": "とってもかわいいですよね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 568.802,
+        "frame": "frames/a0e72e-exact/568.868/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/568.868/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-05.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 570.537,
+        "frame": "frames/a0e72e-exact/570.570/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/570.570/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000569.500.jpg"
+    },
+    {
+      "id": "c069",
+      "ja": "バリエーションも豊富で選ぶのに一苦労でした",
+      "start": {
+        "status": "frame_verified",
+        "pts": 570.537,
+        "frame": "frames/a0e72e-exact/570.570/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/570.570/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 573.44,
+        "frame": "frames/a0e72e-exact/573.473/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/573.473/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000571.500.jpg"
+    },
+    {
+      "id": "c070",
+      "ja": "冬になるとこのあたりは一面銀世界になるようで",
+      "start": {
+        "status": "frame_verified",
+        "pts": 573.44,
+        "frame": "frames/a0e72e-exact/573.473/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/573.473/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 576.409,
+        "frame": "frames/a0e72e-exact/576.476/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/576.476/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000574.500.jpg"
+    },
+    {
+      "id": "c071",
+      "ja": "銀沢は姿を消した後ですが",
+      "start": {
+        "status": "frame_verified",
+        "pts": 576.409,
+        "frame": "frames/a0e72e-exact/576.476/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/576.476/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 578.511,
+        "frame": "frames/a0e72e-exact/578.578/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/578.578/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000577.500.jpg"
+    },
+    {
+      "id": "c072",
+      "ja": "銀の面影や気配が感じられるのは\nなんとも面白いですよね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 578.511,
+        "frame": "frames/a0e72e-exact/578.578/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/578.578/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 582.449,
+        "frame": "frames/a0e72e-exact/582.482/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/582.482/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000580.500.jpg"
+    },
+    {
+      "id": "c073",
+      "ja": "みなさんも是非\n次のシルバーウィークには",
+      "start": {
+        "status": "frame_verified",
+        "pts": 582.449,
+        "frame": "frames/a0e72e-exact/582.482/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/582.482/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 584.751,
+        "frame": "frames/a0e72e-exact/584.751/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/584.751/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000583.500.jpg"
+    },
+    {
+      "id": "c074",
+      "ja": "銀沢へ遊びに行ってみては",
+      "start": {
+        "status": "frame_verified",
+        "pts": 584.751,
+        "frame": "frames/a0e72e-exact/584.751/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/584.751/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 586.619,
+        "frame": "frames/a0e72e-exact/586.653/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/586.653/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000585.500.jpg"
+    },
+    {
+      "id": "c075",
+      "ja": "いかがでしょうか",
+      "start": {
+        "status": "frame_verified",
+        "pts": 586.619,
+        "frame": "frames/a0e72e-exact/586.653/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/586.653/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 588.188,
+        "frame": "frames/a0e72e-exact/588.254/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/588.254/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000587.500.jpg"
+    },
+    {
+      "id": "c076",
+      "ja": "ちなみに今回の5連休は11年ぶり",
+      "start": {
+        "status": "frame_verified",
+        "pts": 588.188,
+        "frame": "frames/a0e72e-exact/588.254/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/588.254/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 590.99,
+        "frame": "frames/a0e72e-exact/591.057/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/591.057/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000589.500.jpg"
+    },
+    {
+      "id": "c077",
+      "ja": "次の大型シルバーウィークは",
+      "start": {
+        "status": "frame_verified",
+        "pts": 590.99,
+        "frame": "frames/a0e72e-exact/591.057/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/591.057/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 592.892,
+        "frame": "frames/a0e72e-exact/592.959/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/592.959/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000591.500.jpg"
+    },
+    {
+      "id": "c078",
+      "ja": "6年後らしいですよ",
+      "start": {
+        "status": "frame_verified",
+        "pts": 592.892,
+        "frame": "frames/a0e72e-exact/592.959/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/592.959/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 594.761,
+        "frame": "frames/a0e72e-exact/594.761/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/594.761/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000593.500.jpg"
+    },
+    {
+      "id": "c079",
+      "ja": "6年後のシルバーウィークを迎えるのが先か",
+      "start": {
+        "status": "frame_verified",
+        "pts": 594.761,
+        "frame": "frames/a0e72e-exact/594.761/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/594.761/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 597.263,
+        "frame": "frames/a0e72e-exact/597.263/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/597.263/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000596.500.jpg"
+    },
+    {
+      "id": "c080",
+      "ja": "新たなキラキラ連休が生成されるのが先か",
+      "start": {
+        "status": "frame_verified",
+        "pts": 597.263,
+        "frame": "frames/a0e72e-exact/597.263/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/597.263/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-06.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 600.366,
+        "frame": "frames/a0e72e-exact/600.366/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/600.366/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000598.500.jpg"
+    },
+    {
+      "id": "c081",
+      "ja": "見ものですね",
+      "start": {
+        "status": "frame_verified",
+        "pts": 600.366,
+        "frame": "frames/a0e72e-exact/600.366/004.jpg",
+        "previous_frame": "frames/a0e72e-exact/600.366/003.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 601.801,
+        "frame": "frames/a0e72e-exact/601.868/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/601.868/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000601.500.jpg"
+    },
+    {
+      "id": "c082",
+      "ja": "次は「銅沢」",
+      "start": {
+        "status": "frame_verified",
+        "pts": 601.801,
+        "frame": "frames/a0e72e-exact/601.868/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/601.868/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 603.103,
+        "frame": "frames/a0e72e-exact/603.169/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/603.169/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000602.500.jpg"
+    },
+    {
+      "id": "c083",
+      "ja": "遊びに行ってみたいものです",
+      "start": {
+        "status": "frame_verified",
+        "pts": 603.103,
+        "frame": "frames/a0e72e-exact/603.169/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/603.169/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 605.038,
+        "frame": "frames/a0e72e-exact/605.071/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/605.071/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000604.500.jpg"
+    },
+    {
+      "id": "c084",
+      "ja": "soreidewa ～",
+      "start": {
+        "status": "frame_verified",
+        "pts": 605.038,
+        "frame": "frames/a0e72e-exact/605.071/003.jpg",
+        "previous_frame": "frames/a0e72e-exact/605.071/002.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "end": {
+        "status": "frame_verified",
+        "pts": 606.606,
+        "frame": "frames/a0e72e-exact/606.673/002.jpg",
+        "previous_frame": "frames/a0e72e-exact/606.673/001.jpg",
+        "viewed_sheet": "frames/a0e72e-exact/sheet-07.jpg"
+      },
+      "content_viewed": "frames/a0e72e-overview/000605.500.jpg"
+    }
+  ],
+  "overlays": "patches/transcript/a0e72e-overlays.json",
+  "dry_run_counts": {
+    "fatal": 0,
+    "error": 0,
+    "warning": 16
+  },
+  "review_confirmations": {
+    "original_assigned_range_reread": true,
+    "all_deleted_rows_reread": true,
+    "all_final_patched_units_reread_in_order": true
+  },
+  "warning_rationale": "13条双行可合并提示和3条21–22字单行提示均为原画布局，已逐条阅读，按用户最高要求保留。",
+  "uncertainties": [
+    "c065白色伏字长方形以■■■代记，渲染需保留原画白块遮盖形式；不推测隐藏文字。",
+    "c084原画为拉丁字母soreidewa加波浪号，保留其拼写而不改成soredewa。"
+  ]
+}

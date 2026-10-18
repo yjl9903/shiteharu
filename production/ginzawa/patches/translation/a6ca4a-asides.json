@@ -1,0 +1,16 @@
+{
+  "created_by": "a6ca4a",
+  "start": 0.0,
+  "end": 209.409,
+  "source_review": "patches/transcript/75fc47-side-notes.json",
+  "events": [
+    {"id":"a-tweet-top","start":16.250,"end":20.888,"ja":"もしかしてシルバーウィークって終わったのか？","zh":"难道白银周已经结束了？","kind":"tweet_inset","evidence":["frames/opening/000018.000.jpg","frames/75fc47-pairs/sheet-000.jpg","frames/75fc47-pairs/sheet-001.jpg"],"note":"第一条推文正文；与其余两条同时存在，17.484截图放大；不重复作者名和logo"},
+    {"id":"a-tweet-middle","start":16.250,"end":20.888,"ja":"もしかしてシルバーウィーク終わるのか？","zh":"难道白银周要结束了？","kind":"tweet_inset","evidence":["frames/opening/000018.000.jpg"],"note":"第二条推文正文，时序与截图整体一致"},
+    {"id":"a-tweet-bottom","start":16.250,"end":20.888,"ja":"もしかしてシルバーウィークなのか？","zh":"难道现在是白银周？","kind":"tweet_inset","evidence":["frames/opening/000018.000.jpg"],"note":"第三条推文正文，时序与截图整体一致"},
+    {"id":"a-merch","start":47.481,"end":49.683,"ja":"グッズなど売っています","zh":"有周边在售哦","kind":"nonspoken_card_note","evidence":["frames/75fc47-extra-pairs/sheet-000.jpg","frames/75fc47-pairs/sheet-003.jpg"],"note":"首尾相邻帧已实看；过场卡下方小字"},
+    {"id":"a-swim","start":127.160,"end":128.128,"ja":"泳いでいます","zh":"在游泳呢","kind":"concurrent_note","evidence":["frames/75fc47-swim-note/sheet-000.jpg","frames/75fc47-swim-end/sheet-000.jpg"],"note":"首尾相邻帧已实看；鱼上方小字，与a058并发"},
+    {"id":"a-cute","start":153.320,"end":154.855,"ja":"かわいい","zh":"好可爱","kind":"concurrent_note","evidence":["frames/75fc47-cute-note/sheet-000.jpg","frames/75fc47-cute-end/sheet-000.jpg"],"note":"首尾相邻帧已实看；忍者附近小字，与a071并发"},
+    {"id":"a-certified","start":187.354,"end":188.488,"ja":"お墨付き","zh":"权威认证","kind":"concurrent_note","evidence":["frames/75fc47-cert-note/sheet-000.jpg","frames/75fc47-cert-end/sheet-000.jpg"],"note":"首尾相邻帧已实看；188.488源packet PTS由主代理复核；御神签画面上方，与a084并发"}
+  ],
+  "review": "七条补充文字已逐条对照原文重读；全用简体中文，保留推文由尚未意识到假期到突然发现假期已结束的时间反差。"
+}

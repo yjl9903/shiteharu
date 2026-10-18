@@ -1,0 +1,3587 @@
+{
+  "created_by": "75fc47",
+  "start": 0.0,
+  "end": 209.64,
+  "patch": "patches/transcript/75fc47-0000s-0209s.toml",
+  "scope": "Main Japanese on-screen subtitle units a001–a096; b001 only the expressly authorized adjacent-gap exception.",
+  "review": {
+    "original_source_segments_read_in_order": "1-s1–1-s101 with neighboring b001–b003; rajio segments list --stage transcript --start 0 --end 214",
+    "final_patched_units_reread_in_order": "All 96 units and b001 boundary exception after last correction and clean dry-run",
+    "visual_content": "All units viewed in full-frame one-second scan sheets, with short units additionally viewed in PTS boundary sheets.",
+    "boundary_method": "Candidate image differences only selected frame pairs. The agent actually viewed every accepted pair and separately rejected unsuitable scrolling/background candidates. Listed confirmed boundaries are adjoining decoded source frames, not merely one-second samples. ffmpeg showinfo prints millisecond-level PTS; seek windows can round a label by 1 ms.",
+    "sampled_sheets": [
+      "frames/opening/sheet-000.jpg",
+      "frames/opening/sheet-001.jpg",
+      "frames/opening/sheet-002.jpg",
+      "frames/75fc47-scan/sheet-000.jpg",
+      "frames/75fc47-scan/sheet-001.jpg",
+      "frames/75fc47-scan/sheet-002.jpg",
+      "frames/75fc47-scan/sheet-003.jpg",
+      "frames/75fc47-scan/sheet-004.jpg",
+      "frames/75fc47-scan/sheet-005.jpg",
+      "frames/75fc47-scan/sheet-006.jpg",
+      "frames/75fc47-scan/sheet-007.jpg",
+      "frames/75fc47-scan/sheet-008.jpg",
+      "frames/75fc47-scan/sheet-009.jpg",
+      "frames/75fc47-scan/sheet-010.jpg",
+      "frames/75fc47-scan/sheet-011.jpg",
+      "frames/75fc47-scan/sheet-012.jpg",
+      "frames/75fc47-scan/sheet-013.jpg",
+      "frames/75fc47-scan/sheet-014.jpg"
+    ]
+  },
+  "dry_run": {
+    "counts": {
+      "fatal": 0,
+      "error": 0,
+      "warning": 16
+    },
+    "range": {
+      "start": 0,
+      "end": 209.64
+    },
+    "summary": [
+      {
+        "file": "transcript/work/segments.toml",
+        "level": "warning",
+        "code": "duration_too_long",
+        "count": 1,
+        "message": "Segment a002 lasts 7.241 seconds; soft maximum is 7 seconds.",
+        "examples": [
+          {
+            "id": "a002"
+          }
+        ]
+      },
+      {
+        "file": "transcript/work/segments.toml",
+        "level": "warning",
+        "code": "duration_too_short",
+        "count": 1,
+        "message": "Segment a003 lasts 0.434 seconds; soft minimum is 0.5 seconds.",
+        "examples": [
+          {
+            "id": "a003"
+          }
+        ]
+      },
+      {
+        "file": "transcript/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_break_can_merge_hard",
+        "count": 11,
+        "message": "Segment a009 Japanese text has 2 lines but merges to 27 chars; hard limit is 28. Prefer one line.",
+        "examples": [
+          {
+            "id": "a009"
+          },
+          {
+            "id": "a010"
+          },
+          {
+            "id": "a045"
+          }
+        ]
+      },
+      {
+        "file": "transcript/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_break_soft_limit",
+        "count": 1,
+        "message": "Segment a052 Japanese text has 2 lines; prefer one line or split into multiple segments.",
+        "examples": [
+          {
+            "id": "a052"
+          }
+        ]
+      },
+      {
+        "file": "transcript/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_soft_limit",
+        "count": 2,
+        "message": "Segment a032 Japanese line 1 has 21 chars; soft limit is 20.",
+        "examples": [
+          {
+            "id": "a032"
+          },
+          {
+            "id": "a081"
+          }
+        ]
+      }
+    ]
+  },
+  "units": [
+    {
+      "id": "a001",
+      "start": 0.0,
+      "end": 1.134,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/opening/000000.000.jpg",
+        "frames/opening/000001.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "source_start_content_visually_confirmed",
+        "after": {
+          "pts": 0.0,
+          "file": "frames/opening/000000.000.jpg"
+        },
+        "viewed_sheet": "frames/opening/sheet-000.jpg"
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 1.101,
+          "file": "frames/75fc47-scrollstart/0008.jpg"
+        },
+        "after": {
+          "pts": 1.134,
+          "file": "frames/75fc47-scrollstart/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-scrollstart/sheet-000.jpg"
+      }
+    },
+    {
+      "id": "a002",
+      "start": 1.134,
+      "end": 8.375,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-scrollstart/0009.jpg",
+        "frames/opening/000005.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 1.101,
+          "file": "frames/75fc47-scrollstart/0008.jpg"
+        },
+        "after": {
+          "pts": 1.134,
+          "file": "frames/75fc47-scrollstart/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-scrollstart/sheet-000.jpg"
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 8.342,
+          "file": "frames/75fc47-btest/0005.jpg"
+        },
+        "after": {
+          "pts": 8.375,
+          "file": "frames/75fc47-btest/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-btest/sheet-000.jpg"
+      }
+    },
+    {
+      "id": "a003",
+      "start": 8.375,
+      "end": 8.809,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-btest/0006.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 8.342,
+          "file": "frames/75fc47-btest/0005.jpg"
+        },
+        "after": {
+          "pts": 8.375,
+          "file": "frames/75fc47-btest/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-btest/sheet-000.jpg"
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 8.775,
+          "file": "frames/75fc47-b-8.900/0013.jpg"
+        },
+        "after": {
+          "pts": 8.809,
+          "file": "frames/75fc47-b-8.900/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-extra-pairs/sheet-000.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a004",
+      "start": 8.809,
+      "end": 10.377,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-8.900/0014.jpg",
+        "frames/opening/000010.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 8.775,
+          "file": "frames/75fc47-b-8.900/0013.jpg"
+        },
+        "after": {
+          "pts": 8.809,
+          "file": "frames/75fc47-b-8.900/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-extra-pairs/sheet-000.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 10.344,
+          "file": "frames/75fc47-b-10.500/0012.jpg"
+        },
+        "after": {
+          "pts": 10.377,
+          "file": "frames/75fc47-b-10.500/0013.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a005",
+      "start": 10.377,
+      "end": 11.912,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-10.500/0013.jpg",
+        "frames/opening/000011.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 10.344,
+          "file": "frames/75fc47-b-10.500/0012.jpg"
+        },
+        "after": {
+          "pts": 10.377,
+          "file": "frames/75fc47-b-10.500/0013.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 11.879,
+          "file": "frames/75fc47-b-11.500/0028.jpg"
+        },
+        "after": {
+          "pts": 11.912,
+          "file": "frames/75fc47-b-11.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a006",
+      "start": 11.912,
+      "end": 14.081,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-11.500/0029.jpg",
+        "frames/opening/000013.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 11.879,
+          "file": "frames/75fc47-b-11.500/0028.jpg"
+        },
+        "after": {
+          "pts": 11.912,
+          "file": "frames/75fc47-b-11.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 14.047,
+          "file": "frames/75fc47-b-14.500/0003.jpg"
+        },
+        "after": {
+          "pts": 14.081,
+          "file": "frames/75fc47-b-14.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a007",
+      "start": 14.081,
+      "end": 16.25,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-14.500/0004.jpg",
+        "frames/opening/000015.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 14.047,
+          "file": "frames/75fc47-b-14.500/0003.jpg"
+        },
+        "after": {
+          "pts": 14.081,
+          "file": "frames/75fc47-b-14.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 16.216,
+          "file": "frames/75fc47-b-16.500/0008.jpg"
+        },
+        "after": {
+          "pts": 16.25,
+          "file": "frames/75fc47-b-16.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a008",
+      "start": 16.25,
+      "end": 17.484,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-16.500/0009.jpg",
+        "frames/opening/000017.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 16.216,
+          "file": "frames/75fc47-b-16.500/0008.jpg"
+        },
+        "after": {
+          "pts": 16.25,
+          "file": "frames/75fc47-b-16.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-000.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 17.451,
+          "file": "frames/75fc47-b-17.500/0015.jpg"
+        },
+        "after": {
+          "pts": 17.484,
+          "file": "frames/75fc47-b-17.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a009",
+      "start": 17.484,
+      "end": 20.888,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-17.500/0016.jpg",
+        "frames/opening/000019.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 17.451,
+          "file": "frames/75fc47-b-17.500/0015.jpg"
+        },
+        "after": {
+          "pts": 17.484,
+          "file": "frames/75fc47-b-17.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 20.854,
+          "file": "frames/75fc47-b-20.500/0027.jpg"
+        },
+        "after": {
+          "pts": 20.888,
+          "file": "frames/75fc47-b-20.500/0028.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a010",
+      "start": 20.888,
+      "end": 24.791,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-20.500/0028.jpg",
+        "frames/opening/000023.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 20.854,
+          "file": "frames/75fc47-b-20.500/0027.jpg"
+        },
+        "after": {
+          "pts": 20.888,
+          "file": "frames/75fc47-b-20.500/0028.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 24.758,
+          "file": "frames/75fc47-b-24.500/0024.jpg"
+        },
+        "after": {
+          "pts": 24.791,
+          "file": "frames/75fc47-b-24.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a011",
+      "start": 24.791,
+      "end": 26.994,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-24.500/0025.jpg",
+        "frames/opening/000026.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 24.758,
+          "file": "frames/75fc47-b-24.500/0024.jpg"
+        },
+        "after": {
+          "pts": 24.791,
+          "file": "frames/75fc47-b-24.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 26.96,
+          "file": "frames/75fc47-b-26.500/0030.jpg"
+        },
+        "after": {
+          "pts": 26.994,
+          "file": "frames/75fc47-b-26.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a012",
+      "start": 26.994,
+      "end": 29.396,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-26.500/0031.jpg",
+        "frames/opening/000028.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 26.96,
+          "file": "frames/75fc47-b-26.500/0030.jpg"
+        },
+        "after": {
+          "pts": 26.994,
+          "file": "frames/75fc47-b-26.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 29.363,
+          "file": "frames/75fc47-b-29.500/0013.jpg"
+        },
+        "after": {
+          "pts": 29.396,
+          "file": "frames/75fc47-b-29.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a013",
+      "start": 29.396,
+      "end": 30.531,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-29.500/0014.jpg",
+        "frames/opening/000030.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 29.363,
+          "file": "frames/75fc47-b-29.500/0013.jpg"
+        },
+        "after": {
+          "pts": 29.396,
+          "file": "frames/75fc47-b-29.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 30.497,
+          "file": "frames/75fc47-b-30.500/0017.jpg"
+        },
+        "after": {
+          "pts": 30.531,
+          "file": "frames/75fc47-b-30.500/0018.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a014",
+      "start": 30.531,
+      "end": 32.332,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-30.500/0018.jpg",
+        "frames/opening/000031.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 30.497,
+          "file": "frames/75fc47-b-30.500/0017.jpg"
+        },
+        "after": {
+          "pts": 30.531,
+          "file": "frames/75fc47-b-30.500/0018.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-001.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 32.299,
+          "file": "frames/75fc47-b-32.500/0011.jpg"
+        },
+        "after": {
+          "pts": 32.332,
+          "file": "frames/75fc47-b-32.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a015",
+      "start": 32.332,
+      "end": 33.0,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-32.500/0012.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 32.299,
+          "file": "frames/75fc47-b-32.500/0011.jpg"
+        },
+        "after": {
+          "pts": 32.332,
+          "file": "frames/75fc47-b-32.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 32.966,
+          "file": "frames/75fc47-b-32.900/0019.jpg"
+        },
+        "after": {
+          "pts": 33.0,
+          "file": "frames/75fc47-b-32.900/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-extra-pairs/sheet-000.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a016",
+      "start": 33.0,
+      "end": 34.334,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-32.900/0020.jpg",
+        "frames/opening/000034.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 32.966,
+          "file": "frames/75fc47-b-32.900/0019.jpg"
+        },
+        "after": {
+          "pts": 33.0,
+          "file": "frames/75fc47-b-32.900/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-extra-pairs/sheet-000.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 34.301,
+          "file": "frames/75fc47-b-34.500/0011.jpg"
+        },
+        "after": {
+          "pts": 34.334,
+          "file": "frames/75fc47-b-34.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a017",
+      "start": 34.334,
+      "end": 35.435,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-34.500/0012.jpg",
+        "frames/opening/000035.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 34.301,
+          "file": "frames/75fc47-b-34.500/0011.jpg"
+        },
+        "after": {
+          "pts": 34.334,
+          "file": "frames/75fc47-b-34.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 35.402,
+          "file": "frames/75fc47-b-35.500/0014.jpg"
+        },
+        "after": {
+          "pts": 35.435,
+          "file": "frames/75fc47-b-35.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a018",
+      "start": 35.435,
+      "end": 36.603,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-35.500/0015.jpg",
+        "frames/75fc47-scan/000036.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 35.402,
+          "file": "frames/75fc47-b-35.500/0014.jpg"
+        },
+        "after": {
+          "pts": 35.435,
+          "file": "frames/75fc47-b-35.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 36.57,
+          "file": "frames/75fc47-b-36.500/0019.jpg"
+        },
+        "after": {
+          "pts": 36.603,
+          "file": "frames/75fc47-b-36.500/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a019",
+      "start": 36.603,
+      "end": 38.639,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-36.500/0020.jpg",
+        "frames/75fc47-scan/000038.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 36.57,
+          "file": "frames/75fc47-b-36.500/0019.jpg"
+        },
+        "after": {
+          "pts": 36.603,
+          "file": "frames/75fc47-b-36.500/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 38.605,
+          "file": "frames/75fc47-b-38.500/0020.jpg"
+        },
+        "after": {
+          "pts": 38.639,
+          "file": "frames/75fc47-b-38.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a020",
+      "start": 38.639,
+      "end": 40.541,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-38.500/0021.jpg",
+        "frames/75fc47-scan/000040.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 38.605,
+          "file": "frames/75fc47-b-38.500/0020.jpg"
+        },
+        "after": {
+          "pts": 38.639,
+          "file": "frames/75fc47-b-38.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 40.507,
+          "file": "frames/75fc47-b-40.500/0017.jpg"
+        },
+        "after": {
+          "pts": 40.541,
+          "file": "frames/75fc47-b-40.500/0018.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a021",
+      "start": 40.541,
+      "end": 43.043,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-40.500/0018.jpg",
+        "frames/75fc47-scan/000042.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 40.507,
+          "file": "frames/75fc47-b-40.500/0017.jpg"
+        },
+        "after": {
+          "pts": 40.541,
+          "file": "frames/75fc47-b-40.500/0018.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-002.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 43.01,
+          "file": "frames/75fc47-b-43.500/0002.jpg"
+        },
+        "after": {
+          "pts": 43.043,
+          "file": "frames/75fc47-b-43.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a022",
+      "start": 49.683,
+      "end": 51.985,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-49.500/0022.jpg",
+        "frames/75fc47-scan/000051.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 49.65,
+          "file": "frames/75fc47-b-49.500/0021.jpg"
+        },
+        "after": {
+          "pts": 49.683,
+          "file": "frames/75fc47-b-49.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 51.952,
+          "file": "frames/75fc47-b-51.500/0030.jpg"
+        },
+        "after": {
+          "pts": 51.985,
+          "file": "frames/75fc47-b-51.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a023",
+      "start": 51.985,
+      "end": 53.987,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-51.500/0031.jpg",
+        "frames/75fc47-scan/000053.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 51.952,
+          "file": "frames/75fc47-b-51.500/0030.jpg"
+        },
+        "after": {
+          "pts": 51.985,
+          "file": "frames/75fc47-b-51.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 53.954,
+          "file": "frames/75fc47-b-53.500/0030.jpg"
+        },
+        "after": {
+          "pts": 53.987,
+          "file": "frames/75fc47-b-53.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a024",
+      "start": 53.987,
+      "end": 55.422,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-53.500/0031.jpg",
+        "frames/75fc47-scan/000055.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 53.954,
+          "file": "frames/75fc47-b-53.500/0030.jpg"
+        },
+        "after": {
+          "pts": 53.987,
+          "file": "frames/75fc47-b-53.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 55.389,
+          "file": "frames/75fc47-b-55.500/0013.jpg"
+        },
+        "after": {
+          "pts": 55.422,
+          "file": "frames/75fc47-b-55.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a025",
+      "start": 55.422,
+      "end": 57.658,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-55.500/0014.jpg",
+        "frames/75fc47-scan/000057.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 55.389,
+          "file": "frames/75fc47-b-55.500/0013.jpg"
+        },
+        "after": {
+          "pts": 55.422,
+          "file": "frames/75fc47-b-55.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 57.624,
+          "file": "frames/75fc47-b-57.500/0020.jpg"
+        },
+        "after": {
+          "pts": 57.658,
+          "file": "frames/75fc47-b-57.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a026",
+      "start": 57.658,
+      "end": 59.159,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-57.500/0021.jpg",
+        "frames/75fc47-scan/000058.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 57.624,
+          "file": "frames/75fc47-b-57.500/0020.jpg"
+        },
+        "after": {
+          "pts": 57.658,
+          "file": "frames/75fc47-b-57.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-003.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 59.126,
+          "file": "frames/75fc47-b-59.500/0005.jpg"
+        },
+        "after": {
+          "pts": 59.159,
+          "file": "frames/75fc47-b-59.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a027",
+      "start": 59.159,
+      "end": 61.128,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-59.500/0006.jpg",
+        "frames/75fc47-scan/000060.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 59.126,
+          "file": "frames/75fc47-b-59.500/0005.jpg"
+        },
+        "after": {
+          "pts": 59.159,
+          "file": "frames/75fc47-b-59.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 61.094,
+          "file": "frames/75fc47-b-61.500/0005.jpg"
+        },
+        "after": {
+          "pts": 61.128,
+          "file": "frames/75fc47-b-61.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a028",
+      "start": 61.128,
+      "end": 63.43,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-61.500/0006.jpg",
+        "frames/75fc47-scan/000062.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 61.094,
+          "file": "frames/75fc47-b-61.500/0005.jpg"
+        },
+        "after": {
+          "pts": 61.128,
+          "file": "frames/75fc47-b-61.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 63.397,
+          "file": "frames/75fc47-b-63.500/0014.jpg"
+        },
+        "after": {
+          "pts": 63.43,
+          "file": "frames/75fc47-b-63.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a029",
+      "start": 63.43,
+      "end": 65.699,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-63.500/0015.jpg",
+        "frames/75fc47-scan/000065.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 63.397,
+          "file": "frames/75fc47-b-63.500/0014.jpg"
+        },
+        "after": {
+          "pts": 63.43,
+          "file": "frames/75fc47-b-63.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 65.666,
+          "file": "frames/75fc47-b-65.500/0022.jpg"
+        },
+        "after": {
+          "pts": 65.699,
+          "file": "frames/75fc47-b-65.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a030",
+      "start": 65.699,
+      "end": 67.434,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-65.500/0023.jpg",
+        "frames/75fc47-scan/000067.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 65.666,
+          "file": "frames/75fc47-b-65.500/0022.jpg"
+        },
+        "after": {
+          "pts": 65.699,
+          "file": "frames/75fc47-b-65.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 67.401,
+          "file": "frames/75fc47-b-67.500/0014.jpg"
+        },
+        "after": {
+          "pts": 67.434,
+          "file": "frames/75fc47-b-67.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a031",
+      "start": 67.434,
+      "end": 69.67,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-67.500/0015.jpg",
+        "frames/75fc47-scan/000069.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 67.401,
+          "file": "frames/75fc47-b-67.500/0014.jpg"
+        },
+        "after": {
+          "pts": 67.434,
+          "file": "frames/75fc47-b-67.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 69.636,
+          "file": "frames/75fc47-b-69.500/0021.jpg"
+        },
+        "after": {
+          "pts": 69.67,
+          "file": "frames/75fc47-b-69.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a032",
+      "start": 69.67,
+      "end": 72.873,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-69.500/0022.jpg",
+        "frames/75fc47-scan/000071.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 69.636,
+          "file": "frames/75fc47-b-69.500/0021.jpg"
+        },
+        "after": {
+          "pts": 69.67,
+          "file": "frames/75fc47-b-69.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-004.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 72.839,
+          "file": "frames/75fc47-b-72.500/0027.jpg"
+        },
+        "after": {
+          "pts": 72.873,
+          "file": "frames/75fc47-b-72.500/0028.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a033",
+      "start": 72.873,
+      "end": 74.241,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-72.500/0028.jpg",
+        "frames/75fc47-scan/000074.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 72.839,
+          "file": "frames/75fc47-b-72.500/0027.jpg"
+        },
+        "after": {
+          "pts": 72.873,
+          "file": "frames/75fc47-b-72.500/0028.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 74.207,
+          "file": "frames/75fc47-b-74.500/0008.jpg"
+        },
+        "after": {
+          "pts": 74.241,
+          "file": "frames/75fc47-b-74.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a034",
+      "start": 74.241,
+      "end": 76.476,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-74.500/0009.jpg",
+        "frames/75fc47-scan/000075.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 74.207,
+          "file": "frames/75fc47-b-74.500/0008.jpg"
+        },
+        "after": {
+          "pts": 74.241,
+          "file": "frames/75fc47-b-74.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 76.443,
+          "file": "frames/75fc47-b-76.500/0015.jpg"
+        },
+        "after": {
+          "pts": 76.476,
+          "file": "frames/75fc47-b-76.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a035",
+      "start": 76.476,
+      "end": 77.945,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-76.500/0016.jpg",
+        "frames/75fc47-scan/000077.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 76.443,
+          "file": "frames/75fc47-b-76.500/0015.jpg"
+        },
+        "after": {
+          "pts": 76.476,
+          "file": "frames/75fc47-b-76.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 77.911,
+          "file": "frames/75fc47-b-77.500/0029.jpg"
+        },
+        "after": {
+          "pts": 77.945,
+          "file": "frames/75fc47-b-77.500/0030.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a036",
+      "start": 77.945,
+      "end": 78.845,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-77.500/0030.jpg",
+        "frames/75fc47-scan/000078.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 77.911,
+          "file": "frames/75fc47-b-77.500/0029.jpg"
+        },
+        "after": {
+          "pts": 77.945,
+          "file": "frames/75fc47-b-77.500/0030.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 78.812,
+          "file": "frames/75fc47-b-78.500/0026.jpg"
+        },
+        "after": {
+          "pts": 78.845,
+          "file": "frames/75fc47-b-78.500/0027.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a037",
+      "start": 78.845,
+      "end": 81.148,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-78.500/0027.jpg",
+        "frames/75fc47-scan/000080.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 78.812,
+          "file": "frames/75fc47-b-78.500/0026.jpg"
+        },
+        "after": {
+          "pts": 78.845,
+          "file": "frames/75fc47-b-78.500/0027.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 81.114,
+          "file": "frames/75fc47-b-81.500/0005.jpg"
+        },
+        "after": {
+          "pts": 81.148,
+          "file": "frames/75fc47-b-81.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a038",
+      "start": 81.148,
+      "end": 83.717,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-81.500/0006.jpg",
+        "frames/75fc47-scan/000082.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 81.114,
+          "file": "frames/75fc47-b-81.500/0005.jpg"
+        },
+        "after": {
+          "pts": 81.148,
+          "file": "frames/75fc47-b-81.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-005.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 83.684,
+          "file": "frames/75fc47-b-83.500/0022.jpg"
+        },
+        "after": {
+          "pts": 83.717,
+          "file": "frames/75fc47-b-83.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a039",
+      "start": 83.717,
+      "end": 86.119,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-83.500/0023.jpg",
+        "frames/75fc47-scan/000085.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 83.684,
+          "file": "frames/75fc47-b-83.500/0022.jpg"
+        },
+        "after": {
+          "pts": 83.717,
+          "file": "frames/75fc47-b-83.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 86.086,
+          "file": "frames/75fc47-b-86.500/0004.jpg"
+        },
+        "after": {
+          "pts": 86.119,
+          "file": "frames/75fc47-b-86.500/0005.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a040",
+      "start": 86.119,
+      "end": 87.154,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-86.500/0005.jpg",
+        "frames/75fc47-scan/000087.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 86.086,
+          "file": "frames/75fc47-b-86.500/0004.jpg"
+        },
+        "after": {
+          "pts": 86.119,
+          "file": "frames/75fc47-b-86.500/0005.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 87.12,
+          "file": "frames/75fc47-b-87.500/0005.jpg"
+        },
+        "after": {
+          "pts": 87.154,
+          "file": "frames/75fc47-b-87.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a041",
+      "start": 87.154,
+      "end": 89.089,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-87.500/0006.jpg",
+        "frames/75fc47-scan/000088.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 87.12,
+          "file": "frames/75fc47-b-87.500/0005.jpg"
+        },
+        "after": {
+          "pts": 87.154,
+          "file": "frames/75fc47-b-87.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 89.056,
+          "file": "frames/75fc47-b-89.500/0003.jpg"
+        },
+        "after": {
+          "pts": 89.089,
+          "file": "frames/75fc47-b-89.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a042",
+      "start": 89.089,
+      "end": 91.091,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-89.500/0004.jpg",
+        "frames/75fc47-scan/000090.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 89.056,
+          "file": "frames/75fc47-b-89.500/0003.jpg"
+        },
+        "after": {
+          "pts": 89.089,
+          "file": "frames/75fc47-b-89.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 91.058,
+          "file": "frames/75fc47-b-91.500/0003.jpg"
+        },
+        "after": {
+          "pts": 91.091,
+          "file": "frames/75fc47-b-91.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a043",
+      "start": 91.091,
+      "end": 93.226,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-91.500/0004.jpg",
+        "frames/75fc47-scan/000092.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 91.058,
+          "file": "frames/75fc47-b-91.500/0003.jpg"
+        },
+        "after": {
+          "pts": 91.091,
+          "file": "frames/75fc47-b-91.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 93.193,
+          "file": "frames/75fc47-b-93.500/0008.jpg"
+        },
+        "after": {
+          "pts": 93.226,
+          "file": "frames/75fc47-b-93.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a044",
+      "start": 93.226,
+      "end": 94.795,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-93.500/0009.jpg",
+        "frames/75fc47-scan/000094.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 93.193,
+          "file": "frames/75fc47-b-93.500/0008.jpg"
+        },
+        "after": {
+          "pts": 93.226,
+          "file": "frames/75fc47-b-93.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-006.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 94.761,
+          "file": "frames/75fc47-b-94.500/0025.jpg"
+        },
+        "after": {
+          "pts": 94.795,
+          "file": "frames/75fc47-b-94.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a045",
+      "start": 94.795,
+      "end": 98.231,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-94.500/0026.jpg",
+        "frames/75fc47-scan/000097.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 94.761,
+          "file": "frames/75fc47-b-94.500/0025.jpg"
+        },
+        "after": {
+          "pts": 94.795,
+          "file": "frames/75fc47-b-94.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 98.198,
+          "file": "frames/75fc47-b-98.500/0008.jpg"
+        },
+        "after": {
+          "pts": 98.231,
+          "file": "frames/75fc47-b-98.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a046",
+      "start": 98.231,
+      "end": 101.034,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-98.500/0009.jpg",
+        "frames/75fc47-scan/000100.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 98.198,
+          "file": "frames/75fc47-b-98.500/0008.jpg"
+        },
+        "after": {
+          "pts": 98.231,
+          "file": "frames/75fc47-b-98.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 101.001,
+          "file": "frames/75fc47-b-101.500/0002.jpg"
+        },
+        "after": {
+          "pts": 101.034,
+          "file": "frames/75fc47-b-101.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a047",
+      "start": 101.034,
+      "end": 102.703,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-101.500/0003.jpg",
+        "frames/75fc47-scan/000102.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 101.001,
+          "file": "frames/75fc47-b-101.500/0002.jpg"
+        },
+        "after": {
+          "pts": 101.034,
+          "file": "frames/75fc47-b-101.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 102.669,
+          "file": "frames/75fc47-b-102.500/0022.jpg"
+        },
+        "after": {
+          "pts": 102.703,
+          "file": "frames/75fc47-b-102.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a048",
+      "start": 102.703,
+      "end": 104.805,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-102.500/0023.jpg",
+        "frames/75fc47-scan/000104.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 102.669,
+          "file": "frames/75fc47-b-102.500/0022.jpg"
+        },
+        "after": {
+          "pts": 102.703,
+          "file": "frames/75fc47-b-102.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 104.771,
+          "file": "frames/75fc47-b-104.500/0025.jpg"
+        },
+        "after": {
+          "pts": 104.805,
+          "file": "frames/75fc47-b-104.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a049",
+      "start": 104.805,
+      "end": 106.74,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-104.500/0026.jpg",
+        "frames/75fc47-scan/000106.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 104.771,
+          "file": "frames/75fc47-b-104.500/0025.jpg"
+        },
+        "after": {
+          "pts": 104.805,
+          "file": "frames/75fc47-b-104.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 106.707,
+          "file": "frames/75fc47-b-106.500/0023.jpg"
+        },
+        "after": {
+          "pts": 106.74,
+          "file": "frames/75fc47-b-106.500/0024.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a050",
+      "start": 106.74,
+      "end": 108.976,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-106.500/0024.jpg",
+        "frames/75fc47-scan/000108.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 106.707,
+          "file": "frames/75fc47-b-106.500/0023.jpg"
+        },
+        "after": {
+          "pts": 106.74,
+          "file": "frames/75fc47-b-106.500/0024.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-007.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 108.942,
+          "file": "frames/75fc47-b-108.500/0030.jpg"
+        },
+        "after": {
+          "pts": 108.976,
+          "file": "frames/75fc47-b-108.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a051",
+      "start": 108.976,
+      "end": 111.311,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-108.500/0031.jpg",
+        "frames/75fc47-scan/000110.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 108.942,
+          "file": "frames/75fc47-b-108.500/0030.jpg"
+        },
+        "after": {
+          "pts": 108.976,
+          "file": "frames/75fc47-b-108.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 111.278,
+          "file": "frames/75fc47-b-111.500/0010.jpg"
+        },
+        "after": {
+          "pts": 111.311,
+          "file": "frames/75fc47-b-111.500/0011.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a052",
+      "start": 111.311,
+      "end": 115.816,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-111.500/0011.jpg",
+        "frames/75fc47-scan/000114.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 111.278,
+          "file": "frames/75fc47-b-111.500/0010.jpg"
+        },
+        "after": {
+          "pts": 111.311,
+          "file": "frames/75fc47-b-111.500/0011.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 115.782,
+          "file": "frames/75fc47-b-115.500/0025.jpg"
+        },
+        "after": {
+          "pts": 115.816,
+          "file": "frames/75fc47-b-115.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a053",
+      "start": 115.816,
+      "end": 118.051,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-115.500/0026.jpg",
+        "frames/75fc47-scan/000117.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 115.782,
+          "file": "frames/75fc47-b-115.500/0025.jpg"
+        },
+        "after": {
+          "pts": 115.816,
+          "file": "frames/75fc47-b-115.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 118.018,
+          "file": "frames/75fc47-b-118.500/0002.jpg"
+        },
+        "after": {
+          "pts": 118.051,
+          "file": "frames/75fc47-b-118.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a054",
+      "start": 118.051,
+      "end": 119.186,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-118.500/0003.jpg",
+        "frames/75fc47-scan/000119.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 118.018,
+          "file": "frames/75fc47-b-118.500/0002.jpg"
+        },
+        "after": {
+          "pts": 118.051,
+          "file": "frames/75fc47-b-118.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 119.152,
+          "file": "frames/75fc47-b-119.500/0006.jpg"
+        },
+        "after": {
+          "pts": 119.186,
+          "file": "frames/75fc47-b-119.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a055",
+      "start": 119.186,
+      "end": 120.354,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-119.500/0007.jpg",
+        "frames/75fc47-scan/000120.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 119.152,
+          "file": "frames/75fc47-b-119.500/0006.jpg"
+        },
+        "after": {
+          "pts": 119.186,
+          "file": "frames/75fc47-b-119.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 120.32,
+          "file": "frames/75fc47-b-120.500/0011.jpg"
+        },
+        "after": {
+          "pts": 120.354,
+          "file": "frames/75fc47-b-120.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a056",
+      "start": 120.354,
+      "end": 124.124,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-120.500/0012.jpg",
+        "frames/75fc47-scan/000122.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 120.32,
+          "file": "frames/75fc47-b-120.500/0011.jpg"
+        },
+        "after": {
+          "pts": 120.354,
+          "file": "frames/75fc47-b-120.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-008.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 124.091,
+          "file": "frames/75fc47-b-124.500/0004.jpg"
+        },
+        "after": {
+          "pts": 124.124,
+          "file": "frames/75fc47-b-124.500/0005.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a057",
+      "start": 124.124,
+      "end": 126.159,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-124.500/0005.jpg",
+        "frames/75fc47-scan/000125.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 124.091,
+          "file": "frames/75fc47-b-124.500/0004.jpg"
+        },
+        "after": {
+          "pts": 124.124,
+          "file": "frames/75fc47-b-124.500/0005.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 126.126,
+          "file": "frames/75fc47-b-126.500/0005.jpg"
+        },
+        "after": {
+          "pts": 126.159,
+          "file": "frames/75fc47-b-126.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a058",
+      "start": 126.159,
+      "end": 128.128,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-126.500/0006.jpg",
+        "frames/75fc47-scan/000127.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 126.126,
+          "file": "frames/75fc47-b-126.500/0005.jpg"
+        },
+        "after": {
+          "pts": 126.159,
+          "file": "frames/75fc47-b-126.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 128.095,
+          "file": "frames/75fc47-b-128.500/0005.jpg"
+        },
+        "after": {
+          "pts": 128.128,
+          "file": "frames/75fc47-b-128.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a059",
+      "start": 128.128,
+      "end": 129.329,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-128.500/0006.jpg",
+        "frames/75fc47-scan/000129.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 128.095,
+          "file": "frames/75fc47-b-128.500/0005.jpg"
+        },
+        "after": {
+          "pts": 128.128,
+          "file": "frames/75fc47-b-128.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 129.296,
+          "file": "frames/75fc47-b-129.500/0011.jpg"
+        },
+        "after": {
+          "pts": 129.329,
+          "file": "frames/75fc47-b-129.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a060",
+      "start": 129.329,
+      "end": 131.498,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-129.500/0012.jpg",
+        "frames/75fc47-scan/000130.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 129.296,
+          "file": "frames/75fc47-b-129.500/0011.jpg"
+        },
+        "after": {
+          "pts": 129.329,
+          "file": "frames/75fc47-b-129.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 131.465,
+          "file": "frames/75fc47-b-131.500/0016.jpg"
+        },
+        "after": {
+          "pts": 131.498,
+          "file": "frames/75fc47-b-131.500/0017.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a061",
+      "start": 131.498,
+      "end": 132.165,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-131.500/0017.jpg",
+        "frames/75fc47-scan/000132.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 131.465,
+          "file": "frames/75fc47-b-131.500/0016.jpg"
+        },
+        "after": {
+          "pts": 131.498,
+          "file": "frames/75fc47-b-131.500/0017.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 132.132,
+          "file": "frames/75fc47-b-132.500/0006.jpg"
+        },
+        "after": {
+          "pts": 132.165,
+          "file": "frames/75fc47-b-132.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a062",
+      "start": 132.165,
+      "end": 136.069,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-132.500/0007.jpg",
+        "frames/75fc47-scan/000134.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 132.132,
+          "file": "frames/75fc47-b-132.500/0006.jpg"
+        },
+        "after": {
+          "pts": 132.165,
+          "file": "frames/75fc47-b-132.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-009.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 136.036,
+          "file": "frames/75fc47-b-136.500/0003.jpg"
+        },
+        "after": {
+          "pts": 136.069,
+          "file": "frames/75fc47-b-136.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a063",
+      "start": 136.069,
+      "end": 140.407,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-136.500/0004.jpg",
+        "frames/75fc47-scan/000138.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 136.036,
+          "file": "frames/75fc47-b-136.500/0003.jpg"
+        },
+        "after": {
+          "pts": 136.069,
+          "file": "frames/75fc47-b-136.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 140.374,
+          "file": "frames/75fc47-b-140.500/0013.jpg"
+        },
+        "after": {
+          "pts": 140.407,
+          "file": "frames/75fc47-b-140.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a064",
+      "start": 140.407,
+      "end": 142.943,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-140.500/0014.jpg",
+        "frames/75fc47-scan/000142.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 140.374,
+          "file": "frames/75fc47-b-140.500/0013.jpg"
+        },
+        "after": {
+          "pts": 140.407,
+          "file": "frames/75fc47-b-140.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 142.909,
+          "file": "frames/75fc47-b-142.500/0029.jpg"
+        },
+        "after": {
+          "pts": 142.943,
+          "file": "frames/75fc47-b-142.500/0030.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a065",
+      "start": 142.943,
+      "end": 145.045,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-142.500/0030.jpg",
+        "frames/75fc47-scan/000144.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 142.909,
+          "file": "frames/75fc47-b-142.500/0029.jpg"
+        },
+        "after": {
+          "pts": 142.943,
+          "file": "frames/75fc47-b-142.500/0030.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 145.012,
+          "file": "frames/75fc47-b-145.500/0002.jpg"
+        },
+        "after": {
+          "pts": 145.045,
+          "file": "frames/75fc47-b-145.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a066",
+      "start": 145.045,
+      "end": 146.98,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-145.500/0003.jpg",
+        "frames/75fc47-scan/000146.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 145.012,
+          "file": "frames/75fc47-b-145.500/0002.jpg"
+        },
+        "after": {
+          "pts": 145.045,
+          "file": "frames/75fc47-b-145.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 146.947,
+          "file": "frames/75fc47-b-146.500/0030.jpg"
+        },
+        "after": {
+          "pts": 146.98,
+          "file": "frames/75fc47-b-146.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a067",
+      "start": 146.98,
+      "end": 147.914,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-146.500/0031.jpg",
+        "frames/75fc47-scan/000147.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 146.947,
+          "file": "frames/75fc47-b-146.500/0030.jpg"
+        },
+        "after": {
+          "pts": 146.98,
+          "file": "frames/75fc47-b-146.500/0031.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 147.881,
+          "file": "frames/75fc47-b-147.500/0028.jpg"
+        },
+        "after": {
+          "pts": 147.914,
+          "file": "frames/75fc47-b-147.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a068",
+      "start": 147.914,
+      "end": 149.783,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-147.500/0029.jpg",
+        "frames/75fc47-scan/000149.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 147.881,
+          "file": "frames/75fc47-b-147.500/0028.jpg"
+        },
+        "after": {
+          "pts": 147.914,
+          "file": "frames/75fc47-b-147.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-010.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 149.75,
+          "file": "frames/75fc47-b-149.500/0024.jpg"
+        },
+        "after": {
+          "pts": 149.783,
+          "file": "frames/75fc47-b-149.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a069",
+      "start": 149.783,
+      "end": 150.484,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-149.500/0025.jpg",
+        "frames/75fc47-scan/000150.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 149.75,
+          "file": "frames/75fc47-b-149.500/0024.jpg"
+        },
+        "after": {
+          "pts": 149.783,
+          "file": "frames/75fc47-b-149.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 150.45,
+          "file": "frames/75fc47-b-150.500/0015.jpg"
+        },
+        "after": {
+          "pts": 150.484,
+          "file": "frames/75fc47-b-150.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a070",
+      "start": 150.484,
+      "end": 151.652,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-150.500/0016.jpg",
+        "frames/75fc47-scan/000151.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 150.45,
+          "file": "frames/75fc47-b-150.500/0015.jpg"
+        },
+        "after": {
+          "pts": 150.484,
+          "file": "frames/75fc47-b-150.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 151.618,
+          "file": "frames/75fc47-b-151.500/0020.jpg"
+        },
+        "after": {
+          "pts": 151.652,
+          "file": "frames/75fc47-b-151.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a071",
+      "start": 151.652,
+      "end": 154.855,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-151.500/0021.jpg",
+        "frames/75fc47-scan/000153.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 151.618,
+          "file": "frames/75fc47-b-151.500/0020.jpg"
+        },
+        "after": {
+          "pts": 151.652,
+          "file": "frames/75fc47-b-151.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 154.821,
+          "file": "frames/75fc47-b-154.500/0026.jpg"
+        },
+        "after": {
+          "pts": 154.855,
+          "file": "frames/75fc47-b-154.500/0027.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a072",
+      "start": 154.855,
+      "end": 158.258,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-154.500/0027.jpg",
+        "frames/75fc47-scan/000157.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 154.821,
+          "file": "frames/75fc47-b-154.500/0026.jpg"
+        },
+        "after": {
+          "pts": 154.855,
+          "file": "frames/75fc47-b-154.500/0027.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 158.225,
+          "file": "frames/75fc47-b-158.500/0008.jpg"
+        },
+        "after": {
+          "pts": 158.258,
+          "file": "frames/75fc47-b-158.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a073",
+      "start": 158.258,
+      "end": 160.661,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-158.500/0009.jpg",
+        "frames/75fc47-scan/000159.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 158.225,
+          "file": "frames/75fc47-b-158.500/0008.jpg"
+        },
+        "after": {
+          "pts": 158.258,
+          "file": "frames/75fc47-b-158.500/0009.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 160.627,
+          "file": "frames/75fc47-b-160.500/0021.jpg"
+        },
+        "after": {
+          "pts": 160.661,
+          "file": "frames/75fc47-b-160.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a074",
+      "start": 160.661,
+      "end": 163.43,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-160.500/0022.jpg",
+        "frames/75fc47-scan/000162.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 160.627,
+          "file": "frames/75fc47-b-160.500/0021.jpg"
+        },
+        "after": {
+          "pts": 160.661,
+          "file": "frames/75fc47-b-160.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-011.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 163.397,
+          "file": "frames/75fc47-b-163.500/0014.jpg"
+        },
+        "after": {
+          "pts": 163.43,
+          "file": "frames/75fc47-b-163.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a075",
+      "start": 163.43,
+      "end": 166.5,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-163.500/0015.jpg",
+        "frames/75fc47-scan/000165.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 163.397,
+          "file": "frames/75fc47-b-163.500/0014.jpg"
+        },
+        "after": {
+          "pts": 163.43,
+          "file": "frames/75fc47-b-163.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 166.466,
+          "file": "frames/75fc47-b-166.500/0016.jpg"
+        },
+        "after": {
+          "pts": 166.5,
+          "file": "frames/75fc47-b-166.500/0017.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a076",
+      "start": 166.5,
+      "end": 167.801,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-166.500/0017.jpg",
+        "frames/75fc47-scan/000167.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 166.466,
+          "file": "frames/75fc47-b-166.500/0016.jpg"
+        },
+        "after": {
+          "pts": 166.5,
+          "file": "frames/75fc47-b-166.500/0017.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 167.768,
+          "file": "frames/75fc47-b-167.500/0025.jpg"
+        },
+        "after": {
+          "pts": 167.801,
+          "file": "frames/75fc47-b-167.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a077",
+      "start": 167.801,
+      "end": 172.439,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-167.500/0026.jpg",
+        "frames/75fc47-scan/000170.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 167.768,
+          "file": "frames/75fc47-b-167.500/0025.jpg"
+        },
+        "after": {
+          "pts": 167.801,
+          "file": "frames/75fc47-b-167.500/0026.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 172.406,
+          "file": "frames/75fc47-b-172.500/0014.jpg"
+        },
+        "after": {
+          "pts": 172.439,
+          "file": "frames/75fc47-b-172.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a078",
+      "start": 172.439,
+      "end": 174.675,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-172.500/0015.jpg",
+        "frames/75fc47-scan/000174.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 172.406,
+          "file": "frames/75fc47-b-172.500/0014.jpg"
+        },
+        "after": {
+          "pts": 172.439,
+          "file": "frames/75fc47-b-172.500/0015.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 174.641,
+          "file": "frames/75fc47-b-174.500/0021.jpg"
+        },
+        "after": {
+          "pts": 174.675,
+          "file": "frames/75fc47-b-174.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a079",
+      "start": 174.675,
+      "end": 176.176,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-174.500/0022.jpg",
+        "frames/75fc47-scan/000175.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 174.641,
+          "file": "frames/75fc47-b-174.500/0021.jpg"
+        },
+        "after": {
+          "pts": 174.675,
+          "file": "frames/75fc47-b-174.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 176.143,
+          "file": "frames/75fc47-b-176.500/0006.jpg"
+        },
+        "after": {
+          "pts": 176.176,
+          "file": "frames/75fc47-b-176.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a080",
+      "start": 176.176,
+      "end": 179.146,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-176.500/0007.jpg",
+        "frames/75fc47-scan/000178.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 176.143,
+          "file": "frames/75fc47-b-176.500/0006.jpg"
+        },
+        "after": {
+          "pts": 176.176,
+          "file": "frames/75fc47-b-176.500/0007.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-012.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 179.112,
+          "file": "frames/75fc47-b-179.500/0005.jpg"
+        },
+        "after": {
+          "pts": 179.146,
+          "file": "frames/75fc47-b-179.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a081",
+      "start": 179.146,
+      "end": 181.682,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-179.500/0006.jpg",
+        "frames/75fc47-scan/000180.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 179.112,
+          "file": "frames/75fc47-b-179.500/0005.jpg"
+        },
+        "after": {
+          "pts": 179.146,
+          "file": "frames/75fc47-b-179.500/0006.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 181.648,
+          "file": "frames/75fc47-b-181.500/0021.jpg"
+        },
+        "after": {
+          "pts": 181.682,
+          "file": "frames/75fc47-b-181.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a082",
+      "start": 181.682,
+      "end": 185.352,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-181.500/0022.jpg",
+        "frames/75fc47-scan/000184.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 181.648,
+          "file": "frames/75fc47-b-181.500/0021.jpg"
+        },
+        "after": {
+          "pts": 181.682,
+          "file": "frames/75fc47-b-181.500/0022.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 185.318,
+          "file": "frames/75fc47-b-185.500/0011.jpg"
+        },
+        "after": {
+          "pts": 185.352,
+          "file": "frames/75fc47-b-185.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a083",
+      "start": 185.352,
+      "end": 186.353,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-185.500/0012.jpg",
+        "frames/75fc47-scan/000186.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 185.318,
+          "file": "frames/75fc47-b-185.500/0011.jpg"
+        },
+        "after": {
+          "pts": 185.352,
+          "file": "frames/75fc47-b-185.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 186.319,
+          "file": "frames/75fc47-b-186.500/0011.jpg"
+        },
+        "after": {
+          "pts": 186.353,
+          "file": "frames/75fc47-b-186.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a084",
+      "start": 186.353,
+      "end": 188.489,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-186.500/0012.jpg",
+        "frames/75fc47-scan/000187.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 186.319,
+          "file": "frames/75fc47-b-186.500/0011.jpg"
+        },
+        "after": {
+          "pts": 186.353,
+          "file": "frames/75fc47-b-186.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 188.455,
+          "file": "frames/75fc47-b-188.500/0015.jpg"
+        },
+        "after": {
+          "pts": 188.488,
+          "file": "frames/75fc47-b-188.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 5,
+        "note": "Patch transcribed 188.489; original source PTS is 188.488, verified by main agent. Main-owned timing correction pending."
+      }
+    },
+    {
+      "id": "a085",
+      "start": 188.489,
+      "end": 189.056,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-188.500/0016.jpg",
+        "frames/75fc47-scan/000189.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 188.455,
+          "file": "frames/75fc47-b-188.500/0015.jpg"
+        },
+        "after": {
+          "pts": 188.488,
+          "file": "frames/75fc47-b-188.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 5,
+        "note": "Patch transcribed 188.489; original source PTS is 188.488, verified by main agent. Main-owned timing correction pending."
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 189.022,
+          "file": "frames/75fc47-b-189.500/0002.jpg"
+        },
+        "after": {
+          "pts": 189.056,
+          "file": "frames/75fc47-b-189.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a086",
+      "start": 189.056,
+      "end": 190.924,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-189.500/0003.jpg",
+        "frames/75fc47-scan/000190.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 189.022,
+          "file": "frames/75fc47-b-189.500/0002.jpg"
+        },
+        "after": {
+          "pts": 189.056,
+          "file": "frames/75fc47-b-189.500/0003.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-013.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 190.891,
+          "file": "frames/75fc47-b-190.500/0028.jpg"
+        },
+        "after": {
+          "pts": 190.924,
+          "file": "frames/75fc47-b-190.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a087",
+      "start": 190.924,
+      "end": 192.659,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-190.500/0029.jpg",
+        "frames/75fc47-scan/000192.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 190.891,
+          "file": "frames/75fc47-b-190.500/0028.jpg"
+        },
+        "after": {
+          "pts": 190.924,
+          "file": "frames/75fc47-b-190.500/0029.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 192.626,
+          "file": "frames/75fc47-b-192.500/0020.jpg"
+        },
+        "after": {
+          "pts": 192.659,
+          "file": "frames/75fc47-b-192.500/0021.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a088",
+      "start": 192.993,
+      "end": 194.327,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-sss-start/0012.jpg",
+        "frames/75fc47-scan/000194.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 192.959,
+          "file": "frames/75fc47-sss-start/0011.jpg"
+        },
+        "after": {
+          "pts": 192.993,
+          "file": "frames/75fc47-sss-start/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-sss-start/sheet-000.jpg"
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 194.294,
+          "file": "frames/75fc47-b-194.500/0011.jpg"
+        },
+        "after": {
+          "pts": 194.327,
+          "file": "frames/75fc47-b-194.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a089",
+      "start": 194.327,
+      "end": 195.262,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-194.500/0012.jpg",
+        "frames/75fc47-scan/000195.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 194.294,
+          "file": "frames/75fc47-b-194.500/0011.jpg"
+        },
+        "after": {
+          "pts": 194.327,
+          "file": "frames/75fc47-b-194.500/0012.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 195.228,
+          "file": "frames/75fc47-b-195.500/0009.jpg"
+        },
+        "after": {
+          "pts": 195.262,
+          "file": "frames/75fc47-b-195.500/0010.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a090",
+      "start": 195.262,
+      "end": 197.698,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-195.500/0010.jpg",
+        "frames/75fc47-scan/000196.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 195.228,
+          "file": "frames/75fc47-b-195.500/0009.jpg"
+        },
+        "after": {
+          "pts": 195.262,
+          "file": "frames/75fc47-b-195.500/0010.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 197.664,
+          "file": "frames/75fc47-b-197.500/0022.jpg"
+        },
+        "after": {
+          "pts": 197.698,
+          "file": "frames/75fc47-b-197.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 5
+      }
+    },
+    {
+      "id": "a091",
+      "start": 197.698,
+      "end": 200.6,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-197.500/0023.jpg",
+        "frames/75fc47-scan/000199.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 197.664,
+          "file": "frames/75fc47-b-197.500/0022.jpg"
+        },
+        "after": {
+          "pts": 197.698,
+          "file": "frames/75fc47-b-197.500/0023.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 5
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 200.567,
+          "file": "frames/75fc47-b-200.500/0019.jpg"
+        },
+        "after": {
+          "pts": 200.6,
+          "file": "frames/75fc47-b-200.500/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 6
+      }
+    },
+    {
+      "id": "a092",
+      "start": 200.6,
+      "end": 203.37,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-200.500/0020.jpg",
+        "frames/75fc47-scan/000202.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 200.567,
+          "file": "frames/75fc47-b-200.500/0019.jpg"
+        },
+        "after": {
+          "pts": 200.6,
+          "file": "frames/75fc47-b-200.500/0020.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-014.jpg",
+        "sheet_row": 6
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 203.336,
+          "file": "frames/75fc47-b-203.500/0012.jpg"
+        },
+        "after": {
+          "pts": 203.37,
+          "file": "frames/75fc47-b-203.500/0013.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 1
+      }
+    },
+    {
+      "id": "a093",
+      "start": 203.37,
+      "end": 205.772,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-203.500/0013.jpg",
+        "frames/75fc47-scan/000205.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 203.336,
+          "file": "frames/75fc47-b-203.500/0012.jpg"
+        },
+        "after": {
+          "pts": 203.37,
+          "file": "frames/75fc47-b-203.500/0013.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 1
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 205.739,
+          "file": "frames/75fc47-b-205.500/0024.jpg"
+        },
+        "after": {
+          "pts": 205.772,
+          "file": "frames/75fc47-b-205.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 2
+      }
+    },
+    {
+      "id": "a094",
+      "start": 205.772,
+      "end": 207.474,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-205.500/0025.jpg",
+        "frames/75fc47-scan/000207.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 205.739,
+          "file": "frames/75fc47-b-205.500/0024.jpg"
+        },
+        "after": {
+          "pts": 205.772,
+          "file": "frames/75fc47-b-205.500/0025.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 2
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 207.441,
+          "file": "frames/75fc47-b-207.500/0015.jpg"
+        },
+        "after": {
+          "pts": 207.474,
+          "file": "frames/75fc47-b-207.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 3
+      }
+    },
+    {
+      "id": "a095",
+      "start": 207.474,
+      "end": 208.075,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-207.500/0016.jpg",
+        "frames/75fc47-scan/000208.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 207.441,
+          "file": "frames/75fc47-b-207.500/0015.jpg"
+        },
+        "after": {
+          "pts": 207.474,
+          "file": "frames/75fc47-b-207.500/0016.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 3
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 208.041,
+          "file": "frames/75fc47-b-208.500/0003.jpg"
+        },
+        "after": {
+          "pts": 208.075,
+          "file": "frames/75fc47-b-208.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 4
+      }
+    },
+    {
+      "id": "a096",
+      "start": 208.075,
+      "end": 209.409,
+      "content_viewed": true,
+      "content_frames": [
+        "frames/75fc47-b-208.500/0004.jpg",
+        "frames/75fc47-scan/000209.000.jpg"
+      ],
+      "start_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 208.041,
+          "file": "frames/75fc47-b-208.500/0003.jpg"
+        },
+        "after": {
+          "pts": 208.075,
+          "file": "frames/75fc47-b-208.500/0004.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 4
+      },
+      "end_boundary": {
+        "status": "adjacent_source_frames_visually_confirmed",
+        "before": {
+          "pts": 209.376,
+          "file": "frames/75fc47-b-209.500/0013.jpg"
+        },
+        "after": {
+          "pts": 209.409,
+          "file": "frames/75fc47-b-209.500/0014.jpg"
+        },
+        "viewed_sheet": "frames/75fc47-pairs/sheet-015.jpg",
+        "sheet_row": 5
+      }
+    }
+  ],
+  "animation_followup": [
+    {
+      "id": "a002",
+      "type": "continuous_horizontal_scroll",
+      "note": "One source subtitle unit; complete wording read across opening sheet-000. Timing 1.134–8.375 confirmed; exact motion path/keyframes deferred to style stage."
+    },
+    {
+      "id": "a088",
+      "type": "progressive_character_reveal",
+      "first_visible_s": 192.993,
+      "complete_text_seen_at_requested_time": 194.2,
+      "complete_text_frame": "frames/75fc47-s-count/000194.200.jpg",
+      "final_s_count": 15,
+      "note": "Initial s onset and exit confirmed; individual intermediate glyph reveal times NOT yet certified. Do not describe them as frame-reviewed."
+    },
+    {
+      "id": "a094",
+      "type": "elongated_nasal_sound",
+      "frame": "frames/75fc47-n-count/000206.500.jpg",
+      "note": "ASRうーん; stylized source glyph recorded as ン with seven waves. Exact glyph/font appearance to check when recreating style."
+    }
+  ],
+  "warning_rationale": "All 16 warnings were individually read: a002 7.241s scrolling unit, a003 0.434s な punchline, 11 original two-line layouts mergeable at the hard limit, a052 two-line layout, a032/a081 original 21-character single lines. Changing these would break original picture units/layout.",
+  "unreviewed_main_units": []
+}

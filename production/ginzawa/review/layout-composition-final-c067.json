@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "c067",
+      "time": 568.067,
+      "ink_bounds": [
+        248,
+        785,
+        637,
+        886
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/composition-final-c067/c067-0.png"
+    }
+  ]
+}

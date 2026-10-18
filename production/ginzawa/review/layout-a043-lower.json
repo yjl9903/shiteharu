@@ -1,0 +1,21 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "a043",
+      "time": 92.159,
+      "ink_bounds": [
+        412,
+        770,
+        1464,
+        851
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a043-lower/a043-0.png"
+    }
+  ]
+}

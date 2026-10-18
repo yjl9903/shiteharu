@@ -1,0 +1,73 @@
+{
+  "checked_on": "2026-10-18",
+  "package": "deliverables/bilipack",
+  "config_source": "bilipack.toml",
+  "schema": {
+    "url": "https://github.com/yjl9903/bilipack/blob/main/packages/bilipack/src/config/schema.ts",
+    "sha256": "1f8474d98ef597d02ea8607d30e2ec79957a72cf9bf3d8936fd6a09a066177db",
+    "result": "passed: smol-toml 1.9.0 parse + upstream configSchema.parse with zod 4.6.5; both source and packaged config"
+  },
+  "files": {
+    "deliverables/bilipack/bilipack.toml": {
+      "bytes": 2142,
+      "sha256": "55af796544fd803c1b1b5d9b28f1fbb41f230a40d5b862f9922bdb37be089d12"
+    },
+    "deliverables/bilipack/deliverables/cover.jpg": {
+      "bytes": 230927,
+      "sha256": "305d821666903c8e8df99be757ef5abd74794600d93acdb230cbe35aa4958a2d"
+    },
+    "deliverables/bilipack/deliverables/zh.performance.1080p.mp4": {
+      "bytes": 483409420,
+      "sha256": "22f7a909c1040a69881c1b7fb5fdef6723606ea8ed0887229888344c0f97de3d"
+    }
+  },
+  "total_bytes": 483642489,
+  "attachments": "all referenced files present inside package; regular files; no symlinks; source and packaged bytes identical",
+  "source_metadata": "source.info.json",
+  "source_description": "Japanese original retained verbatim; Chinese translation includes explicit fictional-content warning",
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "avg_frame_rate": "30000/1001"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "avg_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "616.140998",
+      "size": "483409420"
+    }
+  },
+  "full_audio_video_decode": {
+    "exit_code": 0,
+    "error_output": "",
+    "method": "ffmpeg -v error -i deliverables/zh.performance.1080p.mp4 -map 0:v:0 -map 0:a:0 -f null -"
+  },
+  "current_export_qa": "review/current-export-qa.json",
+  "current_export_video_and_inputs_match": true,
+  "cover": {
+    "url": "https://i.ytimg.com/vi/hNc8Em2PKeQ/maxresdefault.jpg",
+    "width": 1280,
+    "height": 720,
+    "standard_position": [
+      100,
+      50
+    ],
+    "inspection": "original cover visually inspected; right crop configured to preserve title"
+  },
+  "not_verified": [
+    "Bilibili page import and account-specific category support",
+    "Continuous manual viewing of the complete video"
+  ]
+}

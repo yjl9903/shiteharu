@@ -1,0 +1,1940 @@
+{
+  "note": "Candidate flags only; source boxes and visual results require human review.",
+  "samples": [
+    {
+      "id": "a001",
+      "time": 0.567,
+      "ink_bounds": [
+        809,
+        869,
+        1111,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a001-0.png"
+    },
+    {
+      "id": "a002",
+      "time": 1.201,
+      "ink_bounds": [
+        1442,
+        650,
+        1920,
+        825
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": true,
+      "touches_edge": true,
+      "allow_offscreen": true,
+      "mask": ".cache/layout-audit/a-pass2-design/a002-0.png"
+    },
+    {
+      "id": "a002",
+      "time": 4.755,
+      "ink_bounds": [
+        0,
+        648,
+        1920,
+        824
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": true,
+      "touches_edge": true,
+      "allow_offscreen": true,
+      "mask": ".cache/layout-audit/a-pass2-design/a002-1.png"
+    },
+    {
+      "id": "a002",
+      "time": 8.308,
+      "ink_bounds": [
+        0,
+        651,
+        715,
+        824
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": true,
+      "touches_edge": true,
+      "allow_offscreen": true,
+      "mask": ".cache/layout-audit/a-pass2-design/a002-2.png"
+    },
+    {
+      "id": "a003",
+      "time": 8.592,
+      "ink_bounds": [
+        807,
+        869,
+        1111,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a003-0.png"
+    },
+    {
+      "id": "a004",
+      "time": 9.593,
+      "ink_bounds": [
+        738,
+        46,
+        1181,
+        204
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a004-0.png"
+    },
+    {
+      "id": "a005",
+      "time": 11.145,
+      "ink_bounds": [
+        657,
+        870,
+        1260,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a005-0.png"
+    },
+    {
+      "id": "a006",
+      "time": 12.997,
+      "ink_bounds": [
+        467,
+        36,
+        1451,
+        224
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a006-0.png"
+    },
+    {
+      "id": "a007",
+      "time": 15.165,
+      "ink_bounds": [
+        428,
+        868,
+        1484,
+        963
+      ],
+      "source_ink_intersections": [
+        [
+          150,
+          960,
+          1780,
+          1060
+        ]
+      ],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a007-0.png"
+    },
+    {
+      "id": "a-tweet-bottom-small",
+      "time": 16.867,
+      "ink_bounds": [
+        1081,
+        719,
+        1338,
+        748
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-bottom-small-0.png"
+    },
+    {
+      "id": "a-tweet-middle-small",
+      "time": 16.867,
+      "ink_bounds": [
+        1091,
+        519,
+        1378,
+        548
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-middle-small-0.png"
+    },
+    {
+      "id": "a-tweet-top-small",
+      "time": 16.867,
+      "ink_bounds": [
+        1121,
+        319,
+        1420,
+        348
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-top-small-0.png"
+    },
+    {
+      "id": "a008",
+      "time": 16.867,
+      "ink_bounds": [
+        660,
+        869,
+        1261,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a008-0.png"
+    },
+    {
+      "id": "a-tweet-bottom-large",
+      "time": 19.186,
+      "ink_bounds": [
+        1202,
+        742,
+        1574,
+        785
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-bottom-large-0.png"
+    },
+    {
+      "id": "a-tweet-middle-large",
+      "time": 19.186,
+      "ink_bounds": [
+        1202,
+        511,
+        1617,
+        553
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-middle-large-0.png"
+    },
+    {
+      "id": "a-tweet-top-large",
+      "time": 19.186,
+      "ink_bounds": [
+        1211,
+        212,
+        1643,
+        253
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-tweet-top-large-0.png"
+    },
+    {
+      "id": "a009",
+      "time": 19.186,
+      "ink_bounds": [
+        307,
+        12,
+        1612,
+        128
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a009-0.png"
+    },
+    {
+      "id": "a010",
+      "time": 22.84,
+      "ink_bounds": [
+        571,
+        35,
+        1351,
+        212
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a010-0.png"
+    },
+    {
+      "id": "a011",
+      "time": 25.892,
+      "ink_bounds": [
+        583,
+        869,
+        1333,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a011-0.png"
+    },
+    {
+      "id": "a012",
+      "time": 28.195,
+      "ink_bounds": [
+        585,
+        868,
+        1336,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a012-0.png"
+    },
+    {
+      "id": "a013",
+      "time": 29.963,
+      "ink_bounds": [
+        772,
+        867,
+        1151,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a013-0.png"
+    },
+    {
+      "id": "a014",
+      "time": 31.431,
+      "ink_bounds": [
+        585,
+        869,
+        1336,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a014-0.png"
+    },
+    {
+      "id": "a015",
+      "time": 32.666,
+      "ink_bounds": [
+        844,
+        37,
+        1078,
+        160
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a015-0.png"
+    },
+    {
+      "id": "a016",
+      "time": 33.667,
+      "ink_bounds": [
+        619,
+        869,
+        1299,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a016-0.png"
+    },
+    {
+      "id": "a017",
+      "time": 34.885,
+      "ink_bounds": [
+        501,
+        54,
+        1302,
+        246
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a017-0.png"
+    },
+    {
+      "id": "a018",
+      "time": 36.019,
+      "ink_bounds": [
+        695,
+        869,
+        1224,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a018-0.png"
+    },
+    {
+      "id": "a019",
+      "time": 37.621,
+      "ink_bounds": [
+        509,
+        869,
+        1411,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a019-0.png"
+    },
+    {
+      "id": "a020",
+      "time": 39.59,
+      "ink_bounds": [
+        409,
+        523,
+        1509,
+        762
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a020-0.png"
+    },
+    {
+      "id": "a021",
+      "time": 41.792,
+      "ink_bounds": [
+        729,
+        867,
+        1189,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a021-0.png"
+    },
+    {
+      "id": "a-merch",
+      "time": 48.582,
+      "ink_bounds": [
+        791,
+        935,
+        1130,
+        991
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-merch-0.png"
+    },
+    {
+      "id": "a022",
+      "time": 50.834,
+      "ink_bounds": [
+        538,
+        869,
+        1382,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a022-0.png"
+    },
+    {
+      "id": "a023",
+      "time": 52.986,
+      "ink_bounds": [
+        621,
+        869,
+        1300,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a023-0.png"
+    },
+    {
+      "id": "a024",
+      "time": 54.704,
+      "ink_bounds": [
+        696,
+        868,
+        1224,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a024-0.png"
+    },
+    {
+      "id": "a025",
+      "time": 56.54,
+      "ink_bounds": [
+        378,
+        53,
+        1543,
+        145
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a025-0.png"
+    },
+    {
+      "id": "a026",
+      "time": 58.409,
+      "ink_bounds": [
+        711,
+        678,
+        1208,
+        849
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a026-0.png"
+    },
+    {
+      "id": "a027",
+      "time": 60.144,
+      "ink_bounds": [
+        698,
+        869,
+        1223,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a027-0.png"
+    },
+    {
+      "id": "a028",
+      "time": 62.279,
+      "ink_bounds": [
+        564,
+        844,
+        1356,
+        940
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a028-0.png"
+    },
+    {
+      "id": "a029",
+      "time": 64.564,
+      "ink_bounds": [
+        340,
+        580,
+        1579,
+        791
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          1500,
+          640,
+          1900,
+          930
+        ]
+      ],
+      "allow_face_overlap": true,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a029-0.png"
+    },
+    {
+      "id": "a030",
+      "time": 66.566,
+      "ink_bounds": [
+        730,
+        867,
+        1192,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a030-0.png"
+    },
+    {
+      "id": "a031",
+      "time": 68.552,
+      "ink_bounds": [
+        734,
+        63,
+        1187,
+        211
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a031-0.png"
+    },
+    {
+      "id": "a032",
+      "time": 71.272,
+      "ink_bounds": [
+        476,
+        51,
+        1442,
+        132
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a032-0.png"
+    },
+    {
+      "id": "a033",
+      "time": 73.557,
+      "ink_bounds": [
+        738,
+        715,
+        1184,
+        870
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a033-0.png"
+    },
+    {
+      "id": "a034",
+      "time": 75.358,
+      "ink_bounds": [
+        623,
+        869,
+        1297,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a034-0.png"
+    },
+    {
+      "id": "a035",
+      "time": 77.21,
+      "ink_bounds": [
+        639,
+        330,
+        1290,
+        669
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a035-0.png"
+    },
+    {
+      "id": "a036",
+      "time": 78.395,
+      "ink_bounds": [
+        806,
+        867,
+        1116,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a036-0.png"
+    },
+    {
+      "id": "a037",
+      "time": 79.996,
+      "ink_bounds": [
+        343,
+        66,
+        1576,
+        225
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a037-0.png"
+    },
+    {
+      "id": "a038",
+      "time": 82.433,
+      "ink_bounds": [
+        430,
+        861,
+        1492,
+        959
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a038-0.png"
+    },
+    {
+      "id": "a039",
+      "time": 84.918,
+      "ink_bounds": [
+        585,
+        869,
+        1336,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a039-0.png"
+    },
+    {
+      "id": "a040",
+      "time": 86.636,
+      "ink_bounds": [
+        768,
+        747,
+        1155,
+        883
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a040-0.png"
+    },
+    {
+      "id": "a041",
+      "time": 88.121,
+      "ink_bounds": [
+        576,
+        869,
+        1346,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a041-0.png"
+    },
+    {
+      "id": "a042",
+      "time": 90.09,
+      "ink_bounds": [
+        586,
+        869,
+        1335,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a042-0.png"
+    },
+    {
+      "id": "a043",
+      "time": 92.159,
+      "ink_bounds": [
+        412,
+        46,
+        1464,
+        127
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a043-0.png"
+    },
+    {
+      "id": "a044",
+      "time": 94.011,
+      "ink_bounds": [
+        344,
+        630,
+        1577,
+        829
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          1500,
+          640,
+          1900,
+          930
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a044-0.png"
+    },
+    {
+      "id": "a045",
+      "time": 96.513,
+      "ink_bounds": [
+        403,
+        36,
+        1516,
+        218
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a045-0.png"
+    },
+    {
+      "id": "a046",
+      "time": 99.632,
+      "ink_bounds": [
+        404,
+        743,
+        1514,
+        827
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a046-0.png"
+    },
+    {
+      "id": "a047",
+      "time": 101.869,
+      "ink_bounds": [
+        690,
+        867,
+        1230,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a047-0.png"
+    },
+    {
+      "id": "a048",
+      "time": 103.754,
+      "ink_bounds": [
+        594,
+        51,
+        1324,
+        132
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a048-0.png"
+    },
+    {
+      "id": "a049",
+      "time": 105.773,
+      "ink_bounds": [
+        606,
+        869,
+        1311,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a049-0.png"
+    },
+    {
+      "id": "a050",
+      "time": 107.858,
+      "ink_bounds": [
+        471,
+        869,
+        1404,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a050-0.png"
+    },
+    {
+      "id": "a051",
+      "time": 110.144,
+      "ink_bounds": [
+        484,
+        51,
+        1434,
+        132
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a051-0.png"
+    },
+    {
+      "id": "a052",
+      "time": 113.564,
+      "ink_bounds": [
+        594,
+        650,
+        1326,
+        832
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a052-0.png"
+    },
+    {
+      "id": "a053",
+      "time": 116.934,
+      "ink_bounds": [
+        583,
+        754,
+        1338,
+        884
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a053-0.png"
+    },
+    {
+      "id": "a054",
+      "time": 118.619,
+      "ink_bounds": [
+        845,
+        869,
+        1072,
+        950
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a054-0.png"
+    },
+    {
+      "id": "a055",
+      "time": 119.77,
+      "ink_bounds": [
+        610,
+        288,
+        1303,
+        639
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a055-0.png"
+    },
+    {
+      "id": "a056",
+      "time": 122.239,
+      "ink_bounds": [
+        559,
+        649,
+        1362,
+        832
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a056-0.png"
+    },
+    {
+      "id": "a057",
+      "time": 125.142,
+      "ink_bounds": [
+        696,
+        868,
+        1221,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a057-0.png"
+    },
+    {
+      "id": "a058",
+      "time": 127.143,
+      "ink_bounds": [
+        369,
+        622,
+        1550,
+        828
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a058-0.png"
+    },
+    {
+      "id": "a-swim",
+      "time": 127.644,
+      "ink_bounds": [
+        817,
+        445,
+        1101,
+        522
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-swim-0.png"
+    },
+    {
+      "id": "a059",
+      "time": 128.728,
+      "ink_bounds": [
+        807,
+        869,
+        1111,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a059-0.png"
+    },
+    {
+      "id": "a060",
+      "time": 130.413,
+      "ink_bounds": [
+        584,
+        869,
+        1335,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a060-0.png"
+    },
+    {
+      "id": "a061",
+      "time": 131.832,
+      "ink_bounds": [
+        880,
+        868,
+        1040,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a061-0.png"
+    },
+    {
+      "id": "a062",
+      "time": 134.117,
+      "ink_bounds": [
+        666,
+        650,
+        1254,
+        832
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a062-0.png"
+    },
+    {
+      "id": "a063",
+      "time": 138.238,
+      "ink_bounds": [
+        486,
+        41,
+        1436,
+        223
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a063-0.png"
+    },
+    {
+      "id": "a064",
+      "time": 141.675,
+      "ink_bounds": [
+        381,
+        802,
+        1538,
+        918
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          1500,
+          640,
+          1900,
+          930
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a064-0.png"
+    },
+    {
+      "id": "a065",
+      "time": 143.994,
+      "ink_bounds": [
+        472,
+        869,
+        1449,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a065-0.png"
+    },
+    {
+      "id": "a066",
+      "time": 146.012,
+      "ink_bounds": [
+        585,
+        868,
+        1336,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a066-0.png"
+    },
+    {
+      "id": "a067",
+      "time": 147.447,
+      "ink_bounds": [
+        522,
+        844,
+        1399,
+        940
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a067-0.png"
+    },
+    {
+      "id": "a068",
+      "time": 148.849,
+      "ink_bounds": [
+        344,
+        706,
+        1570,
+        864
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a068-0.png"
+    },
+    {
+      "id": "a069",
+      "time": 150.133,
+      "ink_bounds": [
+        842,
+        866,
+        1032,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a069-0.png"
+    },
+    {
+      "id": "a070",
+      "time": 151.068,
+      "ink_bounds": [
+        574,
+        487,
+        1185,
+        750
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a070-0.png"
+    },
+    {
+      "id": "a071",
+      "time": 153.253,
+      "ink_bounds": [
+        487,
+        617,
+        1433,
+        848
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a071-0.png"
+    },
+    {
+      "id": "a-cute",
+      "time": 154.087,
+      "ink_bounds": [
+        866,
+        459,
+        1044,
+        524
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-cute-0.png"
+    },
+    {
+      "id": "a072",
+      "time": 156.556,
+      "ink_bounds": [
+        522,
+        670,
+        1400,
+        852
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a072-0.png"
+    },
+    {
+      "id": "a073",
+      "time": 159.459,
+      "ink_bounds": [
+        501,
+        768,
+        1420,
+        851
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a073-0.png"
+    },
+    {
+      "id": "a074",
+      "time": 162.046,
+      "ink_bounds": [
+        501,
+        858,
+        1418,
+        942
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a074-0.png"
+    },
+    {
+      "id": "a075",
+      "time": 164.965,
+      "ink_bounds": [
+        438,
+        861,
+        1480,
+        942
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a075-0.png"
+    },
+    {
+      "id": "a076",
+      "time": 167.15,
+      "ink_bounds": [
+        552,
+        78,
+        1359,
+        291
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a076-0.png"
+    },
+    {
+      "id": "a077",
+      "time": 170.12,
+      "ink_bounds": [
+        343,
+        42,
+        1577,
+        311
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a077-0.png"
+    },
+    {
+      "id": "a078",
+      "time": 173.557,
+      "ink_bounds": [
+        343,
+        80,
+        1580,
+        291
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a078-0.png"
+    },
+    {
+      "id": "a079",
+      "time": 175.425,
+      "ink_bounds": [
+        621,
+        858,
+        1294,
+        942
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [
+        [
+          610,
+          310,
+          1300,
+          875
+        ]
+      ],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a079-0.png"
+    },
+    {
+      "id": "a080",
+      "time": 177.661,
+      "ink_bounds": [
+        580,
+        42,
+        1339,
+        273
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a080-0.png"
+    },
+    {
+      "id": "a081",
+      "time": 180.414,
+      "ink_bounds": [
+        613,
+        869,
+        1308,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a081-0.png"
+    },
+    {
+      "id": "a082",
+      "time": 183.517,
+      "ink_bounds": [
+        562,
+        670,
+        1368,
+        857
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a082-0.png"
+    },
+    {
+      "id": "a083",
+      "time": 185.853,
+      "ink_bounds": [
+        694,
+        869,
+        1223,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a083-0.png"
+    },
+    {
+      "id": "a084",
+      "time": 187.421,
+      "ink_bounds": [
+        506,
+        701,
+        1406,
+        859
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a084-0.png"
+    },
+    {
+      "id": "a-certified",
+      "time": 187.921,
+      "ink_bounds": [
+        1336,
+        103,
+        1845,
+        241
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a-certified-0.png"
+    },
+    {
+      "id": "a085",
+      "time": 188.772,
+      "ink_bounds": [
+        921,
+        869,
+        1000,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a085-0.png"
+    },
+    {
+      "id": "a086",
+      "time": 189.99,
+      "ink_bounds": [
+        632,
+        738,
+        1291,
+        877
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a086-0.png"
+    },
+    {
+      "id": "a087",
+      "time": 191.791,
+      "ink_bounds": [
+        611,
+        868,
+        1308,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a087-0.png"
+    },
+    {
+      "id": "a088",
+      "time": 193.06,
+      "ink_bounds": [
+        322,
+        744,
+        436,
+        875
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a088-0.png"
+    },
+    {
+      "id": "a088",
+      "time": 193.66,
+      "ink_bounds": [
+        322,
+        744,
+        1185,
+        875
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a088-1.png"
+    },
+    {
+      "id": "a088",
+      "time": 194.26,
+      "ink_bounds": [
+        322,
+        738,
+        1642,
+        875
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a088-2.png"
+    },
+    {
+      "id": "a089",
+      "time": 194.794,
+      "ink_bounds": [
+        575,
+        450,
+        1344,
+        712
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a089-0.png"
+    },
+    {
+      "id": "a090",
+      "time": 196.48,
+      "ink_bounds": [
+        539,
+        869,
+        1384,
+        952
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a090-0.png"
+    },
+    {
+      "id": "a091",
+      "time": 199.149,
+      "ink_bounds": [
+        512,
+        51,
+        1406,
+        132
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a091-0.png"
+    },
+    {
+      "id": "a092",
+      "time": 201.985,
+      "ink_bounds": [
+        442,
+        51,
+        1478,
+        132
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a092-0.png"
+    },
+    {
+      "id": "a093",
+      "time": 204.571,
+      "ink_bounds": [
+        343,
+        47,
+        1569,
+        175
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a093-0.png"
+    },
+    {
+      "id": "a094",
+      "time": 206.623,
+      "ink_bounds": [
+        648,
+        891,
+        1273,
+        951
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a094-0.png"
+    },
+    {
+      "id": "a095",
+      "time": 207.774,
+      "ink_bounds": [
+        848,
+        678,
+        1007,
+        853
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a095-0.png"
+    },
+    {
+      "id": "a096",
+      "time": 208.742,
+      "ink_bounds": [
+        579,
+        601,
+        1221,
+        799
+      ],
+      "source_ink_intersections": [],
+      "face_ink_intersections": [],
+      "allow_face_overlap": false,
+      "touches_edge": false,
+      "allow_offscreen": false,
+      "mask": ".cache/layout-audit/a-pass2-design/a096-0.png"
+    }
+  ]
+}

@@ -1,0 +1,994 @@
+{
+  "scope": "0–209.409",
+  "events_reviewed": 106,
+  "review_method": "All36 rendered comparison sheets visually inspected, plus six special animation frames and final a029 frame; sampled visual review, not every output frame.",
+  "final_status": "passed",
+  "face_candidates": [
+    "a001",
+    "a003",
+    "a005",
+    "a007",
+    "a011",
+    "a012",
+    "a013",
+    "a014",
+    "a016",
+    "a018",
+    "a019",
+    "a021",
+    "a036",
+    "a038",
+    "a064",
+    "a074",
+    "a075",
+    "a077",
+    "a079"
+  ],
+  "source_overlaps": 0,
+  "unapproved_edges": 0,
+  "extra_evidence": [
+    "frames/comparison-a-pass2-at-1.25/sheet-000.jpg",
+    "frames/comparison-a-pass2-at-4.755/sheet-000.jpg",
+    "frames/comparison-a-pass2-at-8.3/sheet-000.jpg",
+    "frames/comparison-a-pass2-at-193.06/sheet-000.jpg",
+    "frames/comparison-a-pass2-at-193.4/sheet-000.jpg",
+    "frames/comparison-a-pass2-at-194.1/sheet-000.jpg"
+  ],
+  "results": [
+    {
+      "id": "a001",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/000-a001.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-000.jpg",
+      "sample_time": 0.567,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a002",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/001-a002.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-000.jpg",
+      "sample_time": 4.7545,
+      "face_candidate_manually_excluded": false,
+      "note": "三态另实看：首字右入，中段持续滚动，8.3秒尾句仍留左侧，与源尾句节奏相近；有意横滚出屏和强调遮下脸。"
+    },
+    {
+      "id": "a003",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/002-a003.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-000.jpg",
+      "sample_time": 8.591999999999999,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a004",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/003-a004.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-001.jpg",
+      "sample_time": 9.593,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a005",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/004-a005.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-001.jpg",
+      "sample_time": 11.1445,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a006",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/005-a006.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-001.jpg",
+      "sample_time": 12.996500000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a007",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/006-a007.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-002.jpg",
+      "sample_time": 15.1655,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a-tweet-bottom-small",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/007-a-tweet-bottom-small.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-002.jpg",
+      "sample_time": 16.867,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a-tweet-middle-small",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/008-a-tweet-middle-small.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-002.jpg",
+      "sample_time": 16.867,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a-tweet-top-small",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/009-a-tweet-top-small.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-003.jpg",
+      "sample_time": 16.867,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a008",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/010-a008.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-003.jpg",
+      "sample_time": 16.867,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a-tweet-bottom-large",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/011-a-tweet-bottom-large.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-003.jpg",
+      "sample_time": 19.186,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a-tweet-middle-large",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/012-a-tweet-middle-large.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-004.jpg",
+      "sample_time": 19.186,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a-tweet-top-large",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/013-a-tweet-top-large.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-004.jpg",
+      "sample_time": 19.186,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 已对照17.484秒缩放分段前后，原作者和正文保留。"
+    },
+    {
+      "id": "a009",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/014-a009.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-004.jpg",
+      "sample_time": 19.186,
+      "face_candidate_manually_excluded": false,
+      "note": "墨迹顶缘12px，未碰推文作者；横向压缩明显，因白区高度保留此近似。"
+    },
+    {
+      "id": "a010",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/015-a010.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-005.jpg",
+      "sample_time": 22.8395,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a011",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/016-a011.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-005.jpg",
+      "sample_time": 25.8925,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a012",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/017-a012.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-005.jpg",
+      "sample_time": 28.195,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a013",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/018-a013.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-006.jpg",
+      "sample_time": 29.9635,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a014",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/019-a014.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-006.jpg",
+      "sample_time": 31.4315,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a015",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/020-a015.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-006.jpg",
+      "sample_time": 32.666,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a016",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/021-a016.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-007.jpg",
+      "sample_time": 33.667,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a017",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/022-a017.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-007.jpg",
+      "sample_time": 34.8845,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a018",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/023-a018.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-007.jpg",
+      "sample_time": 36.019000000000005,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a019",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/024-a019.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-008.jpg",
+      "sample_time": 37.621,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a020",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/025-a020.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-008.jpg",
+      "sample_time": 39.59,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a021",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/026-a021.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-008.jpg",
+      "sample_time": 41.792,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a-merch",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/027-a-merch.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-009.jpg",
+      "sample_time": 48.582,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a022",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/028-a022.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-009.jpg",
+      "sample_time": 50.834,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a023",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/029-a023.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-009.jpg",
+      "sample_time": 52.986000000000004,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a024",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/030-a024.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-010.jpg",
+      "sample_time": 54.704499999999996,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a025",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/031-a025.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-010.jpg",
+      "sample_time": 56.54,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a026",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/032-a026.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-010.jpg",
+      "sample_time": 58.408500000000004,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a027",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/033-a027.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-011.jpg",
+      "sample_time": 60.1435,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a028",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/034-a028.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-011.jpg",
+      "sample_time": 62.278999999999996,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a029",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/035-a029.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-011.jpg",
+      "sample_time": 64.5645,
+      "face_candidate_manually_excluded": false,
+      "note": "第二轮新遮右下头像眼部，已改顶部并撤销遮脸许可；第三次64.564秒实看通过。",
+      "final_comparison": "frames/comparison-a-pass3-a029/sheet-000.jpg"
+    },
+    {
+      "id": "a030",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/036-a030.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-012.jpg",
+      "sample_time": 66.56649999999999,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a031",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/037-a031.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-012.jpg",
+      "sample_time": 68.55199999999999,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a032",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/038-a032.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-012.jpg",
+      "sample_time": 71.2715,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a033",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/039-a033.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-013.jpg",
+      "sample_time": 73.557,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a034",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/040-a034.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-013.jpg",
+      "sample_time": 75.35849999999999,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a035",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/041-a035.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-013.jpg",
+      "sample_time": 77.2105,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a036",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/042-a036.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-014.jpg",
+      "sample_time": 78.395,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a037",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/043-a037.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-014.jpg",
+      "sample_time": 79.9965,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a038",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/044-a038.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-014.jpg",
+      "sample_time": 82.4325,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a039",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/045-a039.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-015.jpg",
+      "sample_time": 84.918,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a040",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/046-a040.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-015.jpg",
+      "sample_time": 86.6365,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a041",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/047-a041.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-015.jpg",
+      "sample_time": 88.1215,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a042",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/048-a042.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-016.jpg",
+      "sample_time": 90.09,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a043",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/049-a043.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-016.jpg",
+      "sample_time": 92.1585,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a044",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/050-a044.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-016.jpg",
+      "sample_time": 94.01050000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "顶部裂纹粗明朝体未碰源字及头像；字体为重建近似。"
+    },
+    {
+      "id": "a045",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/051-a045.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-017.jpg",
+      "sample_time": 96.513,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a046",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/052-a046.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-017.jpg",
+      "sample_time": 99.6325,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a047",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/053-a047.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-017.jpg",
+      "sample_time": 101.86850000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a048",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/054-a048.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-018.jpg",
+      "sample_time": 103.754,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a049",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/055-a049.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-018.jpg",
+      "sample_time": 105.77250000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a050",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/056-a050.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-018.jpg",
+      "sample_time": 107.858,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a051",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/057-a051.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-019.jpg",
+      "sample_time": 110.1435,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a052",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/058-a052.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-019.jpg",
+      "sample_time": 113.5635,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a053",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/059-a053.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-019.jpg",
+      "sample_time": 116.93350000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a054",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/060-a054.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-020.jpg",
+      "sample_time": 118.61850000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a055",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/061-a055.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-020.jpg",
+      "sample_time": 119.77000000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a056",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/062-a056.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-020.jpg",
+      "sample_time": 122.239,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a057",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/063-a057.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-021.jpg",
+      "sample_time": 125.14150000000001,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a058",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/064-a058.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-021.jpg",
+      "sample_time": 127.14349999999999,
+      "face_candidate_manually_excluded": false,
+      "note": "主中/主日/旁中/旁日四层均可辨且互不接触。"
+    },
+    {
+      "id": "a-swim",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/065-a-swim.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-021.jpg",
+      "sample_time": 127.64399999999999,
+      "face_candidate_manually_excluded": false,
+      "note": "手写旁注与主轨层次、间隙通过。"
+    },
+    {
+      "id": "a059",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/066-a059.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-022.jpg",
+      "sample_time": 128.7285,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a060",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/067-a060.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-022.jpg",
+      "sample_time": 130.4135,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a061",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/068-a061.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-022.jpg",
+      "sample_time": 131.8315,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a062",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/069-a062.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-023.jpg",
+      "sample_time": 134.117,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a063",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/070-a063.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-023.jpg",
+      "sample_time": 138.238,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a064",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/071-a064.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-023.jpg",
+      "sample_time": 141.675,
+      "face_candidate_manually_excluded": true,
+      "note": "保守脸框候选只扫到右下头像左侧发梢边缘，真实五官净空。"
+    },
+    {
+      "id": "a065",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/072-a065.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-024.jpg",
+      "sample_time": 143.994,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a066",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/073-a066.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-024.jpg",
+      "sample_time": 146.0125,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a067",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/074-a067.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-024.jpg",
+      "sample_time": 147.447,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a068",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/075-a068.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-025.jpg",
+      "sample_time": 148.8485,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a069",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/076-a069.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-025.jpg",
+      "sample_time": 150.1335,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a070",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/077-a070.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-025.jpg",
+      "sample_time": 151.06799999999998,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a071",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/078-a071.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-026.jpg",
+      "sample_time": 153.25349999999997,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a-cute",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/079-a-cute.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-026.jpg",
+      "sample_time": 154.08749999999998,
+      "face_candidate_manually_excluded": false,
+      "note": "手写旁注不遮忍者蒙面眼部，和主字幕间隙通过。"
+    },
+    {
+      "id": "a072",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/080-a072.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-026.jpg",
+      "sample_time": 156.5565,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a073",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/081-a073.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-027.jpg",
+      "sample_time": 159.4595,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a074",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/082-a074.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-027.jpg",
+      "sample_time": 162.0455,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a075",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/083-a075.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-027.jpg",
+      "sample_time": 164.965,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a076",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/084-a076.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-028.jpg",
+      "sample_time": 167.1505,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a077",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/085-a077.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-028.jpg",
+      "sample_time": 170.12,
+      "face_candidate_manually_excluded": true,
+      "note": "保守脸框候选下界仅到顶部头发，眼睛与面部净空。"
+    },
+    {
+      "id": "a078",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/086-a078.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-028.jpg",
+      "sample_time": 173.55700000000002,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a079",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/087-a079.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-029.jpg",
+      "sample_time": 175.4255,
+      "face_candidate_manually_excluded": true,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。 保守脸框含颈部及衣领，实际字幕只在颈/衣服区域，五官净空。"
+    },
+    {
+      "id": "a080",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/088-a080.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-029.jpg",
+      "sample_time": 177.661,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a081",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/089-a081.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-029.jpg",
+      "sample_time": 180.414,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a082",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/090-a082.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-030.jpg",
+      "sample_time": 183.517,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a083",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/091-a083.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-030.jpg",
+      "sample_time": 185.85250000000002,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a084",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/092-a084.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-030.jpg",
+      "sample_time": 187.4205,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a-certified",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/093-a-certified.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-031.jpg",
+      "sample_time": 187.921,
+      "face_candidate_manually_excluded": false,
+      "note": "中文改置右侧，源旁注与主字幕完整；背景签纸细印字属于景物保留近似。"
+    },
+    {
+      "id": "a085",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/094-a085.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-031.jpg",
+      "sample_time": 188.772,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a086",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/095-a086.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-031.jpg",
+      "sample_time": 189.99,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a087",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/096-a087.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-032.jpg",
+      "sample_time": 191.79149999999998,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a088",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/097-a088.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-032.jpg",
+      "sample_time": 193.66,
+      "face_candidate_manually_excluded": false,
+      "note": "固定左锚连续擦出，初/中/全三态逐一实看；完整字高、推进时刻与源字相称。"
+    },
+    {
+      "id": "a089",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/098-a089.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-032.jpg",
+      "sample_time": 194.7945,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a090",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/099-a090.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-033.jpg",
+      "sample_time": 196.48000000000002,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a091",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/100-a091.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-033.jpg",
+      "sample_time": 199.149,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a092",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/101-a092.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-033.jpg",
+      "sample_time": 201.985,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a093",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/102-a093.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-034.jpg",
+      "sample_time": 204.571,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a094",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/103-a094.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-034.jpg",
+      "sample_time": 206.623,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a095",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/104-a095.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-034.jpg",
+      "sample_time": 207.7745,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    },
+    {
+      "id": "a096",
+      "status": "passed",
+      "comparison": "frames/comparison-a-pass2/105-a096.jpg",
+      "reviewed_sheet": "frames/comparison-a-pass2/sheet-035.jpg",
+      "sample_time": 208.742,
+      "face_candidate_manually_excluded": false,
+      "note": "实际可见字高、字体类别、原字间隙与边缘通过；未新增遮脸。"
+    }
+  ]
+}

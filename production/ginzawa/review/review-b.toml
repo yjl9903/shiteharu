@@ -1,0 +1,103 @@
+version = 1
+worker = "proofread_b"
+design = "design/events-b.toml"
+range = [209.409, 403.003]
+main_events = 92
+supplemental_events = 1
+status = "all-event-static-review-complete-final-seven-verified"
+text_changed = false
+timing_changed = false
+source_review = "全部92条原字幕与1条旁注均已实看；原图、边界与字体替代记录见 research/style-b.toml。"
+source_timing = "patches/transcript/242838-evidence.json"
+unreviewed_events = []
+unreviewed_note = "本轮所有事件均已实看；最后7条修订另经统一build后实看通过。连续全片播放验收不在本记录中冒称完成。"
+method_limit = "逐事件中点对照和有针对性的动态状态采样，不等同于全片逐帧动态观看；layout候选检查不能代替实看。"
+
+[[passes]]
+name = "b-pass1"
+events_seen = 93
+contact_sheets_seen = "frames/comparison-b-pass1/sheet-000.jpg 至 sheet-030.jpg，全部31张逐张看完"
+layout = "review/layout-b-pass1.json"
+layout_samples = 95
+layout_flags = 0
+finding = "普通圆体实际墨迹偏小；大标题、三拍无味与书法强调偏小；旁注偏粗。已按源墨迹高度放大，替换brush_title与sans_light，并保留b041混排。"
+
+[[passes]]
+name = "b-pass2"
+events_seen = 93
+contact_sheets_seen = "frames/comparison-b-pass2/sheet-000.jpg 至 sheet-030.jpg，全部31张逐张看完"
+layout = "review/layout-b-pass2.json"
+layout_samples = 95
+layout_flags = 0
+finding = "普通圆体108的实际墨迹高度与源画接近；b001、b041混排/晕影、旁注字重通过。人工观察发现4条顶部大字可上移露眼，3条标题横向压缩过强，进行最后修订。"
+fade_evidence = "frames/comparison-b-aside-fade2/sheet-000.jpg"
+fade_time = 274.14
+
+[[passes]]
+name = "b-final"
+events_seen = 7
+contact_sheets_seen = "frames/comparison-b-final-9、22、29、49、52、69、84 各目录的sheet-000.jpg均已实看"
+layout = "review/layout-b-final.json"
+layout_samples = 95
+layout_flags = 0
+finding = "标题横比改善、全字无裁切；无味等保留大字并上移，双眼主体可见。b049仍接近额头/睫毛边缘，属于源巨大强调同框的明确位置近似，未压住瞳孔或原字。"
+[[final_changes]]
+ids = ["b009", "b022", "b052"]
+change = "max_width分别改为2200、2050、2400，字号保持，减轻中文窄高形变。"
+
+[[final_changes]]
+ids = ["b029", "b049", "b069", "b084"]
+change = "y分别改为-60、-80、-60、-80，保留巨大字号并尽量露出双眼；负锚点按实际可见墨迹边距验收。"
+
+[[limitations]]
+category = "font"
+detail = "圆体、宋体、书法与手写均为中文类别替代。brush_title仍有个别偏细笔画；b041裂纹为派生近似，不宣称与原字库一致。"
+
+[[limitations]]
+category = "position"
+detail = "中文放在源日文附近上方；巨型字、街头及居中头像场景移至顶部。保留原日文造成布局纵向偏移，源强调已遮脸的场景允许触及发顶，但仍优先露眼。"
+
+[[limitations]]
+category = "motion"
+detail = "主字使用观察到的硬切；原视频头像缩放保持原样。旁注采用167毫秒线性淡入，非逐像素亮度曲线拟合。"
+[[final_checks]]
+id = "b009"
+time = 225.842
+evidence = "frames/comparison-b-final-9/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b022"
+time = 261.462
+evidence = "frames/comparison-b-final-22/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b029"
+time = 271.605
+evidence = "frames/comparison-b-final-29/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b049"
+time = 312.812
+evidence = "frames/comparison-b-final-49/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b052"
+time = 318.418
+evidence = "frames/comparison-b-final-52/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b069"
+time = 351.901
+evidence = "frames/comparison-b-final-69/sheet-000.jpg"
+result = "visually-checked-pass"
+
+[[final_checks]]
+id = "b084"
+time = 378.445
+evidence = "frames/comparison-b-final-84/sheet-000.jpg"
+result = "visually-checked-pass"

@@ -1,0 +1,39 @@
+version = 1
+title = "石川県の存在しない街『銀沢』へ行こう"
+fonts = "design/fonts.toml"
+thumbnail_width = 960
+duration_tolerance = 0.25
+
+[media]
+original = "../../downloads/石川県の存在しない街『銀沢』へ行こう [hNc8Em2PKeQ].mkv"
+rendered = "deliverables/zh.performance.1080p.mp4"
+
+[timeline]
+file = "translation/work/segments.toml"
+collection = "segments"
+source_text = "ja"
+text = "zh"
+defaults = "design/defaults.toml"
+defaults_key = "default"
+overlays = ["design/events-*.toml"]
+overlay_collection = "events"
+supplemental_flag = "supplemental"
+supplemental_source_text = "text_ja"
+supplemental_text = "text_zh"
+
+[labels]
+original = "原片 · 日文字幕"
+rendered = "当前成片 · 中文字幕"
+source_text = "日文"
+text = "中文"
+
+[content]
+description = "日文原片与中文演出字幕对照；正文、旁注、字体和动态效果分别核查。"
+focus_ids = ["a002", "a088", "b041", "c065", "c084"]
+notes = ["当前播放最新制作成片，已合入已确认的文本、位置、字号和字体修订。", "普通字幕优先下方；上置字幕靠近顶部并保留安全边距。", "本次导出通过完整音视频解码及11处实际编码画面采样；不等同连续人工验收。", "原片已烧录日文，字体为逐条匹配的中文近似。"]
+
+[content.video]
+channel = "してはる"
+published = "2026-09-26"
+url = "https://www.youtube.com/watch?v=hNc8Em2PKeQ"
+description = "石川県の存在しない街『銀沢』へ行こう。原作者提示内容九成是虚构，请勿当作事实。"

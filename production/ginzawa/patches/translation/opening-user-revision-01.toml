@@ -1,0 +1,34 @@
+created_by = "main-user-revision"
+start = 0
+end = 24.791
+summary = "按用户反馈统一固定开场用语，忠实扩写跑马灯以接近原片长度和速度，并补回同音说明的引号。"
+
+[[operations]]
+op = "edit"
+segment_id = "a001"
+zh = "汪上好～"
+reason = "沿用信号灯工程的用户定稿开场问候。"
+
+[[operations]]
+op = "edit"
+segment_id = "a002"
+zh = "既然继黄金周之后 如今连白银周这样的假期都已经诞生了 那今后是不是也能期待一下青铜周这样的假期 铂金周这样的假期 甚至连极光周这样的假期也会出现呢～"
+reason = "保留原文一口气列举未来假期的语气与含义，忠实展开被原译压缩的周名列举，让中文串长度与滚速更接近原片。"
+
+[[operations]]
+op = "edit"
+segment_id = "a004"
+zh = "大家——"
+reason = "沿用信号灯工程的固定呼喊，不加感叹号或问号。"
+
+[[operations]]
+op = "edit"
+segment_id = "a005"
+zh = "都在干嘛哈噜～"
+reason = "沿用信号灯工程的用户定稿问候，保留创作者口头禅。"
+
+[[operations]]
+op = "edit"
+segment_id = "a006"
+zh = "大家好 「してはる」的「shi」\n就是「白银周」日语开头的「shi」"
+reason = "补齐原文どうも的问候与两个单独音节的引号；保留银泽本片的同音自我介绍。"

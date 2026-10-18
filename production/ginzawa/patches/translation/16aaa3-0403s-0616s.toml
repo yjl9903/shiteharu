@@ -1,0 +1,425 @@
+name = "银泽后半段中文初译"
+summary = "逐条翻译 c001–c084，保留原画日文、时间、身份及既有边界豁免"
+created_by = "16aaa3"
+start = 403.003
+end = 616.141
+
+[[operations]]
+op = "edit"
+segment_id = "c001"
+zh = "雨停了 再随便逛逛吧"
+
+[[operations]]
+op = "edit"
+segment_id = "c002"
+zh = "开阔的绿地和河流让人心旷神怡"
+
+[[operations]]
+op = "edit"
+segment_id = "c003"
+zh = "鸡"
+
+[[operations]]
+op = "edit"
+segment_id = "c004"
+zh = "散步时听见了响亮的喔喔啼声"
+
+[[operations]]
+op = "edit"
+segment_id = "c005"
+zh = "循声一看"
+
+[[operations]]
+op = "edit"
+segment_id = "c006"
+zh = "原来是放出来溜达的鸡"
+
+[[operations]]
+op = "edit"
+segment_id = "c007"
+zh = "看样子是这里养的鸡"
+
+[[operations]]
+op = "edit"
+segment_id = "c008"
+zh = "一大群麻雀和几只鸡"
+
+[[operations]]
+op = "edit"
+segment_id = "c009"
+zh = "还有正在练习打鸣的小家伙"
+
+[[operations]]
+op = "edit"
+segment_id = "c010"
+zh = "叫到最后突然没了底气的感觉"
+
+[[operations]]
+op = "edit"
+segment_id = "c011"
+zh = "我懂你"
+
+[[operations]]
+op = "edit"
+segment_id = "c012"
+zh = "听主人说 他有时在外面干活"
+
+[[operations]]
+op = "edit"
+segment_id = "c013"
+zh = "就会顺便放几只鸡出来"
+
+[[operations]]
+op = "edit"
+segment_id = "c014"
+zh = "鸡舍里的麻雀和椋鸟"
+
+[[operations]]
+op = "edit"
+segment_id = "c015"
+zh = "都是自己跑进来的"
+
+[[operations]]
+op = "edit"
+segment_id = "c016"
+zh = "偶尔也会有乌鸦进来"
+
+[[operations]]
+op = "edit"
+segment_id = "c017"
+zh = "不过大家倒也相处得挺和谐"
+
+[[operations]]
+op = "edit"
+segment_id = "c018"
+zh = "顺带一提 这栋建筑里"
+
+[[operations]]
+op = "edit"
+segment_id = "c019"
+zh = "展出了许多蒲公英绒毛和果皮艺术作品"
+
+[[operations]]
+op = "edit"
+segment_id = "c020"
+zh = "是间装置艺术工作室"
+
+[[operations]]
+op = "edit"
+segment_id = "c021"
+zh = "空间特别美好"
+
+[[operations]]
+op = "edit"
+segment_id = "c022"
+zh = "走着走着 又下起了大雨"
+
+[[operations]]
+op = "edit"
+segment_id = "c023"
+zh = "正好有个不错的公园"
+
+[[operations]]
+op = "edit"
+segment_id = "c024"
+zh = "就在长椅上躲会儿雨吧"
+
+[[operations]]
+op = "edit"
+segment_id = "c025"
+zh = "在天空和身体之间隔块板就能挡雨"
+
+[[operations]]
+op = "edit"
+segment_id = "c026"
+zh = "屋顶这种东西"
+
+[[operations]]
+op = "edit"
+segment_id = "c027"
+zh = "真有意思"
+
+[[operations]]
+op = "edit"
+segment_id = "c028"
+zh = "暂时躲雨的这段时光也好"
+
+[[operations]]
+op = "edit"
+segment_id = "c029"
+zh = "给躲雨取名「雨宿」的那份心思也好"
+
+[[operations]]
+op = "edit"
+segment_id = "c030"
+zh = "这份丰富的感受 真想好好珍惜"
+
+[[operations]]
+op = "edit"
+segment_id = "c031"
+zh = "雨停了"
+
+[[operations]]
+op = "edit"
+segment_id = "c032"
+zh = "还好只是一场阵雨"
+
+[[operations]]
+op = "edit"
+segment_id = "c033"
+zh = "既然下过雨了"
+
+[[operations]]
+op = "edit"
+segment_id = "c034"
+zh = "想必只要挖一挖地面"
+
+[[operations]]
+op = "edit"
+segment_id = "c035"
+zh = "找到了！"
+
+[[operations]]
+op = "edit"
+segment_id = "c036"
+zh = "吾郎岛银时"
+
+[[operations]]
+op = "edit"
+segment_id = "c037"
+zh = "银色的雨渗入土里后"
+
+[[operations]]
+op = "edit"
+segment_id = "c038"
+zh = "白银元素就会发生反应 让它暂时变成银色"
+
+[[operations]]
+op = "edit"
+segment_id = "c039"
+zh = "真是神奇的蔬菜呢～"
+
+[[operations]]
+op = "edit"
+segment_id = "c040"
+zh = "口感像栗子般绵软 甜味清雅"
+
+[[operations]]
+op = "edit"
+segment_id = "c041"
+zh = "这粉糯松软的红薯\n完全能当接下来这个季节的主角"
+
+[[operations]]
+op = "edit"
+segment_id = "c042"
+zh = "好了 坐上公交去下个地方"
+
+[[operations]]
+op = "edit"
+segment_id = "c043"
+zh = "水滴滑过车窗 景色就被迫变得模糊"
+
+[[operations]]
+op = "edit"
+segment_id = "c044"
+zh = "替我屏蔽了那些细节信息"
+
+[[operations]]
+op = "edit"
+segment_id = "c045"
+zh = "眼睛和脑袋都轻松了些 还挺贴心的"
+
+[[operations]]
+op = "edit"
+segment_id = "c046"
+zh = "心血来潮排队吃个海鲜饭"
+
+[[operations]]
+op = "edit"
+segment_id = "c047"
+zh = "一等就是3小时"
+
+[[operations]]
+op = "edit"
+segment_id = "c048"
+zh = "回过神来 天已经全黑了"
+
+[[operations]]
+op = "edit"
+segment_id = "c049"
+zh = "本来想当加餐吃 结果成了晚饭"
+
+[[operations]]
+op = "edit"
+segment_id = "c050"
+zh = "白天生机勃勃的景象固然不错"
+
+[[operations]]
+op = "edit"
+segment_id = "c051"
+zh = "到了夜晚 灯光统一成温暖的色调"
+
+[[operations]]
+op = "edit"
+segment_id = "c052"
+zh = "幽静清凉 让人十分舒心"
+
+[[operations]]
+op = "edit"
+segment_id = "c053"
+zh = "甚至觉得这才是它本来的模样"
+
+[[operations]]
+op = "edit"
+segment_id = "c054"
+zh = "无论是钢筋水泥丛林的夜晚\n还是这般沉静雅致的夜色"
+
+[[operations]]
+op = "edit"
+segment_id = "c055"
+zh = "都很有情调"
+
+[[operations]]
+op = "edit"
+segment_id = "c056"
+zh = "却各有各的韵味 真有意思"
+
+[[operations]]
+op = "edit"
+segment_id = "c057"
+zh = "这次没详细介绍的还有"
+
+[[operations]]
+op = "edit"
+segment_id = "c058"
+zh = "切面银光闪闪的"
+
+[[operations]]
+op = "edit"
+segment_id = "c059"
+zh = "栗子银团"
+
+[[operations]]
+op = "edit"
+segment_id = "c060"
+zh = "表面裹着一层银色的"
+
+[[operations]]
+op = "edit"
+segment_id = "c061"
+zh = "银锷饼"
+
+[[operations]]
+op = "edit"
+segment_id = "c062"
+zh = "银平牛蒡"
+
+[[operations]]
+op = "edit"
+segment_id = "c063"
+zh = "各种银泽名产 都吃了个满足"
+
+[[operations]]
+op = "edit"
+segment_id = "c064"
+zh = "伴手礼当然要买经典的"
+
+[[operations]]
+op = "edit"
+segment_id = "c065"
+zh = "■■■尼亚"
+
+[[operations]]
+op = "edit"
+segment_id = "c066"
+zh = "穿着限定款的银色小衣服"
+
+[[operations]]
+op = "edit"
+segment_id = "c067"
+zh = "闪闪发亮"
+
+[[operations]]
+op = "edit"
+segment_id = "c068"
+zh = "真的特别可爱"
+
+[[operations]]
+op = "edit"
+segment_id = "c069"
+zh = "款式还很丰富 选起来可费劲了"
+
+[[operations]]
+op = "edit"
+segment_id = "c070"
+zh = "听说一到冬天 这里就会银装素裹"
+
+[[operations]]
+op = "edit"
+segment_id = "c071"
+zh = "虽然那时银泽早已消失"
+
+[[operations]]
+op = "edit"
+segment_id = "c072"
+zh = "却还能感受到银色的痕迹和气息 真是奇妙"
+
+[[operations]]
+op = "edit"
+segment_id = "c073"
+zh = "大家下次白银周"
+
+[[operations]]
+op = "edit"
+segment_id = "c074"
+zh = "也来银泽玩玩"
+
+[[operations]]
+op = "edit"
+segment_id = "c075"
+zh = "怎么样呢"
+
+[[operations]]
+op = "edit"
+segment_id = "c076"
+zh = "话说这次五连休可是时隔11年"
+
+[[operations]]
+op = "edit"
+segment_id = "c077"
+zh = "下一个这么长的白银周"
+
+[[operations]]
+op = "edit"
+segment_id = "c078"
+zh = "据说要等到6年后了"
+
+[[operations]]
+op = "edit"
+segment_id = "c079"
+zh = "究竟是6年后的白银周先到来"
+
+[[operations]]
+op = "edit"
+segment_id = "c080"
+zh = "还是先冒出个闪闪发亮的新连休"
+
+[[operations]]
+op = "edit"
+segment_id = "c081"
+zh = "拭目以待吧"
+
+[[operations]]
+op = "edit"
+segment_id = "c082"
+zh = "下一站「铜泽」"
+
+[[operations]]
+op = "edit"
+segment_id = "c083"
+zh = "真想去玩玩呢"
+
+[[operations]]
+op = "edit"
+segment_id = "c084"
+zh = "那么 下次再见啦～"

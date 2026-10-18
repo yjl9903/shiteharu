@@ -1,0 +1,8 @@
+{
+  "family": "Genkaimincho",
+  "upstream": "https://booth.pm/ja/items/1028548",
+  "retrieval": "https://registry.npmjs.org/@fontpkg/genkaimincho/-/genkaimincho-1.0.0.tgz",
+  "sha256": "21facd62751b4597c349a3fccba1e77614eeae2f0b5c0df6df3e5a460b2a8e27",
+  "license": "Embedded font name record 13 declares SIL Open Font License 1.1. Full license included.",
+  "note": "Preserved full source asset for reproducible limited-character derivatives; not an identification of the video author’s font."
+}

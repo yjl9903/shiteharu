@@ -1,0 +1,8 @@
+{
+  "main_segments": 272,
+  "visual_events": 288,
+  "frame_rate": "30000/1001",
+  "tolerance_seconds": 0.0006,
+  "mismatches": [],
+  "note": "Numerical PTS membership only; adjacent-frame visual confirmation is separately documented."
+}

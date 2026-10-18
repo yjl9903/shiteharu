@@ -1,0 +1,1361 @@
+created_by = "75fc47"
+start = 0.0
+end = 209.64
+summary = "原画字幕単位へ再構成。全文を実見し、字幕変更の隣接PTSを確認。ASRの白金沢・トラブル・参籠等を画面どおり修正。"
+
+[[operations]]
+op = "delete"
+segment_id = "1-s1"
+[[operations]]
+op = "delete"
+segment_id = "1-s2"
+[[operations]]
+op = "delete"
+segment_id = "1-s3"
+[[operations]]
+op = "delete"
+segment_id = "1-s4"
+[[operations]]
+op = "delete"
+segment_id = "1-s5"
+[[operations]]
+op = "delete"
+segment_id = "1-s6"
+[[operations]]
+op = "delete"
+segment_id = "1-s7"
+[[operations]]
+op = "delete"
+segment_id = "1-s8"
+[[operations]]
+op = "delete"
+segment_id = "1-s9"
+[[operations]]
+op = "delete"
+segment_id = "1-s10"
+[[operations]]
+op = "delete"
+segment_id = "1-s11"
+[[operations]]
+op = "delete"
+segment_id = "1-s12"
+[[operations]]
+op = "delete"
+segment_id = "1-s13"
+[[operations]]
+op = "delete"
+segment_id = "1-s14"
+[[operations]]
+op = "delete"
+segment_id = "1-s15"
+[[operations]]
+op = "delete"
+segment_id = "1-s16"
+[[operations]]
+op = "delete"
+segment_id = "1-s17"
+[[operations]]
+op = "delete"
+segment_id = "1-s18"
+[[operations]]
+op = "delete"
+segment_id = "1-s19"
+[[operations]]
+op = "delete"
+segment_id = "1-s20"
+[[operations]]
+op = "delete"
+segment_id = "1-s21"
+[[operations]]
+op = "delete"
+segment_id = "1-s22"
+[[operations]]
+op = "delete"
+segment_id = "1-s23"
+[[operations]]
+op = "delete"
+segment_id = "1-s24"
+[[operations]]
+op = "delete"
+segment_id = "1-s25"
+[[operations]]
+op = "delete"
+segment_id = "1-s26"
+[[operations]]
+op = "delete"
+segment_id = "1-s27"
+[[operations]]
+op = "delete"
+segment_id = "1-s28"
+[[operations]]
+op = "delete"
+segment_id = "1-s29"
+[[operations]]
+op = "delete"
+segment_id = "1-s30"
+[[operations]]
+op = "delete"
+segment_id = "1-s31"
+[[operations]]
+op = "delete"
+segment_id = "1-s32"
+[[operations]]
+op = "delete"
+segment_id = "1-s33"
+[[operations]]
+op = "delete"
+segment_id = "1-s34"
+[[operations]]
+op = "delete"
+segment_id = "1-s35"
+[[operations]]
+op = "delete"
+segment_id = "1-s36"
+[[operations]]
+op = "delete"
+segment_id = "1-s37"
+[[operations]]
+op = "delete"
+segment_id = "1-s38"
+[[operations]]
+op = "delete"
+segment_id = "1-s39"
+[[operations]]
+op = "delete"
+segment_id = "1-s40"
+[[operations]]
+op = "delete"
+segment_id = "1-s41"
+[[operations]]
+op = "delete"
+segment_id = "1-s42"
+[[operations]]
+op = "delete"
+segment_id = "1-s43"
+[[operations]]
+op = "delete"
+segment_id = "1-s44"
+[[operations]]
+op = "delete"
+segment_id = "1-s45"
+[[operations]]
+op = "delete"
+segment_id = "1-s46"
+[[operations]]
+op = "delete"
+segment_id = "1-s47"
+[[operations]]
+op = "delete"
+segment_id = "1-s48"
+[[operations]]
+op = "delete"
+segment_id = "1-s49"
+[[operations]]
+op = "delete"
+segment_id = "1-s50"
+[[operations]]
+op = "delete"
+segment_id = "1-s51"
+[[operations]]
+op = "delete"
+segment_id = "1-s52"
+[[operations]]
+op = "delete"
+segment_id = "1-s53"
+[[operations]]
+op = "delete"
+segment_id = "1-s54"
+[[operations]]
+op = "delete"
+segment_id = "1-s55"
+[[operations]]
+op = "delete"
+segment_id = "1-s56"
+[[operations]]
+op = "delete"
+segment_id = "1-s57"
+[[operations]]
+op = "delete"
+segment_id = "1-s58"
+[[operations]]
+op = "delete"
+segment_id = "1-s59"
+[[operations]]
+op = "delete"
+segment_id = "1-s60"
+[[operations]]
+op = "delete"
+segment_id = "1-s61"
+[[operations]]
+op = "delete"
+segment_id = "1-s62"
+[[operations]]
+op = "delete"
+segment_id = "1-s63"
+[[operations]]
+op = "delete"
+segment_id = "1-s64"
+[[operations]]
+op = "delete"
+segment_id = "1-s65"
+[[operations]]
+op = "delete"
+segment_id = "1-s66"
+[[operations]]
+op = "delete"
+segment_id = "1-s67"
+[[operations]]
+op = "delete"
+segment_id = "1-s68"
+[[operations]]
+op = "delete"
+segment_id = "1-s69"
+[[operations]]
+op = "delete"
+segment_id = "1-s70"
+[[operations]]
+op = "delete"
+segment_id = "1-s71"
+[[operations]]
+op = "delete"
+segment_id = "1-s72"
+[[operations]]
+op = "delete"
+segment_id = "1-s73"
+[[operations]]
+op = "delete"
+segment_id = "1-s74"
+[[operations]]
+op = "delete"
+segment_id = "1-s75"
+[[operations]]
+op = "delete"
+segment_id = "1-s76"
+[[operations]]
+op = "delete"
+segment_id = "1-s77"
+[[operations]]
+op = "delete"
+segment_id = "1-s78"
+[[operations]]
+op = "delete"
+segment_id = "1-s79"
+[[operations]]
+op = "delete"
+segment_id = "1-s80"
+[[operations]]
+op = "delete"
+segment_id = "1-s81"
+[[operations]]
+op = "delete"
+segment_id = "1-s82"
+[[operations]]
+op = "delete"
+segment_id = "1-s83"
+[[operations]]
+op = "delete"
+segment_id = "1-s84"
+[[operations]]
+op = "delete"
+segment_id = "1-s85"
+[[operations]]
+op = "delete"
+segment_id = "1-s86"
+[[operations]]
+op = "delete"
+segment_id = "1-s87"
+[[operations]]
+op = "delete"
+segment_id = "1-s88"
+[[operations]]
+op = "delete"
+segment_id = "1-s89"
+[[operations]]
+op = "delete"
+segment_id = "1-s90"
+[[operations]]
+op = "delete"
+segment_id = "1-s91"
+[[operations]]
+op = "delete"
+segment_id = "1-s92"
+[[operations]]
+op = "delete"
+segment_id = "1-s93"
+[[operations]]
+op = "delete"
+segment_id = "1-s94"
+[[operations]]
+op = "delete"
+segment_id = "1-s95"
+[[operations]]
+op = "delete"
+segment_id = "1-s96"
+[[operations]]
+op = "delete"
+segment_id = "1-s97"
+[[operations]]
+op = "delete"
+segment_id = "1-s98"
+[[operations]]
+op = "delete"
+segment_id = "1-s99"
+[[operations]]
+op = "delete"
+segment_id = "1-s100"
+[[operations]]
+op = "delete"
+segment_id = "1-s101"
+
+[[operations]]
+op = "insert"
+segment_id = "a001"
+start = 0.0
+end = 1.134
+speaker = "speaker_0"
+ja = "ばんわんこ〜"
+[[operations]]
+op = "insert"
+segment_id = "a002"
+start = 1.134
+end = 8.375
+speaker = "speaker_0"
+ja = "ゴールデンウィークに続いてシルバーウィークが出来たなら今後ブロンズウィークもプラチナウィークもオーロラウィークも期待できるのでは〜？"
+[[operations]]
+op = "insert"
+segment_id = "a003"
+start = 8.375
+end = 8.809
+speaker = "speaker_0"
+ja = "な"
+[[operations]]
+op = "insert"
+segment_id = "a004"
+start = 8.809
+end = 10.377
+speaker = "speaker_0"
+ja = "みなさ〜ん"
+[[operations]]
+op = "insert"
+segment_id = "a005"
+start = 10.377
+end = 11.912
+speaker = "speaker_0"
+ja = "なにしてはる〜"
+[[operations]]
+op = "insert"
+segment_id = "a006"
+start = 11.912
+end = 14.081
+speaker = "speaker_0"
+ja = "どうも「してはる」の「し」は\nシルバーウィークの「シ」"
+[[operations]]
+op = "insert"
+segment_id = "a007"
+start = 14.081
+end = 16.250
+speaker = "speaker_0"
+ja = "自認シルバーウィークのしてはるです"
+[[operations]]
+op = "insert"
+segment_id = "a008"
+start = 16.250
+end = 17.484
+speaker = "speaker_0"
+ja = "自認している割には"
+[[operations]]
+op = "insert"
+segment_id = "a009"
+start = 17.484
+end = 20.888
+speaker = "speaker_0"
+ja = "何日から何日までがなんなのか\nさっぱりみたいな感じですが"
+[[operations]]
+op = "insert"
+segment_id = "a010"
+start = 20.888
+end = 24.791
+speaker = "speaker_0"
+ja = "どうやら世間はお騒がせ天気の\n大型連休だったみたいですね"
+[[operations]]
+op = "insert"
+segment_id = "a011"
+start = 24.791
+end = 26.994
+speaker = "speaker_0"
+ja = "そんな銀色週間なシルバーウィーク"
+[[operations]]
+op = "insert"
+segment_id = "a012"
+start = 26.994
+end = 29.396
+speaker = "speaker_0"
+ja = "一体どこへお出かけするのが最適か"
+[[operations]]
+op = "insert"
+segment_id = "a013"
+start = 29.396
+end = 30.531
+speaker = "speaker_0"
+ja = "ありますよね〜"
+[[operations]]
+op = "insert"
+segment_id = "a014"
+start = 30.531
+end = 32.332
+speaker = "speaker_0"
+ja = "ばっちりぴったり当てはまる場所"
+[[operations]]
+op = "insert"
+segment_id = "a015"
+start = 32.332
+end = 33.000
+speaker = "speaker_0"
+ja = "そう"
+[[operations]]
+op = "insert"
+segment_id = "a016"
+start = 33.000
+end = 34.334
+speaker = "speaker_0"
+ja = "みなさんが思い浮かべた"
+[[operations]]
+op = "insert"
+segment_id = "a017"
+start = 34.334
+end = 35.435
+speaker = "speaker_0"
+ja = "まさにそこ！"
+[[operations]]
+op = "insert"
+segment_id = "a018"
+start = 35.435
+end = 36.603
+speaker = "speaker_0"
+ja = "ということで今回は"
+[[operations]]
+op = "insert"
+segment_id = "a019"
+start = 36.603
+end = 38.639
+speaker = "speaker_0"
+ja = "最高にシルバーウィークなスポット"
+[[operations]]
+op = "insert"
+segment_id = "a020"
+start = 38.639
+end = 40.541
+speaker = "speaker_0"
+ja = "石川県・銀沢"
+[[operations]]
+op = "insert"
+segment_id = "a021"
+start = 40.541
+end = 43.043
+speaker = "speaker_0"
+ja = "遊びに行こうと思いま〜す"
+[[operations]]
+op = "insert"
+segment_id = "a022"
+start = 49.683
+end = 51.985
+speaker = "speaker_0"
+ja = "さて 贅沢に新幹線で向かいます"
+[[operations]]
+op = "insert"
+segment_id = "a023"
+start = 51.985
+end = 53.987
+speaker = "speaker_0"
+ja = "新幹線ってあんまり乗らないので"
+[[operations]]
+op = "insert"
+segment_id = "a024"
+start = 53.987
+end = 55.422
+speaker = "speaker_0"
+ja = "席に座っているだけで既に"
+[[operations]]
+op = "insert"
+segment_id = "a025"
+start = 55.422
+end = 57.658
+speaker = "speaker_0"
+ja = "トラベルで修学旅行な気分になって"
+[[operations]]
+op = "insert"
+segment_id = "a026"
+start = 57.658
+end = 59.159
+speaker = "speaker_0"
+ja = "かなりお得"
+[[operations]]
+op = "insert"
+segment_id = "a027"
+start = 59.159
+end = 61.128
+speaker = "speaker_0"
+ja = "本日向かっている銀沢"
+[[operations]]
+op = "insert"
+segment_id = "a028"
+start = 61.128
+end = 63.430
+speaker = "speaker_0"
+ja = "シルバーウィークの間だけ姿を現す"
+[[operations]]
+op = "insert"
+segment_id = "a029"
+start = 63.430
+end = 65.699
+speaker = "speaker_0"
+ja = "超レアで幻の街"
+[[operations]]
+op = "insert"
+segment_id = "a030"
+start = 65.699
+end = 67.434
+speaker = "speaker_0"
+ja = "楽しみですねぇ"
+[[operations]]
+op = "insert"
+segment_id = "a031"
+start = 67.434
+end = 69.670
+speaker = "speaker_0"
+ja = "さあ 到着です"
+[[operations]]
+op = "insert"
+segment_id = "a032"
+start = 69.670
+end = 72.873
+speaker = "speaker_0"
+ja = "すーごい銀色の骨格がしっかりがっちりした駅"
+[[operations]]
+op = "insert"
+segment_id = "a033"
+start = 72.873
+end = 74.241
+speaker = "speaker_0"
+ja = "壮観です"
+[[operations]]
+op = "insert"
+segment_id = "a034"
+start = 74.241
+end = 76.476
+speaker = "speaker_0"
+ja = "本日出迎えてくれるのは〜"
+[[operations]]
+op = "insert"
+segment_id = "a035"
+start = 76.476
+end = 77.945
+speaker = "speaker_0"
+ja = "曇天"
+[[operations]]
+op = "insert"
+segment_id = "a036"
+start = 77.945
+end = 78.845
+speaker = "speaker_0"
+ja = "なんと気の利く"
+[[operations]]
+op = "insert"
+segment_id = "a037"
+start = 78.845
+end = 81.148
+speaker = "speaker_0"
+ja = "空模様までシルバー揃え"
+[[operations]]
+op = "insert"
+segment_id = "a038"
+start = 81.148
+end = 83.717
+speaker = "speaker_0"
+ja = "徹底した景観作りに感服ですね"
+[[operations]]
+op = "insert"
+segment_id = "a039"
+start = 83.717
+end = 86.119
+speaker = "speaker_0"
+ja = "さて まず向かう場所はやっぱり定番の"
+[[operations]]
+op = "insert"
+segment_id = "a040"
+start = 86.119
+end = 87.154
+speaker = "speaker_0"
+ja = "茶屋まち"
+[[operations]]
+op = "insert"
+segment_id = "a041"
+start = 87.154
+end = 89.089
+speaker = "speaker_0"
+ja = "せっかくなので散策してみましょう"
+[[operations]]
+op = "insert"
+segment_id = "a042"
+start = 89.089
+end = 91.091
+speaker = "speaker_0"
+ja = "日本の伝統的な景観から"
+[[operations]]
+op = "insert"
+segment_id = "a043"
+start = 91.091
+end = 93.226
+speaker = "speaker_0"
+ja = "「小京都」と\n呼ばれることもあるみたいですが"
+[[operations]]
+op = "insert"
+segment_id = "a044"
+start = 93.226
+end = 94.795
+speaker = "speaker_0"
+ja = "実はこれ禁句"
+[[operations]]
+op = "insert"
+segment_id = "a045"
+start = 94.795
+end = 98.231
+speaker = "speaker_0"
+ja = "「小京都」と名乗るためには\n「全国京都会議」という団体に"
+[[operations]]
+op = "insert"
+segment_id = "a046"
+start = 98.231
+end = 101.034
+speaker = "speaker_0"
+ja = "条件を満たして\n加盟しなければならないんだとか"
+[[operations]]
+op = "insert"
+segment_id = "a047"
+start = 101.034
+end = 102.703
+speaker = "speaker_0"
+ja = "おもしれ〜ですよね"
+[[operations]]
+op = "insert"
+segment_id = "a048"
+start = 102.703
+end = 104.805
+speaker = "speaker_0"
+ja = "ここもかつては加盟していたらしいのですが"
+[[operations]]
+op = "insert"
+segment_id = "a049"
+start = 104.805
+end = 106.740
+speaker = "speaker_0"
+ja = "2008年に退会しているため"
+[[operations]]
+op = "insert"
+segment_id = "a050"
+start = 106.740
+end = 108.976
+speaker = "speaker_0"
+ja = "現在は「小京都」を名乗っていない"
+[[operations]]
+op = "insert"
+segment_id = "a051"
+start = 108.976
+end = 111.311
+speaker = "speaker_0"
+ja = "等しくそれぞれに文化の歴史があるのだから"
+[[operations]]
+op = "insert"
+segment_id = "a052"
+start = 111.311
+end = 115.816
+speaker = "speaker_0"
+ja = "その言葉が本当に褒め言葉になるのかは\n一考してから発言したいものです"
+[[operations]]
+op = "insert"
+segment_id = "a053"
+start = 115.816
+end = 118.051
+speaker = "speaker_0"
+ja = "お、何かいますね"
+[[operations]]
+op = "insert"
+segment_id = "a054"
+start = 118.051
+end = 119.186
+speaker = "speaker_0"
+ja = "これは…"
+[[operations]]
+op = "insert"
+segment_id = "a055"
+start = 119.186
+end = 120.354
+speaker = "speaker_0"
+ja = "銀魚"
+[[operations]]
+op = "insert"
+segment_id = "a056"
+start = 120.354
+end = 124.124
+speaker = "speaker_0"
+ja = "銀沢を代表する\nフナを品種改良した観賞魚です"
+[[operations]]
+op = "insert"
+segment_id = "a057"
+start = 124.124
+end = 126.159
+speaker = "speaker_0"
+ja = "用水路に泳いで...."
+[[operations]]
+op = "insert"
+segment_id = "a058"
+start = 126.159
+end = 128.128
+speaker = "speaker_0"
+ja = "泳いでいるんですね"
+[[operations]]
+op = "insert"
+segment_id = "a059"
+start = 128.128
+end = 129.329
+speaker = "speaker_0"
+ja = "ここにもいる"
+[[operations]]
+op = "insert"
+segment_id = "a060"
+start = 129.329
+end = 131.498
+speaker = "speaker_0"
+ja = "ここでは普通の光景なんでしょうか"
+[[operations]]
+op = "insert"
+segment_id = "a061"
+start = 131.498
+end = 132.165
+speaker = "speaker_0"
+ja = "それにしても"
+[[operations]]
+op = "insert"
+segment_id = "a062"
+start = 132.165
+end = 136.069
+speaker = "speaker_0"
+ja = "お寺や神社の多さと\n建築物のこだわりが目立ちますね"
+[[operations]]
+op = "insert"
+segment_id = "a063"
+start = 136.069
+end = 140.407
+speaker = "speaker_0"
+ja = "見かけたお寺・神社全てに\n片っ端から参ろう計画は早々に断念し"
+[[operations]]
+op = "insert"
+segment_id = "a064"
+start = 140.407
+end = 142.943
+speaker = "speaker_0"
+ja = "気まぐれに参ろう計画に変更です"
+[[operations]]
+op = "insert"
+segment_id = "a065"
+start = 142.943
+end = 145.045
+speaker = "speaker_0"
+ja = "手水って清めるための行為なのに"
+[[operations]]
+op = "insert"
+segment_id = "a066"
+start = 145.045
+end = 146.980
+speaker = "speaker_0"
+ja = "潔癖症には苦行だろうなと"
+[[operations]]
+op = "insert"
+segment_id = "a067"
+start = 146.980
+end = 147.914
+speaker = "speaker_0"
+ja = "いつも横目で見て"
+[[operations]]
+op = "insert"
+segment_id = "a068"
+start = 147.914
+end = 149.783
+speaker = "speaker_0"
+ja = "余裕で口を濯いでいます"
+[[operations]]
+op = "insert"
+segment_id = "a069"
+start = 149.783
+end = 150.484
+speaker = "speaker_0"
+ja = "おや！"
+[[operations]]
+op = "insert"
+segment_id = "a070"
+start = 150.484
+end = 151.652
+speaker = "speaker_0"
+ja = "忍者！"
+[[operations]]
+op = "insert"
+segment_id = "a071"
+start = 151.652
+end = 154.855
+speaker = "speaker_0"
+ja = "のくせに、\n見つけて欲しさが全面に出ています"
+[[operations]]
+op = "insert"
+segment_id = "a072"
+start = 154.855
+end = 158.258
+speaker = "speaker_0"
+ja = "かくれんぼでも見つけられないと\nちょっと寂しいですからね"
+[[operations]]
+op = "insert"
+segment_id = "a073"
+start = 158.258
+end = 160.661
+speaker = "speaker_0"
+ja = "みーつけた\nしておいてあげましょう"
+[[operations]]
+op = "insert"
+segment_id = "a074"
+start = 160.661
+end = 163.430
+speaker = "speaker_0"
+ja = "参拝していたら周りの外国人観光客たちが"
+[[operations]]
+op = "insert"
+segment_id = "a075"
+start = 163.430
+end = 166.500
+speaker = "speaker_0"
+ja = "私に続いて一斉に二礼二拍手一礼しだして"
+[[operations]]
+op = "insert"
+segment_id = "a076"
+start = 166.500
+end = 167.801
+speaker = "speaker_0"
+ja = "愉快でした"
+[[operations]]
+op = "insert"
+segment_id = "a077"
+start = 167.801
+end = 172.439
+speaker = "speaker_0"
+ja = "ここで私が二礼二拍手一礼\n大拍手大回転特大ジャンプをしたら"
+[[operations]]
+op = "insert"
+segment_id = "a078"
+start = 172.439
+end = 174.675
+speaker = "speaker_0"
+ja = "異常行動集団と新たな伝統"
+[[operations]]
+op = "insert"
+segment_id = "a079"
+start = 174.675
+end = 176.176
+speaker = "speaker_0"
+ja = "を作り上げられたかもしれませんが"
+[[operations]]
+op = "insert"
+segment_id = "a080"
+start = 176.176
+end = 179.146
+speaker = "speaker_0"
+ja = "日本人代表として\nなんとか気持ちを押さえました"
+[[operations]]
+op = "insert"
+segment_id = "a081"
+start = 179.146
+end = 181.682
+speaker = "speaker_0"
+ja = "せっかくなのでおみくじも引いていきましょう"
+[[operations]]
+op = "insert"
+segment_id = "a082"
+start = 181.682
+end = 185.352
+speaker = "speaker_0"
+ja = "してはるとかいう大吉以外の\nなにものでもないラッキーな存在"
+[[operations]]
+op = "insert"
+segment_id = "a083"
+start = 185.352
+end = 186.353
+speaker = "speaker_0"
+ja = "しっかりと大吉を引いて"
+[[operations]]
+op = "insert"
+segment_id = "a084"
+start = 186.353
+end = 188.489
+speaker = "speaker_0"
+ja = "裏付け証明しておきました"
+[[operations]]
+op = "insert"
+segment_id = "a085"
+start = 188.489
+end = 189.056
+speaker = "speaker_0"
+ja = "お"
+[[operations]]
+op = "insert"
+segment_id = "a086"
+start = 189.056
+end = 190.924
+speaker = "speaker_0"
+ja = "銀杏の木ですね"
+[[operations]]
+op = "insert"
+segment_id = "a087"
+start = 190.924
+end = 192.659
+speaker = "speaker_0"
+ja = "まだ色づく前の緑色で"
+[[operations]]
+op = "insert"
+segment_id = "a088"
+start = 192.993
+end = 194.327
+speaker = "speaker_0"
+ja = "sssssssssssssssんごい"
+[[operations]]
+op = "insert"
+segment_id = "a089"
+start = 194.327
+end = 195.262
+speaker = "speaker_0"
+ja = "銀杏の数"
+[[operations]]
+op = "insert"
+segment_id = "a090"
+start = 195.262
+end = 197.698
+speaker = "speaker_0"
+ja = "ボトボト重い音を鳴らして落ちてきます"
+[[operations]]
+op = "insert"
+segment_id = "a091"
+start = 197.698
+end = 200.600
+speaker = "speaker_0"
+ja = "踏めば悲惨なのでくれぐれも足元注意ですが"
+[[operations]]
+op = "insert"
+segment_id = "a092"
+start = 200.600
+end = 203.370
+speaker = "speaker_0"
+ja = "しかしこれだけ大きくて落葉と落実があれば"
+[[operations]]
+op = "insert"
+segment_id = "a093"
+start = 203.370
+end = 205.772
+speaker = "speaker_0"
+ja = "「アレ」も一つくらい\n見つかるはず…"
+[[operations]]
+op = "insert"
+segment_id = "a094"
+start = 205.772
+end = 207.474
+speaker = "speaker_0"
+ja = "ン～～～～～～～"
+[[operations]]
+op = "insert"
+segment_id = "a095"
+start = 207.474
+end = 208.075
+speaker = "speaker_0"
+ja = "ウオ！"
+[[operations]]
+op = "insert"
+segment_id = "a096"
+start = 208.075
+end = 209.409
+speaker = "speaker_0"
+ja = "発見です！"
+
+[[operations]]
+op = "edit"
+segment_id = "a002"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画1.134で挨拶からスクロール長文へ連続変更"},{code="ja_line_hard_limit",reason="原画は一つの横スクロール長文でありASR分割に戻さない"}]
+[[operations]]
+op = "edit"
+segment_id = "a003"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画8.375で長文が消えて単独の『な』へ連続変更"}]
+[[operations]]
+op = "edit"
+segment_id = "a004"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画8.809で『な』から呼びかけへ連続変更"}]
+[[operations]]
+op = "edit"
+segment_id = "a005"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画10.377の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a006"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画11.912の連続換字を隣接PTSで確認"},{code="ja_line_break_can_merge_soft",reason="原画の自己紹介は二行表示で保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a007"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画14.081の黒背景への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a008"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画16.250の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a009"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画17.484のツイート拡大と同時の連続換字"}]
+[[operations]]
+op = "edit"
+segment_id = "a010"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画20.888の天気図への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a011"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画24.791の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a012"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画26.994の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a013"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画29.396の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a014"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画30.531の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a015"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画32.332の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a016"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画33.000の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a017"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画34.334で大文字に連続切替"}]
+[[operations]]
+op = "edit"
+segment_id = "a018"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画35.435の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a019"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画36.603の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a020"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画38.639で地名大見出しへ連続切替"}]
+[[operations]]
+op = "edit"
+segment_id = "a021"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画40.541で背景と字幕が連続切替"}]
+[[operations]]
+op = "edit"
+segment_id = "a023"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画51.985の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a024"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画53.987の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a025"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画55.422でトラベルの明朝体へ連続切替"}]
+[[operations]]
+op = "edit"
+segment_id = "a026"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画57.658の大文字への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a027"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画59.159の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a028"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画61.128の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a029"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画63.430の大見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a030"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画65.699の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a031"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画67.434の駅到着画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a032"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画69.670の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a033"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画72.873の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a034"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画74.241の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a035"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画76.476の曇天見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a036"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画77.945の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a037"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画78.845の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a038"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画81.148の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a039"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画83.717の河川画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a040"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画86.119で茶屋まち見出しへ連続変更"}]
+[[operations]]
+op = "edit"
+segment_id = "a041"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画87.154の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a042"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画89.089の街路画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a043"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画91.091の連続換字を隣接PTSで確認"},{code="ja_line_break_can_merge_soft",reason="原画が小京都を一行目に置いた二行表示"}]
+[[operations]]
+op = "edit"
+segment_id = "a044"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画93.226の禁句見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a045"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画94.795の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a046"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画98.231の条件説明への連続換字を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a047"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画101.034の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a048"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画102.703の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a049"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画104.805の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a050"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画106.740の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a051"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画108.976の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a052"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画111.311の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a053"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画115.816の魚発見字幕への連続切替を確認"},{code="ja_common_punctuation",reason="原画の『お、何かいますね』の読点を保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a054"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画118.051の連続換字を隣接PTSで確認"},{code="ja_terminal_punctuation",reason="原画の溜めの点々を保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a055"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画119.186の銀魚見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a056"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画120.354の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a057"
+ja = "用水路に泳いで...."
+skip_checks = [{code="subtitle_gap_too_short",reason="原画124.124の連続換字を隣接PTSで確認"},{code="ja_common_punctuation",reason="原画は泳いでの後に四つの点を表示"},{code="ja_terminal_punctuation",reason="原画の言い淀みを示す末尾四点を保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a058"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画126.159の強調字幕への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a059"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画128.128の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a060"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画129.329の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a061"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画131.498の神社画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a062"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画132.165の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a063"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画136.069の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a064"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画140.407の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a065"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画142.943の手水画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a066"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画145.045の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a067"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画146.980の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a068"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画147.914の強調字幕への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a069"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画149.783の忍者画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a070"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画150.484の忍者見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a071"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画151.652の連続換字を隣接PTSで確認"},{code="ja_line_break_can_merge_soft",reason="原画の『のくせに、』を独立一行にした二行表示を保持"},{code="ja_common_punctuation",reason="原画の『のくせに、』の読点を保持"},{code="ja_terminal_punctuation",reason="原画一行目末尾の読点を保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a072"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画154.855の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a073"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画158.258の連続換字を隣接PTSで確認"},{code="ja_line_break_can_merge_soft",reason="原画はみーつけたを上段に置く二行字幕"}]
+[[operations]]
+op = "edit"
+segment_id = "a074"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画160.661の参拝画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a075"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画163.430の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a076"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画166.500の強調字幕への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a077"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画167.801の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a078"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画172.439の強調字幕への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a079"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画174.675の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a080"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画176.176の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a081"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画179.146のおみくじ画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a082"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画181.682の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a083"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画185.352の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a084"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画186.353の強調字幕への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a085"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画188.489の銀杏画面への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a086"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画189.056の銀杏見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a087"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画190.924の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a089"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画194.327の銀杏の数見出しへの連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a090"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画195.262の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a091"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画197.698の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a092"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画200.600の連続換字を隣接PTSで確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a093"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画203.370の期待を煽る字幕への連続切替を確認"},{code="ja_line_break_can_merge_soft",reason="原画の二行の強調字幕を保持"},{code="ja_terminal_punctuation",reason="原画の溜めを表す末尾点々を保持"}]
+[[operations]]
+op = "edit"
+segment_id = "a094"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画205.772の伸ばす鼻音への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a095"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画207.474の発見反応への連続切替を確認"}]
+[[operations]]
+op = "edit"
+segment_id = "a096"
+skip_checks = [{code="subtitle_gap_too_short",reason="原画208.075の発見見出しへの連続切替を確認"}]
+
+# 主代理が明示許可したA/B境界の例外。内容と時刻は変更しない。
+[[operations]]
+op = "edit"
+segment_id = "b001"
+skip_checks = [{code="subtitle_gap_too_short",reason="209.376帧仍为発見です！；209.409帧切为銀色の葉，原片直接换字，无空白；主代理与A/B均已视觉确认"}]

@@ -1,0 +1,14 @@
+created_by = "main"
+start = 186.353
+end = 189.056
+summary = "使用原始视频packet PTS校准同一视觉切换帧的1ms抄录差异；不改变画面帧归属。"
+
+[[operations]]
+op = "edit"
+segment_id = "a084"
+end = 188.488
+
+[[operations]]
+op = "edit"
+segment_id = "a085"
+start = 188.488

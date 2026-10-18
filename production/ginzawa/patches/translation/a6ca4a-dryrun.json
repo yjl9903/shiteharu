@@ -1,0 +1,1234 @@
+{
+  "apply": {
+    "dry_run": true,
+    "stats": {
+      "edits": 103,
+      "splits": 0,
+      "merges": 0,
+      "inserts": 0,
+      "deletes": 0,
+      "total": 103
+    }
+  },
+  "check": {
+    "counts": {
+      "fatal": 0,
+      "error": 0,
+      "warning": 26
+    },
+    "range": {
+      "start": 0,
+      "end": 209.409
+    },
+    "summary": [
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "duration_too_long",
+        "count": 1,
+        "message": "Segment a002 lasts 7.241 seconds; soft maximum is 7 seconds.",
+        "examples": [
+          {
+            "id": "a002"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "duration_too_short",
+        "count": 1,
+        "message": "Segment a003 lasts 0.434 seconds; soft minimum is 0.5 seconds.",
+        "examples": [
+          {
+            "id": "a003"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_break_can_merge_hard",
+        "count": 11,
+        "message": "Segment a009 Japanese text has 2 lines but merges to 27 chars; hard limit is 28. Prefer one line.",
+        "examples": [
+          {
+            "id": "a009"
+          },
+          {
+            "id": "a010"
+          },
+          {
+            "id": "a045"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_break_soft_limit",
+        "count": 1,
+        "message": "Segment a052 Japanese text has 2 lines; prefer one line or split into multiple segments.",
+        "examples": [
+          {
+            "id": "a052"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "ja_line_soft_limit",
+        "count": 2,
+        "message": "Segment a032 Japanese line 1 has 21 chars; soft limit is 20.",
+        "examples": [
+          {
+            "id": "a032"
+          },
+          {
+            "id": "a081"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "zh_line_break_can_merge_hard",
+        "count": 9,
+        "message": "Segment a006 Chinese text has 2 lines but merges to 17 chars; hard limit is 24. Prefer one line.",
+        "examples": [
+          {
+            "id": "a006"
+          },
+          {
+            "id": "a009"
+          },
+          {
+            "id": "a010"
+          }
+        ]
+      },
+      {
+        "file": "translation/work/segments.toml",
+        "level": "warning",
+        "code": "zh_line_break_soft_limit",
+        "count": 1,
+        "message": "Segment a077 Chinese text has 2 lines; prefer one line or split into multiple segments.",
+        "examples": [
+          {
+            "id": "a077"
+          }
+        ]
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": "a001",
+      "start": 0,
+      "end": 1.134,
+      "speaker": "speaker_0",
+      "ja": "ばんわんこ〜",
+      "zh": "晚上汪～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a002",
+      "start": 1.134,
+      "end": 8.375,
+      "speaker": "speaker_0",
+      "ja": "ゴールデンウィークに続いてシルバーウィークが出来たなら今後ブロンズウィークもプラチナウィークもオーロラウィークも期待できるのでは〜？",
+      "zh": "黄金周之后有了白银周 那以后是不是还能期待青铜周 铂金周 极光周呢～？",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "duration_too_long",
+          "message": "Segment a002 lasts 7.241 seconds; soft maximum is 7 seconds."
+        }
+      ]
+    },
+    {
+      "id": "a003",
+      "start": 8.375,
+      "end": 8.809,
+      "speaker": "speaker_0",
+      "ja": "な",
+      "zh": "这么想的",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "duration_too_short",
+          "message": "Segment a003 lasts 0.434 seconds; soft minimum is 0.5 seconds."
+        }
+      ]
+    },
+    {
+      "id": "a004",
+      "start": 8.809,
+      "end": 10.377,
+      "speaker": "speaker_0",
+      "ja": "みなさ〜ん",
+      "zh": "各位～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a005",
+      "start": 10.377,
+      "end": 11.912,
+      "speaker": "speaker_0",
+      "ja": "なにしてはる〜",
+      "zh": "你们在做什么呀～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a006",
+      "start": 11.912,
+      "end": 14.081,
+      "speaker": "speaker_0",
+      "ja": "どうも「してはる」の「し」は\nシルバーウィークの「シ」",
+      "zh": "「してはる」的shi\n就是「白银周」日语开头的shi",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a006 Chinese text has 2 lines but merges to 17 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a007",
+      "start": 14.081,
+      "end": 16.25,
+      "speaker": "speaker_0",
+      "ja": "自認シルバーウィークのしてはるです",
+      "zh": "我是自认白银周的してはる",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a008",
+      "start": 16.25,
+      "end": 17.484,
+      "speaker": "speaker_0",
+      "ja": "自認している割には",
+      "zh": "虽说是这么自认的",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a009",
+      "start": 17.484,
+      "end": 20.888,
+      "speaker": "speaker_0",
+      "ja": "何日から何日までがなんなのか\nさっぱりみたいな感じですが",
+      "zh": "但到底哪天到哪天算什么假期\n我好像完全搞不清楚",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a009 Japanese text has 2 lines but merges to 27 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a009 Chinese text has 2 lines but merges to 22 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a010",
+      "start": 20.888,
+      "end": 24.791,
+      "speaker": "speaker_0",
+      "ja": "どうやら世間はお騒がせ天気の\n大型連休だったみたいですね",
+      "zh": "不过大家似乎度过了一个\n天气很会惹事的小长假呢",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a010 Japanese text has 2 lines but merges to 27 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a010 Chinese text has 2 lines but merges to 22 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a011",
+      "start": 24.791,
+      "end": 26.994,
+      "speaker": "speaker_0",
+      "ja": "そんな銀色週間なシルバーウィーク",
+      "zh": "这个银光闪闪的白银周",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a012",
+      "start": 26.994,
+      "end": 29.396,
+      "speaker": "speaker_0",
+      "ja": "一体どこへお出かけするのが最適か",
+      "zh": "到底去哪里玩最合适呢",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a013",
+      "start": 29.396,
+      "end": 30.531,
+      "speaker": "speaker_0",
+      "ja": "ありますよね〜",
+      "zh": "当然有啦～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a014",
+      "start": 30.531,
+      "end": 32.332,
+      "speaker": "speaker_0",
+      "ja": "ばっちりぴったり当てはまる場所",
+      "zh": "有个再合适不过的地方",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a015",
+      "start": 32.332,
+      "end": 33,
+      "speaker": "speaker_0",
+      "ja": "そう",
+      "zh": "没错",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a016",
+      "start": 33,
+      "end": 34.334,
+      "speaker": "speaker_0",
+      "ja": "みなさんが思い浮かべた",
+      "zh": "你们想到的那个地方",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a017",
+      "start": 34.334,
+      "end": 35.435,
+      "speaker": "speaker_0",
+      "ja": "まさにそこ！",
+      "zh": "就是那里！",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a018",
+      "start": 35.435,
+      "end": 36.603,
+      "speaker": "speaker_0",
+      "ja": "ということで今回は",
+      "zh": "所以这次要去的",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a019",
+      "start": 36.603,
+      "end": 38.639,
+      "speaker": "speaker_0",
+      "ja": "最高にシルバーウィークなスポット",
+      "zh": "就是最有白银周气氛的地方",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a020",
+      "start": 38.639,
+      "end": 40.541,
+      "speaker": "speaker_0",
+      "ja": "石川県・銀沢",
+      "zh": "石川县·银泽",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a021",
+      "start": 40.541,
+      "end": 43.043,
+      "speaker": "speaker_0",
+      "ja": "遊びに行こうと思いま〜す",
+      "zh": "我们去玩吧～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a022",
+      "start": 49.683,
+      "end": 51.985,
+      "speaker": "speaker_0",
+      "ja": "さて 贅沢に新幹線で向かいます",
+      "zh": "这次奢侈一把 坐新干线去",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a023",
+      "start": 51.985,
+      "end": 53.987,
+      "speaker": "speaker_0",
+      "ja": "新幹線ってあんまり乗らないので",
+      "zh": "平时不怎么坐新干线",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a024",
+      "start": 53.987,
+      "end": 55.422,
+      "speaker": "speaker_0",
+      "ja": "席に座っているだけで既に",
+      "zh": "光是坐在座位上",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a025",
+      "start": 55.422,
+      "end": 57.658,
+      "speaker": "speaker_0",
+      "ja": "トラベルで修学旅行な気分になって",
+      "zh": "就已经有了出游和修学旅行的感觉",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a026",
+      "start": 57.658,
+      "end": 59.159,
+      "speaker": "speaker_0",
+      "ja": "かなりお得",
+      "zh": "超划算",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a027",
+      "start": 59.159,
+      "end": 61.128,
+      "speaker": "speaker_0",
+      "ja": "本日向かっている銀沢",
+      "zh": "今天要去的银泽",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a028",
+      "start": 61.128,
+      "end": 63.43,
+      "speaker": "speaker_0",
+      "ja": "シルバーウィークの間だけ姿を現す",
+      "zh": "只在白银周期间现身",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a029",
+      "start": 63.43,
+      "end": 65.699,
+      "speaker": "speaker_0",
+      "ja": "超レアで幻の街",
+      "zh": "是座超稀有的梦幻城市",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a030",
+      "start": 65.699,
+      "end": 67.434,
+      "speaker": "speaker_0",
+      "ja": "楽しみですねぇ",
+      "zh": "真让人期待呀",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a031",
+      "start": 67.434,
+      "end": 69.67,
+      "speaker": "speaker_0",
+      "ja": "さあ 到着です",
+      "zh": "好 到啦",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a032",
+      "start": 69.67,
+      "end": 72.873,
+      "speaker": "speaker_0",
+      "ja": "すーごい銀色の骨格がしっかりがっちりした駅",
+      "zh": "好厉害 车站的银色骨架真结实",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_soft_limit",
+          "message": "Segment a032 Japanese line 1 has 21 chars; soft limit is 20."
+        }
+      ]
+    },
+    {
+      "id": "a033",
+      "start": 72.873,
+      "end": 74.241,
+      "speaker": "speaker_0",
+      "ja": "壮観です",
+      "zh": "真壮观",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a034",
+      "start": 74.241,
+      "end": 76.476,
+      "speaker": "speaker_0",
+      "ja": "本日出迎えてくれるのは〜",
+      "zh": "今天迎接我们的是～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a035",
+      "start": 76.476,
+      "end": 77.945,
+      "speaker": "speaker_0",
+      "ja": "曇天",
+      "zh": "阴天",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a036",
+      "start": 77.945,
+      "end": 78.845,
+      "speaker": "speaker_0",
+      "ja": "なんと気の利く",
+      "zh": "真贴心啊",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a037",
+      "start": 78.845,
+      "end": 81.148,
+      "speaker": "speaker_0",
+      "ja": "空模様までシルバー揃え",
+      "zh": "连天空都配成了银色",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a038",
+      "start": 81.148,
+      "end": 83.717,
+      "speaker": "speaker_0",
+      "ja": "徹底した景観作りに感服ですね",
+      "zh": "景观统一到这份上 真让人佩服",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a039",
+      "start": 83.717,
+      "end": 86.119,
+      "speaker": "speaker_0",
+      "ja": "さて まず向かう場所はやっぱり定番の",
+      "zh": "第一站当然要去经典的",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a040",
+      "start": 86.119,
+      "end": 87.154,
+      "speaker": "speaker_0",
+      "ja": "茶屋まち",
+      "zh": "茶屋街",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a041",
+      "start": 87.154,
+      "end": 89.089,
+      "speaker": "speaker_0",
+      "ja": "せっかくなので散策してみましょう",
+      "zh": "来都来了 就四处逛逛吧",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a042",
+      "start": 89.089,
+      "end": 91.091,
+      "speaker": "speaker_0",
+      "ja": "日本の伝統的な景観から",
+      "zh": "因为有着日本传统街景",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a043",
+      "start": 91.091,
+      "end": 93.226,
+      "speaker": "speaker_0",
+      "ja": "「小京都」と\n呼ばれることもあるみたいですが",
+      "zh": "好像也有人把这里叫作「小京都」",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a044",
+      "start": 93.226,
+      "end": 94.795,
+      "speaker": "speaker_0",
+      "ja": "実はこれ禁句",
+      "zh": "其实这话不能说",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a045",
+      "start": 94.795,
+      "end": 98.231,
+      "speaker": "speaker_0",
+      "ja": "「小京都」と名乗るためには\n「全国京都会議」という団体に",
+      "zh": "想自称「小京都」\n得加入一个叫「全国京都会议」的组织",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a045 Japanese text has 2 lines but merges to 23 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a045 Chinese text has 2 lines but merges to 21 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a046",
+      "start": 98.231,
+      "end": 101.034,
+      "speaker": "speaker_0",
+      "ja": "条件を満たして\n加盟しなければならないんだとか",
+      "zh": "而且还得满足规定的条件才能入会",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a046 Japanese text has 2 lines but merges to 22 chars; hard limit is 28. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a047",
+      "start": 101.034,
+      "end": 102.703,
+      "speaker": "speaker_0",
+      "ja": "おもしれ〜ですよね",
+      "zh": "还挺有意思的吧",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a048",
+      "start": 102.703,
+      "end": 104.805,
+      "speaker": "speaker_0",
+      "ja": "ここもかつては加盟していたらしいのですが",
+      "zh": "这里以前好像也是成员",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a049",
+      "start": 104.805,
+      "end": 106.74,
+      "speaker": "speaker_0",
+      "ja": "2008年に退会しているため",
+      "zh": "不过2008年就退会了",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a050",
+      "start": 106.74,
+      "end": 108.976,
+      "speaker": "speaker_0",
+      "ja": "現在は「小京都」を名乗っていない",
+      "zh": "所以现在并不自称「小京都」",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a051",
+      "start": 108.976,
+      "end": 111.311,
+      "speaker": "speaker_0",
+      "ja": "等しくそれぞれに文化の歴史があるのだから",
+      "zh": "每个地方都有自己的文化历史",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a052",
+      "start": 111.311,
+      "end": 115.816,
+      "speaker": "speaker_0",
+      "ja": "その言葉が本当に褒め言葉になるのかは\n一考してから発言したいものです",
+      "zh": "这称呼到底算不算夸奖\n开口前还是先想想吧",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_soft_limit",
+          "message": "Segment a052 Japanese text has 2 lines; prefer one line or split into multiple segments."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a052 Chinese text has 2 lines but merges to 19 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a053",
+      "start": 115.816,
+      "end": 118.051,
+      "speaker": "speaker_0",
+      "ja": "お、何かいますね",
+      "zh": "咦 有什么东西",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a054",
+      "start": 118.051,
+      "end": 119.186,
+      "speaker": "speaker_0",
+      "ja": "これは…",
+      "zh": "这是…",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a055",
+      "start": 119.186,
+      "end": 120.354,
+      "speaker": "speaker_0",
+      "ja": "銀魚",
+      "zh": "银鱼",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a056",
+      "start": 120.354,
+      "end": 124.124,
+      "speaker": "speaker_0",
+      "ja": "銀沢を代表する\nフナを品種改良した観賞魚です",
+      "zh": "银泽的代表性观赏鱼\n是用鲫鱼改良培育出来的",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a056 Japanese text has 2 lines but merges to 21 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a056 Chinese text has 2 lines but merges to 20 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a057",
+      "start": 124.124,
+      "end": 126.159,
+      "speaker": "speaker_0",
+      "ja": "用水路に泳いで....",
+      "zh": "在水渠里游着…",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a058",
+      "start": 126.159,
+      "end": 128.128,
+      "speaker": "speaker_0",
+      "ja": "泳いでいるんですね",
+      "zh": "还真是在游呢",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a059",
+      "start": 128.128,
+      "end": 129.329,
+      "speaker": "speaker_0",
+      "ja": "ここにもいる",
+      "zh": "这儿也有",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a060",
+      "start": 129.329,
+      "end": 131.498,
+      "speaker": "speaker_0",
+      "ja": "ここでは普通の光景なんでしょうか",
+      "zh": "在这里算是日常景象吗",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a061",
+      "start": 131.498,
+      "end": 132.165,
+      "speaker": "speaker_0",
+      "ja": "それにしても",
+      "zh": "话说",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a062",
+      "start": 132.165,
+      "end": 136.069,
+      "speaker": "speaker_0",
+      "ja": "お寺や神社の多さと\n建築物のこだわりが目立ちますね",
+      "zh": "这里寺庙神社真多\n建筑也都很讲究呢",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a062 Japanese text has 2 lines but merges to 24 chars; hard limit is 28. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a063",
+      "start": 136.069,
+      "end": 140.407,
+      "speaker": "speaker_0",
+      "ja": "見かけたお寺・神社全てに\n片っ端から参ろう計画は早々に断念し",
+      "zh": "本来想见到寺庙神社就挨个拜\n结果没多久就放弃了",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a063 Japanese text has 2 lines but merges to 28 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a063 Chinese text has 2 lines but merges to 22 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a064",
+      "start": 140.407,
+      "end": 142.943,
+      "speaker": "speaker_0",
+      "ja": "気まぐれに参ろう計画に変更です",
+      "zh": "改成想拜就拜的随性计划",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a065",
+      "start": 142.943,
+      "end": 145.045,
+      "speaker": "speaker_0",
+      "ja": "手水って清めるための行為なのに",
+      "zh": "洗手漱口明明是为了净化身心",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a066",
+      "start": 145.045,
+      "end": 146.98,
+      "speaker": "speaker_0",
+      "ja": "潔癖症には苦行だろうなと",
+      "zh": "对洁癖来说却像是受罪吧",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a067",
+      "start": 146.98,
+      "end": 147.914,
+      "speaker": "speaker_0",
+      "ja": "いつも横目で見て",
+      "zh": "我每次都在一旁这样想",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a068",
+      "start": 147.914,
+      "end": 149.783,
+      "speaker": "speaker_0",
+      "ja": "余裕で口を濯いでいます",
+      "zh": "然后毫不在意地漱口",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a069",
+      "start": 149.783,
+      "end": 150.484,
+      "speaker": "speaker_0",
+      "ja": "おや！",
+      "zh": "哎呀！",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a070",
+      "start": 150.484,
+      "end": 151.652,
+      "speaker": "speaker_0",
+      "ja": "忍者！",
+      "zh": "忍者！",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a071",
+      "start": 151.652,
+      "end": 154.855,
+      "speaker": "speaker_0",
+      "ja": "のくせに、\n見つけて欲しさが全面に出ています",
+      "zh": "明明是忍者\n却浑身写着快来发现我",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a072",
+      "start": 154.855,
+      "end": 158.258,
+      "speaker": "speaker_0",
+      "ja": "かくれんぼでも見つけられないと\nちょっと寂しいですからね",
+      "zh": "毕竟躲猫猫时一直没人发现\n也是会有点寂寞的",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a072 Japanese text has 2 lines but merges to 27 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a072 Chinese text has 2 lines but merges to 20 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a073",
+      "start": 158.258,
+      "end": 160.661,
+      "speaker": "speaker_0",
+      "ja": "みーつけた\nしておいてあげましょう",
+      "zh": "那就配合一下 说声找到你啦",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a074",
+      "start": 160.661,
+      "end": 163.43,
+      "speaker": "speaker_0",
+      "ja": "参拝していたら周りの外国人観光客たちが",
+      "zh": "我参拜时 周围的外国游客们",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a075",
+      "start": 163.43,
+      "end": 166.5,
+      "speaker": "speaker_0",
+      "ja": "私に続いて一斉に二礼二拍手一礼しだして",
+      "zh": "跟着我鞠两次躬 拍两次手 再鞠躬",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a076",
+      "start": 166.5,
+      "end": 167.801,
+      "speaker": "speaker_0",
+      "ja": "愉快でした",
+      "zh": "可好玩了",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a077",
+      "start": 167.801,
+      "end": 172.439,
+      "speaker": "speaker_0",
+      "ja": "ここで私が二礼二拍手一礼\n大拍手大回転特大ジャンプをしたら",
+      "zh": "要是我鞠两次躬拍两次手再鞠躬后\n又猛拍手大旋转来个超级跳",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a077 Japanese text has 2 lines but merges to 28 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_soft_limit",
+          "message": "Segment a077 Chinese text has 2 lines; prefer one line or split into multiple segments."
+        }
+      ]
+    },
+    {
+      "id": "a078",
+      "start": 172.439,
+      "end": 174.675,
+      "speaker": "speaker_0",
+      "ja": "異常行動集団と新たな伝統",
+      "zh": "一群怪人和全新传统",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a079",
+      "start": 174.675,
+      "end": 176.176,
+      "speaker": "speaker_0",
+      "ja": "を作り上げられたかもしれませんが",
+      "zh": "说不定就这样诞生了",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a080",
+      "start": 176.176,
+      "end": 179.146,
+      "speaker": "speaker_0",
+      "ja": "日本人代表として\nなんとか気持ちを押さえました",
+      "zh": "但作为日本人代表\n我还是努力忍住了",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a080 Japanese text has 2 lines but merges to 22 chars; hard limit is 28. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a081",
+      "start": 179.146,
+      "end": 181.682,
+      "speaker": "speaker_0",
+      "ja": "せっかくなのでおみくじも引いていきましょう",
+      "zh": "来都来了 再抽个签吧",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_soft_limit",
+          "message": "Segment a081 Japanese line 1 has 21 chars; soft limit is 20."
+        }
+      ]
+    },
+    {
+      "id": "a082",
+      "start": 181.682,
+      "end": 185.352,
+      "speaker": "speaker_0",
+      "ja": "してはるとかいう大吉以外の\nなにものでもないラッキーな存在",
+      "zh": "してはる这个幸运的存在\n简直就是大吉本吉",
+      "affected": true,
+      "issues": [
+        {
+          "level": "warning",
+          "code": "ja_line_break_can_merge_hard",
+          "message": "Segment a082 Japanese text has 2 lines but merges to 28 chars; hard limit is 28. Prefer one line."
+        },
+        {
+          "level": "warning",
+          "code": "zh_line_break_can_merge_hard",
+          "message": "Segment a082 Chinese text has 2 lines but merges to 19 chars; hard limit is 24. Prefer one line."
+        }
+      ]
+    },
+    {
+      "id": "a083",
+      "start": 185.352,
+      "end": 186.353,
+      "speaker": "speaker_0",
+      "ja": "しっかりと大吉を引いて",
+      "zh": "稳稳抽中了大吉",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a084",
+      "start": 186.353,
+      "end": 188.489,
+      "speaker": "speaker_0",
+      "ja": "裏付け証明しておきました",
+      "zh": "这下有证据了",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a085",
+      "start": 188.489,
+      "end": 189.056,
+      "speaker": "speaker_0",
+      "ja": "お",
+      "zh": "咦",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a086",
+      "start": 189.056,
+      "end": 190.924,
+      "speaker": "speaker_0",
+      "ja": "銀杏の木ですね",
+      "zh": "是银杏树呢",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a087",
+      "start": 190.924,
+      "end": 192.659,
+      "speaker": "speaker_0",
+      "ja": "まだ色づく前の緑色で",
+      "zh": "还没变色 仍是一片绿",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a088",
+      "start": 192.993,
+      "end": 194.327,
+      "speaker": "speaker_0",
+      "ja": "sssssssssssssssんごい",
+      "zh": "好～～～～～～～～多",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a089",
+      "start": 194.327,
+      "end": 195.262,
+      "speaker": "speaker_0",
+      "ja": "銀杏の数",
+      "zh": "银杏果",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a090",
+      "start": 195.262,
+      "end": 197.698,
+      "speaker": "speaker_0",
+      "ja": "ボトボト重い音を鳴らして落ちてきます",
+      "zh": "落下来时砰砰响 听着好沉",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a091",
+      "start": 197.698,
+      "end": 200.6,
+      "speaker": "speaker_0",
+      "ja": "踏めば悲惨なのでくれぐれも足元注意ですが",
+      "zh": "踩到可就惨了 千万小心脚下",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a092",
+      "start": 200.6,
+      "end": 203.37,
+      "speaker": "speaker_0",
+      "ja": "しかしこれだけ大きくて落葉と落実があれば",
+      "zh": "不过树这么大 叶子果子掉这么多",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a093",
+      "start": 203.37,
+      "end": 205.772,
+      "speaker": "speaker_0",
+      "ja": "「アレ」も一つくらい\n見つかるはず…",
+      "zh": "应该能找到一片「那个」吧…",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a094",
+      "start": 205.772,
+      "end": 207.474,
+      "speaker": "speaker_0",
+      "ja": "ン～～～～～～～",
+      "zh": "嗯～～～～～～～",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a095",
+      "start": 207.474,
+      "end": 208.075,
+      "speaker": "speaker_0",
+      "ja": "ウオ！",
+      "zh": "哦！",
+      "affected": true,
+      "issues": []
+    },
+    {
+      "id": "a096",
+      "start": 208.075,
+      "end": 209.409,
+      "speaker": "speaker_0",
+      "ja": "発見です！",
+      "zh": "找到了！",
+      "affected": true,
+      "issues": []
+    }
+  ]
+}
