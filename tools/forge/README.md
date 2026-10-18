@@ -1,6 +1,6 @@
 # Forge
 
-仓库共用的字幕制作工具：读取工程配置与人工确认的数据，构建 ASS/SRT、准备字体、渲染视频、生成对照与交付包。字体研究也使用同一套实现，具体字体、事件选择和提案决策由工程数据提供。
+仓库共用的字幕制作工具：读取工程配置与人工确认的数据，构建 ASS/SRT、准备字体、渲染视频、生成对照。字体研究也使用同一套实现，具体字体、事件选择和提案决策由工程数据提供。
 
 ## 使用
 
@@ -33,7 +33,6 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 | `clips`、`comparisons`、`comparison_width` | 对照片段列表、输出位置与单侧宽度。 |
 | `calibration` | 顶部校准的可见边距与筛选位置。 |
 | `research` | 可选研究配方 TOML。普通构建、渲染和 Loupe 不读取它。 |
-| `package` | ZIP 位置与需要加入的工程资料列表。共享工具、环境锁文件、本机字体身份清单、路径检查钩子、字幕输入和本工程配置引用的可分发字体由打包器加入；`include_evidence = true` 可额外收录事件引用的取证图片。 |
 
 研究配方包含候选来源、字体映射、样例 ID、派生字体名称和许可，以及逐角色／逐事件提案规则。规则的 `set` 为固定值，`per_fontsize` 为按字号计算并保留两位小数的系数，`scale_x_cap` 为横向缩放上限。新增工程只需提供自己的配置、时间轴、设计和资源；需要研究时再提供配方。不要把单片 ID、字体选择或结论加入公共 Python。
 
@@ -46,7 +45,6 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 | `fonts-prepare` | 校验并复制配置字体到缓存，移除缓存中不再配置的字体。 |
 | `render [preview\|full\|soft]` | 构建字幕、准备字体、渲染所选视频；成功并通过时长校验后才替换目标。 |
 | `compare-clips [FILTER]`、`compare-stills` | 按工程选定片段生成原片／译文对照视频和截图。 |
-| `package` | 包含共享工具的可编辑工程 ZIP，保留仓库结构；排除本机字体、环境、缓存和 `comparisons` 配置指定的对照媒体目录（即使其父目录被收录）。历史对照媒体另行备份，视频按工程说明另行准备。 |
 | `source-frames --start S [--end E --step N --label NAME]` | 采样原片并生成联系表；标签是请求时间，不是字幕边界认证。 |
 | `source-boundary TIME [--radius R --crop x,y,w,h --label NAME]` | 提取时间附近的全部解码帧，标注真实 PTS，保存捕获参数。 |
 | `review-stills [--start S --end E --label NAME --at TIME]` | 按每条事件中点或指定时间生成原片／译文对照；使用当前构建的 ASS。 |
@@ -64,7 +62,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 
 `fonts-merge` 将新字体放到 `shared_fonts/<文件名去扩展名>-<内容哈希前16位>/`，已在共享目录内的资产保留原路径。任何已有文件（包括许可）的内容冲突都会在写入设计前报错，不覆盖另一工程正在引用的资产。提案中的 `old_` 角色仅用于研究对照，合入时还原为原角色；若原角色已被替换或提案过期则报错，须重新生成提案。
 
-字体合入和打包携带同目录的同名字体说明文件，以及 `OFL*`、`LICENSE*`、`LICENCE*`、`COPYRIGHT*`、`README*` 和 `provenance` 文档（TXT/MD/JSON/TOML）。打包保留共享来源索引，但不再整包收录 `fonts/`；研究配方中 diamond/fracture 引用的共享源字体和许可也会加入。`fonts/local/` 始终排除。其他研究输入通过 `package.include` 明确声明或按工程说明重新准备。
+字体合入携带同目录的同名字体说明文件，以及 `OFL*`、`LICENSE*`、`LICENCE*`、`COPYRIGHT*`、`README*` 和 `provenance` 文档（TXT/MD/JSON/TOML）。研究输入按工程说明准备。
 
 混合字体使用 `text_runs = [{length = 3, font_role = "brush"}, ...]`，只指定连续字符数量和字体角色，不复制正文。数量之和必须等于译文长度，不能同时使用逐行布局、竖排或逐字动画。`typewriter` 可用 `reveal_ms` 为每个非换行字符提供递增的出现时刻；未指定时继续使用 `char_ms`。这些参数必须有原片依据。
 
@@ -78,7 +76,7 @@ uv run --locked python tools/forge/forge.py --config production/shingouki/forge.
 uv run --locked python -m unittest discover -s tools/forge/tests -v
 ```
 
-测试使用临时工程与生成的测试字体，验证异地构建、错误输入、提案缩放、真实 FFmpeg 导出及打包后重建，不依赖现有成片或本机字体。缺少 FFmpeg 时视频集成测试会明确跳过；自动检查不代表字幕人工验收。
+测试使用临时工程与生成的测试字体，验证异地构建、错误输入、提案缩放、真实 FFmpeg 导出，不依赖现有成片或本机字体。缺少 FFmpeg 时视频集成测试会明确跳过；自动检查不代表字幕人工验收。
 
 `source-atlas --plan research/evidence/c-exact.toml --label c-exact` 从工程相对路径读取 TOML 取证配方。配方包含 `windows = [{start=..., end=...}]`，或 `centers`、`offset`、`duration`；可设置 `crop=[x,y,width,height]`、`width`、`stride`、`columns`、`groups_per_sheet`。指定 `white_threshold` 时，按相邻白色像素掩码变化选出一个候选，`candidate_neighbors` 控制上下文帧数。输出记录真实 PTS 和全部配方；候选不是字幕边界判定，仍须人工查看。
 

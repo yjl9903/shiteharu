@@ -8,9 +8,9 @@
 
 本轮纳入 a002 句末问号、上置字幕顶部留白、a035缩小置顶、a055与c066字体修正，以及c067置顶。更早的位置字号专项覆盖288个事件，修改54条；依据见 [位置字号记录](review/composition-user-review.md) 和 [逐条修订记录](review/opening-user-revision.md)。
 
-720p预览、软字幕MKV和可编辑工程ZIP随当前字幕重新生成，覆盖 `deliverables/` 中的同名文件。`review/comparisons/` 中的历史局部对照片段仅作审阅证据，不代表当前成片；当前导出状态以上方核验记录为准。对照媒体不纳入 Git 或可编辑工程 ZIP，需要留存的历史版本随本地制作资料另行备份。
+720p预览和软字幕MKV随当前字幕重新生成，覆盖 `deliverables/` 中的同名文件。`review/comparisons/` 中的历史局部对照片段仅作审阅证据，不代表当前成片；当前导出状态以上方核验记录为准。对照媒体不纳入 Git，需要留存的历史版本随本地制作资料另行备份。
 
-字体采用逐条匹配的中文近似，原有日文保留；具体近似见 [差异记录](review/differences.md)。可编辑源以当前 `translation/work/` 与 `design/` 为准。MKV未嵌入字体；工程包不含原视频、本机字体或凭据。
+字体采用逐条匹配的中文近似，原有日文保留；具体近似见 [差异记录](review/differences.md)。可编辑源以当前 `translation/work/` 与 `design/` 为准。MKV未嵌入字体。
 
 ## 原片与依据
 
@@ -39,7 +39,6 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml render soft
 uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml compare-clips
 uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml compare-stills
-uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml package
 ```
 
 上述 `compare-clips` 按 `design/clips.toml` 读取已构建的 ASS 和字体缓存，生成 `review/comparisons/` 中的对照视频；`compare-stills` 再提取中点图。只重做对照时，先执行 `build` 和 `fonts-prepare`，已有样片不会随工作稿自动更新，重跑会覆盖同名文件。
@@ -52,7 +51,7 @@ uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.to
 uv run --locked python tools/forge/forge.py --config production/ginzawa/forge.toml source-atlas --plan research/evidence/c-exact.toml --label c-exact-rebuilt
 ```
 
-`source-frames` 标注请求取帧时间，`source-boundary` 和 `source-atlas` 标注实际解码 PTS。像素变化排序只提供候选，不自动确认字幕边界。旧取证参数已保存到 `research/evidence/`，历史帧索引保存到 `review/source-capture-indices.json`；工程包收录事件直接引用的证据图片和最终成片采样，其余图片可按参数重建，联系表版式可能与历史版本不同。
+`source-frames` 标注请求取帧时间，`source-boundary` 和 `source-atlas` 标注实际解码 PTS。像素变化排序只提供候选，不自动确认字幕边界。旧取证参数已保存到 `research/evidence/`，历史帧索引保存到 `review/source-capture-indices.json`；事件直接引用的证据图片和最终成片采样保留在本地，其余图片可按参数重建，联系表版式可能与历史版本不同。
 
 启动本地审阅页：
 
@@ -70,8 +69,8 @@ uv run --locked python tools/loupe/loupe.py --config production/ginzawa/preview.
 - [x] 全片简体中文翻译、三轮全文润色
 - [x] 子代理逐段研究、匹配全部样式与特殊演出，两轮逐条实看
 - [x] 中文字体缺字、排版、并发字幕、边界对照验证
-- [x] 全片渲染、代表片段与截图对照、差异清单、可编辑打包
+- [x] 全片渲染、代表片段与截图对照、差异清单
 
 技术审计覆盖 13 个字体角色、14 个实际字面，缺字、缺取证、未确认时序与机器专属路径均为零。288 个事件的 576 个时间边界均落在源 PTS 上；298 个布局采样的源字交集及未许可越界为零。19 个保守脸框候选已逐项人工复核排除，保留记录。中文通用检查的 19 条提示及日文的 49 条提示均按原画演出保留，详见 [内容审阅](review/content-review.md)。
 
-共享 Forge 的 8 项测试通过，包括实际编码、连续擦出、异地构建与工程包重建。当前工程包的解压重建结果见 `review/package-verification.json`。
+共享 Forge 的历史测试记录包含实际编码、连续擦出与异地构建。

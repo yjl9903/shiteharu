@@ -27,7 +27,7 @@
 
 ## 本机准备的字体
 
-银泽推文修订使用 MiSans Regular 真实常规字面。字体从 [MiSans 官方下载页](https://hyperos.mi.com/font/zh/download/) 获取；使用前阅读随包许可，将静态 `MiSans-Regular.ttf` 放到本目录的 `local/` 下，再运行工程 README 的 `fonts-prepare` 命令。本机字体文件不纳入 Git 或交付包。
+银泽推文修订使用 MiSans Regular 真实常规字面。字体从 [MiSans 官方下载页](https://hyperos.mi.com/font/zh/download/) 获取；使用前阅读随包许可，将静态 `MiSans-Regular.ttf` 放到本目录的 `local/` 下，再运行工程 README 的 `fonts-prepare` 命令。本机字体文件不随仓库分发。
 
 完整本机依赖清单见 [local-fonts.toml](local-fonts.toml)，覆盖 MiSans Bold/Light/Regular、LXGW WenKai Regular、更纱等宽黑体 SC Bold、宋体 TTC、日文字体 W6 TTC。两个正式工程共用这些文件；信号灯研究的标注字体另用 MiSans Regular。将清单中的文件准备到 `fonts/local/`。宋体和日文 TTC 须从自己的合法安装准备，保留完整集合。
 

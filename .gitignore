@@ -73,10 +73,3 @@ __pycache__/
 /production/**/research/fonts/**/*.zip
 /production/**/research/fonts/**/*.7z
 /production/**/research/fonts/**/*.tgz
-
-# 打包交付产物；保留 deliverables/ 内的字幕和封面
-/production/**/deliverables/*.zip
-/production/**/deliverables/*.7z
-/production/**/deliverables/*.tar
-/production/**/deliverables/*.tar.gz
-/production/**/deliverables/*.tgz

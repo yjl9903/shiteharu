@@ -275,38 +275,14 @@ class ForgeTests(unittest.TestCase):
         self.assertLess(boxes[1][2],boxes[2][2])
 
     @unittest.skipUnless(shutil.which('ffmpeg') and shutil.which('ffprobe'), 'FFmpeg required')
-    def test_video_pipeline_and_package_rebuild(self):
+    def test_video_pipeline(self):
         # This checkout contains no real production project or system font input.
         checkout=self.root/'checkout';tool=checkout/'tools/forge'
         shutil.copytree(TOOL,tool,ignore=shutil.ignore_patterns('__pycache__'))
         shutil.copytree(TOOL.parent/'captions',checkout/'tools/captions',ignore=shutil.ignore_patterns('__pycache__'))
-        (checkout/'tools/loupe').mkdir();(checkout/'tools/loupe/README.md').write_text('Test placeholder')
-        (checkout/'docs').mkdir()
-        for name in ['reproducibility.md', 'migration.md']:
-            shutil.copy2(TOOL.parents[1]/'docs'/name,checkout/'docs'/name)
-        shutil.copytree(TOOL.parents[1]/'.githooks',checkout/'.githooks')
-        for name in ['pyproject.toml','uv.lock','.python-version']:
-            shutil.copy2(TOOL.parents[1]/name,checkout/name)
         self.project=checkout/'production/portable';shutil.copytree(FIXTURE,self.project)
         self.config=self.project/'forge.toml'
         create_font(self.project/'fonts/fixture.ttf')
-        (checkout/'fonts/local').mkdir(parents=True);(checkout/'fonts/local/excluded.txt').write_text('excluded')
-        (checkout/'fonts/local-fonts.toml').write_text('fonts = []\n')
-        config=tomllib.loads(self.config.read_text());config['package']['include_evidence']=True
-        config['package']['include'].append('review')
-        config['shared_fonts']='../../fonts';config['research']='recipe.toml';write_data(self.config,config)
-        write_data(self.project/'recipe.toml',{'fracture':{'original':'../../fonts/source/source.ttf'}})
-        create_font(checkout/'fonts/source/source.ttf')
-        (checkout/'fonts/source/OFL.txt').write_text('source license')
-        create_font(checkout/'fonts/unrelated/other.ttf')
-        (checkout/'fonts/SOURCES.md').write_text('source index')
-        (self.project/'fonts/OFL.txt').write_text('fixture license')
-        (self.project/'fonts/fixture.json').write_text('{}')
-        (self.project/'fonts/unrelated.json').write_text('{}')
-        fonts=tomllib.loads((self.project/'fonts.toml').read_text())
-        fonts['external']={'family':'Not packaged','file':'../../fonts/local/unavailable.ttf'}
-        # Local fonts may be absent at the recipient; package must still omit them.
-        # Add this config only immediately before packaging, after render/audit.
         subprocess.run(['ffmpeg','-v','error','-f','lavfi','-i','color=c=blue:s=320x240:r=12:d=2','-f','lavfi','-i','anullsrc=r=48000:cl=stereo','-t','2','-c:v','libx264','-pix_fmt','yuv420p','-c:a','aac',str(self.project/'input.mp4')],check=True)
         event_file=self.project/'events.toml'
         event_file.write_text('# Keep layout note\n[[events]]\nid="second"\nalign=8\nx=160\ny=10\nface_boxes=[[0,0,320,240]]\nevidence=["frames/probe/000000.200.jpg"]\n')
@@ -347,31 +323,6 @@ class ForgeTests(unittest.TestCase):
         audit=json.loads((self.project/'review/technical-audit.json').read_text())
         self.assertEqual(audit['missing_glyphs'],[])
         self.assertEqual(audit['event_count'],2)
-        write_data(self.project/'fonts.toml',fonts)
-        self.command('package',tool=tool)
-        from zipfile import ZipFile
-        extracted=self.root/'unpacked'
-        with ZipFile(self.project/'output/editable.zip') as archive:
-            self.assertIn('tools/forge/forge.py',archive.namelist())
-            self.assertIn('tools/captions/__init__.py',archive.namelist())
-            self.assertIn('fonts/local-fonts.toml',archive.namelist())
-            self.assertIn('.githooks/pre-commit',archive.namelist())
-            for name in ['docs/reproducibility.md', 'docs/migration.md']:
-                self.assertIn(name,archive.namelist())
-            for name in ['production/portable/fonts/fixture.ttf','production/portable/fonts/OFL.txt',
-                         'production/portable/fonts/fixture.json','fonts/source/source.ttf','fonts/source/OFL.txt']:
-                self.assertIn(name,archive.namelist())
-            self.assertNotIn('fonts/unrelated/other.ttf',archive.namelist())
-            self.assertNotIn('production/portable/fonts/unrelated.json',archive.namelist())
-            self.assertIn('production/portable/frames/probe/000000.200.jpg',archive.namelist())
-            self.assertIn('production/portable/review/technical-audit.json',archive.namelist())
-            self.assertFalse(any('/review/comparisons/' in p for p in archive.namelist()))
-            self.assertFalse(any('/scripts/' in p or '/local/' in p or '/.cache/' in p for p in archive.namelist()))
-            archive.extractall(extracted)
-        expected={p.name:p.read_bytes() for p in (self.project/'output').glob('*.ass')}
-        self.config=extracted/'production/portable/forge.toml'
-        self.command('build','--output','rebuilt',tool=extracted/'tools/forge')
-        self.assertEqual(expected,{p.name:p.read_bytes() for p in (self.config.parent/'rebuilt').glob('*.ass')})
 
 
 if __name__ == '__main__':

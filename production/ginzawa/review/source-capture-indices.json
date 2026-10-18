@@ -1,5 +1,5 @@
 {
-  "note": "Preserved source and render capture indices. Requested times and actual decoded PTS retain their original labels; neither is an automatic visual-review decision. Referenced proof images are included in the editable package.",
+  "note": "Preserved source and render capture indices. Requested times and actual decoded PTS retain their original labels; neither is an automatic visual-review decision.",
   "indices": [
     {
       "index": "frames/75fc47-b-1.500/index.json",

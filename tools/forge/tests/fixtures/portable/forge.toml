@@ -55,10 +55,6 @@ text_language = "deu"
 source_title = "Source"
 text_title = "Translation"
 
-[package]
-file = "output/editable.zip"
-include = ["clips.toml"]
-
 [ass_style]
 fontsize = 24
 bold = 0

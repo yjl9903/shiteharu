@@ -28,7 +28,7 @@
 
 ## 制作工具
 
-工程提供 `forge.toml` 与 `design/` 等数据，制作命令统一使用仓库 [Forge](../../tools/forge/README.md)。字幕构建、字体准备、渲染、研究与打包的实现均在 `tools/forge/`，工程没有自己的脚本入口。
+工程提供 `forge.toml` 与 `design/` 等数据，制作命令统一使用仓库 [Forge](../../tools/forge/README.md)。字幕构建、字体准备、渲染与研究的实现均在 `tools/forge/`，工程没有自己的脚本入口。
 
 ## 重建
 
@@ -44,14 +44,13 @@ uv run --locked python ../../tools/forge/forge.py --config forge.toml render ful
 uv run --locked python ../../tools/forge/forge.py --config forge.toml render soft
 uv run --locked python ../../tools/forge/forge.py --config forge.toml compare-clips
 uv run --locked python ../../tools/forge/forge.py --config forge.toml compare-stills
-uv run --locked python ../../tools/forge/forge.py --config forge.toml package
 ```
 
 `compare-clips` 按 `design/clips.toml` 读取已有 ASS 和字体缓存，生成 `review/comparisons/` 中的左右对照视频；`compare-stills` 再从视频中点取图。工作稿修改后须按上述顺序重新构建、准备字体和生成对照，重跑会覆盖同名样片。
 
 配置、报告和预览元数据中的文件路径统一相对本工程目录解析；`clips/*/clip.toml` 的 `source_media` 也遵循 rajio 的工程目录基准。Forge 以显式配置文件所在目录定位工程，避免依赖启动命令时的工作目录。
 
-未随仓库分发的本机字体放在仓库顶层 `fonts/local/`（已被 Git 和交付打包脚本排除）。按 `design/fonts.toml` 准备 MiSans-Bold.ttf、LXGWWenKai-Regular.ttf、SarasaMonoSC-Bold.ttf、Songti.ttc 和ヒラギノ角ゴシック W6.ttc。从自己的合法字体安装中复制同名文件即可；保留实际字体文件，不使用指向本机绝对路径的软链接。Loupe 按配置的字面检查字形覆盖。配置中只填写 `../../fonts/local/文件名`，不填写用户目录或系统安装位置。
+未随仓库分发的本机字体放在仓库顶层 `fonts/local/`（已被 Git 忽略）。按 `design/fonts.toml` 准备 MiSans-Bold.ttf、LXGWWenKai-Regular.ttf、SarasaMonoSC-Bold.ttf、Songti.ttc 和ヒラギノ角ゴシック W6.ttc。从自己的合法字体安装中复制同名文件即可；保留实际字体文件，不使用指向本机绝对路径的软链接。Loupe 按配置的字面检查字形覆盖。配置中只填写 `../../fonts/local/文件名`，不填写用户目录或系统安装位置。
 
 `soft` 无损复制原始音视频并附加可开关的中文、日文 ASS；默认仅开启中文。播放器需要支持 libass 或 ASS 样式并能找到配置字体。烧录预览不依赖播放端字体。
 
@@ -65,11 +64,11 @@ rajio . --reset export --commit --continue=until-manual
 
 原画连续切换、夸张长句、短促反应与标点可能刻意不符合 rajio 的阅读规则。只为经人工核对的具体字幕保留对应 `skip_checks` 及原因，不要批量消除警告，也不要用格式规范改坏原片节奏。
 
-## 时间与打包
+## 时间与输出
 
 ASS 使用百分之一秒，生成器向下量化原片帧时间，SRT 保留毫秒时机。动画时长、字号、位置和文字均可独立修改后重建。
 
-`deliverables/editable-project.zip` 收录字幕文字、设计、共享字体及许可、Forge/Loupe 共享工具和根目录环境锁文件。检查页、CSV/JSON 检查索引和审计报告已删除，构建不再生成这些文件。必要的运行缓存写入 `.cache/`；本机字体和视频不装入工程包。`review/comparisons/` 不纳入 Git 或工程包，需要保留的历史样片另行备份。
+检查页、CSV/JSON 检查索引和审计报告已删除，构建不再生成这些文件。必要的运行缓存写入 `.cache/`。`review/comparisons/` 不纳入 Git，需要保留的历史样片另行备份。
 
 解压时保留仓库目录结构，并按上述说明准备源视频和本机字体。字体对比页直接读取字幕配置用于导航，不依赖交付目录中的检查索引。
 

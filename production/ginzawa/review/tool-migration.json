@@ -17,8 +17,7 @@
       "continuous wipe partial ink",
       "real FFmpeg preview/full/soft",
       "source frame and atlas capture",
-      "layout and glyph audit",
-      "package extraction and rebuild"
+      "layout and glyph audit"
     ]
   },
   "legacy_tools_removed": true,

@@ -4,4 +4,4 @@
 
 历史文件名称与旧联系表版式不是重建接口；完整旧帧路径和 PTS 保存在 `../../review/source-capture-indices.json`。新联系表按统一版式输出，保留实际帧 PTS 和完整参数。所有主字幕边界仍以人工审阅记录为准。
 
-旧制作入口的四份 ASS/SRT 与共享 Forge 的迁移基线逐字节相同，见 `../../review/tool-migration.json`。混合字体、逐字显现、取证、排版审计、真实 FFmpeg 渲染和打包重建由共享 Forge 测试覆盖。
+旧制作入口的四份 ASS/SRT 与共享 Forge 的迁移基线逐字节相同，见 `../../review/tool-migration.json`。混合字体、逐字显现、取证、排版审计、真实 FFmpeg 渲染由共享 Forge 测试覆盖。

@@ -14,7 +14,6 @@ COMMANDS = {
     'render': ('delivery.render', '导出 preview、full 或 soft 视频'),
     'compare-clips': ('review.comparison_clips', '生成原片／中文字幕对照视频'),
     'compare-stills': ('review.comparison_stills', '从对照视频生成截图'),
-    'package': ('delivery.package', '打包可编辑工程'),
     'source-frames': ('review.source_frames', '提取原片采样帧与联系表，不自动确认字幕边界'),
     'source-boundary': ('review.source_boundary', '提取边界附近全部解码帧与真实 PTS'),
     'source-atlas': ('review.source_atlas', '按 TOML 窗口采样或排序像素变化候选，供人工审阅'),
